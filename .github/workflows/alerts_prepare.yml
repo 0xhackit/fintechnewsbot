@@ -29,25 +29,38 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install deps
+      - name: Install dependencies
+        working-directory: mvp/fintech-news-mvp
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install feedparser requests python-dateutil; fi
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install feedparser requests python-dateutil python-telegram-bot telethon
+          fi
 
       - name: Run alerts (prepare drafts)
+        working-directory: mvp/fintech-news-mvp
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
         run: |
           python scripts/run_alerts.py --mode prepare
 
-          - name: TEST: force one draft (remove after verifying)
+      # 🔥 TEMP TEST STEP (remove after first success)
+      - name: TEST: force one draft
+        working-directory: mvp/fintech-news-mvp
         run: |
           mkdir -p out
           cat > out/alerts_drafts.json << 'JSON'
           [
             {
               "id": "test-issue-1",
-              "title": "TEST STORY: Approval issue creation works",
+              "title": "TEST STORY: Approval system works",
               "link": "https://example.com",
-              "message_html": "<b>TEST STORY: Approval issue creation works</b> <a href=\"https://example.com\">LINK</a>"
+              "message_html": "<b>TEST STORY: Approval system works</b> <a href=\"https://example.com\">LINK</a>"
             }
           ]
           JSON
@@ -55,68 +68,60 @@ jobs:
       - name: Create approval issues
         uses: actions/github-script@v7
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const fs = require('fs');
-
-            const path = 'out/alerts_drafts.json';
+            const path = 'mvp/fintech-news-mvp/out/alerts_drafts.json';
             if (!fs.existsSync(path)) {
-              core.info('No out/alerts_drafts.json found. Nothing to create.');
+              console.log("No drafts file found.");
               return;
             }
 
             const drafts = JSON.parse(fs.readFileSync(path, 'utf8'));
             if (!drafts.length) {
-              core.info('No drafts.');
+              console.log("No drafts to create.");
               return;
             }
 
             const { owner, repo } = context.repo;
 
-            const existing = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
+            const existing = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: 'open',
+              per_page: 100
+            });
             const existingTitles = new Set(existing.data.map(i => i.title));
 
             for (const d of drafts) {
-              const title = (`APPROVAL: ${d.title}`).slice(0, 240);
+              const title = `APPROVAL: ${d.title}`.slice(0, 240);
               if (existingTitles.has(title)) continue;
 
-              const bodyLines = [
-                '### Draft (one story)',
-                '',
-                `**Headline:** ${d.title}`,
-                '',
-                `**Link:** ${d.link}`,
-                '',
-                '**Telegram draft (HTML):**',
-                '```html',
-                `${d.message_html}`,
-                '```',
-                '',
-                '---',
-                '**Approve:** add label `approve`',
-                '**Reject:** add label `reject`',
-                '',
-                `(id: ${d.id})`
-              ];
+              const body =
+                `### Draft (one story)\n\n` +
+                `**Headline:** ${d.title}\n\n` +
+                `**Link:** ${d.link}\n\n` +
+                `**Telegram draft (HTML):**\n` +
+                `\n\`\`\`html\n${d.message_html}\n\`\`\`\n\n` +
+                `---\n` +
+                `**Approve:** add label \`approve\`\n` +
+                `**Reject:** add label \`reject\`\n\n` +
+                `(id: ${d.id})`;
 
               await github.rest.issues.create({
                 owner,
                 repo,
                 title,
-                body: bodyLines.join('\\n'),
+                body,
                 labels: ['pending']
               });
             }
 
-      - name: Commit updated state (seen/reviewed)
+      - name: Commit updated state
+        working-directory: mvp/fintech-news-mvp
         run: |
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
-
-          if [ -f state/seen_alerts.json ]; then
-            git add state/seen_alerts.json
-          fi
-
+          git add state/seen_alerts.json || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (prepare)"
           git push
