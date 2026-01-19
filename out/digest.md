@@ -1,6 +1,6 @@
 # Fintech News Digest (Last 72h)
 
-- Generated at (UTC): `2026-01-19T15:44:05.836578+00:00`
+- Generated at (UTC): `2026-01-19T15:48:58.034606+00:00`
 - Items (dated): **26**
 - Items (undated): **0**
 
