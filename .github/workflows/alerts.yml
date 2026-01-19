@@ -23,30 +23,11 @@ jobs:
         with:
           persist-credentials: true
 
-      - name: Show repo tree (debug)
+      - name: Debug tree
         run: |
-          pwd
           ls -la
-          echo "----"
-          find . -maxdepth 4 -type f -name "run_alerts.py" -print || true
-          echo "----"
-          find . -maxdepth 4 -type f -name "requirements.txt" -print || true
-
-      - name: Locate project dir
-        id: locate
-        shell: bash
-        run: |
-          set -e
-          # Find the folder that contains scripts/run_alerts.py
-          FILE="$(find . -maxdepth 6 -type f -path "*/scripts/run_alerts.py" | head -n 1)"
-          if [ -z "$FILE" ]; then
-            echo "Could not find scripts/run_alerts.py in repo" >&2
-            exit 1
-          fi
-          DIR="$(dirname "$FILE")"          # .../scripts
-          PROJ="$(dirname "$DIR")"          # project root containing scripts/
-          echo "Found project dir: $PROJ"
-          echo "proj=$PROJ" >> "$GITHUB_OUTPUT"
+          ls -la scripts
+          ls -la state || true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -54,13 +35,11 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        working-directory: ${{ steps.locate.outputs.proj }}
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install feedparser requests python-dateutil; fi
 
       - name: Run alerts pipeline
-        working-directory: ${{ steps.locate.outputs.proj }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -68,16 +47,15 @@ jobs:
           python scripts/run_alerts.py
 
       - name: Commit updated state
-        working-directory: ${{ steps.locate.outputs.proj }}
         run: |
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
 
-          # stage state if it exists
+          # State file must exist to commit
           if [ -f state/seen_alerts.json ]; then
             git add state/seen_alerts.json
           else
-            echo "state/seen_alerts.json not found — nothing to commit"
+            echo "No state/seen_alerts.json found; nothing to commit"
             exit 0
           fi
 
