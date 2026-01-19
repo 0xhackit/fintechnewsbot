@@ -337,7 +337,7 @@ def extract_html_from_issue_body(issue_body: str) -> str | None:
 def main_cli() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--from-issue-body", action="store_true")
-    args = ap.parse_args()
+    args, unknown = ap.parse_known_args()
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
