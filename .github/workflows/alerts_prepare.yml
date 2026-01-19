@@ -40,7 +40,7 @@ jobs:
         run: |
           python scripts/run_alerts.py --mode prepare
 
-      - name: Create approval issues
+            - name: Create approval issues
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -61,33 +61,40 @@ jobs:
 
             const { owner, repo } = context.repo;
 
-            // existing open issues to avoid duplicates
             const existing = await github.rest.issues.listForRepo({ owner, repo, state: 'open', per_page: 100 });
             const existingTitles = new Set(existing.data.map(i => i.title));
 
             for (const d of drafts) {
-              const title = `APPROVAL: ${d.title}`.slice(0, 240);
+              const title = (`APPROVAL: ${d.title}`).slice(0, 240);
               if (existingTitles.has(title)) continue;
 
-              const body =
-`### Draft (one story)\n\n` +
-`**Headline:** ${d.title}\n\n` +
-`**Link:** ${d.link}\n\n` +
-`**Telegram draft (HTML):**\n` +
-`\\n\\n\\`\\`\\`\\`html\n${d.message_html}\n\\`\\`\\`\\`\n\n` +
-`---\n` +
-`**Approve:** add label \\`approve\\`\n` +
-`**Reject:** add label \\`reject\\`\n\n` +
-`(id: ${d.id})\n`;
+              const bodyLines = [
+                '### Draft (one story)',
+                '',
+                `**Headline:** ${d.title}`,
+                '',
+                `**Link:** ${d.link}`,
+                '',
+                '**Telegram draft (HTML):**',
+                '```html',
+                `${d.message_html}`,
+                '```',
+                '',
+                '---',
+                '**Approve:** add label `approve`',
+                '**Reject:** add label `reject`',
+                '',
+                `(id: ${d.id})`
+              ];
 
               await github.rest.issues.create({
-                owner, repo,
+                owner,
+                repo,
                 title,
-                body,
+                body: bodyLines.join('\n'),
                 labels: ['pending']
               });
             }
-
       - name: Commit updated state (seen/reviewed)
         run: |
           git config user.name "fintech-news-bot"
