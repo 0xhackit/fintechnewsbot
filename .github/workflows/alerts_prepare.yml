@@ -19,11 +19,13 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
@@ -33,14 +35,10 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install feedparser requests python-dateutil; fi
 
       - name: Run alerts (prepare drafts)
-        env:
-          # allow the script to call GitHub API via token if you want,
-          # but easiest is: script outputs JSON and github-script creates issues
-          GITHUB_REPO: ${{ github.repository }}
         run: |
           python scripts/run_alerts.py --mode prepare
 
-            - name: Create approval issues
+      - name: Create approval issues
         uses: actions/github-script@v7
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -91,15 +89,20 @@ jobs:
                 owner,
                 repo,
                 title,
-                body: bodyLines.join('\n'),
+                body: bodyLines.join('\\n'),
                 labels: ['pending']
               });
             }
+
       - name: Commit updated state (seen/reviewed)
         run: |
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
-          git add state/seen_alerts.json || true
+
+          if [ -f state/seen_alerts.json ]; then
+            git add state/seen_alerts.json
+          fi
+
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (prepare)"
           git push
