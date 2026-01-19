@@ -2,10 +2,8 @@
 import argparse
 import hashlib
 import json
-import os
 import re
 from pathlib import Path
-from datetime import datetime, timezone
 
 STATE_PATH = Path("state/seen_alerts.json")
 DRAFTS_PATH = Path("out/alerts_drafts.json")
@@ -59,6 +57,14 @@ def main():
 
     # Load existing items (produced by your aggregator pipeline)
     items = load_json(ITEMS_PATH, [])
+
+    # TEMP DEBUG: print one raw item to verify the field names (title/link/published)
+    print("🔎 SAMPLE ITEM:")
+    if isinstance(items, list) and items:
+        print(json.dumps(items[0], indent=2, ensure_ascii=False)[:1200])
+    else:
+        print("(no items)")
+
     if not isinstance(items, list):
         print(f"❌ {ITEMS_PATH} is not a list. Check your pipeline output.")
         return 1
