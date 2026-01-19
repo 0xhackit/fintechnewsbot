@@ -4,6 +4,7 @@ import json
 import re
 import html
 import asyncio
+import argparse
 from pathlib import Path
 from datetime import datetime
 from urllib.parse import urlparse
@@ -317,8 +318,41 @@ def dry_run() -> None:
     print(msg)
     print("=" * 80 + "\n")
 
+def extract_html_from_issue_body(issue_body: str) -> str | None:
+    """
+    Extract the Telegram HTML draft from a GitHub issue body.
+    Expects a fenced code block:
+    ```html
+    <b>Title</b> <a href="...">LINK</a>
+    ```
+    """
+    if not issue_body:
+        return None
+
+    m = re.search(r"```html\\s*(.*?)\\s*```", issue_body, flags=re.DOTALL | re.IGNORECASE)
+    if not m:
+        return None
+    return m.group(1).strip()
 
 def main_cli() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--from-issue-body", action="store_true")
+    args = ap.parse_args()
+
+    token = os.environ.get("TELEGRAM_BOT_TOKEN")
+    chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+    if not token or not chat_id:
+        raise RuntimeError("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID environment variables")
+
+    if args.from_issue_body:
+        issue_body = os.environ.get("ISSUE_BODY", "")
+        html = extract_html_from_issue_body(issue_body)
+        if not html:
+            raise RuntimeError("Could not extract ```html``` draft from ISSUE_BODY")
+        asyncio.run(send_html_message(token, chat_id, html))
+        print("✅ Posted approved draft to Telegram.")
+        return
+        
     args = set(sys.argv[1:])
     if not args or "-h" in args or "--help" in args:
         usage()
