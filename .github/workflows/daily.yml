@@ -1,0 +1,17 @@
+name: Daily News Run
+on:
+  schedule:
+    - cron: '0 8 * * *' # Runs at 08:00 UTC every day
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run script
+        run: python run.py
