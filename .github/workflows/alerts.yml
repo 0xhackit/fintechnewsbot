@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # allow committing state back
+  contents: write
 
 concurrency:
   group: fintech-alerts
@@ -29,13 +29,13 @@ jobs:
           python-version: "3.12"
 
       - name: Install deps
-        working-directory: .
+        working-directory: mvp/fintech-news-mvp
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install feedparser requests python-dateutil; fi
 
       - name: Run alerts pipeline
-        working-directory: .
+        working-directory: mvp/fintech-news-mvp
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -43,14 +43,13 @@ jobs:
           python scripts/run_alerts.py
 
       - name: Commit updated state
-        working-directory: .
+        working-directory: mvp/fintech-news-mvp
         run: |
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
 
           git add state/seen_alerts.json
 
-          # Only commit if there are changes
           git diff --cached --quiet && echo "No state changes" && exit 0
 
           git commit -m "chore: update alerts state"
