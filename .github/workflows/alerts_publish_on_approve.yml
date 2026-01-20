@@ -27,13 +27,18 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install python-telegram-bot; fi
 
+      - name: Write issue body to file
+        run: |
+          cat << 'ISSUE_BODY_EOF' > /tmp/issue_body.txt
+          ${{ github.event.issue.body }}
+          ISSUE_BODY_EOF
+
       - name: Publish single approved story
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
         run: |
-          python scripts/publish_telegram.py --from-issue-body
+          python scripts/publish_telegram.py --from-issue-file /tmp/issue_body.txt
 
       - name: Mark issue posted + close
         uses: actions/github-script@v7

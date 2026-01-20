@@ -348,12 +348,25 @@ async def send_html_message(token: str, chat_id: str, html_text: str) -> None:
 def main_cli() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--from-issue-body", action="store_true")
+    ap.add_argument("--from-issue-file", type=str, help="Path to file containing issue body")
     args, unknown = ap.parse_known_args()
 
     token = os.environ.get("TELEGRAM_BOT_TOKEN")
     chat_id = os.environ.get("TELEGRAM_CHAT_ID")
     if not token or not chat_id:
         raise RuntimeError("Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID environment variables")
+
+    if args.from_issue_file:
+        issue_body = Path(args.from_issue_file).read_text(encoding="utf-8")
+        print(f"📄 Read issue body from {args.from_issue_file} ({len(issue_body)} chars)")
+        html = extract_html_from_issue_body(issue_body)
+        if not html:
+            print(f"⚠️  Issue body preview (first 500 chars):\n{issue_body[:500]}")
+            raise RuntimeError("Could not extract ```html``` draft from issue file")
+        print(f"📤 Sending to Telegram: {html[:100]}...")
+        asyncio.run(send_html_message(token, chat_id, html))
+        print("✅ Posted approved draft to Telegram.")
+        return
 
     if args.from_issue_body:
         issue_body = os.environ.get("ISSUE_BODY", "")
