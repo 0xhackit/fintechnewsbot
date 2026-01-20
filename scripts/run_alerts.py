@@ -87,10 +87,17 @@ def main():
 
     # Build drafts (one per story)
     drafts = []
+    skipped_no_title = 0
+    skipped_no_link = 0
     for it in new_items:
         title = clean_title(it.get("title") or "")
         link = (it.get("link") or it.get("url") or "").strip()
-        if not title or not link:
+        if not title:
+            skipped_no_title += 1
+            continue
+        if not link:
+            skipped_no_link += 1
+            print(f"⚠️  No link for: {title[:60]}... (keys: {list(it.keys())})")
             continue
         iid = stable_item_id(it)
 
@@ -109,6 +116,8 @@ def main():
     # Write drafts
     save_json(DRAFTS_PATH, drafts)
     print(f"📝 Wrote drafts: {DRAFTS_PATH} ({len(drafts)} drafts)")
+    if skipped_no_title or skipped_no_link:
+        print(f"⚠️  Skipped: {skipped_no_title} no title, {skipped_no_link} no link")
 
     # Save state
     state["seen"] = sorted(seen)
