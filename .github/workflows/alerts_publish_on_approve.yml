@@ -33,6 +33,16 @@ jobs:
           ${{ github.event.issue.body }}
           ISSUE_BODY_EOF
 
+      - name: Debug secrets
+        run: |
+          echo "BOT_TOKEN length: ${#TELEGRAM_BOT_TOKEN}"
+          echo "CHAT_ID length: ${#TELEGRAM_CHAT_ID}"
+          echo "BOT_TOKEN set: ${{ secrets.TELEGRAM_BOT_TOKEN != '' }}"
+          echo "CHAT_ID set: ${{ secrets.TELEGRAM_CHAT_ID != '' }}"
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
       - name: Publish single approved story
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
