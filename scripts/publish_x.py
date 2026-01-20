@@ -65,6 +65,23 @@ def _post_to_x(text: str, api_key: str, api_secret: str, access_token: str, acce
         headers={"Content-Type": "application/json"},
     )
 
+    if response.status_code == 402:
+        raise RuntimeError(
+            f"X API Credits Depleted Error\n\n"
+            f"Your X API account has no credits. This usually means:\n"
+            f"1. You're not properly enrolled in the Free Tier, OR\n"
+            f"2. You've exceeded the Free Tier limits (50 posts/day)\n\n"
+            f"Fix this by:\n"
+            f"1. Go to https://developer.twitter.com/en/portal/dashboard\n"
+            f"2. Check your account status and tier enrollment\n"
+            f"3. Ensure you're on the FREE TIER (not trial or other)\n"
+            f"4. If on Free Tier, wait until midnight UTC for credits to reset\n"
+            f"5. Monitor your daily usage to stay under 50 posts/day\n\n"
+            f"Free Tier limits: 1,500 posts/month (50/day)\n"
+            f"Consider using auto_approve: false for better control\n\n"
+            f"Original error: {response.text}"
+        )
+
     if response.status_code == 403:
         error_detail = response.json().get('detail', response.text)
         if 'oauth1-permissions' in error_detail.lower():

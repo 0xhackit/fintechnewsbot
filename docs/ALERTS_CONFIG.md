@@ -223,6 +223,29 @@ python scripts/publish_telegram.py --from-issue-file /tmp/test_issue.txt
 
 ### X API Errors
 
+**Error: 402 CreditsDepleted**
+This means your account has no API credits available.
+
+**Causes:**
+1. Not properly enrolled in Free Tier
+2. Exceeded 50 posts today (Free Tier daily limit)
+3. Account on trial/expired tier instead of Free Tier
+
+**Fix:**
+1. Go to https://developer.twitter.com/en/portal/dashboard
+2. Click on your account name (top right) → "View plan details"
+3. Check your current plan:
+   - **Free Tier**: 1,500 posts/month (50/day) - $0
+   - **Trial**: Limited, expires after 30 days
+   - **Other**: May have expired or not enrolled
+4. If not on Free Tier:
+   - Look for "Subscribe to Free" button
+   - Or contact X Developer Support
+5. If on Free Tier and hit limit:
+   - Wait until midnight UTC for reset
+   - Temporarily disable X: `post_to_x: false` in config.json
+   - Use manual review mode: `auto_approve: false`
+
 **Error: 401 Unauthorized**
 - Check that all four credentials are correct
 - Ensure your app has "Read and Write" permissions
