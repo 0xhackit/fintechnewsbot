@@ -22,8 +22,12 @@
         
         "ft_markets": "https://www.ft.com/markets?format=rss",
         "ft_fintech": "https://www.ft.com/fintech?format=rss",
-      
-        "wsj_markets": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml"
+        "wsj_markets": "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+
+        "dlnews": "https://www.dlnews.com/arc/outboundfeeds/rss/",
+        "finextra": "https://www.finextra.com/rss/headlines.aspx",
+        "pymnts": "https://www.pymnts.com/feed/",
+        "fintechfutures": "https://www.fintechfutures.com/feed/"
       }
     },
     "treeofalpha": {
@@ -38,7 +42,14 @@
         "shoalresearch",
         "WatcherGuru",
         "crypto_fundraising",
-        "ZoomerfiedNews"
+        "ZoomerfiedNews",
+        "WuBlockchain",
+        "tier10k",
+        "CryptoNewsAlerts",
+        "DefiLlama_News",
+        "ledaborsa",
+        "MessariCrypto",
+        "TheBlockResearch"
       ],
       "max_messages_per_channel": 200,
       "session_path": "tg.session",
