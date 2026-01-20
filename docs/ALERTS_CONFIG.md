@@ -1,0 +1,235 @@
+# Alerts Configuration Guide
+
+This document explains how to configure the alerts system to post to Telegram and X (Twitter), and how to enable/disable the review approval process.
+
+## Configuration Options
+
+The alerts system is configured in `config.json` under the `alerts` section:
+
+```json
+{
+  "alerts": {
+    "auto_approve": false,
+    "post_to_telegram": true,
+    "post_to_x": true
+  }
+}
+```
+
+### Configuration Fields
+
+- **`auto_approve`** (boolean, default: `false`)
+  - When `false`: Alerts require manual approval via GitHub issues before posting
+  - When `true`: Alerts are automatically posted without review
+  - **Important**: Only set to `true` if you're confident in your filtering criteria
+
+- **`post_to_telegram`** (boolean, default: `true`)
+  - When `true`: Posts approved alerts to Telegram
+  - When `false`: Skips Telegram posting
+
+- **`post_to_x`** (boolean, default: `true`)
+  - When `true`: Posts approved alerts to X (Twitter)
+  - When `false`: Skips X posting
+
+## Workflows
+
+### Review-Based Workflow (default)
+
+When `auto_approve: false`:
+
+1. **Alerts Prepare** workflow runs every 5 minutes
+   - Fetches news from configured sources
+   - Ranks items by relevance
+   - Creates GitHub issues for each new alert (titled "APPROVAL: ...")
+   - Issues are labeled with `pending`
+
+2. **Manual Review**
+   - Review the GitHub issue
+   - Add the `approve` label to publish
+   - Or add the `reject` label to skip
+
+3. **Publish on Approve** workflow triggers when `approve` label is added
+   - Posts to Telegram (if `post_to_telegram: true`)
+   - Posts to X (if `post_to_x: true`)
+   - Closes the issue with a comment indicating where it was posted
+
+### Auto-Approve Workflow
+
+When `auto_approve: true`:
+
+1. **Auto-Publish Alerts** workflow runs every 5 minutes
+   - Fetches news from configured sources
+   - Ranks items by relevance
+   - Automatically posts all new alerts to configured platforms
+   - No GitHub issues are created
+   - No manual review required
+
+**⚠️ Warning**: Use auto-approve mode carefully. Ensure your keyword filters and scoring logic are well-tuned to avoid posting irrelevant content.
+
+## Required Secrets
+
+### Telegram Secrets
+- `TELEGRAM_BOT_TOKEN` - Bot token from @BotFather
+- `TELEGRAM_CHAT_ID` - Chat/channel ID where messages will be posted
+
+### X (Twitter) Secrets
+- `X_API_KEY` - Twitter API Key (Consumer Key)
+- `X_API_SECRET` - Twitter API Secret (Consumer Secret)
+- `X_ACCESS_TOKEN` - Twitter Access Token
+- `X_ACCESS_SECRET` - Twitter Access Token Secret
+
+### Telegram Scraping (optional)
+- `TG_API_ID` - Telegram API ID from https://my.telegram.org
+- `TG_API_HASH` - Telegram API Hash from https://my.telegram.org
+
+Add these in: **Repository Settings → Secrets and variables → Actions → New repository secret**
+
+## Getting X (Twitter) API Credentials
+
+1. Apply for a Twitter Developer Account at https://developer.twitter.com
+2. Create a new app in the Developer Portal
+3. Under "User authentication settings", enable OAuth 1.0a
+4. Set permissions to "Read and Write"
+5. Generate API Key & Secret (Consumer Keys)
+6. Generate Access Token & Secret
+7. Add all four credentials as GitHub secrets
+
+## Tweet Format
+
+Tweets are formatted as:
+```
+{title} {link}
+```
+
+- Titles are automatically truncated to fit Twitter's 280 character limit
+- Links are auto-shortened by Twitter to ~23 characters (t.co)
+- Maximum title length: ~254 characters
+
+## Examples
+
+### Example 1: Both Platforms, Manual Review (Default)
+```json
+{
+  "alerts": {
+    "auto_approve": false,
+    "post_to_telegram": true,
+    "post_to_x": true
+  }
+}
+```
+
+Result: Alerts require GitHub issue approval, then post to both Telegram and X.
+
+### Example 2: Auto-Approve, Both Platforms
+```json
+{
+  "alerts": {
+    "auto_approve": true,
+    "post_to_telegram": true,
+    "post_to_x": true
+  }
+}
+```
+
+Result: All new alerts automatically post to both platforms without review.
+
+### Example 3: Telegram Only, Manual Review
+```json
+{
+  "alerts": {
+    "auto_approve": false,
+    "post_to_telegram": true,
+    "post_to_x": false
+  }
+}
+```
+
+Result: Alerts require GitHub issue approval, then post only to Telegram.
+
+### Example 4: X Only, Auto-Approve
+```json
+{
+  "alerts": {
+    "auto_approve": true,
+    "post_to_telegram": false,
+    "post_to_x": true
+  }
+}
+```
+
+Result: All new alerts automatically post only to X without review.
+
+## Testing
+
+### Test X Posting (Manual)
+```bash
+# Export your credentials
+export X_API_KEY="your_api_key"
+export X_API_SECRET="your_api_secret"
+export X_ACCESS_TOKEN="your_access_token"
+export X_ACCESS_SECRET="your_access_secret"
+
+# Test posting a single alert
+echo '**Headline:** Test Article
+**Link:** https://example.com
+
+**Telegram draft (HTML):**
+
+```html
+<b>Test Article</b> <a href="https://example.com">LINK</a>
+```' > /tmp/test_issue.txt
+
+python scripts/publish_x.py --from-issue-file /tmp/test_issue.txt
+```
+
+### Test Telegram Posting (Manual)
+```bash
+export TELEGRAM_BOT_TOKEN="your_bot_token"
+export TELEGRAM_CHAT_ID="your_chat_id"
+
+python scripts/publish_telegram.py --from-issue-file /tmp/test_issue.txt
+```
+
+## Troubleshooting
+
+### X API Errors
+
+**Error: 401 Unauthorized**
+- Check that all four credentials are correct
+- Ensure your app has "Read and Write" permissions
+- Regenerate Access Token & Secret if you changed permissions
+
+**Error: 403 Forbidden**
+- Your app may not have elevated access
+- Check Twitter Developer Portal for any restrictions
+- Ensure your developer account is in good standing
+
+**Error: 429 Rate Limit**
+- Twitter has rate limits on posting
+- Wait before posting more tweets
+- Consider spacing out posts if using auto-approve mode
+
+### Telegram Errors
+
+**Error: Unauthorized**
+- Check `TELEGRAM_BOT_TOKEN` is correct
+- Ensure the bot has been added to the chat/channel
+
+**Error: Chat not found**
+- Check `TELEGRAM_CHAT_ID` is correct
+- For channels, ID should be like `-1001234567890`
+- For private chats, use numeric user ID
+
+## Workflow Files
+
+- `.github/workflows/alerts_prepare.yml` - Creates approval issues (review mode)
+- `.github/workflows/alerts_publish_on_approve.yml` - Posts when issue is approved
+- `.github/workflows/alerts_auto_publish.yml` - Auto-posts without review (new)
+
+## Support
+
+If you encounter issues:
+1. Check GitHub Actions logs for detailed error messages
+2. Verify all required secrets are set correctly
+3. Test credentials manually using the test commands above
+4. Review `config.json` for typos or invalid values

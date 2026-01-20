@@ -1,0 +1,139 @@
+name: Auto-Publish Alerts (Telegram + X)
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"  # Every 5 minutes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fintech-alerts-auto-publish
+  cancel-in-progress: true
+
+jobs:
+  auto_publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            pip install feedparser requests python-dateutil python-telegram-bot requests-oauthlib
+          fi
+
+      - name: Load config and check auto_approve flag
+        id: check_config
+        run: |
+          AUTO_APPROVE=$(python -c "import json; config = json.load(open('config.json')); print(str(config.get('alerts', {}).get('auto_approve', False)).lower())")
+          POST_TELEGRAM=$(python -c "import json; config = json.load(open('config.json')); print(str(config.get('alerts', {}).get('post_to_telegram', True)).lower())")
+          POST_X=$(python -c "import json; config = json.load(open('config.json')); print(str(config.get('alerts', {}).get('post_to_x', True)).lower())")
+
+          echo "auto_approve=$AUTO_APPROVE" >> $GITHUB_OUTPUT
+          echo "post_telegram=$POST_TELEGRAM" >> $GITHUB_OUTPUT
+          echo "post_x=$POST_X" >> $GITHUB_OUTPUT
+
+          echo "🔧 Config: auto_approve=$AUTO_APPROVE, post_telegram=$POST_TELEGRAM, post_x=$POST_X"
+
+      - name: Run main pipeline (fetch + rank)
+        if: steps.check_config.outputs.auto_approve == 'true'
+        env:
+          TG_API_ID: ${{ secrets.TG_API_ID }}
+          TG_API_HASH: ${{ secrets.TG_API_HASH }}
+        run: |
+          python run.py
+
+      - name: Prepare alert drafts
+        if: steps.check_config.outputs.auto_approve == 'true'
+        run: |
+          python scripts/run_alerts.py --mode prepare
+
+      - name: Post to Telegram
+        if: steps.check_config.outputs.auto_approve == 'true' && steps.check_config.outputs.post_telegram == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          # Check if drafts exist
+          if [ -f out/alerts_drafts.json ]; then
+            DRAFT_COUNT=$(python -c "import json; drafts = json.load(open('out/alerts_drafts.json')); print(len(drafts))")
+            echo "📋 Found $DRAFT_COUNT draft(s) for Telegram"
+
+            if [ "$DRAFT_COUNT" -gt "0" ]; then
+              # Post each draft individually to Telegram
+              python -c "
+import json
+import asyncio
+from pathlib import Path
+from telegram import Bot
+
+async def post_drafts():
+    token = '${{ secrets.TELEGRAM_BOT_TOKEN }}'
+    chat_id = '${{ secrets.TELEGRAM_CHAT_ID }}'
+
+    drafts = json.loads(Path('out/alerts_drafts.json').read_text())
+    bot = Bot(token=token)
+
+    for draft in drafts:
+        message = draft.get('message_html', '')
+        if message:
+            await bot.send_message(
+                chat_id=chat_id,
+                text=message,
+                parse_mode='HTML',
+                disable_web_page_preview=True
+            )
+            print(f'✅ Posted to Telegram: {draft.get(\"title\", \"\")[:60]}...')
+
+asyncio.run(post_drafts())
+              "
+            fi
+          else
+            echo "ℹ️  No drafts file found"
+          fi
+
+      - name: Post to X
+        if: steps.check_config.outputs.auto_approve == 'true' && steps.check_config.outputs.post_x == 'true'
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: |
+          if [ -f out/alerts_drafts.json ]; then
+            python scripts/publish_x.py --from-drafts
+          else
+            echo "ℹ️  No drafts file found"
+          fi
+
+      - name: Commit updated state
+        if: steps.check_config.outputs.auto_approve == 'true'
+        run: |
+          git config user.name "fintech-news-bot"
+          git config user.email "fintech-news-bot@users.noreply.github.com"
+
+          git add state/seen_alerts.json out/items_last24h.json out/alerts_drafts.json || true
+          git diff --cached --quiet && echo "No state changes" && exit 0
+          git commit -m "chore: update alerts state (auto-published)"
+          git push
+
+      - name: Skip message
+        if: steps.check_config.outputs.auto_approve != 'true'
+        run: |
+          echo "⏭️  Auto-approve is disabled in config.json - skipping auto-publish workflow"
+          echo "💡 To enable, set 'alerts.auto_approve: true' in config.json"

@@ -297,6 +297,11 @@
         ]
       }
     ],
+    "alerts": {
+      "auto_approve": false,
+      "post_to_telegram": true,
+      "post_to_x": true
+    },
     "output": {
       "json_path": "out/items_last24h.json",
       "md_path": "out/digest.md"
