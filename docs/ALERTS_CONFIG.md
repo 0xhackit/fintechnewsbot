@@ -30,6 +30,7 @@ The alerts system is configured in `config.json` under the `alerts` section:
 - **`post_to_x`** (boolean, default: `true`)
   - When `true`: Posts approved alerts to X (Twitter)
   - When `false`: Skips X posting
+  - **Note**: Free Tier allows 50 posts/day (~1,500/month)
 
 ## Workflows
 
@@ -86,13 +87,29 @@ Add these in: **Repository Settings → Secrets and variables → Actions → Ne
 
 ## Getting X (Twitter) API Credentials
 
+### X API Free Tier
+The Free Tier provides:
+- ✅ **1,500 posts per month** (~50 posts per day)
+- ✅ Perfect for alerts systems with moderate volume
+- ✅ $0 cost
+
+### Setup Steps
 1. Apply for a Twitter Developer Account at https://developer.twitter.com
-2. Create a new app in the Developer Portal
-3. Under "User authentication settings", enable OAuth 1.0a
-4. Set permissions to "Read and Write"
-5. Generate API Key & Secret (Consumer Keys)
-6. Generate Access Token & Secret
-7. Add all four credentials as GitHub secrets
+2. Sign up for the **Free Tier** (no payment required)
+3. Create a new app in the Developer Portal
+4. Under "User authentication settings", enable OAuth 1.0a
+5. Set permissions to "Read and Write"
+6. Generate API Key & Secret (Consumer Keys)
+7. Generate Access Token & Secret
+8. Add all four credentials as GitHub secrets
+
+### Rate Limit Management
+With the Free Tier limit of 50 posts/day:
+- **Manual Review Mode**: Each approved alert posts once - no issues
+- **Auto-Approve Mode**: Limit alerts to ~2 per hour max
+  - Adjust scoring thresholds in config.json
+  - Consider using `auto_approve: false` for better control
+  - Monitor daily post count to stay under 50/day
 
 ## Tweet Format
 
@@ -205,9 +222,13 @@ python scripts/publish_telegram.py --from-issue-file /tmp/test_issue.txt
 - Ensure your developer account is in good standing
 
 **Error: 429 Rate Limit**
-- Twitter has rate limits on posting
-- Wait before posting more tweets
-- Consider spacing out posts if using auto-approve mode
+- Free Tier: 50 posts per day (1,500/month)
+- If you hit the limit, you've posted 50 times today
+- Posts reset at midnight UTC
+- Solutions:
+  - Use `auto_approve: false` for better control
+  - Increase scoring thresholds to reduce alert volume
+  - Temporarily disable X: set `post_to_x: false`
 
 ### Telegram Errors
 
