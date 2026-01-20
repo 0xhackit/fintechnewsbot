@@ -27,7 +27,7 @@ def save_json(path: Path, obj):
 
 def stable_item_id(item: dict) -> str:
     title = (item.get("title") or "").strip().lower()
-    link = (item.get("link") or "").strip().lower()
+    link = (item.get("link") or item.get("url") or "").strip().lower()
     base = f"{title}|{link}"
     return hashlib.sha1(base.encode("utf-8")).hexdigest()
 
@@ -89,7 +89,7 @@ def main():
     drafts = []
     for it in new_items:
         title = clean_title(it.get("title") or "")
-        link = (it.get("link") or "").strip()
+        link = (it.get("link") or it.get("url") or "").strip()
         if not title or not link:
             continue
         iid = stable_item_id(it)

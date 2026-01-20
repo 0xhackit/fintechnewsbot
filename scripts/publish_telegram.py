@@ -329,10 +329,21 @@ def extract_html_from_issue_body(issue_body: str) -> str | None:
     if not issue_body:
         return None
 
-    m = re.search(r"```html\\s*(.*?)\\s*```", issue_body, flags=re.DOTALL | re.IGNORECASE)
+    m = re.search(r"```html\s*(.*?)\s*```", issue_body, flags=re.DOTALL | re.IGNORECASE)
     if not m:
         return None
     return m.group(1).strip()
+
+
+async def send_html_message(token: str, chat_id: str, html_text: str) -> None:
+    """Send a single HTML message to Telegram."""
+    bot = Bot(token=token)
+    await bot.send_message(
+        chat_id=chat_id,
+        text=html_text,
+        parse_mode="HTML",
+        disable_web_page_preview=True,
+    )
 
 def main_cli() -> None:
     ap = argparse.ArgumentParser()
