@@ -205,15 +205,18 @@ def main() -> int:
         event_keywords = tg_cfg.get("event_keywords", []) or []
 
         print(f"\n🟦 Telegram: fetching from {len(channels)} channel(s)...")
-        tg_items = fetch_telegram_public_channels(
-            channels=channels,
-            max_messages_per_channel=max_msgs,
-            session_path=session_path,
-            require_primary_link=require_primary_link,
-            event_keywords=event_keywords,
-        )
-        print(f"🟦 Telegram: fetched {len(tg_items)} item(s)")
-        raw_items.extend(tg_items)
+        try:
+            tg_items = fetch_telegram_public_channels(
+                channels=channels,
+                max_messages_per_channel=max_msgs,
+                session_path=session_path,
+                require_primary_link=require_primary_link,
+                event_keywords=event_keywords,
+            )
+            print(f"🟦 Telegram: fetched {len(tg_items)} item(s)")
+            raw_items.extend(tg_items)
+        except Exception as e:
+            print(f"⚠️  Telegram fetch failed (continuing with RSS only): {e}")
 
     print(f"\n📥 Raw items fetched: {len(raw_items)}")
 
