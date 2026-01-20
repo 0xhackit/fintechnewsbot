@@ -3,15 +3,32 @@
 ## X API Free Tier Setup (5 minutes)
 
 ### Step 1: Get X API Credentials (Free)
+
+#### 1.1 Create Developer Account & App
 1. Go to https://developer.twitter.com/en/portal/dashboard
-2. Sign in and click "Sign up for Free Account"
-3. Create a new App
-4. Go to "Keys and Tokens" tab
-5. Copy these 4 values:
-   - API Key (Consumer Key)
-   - API Secret (Consumer Secret)
-   - Access Token
-   - Access Token Secret
+2. Sign in and click "Sign up for Free Account" (if new)
+3. Create a new App (give it any name)
+
+#### 1.2 Enable OAuth 1.0a (CRITICAL)
+4. Go to your app → **Settings** → **User authentication settings**
+5. Click **"Set up"** (or **"Edit"** if already configured)
+6. **Enable OAuth 1.0a** checkbox
+7. Set **App permissions** to **"Read and Write"**
+8. Fill required fields:
+   - Callback URI: `http://localhost` (not used but required)
+   - Website URL: Your website or `https://github.com/yourusername/yourrepo`
+9. Click **"Save"**
+
+#### 1.3 Generate Credentials
+10. Go to **"Keys and Tokens"** tab
+11. **Regenerate** Access Token & Secret (important after changing permissions!)
+12. Copy these 4 values:
+    - API Key (Consumer Key)
+    - API Secret (Consumer Secret)
+    - Access Token
+    - Access Token Secret
+
+⚠️ **Important**: After enabling OAuth 1.0a or changing permissions, you MUST regenerate your Access Token & Secret!
 
 ### Step 2: Add to GitHub Secrets
 1. Go to your repo: Settings → Secrets and variables → Actions

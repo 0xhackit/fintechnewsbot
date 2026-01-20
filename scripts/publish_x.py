@@ -65,6 +65,22 @@ def _post_to_x(text: str, api_key: str, api_secret: str, access_token: str, acce
         headers={"Content-Type": "application/json"},
     )
 
+    if response.status_code == 403:
+        error_detail = response.json().get('detail', response.text)
+        if 'oauth1-permissions' in error_detail.lower():
+            raise RuntimeError(
+                f"X API Permission Error: Your app needs OAuth 1.0a permissions.\n"
+                f"Fix this by:\n"
+                f"1. Go to https://developer.twitter.com/en/portal/projects-and-apps\n"
+                f"2. Select your app → Settings → User authentication settings\n"
+                f"3. Click 'Set up' or 'Edit'\n"
+                f"4. Enable 'OAuth 1.0a' with 'Read and Write' permissions\n"
+                f"5. Save and regenerate your Access Token & Secret\n"
+                f"6. Update GitHub secrets with the NEW tokens\n"
+                f"\nOriginal error: {response.text}"
+            )
+        raise RuntimeError(f"X API error 403: {response.text}")
+
     if response.status_code not in (200, 201):
         raise RuntimeError(
             f"X API error {response.status_code}: {response.text}"

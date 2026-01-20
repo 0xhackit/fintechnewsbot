@@ -97,11 +97,23 @@ The Free Tier provides:
 1. Apply for a Twitter Developer Account at https://developer.twitter.com
 2. Sign up for the **Free Tier** (no payment required)
 3. Create a new app in the Developer Portal
-4. Under "User authentication settings", enable OAuth 1.0a
-5. Set permissions to "Read and Write"
-6. Generate API Key & Secret (Consumer Keys)
-7. Generate Access Token & Secret
-8. Add all four credentials as GitHub secrets
+4. Go to **Settings → User authentication settings** → Click **"Set up"**
+5. **Enable OAuth 1.0a** checkbox
+6. Set **App permissions** to **"Read and Write"**
+7. Add required URLs (Callback: `http://localhost`, Website: your site/repo)
+8. **Save** the settings
+9. Go to **Keys and Tokens** tab
+10. **Regenerate Access Token & Secret** (CRITICAL: must regenerate after enabling OAuth 1.0a!)
+11. Copy all 4 credentials:
+    - API Key (Consumer Key)
+    - API Secret (Consumer Secret)
+    - Access Token
+    - Access Token Secret
+12. Add all four credentials as GitHub secrets
+
+⚠️ **Common Mistake**: If you get a 403 error about "oauth1-permissions", you forgot to:
+- Enable OAuth 1.0a in User authentication settings, OR
+- Regenerate your Access Token & Secret after enabling it
 
 ### Rate Limit Management
 With the Free Tier limit of 50 posts/day:
@@ -216,7 +228,23 @@ python scripts/publish_telegram.py --from-issue-file /tmp/test_issue.txt
 - Ensure your app has "Read and Write" permissions
 - Regenerate Access Token & Secret if you changed permissions
 
-**Error: 403 Forbidden**
+**Error: 403 Forbidden - "oauth1-permissions"**
+This is the most common error! It means OAuth 1.0a is not properly configured.
+
+**Fix:**
+1. Go to https://developer.twitter.com/en/portal/projects-and-apps
+2. Select your app → **Settings** → **User authentication settings**
+3. Click **"Edit"**
+4. Ensure **OAuth 1.0a** checkbox is ENABLED
+5. Set **App permissions** to **"Read and Write"**
+6. Click **"Save"**
+7. Go to **"Keys and Tokens"** tab
+8. Click **"Regenerate"** on Access Token & Secret
+9. Update GitHub secrets with the NEW Access Token & Secret
+
+**Important**: Old tokens won't work after enabling OAuth 1.0a - you MUST regenerate!
+
+**Error: 403 Forbidden - Other reasons**
 - Your app may not have elevated access
 - Check Twitter Developer Portal for any restrictions
 - Ensure your developer account is in good standing
