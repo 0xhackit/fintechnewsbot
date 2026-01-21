@@ -1,0 +1,146 @@
+.news-header {
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-tertiary) 100%);
+  border-bottom: 1px solid var(--border-primary);
+  padding: 1.5rem 2rem;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.brand-text h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, var(--accent-blue) 0%, var(--accent-green) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 0.25rem;
+}
+
+.brand-subtitle {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.header-status {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: rgba(0, 217, 126, 0.1);
+  border: 1px solid var(--accent-green);
+  border-radius: 20px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  background: var(--accent-green);
+  border-radius: 50%;
+}
+
+.status-text {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent-green);
+  letter-spacing: 1px;
+}
+
+.last-update {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+}
+
+.header-stats {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1rem;
+  background: var(--bg-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: 8px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.stat-value.stat-high {
+  color: var(--accent-green);
+}
+
+.stat-value.stat-fresh {
+  color: var(--accent-blue);
+}
+
+.stat-divider {
+  width: 1px;
+  height: 40px;
+  background: var(--border-primary);
+}
+
+@media (max-width: 768px) {
+  .news-header {
+    padding: 1rem;
+  }
+
+  .header-top {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .brand-text h1 {
+    font-size: 1.25rem;
+  }
+
+  .header-stats {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .stat-divider {
+    display: none;
+  }
+}
