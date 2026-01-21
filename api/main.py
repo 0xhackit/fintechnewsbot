@@ -30,6 +30,7 @@ app.add_middleware(
 # Data paths
 ITEMS_PATH = Path("out/items_last24h.json")
 CONFIG_PATH = Path("config.json")
+BLOCKLIST_PATH = Path("blocklist.json")
 
 
 class NewsItem(BaseModel):
@@ -56,6 +57,29 @@ def load_json(path: Path, default=None):
     except Exception as e:
         print(f"Error loading {path}: {e}")
         return default if default is not None else []
+
+
+def is_blocklisted(item: dict) -> bool:
+    """Check if an item is in the blocklist."""
+    blocklist = load_json(BLOCKLIST_PATH, {"blocked_urls": [], "blocked_keywords": [], "blocked_sources": []})
+
+    # Check blocked URLs
+    item_url = item.get("url") or item.get("link") or ""
+    if item_url in blocklist.get("blocked_urls", []):
+        return True
+
+    # Check blocked keywords in title
+    title = (item.get("title") or "").lower()
+    for keyword in blocklist.get("blocked_keywords", []):
+        if keyword.lower() in title:
+            return True
+
+    # Check blocked sources
+    source = item.get("source", "")
+    if source in blocklist.get("blocked_sources", []):
+        return True
+
+    return False
 
 
 def categorize_item(item: dict) -> List[str]:

@@ -1,120 +1,167 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import './App.css';
-import NewsHeader from './components/NewsHeader';
-import CategoryFilter from './components/CategoryFilter';
-import NewsFeed from './components/NewsFeed';
-import StatsPanel from './components/StatsPanel';
+import CommandInput from './components/CommandInput';
+import LiveStream from './components/LiveStream';
+import StoryDrawer from './components/StoryDrawer';
 
-// API base URL - change to your deployed backend URL
 const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
+// Major banks for /banks filter
+const MAJOR_BANKS = [
+  'JPMorgan', 'JPM', 'JP Morgan', 'Citi', 'Citigroup', 'Citibank',
+  'HSBC', 'Standard Chartered', 'BNY', 'Bank of New York', 'BNY Mellon',
+  'UBS', 'Goldman Sachs', 'Morgan Stanley', 'Wells Fargo', 'Bank of America', 'BofA'
+];
+
 function App() {
-  const [news, setNews] = useState([]);
-  const [categories, setCategories] = useState([]);
-  const [stats, setStats] = useState(null);
-  const [selectedCategory, setSelectedCategory] = useState('All');
-  const [minScore, setMinScore] = useState(0);
-  const [sortBy, setSortBy] = useState('relevance'); // 'relevance' or 'recent'
+  const [allItems, setAllItems] = useState([]);
+  const [filteredItems, setFilteredItems] = useState([]);
+  const [activeFilter, setActiveFilter] = useState(null);
+  const [selectedItem, setSelectedItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  const [lastUpdate, setLastUpdate] = useState(null);
 
-  // Fetch news data
+  // Fetch all news items
   const fetchNews = async () => {
     try {
-      const params = {
-        ...(selectedCategory !== 'All' && { category: selectedCategory }),
-        ...(minScore > 0 && { min_score: minScore }),
-      };
+      const response = await axios.get(`${API_BASE}/news`);
+      const items = response.data.items || [];
 
-      const response = await axios.get(`${API_BASE}/news`, { params });
+      // Sort by published_at descending (newest first)
+      const sorted = [...items].sort((a, b) => {
+        const dateA = new Date(a.published_at || 0);
+        const dateB = new Date(b.published_at || 0);
+        return dateB - dateA;
+      });
 
-      // Sort based on user preference
-      let sortedItems = [...response.data.items];
-      if (sortBy === 'recent') {
-        sortedItems.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
-      } else {
-        // Default: sort by relevance (score)
-        sortedItems.sort((a, b) => b.score - a.score);
-      }
-
-      setNews(sortedItems);
-      setLastUpdate(new Date());
+      setAllItems(sorted);
+      setFilteredItems(sorted);
       setError(null);
     } catch (err) {
       console.error('Error fetching news:', err);
       setError('Failed to fetch news. Make sure the backend is running.');
-    }
-  };
-
-  // Fetch categories
-  const fetchCategories = async () => {
-    try {
-      const response = await axios.get(`${API_BASE}/categories`);
-      setCategories([
-        { name: 'All', count: response.data.categories.reduce((sum, cat) => sum + cat.count, 0) },
-        ...response.data.categories
-      ]);
-    } catch (err) {
-      console.error('Error fetching categories:', err);
-    }
-  };
-
-  // Fetch stats
-  const fetchStats = async () => {
-    try {
-      const response = await axios.get(`${API_BASE}/stats`);
-      setStats(response.data);
-    } catch (err) {
-      console.error('Error fetching stats:', err);
-    }
-  };
-
-  // Initial data load
-  useEffect(() => {
-    const loadData = async () => {
-      setLoading(true);
-      await Promise.all([fetchNews(), fetchCategories(), fetchStats()]);
+    } finally {
       setLoading(false);
-    };
-    loadData();
-  }, []);
-
-  // Refetch news when filters change
-  useEffect(() => {
-    if (!loading) {
-      fetchNews();
     }
-  }, [selectedCategory, minScore, sortBy]);
+  };
+
+  // Initial load
+  useEffect(() => {
+    fetchNews();
+  }, []);
 
   // Auto-refresh every 5 minutes
   useEffect(() => {
-    const interval = setInterval(() => {
-      fetchNews();
-      fetchCategories();
-      fetchStats();
-    }, 5 * 60 * 1000); // 5 minutes
-
+    const interval = setInterval(fetchNews, 5 * 60 * 1000);
     return () => clearInterval(interval);
-  }, [selectedCategory, minScore]);
+  }, []);
+
+  // Command parser and filter logic
+  const handleCommand = (cmd) => {
+    if (!cmd) {
+      // Clear filter
+      setActiveFilter(null);
+      setFilteredItems(allItems);
+      return;
+    }
+
+    const cmdLower = cmd.toLowerCase();
+    setActiveFilter(cmd);
+
+    let filtered = [];
+
+    if (cmdLower === '/stablecoins') {
+      filtered = allItems.filter(item => {
+        const topics = (item.matched_topics || []).map(t => t.toLowerCase());
+        const keywords = (item.matched_keywords || []).map(k => k.toLowerCase());
+
+        return topics.some(t => t.includes('stablecoin')) ||
+          keywords.some(k => ['stablecoin', 'usdc', 'usdt', 'tether', 'circle'].includes(k));
+      });
+    } else if (cmdLower === '/rwa') {
+      filtered = allItems.filter(item => {
+        const topics = (item.matched_topics || []).map(t => t.toLowerCase());
+        const keywords = (item.matched_keywords || []).map(k => k.toLowerCase());
+
+        return topics.some(t => t.includes('tokeniz') || t.includes('rwa') || t.includes('private credit') || t.includes('treasur')) ||
+          keywords.some(k => k.includes('tokeniz') || k.includes('rwa'));
+      });
+    } else if (cmdLower === '/banks') {
+      filtered = allItems.filter(item => {
+        const title = (item.title || '').toLowerCase();
+        const snippet = (item.snippet || '').toLowerCase();
+        const source = (item.source || '').toLowerCase();
+
+        return MAJOR_BANKS.some(bank =>
+          title.includes(bank.toLowerCase()) ||
+          snippet.includes(bank.toLowerCase()) ||
+          source.includes(bank.toLowerCase())
+        );
+      });
+    } else if (cmdLower === '/apac') {
+      filtered = allItems.filter(item => {
+        // Look for APAC countries/terms in title/snippet
+        const text = `${item.title} ${item.snippet}`.toLowerCase();
+        const apacTerms = ['singapore', 'hong kong', 'japan', 'korea', 'china', 'india', 'apac', 'asia', 'australia'];
+        return apacTerms.some(term => text.includes(term));
+      });
+    } else if (cmdLower === '/launches') {
+      filtered = allItems.filter(item => {
+        const keywords = (item.matched_keywords || []).map(k => k.toLowerCase());
+        const topics = (item.matched_topics || []).map(t => t.toLowerCase());
+        const title = (item.title || '').toLowerCase();
+
+        const launchTerms = ['launch', 'pilot', 'partnership', 'rollout', 'introduces', 'unveils'];
+        return topics.some(t => t.includes('launch')) ||
+          keywords.some(k => launchTerms.includes(k)) ||
+          launchTerms.some(term => title.includes(term));
+      });
+    } else if (cmdLower === '/funding') {
+      filtered = allItems.filter(item => {
+        const keywords = (item.matched_keywords || []).map(k => k.toLowerCase());
+        const title = (item.title || '').toLowerCase();
+
+        const fundingTerms = ['funding', 'raises', 'raised', 'series a', 'series b', 'series c', 'm&a', 'acquisition', 'acquires'];
+        return keywords.some(k => fundingTerms.includes(k)) ||
+          fundingTerms.some(term => title.includes(term));
+      });
+    } else if (cmdLower.startsWith('/entities/')) {
+      const entity = cmdLower.replace('/entities/', '').trim();
+      if (entity) {
+        filtered = allItems.filter(item => {
+          const text = `${item.title} ${item.snippet} ${item.source}`.toLowerCase();
+          return text.includes(entity);
+        });
+      }
+    } else {
+      // Unknown command - show all
+      filtered = allItems;
+    }
+
+    setFilteredItems(filtered);
+  };
 
   if (loading) {
     return (
-      <div className="loading-container">
-        <div className="loading-spinner"></div>
-        <p>Loading fintech news terminal...</p>
+      <div className="min-h-screen bg-zinc-950 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-emerald-400 text-xl mb-2 font-mono">Loading...</div>
+          <div className="text-zinc-600 text-sm">Fetching fintech news feed</div>
+        </div>
       </div>
     );
   }
 
   if (error) {
     return (
-      <div className="error-container">
-        <div className="error-content">
-          <h2>⚠️ Connection Error</h2>
-          <p>{error}</p>
-          <button onClick={() => window.location.reload()} className="retry-button">
+      <div className="min-h-screen bg-zinc-950 flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-red-400 text-xl mb-2">⚠ Connection Error</div>
+          <div className="text-zinc-400 text-sm mb-4">{error}</div>
+          <button
+            onClick={() => window.location.reload()}
+            className="px-4 py-2 bg-zinc-900 border border-zinc-800 text-zinc-100 text-sm rounded hover:bg-zinc-800 transition-colors"
+          >
             Retry
           </button>
         </div>
@@ -123,30 +170,49 @@ function App() {
   }
 
   return (
-    <div className="app">
-      <NewsHeader stats={stats} lastUpdate={lastUpdate} />
+    <div className="min-h-screen bg-zinc-950 text-zinc-100">
+      {/* Header */}
+      <div className="border-b border-zinc-800 px-6 py-3">
+        <div className="flex items-center justify-between mb-3">
+          <div>
+            <h1 className="text-xl font-bold font-mono text-emerald-400">FINTECH_ONCHAIN</h1>
+            <p className="text-xs text-zinc-500 mt-0.5">Real-time fintech & institutional crypto intelligence</p>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+              <span className="text-xs text-zinc-500 font-mono">LIVE</span>
+            </div>
+            <div className="text-xs text-zinc-600 font-mono">
+              {filteredItems.length} items
+            </div>
+          </div>
+        </div>
 
-      <div className="main-content">
-        <aside className="sidebar">
-          <CategoryFilter
-            categories={categories}
-            selectedCategory={selectedCategory}
-            onSelectCategory={setSelectedCategory}
-            minScore={minScore}
-            onScoreChange={setMinScore}
-            sortBy={sortBy}
-            onSortChange={setSortBy}
+        {/* Command Input */}
+        <CommandInput
+          onCommand={handleCommand}
+          activeFilter={activeFilter}
+        />
+      </div>
+
+      {/* Main Content */}
+      <div className="relative">
+        <div className="px-6 py-4">
+          <LiveStream
+            items={filteredItems}
+            onSelectItem={setSelectedItem}
+            selectedId={selectedItem?.id}
           />
+        </div>
 
-          {stats && <StatsPanel stats={stats} />}
-        </aside>
-
-        <main className="feed-container">
-          <NewsFeed
-            news={news}
-            selectedCategory={selectedCategory}
+        {/* Story Drawer */}
+        {selectedItem && (
+          <StoryDrawer
+            item={selectedItem}
+            onClose={() => setSelectedItem(null)}
           />
-        </main>
+        )}
       </div>
     </div>
   );
