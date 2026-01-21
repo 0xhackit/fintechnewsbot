@@ -3,10 +3,8 @@ import { formatDistanceToNow } from 'date-fns';
 import './NewsCard.css';
 
 function NewsCard({ item }) {
-  // Skip Google RSS items
-  if (item.source === 'Google News RSS' || item.source_type === 'google_news_rss') {
-    return null;
-  }
+  // Note: Removed Google RSS filter - they aggregate from legitimate sources
+  // and the feed_name field shows the actual publication
 
   const getCategoryColor = (category) => {
     const colors = {
