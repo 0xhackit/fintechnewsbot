@@ -67,7 +67,11 @@ function NewsCard({ item }) {
 
       <div className="card-footer">
         <div className="card-meta">
-          <span className="meta-source">{item.source}</span>
+          <span className="meta-source">
+            {item.source === 'Google News RSS' && item.feed_name
+              ? item.feed_name
+              : item.source}
+          </span>
           <span className="meta-divider">•</span>
           <span className="meta-relevance">Relevance: {getRelevanceLabel(item.score)}</span>
         </div>
