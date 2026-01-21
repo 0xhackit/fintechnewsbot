@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import CommandInput from './components/CommandInput';
 import LiveStream from './components/LiveStream';
-import StoryDrawer from './components/StoryDrawer';
 
 const API_BASE = import.meta.env.VITE_API_URL || '/api';
 
@@ -17,7 +16,6 @@ function App() {
   const [allItems, setAllItems] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
   const [activeFilter, setActiveFilter] = useState(null);
-  const [selectedItem, setSelectedItem] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
@@ -172,20 +170,17 @@ function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100">
       {/* Header */}
-      <div className="border-b border-zinc-800 px-6 py-3">
-        <div className="flex items-center justify-between mb-3">
+      <div className="border-b border-zinc-800 px-4 sm:px-6 py-3">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-3">
           <div>
-            <h1 className="text-xl font-bold font-mono text-emerald-400">FINTECH_ONCHAIN <span className="text-xs text-zinc-700">v2.0</span></h1>
+            <h1 className="text-lg sm:text-xl font-bold font-mono text-emerald-400">
+              FINTECH_ONCHAIN <span className="text-xs text-zinc-700">v2.0</span>
+            </h1>
             <p className="text-xs text-zinc-500 mt-0.5">Real-time fintech & institutional crypto intelligence</p>
           </div>
-          <div className="flex items-center gap-3">
-            <div className="flex items-center gap-2">
-              <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-              <span className="text-xs text-zinc-500 font-mono">LIVE</span>
-            </div>
-            <div className="text-xs text-zinc-600 font-mono">
-              {filteredItems.length} items
-            </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
+            <span className="text-xs text-emerald-400 font-mono font-semibold">LIVE</span>
           </div>
         </div>
 
@@ -197,22 +192,8 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <div className="relative">
-        <div className="px-6 py-4">
-          <LiveStream
-            items={filteredItems}
-            onSelectItem={setSelectedItem}
-            selectedId={selectedItem?.id}
-          />
-        </div>
-
-        {/* Story Drawer */}
-        {selectedItem && (
-          <StoryDrawer
-            item={selectedItem}
-            onClose={() => setSelectedItem(null)}
-          />
-        )}
+      <div className="px-2 sm:px-6 py-4">
+        <LiveStream items={filteredItems} />
       </div>
     </div>
   );

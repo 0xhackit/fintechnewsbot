@@ -1,7 +1,7 @@
 import React from 'react';
 import { formatDistanceToNow, format } from 'date-fns';
 
-function LiveStream({ items, onSelectItem, selectedId }) {
+function LiveStream({ items }) {
   const formatTime = (dateString) => {
     try {
       const date = new Date(dateString);
@@ -9,12 +9,6 @@ function LiveStream({ items, onSelectItem, selectedId }) {
     } catch {
       return '--:--';
     }
-  };
-
-  const getScoreColor = (score) => {
-    if (score >= 35) return 'text-emerald-400';
-    if (score >= 20) return 'text-yellow-400';
-    return 'text-zinc-500';
   };
 
   const getTimeAgo = (dateString) => {
@@ -26,6 +20,18 @@ function LiveStream({ items, onSelectItem, selectedId }) {
     }
   };
 
+  const getCategoryColor = (category) => {
+    const colors = {
+      'Stablecoins': '#4a9eff',
+      'RWA': '#a55eea',
+      'Fintech': '#00d97e',
+      'Tokenization': '#f7b731',
+      'Regulation': '#ff6348',
+      'Funding': '#ff4757',
+    };
+    return colors[category] || '#4a9eff';
+  };
+
   if (items.length === 0) {
     return (
       <div className="flex items-center justify-center h-64 text-zinc-500 text-sm">
@@ -35,68 +41,68 @@ function LiveStream({ items, onSelectItem, selectedId }) {
   }
 
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full text-sm">
+    <div className="overflow-x-auto -mx-2 sm:mx-0">
+      <table className="w-full text-sm min-w-[640px]">
         <thead className="sticky top-0 bg-zinc-950 border-b border-zinc-800">
           <tr className="text-left text-zinc-400 text-xs uppercase">
-            <th className="px-3 py-2 w-16">Time</th>
-            <th className="px-3 py-2 w-16 text-right">Score</th>
-            <th className="px-3 py-2 w-32">Source</th>
-            <th className="px-3 py-2">Headline</th>
-            <th className="px-3 py-2 w-48">Tags</th>
+            <th className="px-3 sm:px-4 py-3 w-16 sm:w-20">Time</th>
+            <th className="px-3 sm:px-4 py-3 w-24 sm:w-32 hidden sm:table-cell">Source</th>
+            <th className="px-3 sm:px-4 py-3">Headline</th>
+            <th className="px-3 sm:px-4 py-3 w-48 sm:w-56">Tags</th>
           </tr>
         </thead>
         <tbody>
           {items.map((item) => (
             <tr
               key={item.id}
-              onClick={() => onSelectItem(item)}
-              className={`
-                border-b border-zinc-800/50 cursor-pointer transition-all
-                hover:bg-zinc-900
-                ${selectedId === item.id ? 'bg-emerald-500/10 ring-1 ring-emerald-400/50' : ''}
-              `}
+              onClick={() => window.open(item.url || item.link, '_blank')}
+              className="border-b border-zinc-800/50 cursor-pointer transition-all hover:bg-zinc-900"
             >
               {/* Time */}
-              <td className="px-3 py-2 text-zinc-400 font-mono text-xs whitespace-nowrap">
+              <td className="px-3 sm:px-4 py-4 text-zinc-400 font-mono text-xs whitespace-nowrap">
                 {formatTime(item.published_at)}
               </td>
 
-              {/* Score */}
-              <td className={`px-3 py-2 text-right font-mono text-xs font-bold ${getScoreColor(item.score)}`}>
-                {item.score}
-              </td>
-
-              {/* Source */}
-              <td className="px-3 py-2 text-zinc-500 text-xs truncate">
+              {/* Source - Hidden on mobile */}
+              <td className="px-3 sm:px-4 py-4 text-zinc-500 text-xs truncate hidden sm:table-cell">
                 {item.source === 'Google News RSS' && item.feed_name ? item.feed_name : item.source}
               </td>
 
               {/* Headline */}
-              <td className="px-3 py-2 text-zinc-100">
-                <div className="flex items-start gap-2">
+              <td className="px-3 sm:px-4 py-4 text-zinc-100">
+                <div className="flex flex-col sm:flex-row sm:items-start gap-1 sm:gap-3">
                   <span className="flex-1 line-clamp-2">{item.title}</span>
                   <span className="text-zinc-600 text-xs whitespace-nowrap">
                     {getTimeAgo(item.published_at)}
                   </span>
                 </div>
+                {/* Show source on mobile */}
+                <div className="sm:hidden mt-1 text-zinc-500 text-xs">
+                  {item.source === 'Google News RSS' && item.feed_name ? item.feed_name : item.source}
+                </div>
               </td>
 
               {/* Tags */}
-              <td className="px-3 py-2">
-                <div className="flex flex-wrap gap-1">
-                  {item.matched_topics?.slice(0, 2).map((topic, idx) => (
+              <td className="px-3 sm:px-4 py-4">
+                <div className="flex flex-wrap gap-1.5">
+                  {item.categories?.slice(0, 2).map((cat, idx) => (
                     <span
                       key={idx}
-                      className="px-1.5 py-0.5 text-xs bg-zinc-800 text-zinc-300 rounded border border-zinc-700"
+                      className="px-2 py-0.5 text-xs font-semibold rounded-full whitespace-nowrap"
+                      style={{
+                        color: getCategoryColor(cat),
+                        borderColor: getCategoryColor(cat),
+                        backgroundColor: `${getCategoryColor(cat)}15`,
+                        border: `1px solid ${getCategoryColor(cat)}40`
+                      }}
                     >
-                      {topic.split(' ')[0].toLowerCase()}
+                      {cat}
                     </span>
                   ))}
-                  {item.matched_keywords?.slice(0, 2).map((kw, idx) => (
+                  {item.matched_keywords?.slice(0, 1).map((kw, idx) => (
                     <span
                       key={`kw-${idx}`}
-                      className="px-1.5 py-0.5 text-xs bg-blue-500/10 text-blue-400 rounded border border-blue-500/30"
+                      className="px-2 py-0.5 text-xs rounded-full bg-zinc-800/50 text-zinc-400 border border-zinc-700/50 whitespace-nowrap hidden sm:inline-block"
                     >
                       {kw.toLowerCase()}
                     </span>

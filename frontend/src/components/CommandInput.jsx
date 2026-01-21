@@ -88,7 +88,7 @@ function CommandInput({ onCommand, activeFilter }) {
 
       {/* Autocomplete Suggestions */}
       {suggestions.length > 0 && (
-        <div className="absolute top-full left-0 right-0 mt-1 bg-zinc-900 border border-zinc-800 rounded shadow-lg z-10 max-h-60 overflow-y-auto">
+        <div className="absolute top-full left-0 right-0 mt-1 bg-zinc-900 border border-zinc-800 rounded shadow-lg z-50 max-h-60 overflow-y-auto">
           {suggestions.map((item, idx) => (
             <div
               key={item.cmd}
