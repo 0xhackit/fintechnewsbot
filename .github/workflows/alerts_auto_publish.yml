@@ -75,7 +75,7 @@ jobs:
 
             if [ "$DRAFT_COUNT" -gt "0" ]; then
               # Create temporary Python script for posting
-              cat > /tmp/post_telegram_drafts.py << 'PYTHON_SCRIPT'
+              cat > /tmp/post_telegram_drafts.py << 'EOF'
 import json
 import asyncio
 import os
@@ -101,7 +101,7 @@ async def post_drafts():
             print(f"✅ Posted to Telegram: {draft.get('title', '')[:60]}...")
 
 asyncio.run(post_drafts())
-PYTHON_SCRIPT
+EOF
 
               python /tmp/post_telegram_drafts.py
             fi
