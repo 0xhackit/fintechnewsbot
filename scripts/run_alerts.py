@@ -53,10 +53,10 @@ def clean_title(title: str) -> str:
 
 
 def build_message_html(title: str, link: str) -> str:
-    # Telegram HTML formatting: bold + LINK anchor
+    # Telegram HTML formatting: bold + ... anchor
     safe_title = title.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
     safe_link = link.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
-    return f"<b>{safe_title}</b> <a href=\"{safe_link}\">LINK</a>"
+    return f"<b>{safe_title}</b> <a href=\"{safe_link}\">...</a>"
 
 
 def normalize_title_for_comparison(title: str) -> str:
