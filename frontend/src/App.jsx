@@ -175,7 +175,7 @@ function App() {
       <div className="border-b border-zinc-800 px-6 py-3">
         <div className="flex items-center justify-between mb-3">
           <div>
-            <h1 className="text-xl font-bold font-mono text-emerald-400">FINTECH_ONCHAIN</h1>
+            <h1 className="text-xl font-bold font-mono text-emerald-400">FINTECH_ONCHAIN <span className="text-xs text-zinc-700">v2.0</span></h1>
             <p className="text-xs text-zinc-500 mt-0.5">Real-time fintech & institutional crypto intelligence</p>
           </div>
           <div className="flex items-center gap-3">
