@@ -63,10 +63,10 @@ function CommandInput({ onCommand, activeFilter }) {
   };
 
   return (
-    <div className="relative">
+    <div className="relative w-full">
       {/* Command Input Bar */}
-      <div className="flex items-center gap-2 bg-zinc-950 border border-zinc-800 rounded px-3 py-2">
-        <span className="text-emerald-400 text-sm">$</span>
+      <div className="flex items-center gap-3 bg-zinc-950 border border-zinc-800 rounded-lg px-4 py-3">
+        <span className="text-emerald-400 text-base font-bold">$</span>
         <input
           ref={inputRef}
           type="text"
@@ -74,12 +74,12 @@ function CommandInput({ onCommand, activeFilter }) {
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={handleKeyDown}
           placeholder="Type / for commands..."
-          className="flex-1 bg-transparent text-zinc-100 text-sm outline-none placeholder-zinc-600"
+          className="flex-1 bg-transparent text-zinc-100 text-base outline-none placeholder-zinc-600"
         />
         {activeFilter && (
           <button
             onClick={() => onCommand(null)}
-            className="text-xs text-zinc-400 hover:text-zinc-200 transition-colors"
+            className="text-sm text-zinc-400 hover:text-zinc-200 transition-colors px-2"
           >
             Clear
           </button>

@@ -42,3 +42,17 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #52525b;
 }
+
+/* Blinking animation for LIVE indicator */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+.blink {
+  animation: blink 2s ease-in-out infinite;
+}

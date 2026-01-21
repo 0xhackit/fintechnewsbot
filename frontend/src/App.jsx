@@ -170,8 +170,8 @@ function App() {
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-100">
       {/* Header */}
-      <div className="border-b border-zinc-800 px-4 sm:px-6 py-3">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-3">
+      <div className="border-b border-zinc-800 px-4 sm:px-6 py-4">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 mb-4">
           <div>
             <h1 className="text-lg sm:text-xl font-bold font-mono text-emerald-400">
               FINTECH_ONCHAIN <span className="text-xs text-zinc-700">v2.0</span>
@@ -179,20 +179,22 @@ function App() {
             <p className="text-xs text-zinc-500 mt-0.5">Real-time fintech & institutional crypto intelligence</p>
           </div>
           <div className="flex items-center gap-2">
-            <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-            <span className="text-xs text-emerald-400 font-mono font-semibold">LIVE</span>
+            <span className="w-2 h-2 bg-emerald-400 rounded-full blink"></span>
+            <span className="text-sm text-emerald-400 font-mono font-semibold">LIVE</span>
           </div>
         </div>
 
         {/* Command Input */}
-        <CommandInput
-          onCommand={handleCommand}
-          activeFilter={activeFilter}
-        />
+        <div className="max-w-3xl">
+          <CommandInput
+            onCommand={handleCommand}
+            activeFilter={activeFilter}
+          />
+        </div>
       </div>
 
       {/* Main Content */}
-      <div className="px-2 sm:px-6 py-4">
+      <div className="px-4 sm:px-6 py-4">
         <LiveStream items={filteredItems} />
       </div>
     </div>
