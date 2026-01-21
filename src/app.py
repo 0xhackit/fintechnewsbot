@@ -70,6 +70,32 @@ COMMENTARY_PATTERNS = [
     r"\bmight\b",
 ]
 
+# Low-quality content patterns (listicles, rankings, generic content)
+LISTICLE_PATTERNS = [
+    r"\btop\s+\d+\b",
+    r"\b\d+\s+best\b",
+    r"\bbest\s+\d+\b",
+    r"\branked\b",
+    r"\branking\b",
+    r"\bhot\s+(&|and)\s+cold\b",
+    r"\bultimate\s+list\b",
+    r"\bcomplete\s+list\b",
+    r"\bcomprehensive\s+guide\b",
+]
+
+# Generic/vague content patterns (no specific news)
+GENERIC_PATTERNS = [
+    r"\bremains?\s+strong\b",
+    r"\bcontinues?\s+to\s+grow\b",
+    r"\bstill\s+(rising|growing|strong)\b",
+    r"\bdemand\s+remains?\b",
+    r"\binterest\s+remains?\b",
+    r"\bprice\s+(action|movement|analysis)\b",
+    r"\bmarket\s+(update|recap|overview|roundup)\b",
+    r"\bweekly\s+(recap|roundup|update)\b",
+    r"\bdaily\s+(recap|roundup|update)\b",
+]
+
 
 def _count(patterns, text: str) -> int:
     t = (text or "").lower()
@@ -79,13 +105,20 @@ def _count(patterns, text: str) -> int:
 def score_item(item: dict, now_utc: datetime) -> dict:
     """Attach `score` + `score_breakdown` to an item dict and return it."""
     text = f"{item.get('title','')} {item.get('snippet','')}".lower()
+    title = (item.get('title', '')).lower()
 
     tier1 = _count(TIER1_LAUNCH_PATTERNS, text)
     tier2 = _count(TIER2_ACTIVITY_PATTERNS, text)
     comm = _count(COMMENTARY_PATTERNS, text)
+    listicle = _count(LISTICLE_PATTERNS, title)  # Only check title for listicles
+    generic = _count(GENERIC_PATTERNS, title)  # Only check title for generic
 
     launch_score = min(tier1 * 25, 60) + min(tier2 * 10, 30)
     commentary_penalty = -min(comm * 20, 50)
+
+    # Heavy penalties for low-quality content
+    listicle_penalty = -min(listicle * 100, 200)  # -100 per listicle pattern, max -200
+    generic_penalty = -min(generic * 50, 100)  # -50 per generic pattern, max -100
 
     freshness = 0
     try:
@@ -99,7 +132,7 @@ def score_item(item: dict, now_utc: datetime) -> dict:
     except Exception:
         pass
 
-    score = launch_score + commentary_penalty + freshness
+    score = launch_score + commentary_penalty + listicle_penalty + generic_penalty + freshness
 
     # Overrides: ensure launches outrank commentary
     if tier1 >= 1 and comm <= 1:
@@ -107,14 +140,22 @@ def score_item(item: dict, now_utc: datetime) -> dict:
     if comm >= 2 and tier1 == 0:
         score = min(score, 10)
 
+    # Hard reject listicles and generic content (score goes negative or very low)
+    if listicle >= 1 or generic >= 1:
+        score = min(score, -50)  # Force very low score
+
     item["score"] = int(score)
     item["score_breakdown"] = {
         "tier1": tier1,
         "tier2": tier2,
         "commentary": comm,
+        "listicle": listicle,
+        "generic": generic,
         "freshness": freshness,
         "launch_score": launch_score,
         "commentary_penalty": commentary_penalty,
+        "listicle_penalty": listicle_penalty,
+        "generic_penalty": generic_penalty,
     }
     return item
 
