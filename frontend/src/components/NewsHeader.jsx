@@ -9,8 +9,8 @@ function NewsHeader({ stats, lastUpdate }) {
         <div className="header-brand">
           <div className="brand-icon">📊</div>
           <div className="brand-text">
-            <h1>FINTECH NEWS TERMINAL</h1>
-            <p className="brand-subtitle">Real-time Digital Assets & Payments Intelligence</p>
+            <h1>FINTECH ONCHAIN</h1>
+            <p className="brand-subtitle">The feed for onchain fintech, stablecoins, and institutional crypto</p>
           </div>
         </div>
 

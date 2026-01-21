@@ -15,6 +15,7 @@ function App() {
   const [stats, setStats] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [minScore, setMinScore] = useState(0);
+  const [sortBy, setSortBy] = useState('relevance'); // 'relevance' or 'recent'
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [lastUpdate, setLastUpdate] = useState(null);
@@ -28,7 +29,17 @@ function App() {
       };
 
       const response = await axios.get(`${API_BASE}/news`, { params });
-      setNews(response.data.items);
+
+      // Sort based on user preference
+      let sortedItems = [...response.data.items];
+      if (sortBy === 'recent') {
+        sortedItems.sort((a, b) => new Date(b.published_at) - new Date(a.published_at));
+      } else {
+        // Default: sort by relevance (score)
+        sortedItems.sort((a, b) => b.score - a.score);
+      }
+
+      setNews(sortedItems);
       setLastUpdate(new Date());
       setError(null);
     } catch (err) {
@@ -75,7 +86,7 @@ function App() {
     if (!loading) {
       fetchNews();
     }
-  }, [selectedCategory, minScore]);
+  }, [selectedCategory, minScore, sortBy]);
 
   // Auto-refresh every 5 minutes
   useEffect(() => {
@@ -123,6 +134,8 @@ function App() {
             onSelectCategory={setSelectedCategory}
             minScore={minScore}
             onScoreChange={setMinScore}
+            sortBy={sortBy}
+            onSortChange={setSortBy}
           />
 
           {stats && <StatsPanel stats={stats} />}

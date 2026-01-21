@@ -19,7 +19,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",  # Local development
-        "https://*.vercel.app",   # Vercel deployments
+        "https://fintech-news-terminal.vercel.app",   # Vercel deployments
         "*"                       # Allow all (can restrict later)
     ],
     allow_credentials=True,
@@ -85,15 +85,14 @@ def categorize_item(item: dict) -> List[str]:
     if any(kw in keywords for kw in ["stablecoin", "usdc", "usdt", "tether", "circle"]):
         categories.add("Stablecoins")
 
-    if any(kw in keywords for kw in ["launch", "launches", "launched", "partnership"]):
-        categories.add("Launches")
-
     if any(kw in keywords for kw in ["funding", "raises", "series a", "series b"]):
         categories.add("Funding")
 
-    # Default category if none matched
-    if not categories:
-        categories.add("General")
+    # Regulation category for regulatory news
+    if any(kw in keywords for kw in ["mica", "genius", "stablecoin bill", "regulation", "regulatory", "sec", "cftc", "compliance"]):
+        categories.add("Regulation")
+
+    # No default category - items without matches won't be shown
 
     return sorted(list(categories))
 

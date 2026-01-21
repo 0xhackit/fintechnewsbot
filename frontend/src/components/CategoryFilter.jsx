@@ -1,9 +1,27 @@
 import React from 'react';
 import './CategoryFilter.css';
 
-function CategoryFilter({ categories, selectedCategory, onSelectCategory, minScore, onScoreChange }) {
+function CategoryFilter({ categories, selectedCategory, onSelectCategory, minScore, onScoreChange, sortBy, onSortChange }) {
   return (
     <div className="category-filter">
+      <div className="filter-section">
+        <h3 className="filter-title">Sort By</h3>
+        <div className="sort-buttons">
+          <button
+            className={`sort-button ${sortBy === 'relevance' ? 'active' : ''}`}
+            onClick={() => onSortChange('relevance')}
+          >
+            Relevance
+          </button>
+          <button
+            className={`sort-button ${sortBy === 'recent' ? 'active' : ''}`}
+            onClick={() => onSortChange('recent')}
+          >
+            Most Recent
+          </button>
+        </div>
+      </div>
+
       <div className="filter-section">
         <h3 className="filter-title">Categories</h3>
         <div className="category-list">
@@ -21,7 +39,7 @@ function CategoryFilter({ categories, selectedCategory, onSelectCategory, minSco
       </div>
 
       <div className="filter-section">
-        <h3 className="filter-title">Min Score</h3>
+        <h3 className="filter-title">Min Relevance</h3>
         <div className="score-slider-container">
           <input
             type="range"

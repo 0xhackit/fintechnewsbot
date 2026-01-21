@@ -39,39 +39,23 @@
   background: rgba(255, 255, 255, 0.05);
 }
 
-.card-score {
+.card-meta-right {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  padding: 0.5rem;
+}
+
+.card-meta-right .meta-time {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8125rem;
+  color: var(--text-tertiary);
+  padding: 0.25rem 0.75rem;
   background: var(--bg-tertiary);
   border-radius: 6px;
-  min-width: 60px;
 }
 
-.score-label {
-  font-size: 0.625rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+.meta-relevance {
+  font-size: 0.8125rem;
   color: var(--text-tertiary);
-  margin-bottom: 0.25rem;
-}
-
-.score-number {
-  font-size: 1.25rem;
-  font-weight: 700;
-}
-
-.card-score.score-high .score-number {
-  color: var(--score-high);
-}
-
-.card-score.score-medium .score-number {
-  color: var(--score-medium);
-}
-
-.card-score.score-low .score-number {
-  color: var(--score-low);
 }
 
 .card-title {

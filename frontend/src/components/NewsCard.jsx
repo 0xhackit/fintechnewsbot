@@ -3,11 +3,10 @@ import { formatDistanceToNow } from 'date-fns';
 import './NewsCard.css';
 
 function NewsCard({ item }) {
-  const getScoreClass = (score) => {
-    if (score >= 35) return 'score-high';
-    if (score >= 20) return 'score-medium';
-    return 'score-low';
-  };
+  // Skip Google RSS items
+  if (item.source === 'Google News RSS' || item.source_type === 'google_news_rss') {
+    return null;
+  }
 
   const getCategoryColor = (category) => {
     const colors = {
@@ -15,7 +14,7 @@ function NewsCard({ item }) {
       'RWA': 'var(--accent-purple)',
       'Fintech': 'var(--accent-green)',
       'Tokenization': 'var(--accent-yellow)',
-      'Launches': 'var(--accent-orange)',
+      'Regulation': 'var(--accent-orange)',
       'Funding': 'var(--accent-red)',
     };
     return colors[category] || 'var(--accent-blue)';
@@ -28,6 +27,12 @@ function NewsCard({ item }) {
     } catch {
       return 'Unknown';
     }
+  };
+
+  const getRelevanceLabel = (score) => {
+    if (score >= 35) return 'High';
+    if (score >= 20) return 'Medium';
+    return 'Low';
   };
 
   return (
@@ -45,14 +50,15 @@ function NewsCard({ item }) {
           ))}
         </div>
 
-        <div className={`card-score ${getScoreClass(item.score)}`}>
-          <span className="score-label">Score</span>
-          <span className="score-number mono">{item.score}</span>
+        <div className="card-meta-right">
+          <span className="meta-time">
+            {item.published_at ? formatTimeAgo(item.published_at) : 'Unknown'}
+          </span>
         </div>
       </div>
 
       <h3 className="card-title">
-        <a href={item.link} target="_blank" rel="noopener noreferrer">
+        <a href={item.url || item.link} target="_blank" rel="noopener noreferrer">
           {item.title}
         </a>
       </h3>
@@ -65,9 +71,7 @@ function NewsCard({ item }) {
         <div className="card-meta">
           <span className="meta-source">{item.source}</span>
           <span className="meta-divider">•</span>
-          <span className="meta-time">
-            {item.published_at ? formatTimeAgo(item.published_at) : 'Unknown'}
-          </span>
+          <span className="meta-relevance">Relevance: {getRelevanceLabel(item.score)}</span>
         </div>
 
         <div className="card-keywords">

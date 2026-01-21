@@ -19,6 +19,35 @@
   margin-bottom: 1rem;
 }
 
+.sort-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.sort-button {
+  padding: 0.75rem 1rem;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-primary);
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.sort-button:hover {
+  background: var(--bg-hover);
+  border-color: var(--accent-blue);
+}
+
+.sort-button.active {
+  background: rgba(74, 158, 255, 0.1);
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+}
+
 .category-list {
   display: flex;
   flex-direction: column;
