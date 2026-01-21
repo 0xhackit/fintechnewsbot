@@ -17,7 +17,11 @@ app = FastAPI(title="Fintech News Terminal API", version="1.0.0")
 # CORS middleware for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Update with your frontend domain in production
+    allow_origins=[
+        "http://localhost:3000",  # Local development
+        "https://*.vercel.app",   # Vercel deployments
+        "*"                       # Allow all (can restrict later)
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
