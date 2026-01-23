@@ -18,7 +18,10 @@ SIMILARITY_THRESHOLD = 0.75
 
 # Minimum score for an item to become an alert
 # Items with score below this threshold will be filtered out
-MIN_ALERT_SCORE = 20
+MIN_ALERT_SCORE = 35  # Lowered to 35 to catch more quality stories (funding, launches, etc.)
+
+# Exclude Telegram sources from alerts (wait for news article coverage)
+EXCLUDE_TELEGRAM_SOURCES = True
 
 
 def load_json(path: Path, default):
@@ -155,11 +158,13 @@ def main():
     skipped_no_link = 0
     skipped_similar = 0
     skipped_low_score = 0
+    skipped_telegram = 0
 
     for it in new_items:
         title = clean_title(it.get("title") or "")
         link = (it.get("link") or it.get("url") or "").strip()
         score = it.get("score", 0)
+        source_type = it.get("source_type", "")
 
         if not title:
             skipped_no_title += 1
@@ -167,6 +172,13 @@ def main():
         if not link:
             skipped_no_link += 1
             print(f"⚠️  No link for: {title[:60]}... (keys: {list(it.keys())})")
+            continue
+
+        # Exclude Telegram sources to prevent spam
+        # Wait for news article coverage before posting
+        if EXCLUDE_TELEGRAM_SOURCES and source_type == "telegram":
+            skipped_telegram += 1
+            print(f"📱 Skipping Telegram post (wait for news coverage): \"{title[:70]}...\"")
             continue
 
         # Filter out low-quality items based on score
@@ -219,8 +231,8 @@ def main():
     # Write drafts
     save_json(DRAFTS_PATH, drafts)
     print(f"📝 Wrote drafts: {DRAFTS_PATH} ({len(drafts)} drafts)")
-    if skipped_no_title or skipped_no_link or skipped_similar or skipped_low_score:
-        print(f"⚠️  Skipped: {skipped_no_title} no title, {skipped_no_link} no link, {skipped_low_score} low score, {skipped_similar} similar")
+    if skipped_no_title or skipped_no_link or skipped_similar or skipped_low_score or skipped_telegram:
+        print(f"⚠️  Skipped: {skipped_no_title} no title, {skipped_no_link} no link, {skipped_low_score} low score, {skipped_similar} similar, {skipped_telegram} telegram")
 
     # Keep only last 100 seen titles to prevent unbounded growth
     if len(seen_titles) > 100:

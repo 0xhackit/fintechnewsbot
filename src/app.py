@@ -106,6 +106,7 @@ def score_item(item: dict, now_utc: datetime) -> dict:
     """Attach `score` + `score_breakdown` to an item dict and return it."""
     text = f"{item.get('title','')} {item.get('snippet','')}".lower()
     title = (item.get('title', '')).lower()
+    source_type = item.get('source_type', '')
 
     tier1 = _count(TIER1_LAUNCH_PATTERNS, text)
     tier2 = _count(TIER2_ACTIVITY_PATTERNS, text)
@@ -120,6 +121,11 @@ def score_item(item: dict, now_utc: datetime) -> dict:
     listicle_penalty = -min(listicle * 100, 200)  # -100 per listicle pattern, max -200
     generic_penalty = -min(generic * 50, 100)  # -50 per generic pattern, max -100
 
+    # Downrank Telegram posts vs news articles
+    source_penalty = 0
+    if source_type == 'telegram':
+        source_penalty = -15  # Telegram posts get -15 point penalty vs news articles
+
     freshness = 0
     try:
         if item.get("published_at"):
@@ -132,7 +138,7 @@ def score_item(item: dict, now_utc: datetime) -> dict:
     except Exception:
         pass
 
-    score = launch_score + commentary_penalty + listicle_penalty + generic_penalty + freshness
+    score = launch_score + commentary_penalty + listicle_penalty + generic_penalty + source_penalty + freshness
 
     # Overrides: ensure launches outrank commentary
     if tier1 >= 1 and comm <= 1:
@@ -152,6 +158,7 @@ def score_item(item: dict, now_utc: datetime) -> dict:
         "listicle": listicle,
         "generic": generic,
         "freshness": freshness,
+        "source_penalty": source_penalty,
         "launch_score": launch_score,
         "commentary_penalty": commentary_penalty,
         "listicle_penalty": listicle_penalty,

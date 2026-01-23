@@ -1,5 +1,5 @@
 import React from 'react';
-import { formatDistanceToNow, format } from 'date-fns';
+import { format, differenceInDays, differenceInHours } from 'date-fns';
 
 function LiveStream({ items }) {
   const formatTime = (dateString) => {
@@ -11,123 +11,132 @@ function LiveStream({ items }) {
     }
   };
 
-  const getTimeAgo = (dateString) => {
+  const formatRelativeTime = (dateString) => {
     try {
       const date = new Date(dateString);
-      return formatDistanceToNow(date, { addSuffix: true });
+      const now = new Date();
+      const hoursAgo = differenceInHours(now, date);
+
+      if (hoursAgo < 1) {
+        return 'Just now';
+      } else if (hoursAgo < 24) {
+        return `${hoursAgo}h ago`;
+      } else {
+        const daysAgo = differenceInDays(now, date);
+        return `${daysAgo}d ago`;
+      }
     } catch {
-      return 'unknown';
+      return '--';
     }
+  };
+
+  const getShortTag = (topic) => {
+    const mapping = {
+      'Stablecoin adoption': 'Stablecoins',
+      'Crypto-native fintech launches': 'Fintech',
+      'Tokenization & RWA': 'RWA',
+      'Institutional crypto': 'Institutional',
+    };
+    return mapping[topic] || topic;
   };
 
   const getCategoryColor = (category) => {
     const colors = {
-      'Stablecoins': '#4a9eff',
-      'RWA': '#a55eea',
-      'Fintech': '#00d97e',
-      'Tokenization': '#f7b731',
-      'Regulation': '#ff6348',
-      'Funding': '#ff4757',
+      'Stablecoins': 'bg-blue-50 text-blue-700 border-blue-200',
+      'Stablecoin adoption': 'bg-blue-50 text-blue-700 border-blue-200',
+      'RWA': 'bg-purple-50 text-purple-700 border-purple-200',
+      'Tokenization': 'bg-amber-50 text-amber-700 border-amber-200',
+      'Tokenization & RWA': 'bg-purple-50 text-purple-700 border-purple-200',
+      'Regulation': 'bg-red-50 text-red-700 border-red-200',
+      'Funding': 'bg-pink-50 text-pink-700 border-pink-200',
+      'Fintech': 'bg-green-50 text-green-700 border-green-200',
+      'Crypto-native fintech launches': 'bg-green-50 text-green-700 border-green-200',
+      'Institutional crypto': 'bg-cyan-50 text-cyan-700 border-cyan-200',
+      'Institutional': 'bg-cyan-50 text-cyan-700 border-cyan-200',
     };
-    return colors[category] || '#4a9eff';
+    return colors[category] || 'bg-blue-50 text-blue-700 border-blue-200';
+  };
+
+  const getScorePriority = (score) => {
+    if (score >= 70) return 'high';
+    if (score >= 40) return 'medium';
+    return 'low';
   };
 
   if (items.length === 0) {
     return (
-      <div className="flex items-center justify-center h-64 text-zinc-500 text-sm">
+      <div className="flex items-center justify-center h-64 text-gray-500 text-sm">
         No items found. Try a different filter.
       </div>
     );
-  }
+  };
 
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full text-sm">
-        <thead className="sticky top-0 bg-zinc-950 border-b border-zinc-800">
-          <tr className="text-left text-zinc-400 text-xs uppercase">
-            <th className="px-3 sm:px-4 py-3 w-20">Time</th>
-            <th className="px-3 sm:px-4 py-3 w-32 hidden lg:table-cell">Source</th>
-            <th className="px-3 sm:px-4 py-3">Headline</th>
-            <th className="px-3 sm:px-4 py-3 w-64 hidden md:table-cell">Tags</th>
-          </tr>
-        </thead>
-        <tbody>
-          {items.map((item) => (
-            <tr
-              key={item.id}
-              onClick={() => window.open(item.url || item.link, '_blank')}
-              className="border-b border-zinc-800/50 cursor-pointer transition-all hover:bg-zinc-900"
-            >
-              {/* Time */}
-              <td className="px-3 sm:px-4 py-4 text-zinc-400 font-mono text-xs whitespace-nowrap align-top">
-                {formatTime(item.published_at)}
-              </td>
+    <div className="space-y-1">
+      {items.map((item, index) => {
+        const priority = getScorePriority(item.score || 0);
+        const hasMultipleSources = (item.cluster_size || 1) > 1;
 
-              {/* Source - Hidden on mobile/tablet */}
-              <td className="px-3 sm:px-4 py-4 text-zinc-500 text-xs truncate hidden lg:table-cell align-top">
+        return (
+          <div
+            key={item.id}
+            onClick={() => window.open(item.url || item.link, '_blank')}
+            className="p-4 cursor-pointer transition-colors duration-150 hover:bg-gray-50 border-b border-gray-100 last:border-b-0"
+          >
+            {/* Meta line: Time + Source */}
+            <div className="flex items-center gap-2 mb-2 text-xs text-gray-500">
+              <span>{formatRelativeTime(item.published_at)}</span>
+              <span>·</span>
+              <span className="text-gray-400">
                 {item.source === 'Google News RSS' && item.feed_name ? item.feed_name : item.source}
-              </td>
+              </span>
+              {hasMultipleSources && (
+                <>
+                  <span>·</span>
+                  <span className="text-blue-600 font-medium">
+                    {item.cluster_size} sources
+                  </span>
+                </>
+              )}
+            </div>
 
-              {/* Headline */}
-              <td className="px-3 sm:px-4 py-4 text-zinc-100 align-top">
-                <div className="flex flex-col gap-1">
-                  <span className="line-clamp-2 leading-relaxed">{item.title}</span>
-                  <div className="flex items-center gap-2 text-xs text-zinc-600">
-                    <span>{getTimeAgo(item.published_at)}</span>
-                    {/* Show source on mobile/tablet */}
-                    <span className="lg:hidden">• {item.source === 'Google News RSS' && item.feed_name ? item.feed_name : item.source}</span>
-                  </div>
-                  {/* Show tags on mobile */}
-                  <div className="md:hidden mt-2 flex flex-wrap gap-2">
-                    {item.categories?.slice(0, 3).map((cat, idx) => (
-                      <span
-                        key={idx}
-                        className="px-2.5 py-1 text-xs font-semibold rounded-full whitespace-nowrap"
-                        style={{
-                          color: getCategoryColor(cat),
-                          borderColor: getCategoryColor(cat),
-                          backgroundColor: `${getCategoryColor(cat)}15`,
-                          border: `1px solid ${getCategoryColor(cat)}40`
-                        }}
-                      >
-                        {cat}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </td>
+            {/* Headline */}
+            <h3 className="text-base font-medium text-gray-900 leading-snug mb-2">
+              {item.title}
+            </h3>
 
-              {/* Tags - Hidden on mobile */}
-              <td className="px-3 sm:px-4 py-4 hidden md:table-cell align-top">
-                <div className="flex flex-wrap gap-2">
-                  {item.categories?.slice(0, 3).map((cat, idx) => (
-                    <span
-                      key={idx}
-                      className="px-2.5 py-1 text-xs font-semibold rounded-full whitespace-nowrap"
-                      style={{
-                        color: getCategoryColor(cat),
-                        borderColor: getCategoryColor(cat),
-                        backgroundColor: `${getCategoryColor(cat)}15`,
-                        border: `1px solid ${getCategoryColor(cat)}40`
-                      }}
-                    >
-                      {cat}
-                    </span>
-                  ))}
-                  {item.matched_keywords?.slice(0, 2).map((kw, idx) => (
-                    <span
-                      key={`kw-${idx}`}
-                      className="px-2.5 py-1 text-xs rounded-full bg-zinc-800/50 text-zinc-400 border border-zinc-700/50 whitespace-nowrap"
-                    >
-                      {kw.toLowerCase()}
-                    </span>
-                  ))}
-                </div>
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+            {/* Snippet */}
+            {item.snippet && (
+              <p className="text-sm text-gray-600 leading-relaxed mb-3 line-clamp-2">
+                {item.snippet}
+              </p>
+            )}
+
+            {/* Tags */}
+            <div className="flex flex-wrap gap-1.5">
+              {item.matched_topics?.slice(0, 3).map((cat, idx) => {
+                const shortTag = getShortTag(cat);
+                return (
+                  <span
+                    key={idx}
+                    className={`px-2 py-0.5 text-xs font-medium rounded border ${getCategoryColor(shortTag)}`}
+                  >
+                    {shortTag}
+                  </span>
+                );
+              })}
+              {item.matched_keywords?.slice(0, 2).map((kw, idx) => (
+                <span
+                  key={`kw-${idx}`}
+                  className="px-2 py-0.5 text-xs rounded bg-gray-100 text-gray-600 border border-gray-200"
+                >
+                  {kw.toLowerCase()}
+                </span>
+              ))}
+            </div>
+          </div>
+        );
+      })}
     </div>
   );
 }

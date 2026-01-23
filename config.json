@@ -31,21 +31,36 @@
 
         "prnewswire_fintech": "https://www.prnewswire.com/rss/financial-services-latest-news/financial-technology-latest-news-list.rss",
 
-        "stripe_blog": "https://stripe.com/blog/feed.rss",
-        "revolut_news": "https://www.revolut.com/news/feed/",
-        "coinbase_blog": "https://www.coinbase.com/blog/rss.xml",
-        "plaid_blog": "https://plaid.com/blog/feed/",
-        "checkout_blog": "https://www.checkout.com/blog/feed",
-        "adyen_blog": "https://www.adyen.com/blog/feed",
-        "wise_blog": "https://wise.com/gb/blog/feed",
-        "brex_blog": "https://www.brex.com/blog/feed",
-        "block_news": "https://www.block.xyz/feed",
-        "paypal_newsroom": "https://newsroom.paypal-corp.com/feeds",
-        "marqeta_blog": "https://www.marqeta.com/blog/rss.xml",
-        "rapyd_blog": "https://www.rapyd.net/blog/feed/",
-        "nuvei_newsroom": "https://nuvei.com/newsroom/feed/",
-        "zerohash_blog": "https://zerohash.com/blog/feed/",
-        "circle_blog": "https://www.circle.com/blog/rss.xml"
+        "stripe_blog": "https://stripe.com/blog/feed.rss"
+      }
+    },
+    "company_blogs_disabled": {
+      "note": "These RSS feeds are currently blocked or unavailable",
+      "feeds": {
+        "revolut_news_disabled": "https://www.revolut.com/news/feed/",
+        "coinbase_blog_disabled": "https://www.coinbase.com/blog/rss.xml",
+        "plaid_blog_disabled": "https://plaid.com/blog/feed/",
+        "checkout_blog_disabled": "https://www.checkout.com/blog/feed",
+        "adyen_blog_disabled": "https://www.adyen.com/blog/feed",
+        "wise_blog_disabled": "https://wise.com/gb/blog/feed",
+        "brex_blog_disabled": "https://www.brex.com/blog/feed",
+        "block_news_disabled": "https://www.block.xyz/feed",
+        "paypal_newsroom_disabled": "https://newsroom.paypal-corp.com/feeds",
+        "marqeta_blog_disabled": "https://www.marqeta.com/blog/rss.xml",
+        "rapyd_blog_disabled": "https://www.rapyd.net/blog/feed/",
+        "nuvei_newsroom_disabled": "https://nuvei.com/newsroom/feed/",
+        "zerohash_blog_disabled": "https://zerohash.com/blog/feed/",
+        "circle_blog_disabled": "https://www.circle.com/blog/rss.xml"
+      }
+    },
+    "google_news_rss_company_news": {
+      "enabled": true,
+      "note": "Using Google News searches for company news instead of direct RSS feeds",
+      "feeds": {
+        "coinbase_news": "https://news.google.com/rss/search?q=Coinbase%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "circle_news": "https://news.google.com/rss/search?q=Circle%20USDC%20stablecoin%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "revolut_news": "https://news.google.com/rss/search?q=Revolut%20crypto%20when:1d&hl=en-US&gl=US&ceid=US:en",
+        "plaid_news": "https://news.google.com/rss/search?q=Plaid%20fintech%20when:1d&hl=en-US&gl=US&ceid=US:en"
       }
     },
     "treeofalpha": {
@@ -328,7 +343,10 @@
     "alerts": {
       "auto_approve": true,
       "post_to_telegram": true,
-      "post_to_x": false
+      "post_to_x": false,
+      "min_score_for_telegram": 50,
+      "exclude_telegram_sources": true,
+      "note": "Only post RSS/Google News articles with score >= 50. Telegram posts are excluded to prevent spam. Wait for news coverage before posting."
     },
     "output": {
       "json_path": "out/items_last24h.json",
