@@ -70,43 +70,24 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           if [ -f out/alerts_drafts.json ]; then
-            DRAFT_COUNT=$(python -c "import json; drafts = json.load(open('out/alerts_drafts.json')); print(len(drafts))")
+            DRAFT_COUNT=$(python -c "import json; print(len(json.load(open('out/alerts_drafts.json'))))")
             echo "📋 Found $DRAFT_COUNT draft(s) for Telegram"
 
             if [ "$DRAFT_COUNT" -gt "0" ]; then
-              # Create temporary Python script for posting
-              cat > /tmp/post_telegram_drafts.py << 'EOF'
-import json
-import asyncio
-import os
-from pathlib import Path
-from telegram import Bot
-
-async def post_drafts():
-    token = os.environ['TELEGRAM_BOT_TOKEN']
-    chat_id = os.environ['TELEGRAM_CHAT_ID']
-
-    drafts = json.loads(Path('out/alerts_drafts.json').read_text())
-    bot = Bot(token=token)
-
-    for draft in drafts:
-        message = draft.get('message_html', '')
-        if message:
-            await bot.send_message(
-                chat_id=chat_id,
-                text=message,
-                parse_mode='HTML',
-                disable_web_page_preview=True
-            )
-            print(f"✅ Posted to Telegram: {draft.get('title', '')[:60]}...")
-
-asyncio.run(post_drafts())
-EOF
-
-              python /tmp/post_telegram_drafts.py
+              # Use the dedicated posting script with error handling
+              python post_alerts_now.py || {
+                echo "❌ Failed to post to Telegram"
+                exit 1
+              }
+              echo "✅ Successfully posted $DRAFT_COUNT alert(s) to Telegram"
+            else
+              echo "📭 No new drafts to post (all items filtered or already seen)"
             fi
           else
-            echo "ℹ️  No drafts file found"
+            echo "⚠️  No drafts file found - pipeline may have failed"
+            python run.py || echo "❌ Pipeline failed"
+            python scripts/run_alerts.py --mode prepare || echo "❌ Alert generation failed"
+            exit 1
           fi
 
       - name: Post to X
@@ -133,6 +114,17 @@ EOF
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (auto-published)"
           git push
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          echo "❌ Workflow failed! Check logs above for details."
+          echo "Common issues:"
+          echo "  - Missing GitHub secrets (TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)"
+          echo "  - Telegram API errors"
+          echo "  - Pipeline fetch/scoring failures"
+          echo "  - Network issues"
+          # TODO: Add Slack/Discord webhook notification here
 
       - name: Skip message
         if: steps.check_config.outputs.auto_approve != 'true'
