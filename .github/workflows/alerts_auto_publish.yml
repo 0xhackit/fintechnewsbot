@@ -75,11 +75,12 @@ jobs:
 
             if [ "$DRAFT_COUNT" -gt "0" ]; then
               # Use the dedicated posting script with error handling
-              python post_alerts_now.py || {
+              if python post_alerts_now.py; then
+                echo "✅ Successfully posted $DRAFT_COUNT alert(s) to Telegram"
+              else
                 echo "❌ Failed to post to Telegram"
                 exit 1
-              }
-              echo "✅ Successfully posted $DRAFT_COUNT alert(s) to Telegram"
+              fi
             else
               echo "📭 No new drafts to post (all items filtered or already seen)"
             fi
