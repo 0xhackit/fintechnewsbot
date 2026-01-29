@@ -16,6 +16,9 @@ ITEMS_PATH = Path("out/items_last24h.json")
 # 0.0 = completely different, 1.0 = identical
 SIMILARITY_THRESHOLD = 0.75
 
+# Lower threshold for launch/funding stories (more aggressive dedup)
+LAUNCH_STORY_THRESHOLD = 0.60
+
 # Minimum score for an item to become an alert
 # Items with score below this threshold will be filtered out
 MIN_ALERT_SCORE = 35  # Lowered to 35 to catch more quality stories (funding, launches, etc.)
@@ -92,26 +95,157 @@ def title_similarity(title1: str, title2: str) -> float:
     return SequenceMatcher(None, norm1, norm2).ratio()
 
 
+def get_event_type(title: str) -> str | None:
+    """
+    Determine the event type from a title.
+    Returns: 'launch', 'funding', 'acquisition', or None
+    """
+    title_lower = title.lower()
+
+    # Launch keywords
+    if any(kw in title_lower for kw in ["launch", "launches", "launched", "launching",
+                                         "debut", "debuts", "debuted",
+                                         "introduce", "introduces", "introduced",
+                                         "unveil", "unveils", "unveiled",
+                                         "release", "releases", "released"]):
+        return "launch"
+
+    # Funding keywords
+    if any(kw in title_lower for kw in ["raises", "raised", "raise", "raising",
+                                        "funding", "funds", "funded",
+                                        "investment", "invests", "invested",
+                                        "series a", "series b", "series c",
+                                        "seed round", "round"]):
+        return "funding"
+
+    # M&A keywords
+    if any(kw in title_lower for kw in ["acquires", "acquired", "acquisition",
+                                        "merger", "merges", "merged",
+                                        "buys", "bought", "purchase"]):
+        return "acquisition"
+
+    return None
+
+
+def is_launch_or_funding_story(title: str) -> bool:
+    """
+    Check if title is about a product launch, funding round, or M&A.
+    These stories are especially prone to duplicates across sources.
+    """
+    return get_event_type(title) is not None
+
+
+def extract_key_entity(title: str) -> str:
+    """
+    Extract the primary company/entity from a title.
+    Simple extraction: get first 2-3 words (usually the company name).
+    """
+    # Remove common prefixes
+    t = re.sub(r'^(breaking|exclusive|alert|update):\s*', '', title, flags=re.IGNORECASE)
+
+    # Get first few words (likely company name)
+    words = t.strip().split()[:3]
+
+    # Normalize to lowercase for comparison
+    return " ".join(words).lower()
+
+
+def normalize_entity_name(entity: str) -> str:
+    """
+    Normalize company/entity names to catch variations.
+    E.g., "JP Morgan" vs "JPMorgan" vs "JPM"
+    """
+    entity_lower = entity.lower().strip()
+
+    # Common aliases for major financial institutions
+    # Add more as you discover duplicates
+    aliases = {
+        # Format: canonical_name: [list of variations]
+        "jpmorgan": ["jp morgan", "jpmorgan chase", "jpm", "jpmorgan chase"],
+        "bankofamerica": ["bank of america", "bofa", "boa", "b of a"],
+        "goldman": ["goldman sachs", "goldman", "gs"],
+        "blackrock": ["blackrock", "black rock"],
+        "coinbase": ["coinbase", "coinbase global"],
+        "circle": ["circle", "circle internet"],
+        "ripple": ["ripple", "ripple labs"],
+        "binance": ["binance", "binance.us", "binance us"],
+        "kraken": ["kraken", "kraken digital"],
+        "gemini": ["gemini", "gemini trust"],
+    }
+
+    # Check if entity matches any alias
+    for canonical, variations in aliases.items():
+        if any(var in entity_lower for var in variations):
+            return canonical
+
+    # If no match, return normalized entity
+    return entity_lower
+
+
 def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = SIMILARITY_THRESHOLD) -> tuple[bool, str | None]:
     """
     Check if title is similar to any previously seen title.
+    Uses dynamic threshold based on story type.
 
     Args:
         title: Title to check
         seen_titles: List of dicts with 'title' and optionally 'link'
-        threshold: Similarity threshold (0.0 to 1.0)
+        threshold: Base similarity threshold (0.0 to 1.0)
 
     Returns:
         Tuple of (is_similar, similar_title)
     """
+    current_event_type = get_event_type(title)
+    is_launch = current_event_type is not None
+
+    # Use stricter threshold for launch/funding stories
+    if is_launch:
+        threshold = LAUNCH_STORY_THRESHOLD
+
+    # Extract entity for launch stories (for additional matching)
+    current_entity = None
+    if is_launch:
+        current_entity = normalize_entity_name(extract_key_entity(title))
+
     for seen in seen_titles:
         seen_title = seen.get("title", "")
         if not seen_title:
             continue
 
+        # Standard text similarity check
         similarity = title_similarity(title, seen_title)
-        if similarity >= threshold:
-            return True, seen_title
+
+        # Special handling for launch/funding/acquisition stories
+        seen_event_type = get_event_type(seen_title)
+
+        if is_launch and seen_event_type is not None:
+            seen_entity = normalize_entity_name(extract_key_entity(seen_title))
+
+            # Check if entities are the same
+            same_entity = current_entity and seen_entity and current_entity == seen_entity
+
+            # Check if event types are the same
+            same_event = current_event_type == seen_event_type
+
+            if same_entity and same_event:
+                # Same entity + same event type: more aggressive dedup
+                # E.g., "JPMorgan launches Bitcoin ETF" vs "JP Morgan debuts BTC ETF"
+                if similarity >= 0.50:
+                    return True, seen_title
+            elif same_entity and not same_event:
+                # Same entity but different event: require high similarity
+                # E.g., "Goldman raises $100M" should NOT match "Goldman launches ETF"
+                if similarity >= 0.80:
+                    return True, seen_title
+            else:
+                # Different entities: require very high similarity
+                # This prevents "JPMorgan launches X" from blocking "Goldman launches X"
+                if similarity >= 0.85:
+                    return True, seen_title
+        else:
+            # Non-launch stories: use standard threshold
+            if similarity >= threshold:
+                return True, seen_title
 
     return False, None
 
