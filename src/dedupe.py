@@ -162,7 +162,7 @@ def _consensus_boost(unique_sources: int) -> int:
     return 15
 
 
-def cluster_and_select(items: list[dict], now_utc=None, sim_threshold: float = 0.82) -> list[dict]:
+def cluster_and_select(items: list[dict], now_utc=None, sim_threshold: float = 0.65) -> list[dict]:
     """Soft dedupe across sources by clustering similar titles.
 
     - Similarity: Jaccard over token sets of normalized titles.
