@@ -206,6 +206,45 @@ NOISE_PATTERNS = [
 ]
 
 
+
+
+# PR Newswire/BusinessWire-specific noise (corporate announcements)
+PR_NEWSWIRE_NOISE = [
+    "notice of extraordinary general meeting",
+    "notice of annual general meeting",
+    "notice of general meeting",
+    "notice of meeting",
+    "earnings call",
+    "quarterly results",
+    "quarterly earnings",
+    "financial results for",
+    "executive appointment",
+    "appoints new",
+    "announces appointment of",
+    "announces leadership",
+    "board of directors announces",
+    "dividend announcement",
+    "declares dividend",
+    "delisting notice",
+    "liquidation notice",
+    "voluntary delisting",
+    "annual shareholders meeting",
+    "to join board",
+    "elected to board",
+]
+
+
+def is_pr_noise(item: dict) -> bool:
+    """Filter out generic PR announcements (meeting notices, appointments, etc.)."""
+    url = item.get('url', '').lower()
+    if "prnewswire" not in url and "businesswire" not in url:
+        return False
+
+    text = f"{item.get('title','')} {item.get('snippet','')}".lower()
+    return any(pattern in text for pattern in PR_NEWSWIRE_NOISE)
+
+
+
 def has_crypto_anchor(item: dict) -> bool:
     text = f"{item.get('title','')} {item.get('snippet','')}".lower()
     return any(w in text for w in CRYPTO_ANCHORS)
@@ -294,6 +333,8 @@ def main() -> int:
         if not (m.get("matched_keywords") or m.get("matched_topics")):
             continue
         if is_noise(m):
+            continue
+        if is_pr_noise(m):
             continue
 
         # Crypto-anchor gate is useful for noisy Google News queries, but Telegram items
