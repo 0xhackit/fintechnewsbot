@@ -8,6 +8,7 @@ from .match import match_item
 from .dedupe import hard_dedupe, cluster_and_select
 from .output import write_json, write_markdown_digest
 from .utils import ensure_parent_dir
+from .improved_scoring import score_item_improved
 
 
 # =========================
@@ -351,7 +352,16 @@ def main() -> int:
     windowed = hard_dedupe(windowed)
 
     # 2) Base scoring
-    windowed_scored = [score_item(it, now_utc) for it in windowed]
+    # Use improved scoring
+    windowed_scored = []
+    for it in windowed:
+        tier1 = _count(TIER1_LAUNCH_PATTERNS, f"{it.get("title","")} {it.get("snippet","")}".lower())
+        tier2 = _count(TIER2_ACTIVITY_PATTERNS, f"{it.get("title","")} {it.get("snippet","")}".lower())
+        comm = _count(COMMENTARY_PATTERNS, f"{it.get("title","")} {it.get("snippet","")}".lower())
+        listicle = _count(LISTICLE_PATTERNS, it.get("title", "").lower())
+        generic = _count(GENERIC_PATTERNS, it.get("title", "").lower())
+        scored = score_item_improved(it, now_utc, tier1, tier2, comm, listicle, generic)
+        windowed_scored.append(scored)
 
     # 3) Cluster similar titles across sources, apply consensus boost, select representative
     windowed_clustered = cluster_and_select(windowed_scored, now_utc=now_utc)
