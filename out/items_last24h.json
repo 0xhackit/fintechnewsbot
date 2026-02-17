@@ -10,7 +10,7 @@
     "snippet": "Wintermute has launched institutional tokenized gold trading as the $5.4 billion sector surges 80% in three months.",
     "published_at": "2026-02-16T18:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "tokenized",
       "launches",
@@ -60,7 +60,7 @@
     "snippet": "In April 2022, Logan Paul raised $8 million to launch Liquid Marketplace, a platform for tokenizing physical and digital collectibles.",
     "published_at": "2026-02-17T08:19:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "tokenized",
       "launch"
@@ -73,65 +73,17 @@
       "id": "https://www.theblock.co/post/390092",
       "guidislink": false
     },
-    "score": 70,
+    "score": 64,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 60,
       "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "75617dfd1b652af1a150426267c5f9767861fd8f80c9f6ce8bf9e6e97b64b955",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Finery Markets adopts Fireblocks custody technology",
-    "url": "https://www.finextra.com/pressarticle/108854/finery-markets-adopts-fireblocks-custody-technology?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://www.finextra.com/pressarticle/108854/finery-markets-adopts-fireblocks-custody-technology",
-    "snippet": "Finery Markets, a leading ICT solutions provider for institutional digital asset trading, has integrated Fireblocks’ custody technology to automate off-exchange trading and settlement workflows.",
-    "published_at": "2026-02-16T14:13:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
-    "matched_keywords": [
-      "settlement",
-      "custody"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/108854/finery-markets-adopts-fireblocks-custody-technology?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 69,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 2,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 45,
-      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -157,7 +109,7 @@
     "snippet": "Tokenized real-world assets added 13.5% in 30 days, led by increasing activity on Ethereum, Arbitrum and Solana, even as the broader crypto market lost $1 trillion in value.",
     "published_at": "2026-02-16T17:35:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -194,6 +146,54 @@
     ]
   },
   {
+    "id": "1f5c8a6183020d7a38c4489a234f313fdf3fa8a1ac1f9c95f98f07dc89e7d1f1",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Binance holds 65% of CEX stablecoin reserves as outflows cool: CryptoQuant",
+    "url": "https://cointelegraph.com/news/stablecoin-outflows-slow-binance-65-cex-usdt-usdc-reserves?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/stablecoin-outflows-slow-binance-65-cex-usdt-usdc-reserves",
+    "snippet": "Stablecoin outflows slow to $2 billion as Binance consolidates 65% of CEX liquidity, signaling capital concentration even amid the ongoing crypto bear market.",
+    "published_at": "2026-02-17T13:55:26+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "reserves"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/stablecoin-outflows-slow-binance-65-cex-usdt-usdc-reserves",
+      "guidislink": true
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e8325080553cc66f7abe3dbb8222d60c3e8b1a15c33da112bc10b7e30dcf3eb4",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -204,7 +204,7 @@
     "snippet": "Ethereum’s tokenized real-world asset market cap has topped $17 billion, up nearly 315% year over year as more TradFi giants move onchain.",
     "published_at": "2026-02-17T11:15:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "tokenized",
       "RWA"
@@ -242,6 +242,53 @@
     ]
   },
   {
+    "id": "6d8ce92dc33627873cb475c0f6a0d0e1219e686bde2452ef49a68ec0c249e257",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Monad hires former FalconX, BVNK and Optimism executives",
+    "url": "https://cointelegraph.com/news/monad-hires-ex-falconx-bvnk-and-optimism-executives-to-drive-institutional-expansion-post-mainnet-embargo-feb-17?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/monad-hires-ex-falconx-bvnk-and-optimism-executives-to-drive-institutional-expansion-post-mainnet-embargo-feb-17",
+    "snippet": "The appointments add traditional finance and institutional crypto experience as the layer-1 blockchain scales its post-launch strategy.",
+    "published_at": "2026-02-17T14:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
+    "matched_keywords": [
+      "launch"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/monad-hires-ex-falconx-bvnk-and-optimism-executives-to-drive-institutional-expansion-post-mainnet-embargo-feb-17",
+      "guidislink": true
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "ff1f04a2c59e2df5269230126be8f77176a935cf250b6486deb94db828b90f35",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -252,7 +299,7 @@
     "snippet": "President Karol Nawrocki vetoed a second MiCA crypto bill, saying it was “practically identical” to a previous version, leaving local companies in limbo ahead of a summer MiCA deadline.",
     "published_at": "2026-02-17T11:58:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -297,7 +344,7 @@
     "snippet": "Bahrain FinTech Bay’s new AlloyX stablecoin pact lands as Japan fintech market is tipped to hit $32.6 billion Bez Kabli",
     "published_at": "2026-02-17T11:44:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -344,7 +391,7 @@
     "snippet": "Joachim Nagel said euro-pegged stablecoins would offer the bloc more independence from US dollar-pegged coins soon to be allowed under the GENIUS Act.",
     "published_at": "2026-02-16T21:56:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -392,7 +439,7 @@
     "snippet": "The addition is the first crypto company to be licensed by the Securities and Futures Commission since June 2025, when the regulator approved Hong Kong BGE.",
     "published_at": "2026-02-16T20:07:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "regulator"
     ],
@@ -437,7 +484,7 @@
     "snippet": "Nexo exited the US in 2022, citing regulatory hostility toward the crypto industry from federal and state financial regulators.",
     "published_at": "2026-02-16T14:37:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "regulatory"
     ],
@@ -474,100 +521,6 @@
     ]
   },
   {
-    "id": "a097c8bd086f42b350981f4490d7ef035ead5fc8f8b35dd810f08a4955ad31de",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "HM Treasury picks HSBC to provide platform for UK government's first blockchain bond issuance - Global Government Forum",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdlV0MVQtbE81OFVCdXZ0dk4xSlMzV0tfQ0FVYlVMYlZpTWlXLUJtYjV5Z003dDNVRlpMaVJFSjRmWHdUaWNlZ3YyVTdtcVhMR29xM3lKU1cweFh6bnRoRkV5dVRnUlZidEpHa0ZBQkhBUTRWRzNMSE5yTllXT3R0dU5YeFBsZkZ6c3FlVmY3R3ZBbzJ5aUZPUGdTODhaeFpLMTVwQXdMNkhQbnpZMVpQU1pXRncxRmlnMndURU4wTHVqRTQyMW50ckpUZw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdlV0MVQtbE81OFVCdXZ0dk4xSlMzV0tfQ0FVYlVMYlZpTWlXLUJtYjV5Z003dDNVRlpMaVJFSjRmWHdUaWNlZ3YyVTdtcVhMR29xM3lKU1cweFh6bnRoRkV5dVRnUlZidEpHa0ZBQkhBUTRWRzNMSE5yTllXT3R0dU5YeFBsZkZ6c3FlVmY3R3ZBbzJ5aUZPUGdTODhaeFpLMTVwQXdMNkhQbnpZMVpQU1pXRncxRmlnMndURU4wTHVqRTQyMW50ckpUZw?oc=5",
-    "snippet": "HM Treasury picks HSBC to provide platform for UK government's first blockchain bond issuance Global Government Forum",
-    "published_at": "2026-02-16T14:00:06+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
-    "matched_keywords": [
-      "issuance"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiywFBVV95cUxPdlV0MVQtbE81OFVCdXZ0dk4xSlMzV0tfQ0FVYlVMYlZpTWlXLUJtYjV5Z003dDNVRlpMaVJFSjRmWHdUaWNlZ3YyVTdtcVhMR29xM3lKU1cweFh6bnRoRkV5dVRnUlZidEpHa0ZBQkhBUTRWRzNMSE5yTllXT3R0dU5YeFBsZkZ6c3FlVmY3R3ZBbzJ5aUZPUGdTODhaeFpLMTVwQXdMNkhQbnpZMVpQU1pXRncxRmlnMndURU4wTHVqRTQyMW50ckpUZw",
-      "guidislink": false
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "a700da2b73715ee46620cc6072cd99057bd8353b024fa097abcd88ff77219cf9",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Swiat supports Bank of Greece in simulation of a digital sovereign bonds issuance on blockchain",
-    "url": "https://www.finextra.com/pressarticle/108859/swiat-supports-bank-of-greece-in-simulation-of-a-digital-sovereign-bonds-issuance-on-blockchain?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://www.finextra.com/pressarticle/108859/swiat-supports-bank-of-greece-in-simulation-of-a-digital-sovereign-bonds-issuance-on-blockchain",
-    "snippet": "SWIAT GmbH (“SWIAT\"), a German fintech company specialising in the development of blockchain software and a tokenisation platform for an open, decentralised financial market infrastructure, has supported Bank of Greece in “Project Sovereign”, a simulation of a digital sovereign bond issuance on the ",
-    "published_at": "2026-02-17T09:16:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
-    "matched_keywords": [
-      "issuance"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/108859/swiat-supports-bank-of-greece-in-simulation-of-a-digital-sovereign-bonds-issuance-on-blockchain?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "787ae39b6a0bcd174fda32df5a0a878557beb751e8b9850379539dcfda9f2e74",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -578,7 +531,7 @@
     "snippet": "The Wyoming-based crypto exchange said it wanted to give back to the state it calls home, which it chose for its “responsible” approach to crypto regulation.",
     "published_at": "2026-02-17T04:18:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -613,6 +566,51 @@
     ]
   },
   {
+    "id": "8929ac3cbc5ab13b9a985714009fe46a1695afeeb13a192f29491fa5074594b0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Here’s what happened in crypto today",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+    "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "published_at": "2026-02-17T14:29:42+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
+    "matched_keywords": [
+      "regulation"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "guidislink": true
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": -10,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "88e1638696d3667826e9e1770192cf15afb9c38964b03108e3f36dfc1c894c06",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -623,7 +621,7 @@
     "snippet": "Fast food chain Steak ’n Shake is crediting cryptocurrency for a boost in sales. “Nine months ago today, Steak n Shake launched its burger-to-Bitcoin transformation when we started accepting bitcoin payments,” the company wrote in a post on X Monday (Feb. 17). “Our same-store sales have risen dramat",
     "published_at": "2026-02-17T13:39:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -632,6 +630,51 @@
     ],
     "raw": {
       "id": "https://www.pymnts.com/?p=3487231",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "a25423f2074c4dd96b9fec945f101bbffb974a1c5ca94cbb382548bb4098f794",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "ACI Worldwide reports UK bank win for Connetic cloud-native platform",
+    "url": "https://www.finextra.com/pressarticle/108867/aci-worldwide-reports-uk-bank-win-for-connetic-cloud-native-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://www.finextra.com/pressarticle/108867/aci-worldwide-reports-uk-bank-win-for-connetic-cloud-native-platform",
+    "snippet": "ACI Worldwide (NASDAQ:ACIW), an original innovator in global payments technology, today announced a major step forward in the UK’s payments modernization journey as a leading UK retail bank chooses ACI Connetic — the industry’s first unified, cloud-native platform — for deployment.",
+    "published_at": "2026-02-17T13:38:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/108867/aci-worldwide-reports-uk-bank-win-for-connetic-cloud-native-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
     "score": 35,
@@ -670,7 +713,7 @@
     "snippet": "TON Foundation and Banxa have partnered to enable stablecoin payments for APAC merchants using TON infrastructure.",
     "published_at": "2026-02-17T11:31:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -720,7 +763,7 @@
     "snippet": "The move reflects a broader effort by crypto firms to lock in regulatory goodwill through long-term political and geographic alignment.",
     "published_at": "2026-02-17T05:44:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "regulatory"
     ],
@@ -755,51 +798,6 @@
     ]
   },
   {
-    "id": "8929ac3cbc5ab13b9a985714009fe46a1695afeeb13a192f29491fa5074594b0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Here’s what happened in crypto today",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-    "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-    "published_at": "2026-02-16T21:45:46+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
-    "matched_keywords": [
-      "regulation"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "guidislink": true
-    },
-    "score": 29,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": -10,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "4d7a046d7c2520b7c7458256658fe369e50ccec2c9fed2ee1082fed099b0c20f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -810,7 +808,7 @@
     "snippet": "",
     "published_at": "2026-02-16T17:01:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "regulator"
     ],
@@ -855,7 +853,7 @@
     "snippet": "OKX snags European payments license for stablecoin and crypto card expansion CoinDesk",
     "published_at": "2026-02-16T16:12:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "crypto card",
       "stablecoin"
@@ -904,7 +902,7 @@
     "snippet": "Top Presale Talking Point of 2026: IPO Genie and the Tokenization of Private Deals Cryptopolitan",
     "published_at": "2026-02-17T11:26:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -951,7 +949,7 @@
     "snippet": "'We do not do illegal things': Inside a U.S.-sanctioned stablecoin issuer's race to build a crypto giant CoinDesk",
     "published_at": "2026-02-16T21:56:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuer"
@@ -999,7 +997,7 @@
     "snippet": "Bank of New York Mellon Conference: Crypto Leaders See Stablecoins, Tokenized ETFs as Next Wave MarketBeat",
     "published_at": "2026-02-17T01:09:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1047,7 +1045,7 @@
     "snippet": "Changpeng Zhao called on the industry to prioritise crypto privacy features, arguing that the gap is holding back mainstream adoption.",
     "published_at": "2026-02-16T14:44:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -1094,7 +1092,7 @@
     "snippet": "Banxa and TON Team Up to Bring Stablecoin Payments to APAC CoinCentral",
     "published_at": "2026-02-17T12:29:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1143,7 +1141,7 @@
     "snippet": "77% of Crypto Users Would Open a Stablecoin Wallet With Their Bank, Survey Finds Finance Magnates",
     "published_at": "2026-02-17T11:52:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1191,7 +1189,7 @@
     "snippet": "A global survey of 4,658 crypto users found 39% receive income in stablecoins and 27% use them for payments, with stronger adoption in emerging markets.",
     "published_at": "2026-02-17T07:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1236,7 +1234,7 @@
     "snippet": "Stablecoin Payments Show Up at Checkout Despite Crypto Markets Slump PYMNTS.com",
     "published_at": "2026-02-16T20:13:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1285,7 +1283,7 @@
     "snippet": "NCUA proposes new stablecoin issuer application guidelines under GENIUS Act JD Supra",
     "published_at": "2026-02-16T19:12:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-17T13:46:49.240727+00:00",
+    "fetched_at": "2026-02-17T14:35:38.225639+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuer",
