@@ -341,7 +341,7 @@
     "alerts": {
       "auto_approve": true,
       "post_to_telegram": true,
-      "post_to_x": false,
+      "post_to_x": true,
       "min_score_for_telegram": 50,
       "exclude_telegram_sources": true,
       "note": "Only post RSS/Google News articles with score >= 50. Telegram posts are excluded to prevent spam. Wait for news coverage before posting."

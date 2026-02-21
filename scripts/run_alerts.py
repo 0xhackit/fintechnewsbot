@@ -2,12 +2,21 @@
 import argparse
 import hashlib
 import json
+import os
 import re
+import sys
 from pathlib import Path
 from difflib import SequenceMatcher
 
+# Ensure the project root is importable so `from src.ai_filter import ...` works
+# when run from the project directory (e.g., `python scripts/run_alerts.py`)
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+
 STATE_PATH = Path("state/seen_alerts.json")
 DRAFTS_PATH = Path("out/alerts_drafts.json")
+BLOCKLIST_PATH = Path("blocklist.json")
 
 # Change this if your pipeline writes items elsewhere
 ITEMS_PATH = Path("out/items_last24h.json")
@@ -26,12 +35,39 @@ MIN_ALERT_SCORE = 35  # Lowered to 35 to catch more quality stories (funding, la
 # Exclude Telegram sources from alerts (wait for news article coverage)
 EXCLUDE_TELEGRAM_SOURCES = True
 
+# ---------------------------------------------------------------------------
+# AI Filter toggle: set to True to enable AI classification + SQLite dedup.
+# Requires ANTHROPIC_API_KEY environment variable.
+# When disabled, the pipeline works exactly as before.
+# ---------------------------------------------------------------------------
+ENABLE_AI_FILTER = bool(os.environ.get("ANTHROPIC_API_KEY"))
+
 
 def load_json(path: Path, default):
     if not path.exists():
         return default
     with path.open("r", encoding="utf-8") as f:
         return json.load(f)
+
+
+def is_blocklisted(item: dict) -> tuple[bool, str]:
+    """Check if an item matches any blocklist rule. Returns (blocked, reason)."""
+    blocklist = load_json(BLOCKLIST_PATH, {"blocked_urls": [], "blocked_keywords": [], "blocked_sources": []})
+
+    item_url = (item.get("link") or item.get("url") or "").strip()
+    if item_url in blocklist.get("blocked_urls", []):
+        return True, f"blocked URL: {item_url}"
+
+    title_lower = (item.get("title") or "").lower()
+    for keyword in blocklist.get("blocked_keywords", []):
+        if keyword.lower() in title_lower:
+            return True, f"blocked keyword: {keyword}"
+
+    source = (item.get("source") or "").strip()
+    if source in blocklist.get("blocked_sources", []):
+        return True, f"blocked source: {source}"
+
+    return False, ""
 
 
 def save_json(path: Path, obj):
@@ -253,7 +289,28 @@ def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = S
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--mode", choices=["prepare"], default="prepare")
+    ap.add_argument("--no-ai", action="store_true", help="Disable AI filter even if ANTHROPIC_API_KEY is set")
     args = ap.parse_args()
+
+    # ---------------------------------------------------------------------------
+    # Initialize AI filter if enabled and API key is available
+    # ---------------------------------------------------------------------------
+    ai_filter = None
+    use_ai = ENABLE_AI_FILTER and not args.no_ai
+
+    if use_ai:
+        try:
+            from src.ai_filter import AIArticleFilter
+            ai_filter = AIArticleFilter()
+            print("🤖 AI filter: ENABLED (Claude claude-haiku-4-5-20251001 + SQLite dedup)")
+        except Exception as e:
+            print(f"⚠️  AI filter init failed ({e}), continuing without it")
+            ai_filter = None
+    else:
+        if args.no_ai:
+            print("🤖 AI filter: DISABLED (--no-ai flag)")
+        else:
+            print("🤖 AI filter: DISABLED (no ANTHROPIC_API_KEY)")
 
     # Load existing items (produced by your aggregator pipeline)
     items = load_json(ITEMS_PATH, [])
@@ -293,6 +350,9 @@ def main():
     skipped_similar = 0
     skipped_low_score = 0
     skipped_telegram = 0
+    skipped_blocklist = 0
+    skipped_ai_filter = 0       # NEW: count of AI-rejected articles
+    skipped_ai_duplicate = 0    # NEW: count of SQLite-deduped articles
 
     for it in new_items:
         title = clean_title(it.get("title") or "")
@@ -313,6 +373,13 @@ def main():
         if EXCLUDE_TELEGRAM_SOURCES and source_type == "telegram":
             skipped_telegram += 1
             print(f"📱 Skipping Telegram post (wait for news coverage): \"{title[:70]}...\"")
+            continue
+
+        # Check blocklist
+        blocked, block_reason = is_blocklisted(it)
+        if blocked:
+            skipped_blocklist += 1
+            print(f"🚫 Blocklisted ({block_reason}): \"{title[:70]}...\"")
             continue
 
         # Filter out low-quality items based on score
@@ -341,16 +408,61 @@ def main():
             print(f"   Similar to: \"{similar_title[:70]}...\"")
             continue
 
+        # -------------------------------------------------------------------
+        # AI FILTER: SQLite dedup + Claude classification (final quality gate)
+        # This runs AFTER all cheap/local filters to minimize API calls.
+        # -------------------------------------------------------------------
+        ai_decision = None  # Track the AI decision for this item
+
+        if ai_filter is not None:
+            try:
+                ai_decision = ai_filter.evaluate(it)
+
+                if not ai_decision["publish"]:
+                    if ai_decision.get("source") == "duplicate_check":
+                        skipped_ai_duplicate += 1
+                        print(f"🗄️  AI dedup: \"{title[:70]}...\"")
+                        print(f"   Reason: {ai_decision['reason']}")
+                    else:
+                        skipped_ai_filter += 1
+                        print(f"🤖 AI rejected [{ai_decision.get('category', '?')}]: \"{title[:70]}...\"")
+                        print(f"   Reason: {ai_decision['reason']}")
+                    continue
+
+                # AI approved — log the decision
+                print(
+                    f"✅ AI approved [{ai_decision.get('category', '?')}/{ai_decision.get('priority', '?')}]: "
+                    f"\"{title[:70]}...\""
+                )
+
+            except Exception as e:
+                # On error, fall through and publish (fail-open)
+                ai_decision = None
+                print(f"⚠️  AI filter error ({e}), defaulting to publish: \"{title[:60]}...\"")
+
         iid = stable_item_id(it)
 
-        drafts.append(
-            {
-                "id": iid,
-                "title": title,
-                "link": link,
-                "message_html": build_message_html(title, link),
-            }
-        )
+        # Build the draft entry
+        draft_entry = {
+            "id": iid,
+            "title": title,
+            "link": link,
+            "message_html": build_message_html(title, link),
+        }
+
+        # Include AI metadata if the filter was used and approved
+        if ai_decision and ai_decision.get("publish"):
+            draft_entry["ai_category"] = ai_decision.get("category", "")
+            draft_entry["ai_priority"] = ai_decision.get("priority", "")
+
+        drafts.append(draft_entry)
+
+        # Record in SQLite that this article will be posted (for future dedup)
+        if ai_filter is not None:
+            try:
+                ai_filter.record_posted(it, ai_decision or {})
+            except Exception as e:
+                print(f"⚠️  Failed to record posted article in SQLite: {e}")
 
         # Mark as seen so we don't re-create approval issues every 5 mins
         seen.add(iid)
@@ -362,11 +474,35 @@ def main():
             "id": iid
         })
 
+    # Clean up AI filter resources
+    if ai_filter is not None:
+        ai_filter.close()
+
     # Write drafts
     save_json(DRAFTS_PATH, drafts)
-    print(f"📝 Wrote drafts: {DRAFTS_PATH} ({len(drafts)} drafts)")
-    if skipped_no_title or skipped_no_link or skipped_similar or skipped_low_score or skipped_telegram:
-        print(f"⚠️  Skipped: {skipped_no_title} no title, {skipped_no_link} no link, {skipped_low_score} low score, {skipped_similar} similar, {skipped_telegram} telegram")
+    print(f"\n📝 Wrote drafts: {DRAFTS_PATH} ({len(drafts)} drafts)")
+
+    # Print skip summary
+    skip_parts = []
+    if skipped_no_title:
+        skip_parts.append(f"{skipped_no_title} no title")
+    if skipped_no_link:
+        skip_parts.append(f"{skipped_no_link} no link")
+    if skipped_low_score:
+        skip_parts.append(f"{skipped_low_score} low score")
+    if skipped_similar:
+        skip_parts.append(f"{skipped_similar} similar")
+    if skipped_telegram:
+        skip_parts.append(f"{skipped_telegram} telegram")
+    if skipped_blocklist:
+        skip_parts.append(f"{skipped_blocklist} blocklisted")
+    if skipped_ai_duplicate:
+        skip_parts.append(f"{skipped_ai_duplicate} AI dedup")
+    if skipped_ai_filter:
+        skip_parts.append(f"{skipped_ai_filter} AI rejected")
+
+    if skip_parts:
+        print(f"⚠️  Skipped: {', '.join(skip_parts)}")
 
     # Keep only last 100 seen titles to prevent unbounded growth
     if len(seen_titles) > 100:

@@ -58,12 +58,15 @@ jobs:
         run: |
           python run.py
 
-      - name: Prepare alert drafts
+      - name: Prepare alert drafts (with AI filter)
         if: steps.check_config.outputs.auto_approve == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/run_alerts.py --mode prepare
 
       - name: Post to Telegram
+        id: post_telegram
         if: steps.check_config.outputs.auto_approve == 'true' && steps.check_config.outputs.post_telegram == 'true'
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
@@ -74,24 +77,21 @@ jobs:
             echo "📋 Found $DRAFT_COUNT draft(s) for Telegram"
 
             if [ "$DRAFT_COUNT" -gt "0" ]; then
-              # Use the dedicated posting script with error handling
               if python post_alerts_now.py; then
                 echo "✅ Successfully posted $DRAFT_COUNT alert(s) to Telegram"
               else
                 echo "❌ Failed to post to Telegram"
-                exit 1
+                # Don't exit 1 here — let X posting still run
               fi
             else
               echo "📭 No new drafts to post (all items filtered or already seen)"
             fi
           else
-            echo "⚠️  No drafts file found - pipeline may have failed"
-            python run.py || echo "❌ Pipeline failed"
-            python scripts/run_alerts.py --mode prepare || echo "❌ Alert generation failed"
-            exit 1
+            echo "⚠️  No drafts file found"
           fi
 
       - name: Post to X
+        id: post_x
         if: steps.check_config.outputs.auto_approve == 'true' && steps.check_config.outputs.post_x == 'true'
         env:
           X_API_KEY: ${{ secrets.X_API_KEY }}
@@ -100,7 +100,14 @@ jobs:
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: |
           if [ -f out/alerts_drafts.json ]; then
-            python scripts/publish_x.py --from-drafts
+            DRAFT_COUNT=$(python -c "import json; print(len(json.load(open('out/alerts_drafts.json'))))")
+            echo "📋 Found $DRAFT_COUNT draft(s) for X"
+
+            if [ "$DRAFT_COUNT" -gt "0" ]; then
+              python scripts/publish_x.py --from-drafts
+            else
+              echo "📭 No drafts to post to X"
+            fi
           else
             echo "ℹ️  No drafts file found"
           fi
@@ -111,7 +118,7 @@ jobs:
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
 
-          git add state/seen_alerts.json out/items_last24h.json out/alerts_drafts.json || true
+          git add state/seen_alerts.json state/posted_articles.db out/items_last24h.json out/alerts_drafts.json filtered_log.txt || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (auto-published)"
           git push
