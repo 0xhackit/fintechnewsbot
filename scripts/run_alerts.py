@@ -8,11 +8,19 @@ import sys
 from pathlib import Path
 from difflib import SequenceMatcher
 
-# Ensure the project root is importable so `from src.ai_filter import ...` works
+# Ensure the project root is importable so `from src.* import ...` works
 # when run from the project directory (e.g., `python scripts/run_alerts.py`)
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
+
+from src.utils import (
+    normalize_title,
+    tokenize_title,
+    jaccard_similarity,
+    extract_entities,
+    get_event_type,
+)
 
 STATE_PATH = Path("state/seen_alerts.json")
 DRAFTS_PATH = Path("out/alerts_drafts.json")
@@ -101,187 +109,14 @@ def build_message_html(title: str, link: str) -> str:
     return f"<b>{safe_title}</b> <a href=\"{safe_link}\">...</a>"
 
 
-def normalize_title_for_comparison(title: str) -> str:
-    """
-    Normalize title for similarity comparison by removing common variations.
-    """
-    t = title.lower().strip()
-
-    # Remove source attribution (e.g., " - Reuters", " | Bloomberg")
-    t = re.sub(r'\s*[-|]\s*[a-z\s]+$', '', t)
-
-    # Remove common prefixes/suffixes
-    t = re.sub(r'^(breaking|exclusive|alert|update):\s*', '', t)
-    t = re.sub(r'\s*\(updated\)$', '', t)
-
-    # Normalize whitespace
-    t = re.sub(r'\s+', ' ', t).strip()
-
-    return t
-
-
 def title_similarity(title1: str, title2: str) -> float:
     """
     Calculate similarity between two titles (0.0 to 1.0).
-    Uses SequenceMatcher to find longest common subsequence.
+    Uses SequenceMatcher on normalized titles.
     """
-    norm1 = normalize_title_for_comparison(title1)
-    norm2 = normalize_title_for_comparison(title2)
-
+    norm1 = normalize_title(title1)
+    norm2 = normalize_title(title2)
     return SequenceMatcher(None, norm1, norm2).ratio()
-
-
-# ---------------------------------------------------------------------------
-# Token-based (Jaccard) similarity — catches paraphrased duplicates that
-# SequenceMatcher misses (e.g., "CME launches 24/7 crypto futures" vs
-# "CME targets May launch for 24/7 crypto derivatives trading")
-# ---------------------------------------------------------------------------
-
-_STOPWORDS = {
-    "the", "a", "an", "and", "or", "to", "of", "in", "on", "for", "with",
-    "as", "by", "from", "at", "is", "are", "was", "were", "be", "been",
-    "being", "it", "its", "this", "that", "these", "those", "after",
-    "before", "into", "over", "under", "about", "amid", "says", "said",
-    "report", "reports", "new", "will", "has", "have", "had", "not", "but",
-    "than", "more", "up", "out", "also", "could", "may", "can",
-}
-
-
-def _tokenize_title(title: str) -> set[str]:
-    """Tokenize a title into meaningful words (lowercase, no stopwords, no short words)."""
-    t = normalize_title_for_comparison(title)
-    t = re.sub(r"[^a-z0-9/\s]", " ", t)  # keep / for things like 24/7
-    tokens = {w for w in t.split() if w and w not in _STOPWORDS and len(w) > 2}
-    return tokens
-
-
-def _jaccard(a: set[str], b: set[str]) -> float:
-    """Jaccard similarity: |intersection| / |union|."""
-    if not a or not b:
-        return 0.0
-    return len(a & b) / len(a | b)
-
-
-# ---------------------------------------------------------------------------
-# Known entity names — used for entity-based dedup. When two titles mention
-# the same entity and have overlapping keywords, they're likely the same story.
-# ---------------------------------------------------------------------------
-
-_KNOWN_ENTITIES = [
-    "jpmorgan", "jp morgan", "goldman sachs", "goldman", "bank of america",
-    "citigroup", "citi", "morgan stanley", "wells fargo", "hsbc",
-    "barclays", "ubs", "deutsche bank", "bnp paribas", "standard chartered",
-    "blackrock", "fidelity", "vanguard", "state street", "franklin templeton",
-    "paypal", "visa", "mastercard", "stripe", "square", "block", "revolut",
-    "wise", "plaid", "marqeta", "adyen", "checkout.com", "klarna", "affirm",
-    "coinbase", "binance", "kraken", "gemini", "circle", "ripple",
-    "paxos", "anchorage", "anchorage digital", "bitstamp", "bybit", "okx",
-    "tether", "robinhood", "sofi", "brex",
-    "cme", "cme group", "sec", "cftc", "fed", "federal reserve",
-    "payoneer", "grab", "wirex",
-]
-
-
-def extract_entities(title: str) -> set[str]:
-    """
-    Extract all known entities mentioned in a title.
-    Returns a set of canonical entity names.
-    """
-    t = title.lower()
-    found = set()
-    # Check longest names first to avoid partial matches
-    for entity in sorted(_KNOWN_ENTITIES, key=len, reverse=True):
-        if entity in t:
-            # Use the shortest canonical form (e.g., "cme" not "cme group")
-            found.add(entity.split()[0])
-    return found
-
-
-def get_event_type(title: str) -> str | None:
-    """
-    Determine the event type from a title.
-    Returns: 'launch', 'funding', 'acquisition', or None
-    """
-    title_lower = title.lower()
-
-    # Launch keywords
-    if any(kw in title_lower for kw in ["launch", "launches", "launched", "launching",
-                                         "debut", "debuts", "debuted",
-                                         "introduce", "introduces", "introduced",
-                                         "unveil", "unveils", "unveiled",
-                                         "release", "releases", "released"]):
-        return "launch"
-
-    # Funding keywords
-    if any(kw in title_lower for kw in ["raises", "raised", "raise", "raising",
-                                        "funding", "funds", "funded",
-                                        "investment", "invests", "invested",
-                                        "series a", "series b", "series c",
-                                        "seed round", "round"]):
-        return "funding"
-
-    # M&A keywords
-    if any(kw in title_lower for kw in ["acquires", "acquired", "acquisition",
-                                        "merger", "merges", "merged",
-                                        "buys", "bought", "purchase"]):
-        return "acquisition"
-
-    return None
-
-
-def is_launch_or_funding_story(title: str) -> bool:
-    """
-    Check if title is about a product launch, funding round, or M&A.
-    These stories are especially prone to duplicates across sources.
-    """
-    return get_event_type(title) is not None
-
-
-def extract_key_entity(title: str) -> str:
-    """
-    Extract the primary company/entity from a title.
-    Simple extraction: get first 2-3 words (usually the company name).
-    """
-    # Remove common prefixes
-    t = re.sub(r'^(breaking|exclusive|alert|update):\s*', '', title, flags=re.IGNORECASE)
-
-    # Get first few words (likely company name)
-    words = t.strip().split()[:3]
-
-    # Normalize to lowercase for comparison
-    return " ".join(words).lower()
-
-
-def normalize_entity_name(entity: str) -> str:
-    """
-    Normalize company/entity names to catch variations.
-    E.g., "JP Morgan" vs "JPMorgan" vs "JPM"
-    """
-    entity_lower = entity.lower().strip()
-
-    # Common aliases for major financial institutions
-    # Add more as you discover duplicates
-    aliases = {
-        # Format: canonical_name: [list of variations]
-        "jpmorgan": ["jp morgan", "jpmorgan chase", "jpm", "jpmorgan chase"],
-        "bankofamerica": ["bank of america", "bofa", "boa", "b of a"],
-        "goldman": ["goldman sachs", "goldman", "gs"],
-        "blackrock": ["blackrock", "black rock"],
-        "coinbase": ["coinbase", "coinbase global"],
-        "circle": ["circle", "circle internet"],
-        "ripple": ["ripple", "ripple labs"],
-        "binance": ["binance", "binance.us", "binance us"],
-        "kraken": ["kraken", "kraken digital"],
-        "gemini": ["gemini", "gemini trust"],
-    }
-
-    # Check if entity matches any alias
-    for canonical, variations in aliases.items():
-        if any(var in entity_lower for var in variations):
-            return canonical
-
-    # If no match, return normalized entity
-    return entity_lower
 
 
 def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = SIMILARITY_THRESHOLD) -> tuple[bool, str | None]:
@@ -303,7 +138,7 @@ def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = S
     """
     current_event_type = get_event_type(title)
     is_launch = current_event_type is not None
-    current_tokens = _tokenize_title(title)
+    current_tokens = tokenize_title(title)
     current_entities = extract_entities(title)
 
     # Use stricter threshold for launch/funding stories
@@ -319,8 +154,8 @@ def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = S
         seq_sim = title_similarity(title, seen_title)
 
         # --- Method 2: Jaccard token overlap ---
-        seen_tokens = _tokenize_title(seen_title)
-        jac_sim = _jaccard(current_tokens, seen_tokens)
+        seen_tokens = tokenize_title(seen_title)
+        jac_sim = jaccard_similarity(current_tokens, seen_tokens)
 
         # --- Method 3: Entity + event overlap ---
         seen_entities = extract_entities(seen_title)
@@ -346,10 +181,15 @@ def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = S
             if seq_sim >= threshold:
                 return True, seen_title
 
-        # (B) Shared entity + meaningful token overlap = same story.
-        #     E.g., "Payoneer Adds Stablecoin Capabilities" vs
-        #           "Payoneer, Wirex add stablecoin payment capabilities"
-        #     Jaccard 0.30 with a shared entity is strong evidence.
+        # (B) Shared entities + meaningful token overlap = same story.
+        #     - 2+ shared entities: very strong signal, low Jaccard bar (0.10)
+        #       E.g., "Citigroup Hires From Binance for Digital Assets" vs
+        #             "Citi poaches Binance, Ripple execs in digital asset hiring blitz"
+        #     - 1 shared entity: needs moderate Jaccard (0.25)
+        #       E.g., "Payoneer Adds Stablecoin Capabilities" vs
+        #             "Payoneer, Wirex add stablecoin payment capabilities"
+        if len(shared_entities) >= 2 and jac_sim >= 0.10:
+            return True, seen_title
         if shared_entities and jac_sim >= 0.25:
             return True, seen_title
 

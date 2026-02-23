@@ -32,6 +32,8 @@ from pathlib import Path
 from difflib import SequenceMatcher
 from typing import Optional
 
+from .utils import normalize_title
+
 # ---------------------------------------------------------------------------
 # Configuration (override these at the top of your script or via config.json)
 # ---------------------------------------------------------------------------
@@ -126,16 +128,8 @@ class ArticleDatabase:
         return hashlib.sha256((url or "").strip().lower().encode("utf-8")).hexdigest()
 
     def _normalize_title(self, title: str) -> str:
-        """Normalize title for comparison: lowercase, strip whitespace."""
-        import re
-        t = (title or "").strip().lower()
-        # Remove source attribution (e.g., " - Reuters", " | Bloomberg")
-        t = re.sub(r'\s*[-|]\s*[a-z\s]+$', '', t)
-        # Remove common prefixes
-        t = re.sub(r'^(breaking|exclusive|alert|update):\s*', '', t)
-        # Normalize whitespace
-        t = re.sub(r'\s+', ' ', t).strip()
-        return t
+        """Normalize title for comparison — delegates to shared utils."""
+        return normalize_title(title)
 
     def is_duplicate(self, url: str, title: str, threshold: float = SIMILARITY_THRESHOLD) -> tuple[bool, str]:
         """
