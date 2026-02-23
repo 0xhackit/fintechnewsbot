@@ -343,8 +343,9 @@
       "post_to_telegram": true,
       "post_to_x": true,
       "min_score_for_telegram": 50,
+      "min_score_for_x": 60,
       "exclude_telegram_sources": true,
-      "note": "Only post RSS/Google News articles with score >= 50. Telegram posts are excluded to prevent spam. Wait for news coverage before posting."
+      "note": "Telegram gets all articles (score >= 35). X gets only premium articles (score >= 60) with AI-enhanced formatting."
     },
     "output": {
       "json_path": "out/items_last24h.json",

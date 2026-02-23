@@ -363,6 +363,9 @@ def main():
             "title": title,
             "link": link,
             "message_html": build_message_html(title, link),
+            "score": score,
+            "snippet": (it.get("snippet") or "")[:300],
+            "matched_topics": it.get("matched_topics", []),
         }
 
         # Include AI metadata if the filter was used and approved
