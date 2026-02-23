@@ -103,70 +103,6 @@ def _count(patterns, text: str) -> int:
     return sum(1 for p in patterns if re.search(p, t))
 
 
-def score_item(item: dict, now_utc: datetime) -> dict:
-    """Attach `score` + `score_breakdown` to an item dict and return it."""
-    text = f"{item.get('title','')} {item.get('snippet','')}".lower()
-    title = (item.get('title', '')).lower()
-    source_type = item.get('source_type', '')
-
-    tier1 = _count(TIER1_LAUNCH_PATTERNS, text)
-    tier2 = _count(TIER2_ACTIVITY_PATTERNS, text)
-    comm = _count(COMMENTARY_PATTERNS, text)
-    listicle = _count(LISTICLE_PATTERNS, title)  # Only check title for listicles
-    generic = _count(GENERIC_PATTERNS, title)  # Only check title for generic
-
-    launch_score = min(tier1 * 25, 60) + min(tier2 * 10, 30)
-    commentary_penalty = -min(comm * 20, 50)
-
-    # Heavy penalties for low-quality content
-    listicle_penalty = -min(listicle * 100, 200)  # -100 per listicle pattern, max -200
-    generic_penalty = -min(generic * 50, 100)  # -50 per generic pattern, max -100
-
-    # Downrank Telegram posts vs news articles
-    source_penalty = 0
-    if source_type == 'telegram':
-        source_penalty = -15  # Telegram posts get -15 point penalty vs news articles
-
-    freshness = 0
-    try:
-        if item.get("published_at"):
-            dt = datetime.fromisoformat(item["published_at"].replace("Z", "+00:00"))
-            hours = (now_utc - dt).total_seconds() / 3600
-            if hours <= 6:
-                freshness = 10
-            elif hours <= 24:
-                freshness = 4
-    except Exception:
-        pass
-
-    score = launch_score + commentary_penalty + listicle_penalty + generic_penalty + source_penalty + freshness
-
-    # Overrides: ensure launches outrank commentary
-    if tier1 >= 1 and comm <= 1:
-        score = max(score, 35)
-    if comm >= 2 and tier1 == 0:
-        score = min(score, 10)
-
-    # Hard reject listicles and generic content (score goes negative or very low)
-    if listicle >= 1 or generic >= 1:
-        score = min(score, -50)  # Force very low score
-
-    item["score"] = int(score)
-    item["score_breakdown"] = {
-        "tier1": tier1,
-        "tier2": tier2,
-        "commentary": comm,
-        "listicle": listicle,
-        "generic": generic,
-        "freshness": freshness,
-        "source_penalty": source_penalty,
-        "launch_score": launch_score,
-        "commentary_penalty": commentary_penalty,
-        "listicle_penalty": listicle_penalty,
-        "generic_penalty": generic_penalty,
-    }
-    return item
-
 
 # =========================
 # Hard filters (noise kill + crypto anchor gate)
@@ -255,6 +191,32 @@ def is_noise(item: dict) -> bool:
     return any(p in text for p in NOISE_PATTERNS)
 
 
+def load_blocklist(path: str = "blocklist.json") -> dict:
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return {"blocked_urls": [], "blocked_keywords": [], "blocked_sources": []}
+
+
+def is_blocklisted(item: dict, blocklist: dict) -> bool:
+    """Check if an item matches any blocklist rule."""
+    item_url = (item.get("url") or item.get("canonical_url") or "").strip()
+    if item_url in blocklist.get("blocked_urls", []):
+        return True
+
+    title_lower = (item.get("title") or "").lower()
+    for keyword in blocklist.get("blocked_keywords", []):
+        if keyword.lower() in title_lower:
+            return True
+
+    source = (item.get("source") or "").strip()
+    if source in blocklist.get("blocked_sources", []):
+        return True
+
+    return False
+
+
 def load_config(path: str = "config.json") -> dict:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -326,6 +288,9 @@ def main() -> int:
 
     print(f"🧹 Normalized items: {len(normalized)}")
 
+    blocklist = load_blocklist()
+    blocked_count = 0
+
     matched = []
     for item in normalized:
         m = match_item(item, cfg.get("keywords", []), cfg.get("topics", []))
@@ -335,6 +300,9 @@ def main() -> int:
         if is_noise(m):
             continue
         if is_pr_noise(m):
+            continue
+        if is_blocklisted(m, blocklist):
+            blocked_count += 1
             continue
 
         # Crypto-anchor gate is useful for noisy Google News queries, but Telegram items
@@ -347,6 +315,8 @@ def main() -> int:
         matched.append(m)
 
     print(f"🎯 Matched items: {len(matched)}")
+    if blocked_count:
+        print(f"🚫 Blocklisted items: {blocked_count}")
 
     src_counts = Counter([i.get("source") for i in matched])
     print("🏷 Top sources:", src_counts.most_common(10))
