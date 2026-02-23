@@ -131,6 +131,72 @@ def title_similarity(title1: str, title2: str) -> float:
     return SequenceMatcher(None, norm1, norm2).ratio()
 
 
+# ---------------------------------------------------------------------------
+# Token-based (Jaccard) similarity — catches paraphrased duplicates that
+# SequenceMatcher misses (e.g., "CME launches 24/7 crypto futures" vs
+# "CME targets May launch for 24/7 crypto derivatives trading")
+# ---------------------------------------------------------------------------
+
+_STOPWORDS = {
+    "the", "a", "an", "and", "or", "to", "of", "in", "on", "for", "with",
+    "as", "by", "from", "at", "is", "are", "was", "were", "be", "been",
+    "being", "it", "its", "this", "that", "these", "those", "after",
+    "before", "into", "over", "under", "about", "amid", "says", "said",
+    "report", "reports", "new", "will", "has", "have", "had", "not", "but",
+    "than", "more", "up", "out", "also", "could", "may", "can",
+}
+
+
+def _tokenize_title(title: str) -> set[str]:
+    """Tokenize a title into meaningful words (lowercase, no stopwords, no short words)."""
+    t = normalize_title_for_comparison(title)
+    t = re.sub(r"[^a-z0-9/\s]", " ", t)  # keep / for things like 24/7
+    tokens = {w for w in t.split() if w and w not in _STOPWORDS and len(w) > 2}
+    return tokens
+
+
+def _jaccard(a: set[str], b: set[str]) -> float:
+    """Jaccard similarity: |intersection| / |union|."""
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a | b)
+
+
+# ---------------------------------------------------------------------------
+# Known entity names — used for entity-based dedup. When two titles mention
+# the same entity and have overlapping keywords, they're likely the same story.
+# ---------------------------------------------------------------------------
+
+_KNOWN_ENTITIES = [
+    "jpmorgan", "jp morgan", "goldman sachs", "goldman", "bank of america",
+    "citigroup", "citi", "morgan stanley", "wells fargo", "hsbc",
+    "barclays", "ubs", "deutsche bank", "bnp paribas", "standard chartered",
+    "blackrock", "fidelity", "vanguard", "state street", "franklin templeton",
+    "paypal", "visa", "mastercard", "stripe", "square", "block", "revolut",
+    "wise", "plaid", "marqeta", "adyen", "checkout.com", "klarna", "affirm",
+    "coinbase", "binance", "kraken", "gemini", "circle", "ripple",
+    "paxos", "anchorage", "anchorage digital", "bitstamp", "bybit", "okx",
+    "tether", "robinhood", "sofi", "brex",
+    "cme", "cme group", "sec", "cftc", "fed", "federal reserve",
+    "payoneer", "grab", "wirex",
+]
+
+
+def extract_entities(title: str) -> set[str]:
+    """
+    Extract all known entities mentioned in a title.
+    Returns a set of canonical entity names.
+    """
+    t = title.lower()
+    found = set()
+    # Check longest names first to avoid partial matches
+    for entity in sorted(_KNOWN_ENTITIES, key=len, reverse=True):
+        if entity in t:
+            # Use the shortest canonical form (e.g., "cme" not "cme group")
+            found.add(entity.split()[0])
+    return found
+
+
 def get_event_type(title: str) -> str | None:
     """
     Determine the event type from a title.
@@ -221,67 +287,76 @@ def normalize_entity_name(entity: str) -> str:
 def is_similar_to_seen(title: str, seen_titles: list[dict], threshold: float = SIMILARITY_THRESHOLD) -> tuple[bool, str | None]:
     """
     Check if title is similar to any previously seen title.
-    Uses dynamic threshold based on story type.
+
+    Uses THREE complementary methods:
+      1. SequenceMatcher (catches reworded titles with similar character sequences)
+      2. Jaccard token overlap (catches paraphrased titles sharing key terms)
+      3. Entity + event matching (catches "CME launches X" vs "CME targets X launch")
 
     Args:
         title: Title to check
         seen_titles: List of dicts with 'title' and optionally 'link'
-        threshold: Base similarity threshold (0.0 to 1.0)
+        threshold: Base SequenceMatcher similarity threshold (0.0 to 1.0)
 
     Returns:
         Tuple of (is_similar, similar_title)
     """
     current_event_type = get_event_type(title)
     is_launch = current_event_type is not None
+    current_tokens = _tokenize_title(title)
+    current_entities = extract_entities(title)
 
     # Use stricter threshold for launch/funding stories
     if is_launch:
         threshold = LAUNCH_STORY_THRESHOLD
-
-    # Extract entity for launch stories (for additional matching)
-    current_entity = None
-    if is_launch:
-        current_entity = normalize_entity_name(extract_key_entity(title))
 
     for seen in seen_titles:
         seen_title = seen.get("title", "")
         if not seen_title:
             continue
 
-        # Standard text similarity check
-        similarity = title_similarity(title, seen_title)
+        # --- Method 1: SequenceMatcher (original) ---
+        seq_sim = title_similarity(title, seen_title)
 
-        # Special handling for launch/funding/acquisition stories
+        # --- Method 2: Jaccard token overlap ---
+        seen_tokens = _tokenize_title(seen_title)
+        jac_sim = _jaccard(current_tokens, seen_tokens)
+
+        # --- Method 3: Entity + event overlap ---
+        seen_entities = extract_entities(seen_title)
+        shared_entities = current_entities & seen_entities
         seen_event_type = get_event_type(seen_title)
 
+        # ----- Decision logic -----
+
+        # (A) High SequenceMatcher similarity — same as before
         if is_launch and seen_event_type is not None:
-            seen_entity = normalize_entity_name(extract_key_entity(seen_title))
-
-            # Check if entities are the same
-            same_entity = current_entity and seen_entity and current_entity == seen_entity
-
-            # Check if event types are the same
-            same_event = current_event_type == seen_event_type
-
-            if same_entity and same_event:
-                # Same entity + same event type: more aggressive dedup
-                # E.g., "JPMorgan launches Bitcoin ETF" vs "JP Morgan debuts BTC ETF"
-                if similarity >= 0.50:
+            if shared_entities and current_event_type == seen_event_type:
+                # Same entity + same event: very aggressive dedup
+                if seq_sim >= 0.50 or jac_sim >= 0.30:
                     return True, seen_title
-            elif same_entity and not same_event:
-                # Same entity but different event: require high similarity
-                # E.g., "Goldman raises $100M" should NOT match "Goldman launches ETF"
-                if similarity >= 0.80:
+            elif shared_entities:
+                # Same entity, different event: be careful
+                if seq_sim >= 0.80:
                     return True, seen_title
             else:
-                # Different entities: require very high similarity
-                # This prevents "JPMorgan launches X" from blocking "Goldman launches X"
-                if similarity >= 0.85:
+                if seq_sim >= 0.85:
                     return True, seen_title
         else:
-            # Non-launch stories: use standard threshold
-            if similarity >= threshold:
+            if seq_sim >= threshold:
                 return True, seen_title
+
+        # (B) Shared entity + meaningful token overlap = same story.
+        #     E.g., "Payoneer Adds Stablecoin Capabilities" vs
+        #           "Payoneer, Wirex add stablecoin payment capabilities"
+        #     Jaccard 0.30 with a shared entity is strong evidence.
+        if shared_entities and jac_sim >= 0.25:
+            return True, seen_title
+
+        # (C) High Jaccard alone (no known entity, but heavy word overlap)
+        #     E.g., two articles about the same niche topic from different outlets
+        if jac_sim >= 0.50:
+            return True, seen_title
 
     return False, None
 
