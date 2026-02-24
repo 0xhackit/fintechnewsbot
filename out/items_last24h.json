@@ -10,7 +10,7 @@
     "snippet": "TRM Labs, the leading blockchain intelligence platform, today announced a partnership with Finray Technologies, a unified banking infrastructure and compliance intelligence technology company serving regulated financial institutions operating across fiat and digital-asset markets.",
     "published_at": "2026-02-24T16:27:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "compliance"
     ],
@@ -21,14 +21,14 @@
       "id": "https://www.finextra.com/pressarticle/108960/trm-works-with-finray-to-deliver-audit-ready-crypto-transaction-monitoring?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 105,
+    "score": 99,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 30,
@@ -47,51 +47,97 @@
     ]
   },
   {
-    "id": "74ff3dc20ff9a9c46b287d8bdb81290577d1bb06c39683b810a6d0773612af82",
+    "id": "178c3e2d5d1a05f6e5ff661dddce5c6cad51769aefccbcb42f143f63701301c0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Meta Hopes to Launch Stablecoin Payments Project This Year",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/meta-hopes-launch-stablecoin-payments-project-this-year/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/meta-hopes-launch-stablecoin-payments-project-this-year/",
-    "snippet": "Meta is hoping to enter the stablecoin payment space sometime this year, CoinDesk reported Tuesday (Feb. 24), citing unnamed sources. The move would happen if the Facebook owner is successful in integrating with a third-party company to facilitate stablecoin payments, the report said. Meta wants to ",
-    "published_at": "2026-02-24T18:10:37+00:00",
+    "feed_name": "ledger_insights",
+    "title": "Kraken launches perpetual futures on tokenized stocks, xStocks",
+    "url": "https://www.ledgerinsights.com/kraken-launches-perpetual-futures-on-tokenized-stocks-xstocks/",
+    "canonical_url": "https://ledgerinsights.com/kraken-launches-perpetual-futures-on-tokenized-stocks-xstocks/",
+    "snippet": "Crypto exchange Kraken has launched perpetual futures (perps) for 10 of its tokenized stocks, xStocks, which it acquired last year and which has since surpassed $25 billion in cumulative trading volumes. The perps track the Nasdaq and S&P indices, gold, and seven popular US stocks such as Apple, Nvi",
+    "published_at": "2026-02-24T18:42:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "launch"
+      "tokenized",
+      "launches",
+      "launched"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3507940",
+      "id": "https://ledgerinsights.com/?p=41937",
       "guidislink": false
     },
-    "score": 90,
+    "score": 95,
     "score_breakdown": {
-      "tier1": 3,
-      "tier2": 0,
+      "tier1": 1,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 2
+      "cluster_size": 1
     },
     "consensus_boost": 0,
-    "cluster_size": 2,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "2890e56dbe0f0ea22d2e0ff390726e97c2c36024ebd38da2229e7b9e0f251504",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "ESMA warns crypto perpetual derivatives likely fall under CFD rules",
+    "url": "https://cointelegraph.com/news/crypto-derivatives-eu-regulations-esma?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/crypto-derivatives-eu-regulations-esma",
+    "snippet": "The EU authority tracking compliance under the MiCA framework issued a warning to those marketing crypto derivatives as “perpetual futures or perpetual contracts.”",
+    "published_at": "2026-02-24T22:00:05+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
+    "matched_keywords": [
+      "MiCA",
+      "compliance"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/crypto-derivatives-eu-regulations-esma",
+      "guidislink": true
+    },
+    "score": 90,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -107,7 +153,7 @@
     "snippet": "The approval allows WisdomTree’s tokenized Treasury money market fund to trade and settle around the clock within the US regulatory framework.",
     "published_at": "2026-02-24T17:26:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized treasury",
       "money market fund",
@@ -148,54 +194,6 @@
     ]
   },
   {
-    "id": "80772751198e8f405b7239ca846893904f60f465b9373c39ac18d586e0b1f705",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Mark Zuckerberg's Meta is planning stablecoin comeback in the second half amid U.S. regulatory shift - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSjhHQktjaWVBRFlsVEotYTU2QUlXMFFvYlJ2NjhzbUJFSHU2N0E2YVlKMTg5VUtPM3Y0d042VWVtNzdDV1lneF94bzdjWTdGRnZSNFlTbENOQkJsRmMzOXhuNzF2eDFNdmhpbHZpZnA3MHFzWndMTmJfeXQtSDJuZXNLQnJUREtseWVlS1F0MDhvYjBNMTB1OEtiUk9kRTN1VHBMOGRmNjZyRnJRMC1zNnNmWTZFWnIwa0xaMjl5eHRyS045enNvQ2lJUQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSjhHQktjaWVBRFlsVEotYTU2QUlXMFFvYlJ2NjhzbUJFSHU2N0E2YVlKMTg5VUtPM3Y0d042VWVtNzdDV1lneF94bzdjWTdGRnZSNFlTbENOQkJsRmMzOXhuNzF2eDFNdmhpbHZpZnA3MHFzWndMTmJfeXQtSDJuZXNLQnJUREtseWVlS1F0MDhvYjBNMTB1OEtiUk9kRTN1VHBMOGRmNjZyRnJRMC1zNnNmWTZFWnIwa0xaMjl5eHRyS045enNvQ2lJUQ?oc=5",
-    "snippet": "Mark Zuckerberg's Meta is planning stablecoin comeback in the second half amid U.S. regulatory shift CoinDesk",
-    "published_at": "2026-02-24T14:50:41+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "regulatory"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiywFBVV95cUxNSjhHQktjaWVBRFlsVEotYTU2QUlXMFFvYlJ2NjhzbUJFSHU2N0E2YVlKMTg5VUtPM3Y0d042VWVtNzdDV1lneF94bzdjWTdGRnZSNFlTbENOQkJsRmMzOXhuNzF2eDFNdmhpbHZpZnA3MHFzWndMTmJfeXQtSDJuZXNLQnJUREtseWVlS1F0MDhvYjBNMTB1OEtiUk9kRTN1VHBMOGRmNjZyRnJRMC1zNnNmWTZFWnIwa0xaMjl5eHRyS045enNvQ2lJUQ",
-      "guidislink": false
-    },
-    "score": 74,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "ec51ef23de30b2bcfba29b8515093952cf07ace30a30c1d331e75a7069dcd6af",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -206,7 +204,7 @@
     "snippet": "Payments giant Stripe made a tender offer valuing the firm at $159 billion as payments and stablecoin volumes rise.",
     "published_at": "2026-02-24T21:29:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -253,7 +251,7 @@
     "snippet": "WisdomTree is enabling instant settlement for its tokenized money market fund, indicating its product won't be limited by Wall Street’s pace.",
     "published_at": "2026-02-24T17:54:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "money market fund",
       "settlement",
@@ -304,7 +302,7 @@
     "snippet": "Another ETF tracking the price of Sui has launched this week, as digital asset manager 21shares debuts the 21Shares Spot SUI ETF.",
     "published_at": "2026-02-24T17:05:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "launch",
       "launched"
@@ -352,7 +350,7 @@
     "snippet": "Better and Framework Ventures agreed to a $500 million credit plan via Sky's stablecoin ecosystem alongside a $45 million equity investment.",
     "published_at": "2026-02-24T14:04:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin",
       "tokenization",
@@ -403,7 +401,7 @@
     "snippet": "",
     "published_at": "2026-02-24T13:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "cross-border",
       "tokenization"
@@ -442,6 +440,56 @@
     ]
   },
   {
+    "id": "abe7f02cedb56b3a959af210e0b1f54b654d9f48d75e5b72b111b11ee3c9d460",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Meta Hopes to Launch Stablecoin Payments Project This Year - PYMNTS.com",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3pnMzhGTjF6TVdzaGlhZEdDSnpJRnV5U3dKZHIwT3BUSVh5NERGcGtxQW1majlOa2NwU1VoVkRVY1dPNENFWVNpQnM1RmR2dlJXVm5SZnZ5c3lYZjllM01UeDREbFVnYkpoYWdGXy1rOExLLWstTnN3WFQ0T1U5T1BRSzZXNFBjXzNLWExRYzYtSnZXUVV6b1pFdHg5Z2lp?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3pnMzhGTjF6TVdzaGlhZEdDSnpJRnV5U3dKZHIwT3BUSVh5NERGcGtxQW1majlOa2NwU1VoVkRVY1dPNENFWVNpQnM1RmR2dlJXVm5SZnZ5c3lYZjllM01UeDREbFVnYkpoYWdGXy1rOExLLWstTnN3WFQ0T1U5T1BRSzZXNFBjXzNLWExRYzYtSnZXUVV6b1pFdHg5Z2lp?oc=5",
+    "snippet": "Meta Hopes to Launch Stablecoin Payments Project This Year PYMNTS.com",
+    "published_at": "2026-02-24T18:11:16+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin",
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMioAFBVV95cUxOT3pnMzhGTjF6TVdzaGlhZEdDSnpJRnV5U3dKZHIwT3BUSVh5NERGcGtxQW1majlOa2NwU1VoVkRVY1dPNENFWVNpQnM1RmR2dlJXVm5SZnZ5c3lYZjllM01UeDREbFVnYkpoYWdGXy1rOExLLWstTnN3WFQ0T1U5T1BRSzZXNFBjXzNLWExRYzYtSnZXUVV6b1pFdHg5Z2lp",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "88f5760955faae5dfd2e3da0eb92946183188c8c9902d5046aca5e7b28364dc5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -452,7 +500,7 @@
     "snippet": "Weeks after giving another $5 million to a pro-Trump PAC, the exchange received lawsuit aid from the CFTC and a bank charter from the Treasury Department.",
     "published_at": "2026-02-24T21:05:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "CFTC"
     ],
@@ -497,7 +545,7 @@
     "snippet": "TruStage and Block Time Financial are collaborating on a dollar-pegged stablecoin pilot geared for U.S. credit unions.",
     "published_at": "2026-02-24T19:16:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin",
       "pilot"
@@ -546,7 +594,7 @@
     "snippet": "These xStocks perps will provide eligible non-U.S. clients in over 110 countries with 24/7 tokenized equities exposure.",
     "published_at": "2026-02-24T17:28:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -593,7 +641,7 @@
     "snippet": "FINRA and the SEC will allow 24/7 trading and instant settlement for tokenized shares of the WisdomTree Treasury Money Market Digital Fund.",
     "published_at": "2026-02-24T15:19:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "settlement",
       "tokenized",
@@ -643,7 +691,7 @@
     "snippet": "MoonPay has unveiled MoonPay Agents, a non-custodial layer that lets AI agents create wallets, fund accounts and transact autonomously.",
     "published_at": "2026-02-24T14:43:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -690,7 +738,7 @@
     "snippet": "Cryptocurrency exchange Binance is offering tokenized securities on its Binance Alpha platform, according to a Tuesday (Feb. 24) announcement. The company joined forces with Ondo, a blockchain-based platform focused on tokenizing real-world assets, like securities and exchange-traded funds, the anno",
     "published_at": "2026-02-24T18:56:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -737,7 +785,7 @@
     "snippet": "Tokenized securities, 24/7 trading and onchain settlement could allow the NYSE’s blockchain plans to reshape post-trade processes in financial markets.",
     "published_at": "2026-02-24T16:42:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "settlement",
       "tokenized"
@@ -786,7 +834,7 @@
     "snippet": "",
     "published_at": "2026-02-24T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -823,55 +871,6 @@
     ]
   },
   {
-    "id": "028f525db7ce68cd8e2f6ce778686d55937c19b3c66bbc026a2703c17a0f487d",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Hong Kong-based stablecoin payments firm RedotPay explores $1 billion US IPO at $4 billion valuation: Bloomberg",
-    "url": "https://www.theblock.co/post/391010/hong-kong-based-stablecoin-payments-firm-redotpay-explores-1-billion-u-s-ipo-at-4-billion-valuation-bloomberg?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/391010/hong-kong-based-stablecoin-payments-firm-redotpay-explores-1-billion-u-s-ipo-at-4-billion-valuation-bloomberg",
-    "snippet": "The Hong Kong-based stablecoin payments firm RedotPay is reportedly exploring a U.S. IPO that could raise over $1 billion, per Bloomberg.",
-    "published_at": "2026-02-24T13:25:45+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/391010",
-      "guidislink": false
-    },
-    "score": 49,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "932930067a1c2ca5a0ec1998186e90ad2f6f727a2deaeaef4ddd2bdd88a8546c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -882,7 +881,7 @@
     "snippet": "Hashgraph Group has launched a blockchain-based supply-chain traceability solution ahead of the EU’s Digital Product Passport requirements, some of which take effect beginning in 2027.",
     "published_at": "2026-02-24T10:57:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "launches",
       "launched"
@@ -930,7 +929,7 @@
     "snippet": "MoonPay debuts infrastructure enabling AI agents to transact with stablecoins onchain as both crypto and non-crypto companies race to build the “agent economy.”",
     "published_at": "2026-02-24T21:30:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -968,17 +967,17 @@
     ]
   },
   {
-    "id": "bea3bf14527bd320e72cf05ec586f0366644dea75e0ca25983394cb3105d50ad",
+    "id": "a5c31be580fa2940587c1cd4f732966110412581b03d246af8ea5d60bb03ec5b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "HK-Based Stablecoin Payments Firm RedotPay Is Said to Consider $1 Billion US IPO - Bloomberg.com",
+    "title": "HK-Based Stablecoin Payments Firm RedotPay Is Said to Consider $1 Billion US IPO - Bloomberg",
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWEhnQlNlam9Ec052bk9EQzJ0aXZNQ25yajhtdFByLU1kNFlGRHlwWnVCdE9nYzNDcmFGYU8wZ2dENS1QMUctS2pQbldQR0hac3JEb18zck11cUMzcjZSaXlhd3FtalBGc1Y3ZzFRV3o2Uy1KUEZrZ1NSMktVY0xtSVlxYW9DWEZxZVBzQVdpU3pseEFXQUNKUF93bkV6SW5GblJjbUxIZ3JFWEUyamZrMnFBa2VvWVFoRmtOemlLQ1hlMDRDTGtzakRB?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWEhnQlNlam9Ec052bk9EQzJ0aXZNQ25yajhtdFByLU1kNFlGRHlwWnVCdE9nYzNDcmFGYU8wZ2dENS1QMUctS2pQbldQR0hac3JEb18zck11cUMzcjZSaXlhd3FtalBGc1Y3ZzFRV3o2Uy1KUEZrZ1NSMktVY0xtSVlxYW9DWEZxZVBzQVdpU3pseEFXQUNKUF93bkV6SW5GblJjbUxIZ3JFWEUyamZrMnFBa2VvWVFoRmtOemlLQ1hlMDRDTGtzakRB?oc=5",
-    "snippet": "HK-Based Stablecoin Payments Firm RedotPay Is Said to Consider $1 Billion US IPO Bloomberg.com",
+    "snippet": "HK-Based Stablecoin Payments Firm RedotPay Is Said to Consider $1 Billion US IPO Bloomberg",
     "published_at": "2026-02-24T09:23:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1017,53 +1016,6 @@
     ]
   },
   {
-    "id": "d1eec70377b64266f60c84a25205b16c9c490ff3869cd5ca5c064fcc2b46294e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Payoneer eyes federal oversight with OCC filing amid plans for a bank and new stablecoin",
-    "url": "https://www.theblock.co/post/391062/payoneer-federal-occ-filing-plans-bank-new-stablecoin?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/391062/payoneer-federal-occ-filing-plans-bank-new-stablecoin",
-    "snippet": "Payoneer filed an application with the Office of the Comptroller of the Currency to establish PAYO Digital Bank and issue a stablecoin.",
-    "published_at": "2026-02-24T16:02:56+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/391062",
-      "guidislink": false
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "840167508a7799ada2f0c274519c42a54ee1c45a122c78796649b2660d9c6983",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1074,7 +1026,7 @@
     "snippet": "BNP Paribas Asset Management has issued a tokenised share class of an existing French-domiciled money market fund on the public Ethereum network.",
     "published_at": "2026-02-24T12:05:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "money market fund"
     ],
@@ -1111,56 +1063,6 @@
     ]
   },
   {
-    "id": "07fb7fe5f55cabf8a31463a16f51d83d0a1d7cc4e55e2376367584898a450460",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "ledger_insights",
-    "title": "WisdomTree launches dealer-principal trading for tokenized MMF",
-    "url": "https://www.ledgerinsights.com/wisdomtree-launches-dealer-principal-trading-for-tokenized-mmf/",
-    "canonical_url": "https://ledgerinsights.com/wisdomtree-launches-dealer-principal-trading-for-tokenized-mmf/",
-    "snippet": "WisdomTree has launched what it claims as a first for the U.S. market: tokenized, registered mutual fund shares that can trade and settle instantly, around the clock, through a broker-dealer acting as principal. This structure is better suited to institutional workflows than anything previously avai",
-    "published_at": "2026-02-24T14:50:59+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
-    "matched_keywords": [
-      "tokenized",
-      "launches",
-      "launched"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://ledgerinsights.com/?p=41931",
-      "guidislink": false
-    },
-    "score": 39,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "b876b94e17ceed53b7023bce1a85d49152ae829bb4b56bb635f6c7197a1ea0ff",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1171,7 +1073,7 @@
     "snippet": "Binance listed 10 of Ondo's tokenized stocks, ETFs and commodities on Binance Alpha with UAE regulatory approval, expanding crypto access to real-world assets.",
     "published_at": "2026-02-24T14:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized",
       "RWA",
@@ -1220,7 +1122,7 @@
     "snippet": "World Liberty Financial is backing Coinbase on the crypto market structure bill debate, even as the White House criticizes the company.",
     "published_at": "2026-02-24T16:33:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "legislation"
     ],
@@ -1255,6 +1157,53 @@
     ]
   },
   {
+    "id": "d1eec70377b64266f60c84a25205b16c9c490ff3869cd5ca5c064fcc2b46294e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Payoneer eyes federal oversight with OCC filing amid plans for a bank and new stablecoin",
+    "url": "https://www.theblock.co/post/391062/payoneer-federal-occ-filing-plans-bank-new-stablecoin?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/391062/payoneer-federal-occ-filing-plans-bank-new-stablecoin",
+    "snippet": "Payoneer filed an application with the Office of the Comptroller of the Currency to establish PAYO Digital Bank and issue a stablecoin.",
+    "published_at": "2026-02-24T16:02:56+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/391062",
+      "guidislink": false
+    },
+    "score": 34,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e0f6b1f387b026498b81078f238f1cf18c32381a7a8c949226830a905ef4502d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1265,13 +1214,60 @@
     "snippet": "",
     "published_at": "2026-02-24T14:48:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "SEC"
     ],
     "matched_topics": [],
     "raw": {
       "id": "88696f7b-6acf-4960-a150-5c3ef13cd219",
+      "guidislink": false
+    },
+    "score": 34,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "e15f84e812f081f8f80eab629503b1a883c72be1a1f94314b6ff7fd214448681",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Mark Zuckerberg's Meta is planning stablecoin comeback in the second half of this year",
+    "url": "https://www.coindesk.com/business/2026/02/24/mark-zuckerberg-s-meta-is-planning-stablecoin-comeback-in-the-second-half-of-this-year",
+    "canonical_url": "https://coindesk.com/business/2026/02/24/mark-zuckerberg-s-meta-is-planning-stablecoin-comeback-in-the-second-half-of-this-year",
+    "snippet": "",
+    "published_at": "2026-02-24T14:38:14+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "8cfc030a-2e63-46d5-b540-520c778801e8",
       "guidislink": false
     },
     "score": 34,
@@ -1310,7 +1306,7 @@
     "snippet": "Kraken’s new contracts, built on the xStocks framework, offer up to 20x leverage on tokenized benchmarks tied to US equities and gold.",
     "published_at": "2026-02-24T21:41:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1357,7 +1353,7 @@
     "snippet": "",
     "published_at": "2026-02-24T16:43:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1404,7 +1400,7 @@
     "snippet": "The deal channels crypto liquidity into US home loans, testing whether blockchain-based capital can fund traditional mortgage markets at scale.",
     "published_at": "2026-02-24T16:34:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1451,7 +1447,7 @@
     "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
     "published_at": "2026-02-24T14:55:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -1496,7 +1492,7 @@
     "snippet": "Binance now offers trading in select tokenized U.S. stocks and ETFs through a partnership with Ondo Finance.",
     "published_at": "2026-02-24T14:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1544,7 +1540,7 @@
     "snippet": "",
     "published_at": "2026-02-24T14:22:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1591,7 +1587,7 @@
     "snippet": "",
     "published_at": "2026-02-24T14:58:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1636,7 +1632,7 @@
     "snippet": "The Tether-backed crypto payments app is expanding beyond retail spending with wallet-based off-ramps into domestic banking rails.",
     "published_at": "2026-02-24T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "crypto payments",
       "Tether"
@@ -1685,7 +1681,7 @@
     "snippet": "Oobit tapped routing infrastructure provider DTR to unlock wallet transfers to 'any bank account worldwide.'",
     "published_at": "2026-02-24T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "crypto payments",
       "Tether"
@@ -1734,7 +1730,7 @@
     "snippet": "Tariff shocks led to a capital rotation from crypto into precious metals and tokenized commodities, as analysts warn that the thin crypto market liquidity is limiting a wider recovery.",
     "published_at": "2026-02-24T12:45:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin",
       "tokenized"
@@ -1783,7 +1779,7 @@
     "snippet": "",
     "published_at": "2026-02-24T21:52:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1820,17 +1816,17 @@
     ]
   },
   {
-    "id": "5e37b66939e5045e20fea4a8392a17161847484940c0949daf22719809b88532",
+    "id": "c03f4c9043f446d082f1efd7ef619d3d86c3f3538f982ef24b8c4c5d263f2a95",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Meta Testing Stablecoin Payments As Digital Currencies Take Off - Bloomberg.com",
+    "title": "Meta Testing Stablecoin Payments As Digital Currencies Take Off - Bloomberg",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeE55OFN3di1pdWFHSGg3dTNXbkw3YUotRndpd2VNUXc1NE94ZEZZT2dhQnBlY1kxY0Zzdm5XYmpkcWI1YWc5X0FHaVNrT0ZpZjhMTHFFU3YtYU1aX01RR1hOTnhwdVBMa21zR25jeXNxY2ppcmQ1aWdudEVfTmZmZlZ1MjZUTXZwN0hRakc1ZlJfSmVncm8ta0JWMHQ5RmJJY2xzME55T3Zrc0daQ1I0YmVUOVQ?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeE55OFN3di1pdWFHSGg3dTNXbkw3YUotRndpd2VNUXc1NE94ZEZZT2dhQnBlY1kxY0Zzdm5XYmpkcWI1YWc5X0FHaVNrT0ZpZjhMTHFFU3YtYU1aX01RR1hOTnhwdVBMa21zR25jeXNxY2ppcmQ1aWdudEVfTmZmZlZ1MjZUTXZwN0hRakc1ZlJfSmVncm8ta0JWMHQ5RmJJY2xzME55T3Zrc0daQ1I0YmVUOVQ?oc=5",
-    "snippet": "Meta Testing Stablecoin Payments As Digital Currencies Take Off Bloomberg.com",
+    "snippet": "Meta Testing Stablecoin Payments As Digital Currencies Take Off Bloomberg",
     "published_at": "2026-02-24T21:05:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1879,7 +1875,7 @@
     "snippet": "New research from MIT's Digital Currency Initiative shows that quality reserves aren't the only thing needed to keep stablecoins on their pegs.",
     "published_at": "2026-02-24T20:17:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "reserves"
     ],
@@ -1926,7 +1922,7 @@
     "snippet": "Cross-border payments firm Payoneer is the latest fintech to apply for a US national trust bank charter in an effort to boost its stablecoin business.",
     "published_at": "2026-02-24T15:08:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin",
       "cross-border"
@@ -1974,7 +1970,7 @@
     "snippet": "The bill would allow Arizona to hold Bitcoin, XRP, Digibyte, stablecoins, and NFTs in a state-managed crypto reserve.",
     "published_at": "2026-02-24T10:30:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -2019,7 +2015,7 @@
     "snippet": "Company says hackers accessed some of its founders’ social media accounts in bid to knock price of token",
     "published_at": "2026-02-23T22:37:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -2066,7 +2062,7 @@
     "snippet": "Last May, Fortune reported that Meta was considering a stablecoin integration to reduce the costs of payments.",
     "published_at": "2026-02-24T15:42:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -2113,7 +2109,7 @@
     "snippet": "Why Nigerian gig workers prefer stablecoin payments to the Naira Nairametrics",
     "published_at": "2026-02-24T14:42:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -2162,7 +2158,7 @@
     "snippet": "USDC Polygon Guide: Contract Address, Wallet Setup, and How to Buy MEXC",
     "published_at": "2026-02-24T08:48:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -2209,7 +2205,7 @@
     "snippet": "Bloomberg Intelligence said Coinbase’s USDC revenue may jump sevenfold, as Congress weighs a ban on stablecoin rewards that could reshape how that money is earned.",
     "published_at": "2026-02-24T09:35:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-24T21:55:16.844631+00:00",
+    "fetched_at": "2026-02-24T22:29:05.068711+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
