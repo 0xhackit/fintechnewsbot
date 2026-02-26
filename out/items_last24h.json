@@ -1,40 +1,37 @@
 [
   {
-    "id": "29a721fcf0d9fe647d5347fe9fb429ab81e151aca2994a72a430bc31d519203f",
+    "id": "49287c59c152be161b6eef77f4322f85c743df9f510eee8c7867a78372027ee1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Sygnum launches service targeting $100B corporate crypto treasury market",
-    "url": "https://cointelegraph.com/news/sygnum-launches-professional-crypto-treasury-management-services-embargo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/sygnum-launches-professional-crypto-treasury-management-services-embargo",
-    "snippet": "The Swiss crypto bank will handle strategic asset allocation for corporate crypto treasuries and is already actively managing $200 million in volume at launch.",
-    "published_at": "2026-02-26T07:00:00+00:00",
+    "feed_name": "theblock",
+    "title": "Bluprynt raises $4.25 million seed round from Coinbase Ventures, Robinhood to streamline crypto compliance",
+    "url": "https://www.theblock.co/post/391340/bluprynt-raises-4-25-million-seed-round-from-coinbase-ventures-robinhood-to-streamline-crypto-compliance?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/391340/bluprynt-raises-4-25-million-seed-round-from-coinbase-ventures-robinhood-to-streamline-crypto-compliance",
+    "snippet": "Bluprynt secured $4.2 million in a seed funding round led by major industry players, including Coinbase Ventures and Robinhood.",
+    "published_at": "2026-02-26T13:05:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
-      "launch",
-      "launches"
+      "compliance"
     ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
+    "matched_topics": [],
     "raw": {
-      "id": "https://cointelegraph.com/news/sygnum-launches-professional-crypto-treasury-management-services-embargo",
-      "guidislink": true
+      "id": "https://www.theblock.co/post/391340",
+      "guidislink": false
     },
-    "score": 95,
+    "score": 105,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
+      "launch_score": 50,
       "institution_bonus": 30,
-      "financial_bonus": 30,
-      "regulatory_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -58,7 +55,7 @@
     "snippet": "The license allows Gate to execute payment transactions in the EU, including direct debits and credit transfers under PSD2 rules.",
     "published_at": "2026-02-26T10:19:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -105,7 +102,7 @@
     "snippet": "The Office of the Comptroller of the Currency (OCC) today issued a proposed rulemaking to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.",
     "published_at": "2026-02-26T10:09:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "Genius"
     ],
@@ -152,7 +149,7 @@
     "snippet": "Initially available to institutions via the AllUnity Mint Platform, CHFAU stablecoin launches under MiCA compliance after securing a license from the German regulator, BaFin.",
     "published_at": "2026-02-26T08:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "launches",
@@ -185,10 +182,58 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 3
+      "cluster_size": 2
     },
     "consensus_boost": 0,
-    "cluster_size": 3,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "29a721fcf0d9fe647d5347fe9fb429ab81e151aca2994a72a430bc31d519203f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Sygnum launches service targeting $100B corporate crypto treasury market",
+    "url": "https://cointelegraph.com/news/sygnum-launches-professional-crypto-treasury-management-services-embargo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/sygnum-launches-professional-crypto-treasury-management-services-embargo",
+    "snippet": "The Swiss crypto bank will handle strategic asset allocation for corporate crypto treasuries and is already actively managing $200 million in volume at launch.",
+    "published_at": "2026-02-26T07:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
+    "matched_keywords": [
+      "launch",
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/sygnum-launches-professional-crypto-treasury-management-services-embargo",
+      "guidislink": true
+    },
+    "score": 89,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 30,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -204,7 +249,7 @@
     "snippet": "The tokenized US Treasury market had a market capitalization of under $4 billion at the start of 2025 and has been gradually rising.",
     "published_at": "2026-02-25T16:46:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -251,7 +296,7 @@
     "snippet": "UK fintech that is still awaiting key lending approvals chosen by regulator to test cryptocurrency",
     "published_at": "2026-02-25T16:14:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "regulator"
@@ -289,53 +334,6 @@
     ]
   },
   {
-    "id": "71ecc7a2acfe8c81c17708e04a95b60d492afd57204164eaf0ee4a34717535cc",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Revolut among firms picked by UK FCA to test stablecoin sandbox",
-    "url": "https://www.theblock.co/post/391237/revolut-firms-picked-uk-fca-test-stablecoin-sandbox?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/391237/revolut-firms-picked-uk-fca-test-stablecoin-sandbox",
-    "snippet": "Both the FCA and the Bank of England are working in concert to develop a comprehensive set of regulations for stablecoins.",
-    "published_at": "2026-02-25T14:53:48+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/391237",
-      "guidislink": false
-    },
-    "score": 74,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "089fc8332c93b3d501b79d8ac5b8b3587b5ac3b292f03df1c5934f7f943ae9e9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -346,7 +344,7 @@
     "snippet": "The Financial Conduct Authority (FCA) has selected Monee Financial Technologies, ReStabilise, Revolut and VVTX, as the first four firms to test stablecoin innovation in its regulatory sandbox.",
     "published_at": "2026-02-25T14:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "regulatory"
@@ -394,7 +392,7 @@
     "snippet": "World Liberty Financial’s USD1 is the fifth-largest stablecoin by market capitalization at $4.7 billion, while USDT is the market leader, followed by USDC.",
     "published_at": "2026-02-26T05:43:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -443,7 +441,7 @@
     "snippet": "The stablecoin issuer reported $770 million in revenue for the final 2025 quarter, beating forecasts as full-year sales rose 64% and USDC circulation topped $75 billion.",
     "published_at": "2026-02-25T15:47:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -493,7 +491,7 @@
     "snippet": "Senator Richard Blumenthal has launched an inquiry into alleged Iran-linked crypto transfers as Binance pushes back against the claims.",
     "published_at": "2026-02-25T15:36:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "launches",
       "launched"
@@ -541,7 +539,7 @@
     "snippet": "Coinbase this week launched conventional stock and ETF trading for all US customers, offering zero commission trades alongside crypto in a single app. It includes a Yahoo Finance marketing partnership and 24/5 trading hours. Fractional shares from $1 make the competitive target obvious: Robinhood. B",
     "published_at": "2026-02-25T18:48:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "tokenized",
       "launches",
@@ -591,7 +589,7 @@
     "snippet": "Tether Invests $200 Million in Whop to Expand Stablecoin Payments thedefiant.io",
     "published_at": "2026-02-25T19:28:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -641,7 +639,7 @@
     "snippet": "ETHZilla will now go by Forum in its second rebrand in less than 12 months as it looks to catch a windfall from the hype around tokenization.",
     "published_at": "2026-02-26T02:12:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -688,7 +686,7 @@
     "snippet": "The OCC’s proposal to implement the GENIUS Act would bar yield on payment stablecoins and introduce a rebuttable presumption against common issuer–affiliate reward structures.",
     "published_at": "2026-02-26T09:20:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuer",
@@ -737,7 +735,7 @@
     "snippet": "The crypto exchange’s new Flexline product lets Pro users borrow against digital assets at fixed rates of 10%–25% APR for terms of up to two years.",
     "published_at": "2026-02-25T20:16:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "introduces"
     ],
@@ -784,7 +782,7 @@
     "snippet": "The four firms will now have free reign to experiment in a program that will inform final UK stablecoin rules set to be released later this year.",
     "published_at": "2026-02-25T17:02:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "regulatory"
@@ -832,7 +830,7 @@
     "snippet": "Tether Acquires Stake in Whop Marketplace for Stablecoin Payments ForkLog",
     "published_at": "2026-02-25T15:43:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -872,6 +870,56 @@
     ]
   },
   {
+    "id": "8f3f89a0ff8fb946da887ffd3607caf0161d88367d80e126e483742e6e791e9d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Telegram’s in-app crypto wallet to offer yield on Bitcoin, Ether and USDt",
+    "url": "https://cointelegraph.com/news/telegram-ton-wallet-vaults-earn-btc-eth-usdt?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/telegram-ton-wallet-vaults-earn-btc-eth-usdt",
+    "snippet": "Telegram’s crypto wallet introduces self-custodial vaults, letting users earn yields on Bitcoin, Ether and USDt directly inside the messaging app.",
+    "published_at": "2026-02-26T13:34:43+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
+    "matched_keywords": [
+      "crypto wallet",
+      "USDT",
+      "introduces"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/telegram-ton-wallet-vaults-earn-btc-eth-usdt",
+      "guidislink": true
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "d15f3a7951605320279ee7d096210e0579d368feb6b0549d6182d60699bcbb56",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -882,7 +930,7 @@
     "snippet": "TON Wallet is shifting from simple self-custody into a gateway for third-party DeFi yield strategies.",
     "published_at": "2026-02-26T10:01:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "crypto wallet",
       "USDT",
@@ -933,7 +981,7 @@
     "snippet": "Assessing Shift4 Payments (FOUR) Valuation After Earnings Growth Hopes And Stablecoin Platform Launch Yahoo Finance",
     "published_at": "2026-02-25T15:11:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -982,7 +1030,7 @@
     "snippet": "The Financial Conduct Authority said the primary focus of the sandbox will be issuing stablecoins in real-world conditions.",
     "published_at": "2026-02-25T16:46:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -991,51 +1039,6 @@
     ],
     "raw": {
       "id": "https://www.dlnews.com/articles/regulation/revolut-joins-uk-financial-watchdog-stablecoin-sandbox/",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "9af04bdddf2731d917fb25efa16497a807ab56da61ae782625f26a3c67090fbe",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "The chief of the SEC is headlining an event sponsored by a crypto firm at war with it",
-    "url": "https://www.coindesk.com/news-analysis/2026/02/24/the-chief-of-the-sec-is-headlining-an-event-sponsored-by-a-crypto-firm-at-war-with-it",
-    "canonical_url": "https://coindesk.com/news-analysis/2026/02/24/the-chief-of-the-sec-is-headlining-an-event-sponsored-by-a-crypto-firm-at-war-with-it",
-    "snippet": "",
-    "published_at": "2026-02-25T14:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
-    "matched_keywords": [
-      "SEC"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "c3e40778-9793-4feb-8700-34b60ae7da9d",
       "guidislink": false
     },
     "score": 34,
@@ -1074,7 +1077,7 @@
     "snippet": "Citi to integrate Bitcoin into traditional finance via bank-grade custody Crypto Briefing",
     "published_at": "2026-02-26T12:25:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -1119,7 +1122,7 @@
     "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
     "published_at": "2026-02-25T14:35:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -1164,7 +1167,7 @@
     "snippet": "Revolut Joins UK Stablecoin Sandbox - While Coinbase CEO Warns Britain Is Falling Behind Yellow.com",
     "published_at": "2026-02-25T20:33:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1173,51 +1176,6 @@
     ],
     "raw": {
       "id": "CBMirwFBVV95cUxNSy11QTBSWDloOHNOa3Z0QktOYnN3U01FT2k4SnJzNUJLZ0NJZGlMR1JTQng3QXZra2JHOWFwSThGQnFnVldSc3Q2TXZiT0FzVjFySWgtbzdGRUNoVXZPOXNaQ0VnRlUzV1VlM0VibnA0MW1kbDg3MTdLeVVwUnBjM2dmSWY0TlBES3NRSDFtUGhralVXS1BqMVBKek5MZzB4b1NkeUZkMzdQTGItZ1Zz",
-      "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6dc7b911f37d63f32049f9092e1365937429a385c2e6f533ddf8d108b32484b0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Morning Minute: Stablecoins Are Eating Everything",
-    "url": "https://decrypt.co/359101/morning-minute-stablecoins-are-eating-everything",
-    "canonical_url": "https://decrypt.co/359101/morning-minute-stablecoins-are-eating-everything",
-    "snippet": "Huge headlines from Stripe and Meta have stablecoins squarely back in the forefront of the crypto discussion.",
-    "published_at": "2026-02-25T12:59:33+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=359101",
       "guidislink": false
     },
     "score": 24,
@@ -1256,7 +1214,7 @@
     "snippet": "Circle is now a fintech infrastructure provider rather than a crypto proxy play, Bernstein says.",
     "published_at": "2026-02-26T12:17:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -1303,7 +1261,7 @@
     "snippet": "Here is the question nobody in polite payments circles wants to ask out loud: Do the card networks need stablecoins—or do stablecoins need the card networks? It sounds almost impertinent. Stablecoins were supposed to be the insurgents. Peer-to-peer. Borderless. Frictionless. The whole point was to r",
     "published_at": "2026-02-26T09:03:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1348,7 +1306,7 @@
     "snippet": "The proposal details how banks, nonbanks and foreign issuers could operate stablecoins under U.S. banking supervision.",
     "published_at": "2026-02-26T05:37:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "Genius"
     ],
@@ -1395,7 +1353,7 @@
     "snippet": "Is Hamilton Lane (HLNE) Using Tokenized Private Credit To Redefine Its Core Investment Edge? Yahoo Finance Singapore",
     "published_at": "2026-02-26T05:10:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "private credit",
       "tokenized"
@@ -1443,7 +1401,7 @@
     "snippet": "ETHZilla’s ETH holdings have shrunk after multiple sales, including $40 million in October and $74.5 million in December.",
     "published_at": "2026-02-25T20:40:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1490,7 +1448,7 @@
     "snippet": "USDC Stablecoin Issuer Circle Reports 77% Revenue Upsurge in Q4, 2025 Coinpedia Fintech News",
     "published_at": "2026-02-25T19:59:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -1540,7 +1498,7 @@
     "snippet": "Circle shares surged 30% to around $80 after earnings, extending pre-market gains as analysts pointed to stronger-than-expected margins.",
     "published_at": "2026-02-25T18:01:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -1588,7 +1546,7 @@
     "snippet": "",
     "published_at": "2026-02-25T15:52:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -1635,7 +1593,7 @@
     "snippet": "Circle’s USDC grew 72% in Q4 as transaction volume soared and CRCL stock popped on bullish AI and payments commentary.",
     "published_at": "2026-02-25T15:10:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -1683,7 +1641,7 @@
     "snippet": "A proposal from the creators of World Liberty Financial, the Trump-backed crypto project, aims to put a price on the ability to profit by market making its USD1 stablecoin.",
     "published_at": "2026-02-26T11:14:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1730,7 +1688,7 @@
     "snippet": "POL Price Prediction as Brazil's Largest FX Bank Expands BBRL Stablecoin to Polygon Coinpaper",
     "published_at": "2026-02-25T21:27:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1777,7 +1735,7 @@
     "snippet": "The Race To Build The Stablecoin Bank Seeking Alpha",
     "published_at": "2026-02-25T20:57:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1824,7 +1782,7 @@
     "snippet": "B2B Stablecoin Payments Grew Over 730% YoY in 2025 thedefiant.io",
     "published_at": "2026-02-25T15:32:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1863,6 +1821,54 @@
     ]
   },
   {
+    "id": "08da6e9cb800668f106fb2c20e905b17ec725eb0a67da54d210807d9bfe4fcb9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Morning Minute: Circle Earnings Highlight a Massive Day for Crypto",
+    "url": "https://decrypt.co/359208/morning-minute-circle-earnings-highlight-a-massive-day-for-crypto",
+    "canonical_url": "https://decrypt.co/359208/morning-minute-circle-earnings-highlight-a-massive-day-for-crypto",
+    "snippet": "It was a green day for stablecoin enthusiasts and crypto majors, and positive earnings from NVDA after hours signal the rally may have legs.",
+    "published_at": "2026-02-26T13:24:21+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=359208",
+      "guidislink": false
+    },
+    "score": 0,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "a766c8000cc78ae5ac27a0b97eb1c438a3ece622c9563e74f599abd00a5188d9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1873,7 +1879,7 @@
     "snippet": "Santiago Santos explains why token prices mislead, and how stablecoins and first-principles investing drive real crypto adoption.",
     "published_at": "2026-02-25T18:33:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-02-26T12:31:32.652040+00:00",
+    "fetched_at": "2026-02-26T13:51:51.852899+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
