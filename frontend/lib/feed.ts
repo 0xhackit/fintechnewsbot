@@ -49,14 +49,6 @@ export async function getFeed(): Promise<Feed> {
   return res.json();
 }
 
-/** Get the primary link for a post: tweet URL if X post, otherwise article link */
-export function getPostLink(entry: FeedEntry): string {
-  if (entry.posted_to_x && entry.tweet_url) {
-    return entry.tweet_url;
-  }
-  return entry.link;
-}
-
 /** Top articles from the past 7 days, ranked by score, deduped by title */
 export function getWeeklyHighlights(
   entries: FeedEntry[],
