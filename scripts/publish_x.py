@@ -22,6 +22,12 @@ from typing import Optional
 from urllib.parse import urljoin
 import requests
 
+# Ensure repo root is on sys.path so we can import feed_writer
+_PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(_PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(_PROJECT_ROOT))
+from feed_writer import write_entries_to_feed
+
 
 # ===========================================================================
 # Company @handle mapping (for AI tweet generation)
@@ -593,18 +599,18 @@ def _increment_daily_count(posted: int):
 def _post_single(draft: dict, api_key: str, api_secret: str,
                  access_token: str, access_secret: str,
                  style_history: list[str], config: dict,
-                 dry_run: bool = False) -> tuple[int, list[str]]:
+                 dry_run: bool = False) -> tuple[int, list[str], Optional[dict]]:
     """
     Post a single draft to X with AI generation and image.
     High-priority tweets get a two-part format (hook + insight) in one tweet.
-    Returns (posts_made, updated_style_history).
+    Returns (posts_made, updated_style_history, tweet_metadata_or_None).
     """
     title = draft.get("title", "").strip()
     link = draft.get("link", "").strip()
 
     if not title:
         print(f"  ⚠️  Missing title, skipping")
-        return (0, style_history)
+        return (0, style_history, None)
 
     posts_made = 0
 
@@ -643,6 +649,7 @@ def _post_single(draft: dict, api_key: str, api_secret: str,
     print(f"     {tweet_text}")
 
     # --- Post tweet ---
+    tweet_metadata = None
     if not dry_run:
         media_ids = [media_id] if media_id else None
         post_result = _post_to_x(tweet_text, api_key, api_secret, access_token, access_secret,
@@ -650,13 +657,19 @@ def _post_single(draft: dict, api_key: str, api_secret: str,
         tweet_id = post_result.get("data", {}).get("id")
         print(f"  ✅ Posted! Tweet ID: {tweet_id}")
         if tweet_id:
-            print(f"  🔗 https://x.com/i/web/status/{tweet_id}")
+            tweet_url = f"https://x.com/i/web/status/{tweet_id}"
+            print(f"  🔗 {tweet_url}")
+            tweet_metadata = {
+                "tweet_id": tweet_id,
+                "tweet_text": tweet_text,
+                "tweet_url": tweet_url,
+            }
         posts_made += 1
     else:
         print(f"  ✅ [DRY-RUN] Would post tweet" + (" with image" if media_id or img_bytes else ""))
         posts_made += 1
 
-    return (posts_made, style_history)
+    return (posts_made, style_history, tweet_metadata)
 
 
 # ===========================================================================
@@ -759,6 +772,7 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
     style_history = _load_style_history()
     posted_count = 0
     failed_count = 0
+    feed_entries = []
 
     for idx, draft in enumerate(to_post, 1):
         score = draft.get("score", 0)
@@ -767,14 +781,40 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
         print(f"[{idx}/{len(to_post)}] score={score} | {title}...")
 
         try:
-            posts, style_history = _post_single(
+            posts, style_history, tweet_meta = _post_single(
                 draft, api_key, api_secret, access_token, access_secret,
                 style_history, config, dry_run=dry_run,
             )
             posted_count += posts
+
+            if tweet_meta and not dry_run:
+                now_iso = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+                feed_entries.append({
+                    "id": draft.get("id", ""),
+                    "title": draft.get("title", ""),
+                    "link": draft.get("link", ""),
+                    "snippet": draft.get("snippet", ""),
+                    "score": draft.get("score", 0),
+                    "matched_topics": draft.get("matched_topics", []),
+                    "ai_category": draft.get("ai_category", ""),
+                    "ai_priority": draft.get("ai_priority", ""),
+                    "posted_at": now_iso,
+                    "source": draft.get("source", ""),
+                    "feed_name": draft.get("feed_name", ""),
+                    "published_at": draft.get("published_at", ""),
+                    "posted_to_telegram": True,
+                    "posted_to_x": True,
+                    "tweet_id": tweet_meta.get("tweet_id"),
+                    "tweet_text": tweet_meta.get("tweet_text"),
+                    "tweet_url": tweet_meta.get("tweet_url"),
+                })
         except Exception as e:
             print(f"  ❌ Failed: {e}")
             failed_count += 1
+
+    # Write feed entries (upserts onto any TG-only entries from earlier step)
+    if feed_entries:
+        write_entries_to_feed(feed_entries)
 
     # Save state
     _save_style_history(style_history)

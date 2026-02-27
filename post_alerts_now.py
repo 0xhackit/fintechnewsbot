@@ -11,8 +11,10 @@ import json
 import asyncio
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 from telegram import Bot
+from feed_writer import write_entries_to_feed
 
 
 async def post_drafts():
@@ -42,6 +44,7 @@ async def post_drafts():
     print(f"📤 Posting {len(drafts)} alerts to Telegram...\n")
 
     bot = Bot(token=token)
+    feed_entries = []
 
     for i, draft in enumerate(drafts, 1):
         message = draft.get('message_html', '')
@@ -52,16 +55,43 @@ async def post_drafts():
             continue
 
         try:
-            await bot.send_message(
+            result_msg = await bot.send_message(
                 chat_id=chat_id,
                 text=message,
                 parse_mode='HTML',
                 disable_web_page_preview=True
             )
+            msg_id = result_msg.message_id
+            posted_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
             print(f"✅ {i}/{len(drafts)}: {title[:70]}...")
+
+            feed_entries.append({
+                "id": draft.get("id", ""),
+                "title": title,
+                "link": draft.get("link", ""),
+                "snippet": draft.get("snippet", ""),
+                "score": draft.get("score", 0),
+                "matched_topics": draft.get("matched_topics", []),
+                "ai_category": draft.get("ai_category", ""),
+                "ai_priority": draft.get("ai_priority", ""),
+                "posted_at": posted_at,
+                "source": draft.get("source", ""),
+                "feed_name": draft.get("feed_name", ""),
+                "published_at": draft.get("published_at", ""),
+                "posted_to_telegram": True,
+                "telegram_message_id": msg_id,
+                "posted_to_x": False,
+                "tweet_id": None,
+                "tweet_text": None,
+                "tweet_url": None,
+            })
         except Exception as e:
             print(f"❌ {i}/{len(drafts)}: Failed - {e}")
             print(f"   Title: {title[:70]}...")
+
+    # Write feed entries (TG-only at this point; X script will upsert tweet data)
+    if feed_entries:
+        write_entries_to_feed(feed_entries)
 
     print(f"\n🎉 Done! Posted {len(drafts)} alerts to Telegram")
 
