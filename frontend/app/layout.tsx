@@ -16,7 +16,13 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="header">
-          <h1>Fintech Onchain</h1>
+          <a href="/" className="header-brand">
+            <h1>Fintech Onchain</h1>
+          </a>
+          <nav className="nav-links">
+            <a href="/" className="nav-link">Feed</a>
+            <a href="/analyze" className="nav-link">Analyze</a>
+          </nav>
           <div className="live-badge">
             <span className="live-dot" />
             Live

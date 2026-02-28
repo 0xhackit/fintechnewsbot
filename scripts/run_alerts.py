@@ -25,6 +25,7 @@ from src.utils import (
 STATE_PATH = Path("state/seen_alerts.json")
 DRAFTS_PATH = Path("out/alerts_drafts.json")
 BLOCKLIST_PATH = Path("blocklist.json")
+FEED_PATH = Path("out/feed.json")
 
 # Change this if your pipeline writes items elsewhere
 ITEMS_PATH = Path("out/items_last24h.json")
@@ -245,6 +246,23 @@ def main():
     state = load_json(STATE_PATH, {"seen": [], "seen_titles": []})
     seen = set(state.get("seen", []))
     seen_titles = state.get("seen_titles", [])
+
+    # Safety-net: also mark articles already in feed.json as seen.
+    # This catches manual dashboard posts that were added directly to
+    # feed.json + state/seen_alerts.json (in case the state update failed).
+    feed_data = load_json(FEED_PATH, {"entries": []})
+    feed_entries = feed_data.get("entries", []) if isinstance(feed_data, dict) else []
+    feed_dedup_count = 0
+    for fe in feed_entries:
+        fe_title = fe.get("title", "")
+        fe_link = fe.get("link", "")
+        if fe_title and fe_link:
+            fe_id = stable_item_id({"title": fe_title, "link": fe_link})
+            if fe_id not in seen:
+                seen.add(fe_id)
+                feed_dedup_count += 1
+    if feed_dedup_count:
+        print(f"📋 Registered {feed_dedup_count} feed.json entries in dedup set")
 
     # Filter: only dated items, only new (not seen)
     new_items = []
