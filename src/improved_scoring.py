@@ -64,23 +64,59 @@ FINANCIAL_PATTERNS = [
 ]
 
 
+# Short/ambiguous tokens that need word-boundary matching to avoid false positives.
+# e.g. "block" matching "blockchain", "citi" matching "city", "sec" matching "second".
+_BOUNDARY_TOKENS = {
+    "block", "citi", "wise", "visa", "square",
+    "fed", "sec", "fca", "ubs", "okx",
+}
+
+
+def _token_in_text(token: str, text: str) -> bool:
+    """Check if a token appears in text, using word boundaries for short/ambiguous tokens."""
+    if token in _BOUNDARY_TOKENS:
+        return bool(re.search(rf'\b{re.escape(token)}\b', text))
+    return token in text
+
+
+def _any_token_in_text(tokens: list, text: str) -> bool:
+    """Check if any token from the list appears in text (boundary-aware)."""
+    return any(_token_in_text(t, text) for t in tokens)
+
+
 def get_institution_bonus(item: dict) -> int:
-    """Calculate bonus points for institutional sources."""
+    """Calculate bonus points for institutional sources, with multi-institution boost."""
     text = f"{item.get('title','')} {item.get('snippet','')}".lower()
 
-    # Regulator mention = +30 points (highest priority)
-    if any(reg in text for reg in REGULATORS):
-        return 30
+    # Count distinct institution matches across all tiers
+    matched_count = 0
+    highest_tier_bonus = 0
 
-    # Tier 1 institution (major banks/fintech) = +20 points
-    if any(inst in text for inst in TIER1_INSTITUTIONS):
-        return 20
+    # Check regulators (+30)
+    reg_matches = [reg for reg in REGULATORS if _token_in_text(reg, text)]
+    if reg_matches:
+        matched_count += len(reg_matches)
+        highest_tier_bonus = max(highest_tier_bonus, 30)
 
-    # Tier 2 institution (crypto-native) = +10 points
-    if any(inst in text for inst in TIER2_INSTITUTIONS):
-        return 10
+    # Check tier 1 institutions (+20)
+    t1_matches = [inst for inst in TIER1_INSTITUTIONS if _token_in_text(inst, text)]
+    if t1_matches:
+        matched_count += len(t1_matches)
+        highest_tier_bonus = max(highest_tier_bonus, 20)
 
-    return 0
+    # Check tier 2 institutions (+10)
+    t2_matches = [inst for inst in TIER2_INSTITUTIONS if _token_in_text(inst, text)]
+    if t2_matches:
+        matched_count += len(t2_matches)
+        highest_tier_bonus = max(highest_tier_bonus, 10)
+
+    if highest_tier_bonus == 0:
+        return 0
+
+    # Multi-institution bonus: +10 when 2+ distinct institutions mentioned
+    multi_bonus = 10 if matched_count >= 2 else 0
+
+    return highest_tier_bonus + multi_bonus
 
 
 def get_financial_impact_bonus(item: dict) -> int:
@@ -100,7 +136,7 @@ def get_regulatory_bonus(item: dict) -> int:
     title = item.get('title', '').lower()
 
     # Regulator in title + regulatory keyword = +40 (critical regulatory action)
-    if any(reg in title for reg in REGULATORS):
+    if _any_token_in_text(REGULATORS, title):
         if any(kw in text for kw in REGULATORY_KEYWORDS):
             return 40
 
@@ -117,8 +153,8 @@ def get_commentary_penalty(item: dict, comm_count: int) -> int:
 
     # Check if from major institution or regulator
     has_institution = (
-        any(inst in text for inst in TIER1_INSTITUTIONS) or
-        any(reg in text for reg in REGULATORS)
+        _any_token_in_text(TIER1_INSTITUTIONS, text) or
+        _any_token_in_text(REGULATORS, text)
     )
 
     if has_institution:

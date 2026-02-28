@@ -22,11 +22,12 @@ from typing import Optional
 from urllib.parse import urljoin
 import requests
 
-# Ensure repo root is on sys.path so we can import feed_writer
+# Ensure repo root is on sys.path so we can import feed_writer and src modules
 _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 from feed_writer import write_entries_to_feed
+from src.ai_filter import should_post_to_x
 
 
 # ===========================================================================
@@ -688,8 +689,11 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
     """
     config = _load_config()
     alerts_config = config.get("alerts", {})
-    min_score_for_x = alerts_config.get("min_score_for_x", 60)
+    min_score_for_x = alerts_config.get("min_score_for_x", 45)
     thread_threshold = alerts_config.get("thread_score_threshold", 80)
+
+    # AI quality gate thresholds: articles between these scores get an AI review
+    AI_GATE_HIGH = 75  # Above this: auto-post (no AI check needed)
 
     if dry_run:
         print("🔧 DRY-RUN MODE: No tweets will be posted\n")
@@ -716,6 +720,29 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
     # Filter by X threshold
     x_drafts = [d for d in drafts if d.get("score", 0) >= min_score_for_x]
     print(f"📋 {len(drafts)} total draft(s), {len(x_drafts)} qualify for X (score >= {min_score_for_x})")
+
+    # AI quality gate: articles scoring <= AI_GATE_HIGH get reviewed by Claude Haiku
+    if x_drafts and not dry_run:
+        gate_filtered = []
+        for d in x_drafts:
+            s = d.get("score", 0)
+            if s > AI_GATE_HIGH:
+                gate_filtered.append(d)  # High scorers auto-post
+            else:
+                # Borderline: ask AI
+                post_it, reason = should_post_to_x(
+                    d.get("title", ""), d.get("snippet", ""), s
+                )
+                title_short = d.get("title", "")[:50]
+                if post_it:
+                    gate_filtered.append(d)
+                    print(f"  ✅ AI gate APPROVED (score={s}): {title_short}... — {reason}")
+                else:
+                    print(f"  🚫 AI gate REJECTED (score={s}): {title_short}... — {reason}")
+        rejected = len(x_drafts) - len(gate_filtered)
+        if rejected:
+            print(f"🤖 AI gate: {len(gate_filtered)} approved, {rejected} rejected")
+        x_drafts = gate_filtered
 
     # Split into urgent (immediate) and mid-tier (peak-hour queue)
     urgent = [d for d in x_drafts if d.get("score", 0) >= thread_threshold]

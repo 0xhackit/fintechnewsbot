@@ -309,6 +309,87 @@ def classify_article(title: str, url: str, snippet: str = "") -> dict:
 
 
 # ===========================================================================
+# AI Quality Gate for X Posting (borderline articles)
+# ===========================================================================
+
+X_GATE_PROMPT = """You are a fintech news editor deciding if this article is worth posting to X (Twitter) for a professional fintech audience.
+
+The article scored {score}/100 in our automated system (borderline — needs human judgment).
+
+TITLE: {title}
+SNIPPET: {snippet}
+
+Consider:
+- Is this genuinely newsworthy for fintech professionals?
+- Would it drive engagement (likes/retweets) from the fintech community?
+- Is it a real product launch, partnership, or regulatory action (not just commentary)?
+- Does it involve major institutions, significant funding, or infrastructure changes?
+
+Respond with ONLY valid JSON (no markdown, no explanation outside the JSON):
+{{"post_to_x": true or false, "reason": "one sentence explaining your decision"}}"""
+
+
+def should_post_to_x(title: str, snippet: str, score: int) -> tuple[bool, str]:
+    """
+    AI quality gate for borderline X posts (score 45-75).
+
+    Asks Claude Haiku whether a borderline article is worth posting to X.
+    Fail-open: on any error, defaults to posting (True).
+
+    Returns:
+        (should_post, reason) tuple
+    """
+    try:
+        from anthropic import Anthropic
+    except ImportError:
+        return True, "anthropic package not available, defaulting to post"
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return True, "ANTHROPIC_API_KEY not set, defaulting to post"
+
+    client = Anthropic(api_key=api_key)
+
+    prompt = X_GATE_PROMPT.format(
+        title=title or "(no title)",
+        snippet=(snippet or "(no snippet)")[:500],
+        score=score,
+    )
+
+    try:
+        message = client.messages.create(
+            model=CLASSIFICATION_MODEL,
+            max_tokens=128,
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        response_text = message.content[0].text.strip()
+
+        # Strip markdown code fences if present
+        if response_text.startswith("```"):
+            lines = response_text.split("\n")
+            response_text = "\n".join(
+                line for line in lines
+                if not line.strip().startswith("```")
+            ).strip()
+
+        result = json.loads(response_text)
+
+        return (
+            bool(result.get("post_to_x", True)),
+            str(result.get("reason", "No reason provided")),
+        )
+
+    except json.JSONDecodeError as e:
+        logger.warning(f"AI X-gate response parse error: {e}")
+        return True, f"AI response parse error, defaulting to post"
+
+    except Exception as e:
+        logger.error(f"AI X-gate call failed: {e}")
+        return True, f"AI gate unavailable ({e}), defaulting to post"
+
+
+# ===========================================================================
 # Filtered Article Logger
 # ===========================================================================
 
