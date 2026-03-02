@@ -24,10 +24,18 @@ export async function scrapeUrl(
   const timeout = setTimeout(() => controller.abort(), 10_000);
 
   try {
-    const resp = await fetch(url, {
+    // Rewrite Twitter/X URLs to FxTwitter for proper OG metadata
+    const fetchUrl = rewriteTwitterUrl(url);
+    const isTwitter = fetchUrl !== url;
+
+    const resp = await fetch(fetchUrl, {
       signal: controller.signal,
+      redirect: isTwitter ? "follow" : undefined,
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; FintechOnchain/1.0)",
+        // FxTwitter serves OG metadata to bots, redirects browsers
+        "User-Agent": isTwitter
+          ? "Twitterbot/1.0"
+          : "Mozilla/5.0 (compatible; FintechOnchain/1.0)",
       },
     });
 
@@ -64,6 +72,27 @@ export async function scrapeUrl(
   } finally {
     clearTimeout(timeout);
   }
+}
+
+// ── Twitter/X URL rewriting ──
+
+/**
+ * Detect twitter.com / x.com URLs and rewrite to fxtwitter.com.
+ * FxTwitter returns proper og:title (author), og:description (tweet text),
+ * and og:image — unlike Twitter which requires JS rendering.
+ */
+function rewriteTwitterUrl(url: string): string {
+  try {
+    const parsed = new URL(url);
+    const host = parsed.hostname.replace(/^www\./, "").replace(/^mobile\./, "");
+    if (host === "twitter.com" || host === "x.com") {
+      parsed.hostname = "fxtwitter.com";
+      return parsed.toString();
+    }
+  } catch {
+    // Invalid URL — return as-is
+  }
+  return url;
 }
 
 // ── HTML parsing helpers ──
