@@ -55,6 +55,7 @@ jobs:
         env:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
+          TREE_OF_ALPHA_API_KEY: ${{ secrets.TREE_OF_ALPHA_API_KEY }}
         run: |
           python run.py
 

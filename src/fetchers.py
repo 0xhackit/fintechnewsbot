@@ -1,7 +1,7 @@
 from typing import List, Dict, Any, Optional
 import os
 import re
-from datetime import timezone
+from datetime import datetime, timezone
 
 import feedparser
 
@@ -219,3 +219,144 @@ def fetch_telegram_public_channels(
 
     # Python 3.14+: Telethon requires an explicit running loop.
     return asyncio.run(_run())
+
+
+# =========================
+# Tree of Alpha REST API ingestion
+# =========================
+
+def fetch_treeofalpha(
+    endpoint: str,
+    api_key: str,
+    max_items: int = 500,
+    http_cfg: dict = {},
+) -> List[Dict[str, Any]]:
+    """Fetch recent news from Tree of Alpha REST API.
+
+    Returns raw items shaped for normalize/match/scoring:
+      {source_type, source, feed_name, title, link, description, published, raw}
+    """
+    session = make_session(http_cfg)
+    headers = {
+        "User-Agent": "FintechNewsScraper/1.0",
+    }
+
+    print(f"🌳 Fetching Tree of Alpha news ...")
+
+    try:
+        r = session.get(
+            endpoint,
+            headers=headers,
+            params={"key": api_key},
+            timeout=int(http_cfg.get("timeout_seconds", 20)),
+        )
+    except Exception as e:
+        print(f"⚠️  Tree of Alpha fetch failed: {e}")
+        return []
+
+    if r.status_code >= 400:
+        snippet = (r.text or "")[:200]
+        print(f"⚠️  Tree of Alpha HTTP {r.status_code}: {snippet}")
+        return []
+
+    try:
+        data = r.json()
+    except Exception as e:
+        print(f"⚠️  Tree of Alpha JSON parse error: {e}")
+        return []
+
+    if not isinstance(data, list):
+        print(f"⚠️  Tree of Alpha: expected list, got {type(data).__name__}")
+        return []
+
+    print(f"   ↳ {len(data)} items received")
+
+    # /api/history schema:
+    #   title: headline (may be prefixed with "SOURCE_NAME: ")
+    #   url: link to original article/tweet
+    #   source: "Twitter" | "Blogs" | "Telegram" | etc
+    #   sourceName: e.g. "THE BLOCK", "COINDESK"
+    #   time: unix ms timestamp
+    #   info: { isRetweet, isReply, ... } (Twitter items only)
+    #   en: English title (same as title for English items)
+    #   suggestions: trading pair suggestions
+
+    items = []
+    skipped_rt = 0
+    skipped_empty = 0
+
+    for entry in data[:max_items]:
+        raw_title = (entry.get("title") or "").strip()
+        url = (entry.get("url") or entry.get("link") or "").strip()
+
+        # Skip empty items
+        if not raw_title and not url:
+            skipped_empty += 1
+            continue
+
+        # Skip retweets (noise)
+        info = entry.get("info") or {}
+        if info.get("isRetweet"):
+            skipped_rt += 1
+            continue
+
+        # Clean title: strip "SOURCE_NAME: " prefix (e.g. "THE BLOCK: ..." → "...")
+        title = raw_title
+        source_name = (entry.get("sourceName") or "").strip()
+        if source_name and title.upper().startswith(source_name.upper() + ":"):
+            title = title[len(source_name) + 1:].strip()
+
+        is_twitter = entry.get("source", "").lower() == "twitter"
+
+        # Strip Twitter handle prefix like "The Block (@TheBlockCo): "
+        if is_twitter:
+            twitter_prefix = re.match(r"^.+?\s*\(@\w+\):\s*", title)
+            if twitter_prefix:
+                title = title[twitter_prefix.end():].strip()
+
+        # For Twitter items: use only first line/sentence to avoid multi-line
+        # tweet content leaking into the title (recaps, threads, etc.)
+        if is_twitter:
+            # Split on newlines first
+            title = title.split("\n", 1)[0].strip()
+            # Strip trailing URLs
+            title = re.sub(r"\s*https?://\S+\s*$", "", title).strip()
+            # Strip leading emoji sequences
+            title = re.sub(r"^[\U0001F300-\U0001FAFF\U00002702-\U000027B0\u2600-\u26FF\u2700-\u27BF\s]+", "", title).strip()
+
+        if len(title) > 160:
+            title = title[:157] + "..."
+        if not title:
+            continue
+
+        # Convert unix ms timestamp to ISO8601
+        time_ms = entry.get("time")
+        published_iso = ""
+        if time_ms and isinstance(time_ms, (int, float)):
+            dt = datetime.fromtimestamp(time_ms / 1000, tz=timezone.utc)
+            published_iso = dt.isoformat().replace("+00:00", "Z")
+
+        # Use English title as description if available and different from cleaned title
+        en_title = (entry.get("en") or "").strip()
+        description = en_title if en_title and en_title != raw_title else raw_title
+
+        items.append({
+            "source_type": "treeofalpha",
+            "source": "Tree of Alpha",
+            "feed_name": (entry.get("source") or "unknown").lower(),
+            "title": title,
+            "link": url,
+            "description": description[:800],
+            "published": published_iso,
+            "raw": {
+                "_id": entry.get("_id"),
+                "coin": entry.get("coin"),
+                "toa_source": entry.get("source"),
+                "toa_source_name": source_name,
+                "suggestions": entry.get("suggestions"),
+                "info": info,
+            },
+        })
+
+    print(f"🌳 Tree of Alpha: {len(items)} items (skipped {skipped_rt} retweets, {skipped_empty} empty)")
+    return items

@@ -1,8 +1,9 @@
 import json
+import os
 import re
 from datetime import datetime, timezone, timedelta
 
-from .fetchers import fetch_google_news_rss, fetch_telegram_public_channels
+from .fetchers import fetch_google_news_rss, fetch_telegram_public_channels, fetch_treeofalpha
 from .normalize import normalize_item
 from .match import match_item
 from .dedupe import hard_dedupe, cluster_and_select
@@ -268,6 +269,25 @@ def main() -> int:
         except Exception as e:
             print(f"⚠️  Telegram fetch failed (continuing with RSS only): {e}")
 
+    # Tree of Alpha REST API (optional)
+    toa_cfg = cfg.get("treeofalpha", {}) or {}
+    if toa_cfg.get("enabled"):
+        api_key = os.environ.get(toa_cfg.get("api_key_env", "TREE_OF_ALPHA_API_KEY"), "")
+        if api_key:
+            try:
+                toa_items = fetch_treeofalpha(
+                    endpoint=toa_cfg.get("endpoint", "https://news.treeofalpha.com/api/allNews"),
+                    api_key=api_key,
+                    max_items=int(toa_cfg.get("max_items", 500)),
+                    http_cfg=cfg.get("http", {}),
+                )
+                print(f"🌳 Tree of Alpha: fetched {len(toa_items)} item(s)")
+                raw_items.extend(toa_items)
+            except Exception as e:
+                print(f"⚠️  Tree of Alpha fetch failed (continuing without it): {e}")
+        else:
+            print("⚠️  Tree of Alpha: skipped (no API key)")
+
     print(f"\n📥 Raw items fetched: {len(raw_items)}")
 
     from collections import Counter
@@ -305,10 +325,10 @@ def main() -> int:
             blocked_count += 1
             continue
 
-        # Crypto-anchor gate is useful for noisy Google News queries, but Telegram items
-        # are already gated at ingestion time (primary link OR event keyword). Don't
-        # drop Telegram items just because they don't contain anchor words.
-        if (m.get("source_type") or "").lower() != "telegram":
+        # Crypto-anchor gate is useful for noisy Google News queries, but Telegram
+        # and Tree of Alpha items are already crypto-focused by nature. Don't
+        # drop them just because they don't contain anchor words.
+        if (m.get("source_type") or "").lower() not in ("telegram", "treeofalpha"):
             if not has_crypto_anchor(m):
                 continue
 

@@ -63,7 +63,8 @@
     },
     "treeofalpha": {
       "enabled": true,
-      "endpoint": "https://news.treeofalpha.com/api/allNews",
+      "endpoint": "https://news.treeofalpha.com/api/history",
+      "api_key_env": "TREE_OF_ALPHA_API_KEY",
       "max_items": 500
     },
     "telegram": {

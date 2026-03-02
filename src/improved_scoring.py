@@ -200,8 +200,14 @@ def score_item_improved(item: dict, now_utc: datetime,
     listicle_penalty = -min(listicle_count * 100, 200)
     generic_penalty = -min(generic_count * 50, 100)
 
-    # Source penalty (unchanged)
-    source_penalty = -15 if source_type == 'telegram' else 0
+    # Source penalty: Telegram and Tree of Alpha Twitter items are noisier
+    feed_name = (item.get("feed_name") or "").lower()
+    if source_type == 'telegram':
+        source_penalty = -15
+    elif source_type == 'treeofalpha' and feed_name == 'twitter':
+        source_penalty = -15
+    else:
+        source_penalty = 0
 
     # Freshness (unchanged)
     freshness = 0
