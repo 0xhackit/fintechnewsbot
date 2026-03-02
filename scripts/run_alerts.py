@@ -286,10 +286,12 @@ def main():
     skipped_blocklist = 0
     skipped_ai_filter = 0       # NEW: count of AI-rejected articles
     skipped_ai_duplicate = 0    # NEW: count of SQLite-deduped articles
+    skipped_quality_dup = 0     # NEW: count of quality-review deduped articles
 
     for it in new_items:
         title = clean_title(it.get("title") or "")
         link = (it.get("link") or it.get("url") or "").strip()
+        snippet = (it.get("snippet") or "")[:300]
         score = it.get("score", 0)
         source_type = it.get("source_type", "")
 
@@ -373,6 +375,30 @@ def main():
                 ai_decision = None
                 print(f"⚠️  AI filter error ({e}), defaulting to publish: \"{title[:60]}...\"")
 
+        # --- Quality review (typo fix + semantic dedup within batch) ---
+        if use_ai:
+            try:
+                from src.ai_filter import quality_review
+
+                recent = [d["title"] for d in drafts[-20:]]
+                qr = quality_review(title, snippet, recent)
+
+                if qr.get("has_issues"):
+                    for issue in qr.get("issues", []):
+                        print(f"   🔧 Quality: {issue}")
+
+                if qr.get("clean_title") and qr["clean_title"] != title:
+                    print(f"   📝 Title cleaned: \"{title[:60]}\" → \"{qr['clean_title'][:60]}\"")
+                    title = qr["clean_title"]
+
+                if qr.get("is_duplicate_of"):
+                    skipped_quality_dup += 1
+                    print(f"🔁 Quality dedup: \"{title[:60]}...\"")
+                    print(f"   Duplicate of: \"{qr['is_duplicate_of'][:60]}\"")
+                    continue
+            except Exception as e:
+                print(f"⚠️  Quality review error ({e}), continuing with original title")
+
         iid = stable_item_id(it)
 
         # Build the draft entry
@@ -382,7 +408,7 @@ def main():
             "link": link,
             "message_html": build_message_html(title, link),
             "score": score,
-            "snippet": (it.get("snippet") or "")[:300],
+            "snippet": snippet,
             "matched_topics": it.get("matched_topics", []),
         }
 
@@ -436,6 +462,8 @@ def main():
         skip_parts.append(f"{skipped_ai_duplicate} AI dedup")
     if skipped_ai_filter:
         skip_parts.append(f"{skipped_ai_filter} AI rejected")
+    if skipped_quality_dup:
+        skip_parts.append(f"{skipped_quality_dup} quality dedup")
 
     if skip_parts:
         print(f"⚠️  Skipped: {', '.join(skip_parts)}")

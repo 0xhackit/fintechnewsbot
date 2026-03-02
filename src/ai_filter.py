@@ -390,6 +390,97 @@ def should_post_to_x(title: str, snippet: str, score: int) -> tuple[bool, str]:
 
 
 # ===========================================================================
+# Pre-Publish Quality Review
+# ===========================================================================
+
+QUALITY_PROMPT = """You are a fintech news editor reviewing article titles before publication.
+
+TITLE: {title}
+SNIPPET: {snippet}
+
+RECENT TITLES ALREADY PUBLISHED:
+{recent_titles}
+
+Review this title and respond with ONLY valid JSON (no markdown, no backticks):
+{{
+  "clean_title": "corrected title with typos fixed and source attribution removed",
+  "has_issues": true or false,
+  "issues": ["list of issues found, e.g. Typo: MoonePay -> MoonPay"],
+  "is_duplicate_of": "matching recent title if semantically duplicate, or null"
+}}
+
+Rules:
+1. Fix obvious typos and misspellings (company names, crypto terms, common words)
+2. Strip trailing source attributions like " - CoinDesk", " | The Block", " - Ledger Insights - blockchain for enterprise"
+3. If the title is about the SAME event/announcement as a recent title (even if worded differently), set is_duplicate_of to that recent title
+4. If no issues found, return the original title as clean_title and has_issues: false
+5. Do NOT change the meaning or rewrite the title — only fix errors and strip source names"""
+
+
+def quality_review(title: str, snippet: str, recent_titles: list[str]) -> dict:
+    """
+    AI quality review for article titles before publishing.
+
+    Checks for typos, appended source names, and semantic duplicates.
+    Fail-open: on any error, returns original title unchanged.
+
+    Returns:
+        dict with keys: clean_title, has_issues, issues, is_duplicate_of
+    """
+    try:
+        from anthropic import Anthropic
+    except ImportError:
+        return {"clean_title": title, "has_issues": False, "issues": [], "is_duplicate_of": None}
+
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        return {"clean_title": title, "has_issues": False, "issues": [], "is_duplicate_of": None}
+
+    recent_str = "\n".join(f"- {t}" for t in recent_titles[-20:]) if recent_titles else "(none)"
+
+    prompt = QUALITY_PROMPT.format(
+        title=title or "(no title)",
+        snippet=(snippet or "(no snippet)")[:300],
+        recent_titles=recent_str,
+    )
+
+    try:
+        client = Anthropic(api_key=api_key)
+        message = client.messages.create(
+            model=CLASSIFICATION_MODEL,
+            max_tokens=200,
+            messages=[{"role": "user", "content": prompt}],
+        )
+
+        response_text = message.content[0].text.strip()
+
+        # Strip markdown code fences if present
+        if response_text.startswith("```"):
+            lines = response_text.split("\n")
+            response_text = "\n".join(
+                line for line in lines
+                if not line.strip().startswith("```")
+            ).strip()
+
+        result = json.loads(response_text)
+
+        return {
+            "clean_title": result.get("clean_title", title),
+            "has_issues": bool(result.get("has_issues", False)),
+            "issues": result.get("issues", []),
+            "is_duplicate_of": result.get("is_duplicate_of"),
+        }
+
+    except json.JSONDecodeError as e:
+        logger.warning(f"Quality review parse error: {e}")
+        return {"clean_title": title, "has_issues": False, "issues": [], "is_duplicate_of": None}
+
+    except Exception as e:
+        logger.error(f"Quality review failed: {e}")
+        return {"clean_title": title, "has_issues": False, "issues": [], "is_duplicate_of": None}
+
+
+# ===========================================================================
 # Filtered Article Logger
 # ===========================================================================
 
