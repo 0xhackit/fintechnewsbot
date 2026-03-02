@@ -205,7 +205,9 @@ def score_item_improved(item: dict, now_utc: datetime,
     if source_type == 'telegram':
         source_penalty = -15
     elif source_type == 'treeofalpha' and feed_name == 'twitter':
-        source_penalty = -15
+        source_penalty = -25
+    elif source_type == 'treeofalpha':
+        source_penalty = -10
     else:
         source_penalty = 0
 
@@ -265,8 +267,11 @@ def score_item_improved(item: dict, now_utc: datetime,
         score = min(score, 10)
 
     # Ensure basic launch with tier1 gets minimum score
+    # (Skip for Tree of Alpha Twitter — too many promotional tweets match launch keywords)
+    is_toa_twitter = source_type == 'treeofalpha' and feed_name == 'twitter'
     if tier1_count >= 1 and comm_count <= 1 and listicle_count == 0 and generic_count == 0:
-        score = max(score, 35)
+        if not is_toa_twitter:
+            score = max(score, 35)
 
     item["score"] = int(score)
     item["score_breakdown"] = {

@@ -94,8 +94,26 @@ GENERIC_PATTERNS = [
     r"\binterest\s+remains?\b",
     r"\bprice\s+(action|movement|analysis)\b",
     r"\bmarket\s+(update|recap|overview|roundup)\b",
-    r"\bweekly\s+(recap|roundup|update)\b",
-    r"\bdaily\s+(recap|roundup|update)\b",
+    r"\bweekly\s+(recap|roundup|update|shipping|highlights|digest)\b",
+    r"\bdaily\s+(recap|roundup|update|digest)\b",
+    r"\bmonthly\s+(recap|roundup|update|digest)\b",
+    r"\becosystem\s+recap\b",
+    r"\bshipping\s+update\b",
+    r"\bimportant\s+reminder\b",
+    r"\bprint\s+#\d+\b",
+    r"\bfunding\s+(interval|rate)\s+(adjustment|update)\b",
+]
+
+# Promotional/slogan patterns (marketing copy, not news)
+PROMO_PATTERNS = [
+    r"^which\s+.+\s+(are\s+you|do\s+you)",      # polls: "Which X are you most excited about?"
+    r"^there'?s\s+no\s+going\s+back",            # motivational slogans
+    r"^one\s+step\s+closer\s+to\b",              # "One step closer to X"
+    r"^new\s+week\b",                             # "New week. New X."
+    r"^\".*\"$",                                  # bare quotes: "There's no going back."
+    r"is\s+showing\s+that\s+every\b",            # "X is showing that every Y"
+    r"is\s+entering\s+its\b",                     # "Finance is entering its tokenized era"
+    r"\bmeans\s+getting\s+.+\s+right\s+from\b",  # "means getting the infrastructure right from day one"
 ]
 
 
@@ -140,6 +158,16 @@ NOISE_PATTERNS = [
     "retirement",
     "abc",
     "fresno",
+    "perpetual contract",
+    "pre-market trading",
+    "airdrop",
+    "super airdrop",
+    "persona test",
+    "win up to",
+    "airstrikes",
+    "operation epic fury",
+    "outdoor activities",
+    "avoid outdoor",
 ]
 
 
@@ -386,11 +414,14 @@ def main() -> int:
     # Use improved scoring
     windowed_scored = []
     for it in windowed:
-        tier1 = _count(TIER1_LAUNCH_PATTERNS, f"{it.get("title","")} {it.get("snippet","")}".lower())
-        tier2 = _count(TIER2_ACTIVITY_PATTERNS, f"{it.get("title","")} {it.get("snippet","")}".lower())
-        comm = _count(COMMENTARY_PATTERNS, f"{it.get("title","")} {it.get("snippet","")}".lower())
+        text = f"{it.get("title","")} {it.get("snippet","")}".lower()
+        tier1 = _count(TIER1_LAUNCH_PATTERNS, text)
+        tier2 = _count(TIER2_ACTIVITY_PATTERNS, text)
+        comm = _count(COMMENTARY_PATTERNS, text)
         listicle = _count(LISTICLE_PATTERNS, it.get("title", "").lower())
         generic = _count(GENERIC_PATTERNS, it.get("title", "").lower())
+        promo = _count(PROMO_PATTERNS, it.get("title", "").lower())
+        generic += promo  # promo patterns count as generic
         scored = score_item_improved(it, now_utc, tier1, tier2, comm, listicle, generic)
         windowed_scored.append(scored)
 

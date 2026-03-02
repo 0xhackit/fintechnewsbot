@@ -284,6 +284,7 @@ def fetch_treeofalpha(
     items = []
     skipped_rt = 0
     skipped_empty = 0
+    skipped_promo = 0
 
     for entry in data[:max_items]:
         raw_title = (entry.get("title") or "").strip()
@@ -297,6 +298,11 @@ def fetch_treeofalpha(
         # Skip retweets (noise)
         info = entry.get("info") or {}
         if info.get("isRetweet"):
+            skipped_rt += 1
+            continue
+
+        # Skip replies (noise)
+        if info.get("isReply"):
             skipped_rt += 1
             continue
 
@@ -329,6 +335,34 @@ def fetch_treeofalpha(
         if not title:
             continue
 
+        # Skip short Twitter slogans (< 40 chars with no verb-like news content)
+        if is_twitter and len(title) < 40:
+            # Allow if it has a clear news verb
+            has_news_verb = bool(re.search(
+                r'\b(launch|announc|partner|rais|acquir|approv|integrat|list|deploy|settl)',
+                title, re.IGNORECASE
+            ))
+            if not has_news_verb:
+                skipped_promo += 1
+                continue
+
+        # Skip promotional/non-news Twitter patterns
+        if is_twitter:
+            title_lower = title.lower()
+            promo_skip = (
+                title_lower.startswith("ecosystem recap") or
+                title_lower.startswith("important reminder") or
+                title_lower.startswith("which ") and "?" in title_lower or
+                re.match(r'^".*"$', title.strip()) or  # bare quotes
+                re.match(r'^new\s+week\b', title_lower) or
+                bool(re.search(r'\bprint\s+#\d+', title_lower)) or  # "Pendle Print #104"
+                bool(re.search(r'\bfunding\s+(interval|rate)', title_lower)) or
+                bool(re.search(r'\bpre-?launch\s+market\b', title_lower))
+            )
+            if promo_skip:
+                skipped_promo += 1
+                continue
+
         # Convert unix ms timestamp to ISO8601
         time_ms = entry.get("time")
         published_iso = ""
@@ -358,5 +392,5 @@ def fetch_treeofalpha(
             },
         })
 
-    print(f"🌳 Tree of Alpha: {len(items)} items (skipped {skipped_rt} retweets, {skipped_empty} empty)")
+    print(f"🌳 Tree of Alpha: {len(items)} items (skipped {skipped_rt} retweets/replies, {skipped_promo} promo, {skipped_empty} empty)")
     return items

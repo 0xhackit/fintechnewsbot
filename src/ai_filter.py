@@ -209,6 +209,11 @@ RULES:
 - REJECT loosely related business news (e.g., "Bank X reports quarterly earnings" without fintech angle).
 - REJECT price speculation, market commentary, and "top 10" listicles.
 - REJECT celebrity crypto endorsements or meme coin hype.
+- REJECT promotional tweets, marketing slogans, and vague motivational statements (e.g., "Finance is entering its tokenized era", "There's no going back").
+- REJECT ecosystem recaps, weekly shipping updates, and digest/roundup content — these are not breaking news.
+- REJECT engagement bait (polls, "Which X are you excited about?", "New week. New X.").
+- REJECT protocol self-promotion without concrete newsworthy details (launch date, specific feature, partnership name, funding amount).
+- REJECT futures/perpetuals contract listings (e.g., "Binance Futures Will Launch XYZUSDT Perpetual Contract").
 - PRIORITIZE: product launches, partnerships, regulatory actions, funding rounds, institutional adoption, and infrastructure developments.
 
 Given this article:
