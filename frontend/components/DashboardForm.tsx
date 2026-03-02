@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import PostingControls from "./PostingControls";
+import KeywordManager from "./KeywordManager";
 
 interface ScrapeResult {
   title: string;
@@ -158,6 +159,7 @@ export default function DashboardForm() {
   return (
     <div className="dashboard-content">
       <PostingControls password={password} />
+      <KeywordManager password={password} />
 
       {/* URL Input */}
       {(phase === "input" || phase === "preview" || phase === "done") && phase !== "done" && (
