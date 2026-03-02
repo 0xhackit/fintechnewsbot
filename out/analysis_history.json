@@ -1,7 +1,50 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-02T23:14:53.846Z",
+  "updatedAt": "2026-03-02T23:45:02.512Z",
   "analyses": [
+    {
+      "id": "db258ad314dc",
+      "url": "https://www.ledgerinsights.com/northern-trust-asset-management-launches-tokenized-mmf/",
+      "title": "Northern Trust Asset Management launches tokenized MMF - Ledger Insights - blockchain for enterprise",
+      "source": "ledgerinsights.com",
+      "ticker": "BK",
+      "assetType": "stock",
+      "analyzedAt": "2026-03-02T23:45:00.179Z",
+      "entryPrice": 119.47,
+      "summary": "Institutional tokenization wave accelerates; BNY Mellon benefits from infrastructure adoption across major asset managers.",
+      "shortTerm": {
+        "direction": "NEUTRAL",
+        "confidence": 5,
+        "timeHorizon": "1-2 weeks",
+        "targetPrice": null,
+        "stopLoss": null,
+        "rationale": "News is positive for BNY's LiquidityDirect platform but lacks immediate catalyst for stock repricing. Northern Trust's launch validates the tokenized MMF thesis but is incremental to BNY's broader ecosystem play. Wait for earnings or concrete AUM growth announcements before initiating.",
+        "exposureMethods": []
+      },
+      "longTerm": {
+        "direction": "LONG",
+        "confidence": 7,
+        "timeHorizon": "6-12 months",
+        "targetPrice": 85,
+        "rationale": "BNY Mellon's infrastructure positioning (LiquidityDirect, GS DAP integration) positions it as the plumbing provider for institutional tokenization. With major players (Northern Trust $1.4T AUM, JPMorgan, State Street, MUFG) launching tokenized offerings, BNY's custody and settlement role becomes increasingly critical. This trend compounds over 2-3 years as tokenized assets scale.",
+        "exposureMethods": [
+          "accumulate BK shares on market dips",
+          "buy BK calls (6-9 month expiration)",
+          "dividend reinvestment for long-term compounding"
+        ]
+      },
+      "riskFactors": [
+        "Regulatory uncertainty: SEC/CFTC could impose restrictions on tokenized fund distribution or blockchain infrastructure requirements",
+        "Competition from crypto-native platforms: Public blockchain solutions (Ethereum L2s, Solana) may undercut permissioned ledgers like GS DAP",
+        "Adoption slower than expected: Institutional inertia and legacy custody systems may delay MMF tokenization beyond current consensus timelines"
+      ],
+      "catalysts": [
+        "BNY Mellon Q4 2024 earnings (Feb 2025): Watch for tokenization revenue contribution and LiquidityDirect AUM growth",
+        "Regulatory clarity from SEC on tokenized funds (expected late 2025)",
+        "Competitive MMF tokenization announcements from JPMorgan, Blackrock, or Vanguard",
+        "Goldman Sachs GS DAP platform expansion announcements"
+      ]
+    },
     {
       "id": "8c8e656aeb1d",
       "url": "https://www.ledgerinsights.com/northern-trust-asset-management-launches-tokenized-mmf/",
