@@ -85,6 +85,28 @@ export interface TradeAnalysis {
   timeHorizon: string;
 }
 
+// ── Enhanced Trade Analysis (short-term + long-term split) ──
+
+export interface TimeframeAnalysis {
+  direction: "LONG" | "SHORT" | "NEUTRAL";
+  confidence: number;
+  timeHorizon: string;
+  targetPrice: number | null;
+  stopLoss?: number | null;
+  rationale: string;
+  exposureMethods: string[];
+}
+
+export interface EnhancedTradeAnalysis {
+  ticker: string;
+  assetType: "crypto" | "stock" | "etf" | "token" | "unknown";
+  summary: string;
+  shortTerm: TimeframeAnalysis;
+  longTerm: TimeframeAnalysis;
+  riskFactors: string[];
+  catalysts: string[];
+}
+
 // ── Tweet Generation ──
 
 /**
@@ -285,5 +307,129 @@ Guidelines:
     exposureMethods: data.exposure_methods || [],
     riskFactors: data.risk_factors || [],
     timeHorizon: data.time_horizon || "medium-term (weeks)",
+  };
+}
+
+// ── Enhanced Trade Analysis (with short-term / long-term split) ──
+
+function parseDirection(d: string | undefined): "LONG" | "SHORT" | "NEUTRAL" {
+  const upper = (d || "").toUpperCase();
+  if (upper === "LONG" || upper === "SHORT" || upper === "NEUTRAL") return upper;
+  return "NEUTRAL";
+}
+
+function clampConfidence(n: number | undefined): number {
+  return Math.min(10, Math.max(1, n || 5));
+}
+
+/**
+ * Enhanced article analysis with separate short-term and long-term recommendations.
+ * Returns structured data for the /analyze page.
+ */
+export async function analyzeArticleEnhanced(
+  title: string,
+  content: string,
+  url: string
+): Promise<EnhancedTradeAnalysis> {
+  const apiKey = process.env.ANTHROPIC_API_KEY;
+  if (!apiKey) {
+    throw new Error("Missing ANTHROPIC_API_KEY");
+  }
+
+  const prompt = `You are a senior financial analyst at a top hedge fund, specializing in fintech, crypto, and digital assets. You provide actionable trade recommendations based on news analysis.
+
+Analyze this article and provide SEPARATE short-term and long-term trade recommendations.
+
+TITLE: ${title}
+URL: ${url}
+CONTENT: ${content.slice(0, 4000)}
+
+Respond with ONLY valid JSON (no markdown, no backticks) in this exact format:
+{
+  "ticker": "TICKER_SYMBOL",
+  "asset_type": "crypto|stock|etf|token",
+  "summary": "One compelling sentence summarizing the trade thesis (under 120 chars)",
+  "short_term": {
+    "direction": "LONG|SHORT|NEUTRAL",
+    "confidence": 1-10,
+    "time_horizon": "1-3 days|3-7 days|1-2 weeks",
+    "target_price": 00000,
+    "stop_loss": 00000,
+    "rationale": "2-3 sentences on the short-term trade thesis",
+    "exposure_methods": ["specific method 1", "specific method 2"]
+  },
+  "long_term": {
+    "direction": "LONG|SHORT|NEUTRAL",
+    "confidence": 1-10,
+    "time_horizon": "1-3 months|3-6 months|6-12 months",
+    "target_price": 00000,
+    "rationale": "2-3 sentences on the long-term investment thesis",
+    "exposure_methods": ["specific method 1", "specific method 2"]
+  },
+  "risk_factors": ["specific risk 1", "specific risk 2", "specific risk 3"],
+  "catalysts": ["upcoming catalyst 1", "upcoming catalyst 2"]
+}
+
+Guidelines:
+- Use the most relevant publicly traded ticker or crypto token symbol (e.g. BTC, ETH, COIN, MSTR)
+- Short-term and long-term CAN have DIFFERENT directions (e.g. short-term SHORT but long-term LONG)
+- Confidence 1-3 = low conviction, 4-6 = moderate, 7-10 = high conviction
+- For target_price and stop_loss: use realistic numeric values based on current market levels. Use null if not applicable.
+- Exposure methods must be SPECIFIC:
+  - Crypto short-term: "spot BTC on Coinbase", "BTC perpetual futures (2-3x)", "BTC weekly options"
+  - Crypto long-term: "dollar-cost average spot BTC", "IBIT ETF", "MSTR stock as BTC proxy"
+  - Stock short-term: "buy COIN shares", "COIN call options (30 DTE)", "short via put spreads"
+  - Stock long-term: "accumulate on dips", "covered call strategy", "sector ETF (ARKF)"
+- Risk factors must be SPECIFIC to this news, not generic
+- Catalysts must be CONCRETE upcoming events (earnings dates, protocol upgrades, regulatory deadlines, etc.)
+- If the article doesn't clearly suggest a trade, use "NEUTRAL" for both timeframes
+- Summary should be punchy and shareable — think Twitter-style insight`;
+
+  const client = new Anthropic({ apiKey });
+  const message = await client.messages.create({
+    model: "claude-haiku-4-5-20251001",
+    max_tokens: 800,
+    messages: [{ role: "user", content: prompt }],
+  });
+
+  const raw =
+    message.content[0].type === "text" ? message.content[0].text.trim() : "";
+
+  // Parse JSON — strip any markdown code fences if present
+  const cleaned = raw.replace(/```json?\n?/g, "").replace(/```/g, "").trim();
+
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const data = JSON.parse(cleaned) as Record<string, any>;
+  const st = data.short_term || {};
+  const lt = data.long_term || {};
+
+  const validAssetTypes = ["crypto", "stock", "etf", "token"];
+  const assetType = validAssetTypes.includes((data.asset_type || "").toLowerCase())
+    ? (data.asset_type.toLowerCase() as "crypto" | "stock" | "etf" | "token")
+    : "unknown" as const;
+
+  return {
+    ticker: (data.ticker || "N/A").toUpperCase(),
+    assetType,
+    summary: data.summary || "",
+    shortTerm: {
+      direction: parseDirection(st.direction),
+      confidence: clampConfidence(st.confidence),
+      timeHorizon: st.time_horizon || "1-3 days",
+      targetPrice: typeof st.target_price === "number" ? st.target_price : null,
+      stopLoss: typeof st.stop_loss === "number" ? st.stop_loss : null,
+      rationale: st.rationale || "",
+      exposureMethods: Array.isArray(st.exposure_methods) ? st.exposure_methods : [],
+    },
+    longTerm: {
+      direction: parseDirection(lt.direction),
+      confidence: clampConfidence(lt.confidence),
+      timeHorizon: lt.time_horizon || "1-3 months",
+      targetPrice: typeof lt.target_price === "number" ? lt.target_price : null,
+      rationale: lt.rationale || "",
+      exposureMethods: Array.isArray(lt.exposure_methods) ? lt.exposure_methods : [],
+    },
+    riskFactors: Array.isArray(data.risk_factors) ? data.risk_factors : [],
+    catalysts: Array.isArray(data.catalysts) ? data.catalysts : [],
   };
 }

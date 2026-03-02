@@ -781,7 +781,7 @@ body {
 }
 
 /* ══════════════════════════════════════════════
-   Analyze Page Styles (placeholder for Feature 2)
+   Analyze Page Styles
    ══════════════════════════════════════════════ */
 
 .analyze-page {
@@ -789,6 +789,479 @@ body {
   margin: 0 auto;
   padding: 16px;
   min-height: 100vh;
+}
+
+.analyze-header {
+  margin-bottom: 20px;
+}
+
+/* ── Article preview in analysis ── */
+.analysis-article {
+  background: #fff;
+  border: 1px solid #eff3f4;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.analysis-article-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  display: block;
+}
+
+.analysis-article-body {
+  padding: 14px 16px;
+}
+
+.analysis-article-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0f1419;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.analysis-article-source {
+  font-size: 13px;
+  color: #536471;
+  font-weight: 500;
+}
+
+/* ── Direction hero ── */
+.analysis-direction {
+  background: #fff;
+  border: 1px solid #eff3f4;
+  border-radius: 16px;
+  padding: 24px 20px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.direction-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  font-weight: 800;
+  padding: 6px 20px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.direction-long {
+  background: rgba(0, 186, 124, 0.12);
+  color: #00ba7c;
+}
+
+.direction-short {
+  background: rgba(244, 33, 46, 0.1);
+  color: #f4212e;
+}
+
+.direction-neutral {
+  background: #eff3f4;
+  color: #536471;
+}
+
+.analysis-ticker {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f1419;
+  margin-top: 10px;
+}
+
+.analysis-price {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0f1419;
+  margin-top: 4px;
+}
+
+.analysis-price-change {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.price-change-up {
+  color: #00ba7c;
+}
+
+.price-change-down {
+  color: #f4212e;
+}
+
+/* Confidence bar */
+.confidence-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  justify-content: center;
+}
+
+.confidence-track {
+  width: 140px;
+  height: 6px;
+  background: #eff3f4;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.confidence-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.4s ease;
+}
+
+.confidence-fill-high {
+  background: #00ba7c;
+}
+
+.confidence-fill-mid {
+  background: #f59e0b;
+}
+
+.confidence-fill-low {
+  background: #f4212e;
+}
+
+.confidence-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #536471;
+}
+
+/* ── Summary callout ── */
+.analysis-summary {
+  background: #f7f9f9;
+  border-left: 3px solid #1d9bf0;
+  border-radius: 0 12px 12px 0;
+  padding: 14px 16px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #0f1419;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+/* ── Timeframe cards (short-term / long-term) ── */
+.analysis-timeframe {
+  background: #fff;
+  border: 1px solid #eff3f4;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.timeframe-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.timeframe-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f1419;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.timeframe-horizon {
+  font-size: 12px;
+  font-weight: 600;
+  color: #536471;
+  background: #eff3f4;
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.timeframe-direction {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 3px 12px;
+  border-radius: 999px;
+}
+
+.timeframe-rationale {
+  font-size: 14px;
+  color: #536471;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.timeframe-targets {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.target-item {
+  flex: 1;
+  background: #f7f9f9;
+  border-radius: 12px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.target-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #536471;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.target-value {
+  font-size: 17px;
+  font-weight: 700;
+  color: #0f1419;
+  margin-top: 2px;
+}
+
+.target-value-green {
+  color: #00ba7c;
+}
+
+.target-value-red {
+  color: #f4212e;
+}
+
+/* Exposure method pills */
+.exposure-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #536471;
+  margin-bottom: 6px;
+}
+
+.exposure-methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.exposure-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 12px;
+  background: #f7f9f9;
+  border: 1px solid #eff3f4;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #0f1419;
+}
+
+/* ── Risk / Catalyst list cards ── */
+.analysis-list-card {
+  background: #fff;
+  border: 1px solid #eff3f4;
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 12px;
+}
+
+.analysis-list-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f1419;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.analysis-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.analysis-list li {
+  padding: 7px 0;
+  font-size: 14px;
+  color: #0f1419;
+  line-height: 1.45;
+  border-bottom: 1px solid #eff3f4;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.analysis-list li:last-child {
+  border-bottom: none;
+}
+
+.list-icon {
+  flex-shrink: 0;
+  font-size: 12px;
+  color: #536471;
+}
+
+/* ── Actions row ── */
+.analysis-actions {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.btn-copy {
+  background: #eff3f4;
+  color: #0f1419;
+}
+
+.btn-copy:hover:not(:disabled) {
+  background: #e1e8ed;
+}
+
+.btn-copy-done {
+  background: rgba(0, 186, 124, 0.12);
+  color: #00ba7c;
+}
+
+/* ── Loading steps ── */
+.loading-steps {
+  text-align: center;
+  padding: 48px 24px;
+  background: #fff;
+  border: 1px solid #eff3f4;
+  border-radius: 16px;
+}
+
+.loading-step {
+  font-size: 14px;
+  color: #536471;
+  margin-top: 8px;
+  transition: color 0.2s;
+}
+
+.loading-step-active {
+  color: #1d9bf0;
+  font-weight: 600;
+}
+
+.loading-step-done {
+  color: #00ba7c;
+}
+
+/* ── Track Record ── */
+.track-record {
+  background: #fff;
+  border: 1px solid #eff3f4;
+  border-radius: 16px;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.track-record-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.track-record-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: #0f1419;
+}
+
+.track-record-count {
+  font-size: 12px;
+  font-weight: 700;
+  color: #536471;
+  background: #eff3f4;
+  padding: 2px 10px;
+  border-radius: 999px;
+}
+
+.track-record-stats {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eff3f4;
+}
+
+.track-stat {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  background: #f7f9f9;
+  border-radius: 12px;
+}
+
+.track-stat-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f1419;
+}
+
+.track-stat-value-green {
+  color: #00ba7c;
+}
+
+.track-stat-label {
+  font-size: 11px;
+  color: #536471;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  margin-top: 2px;
+}
+
+.track-record-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid #eff3f4;
+}
+
+.track-record-row:last-child {
+  border-bottom: none;
+}
+
+.track-ticker {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f1419;
+  min-width: 48px;
+}
+
+.track-direction {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.track-pnl {
+  font-size: 13px;
+  font-weight: 600;
+  margin-left: auto;
+  font-variant-numeric: tabular-nums;
+}
+
+.track-pnl-positive {
+  color: #00ba7c;
+}
+
+.track-pnl-negative {
+  color: #f4212e;
+}
+
+.track-empty {
+  font-size: 13px;
+  color: #536471;
+  text-align: center;
+  padding: 16px 0;
 }
 
 /* ══════════════════════════════════════════════
@@ -834,10 +1307,24 @@ body {
   .controls-card,
   .result-card,
   .auth-card,
-  .posting-state {
+  .posting-state,
+  .analysis-direction,
+  .analysis-article,
+  .analysis-timeframe,
+  .analysis-list-card,
+  .track-record,
+  .loading-steps {
     border-radius: 0;
     border-left: none;
     border-right: none;
+  }
+
+  .timeframe-targets {
+    flex-direction: column;
+  }
+
+  .track-record-stats {
+    flex-direction: column;
   }
 
   .controls-row {

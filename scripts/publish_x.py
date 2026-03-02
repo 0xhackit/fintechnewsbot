@@ -172,6 +172,110 @@ def _post_to_x(text: str, api_key: str, api_secret: str,
 
 
 # ===========================================================================
+# AI Trade Analysis Reply
+# ===========================================================================
+
+def _post_analysis_reply(tweet_id: str, article_url: str,
+                         api_key: str, api_secret: str,
+                         access_token: str, access_secret: str,
+                         dry_run: bool = False) -> None:
+    """Post AI trade analysis as a reply to the article tweet.
+
+    Calls the frontend /api/analyze endpoint and formats the result
+    as a concise reply tweet with ticker, direction, and summary.
+    """
+    frontend_url = os.environ.get("FRONTEND_URL", "").rstrip("/")
+    if not frontend_url:
+        return
+
+    if not article_url:
+        return
+
+    try:
+        print(f"  📊 Fetching AI trade analysis...")
+        resp = requests.post(
+            f"{frontend_url}/api/analyze",
+            json={"url": article_url},
+            timeout=30,
+        )
+        if resp.status_code != 200:
+            print(f"  ⚠️  Analysis API returned {resp.status_code}")
+            return
+
+        data = resp.json()
+        analysis = data.get("analysis", {})
+        price = data.get("price", {})
+
+        # Extract fields
+        ticker = analysis.get("ticker", "N/A")
+        short_term = analysis.get("shortTerm", {})
+        long_term = analysis.get("longTerm", {})
+        direction = short_term.get("direction", "NEUTRAL")
+        conf = short_term.get("confidence", 5)
+        summary = analysis.get("summary", "")
+
+        lt_direction = long_term.get("direction", "NEUTRAL")
+        lt_horizon = long_term.get("timeHorizon", "1-3 months")
+
+        # Format price
+        price_val = price.get("price")
+        price_str = f" ${price_val:,.0f}" if price_val and price_val >= 1 else ""
+        if price_val and price_val < 1:
+            price_str = f" ${price_val:.4f}"
+
+        # Direction arrows
+        arrow = "▲" if direction == "LONG" else "▼" if direction == "SHORT" else "—"
+        lt_arrow = "▲" if lt_direction == "LONG" else "▼" if lt_direction == "SHORT" else "—"
+
+        # Build reply tweet (keep under 280 chars)
+        lines = [
+            f"AI Trade Signal: ${ticker}{price_str}",
+            f"{arrow} {direction} ({conf}/10 confidence)",
+            "",
+        ]
+
+        # Add short-term targets if available
+        target = short_term.get("targetPrice")
+        stop = short_term.get("stopLoss")
+        if target:
+            target_str = f"${target:,.0f}" if target >= 1 else f"${target:.4f}"
+            line = f"Short-term: Target {target_str}"
+            if stop:
+                stop_str = f"${stop:,.0f}" if stop >= 1 else f"${stop:.4f}"
+                line += f", Stop {stop_str}"
+            lines.append(line)
+
+        lines.append(f"Long-term: {lt_arrow} {lt_direction} ({lt_horizon})")
+
+        if summary:
+            # Trim summary to fit
+            remaining = 280 - len("\n".join(lines)) - 2
+            if remaining > 30:
+                lines.append("")
+                lines.append(summary[:remaining])
+
+        reply_text = "\n".join(lines)
+
+        # Truncate to 280 chars
+        if len(reply_text) > 280:
+            reply_text = reply_text[:277] + "..."
+
+        if dry_run:
+            print(f"  📊 [DRY RUN] Analysis reply:\n{reply_text}")
+            return
+
+        _post_to_x(
+            reply_text,
+            api_key, api_secret, access_token, access_secret,
+            reply_to_id=tweet_id,
+        )
+        print(f"  📊 Analysis reply posted (${ticker} {direction})")
+
+    except Exception as e:
+        print(f"  ⚠️  Analysis reply failed: {e}")
+
+
+# ===========================================================================
 # OG image fetching + media upload
 # ===========================================================================
 
@@ -835,6 +939,16 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
                     "tweet_text": tweet_meta.get("tweet_text"),
                     "tweet_url": tweet_meta.get("tweet_url"),
                 })
+
+                # Post AI trade analysis as a reply thread
+                tid = tweet_meta.get("tweet_id")
+                article_link = draft.get("link", "")
+                if tid and article_link:
+                    _post_analysis_reply(
+                        tid, article_link,
+                        api_key, api_secret, access_token, access_secret,
+                        dry_run=dry_run,
+                    )
         except Exception as e:
             print(f"  ❌ Failed: {e}")
             failed_count += 1

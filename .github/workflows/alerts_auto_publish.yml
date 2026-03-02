@@ -100,6 +100,7 @@ jobs:
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
         run: |
           if [ -f out/alerts_drafts.json ]; then
             DRAFT_COUNT=$(python -c "import json; print(len(json.load(open('out/alerts_drafts.json'))))")
@@ -120,7 +121,7 @@ jobs:
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
 
-          git add state/seen_alerts.json state/posted_articles.db state/x_daily_count.json state/x_queue.json state/x_style_rotation.json out/items_last24h.json out/alerts_drafts.json out/feed.json filtered_log.txt || true
+          git add state/seen_alerts.json state/posted_articles.db state/x_daily_count.json state/x_queue.json state/x_style_rotation.json out/items_last24h.json out/alerts_drafts.json out/feed.json out/analysis_history.json filtered_log.txt || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (auto-published)"
           git push
