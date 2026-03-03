@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-03T02:53:54.804Z",
+  "updatedAt": "2026-03-03T02:54:02.914Z",
   "analyses": [
+    {
+      "id": "92319ea66888",
+      "url": "https://decrypt.co/359636/trump-cftc-appoints-crypto-lawyer-lead-shrinking-enforcement-team",
+      "title": "Trump’s CFTC Appoints Crypto Lawyer to Lead Shrinking Enforcement Team - Decrypt",
+      "source": "decrypt.co",
+      "ticker": "COIN",
+      "assetType": "stock",
+      "analyzedAt": "2026-03-03T02:54:01.902Z",
+      "entryPrice": 185.24,
+      "summary": "Crypto-friendly CFTC leadership signals reduced enforcement risk, bullish for regulated exchanges.",
+      "shortTerm": {
+        "direction": "LONG",
+        "confidence": 6,
+        "timeHorizon": "1-2 weeks",
+        "targetPrice": 185,
+        "stopLoss": 168,
+        "rationale": "Appointment of crypto-sympathetic enforcement lead removes near-term regulatory uncertainty that has pressured COIN. Market relief rally typically extends 1-2 weeks post-positive regulatory signals. Current price $180 offers attractive entry with defined risk.",
+        "exposureMethods": [
+          "buy COIN shares on dips below $178",
+          "COIN call options 30 DTE, $185 strike",
+          "COIN bull call spread ($180/$190)"
+        ]
+      },
+      "longTerm": {
+        "direction": "LONG",
+        "confidence": 7,
+        "timeHorizon": "6-12 months",
+        "targetPrice": 240,
+        "rationale": "Structural shift toward crypto-friendly regulatory stance under Trump administration reduces existential compliance burden on COIN. Shrinking enforcement team decreases likelihood of aggressive investigations that previously weighed on valuation multiples. Regulatory clarity is primary headwind resolution COIN needed.",
+        "exposureMethods": [
+          "accumulate COIN on 3-6 month dips via limit orders",
+          "covered call strategy selling OTM calls 60+ DTE",
+          "sector ETF ARKF (crypto/fintech exposure diversification)"
+        ]
+      },
+      "riskFactors": [
+        "Political risk: Trump administration policy reversal if enforcement priorities shift back post-2026 elections",
+        "Regulatory backlash: Congressional pressure on CFTC if crypto market misbehavior triggers public outcry requiring enforcement response",
+        "Execution risk: Crypto lawyer leadership without traditional enforcement experience may face credibility challenges or institutional resistance"
+      ],
+      "catalysts": [
+        "CFTC enforcement team operational changes/resource announcements (next 30-60 days)",
+        "Trump administration crypto policy framework release (Q1 2025)",
+        "COIN earnings reports showing margin expansion from reduced compliance costs (next quarters)",
+        "Major crypto exchange enforcement action by SEC vs CFTC approach divergence (could signal strength of new regime)"
+      ]
+    },
     {
       "id": "6098e69ce209",
       "url": "https://www.ledgerinsights.com/northern-trust-asset-management-launches-tokenized-mmf/",
