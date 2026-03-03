@@ -1,6 +1,5 @@
 import { getFeed, getWeeklyHighlights } from "@/lib/feed";
-import PostItem from "@/components/PostItem";
-import WeeklyHighlights from "@/components/WeeklyHighlights";
+import FeedTabs from "@/components/FeedTabs";
 
 export default async function HomePage() {
   const feed = await getFeed();
@@ -9,24 +8,11 @@ export default async function HomePage() {
 
   return (
     <main className="feed">
-      <WeeklyHighlights highlights={highlights} />
-
-      <div className="section-divider">
-        <h2 className="section-title">Latest News</h2>
-      </div>
-
-      {entries.length === 0 ? (
-        <div className="empty-state">
-          <p>No articles yet</p>
-          <p>The feed updates every 5 minutes.</p>
-        </div>
-      ) : (
-        <div className="news-feed">
-          {entries.map((entry) => (
-            <PostItem key={entry.id} entry={entry} />
-          ))}
-        </div>
-      )}
+      <FeedTabs
+        initialEntries={entries}
+        initialHighlights={highlights}
+        updatedAt={feed.updated_at}
+      />
     </main>
   );
 }

@@ -157,6 +157,86 @@ body {
   line-height: 1.4;
 }
 
+/* ── Feed Tabs ── */
+.feed-tabs {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 0;
+  position: sticky;
+  top: 52px;
+  background: #f0f2f5;
+  z-index: 5;
+}
+
+.feed-tab {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.15s;
+  background: transparent;
+  color: #536471;
+}
+
+.feed-tab:hover {
+  background: rgba(15, 20, 25, 0.06);
+}
+
+.feed-tab-active {
+  background: #0f1419;
+  color: #fff;
+}
+
+.feed-tab-active:hover {
+  background: #272c30;
+}
+
+.feed-updated {
+  margin-left: auto;
+  font-size: 12px;
+  color: #536471;
+  white-space: nowrap;
+}
+
+/* ── Highlight Items ── */
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.highlight-rank-badge {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: #1d9bf0;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 14px;
+  margin-left: 14px;
+}
+
+.highlight-score {
+  font-size: 12px;
+  font-weight: 700;
+  color: #1d9bf0;
+}
+
+.highlight-category {
+  font-size: 12px;
+  font-weight: 600;
+  color: #536471;
+  text-transform: capitalize;
+}
+
 /* ── Section Divider ── */
 .section-divider {
   padding: 16px 16px 0;
@@ -1343,5 +1423,25 @@ body {
 
   .nav-links {
     gap: 2px;
+  }
+
+  .feed-tabs {
+    padding: 10px 12px;
+    top: 48px;
+  }
+
+  .feed-tab {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+
+  .highlight-rank-badge {
+    margin-left: 10px;
+  }
+
+  .news-feed {
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
   }
 }

@@ -140,6 +140,7 @@ jobs:
           git add state/seen_alerts.json state/posted_articles.db state/x_daily_count.json state/x_queue.json state/x_style_rotation.json out/items_last24h.json out/alerts_drafts.json out/feed.json out/analysis_history.json filtered_log.txt || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (auto-published)"
+          git pull --rebase origin main --quiet || true
           git push
 
       - name: Notify on failure
