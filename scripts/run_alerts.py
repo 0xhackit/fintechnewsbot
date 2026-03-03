@@ -468,9 +468,10 @@ def main():
     if skip_parts:
         print(f"⚠️  Skipped: {', '.join(skip_parts)}")
 
-    # Keep only last 100 seen titles to prevent unbounded growth
-    if len(seen_titles) > 100:
-        seen_titles = seen_titles[-100:]
+    # Keep only last 500 seen titles to prevent unbounded growth
+    # (was 100 — too small, caused duplicates when same story re-appeared)
+    if len(seen_titles) > 500:
+        seen_titles = seen_titles[-500:]
 
     # Save state
     state["seen"] = sorted(seen)

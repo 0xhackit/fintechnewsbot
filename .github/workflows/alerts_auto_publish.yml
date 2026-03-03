@@ -50,6 +50,10 @@ jobs:
 
           echo "🔧 Config: auto_approve=$AUTO_APPROVE, post_telegram=$POST_TELEGRAM, post_x=$POST_X"
 
+      - name: Pull latest state (prevent race with previous run)
+        if: steps.check_config.outputs.auto_approve == 'true'
+        run: git pull --rebase origin main --quiet || true
+
       - name: Run main pipeline (fetch + rank)
         if: steps.check_config.outputs.auto_approve == 'true'
         env:
@@ -65,6 +69,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/run_alerts.py --mode prepare
+
+      - name: Commit dedup state (pre-post)
+        if: steps.check_config.outputs.auto_approve == 'true'
+        run: |
+          git config user.name "fintech-news-bot"
+          git config user.email "fintech-news-bot@users.noreply.github.com"
+          git add state/seen_alerts.json state/posted_articles.db || true
+          git diff --cached --quiet && echo "No dedup state changes" && exit 0
+          git commit -m "chore: update dedup state (pre-post)"
+          git pull --rebase origin main --quiet || true
+          git push || echo "⚠️ Pre-post state push failed (non-fatal)"
 
       - name: Post to Telegram
         id: post_telegram

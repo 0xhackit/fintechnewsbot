@@ -821,6 +821,26 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
         print("ℹ️  No drafts to post")
         return
 
+    # Final safety net: load links already posted to X from feed.json
+    feed_path = Path("out/feed.json")
+    posted_links: set[str] = set()
+    if feed_path.exists():
+        try:
+            feed_data = json.loads(feed_path.read_text(encoding="utf-8"))
+            for entry in feed_data.get("entries", []):
+                if entry.get("posted_to_x") and entry.get("link"):
+                    posted_links.add(entry["link"].strip())
+        except Exception:
+            pass
+
+    # Remove drafts whose links were already posted to X
+    if posted_links:
+        before = len(drafts)
+        drafts = [d for d in drafts if d.get("link", "").strip() not in posted_links]
+        deduped = before - len(drafts)
+        if deduped:
+            print(f"⏭️  Skipped {deduped} draft(s) already posted to X (feed.json dedup)")
+
     # Filter by X threshold
     x_drafts = [d for d in drafts if d.get("score", 0) >= min_score_for_x]
     print(f"📋 {len(drafts)} total draft(s), {len(x_drafts)} qualify for X (score >= {min_score_for_x})")
