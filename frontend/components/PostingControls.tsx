@@ -6,6 +6,8 @@ interface PostingStatus {
   post_to_x: boolean;
   post_to_telegram: boolean;
   auto_approve: boolean;
+  trade_analysis_x: boolean;
+  trade_analysis_telegram: boolean;
 }
 
 export default function PostingControls({ password }: { password: string }) {
@@ -94,6 +96,31 @@ export default function PostingControls({ password }: { password: string }) {
     }
   }
 
+  async function toggleAnalysis(platform: "x" | "telegram") {
+    if (!status || toggling) return;
+    const key = platform === "x" ? "trade_analysis_x" : "trade_analysis_telegram";
+    const newVal = !status[key];
+
+    setToggling(`analysis_${platform}`);
+    try {
+      const resp = await fetch("/api/posting-status", {
+        method: "PUT",
+        headers: {
+          Authorization: `Bearer ${password}`,
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ [key]: newVal }),
+      });
+      if (!resp.ok) throw new Error("Failed to update");
+      const data = (await resp.json()) as PostingStatus;
+      setStatus(data);
+    } catch {
+      setError("Failed to toggle trade analysis");
+    } finally {
+      setToggling(null);
+    }
+  }
+
   if (loading) {
     return (
       <div className="controls-card">
@@ -169,6 +196,37 @@ export default function PostingControls({ password }: { password: string }) {
             disabled={!!toggling}
           >
             {toggling === "all" ? "..." : allPaused ? "Paused" : "Active"}
+          </button>
+        </div>
+      </div>
+
+      <div className="controls-section-label">Trade Analysis Replies</div>
+      <div className="controls-row">
+        <div className="control-item">
+          <div className="control-label">
+            <span className={`status-dot-sm ${status.trade_analysis_x ? "status-dot-green" : "status-dot-red"}`} />
+            Analysis on X
+          </div>
+          <button
+            className={`toggle-btn ${status.trade_analysis_x ? "toggle-active" : "toggle-paused"}`}
+            onClick={() => toggleAnalysis("x")}
+            disabled={!!toggling}
+          >
+            {toggling === "analysis_x" ? "..." : status.trade_analysis_x ? "Active" : "Paused"}
+          </button>
+        </div>
+
+        <div className="control-item">
+          <div className="control-label">
+            <span className={`status-dot-sm ${status.trade_analysis_telegram ? "status-dot-green" : "status-dot-red"}`} />
+            Analysis on TG
+          </div>
+          <button
+            className={`toggle-btn ${status.trade_analysis_telegram ? "toggle-active" : "toggle-paused"}`}
+            onClick={() => toggleAnalysis("telegram")}
+            disabled={!!toggling}
+          >
+            {toggling === "analysis_telegram" ? "..." : status.trade_analysis_telegram ? "Active" : "Paused"}
           </button>
         </div>
       </div>

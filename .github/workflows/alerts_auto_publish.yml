@@ -87,6 +87,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
         run: |
           if [ -f out/alerts_drafts.json ]; then
             DRAFT_COUNT=$(python -c "import json; print(len(json.load(open('out/alerts_drafts.json'))))")

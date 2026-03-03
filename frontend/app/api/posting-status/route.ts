@@ -24,6 +24,8 @@ export async function GET(req: NextRequest) {
         post_to_x?: boolean;
         post_to_telegram?: boolean;
         auto_approve?: boolean;
+        trade_analysis_x?: boolean;
+        trade_analysis_telegram?: boolean;
       };
     };
 
@@ -31,6 +33,8 @@ export async function GET(req: NextRequest) {
       post_to_x: config.alerts?.post_to_x ?? true,
       post_to_telegram: config.alerts?.post_to_telegram ?? true,
       auto_approve: config.alerts?.auto_approve ?? true,
+      trade_analysis_x: config.alerts?.trade_analysis_x ?? false,
+      trade_analysis_telegram: config.alerts?.trade_analysis_telegram ?? false,
     });
   } catch (err) {
     console.error("Posting status GET error:", err);
@@ -54,6 +58,8 @@ export async function PUT(req: NextRequest) {
     const body = (await req.json()) as {
       post_to_x?: boolean;
       post_to_telegram?: boolean;
+      trade_analysis_x?: boolean;
+      trade_analysis_telegram?: boolean;
     };
 
     // Fetch current config
@@ -69,6 +75,12 @@ export async function PUT(req: NextRequest) {
     if (typeof body.post_to_telegram === "boolean") {
       config.alerts.post_to_telegram = body.post_to_telegram;
     }
+    if (typeof body.trade_analysis_x === "boolean") {
+      config.alerts.trade_analysis_x = body.trade_analysis_x;
+    }
+    if (typeof body.trade_analysis_telegram === "boolean") {
+      config.alerts.trade_analysis_telegram = body.trade_analysis_telegram;
+    }
 
     // Commit updated config
     await putFileToGitHub(
@@ -82,6 +94,8 @@ export async function PUT(req: NextRequest) {
       post_to_x: config.alerts.post_to_x,
       post_to_telegram: config.alerts.post_to_telegram,
       auto_approve: config.alerts.auto_approve,
+      trade_analysis_x: config.alerts.trade_analysis_x,
+      trade_analysis_telegram: config.alerts.trade_analysis_telegram,
     });
   } catch (err) {
     console.error("Posting status PUT error:", err);

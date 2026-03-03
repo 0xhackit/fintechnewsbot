@@ -960,15 +960,16 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
                     "tweet_url": tweet_meta.get("tweet_url"),
                 })
 
-                # Post AI trade analysis as a reply thread
-                tid = tweet_meta.get("tweet_id")
-                article_link = draft.get("link", "")
-                if tid and article_link:
-                    _post_analysis_reply(
-                        tid, article_link,
-                        api_key, api_secret, access_token, access_secret,
-                        dry_run=dry_run,
-                    )
+                # Post AI trade analysis as a reply thread (if enabled)
+                if alerts_config.get("trade_analysis_x", False):
+                    tid = tweet_meta.get("tweet_id")
+                    article_link = draft.get("link", "")
+                    if tid and article_link:
+                        _post_analysis_reply(
+                            tid, article_link,
+                            api_key, api_secret, access_token, access_secret,
+                            dry_run=dry_run,
+                        )
         except Exception as e:
             print(f"  ❌ Failed: {e}")
             failed_count += 1
