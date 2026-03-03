@@ -216,18 +216,143 @@ def _load_all_entities() -> list[str]:
     return _ALL_ENTITIES_CACHE
 
 
+# ---------------------------------------------------------------------------
+# Dynamic proper noun extraction (list-free entity detection)
+# ---------------------------------------------------------------------------
+
+# Verbs that typically start the action clause in a news headline.
+# Used to split title-case headlines into [ENTITY] [VERB] [REST].
+_HEADLINE_VERBS = {
+    # Launch/release
+    "launch", "launches", "launched", "launching",
+    "debut", "debuts", "debuted",
+    "introduce", "introduces", "introduced",
+    "unveil", "unveils", "unveiled",
+    "release", "releases", "released",
+    "rollout", "rolls",
+    # Funding/deals
+    "raise", "raises", "raised", "raising",
+    "secure", "secures", "secured",
+    # Partnerships/moves
+    "partner", "partners", "partnered",
+    "join", "joins", "joined",
+    "sign", "signs", "signed",
+    "tap", "taps", "tapped",
+    "hire", "hires", "hired",
+    "name", "names", "named",
+    # Market actions
+    "acquire", "acquires", "acquired",
+    "buy", "buys", "bought",
+    "sell", "sells", "sold",
+    "expand", "expands", "expanded",
+    "enter", "enters", "entered",
+    "target", "targets", "targeted",
+    "plan", "plans", "planned",
+    "explore", "explores", "explored",
+    "eye", "eyes", "eyed",
+    "seek", "seeks", "sought",
+    "back", "backs", "backed",
+    "add", "adds", "added",
+    "file", "files", "filed",
+    "report", "reports", "reported",
+    "say", "says", "said",
+    "reveal", "reveals", "revealed",
+    "announce", "announces", "announced",
+    # Prepositions / auxiliaries (mark end of entity in title-case)
+    "to", "in", "is", "are", "was", "were",
+    "has", "have", "had", "will", "may", "could",
+}
+
+_CONNECTING_WORDS = {"of", "and", "the", "for", "&", "de", "du", "van"}
+
+
+def extract_proper_nouns(title: str) -> set[str]:
+    """Extract 2-word proper noun phrases from a title dynamically.
+
+    Works for both sentence-case and title-case titles without relying
+    on a predefined entity list.
+
+    Sentence case: finds consecutive capitalized word sequences.
+    Title case: takes words before the first headline verb.
+    Returns the first 2 capitalized words of each detected sequence,
+    lowercased.
+
+    Examples:
+        "Northern Trust Asset Management launches tokenized MMF"
+            → {"northern trust"}
+        "Northern Trust Launches Tokenized Treasury Fund"
+            → {"northern trust"}
+        "SEC says regulation coming"
+            → set()   (single-word — handled by KNOWN_ENTITIES instead)
+    """
+    words = (title or "").strip().split()
+    if len(words) < 2:
+        return set()
+
+    phrases: set[str] = set()
+    cap_count = sum(1 for w in words if w[:1].isupper())
+    is_title_case = cap_count / len(words) > 0.6
+
+    if is_title_case:
+        # Title case: entity = capitalized words before the first headline verb
+        entity_words: list[str] = []
+        for w in words:
+            if w.lower().rstrip(".,;:'\"!?") in _HEADLINE_VERBS:
+                break
+            if w[:1].isupper():
+                entity_words.append(w)
+        if len(entity_words) >= 2:
+            phrases.add(f"{entity_words[0]} {entity_words[1]}".lower())
+    else:
+        # Sentence case: find consecutive capitalized word sequences
+        i = 0
+        while i < len(words):
+            w = words[i]
+            if w[:1].isupper() and w.lower() not in _CONNECTING_WORDS:
+                seq = [w]
+                j = i + 1
+                while j < len(words):
+                    wj = words[j]
+                    if wj[:1].isupper() or wj.lower() in _CONNECTING_WORDS:
+                        seq.append(wj)
+                        j += 1
+                    else:
+                        break
+                # Take first 2 capitalized words as entity identifier
+                cap_words = [s for s in seq if s[:1].isupper()]
+                if len(cap_words) >= 2:
+                    phrases.add(f"{cap_words[0]} {cap_words[1]}".lower())
+                i = j if j > i + 1 else i + 1
+            else:
+                i += 1
+
+    return phrases
+
+
 def extract_entities(title: str) -> set[str]:
     """
-    Extract known entities from a title.
-    Uses KNOWN_ENTITIES + digital_asset_banks from config.json.
+    Extract entities from a title.
+
+    Two complementary methods:
+      1. List-based: matches against KNOWN_ENTITIES + config.json digital_asset_banks
+         (catches single-word entities like "SEC", "Coinbase")
+      2. Dynamic: extracts multi-word proper nouns from capitalization patterns
+         (catches ANY institution: "Northern Trust", "Alliant Credit Union", etc.)
+
     Returns a set of canonical (short) entity names.
     """
+    # Method 1: List-based matching (existing)
     all_entities = _load_all_entities()
     t = title.lower()
     found = set()
     for entity in sorted(all_entities, key=len, reverse=True):
         if entity in t:
             found.add(entity.split()[0])
+
+    # Method 2: Dynamic proper noun extraction (catches ANY multi-word institution)
+    for noun_phrase in extract_proper_nouns(title):
+        found.add(noun_phrase.split()[0])
+
     return found
 
 
