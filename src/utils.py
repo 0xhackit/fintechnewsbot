@@ -14,6 +14,7 @@ All modules (dedupe.py, run_alerts.py, ai_filter.py) import from here.
 import os
 import re
 import html
+import json
 import hashlib
 from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 
@@ -114,7 +115,13 @@ def normalize_title(title: str) -> str:
     - Normalizes whitespace and removes non-alphanumeric chars
     """
     t = (title or "").strip().lower()
-    t = _OUTLET_TAIL_RE.sub("", t)
+    # Iteratively strip trailing source attributions (up to 5 passes)
+    # e.g. "Article - Source A - Source B" → "Article"
+    for _ in range(5):
+        stripped = _OUTLET_TAIL_RE.sub("", t)
+        if stripped == t:
+            break
+        t = stripped
     t = re.sub(r'^(breaking|exclusive|alert|update):\s*', '', t)
     t = re.sub(r'\s*\(updated\)$', '', t)
     t = re.sub(r"[^a-z0-9\s]", " ", t)
@@ -171,17 +178,54 @@ KNOWN_ENTITIES = [
     "tether", "robinhood", "sofi", "brex",
     "cme", "cme group", "sec", "cftc", "fed", "federal reserve",
     "payoneer", "grab", "wirex",
+    "northern trust", "bny mellon", "nomura", "mizuho",
+    "dbs", "hashkey", "amber group",
 ]
+
+# Cache for merged entity list (KNOWN_ENTITIES + config.json digital_asset_banks)
+_ALL_ENTITIES_CACHE: list[str] | None = None
+
+
+def _load_all_entities() -> list[str]:
+    """Load and merge entities from KNOWN_ENTITIES + config.json digital_asset_banks.
+
+    Cached after first call.  Falls back to KNOWN_ENTITIES if config is missing.
+    """
+    global _ALL_ENTITIES_CACHE
+    if _ALL_ENTITIES_CACHE is not None:
+        return _ALL_ENTITIES_CACHE
+
+    config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "config.json")
+    try:
+        with open(config_path, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+        config_banks = cfg.get("digital_asset_banks", [])
+        config_lower = [b.strip().lower() for b in config_banks if b.strip()]
+    except Exception:
+        config_lower = []
+
+    # Merge: KNOWN_ENTITIES + config banks, deduplicated
+    merged = list(KNOWN_ENTITIES)
+    existing_lower = {e.lower() for e in merged}
+    for entity in config_lower:
+        if entity not in existing_lower:
+            merged.append(entity)
+            existing_lower.add(entity)
+
+    _ALL_ENTITIES_CACHE = merged
+    return _ALL_ENTITIES_CACHE
 
 
 def extract_entities(title: str) -> set[str]:
     """
     Extract known entities from a title.
+    Uses KNOWN_ENTITIES + digital_asset_banks from config.json.
     Returns a set of canonical (short) entity names.
     """
+    all_entities = _load_all_entities()
     t = title.lower()
     found = set()
-    for entity in sorted(KNOWN_ENTITIES, key=len, reverse=True):
+    for entity in sorted(all_entities, key=len, reverse=True):
         if entity in t:
             found.add(entity.split()[0])
     return found

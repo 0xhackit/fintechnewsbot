@@ -32,7 +32,14 @@ from pathlib import Path
 from difflib import SequenceMatcher
 from typing import Optional
 
-from .utils import normalize_title
+from .utils import (
+    normalize_title,
+    canonicalize_url,
+    tokenize_title,
+    jaccard_similarity,
+    extract_entities,
+    get_event_type,
+)
 
 # ---------------------------------------------------------------------------
 # Configuration (override these at the top of your script or via config.json)
@@ -124,8 +131,9 @@ class ArticleDatabase:
         self.conn.commit()
 
     def _url_hash(self, url: str) -> str:
-        """Generate a SHA-256 hash of the URL for exact matching."""
-        return hashlib.sha256((url or "").strip().lower().encode("utf-8")).hexdigest()
+        """Generate a SHA-256 hash of the canonical URL for exact matching."""
+        canonical = canonicalize_url((url or "").strip())
+        return hashlib.sha256(canonical.lower().encode("utf-8")).hexdigest()
 
     def _normalize_title(self, title: str) -> str:
         """Normalize title for comparison — delegates to shared utils."""
@@ -139,8 +147,9 @@ class ArticleDatabase:
             (is_dup, reason) - True if duplicate, with explanation string.
 
         Checks in order (cheapest first):
-            1. Exact URL hash match
-            2. Fuzzy title similarity against recent posts
+            1. Exact URL hash match (canonical)
+            2. Fuzzy title similarity (SequenceMatcher)
+            3. Entity + event + Jaccard matching (catches paraphrased dupes)
         """
         # --- Check 1: Exact URL match ---
         url_hash = self._url_hash(url)
@@ -150,10 +159,15 @@ class ArticleDatabase:
         if row:
             return True, f"exact URL match (previously posted as: \"{row[0][:80]}\")"
 
-        # --- Check 2: Fuzzy title match ---
+        # --- Check 2 & 3: Title-based matching ---
         norm_title = self._normalize_title(title)
         if not norm_title:
             return False, ""
+
+        # Precompute current article's tokens, entities, event type for Check 3
+        current_tokens = tokenize_title(title)
+        current_entities = extract_entities(title)
+        current_event = get_event_type(title)
 
         # Only check against last 500 posted articles to keep it fast
         rows = self.conn.execute(
@@ -161,12 +175,38 @@ class ArticleDatabase:
         ).fetchall()
 
         for posted_title, posted_norm in rows:
+            # Check 2: SequenceMatcher (existing)
             similarity = SequenceMatcher(None, norm_title, posted_norm).ratio()
             if similarity >= threshold:
                 return True, (
                     f"similar title (score={similarity:.2f}): "
                     f"\"{posted_title[:80]}\""
                 )
+
+            # Check 3: Entity + event + Jaccard (catches paraphrased dupes)
+            posted_entities = extract_entities(posted_title)
+            shared_entities = current_entities & posted_entities
+
+            if shared_entities:
+                posted_tokens = tokenize_title(posted_title)
+                jac_sim = jaccard_similarity(current_tokens, posted_tokens)
+                posted_event = get_event_type(posted_title)
+
+                # Same entity + same event type: aggressive dedup
+                if current_event and posted_event and current_event == posted_event:
+                    if similarity >= 0.50 or jac_sim >= 0.30:
+                        return True, (
+                            f"entity+event match ({list(shared_entities)[0]}, "
+                            f"{current_event}, jac={jac_sim:.2f}): "
+                            f"\"{posted_title[:80]}\""
+                        )
+
+                # Same entity, moderate token overlap
+                if jac_sim >= 0.25:
+                    return True, (
+                        f"entity+token match ({list(shared_entities)[0]}, "
+                        f"jac={jac_sim:.2f}): \"{posted_title[:80]}\""
+                    )
 
         return False, ""
 

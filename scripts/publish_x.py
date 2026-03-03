@@ -28,6 +28,7 @@ if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 from feed_writer import write_entries_to_feed
 from src.ai_filter import should_post_to_x
+from src.utils import canonicalize_url, normalize_title, tokenize_title, jaccard_similarity, extract_entities
 
 
 # ===========================================================================
@@ -824,22 +825,63 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
     # Final safety net: load links already posted to X from feed.json
     feed_path = Path("out/feed.json")
     posted_links: set[str] = set()
+    feed_data: dict = {"entries": []}
     if feed_path.exists():
         try:
             feed_data = json.loads(feed_path.read_text(encoding="utf-8"))
             for entry in feed_data.get("entries", []):
                 if entry.get("posted_to_x") and entry.get("link"):
-                    posted_links.add(entry["link"].strip())
+                    posted_links.add(canonicalize_url(entry["link"].strip()))
         except Exception:
             pass
 
-    # Remove drafts whose links were already posted to X
+    # Remove drafts whose links were already posted to X (canonical URL match)
     if posted_links:
         before = len(drafts)
-        drafts = [d for d in drafts if d.get("link", "").strip() not in posted_links]
+        drafts = [d for d in drafts if canonicalize_url(d.get("link", "").strip()) not in posted_links]
         deduped = before - len(drafts)
         if deduped:
-            print(f"⏭️  Skipped {deduped} draft(s) already posted to X (feed.json dedup)")
+            print(f"⏭️  Skipped {deduped} draft(s) already posted to X (feed.json URL dedup)")
+
+    # Title-similarity guard: catch same story from different URLs
+    if drafts:
+        try:
+            feed_posted_titles = []
+            for entry in feed_data.get("entries", []):
+                t = entry.get("title", "")
+                if t and entry.get("posted_to_x"):
+                    feed_posted_titles.append(t)
+
+            if feed_posted_titles:
+                title_deduped = []
+                for d in drafts:
+                    draft_title = d.get("title", "")
+                    draft_tokens = tokenize_title(draft_title)
+                    draft_entities = extract_entities(draft_title)
+                    is_dup = False
+                    for ft in feed_posted_titles:
+                        ft_tokens = tokenize_title(ft)
+                        jac = jaccard_similarity(draft_tokens, ft_tokens)
+                        ft_entities = extract_entities(ft)
+                        shared = draft_entities & ft_entities
+                        # High token overlap OR shared entity with moderate overlap
+                        if jac >= 0.50 or (shared and jac >= 0.25):
+                            print(
+                                f"⏭️  Skipped draft (feed.json title dedup, jac={jac:.2f}"
+                                f"{', entity=' + list(shared)[0] if shared else ''}): "
+                                f"\"{draft_title[:60]}...\""
+                            )
+                            is_dup = True
+                            break
+                    if not is_dup:
+                        title_deduped.append(d)
+
+                removed = len(drafts) - len(title_deduped)
+                if removed:
+                    print(f"⏭️  Skipped {removed} draft(s) already posted to X (feed.json title dedup)")
+                drafts = title_deduped
+        except Exception as e:
+            print(f"⚠️  Feed.json title dedup error ({e}), continuing without it")
 
     # Filter by X threshold
     x_drafts = [d for d in drafts if d.get("score", 0) >= min_score_for_x]

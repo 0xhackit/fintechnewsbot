@@ -78,6 +78,28 @@ interface AnalysisHistoryFile {
   analyses: AnalysisRecord[];
 }
 
+// Normalize URL for dedup comparison (strip protocol, www, query, fragment)
+function normalizeUrlForDedup(url: string): string {
+  return (url || "")
+    .replace(/^https?:\/\/(www\.)?/, "")
+    .split("?")[0]
+    .split("#")[0]
+    .toLowerCase()
+    .replace(/\/+$/, "");
+}
+
+// Simple word-overlap Jaccard for title dedup
+function titleJaccard(a: string, b: string): number {
+  const normalize = (t: string) =>
+    t.toLowerCase().replace(/\s+[-|]\s+[^-]{2,60}$/g, "")
+      .replace(/[^a-z0-9\s]/g, " ").replace(/\s+/g, " ").trim();
+  const wordsA = new Set(normalize(a).split(" ").filter((w) => w.length > 2));
+  const wordsB = new Set(normalize(b).split(" ").filter((w) => w.length > 2));
+  const intersection = [...wordsA].filter((w) => wordsB.has(w)).length;
+  const union = new Set([...wordsA, ...wordsB]).size;
+  return union > 0 ? intersection / union : 0;
+}
+
 async function saveAnalysis(
   record: AnalysisRecord
 ): Promise<void> {
@@ -93,6 +115,30 @@ async function saveAnalysis(
       // We need to create it; use a dummy sha for creation
       history = { version: 1, updatedAt: "", analyses: [] };
       file = { content: "", sha: "" };
+    }
+
+    // Dedup: skip if same URL or very similar title analyzed within 72 hours
+    const cutoff72h = Date.now() - 72 * 60 * 60 * 1000;
+    const recordUrlNorm = normalizeUrlForDedup(record.url);
+    const isDuplicate = history.analyses.some((a) => {
+      const aTime = new Date(a.analyzedAt).getTime();
+      if (aTime < cutoff72h) return false;
+
+      // URL match (normalized)
+      if (normalizeUrlForDedup(a.url) === recordUrlNorm) return true;
+
+      // Title similarity (Jaccard word overlap >= 0.50)
+      if (a.title && record.title && titleJaccard(a.title, record.title) >= 0.50)
+        return true;
+
+      return false;
+    });
+
+    if (isDuplicate) {
+      console.log(
+        `Analysis dedup: skipping save for "${record.title?.substring(0, 60)}" (already analyzed within 72h)`
+      );
+      return;
     }
 
     // Append and prune

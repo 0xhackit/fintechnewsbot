@@ -20,6 +20,7 @@ from src.utils import (
     jaccard_similarity,
     extract_entities,
     get_event_type,
+    canonicalize_url,
 )
 
 STATE_PATH = Path("state/seen_alerts.json")
@@ -87,7 +88,8 @@ def save_json(path: Path, obj):
 
 def stable_item_id(item: dict) -> str:
     title = (item.get("title") or "").strip().lower()
-    link = (item.get("link") or item.get("url") or "").strip().lower()
+    link = (item.get("link") or item.get("url") or "").strip()
+    link = canonicalize_url(link).lower()  # Normalize URL (strip UTM, www, fragment)
     base = f"{title}|{link}"
     return hashlib.sha1(base.encode("utf-8")).hexdigest()
 
