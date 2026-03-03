@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updatedAt": "2026-03-03T13:14:14.770Z",
+  "updatedAt": "2026-03-03T16:42:54.437Z",
   "analyses": [
+    {
+      "id": "3aa32fb7e255",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/new-york-federal-reserve-banks-holding-stablecoin-deposits-are-lending-less/",
+      "title": "NY Fed: Banks Holding Stablecoin Deposits Are Lending Less | PYMNTS.com",
+      "source": "pymnts.com",
+      "ticker": "COIN",
+      "assetType": "stock",
+      "analyzedAt": "2026-03-03T16:42:53.272Z",
+      "entryPrice": 180.71,
+      "summary": "Stablecoin banking model shift reduces credit creation, pressuring crypto-exposed banks and payment processors near-term while reshaping long-term fintech infrastructure.",
+      "shortTerm": {
+        "direction": "SHORT",
+        "confidence": 6,
+        "timeHorizon": "1-2 weeks",
+        "targetPrice": 145,
+        "stopLoss": 165,
+        "rationale": "NY Fed findings reveal stablecoin-partnered banks reduce lending (14pp loan-to-asset drop), constraining liquidity velocity in crypto ecosystem. COIN's valuation relies on expanding fintech/banking partnerships; reduced credit flow signals slower ecosystem growth and potential margin compression for payment processors in near term.",
+        "exposureMethods": [
+          "COIN put options (14-21 DTE, ATM strikes)",
+          "short COIN shares with 2% trailing stop",
+          "COIN put spreads (downside hedge)"
+        ]
+      },
+      "longTerm": {
+        "direction": "LONG",
+        "confidence": 7,
+        "timeHorizon": "6-12 months",
+        "targetPrice": 185,
+        "rationale": "While near-term shows friction, the Fed's acknowledgment that stablecoin disintermediation is inevitable validates COIN's long-term thesis: traditional payment rails are obsolete and blockchain infrastructure will capture payment flow value. Banks holding reserves instead of lending accelerates regulatory clarity and mainstream adoption of decentralized finance, strengthening COIN's moat as the on/off ramp.",
+        "exposureMethods": [
+          "accumulate COIN on dips below $150",
+          "COIN LEAPS (Jan 2027 calls)",
+          "dollar-cost average into COIN 50/50 with ARKF ETF"
+        ]
+      },
+      "riskFactors": [
+        "Regulatory crackdown on stablecoin banking partnerships if Fed views liquidity volatility as systemic risk",
+        "Reduced lending from stablecoin banks could trigger credit crunch narratives, pressuring risk assets broadly including COIN",
+        "Stablecoin market concentration (USDC, USDT) means issuers could migrate to unregulated offshore banking, eliminating COIN's regulatory arbitrage advantage"
+      ],
+      "catalysts": [
+        "COIN Q1 2026 earnings (likely April) — guidance on stablecoin custody/partnership revenue",
+        "Federal Reserve's potential policy response to stablecoin disintermediation findings (next FOMC meeting)",
+        "GENIUS Act regulatory finalization and stablecoin license application timeline announcements",
+        "Major stablecoin issuer (Circle, Tether) banking partner changes or quarterly reserve audits"
+      ]
+    },
     {
       "id": "e42b0f32c156",
       "url": "https://www.pymnts.com/cryptocurrency/2026/visa-bridge-aim-bring-stablecoin-cards-over-100-countries/",
