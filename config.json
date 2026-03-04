@@ -349,7 +349,7 @@
         ],
         "exclude_telegram_sources": true,
         "trade_analysis_x": false,
-        "trade_analysis_telegram": true,
+        "trade_analysis_telegram": false,
         "note": "Telegram gets all articles (score >= 35). X: score >= 80 posts immediately + thread, 60-79 queued for peak hours (EU morning + US market open)."
     },
     "output": {
