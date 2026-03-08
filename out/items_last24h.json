@@ -10,7 +10,7 @@
     "snippet": "Stablecoin monthly transaction volume reached a record $1.8 trillion in February, as USDC surprised analysts with 70% of the total volume.",
     "published_at": "2026-03-07T10:47:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -49,31 +49,218 @@
     ]
   },
   {
-    "id": "fe9d17e2ce8069dac2031ac61a388bbd718dff267afc2d2bea129efa58b2475a",
+    "id": "9d6c0d4bef54043f117a332423b73e07152c51e744abec5bfce2e7f37583effa",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
     "feed_name": "twitter",
-    "title": "Coinbase announced that Fluent (BLEND) has been added to its asset listing roadmap. The launch of trading will depend on market-making support and sufficient...",
-    "url": "https://twitter.com/WuBlockchain/status/2030350535044509952",
-    "canonical_url": "https://twitter.com/WuBlockchain/status/2030350535044509952",
-    "snippet": "Wu Blockchain (@WuBlockchain): Coinbase announced that Fluent (BLEND) has been added to its asset listing roadmap. The launch of trading will depend on market-making support and sufficient technical infrastructure, with a separate announcement to be made once these conditions have been met. https://",
-    "published_at": "2026-03-07T18:31:04.629000+00:00",
+    "title": "According to Galaxy Research Head Alex Thorn, the U.S. Treasury submitted a report to Congress under the GENIUS Act recommending that DeFi applications be su...",
+    "url": "https://twitter.com/WuBlockchain/status/2030445423710892104",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2030445423710892104",
+    "snippet": "Wu Blockchain (@WuBlockchain): According to Galaxy Research Head Alex Thorn, the U.S. Treasury submitted a report to Congress under the GENIUS Act recommending that DeFi applications be subject to AML/CFT obligations and proposing a digital asset “hold law” safe harbor, allowing institutions to temp",
+    "published_at": "2026-03-08T00:48:07.868000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
-      "launch"
+      "Genius"
     ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
+    "matched_topics": [],
     "raw": {
-      "_id": "2030350535044509952",
+      "_id": "2030445423710892104",
       "coin": null,
       "toa_source": "Twitter",
       "toa_source_name": "",
-      "suggestions": [],
+      "suggestions": [
+        {
+          "found": [
+            "defi app"
+          ],
+          "coin": "HOME",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "HOMEUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "HOMEUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "HOMEUSDT"
+            }
+          ],
+          "supply": 3075833334
+        },
+        {
+          "found": [
+            "safe"
+          ],
+          "coin": "SAFE",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "SAFEUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "SAFEUSDT"
+            }
+          ],
+          "supply": 740844600
+        }
+      ],
       "info": {
         "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
+    "id": "74a8dc06de91cfe4f7f758b15bdaae44e08d4d2ae88a1d043f3d6c440cd134f2",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Swarms Marketplace Updates [Feb18-Mar7] USDC Support, UI/UX Improvements, and More",
+    "url": "https://twitter.com/swarms_corp/status/2030455810392825968",
+    "canonical_url": "https://twitter.com/swarms_corp/status/2030455810392825968",
+    "snippet": "swarms (@swarms_corp): Swarms Marketplace Updates [Feb18-Mar7] USDC Support, UI/UX Improvements, and More We're extremely excited here at Swarms to roll out the next series of improvements to the Swarms Marketplace. This update introduces 15+ new features, dozens of enhancements, and several bug fix",
+    "published_at": "2026-03-08T01:29:24.225000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
+    "matched_keywords": [
+      "USDC",
+      "introduces"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "_id": "2030455810392825968",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "SWARMS",
+            "swarms"
+          ],
+          "coin": "SWARMS",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "SWARMSUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "SWARMSUSDT"
+            }
+          ],
+          "supply": 999984830
+        },
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        },
+        {
+          "found": [
+            "Solana"
+          ],
+          "coin": "SOL",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "SOLUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLBNB"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLETH"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "SOLUSDT"
+            }
+          ],
+          "supply": 554028833
+        },
+        {
+          "found": [
+            "fluid"
+          ],
+          "coin": "FLUID",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "FLUIDUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "FLUIDUSDT"
+            }
+          ],
+          "supply": 77488208
+        }
+      ],
+      "info": {
+        "twitterId": "1784961897588203520",
         "isReply": false,
         "isRetweet": false,
         "isQuote": false,
@@ -106,6 +293,63 @@
     ]
   },
   {
+    "id": "fe9d17e2ce8069dac2031ac61a388bbd718dff267afc2d2bea129efa58b2475a",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Coinbase announced that Fluent (BLEND) has been added to its asset listing roadmap. The launch of trading will depend on market-making support and sufficient...",
+    "url": "https://twitter.com/WuBlockchain/status/2030350535044509952",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2030350535044509952",
+    "snippet": "Wu Blockchain (@WuBlockchain): Coinbase announced that Fluent (BLEND) has been added to its asset listing roadmap. The launch of trading will depend on market-making support and sufficient technical infrastructure, with a separate announcement to be made once these conditions have been met. https://",
+    "published_at": "2026-03-07T18:31:04.629000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
+    "matched_keywords": [
+      "launch"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "_id": "2030350535044509952",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [],
+      "info": {
+        "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": -25,
+      "launch_score": 50,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "9ab2a53407408b5acdbf1587cde3a79d02b1f7c5cb0355d311bc0d81db525987",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -116,7 +360,7 @@
     "snippet": "With a “box of goodies” and a team of four, the firm is trying to replace payment incumbents with an Ethereum layer-2",
     "published_at": "2026-03-07T18:01:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "crypto card"
     ],
@@ -127,14 +371,14 @@
       "id": "https://decrypt.co/?p=360147",
       "guidislink": false
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 30,
@@ -164,7 +408,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Weekly Project Updates: Sui Launches Native Stablecoin, Fluid to Release V2 This Month, Angle Protocol Announces Orderly Liquidation of Its Stablecoins, CIMG to Acquire iZumi Finance, etc https://t.co/vp99apsgmH",
     "published_at": "2026-03-07T14:02:46.399000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin",
       "launches"
@@ -287,7 +531,7 @@
     "snippet": "COINTELEGRAPH: Bank of Canada pilot issues countrys first tokenized bond",
     "published_at": "2026-03-07T08:22:29.427000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "tokenized",
       "pilot"
@@ -340,7 +584,7 @@
     "snippet": "SB 314 expands Florida’s money services law to cover stablecoins, requiring issuer compliance with existing regulations while banning unlicensed issuance.",
     "published_at": "2026-03-07T07:58:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin bill",
       "stablecoin",
@@ -391,7 +635,7 @@
     "snippet": "Florida lawmakers are pushing forward with legislation aimed at regulating stablecoins.",
     "published_at": "2026-03-07T18:45:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin",
       "regulation",
@@ -405,14 +649,14 @@
       "id": "https://www.dlnews.com/articles/regulation/florida-lawmakers-pass-stablecoin-legislation/",
       "guidislink": false
     },
-    "score": 25,
+    "score": 19,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -441,7 +685,7 @@
     "snippet": "CoinDesk (@CoinDesk): 🎧 Catch the latest episode of 'The Blockspace Pod,’ in partnership with @blockspace! NEW BLOCKSPACE POD: $46m Heist Perp Gets Nabbed & Kraken Gets Fed Account \"The US gov paid this guy $27M to manage coins, and his son stole $46M. That's crazy.\" ⚡️ Zoomer stole $46M from US Mar",
     "published_at": "2026-03-07T14:04:04.036000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -496,7 +740,7 @@
     "snippet": "BIZINSIDER: Big banks in top losers; Circle Internet, Coinbase, SoFi among gainers - week's financials wrap",
     "published_at": "2026-03-07T15:11:34.999000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -547,7 +791,7 @@
     "snippet": "CRCL News: Circle shifts $68 million in internal payments via its own stablecoin to bypass legacy banks CoinDesk",
     "published_at": "2026-03-07T15:06:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle"
@@ -595,7 +839,7 @@
     "snippet": "",
     "published_at": "2026-03-07T15:03:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle"
@@ -643,7 +887,7 @@
     "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
     "published_at": "2026-03-07T22:32:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -688,7 +932,7 @@
     "snippet": "",
     "published_at": "2026-03-07T17:24:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -725,17 +969,17 @@
     ]
   },
   {
-    "id": "46c412a2ba7ce7930ea91e2f8deb49aec74b313a748a82f06b6211cb2a822530",
+    "id": "6c7ab921c7e3deba0b3bd0729918304ed59b8898a5dd1f2070b7d70edde69736",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Stablecoin Firms Bet Big on AI Agent Payments That Barely Exist - Bloomberg.com",
+    "title": "Stablecoin Firms Bet Big on AI Agent Payments That Barely Exist - Bloomberg",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdGZJOFhaS3JRX1BTdklmUWdiSElXYWo2Nzc5RnNCQXRrY1hVUFlnclJwa19RcWN6cE1kS0p0ZkpMTHl5VFFid3lpeExnSkdTVW4wNG9LVHAxYXhyOUVlQVJhNmRNUFQzTHItcUVzcXBoNm1Yb1NRQWQzODNZWUlCQ1dFOTNjckNQeWM1blowWV9hNVF0bEhjakJXcmZQcll6RDRaZkhUTlUtYUx2ZzNSMUpYWWE?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdGZJOFhaS3JRX1BTdklmUWdiSElXYWo2Nzc5RnNCQXRrY1hVUFlnclJwa19RcWN6cE1kS0p0ZkpMTHl5VFFid3lpeExnSkdTVW4wNG9LVHAxYXhyOUVlQVJhNmRNUFQzTHItcUVzcXBoNm1Yb1NRQWQzODNZWUlCQ1dFOTNjckNQeWM1blowWV9hNVF0bEhjakJXcmZQcll6RDRaZkhUTlUtYUx2ZzNSMUpYWWE?oc=5",
-    "snippet": "Stablecoin Firms Bet Big on AI Agent Payments That Barely Exist Bloomberg.com",
+    "snippet": "Stablecoin Firms Bet Big on AI Agent Payments That Barely Exist Bloomberg",
     "published_at": "2026-03-07T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -782,7 +1026,7 @@
     "snippet": "StarkWare (Privacy x BTCFi) 🥷 (@StarkWareLtd): Starknet’s 2026 Technical Infrastructure Roadmap. Making Starknet a better place to build, monetize, and launch the next generation of onchain apps. Lock in.",
     "published_at": "2026-03-07T12:51:38.620000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -863,7 +1107,7 @@
     "snippet": "CROSS (@CROSS_gamechain): Did you win? 💰 Next drawing is March 12! 🗓️ Can you imagine winning 510,000 CROSS a week before launch! 🤩 Don't forget to invite friends and share to qualify for bonus tix! 🎫 #CROSS #SealM #Web3gaming https://x.com/SealMonCROSS/status/2029426278261244098",
     "published_at": "2026-03-07T03:00:09.068000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -946,7 +1190,7 @@
     "snippet": "SPACE ID (@SPACEID): Poll time with our partners! Best @SPACEID integration? A) @MetaMask Snap for easy sends B) @BinanceWallet for domain trades C) @OKX for secure storage D) All - ecosystem wins!",
     "published_at": "2026-03-07T12:12:03.162000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "partners"
     ],
@@ -1039,7 +1283,7 @@
     "snippet": "Fogo (@fogo): Settlement risk has a name in TradFi: Herstatt risk. Named after a German bank that failed mid-settlement in 1974. The receiving party transferred funds. The paying party never delivered.",
     "published_at": "2026-03-07T16:01:20.628000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -1119,7 +1363,7 @@
     "snippet": "Injective 🥷 (@injective): Most blockchains give developers basic smart contracts. Injective gives them a full financial operating system: native CLOB, shared liquidity, oracles, MultiVM, tokenization, agentic gateways + more. When you combine that with AI, you get autonomous financial applications n",
     "published_at": "2026-03-07T14:31:58.175000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1208,7 +1452,7 @@
     "snippet": "Binance Wallet (@BinanceWallet): 🥳 Congrats to all Binance Wallet users for trading together and unlocking the 50,000 USDT reward pool for Perpetuals Milestone Challenge Season 2! All rewards have now been fully distributed in USDT to eligible winners' Binance Wallet Perpetuals account. Check yours ",
     "published_at": "2026-03-07T13:01:42.168000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -1302,7 +1546,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Bybit has released its 29th Asset Reserves Proof (snapshot date: Feb 26). Users' BTC holdings amounted to approx. 59K BTC, a decrease of 2.41% from the previous report (Jan 27), a reduction of 1,461 BTC. Users' ETH holdings were approx. 520K ETH, an increase of 11.4%, ",
     "published_at": "2026-03-07T12:32:55.770000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "reserves"
     ],
@@ -1406,7 +1650,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Binance has released its 40th Asset Reserves Proof (snapshot date: Mar 1). Users' BTC holdings amounted to approx. 631K BTC, a decrease of 1.25% from the previous report (Feb 1), a reduction of 8,004 BTC. Users' ETH holdings were approx. 3.87M ETH, a decrease of 7.35%,",
     "published_at": "2026-03-07T11:55:07.740000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "reserves"
     ],
@@ -1539,7 +1783,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): According to Herald Economics, South Korea's financial regulators are inclined to exclude dollar-pegged stablecoins such as USDT and USDC from the list of permissible investments when drafting guidelines for listed companies to invest in cryptocurrencies. The regulator",
     "published_at": "2026-03-07T10:44:01.329000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "USDC",
       "USDT",
@@ -1620,7 +1864,7 @@
     "snippet": "Lookonchain (@lookonchain): Whale 0x65B4, who previously mis-timed the bottom, is buying again. 14 hours ago, he spent 12.5M $USDC to buy 6,228 $ETH at $2,007. After the Oct 11 crash last year, he spent 32.6M $USDC buying: • 6,206 $ETH($22.6M) • 92 $cbBTC($10M) He later sold in November at a loss of",
     "published_at": "2026-03-07T04:23:23.166000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -1724,7 +1968,7 @@
     "snippet": "Solana (@solana): BREAKING: Solana flipped Ethereum in total RWA holders for the first time, according to @RWA_xyz 🤯",
     "published_at": "2026-03-07T14:11:51.679000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "RWA"
     ],
@@ -1842,7 +2086,7 @@
     "snippet": "Dusk (@DuskFoundation): Institutions will tokenize bonds, equities, and money market funds. They'll settle in seconds instead of days. They'll cut out intermediaries and reduce costs. But not on infrastructure where their client portfolios, trading strategies, and counterparty relationships are expo",
     "published_at": "2026-03-07T10:00:02.289000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "money market fund"
     ],
@@ -1933,7 +2177,7 @@
     "snippet": "Sentient (@SentientAGI): 500+ applications received and 4 days left to apply to join Cohort 0 for: → Exclusive in-person and online events with partners and other cohort members → A reserved workspace in Presidio for 3 weeks alongside the Sentient team → Marketing support and amplification to public",
     "published_at": "2026-03-07T03:12:22.544000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "partners"
     ],
@@ -2011,17 +2255,17 @@
     ]
   },
   {
-    "id": "2152154c06a9f0401da0e06fd6f092fdfebca1c1ae17c4f46045711e33872f43",
+    "id": "32874263aa8c735847b0b52d175f9d067dae1b3b6375abd81af5385efde94651",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
     "feed_name": "twitter",
-    "title": "Floki's CRO, Pedro Vidal, is back on the New York Stock Exchange Floor for an interview with @newtothestreet and @vincemedia!",
-    "url": "https://twitter.com/FLOKI/status/2030343979334766981",
-    "canonical_url": "https://twitter.com/FLOKI/status/2030343979334766981",
-    "snippet": "FLOKI (@FLOKI): Floki's CRO, Pedro Vidal, is back on the New York Stock Exchange Floor for an interview with @newtothestreet and @vincemedia! In this segment he discusses the state of the crypto market, institutional demand driven by Bitcoin ETFs, and how tokenization is shaping the next phase of th",
-    "published_at": "2026-03-07T18:05:02.108000+00:00",
+    "title": "Floki's CRO, Pedro Vidal, is back on the New York Stock Exchange Floor for an interview with @newtothestreet and @vincemedia1!",
+    "url": "https://twitter.com/FLOKI/status/2030450687021359510",
+    "canonical_url": "https://twitter.com/FLOKI/status/2030450687021359510",
+    "snippet": "FLOKI (@FLOKI): Floki's CRO, Pedro Vidal, is back on the New York Stock Exchange Floor for an interview with @newtothestreet and @vincemedia1! In this segment he discusses the state of the crypto market, institutional demand driven by Bitcoin ETFs, and how tokenization is shaping the next phase of t",
+    "published_at": "2026-03-08T01:09:03.061000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-07T23:58:10.192842+00:00",
+    "fetched_at": "2026-03-08T02:30:26.500701+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -2029,7 +2273,7 @@
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "_id": "2030343979334766981",
+      "_id": "2030450687021359510",
       "coin": null,
       "toa_source": "Twitter",
       "toa_source_name": "",
@@ -2068,7 +2312,7 @@
               "symbol": "CROUSDT"
             }
           ],
-          "supply": 41084826421.22221
+          "supply": 41085706191.71333
         },
         {
           "found": [
@@ -2117,10 +2361,10 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 1
+      "cluster_size": 2
     },
     "consensus_boost": 0,
-    "cluster_size": 1,
+    "cluster_size": 2,
     "cluster_sources": [
       "Tree of Alpha"
     ]
