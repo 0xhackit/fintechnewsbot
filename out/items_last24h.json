@@ -10,7 +10,7 @@
     "snippet": "If the CLARITY Act fails to pass, Giancarlo said he expects Paul Atkins at the SEC and Mike Selig at the CFTC will likely write rules to create clarity for the industry.",
     "published_at": "2026-03-09T03:28:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "regulatory",
       "SEC",
@@ -57,7 +57,7 @@
     "snippet": "The value of tokenized real-world assets has reportedly increased nearly fourfold in the last year. These assets have surpassed $26.4 billion in on-chain value, up from around $6.6 billion this time last year, per data from RWA.xyz, which tracks tokenized real-world assets (RWAs). The organization’s",
     "published_at": "2026-03-08T23:36:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "tokenized",
       "RWA"
@@ -69,14 +69,14 @@
       "id": "https://www.pymnts.com/?p=3541834",
       "guidislink": false
     },
-    "score": 60,
+    "score": 54,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -105,7 +105,7 @@
     "snippet": "",
     "published_at": "2026-03-08T11:04:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -152,7 +152,7 @@
     "snippet": "Aptos Labs (@AptosLabs): 100+ tokenized funds, equity, credit have landed on @Aptos via regulated UK/EU digital asset platform @ArchaxEx Aptos Labs dives in with Archax CEO @Grodfather: • Institutional-grade RWAs by BlackRock, Fidelity, Aberdeen • Expanding access to secure financial products onchai",
     "published_at": "2026-03-08T18:00:27.353000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "tokenized fund",
       "tokenized"
@@ -242,7 +242,7 @@
     "snippet": "BIZINSIDER: AI Labs Introduces AI-Assisted Crypto Trading Platform Focused on Data Analysis and Automated Execution",
     "published_at": "2026-03-09T00:18:50.830000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "introduces"
     ],
@@ -293,7 +293,7 @@
     "snippet": "South Korean financial regulators do not want to let firms use their balance sheets to buy US dollar-pegged stablecoins like Tether’s USDT and USD Coin.",
     "published_at": "2026-03-08T15:16:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -331,6 +331,80 @@
     ]
   },
   {
+    "id": "628111d7f60361f9d5eb3ac6133723ae0309b69ac1230d2de904c9694bd0536b",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "blogs",
+    "title": "BTC Markets eyes RWA trading licence amid global tokenization wave",
+    "url": "https://cointelegraph.com/news/btc-markets-eyes-markets-license-tokenization-play-joining-peers",
+    "canonical_url": "https://cointelegraph.com/news/btc-markets-eyes-markets-license-tokenization-play-joining-peers",
+    "snippet": "COINTELEGRAPH: BTC Markets eyes RWA trading licence amid global tokenization wave",
+    "published_at": "2026-03-09T05:34:42.326000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
+    "matched_keywords": [
+      "tokenization",
+      "RWA"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "_id": "1773034482326CBMeRtlagtw",
+      "coin": null,
+      "toa_source": "Blogs",
+      "toa_source_name": "COINTELEGRAPH",
+      "suggestions": [
+        {
+          "found": [
+            "BTC"
+          ],
+          "coin": "BTC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "BTCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BTCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "BTCUSDT"
+            }
+          ],
+          "supply": 19948812
+        }
+      ],
+      "info": {}
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -10,
+      "launch_score": 20,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "b6457921b99ae3d302d07ebb95d0ddd504269c433975518ad82fea6b59ae0fb5",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -341,7 +415,7 @@
     "snippet": "Jupiter (@JupiterExchange): Your bank account is now friends with your Jupiter Wallet. Introducing native onramp and offramp directly inside @JupGlobal. Deposit from your bank same-day settlement Withdraw to your bank across 15 local currencies Powered by local banking rails Move between fiat and on",
     "published_at": "2026-03-08T15:31:01.880000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -422,7 +496,7 @@
     "snippet": "CROSS (@CROSS_gamechain): Who's excited for Dungeon Cross - Relic Hunter? 🤩 What character will you be playing with on launch?! 👇 https://x.com/DungeonCross777/status/2029389013304705202",
     "published_at": "2026-03-08T19:00:02.964000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -505,7 +579,7 @@
     "snippet": "COINTELEGRAPH: USDC shines in February as stablecoin transfer volume hits $1.8T all-time high",
     "published_at": "2026-03-08T18:43:15.518000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -579,7 +653,7 @@
     "snippet": "COINDESK: BitPanda bets on banks and tokenization to expand globally beyond Europe",
     "published_at": "2026-03-08T16:14:32.382000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -630,7 +704,7 @@
     "snippet": "CROSS (@CROSS_gamechain): It's a great time for MMORPGs in open gaming! 💪 The legendary @SealMonCROSS returns on March 19th, reimagined for Web3 on CROSS. Pre-reg for Seal M: https://t.co/Lp8DkMTHN5 Plus, the @DungeonCross777 official launch is next Tuesday, March 10th Pre-reg for Dungeon Cross: htt",
     "published_at": "2026-03-08T06:00:04.298000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -713,7 +787,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Brian Armstrong: Stablecoin wallets are the \"credit cards\" for AI agents On March 1, 2026, Coinbase founder Brian Armstrong told David Senra that a unique aspect of crypto is meeting the payment needs of AI agents. He noted that AI agents are often hindered when access",
     "published_at": "2026-03-09T00:26:18.582000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -771,7 +845,7 @@
     "snippet": "CROWDFUNDINSIDER: Cyclops Nabs $8M For Stablecoin, Crypto Payments Platform",
     "published_at": "2026-03-08T13:41:28.918000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "crypto payments",
       "stablecoin"
@@ -824,7 +898,7 @@
     "snippet": "COINTELEGRAPH: Odds of Bitcoin price drop to $65K rise as private credit woes, US war rattle markets",
     "published_at": "2026-03-08T06:17:36.975000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "private credit"
     ],
@@ -897,7 +971,7 @@
     "snippet": "KITE AI (@GoKiteAI): Identity, Delegation & Trust for Agentic Payments The Next Economic Layer Must Be Built for Agents A structural shift is underway on the internet. For decades, identity, payments, and access control were designed around humans interacting with interfaces. But AI agents are no lo",
     "published_at": "2026-03-08T22:48:02.579000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -940,14 +1014,14 @@
         "isSelfReply": false
       }
     },
-    "score": -15,
+    "score": -21,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": -25,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -976,7 +1050,7 @@
     "snippet": "Injective 🥷 (@injective): This past week the agentic economy just got upgraded. From new custody-preserving tools to fully autonomous trading primitives, the future is rapidly changing right before our eyes. Below are some of the top developments that happened on Injective from the past week 👇️ 🟪 Ma",
     "published_at": "2026-03-08T14:20:54.468000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -1063,7 +1137,7 @@
     "snippet": "Stani.eth (@StaniKulechov): Private credit is in a strange place today. The economy is tied to the cost of money. Low interest rates mean cheap borrowing, which in theory should lead to higher utilization of credit facilities. Conversely, high interest rates mean less affordable borrowing and, in th",
     "published_at": "2026-03-08T11:47:36.048000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "private credit"
     ],
@@ -1151,7 +1225,7 @@
     "snippet": "ChainGPT (@Chain_GPT): ChainGPT was recently ranked #1 by @CertiK as a top AI agent builder on BNB Chain 🏆 And the best is still ahead. With the @AIVM_Network testnet launching this year, we’re building infrastructure that gives AI agents identity and accountability onchain.",
     "published_at": "2026-03-08T13:21:01.700000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -1295,7 +1369,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Asia’s Weekly Top 10 Crypto News: Iranian Crypto Outflows Surge; Russia Plans Separate Stablecoin Law; Hong Kong Expands Web3 Ecosystem; Pakistan Passes Virtual Assets Act; Kazakhstan Sets $350M Crypto Portfolio; Singapore Seizes $2.7B in Prince Group Case; Binance Tar",
     "published_at": "2026-03-08T10:42:43.322000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T04:24:51.795886+00:00",
+    "fetched_at": "2026-03-09T05:37:56.722985+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
