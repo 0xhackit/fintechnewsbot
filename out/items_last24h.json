@@ -10,7 +10,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): According to WSJ, Nasdaq is partnering with crypto exchange Kraken to develop a framework for tokenized stock trading, enabling 24/7 trading of blockchain-based versions of listed equities, with the initiative expected to launch around early 2027 pending SEC approval. ",
     "published_at": "2026-03-09T11:14:35.405000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenized",
       "launch",
@@ -70,7 +70,7 @@
     "snippet": "Coinbase launched regulated crypto and equity index futures for Advanced users in 26 European countries as the ESMA sharpens scrutiny of perpetual-style products.",
     "published_at": "2026-03-09T10:45:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -117,7 +117,7 @@
     "snippet": "KAST has raised $80 million in a Series A led by QED Investors and Left Lane Capital, valuing the startup at $600 million.",
     "published_at": "2026-03-09T11:22:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -145,10 +145,10 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 5,
-      "cluster_size": 2
+      "cluster_size": 3
     },
     "consensus_boost": 5,
-    "cluster_size": 2,
+    "cluster_size": 3,
     "cluster_sources": [
       "Google News RSS",
       "Tree of Alpha"
@@ -165,7 +165,7 @@
     "snippet": "ClearToken, the FCA-authorised digital financial market infrastructure (FMI) provider, and Canton Network today announced a strategic partnership under which ClearToken will deploy three Daml-based Digital Asset Platforms (DAPs) directly on the Canton Network: ‘CT Register’, ‘CT Pay’ and ‘CT Settle’",
     "published_at": "2026-03-09T09:33:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -210,7 +210,7 @@
     "snippet": "If the CLARITY Act fails to pass, Giancarlo said he expects Paul Atkins at the SEC and Mike Selig at the CFTC will likely write rules to create clarity for the industry.",
     "published_at": "2026-03-09T03:28:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "regulatory",
       "SEC",
@@ -247,6 +247,107 @@
     ]
   },
   {
+    "id": "09d98a79b511dad0c86e643413304a165af831f71188ae0232fce6b147379cdf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Stablecoin startup Kast raises $80 million",
+    "url": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million",
+    "snippet": "Kast, a global financial platform built on stablecoin rails founded by former Circle executive Raagulan Pathy, has raised $80 million in a Series A funding round co-led by QED Investors and Left Lane Capital.",
+    "published_at": "2026-03-09T11:24:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/newsarticle/47408/stablecoin-startup-kast-raises-80-million?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 3,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "8f8d8cd3d20277dab820a26bed6403652f10d8543dc2b5d79b9adfaf3f26322c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Nasdaq partners with Kraken for issuer-centric tokenized equities",
+    "url": "https://cointelegraph.com/news/nasdaq-kraken-issuer-centric-tokenized-equities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/nasdaq-kraken-issuer-centric-tokenized-equities",
+    "snippet": "Nasdaq and Kraken will enable tokenized equities to move between regulated and onchain markets while preserving issuer rights and regulatory compliance.",
+    "published_at": "2026-03-09T11:39:15+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
+    "matched_keywords": [
+      "issuer",
+      "tokenized",
+      "partners",
+      "regulatory",
+      "compliance"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/nasdaq-kraken-issuer-centric-tokenized-equities",
+      "guidislink": true
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1be545e6f01d29747e786155302d9eb5db82ef68308b7df846aaea93bdee895c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -257,7 +358,7 @@
     "snippet": "The roughly $26 billion in tokenized assets onchain today “is really just the proof of concept,” said BTC Markets CEO Lucas Dobbins.",
     "published_at": "2026-03-09T05:34:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized",
@@ -270,14 +371,14 @@
       "id": "https://cointelegraph.com/news/btc-markets-eyes-markets-license-tokenization-play-joining-peers",
       "guidislink": true
     },
-    "score": 70,
+    "score": 64,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 2,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 20,
       "institution_bonus": 0,
@@ -296,6 +397,57 @@
     ]
   },
   {
+    "id": "a22fdda7d2847f95d4b7f58dcf64eccd093d33d99c8c08a7ab5b01e66b714f22",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Nasdaq partners with Kraken parent Payward to link tokenized equities with DeFi networks",
+    "url": "https://www.theblock.co/post/392818/nasdaq-partners-with-kraken-parent-payward-to-link-tokenized-equities-with-defi-networks?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/392818/nasdaq-partners-with-kraken-parent-payward-to-link-tokenized-equities-with-defi-networks",
+    "snippet": "Nasdaq has partnered with Kraken’s parent company Payward to build infrastructure linking tokenized equity markets with blockchain networks.",
+    "published_at": "2026-03-09T11:53:50+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
+    "matched_keywords": [
+      "tokenized equity",
+      "tokenized",
+      "partners"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/392818",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 5,
+      "cluster_size": 2
+    },
+    "consensus_boost": 5,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS",
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "146ff3906a2f34a013e6514e1928d67b79166eee61b3dd497d204fbedbe109f1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -306,7 +458,7 @@
     "snippet": "Stablecoin Payments Firm KAST Raises $80 Million in Funding Bloomberg.com",
     "published_at": "2026-03-09T09:02:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -355,7 +507,7 @@
     "snippet": "CoinDesk (@CoinDesk): LATEST: Former CFTC Chair says banks need the Digital Asset Market Clarity Act more than crypto, without regulatory certainty they won't build digital payment rails.",
     "published_at": "2026-03-09T09:32:42.641000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "payment rails",
       "regulatory",
@@ -414,7 +566,7 @@
     "snippet": "The Block (@TheBlockCo): BREAKING: NASDAQ PARTNERS WITH KRAKEN ON TOKENIZATION INITIATIVE - WSJ https://t.co/AiGN1bzPHv",
     "published_at": "2026-03-09T11:03:11.822000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenization",
       "partners"
@@ -473,7 +625,7 @@
     "snippet": "AMINA Bank AG (“AMINA”), a Swiss Financial Market Supervisory Authority (FINMA)-regulated crypto bank with global reach, today announces it has become a listing sponsor on 21X, the first fully regulated distributed ledger technology trading and settlement system (DLT TSS) in the European Union.",
     "published_at": "2026-03-09T09:39:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -520,7 +672,7 @@
     "snippet": "dYdX Foundation (@dydxfoundation): Rates uncertainty, tariff volatility, geopolitical risk - meanwhile the CFTC is onboarding crypto executives to its advisory panel, and CME is launching 24/7 crypto derivative trading by end of May. Pricing says fear. Infrastructure says adoption. From the @dYdX Fe",
     "published_at": "2026-03-09T10:00:10.833000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "CFTC"
     ],
@@ -601,7 +753,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): According to Bloomberg, stablecoin payments firm KAST has raised $80 million in a funding round co-led by QED Investors and Left Lane Capital, valuing the company at about $600 million. KAST provides accounts for storing, earning and spending stablecoins, and expects i",
     "published_at": "2026-03-09T09:43:39.863000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -660,7 +812,7 @@
     "snippet": "",
     "published_at": "2026-03-09T08:44:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "CFTC"
     ],
@@ -705,7 +857,7 @@
     "snippet": "Aptos Labs (@AptosLabs): 100+ tokenized funds, equity, credit have landed on @Aptos via regulated UK/EU digital asset platform @ArchaxEx Aptos Labs dives in with Archax CEO @Grodfather: • Institutional-grade RWAs by BlackRock, Fidelity, Aberdeen • Expanding access to secure financial products onchai",
     "published_at": "2026-03-08T18:00:27.353000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenized fund",
       "tokenized"
@@ -795,7 +947,7 @@
     "snippet": "Stablecoin Payments Firm KAST Secures $80M In Transformative Funding Round Bitcoin world",
     "published_at": "2026-03-09T10:35:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -844,7 +996,7 @@
     "snippet": "European Banks Launch Euro-Backed Stablecoin To End Reliance On America Forbes",
     "published_at": "2026-03-09T10:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -893,7 +1045,7 @@
     "snippet": "CHAINWIRE: Bitget Launches Limited-Time Promotion Offering Up to 10,000 USDT in Rewards for Deposits and Crypto Purchases",
     "published_at": "2026-03-09T08:17:42.295000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "USDT",
       "launches"
@@ -946,7 +1098,7 @@
     "snippet": "Qtum (@qtum): Our updated MetaMask snap will start the audit process this week. We've already had dev interest for dapp development on Qtum. If you're looking to port an existing dapp or launch a new one, you can get testnet tokens at our faucet: https://testnet-faucet.qtum.info/#!/",
     "published_at": "2026-03-09T07:35:11.291000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1027,7 +1179,7 @@
     "snippet": "CHAINWIRE: Blockchain.com Doubles Down on Africa With Ghana Launch, Set Sights On Wider African Expansion",
     "published_at": "2026-03-09T07:31:10.072000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1078,7 +1230,7 @@
     "snippet": "BIZINSIDER: AI Labs Introduces AI-Assisted Crypto Trading Platform Focused on Data Analysis and Automated Execution",
     "published_at": "2026-03-09T00:18:50.830000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "introduces"
     ],
@@ -1129,7 +1281,7 @@
     "snippet": "South Korean financial regulators do not want to let firms use their balance sheets to buy US dollar-pegged stablecoins like Tether’s USDT and USD Coin.",
     "published_at": "2026-03-08T15:16:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -1177,7 +1329,7 @@
     "snippet": "",
     "published_at": "2026-03-09T11:17:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1224,7 +1376,7 @@
     "snippet": "Nasdaq is to connect its European trading venues to Boerse Stuttgart's tokenized assets platform Seturion, in a step towards transforming Europe’s fragmented settlement landscape.",
     "published_at": "2026-03-09T11:08:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "settlement",
       "tokenized"
@@ -1273,7 +1425,7 @@
     "snippet": "Subscribe to Binance Earn Products & Share 2,000 USDC!",
     "published_at": "2026-03-09T11:00:10.525000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -1375,7 +1527,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Coinbase has launched regulated futures trading in Europe, available to Coinbase Advanced users in 26 countries including Germany, France, and the Netherlands. The offering includes BTC, SOL, and equity index futures, with perpetual-style contracts (5-year expiry) and ",
     "published_at": "2026-03-09T08:34:01.282000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -1487,7 +1639,7 @@
     "snippet": "Trade Tokenized Securities on Binance Alpha and Share $500,000 in Gold Rewards",
     "published_at": "2026-03-09T08:00:03.680000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1568,7 +1720,7 @@
     "snippet": "THE GUARDIAN: Top US banks weigh suing federal regulator over crypto banking rules",
     "published_at": "2026-03-09T11:02:02.795000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "regulator"
     ],
@@ -1617,7 +1769,7 @@
     "snippet": "Jupiter (@JupiterExchange): Your bank account is now friends with your Jupiter Wallet. Introducing native onramp and offramp directly inside @JupGlobal. Deposit from your bank same-day settlement Withdraw to your bank across 15 local currencies Powered by local banking rails Move between fiat and on",
     "published_at": "2026-03-08T15:31:01.880000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -1688,6 +1840,92 @@
     ]
   },
   {
+    "id": "3c383925fd9a0a7890566b58bf6f0c779e9f500bfed9b5342eeafe3df2faf220",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "BREAKING:  Nasdaq partners with Kraken for tokenized stock trading.",
+    "url": "https://twitter.com/opinionlabsxyz/status/2030974501136253383",
+    "canonical_url": "https://twitter.com/opinionlabsxyz/status/2030974501136253383",
+    "snippet": "Opinion ⁒ (@opinionlabsxyz): 🚨BREAKING: Nasdaq partners with Kraken for tokenized stock trading. On Opinion: Kraken IPO by 2026 odds just surged to 90.2%. Trade now: https://t.co/uXwZfZBBbs",
+    "published_at": "2026-03-09T11:50:29.754000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "partners"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "_id": "2030974501136253383",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "OPN"
+          ],
+          "coin": "OPN",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "OPNUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "OPNUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "OPNBNB"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "OPNUSDT"
+            }
+          ],
+          "supply": 198500000
+        }
+      ],
+      "info": {
+        "twitterId": "1735189899266121728",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "9579a7b2937a219dcec97998df5901be4860574545fff918bc738561a3e089c1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1698,7 +1936,7 @@
     "snippet": "Next Steps For Bank of North Dakota Stablecoin to be Reviewed This Month knoxradio.com",
     "published_at": "2026-03-09T11:25:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1745,7 +1983,7 @@
     "snippet": "BIZINSIDER: CoinLander Surpasses $2 Million in Tokenized Mortgages Amid 2026 Crypto Market Correction",
     "published_at": "2026-03-09T09:31:05.097000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1796,7 +2034,7 @@
     "snippet": "Stablecoin Payments Power Borderless Online Commerce Growth, UQUID Report BlockchainReporter",
     "published_at": "2026-03-09T07:01:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1845,7 +2083,7 @@
     "snippet": "CROSS (@CROSS_gamechain): Who's excited for Dungeon Cross - Relic Hunter? 🤩 What character will you be playing with on launch?! 👇 https://x.com/DungeonCross777/status/2029389013304705202",
     "published_at": "2026-03-08T19:00:02.964000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1928,7 +2166,7 @@
     "snippet": "COINTELEGRAPH: USDC shines in February as stablecoin transfer volume hits $1.8T all-time high",
     "published_at": "2026-03-08T18:43:15.518000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -2002,7 +2240,7 @@
     "snippet": "COINDESK: BitPanda bets on banks and tokenization to expand globally beyond Europe",
     "published_at": "2026-03-08T16:14:32.382000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -2053,7 +2291,7 @@
     "snippet": "Solana (@solana): BREAKING: @xStocksFi is bringing Nasdaq's tokenized equity markets to Solana DeFi",
     "published_at": "2026-03-09T11:31:19.318000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "tokenized equity",
       "tokenized"
@@ -2154,7 +2392,7 @@
     "snippet": "Aevo (@aevoxyz): Aevo just closed Epoch 13 of Rewards with 1,000,000 $AEVO being allocated to traders in 7 days. Rewards Epoch 14 is now live - 700,000 AEVO will be allocated towards Crypto perpetual futures markets and 300,000 AEVO towards TradFi perpetual futures markets. Additional USDC rewards w",
     "published_at": "2026-03-09T11:24:14.358000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -2311,7 +2549,7 @@
     "snippet": "CROWDFUNDINSIDER: Cyclops Nabs $8M For Stablecoin, Crypto Payments Platform",
     "published_at": "2026-03-08T13:41:28.918000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "crypto payments",
       "stablecoin"
@@ -2364,7 +2602,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Brian Armstrong: Stablecoin wallets are the \"credit cards\" for AI agents On March 1, 2026, Coinbase founder Brian Armstrong told David Senra that a unique aspect of crypto is meeting the payment needs of AI agents. He noted that AI agents are often hindered when access",
     "published_at": "2026-03-09T00:26:18.582000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -2422,7 +2660,7 @@
     "snippet": "SUN.io (@OfficialSUNio): Another massive week for the TRON ecosystem! 🔥 #TRONAISeason is fully activated and our ecosystem expansion is moving at lightning speed. Check out the latest TRON Eco Report: 🤖 AINFT is evolving: Rapidly expanding strategic partnerships and pushing major product upgrades 🚀 ",
     "published_at": "2026-03-09T08:50:03.027000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -2565,7 +2803,7 @@
     "snippet": "Orochi Network (@OrochiNetwork): New partnership update Orochi Network is proud to announce our new partnership with Orochi Network to talk about Verifiable Data Infrastructure. Thank you for your attention to this matter.",
     "published_at": "2026-03-09T08:05:01.113000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -2635,7 +2873,7 @@
     "snippet": "Venus Protocol (@VenusProtocol): The wall between TradFi and DeFi is coming down on @BNBCHAIN… And Venus is proud to stand at the center of it – listing XAUm, the first RWA collateral asset on Venus, in partnership with @matrixdock and secured by @chainlink. This is gold on-chain. 👇",
     "published_at": "2026-03-09T06:32:36.031000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "RWA"
     ],
@@ -2783,7 +3021,7 @@
     "snippet": "KITE AI (@GoKiteAI): Identity, Delegation & Trust for Agentic Payments The Next Economic Layer Must Be Built for Agents A structural shift is underway on the internet. For decades, identity, payments, and access control were designed around humans interacting with interfaces. But AI agents are no lo",
     "published_at": "2026-03-08T22:48:02.579000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -2862,7 +3100,7 @@
     "snippet": "Injective 🥷 (@injective): This past week the agentic economy just got upgraded. From new custody-preserving tools to fully autonomous trading primitives, the future is rapidly changing right before our eyes. Below are some of the top developments that happened on Injective from the past week 👇️ 🟪 Ma",
     "published_at": "2026-03-08T14:20:54.468000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -2939,94 +3177,6 @@
     ]
   },
   {
-    "id": "139dd97e67d6ef3f5171d9feb8f7acede666df38e5d53900e49e73b89b7f7f7f",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "twitter",
-    "title": "Private credit is in a strange place today.",
-    "url": "https://twitter.com/StaniKulechov/status/2030611384581423574",
-    "canonical_url": "https://twitter.com/StaniKulechov/status/2030611384581423574",
-    "snippet": "Stani.eth (@StaniKulechov): Private credit is in a strange place today. The economy is tied to the cost of money. Low interest rates mean cheap borrowing, which in theory should lead to higher utilization of credit facilities. Conversely, high interest rates mean less affordable borrowing and, in th",
-    "published_at": "2026-03-08T11:47:36.048000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
-    "matched_keywords": [
-      "private credit"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "_id": "2030611384581423574",
-      "coin": null,
-      "toa_source": "Twitter",
-      "toa_source_name": "",
-      "suggestions": [
-        {
-          "found": [
-            "AAVE"
-          ],
-          "coin": "AAVE",
-          "isAccountMapped": true,
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "AAVEUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "AAVEUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "AAVEBTC"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "AAVEETH"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "AAVEUSDT"
-            }
-          ],
-          "supply": 15269917
-        }
-      ],
-      "info": {
-        "twitterId": "952921795316912133",
-        "isReply": false,
-        "isRetweet": false,
-        "isQuote": false,
-        "isSelfReply": false
-      }
-    },
-    "score": -21,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": -25,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
     "id": "4d6c863ea93d50ba9c44b40b2d19f533197ea128dd61fb4ca4246d7a769470f8",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -3037,7 +3187,7 @@
     "snippet": "ChainGPT (@Chain_GPT): ChainGPT was recently ranked #1 by @CertiK as a top AI agent builder on BNB Chain 🏆 And the best is still ahead. With the @AIVM_Network testnet launching this year, we’re building infrastructure that gives AI agents identity and accountability onchain.",
     "published_at": "2026-03-08T13:21:01.700000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-09T11:32:13.178380+00:00",
+    "fetched_at": "2026-03-09T11:58:56.170070+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
