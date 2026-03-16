@@ -10,7 +10,7 @@
     "snippet": "TECHINASIA: Thailand SEC eyes Travel Rule, tighter crypto ID checks",
     "published_at": "2026-03-15T21:14:21.907000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "SEC"
     ],
@@ -81,7 +81,7 @@
     "snippet": "Hana Financial Group and Standard Chartered will explore joint initiatives in digital assets, including stablecoins.",
     "published_at": "2026-03-16T08:32:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "partners"
     ],
@@ -130,7 +130,7 @@
     "snippet": "In a post-mortem of the incident, Aave clarified it was not slippage, but an illiquid market that caused the trader to lose over $50 million while swapping USDT for AAVE.",
     "published_at": "2026-03-16T01:00:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "USDT",
       "launch"
@@ -169,6 +169,116 @@
     ]
   },
   {
+    "id": "85a4487e70d7f4e1dd6de0a6da95d0a746b111acee9794e155445f68d3765546",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Reminder: If you still hold USDC bridged via deBridge, please bridge it out as soon as possible.",
+    "url": "https://twitter.com/zilliqa/status/2033490298073178481",
+    "canonical_url": "https://twitter.com/zilliqa/status/2033490298073178481",
+    "snippet": "Zilliqa (@zilliqa): 📢 Reminder: If you still hold USDC bridged via deBridge, please bridge it out as soon as possible. deBridge will sunset on 31 March, 2026 as announced in blog below. Learn more: https://blog.zilliqa.com/strengthening-stablecoin-infrastructure-on-zilliqa-introducing-zusdc-via-xbri",
+    "published_at": "2026-03-16T10:27:22.686000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "USDC"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "2033490298073178481",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "ZIL",
+            "Zilliqa"
+          ],
+          "coin": "ZIL",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "ZILUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "ZILUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "ZILUSDT"
+            }
+          ],
+          "supply": 19910828366
+        },
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        }
+      ],
+      "info": {
+        "twitterId": "872984298973941764",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": true,
+        "isSelfReply": false,
+        "quotedUser": {
+          "name": "Zilliqa",
+          "screen_name": "zilliqa",
+          "icon": "https://twproxy.twproxy.workers.dev/?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2007864279366860800%2FxbEDlG9X.jpg",
+          "text": "We’re introducing zUSDC via XBridge on Zilliqa.\n\nThis moves USDC liquidity onto Zilliqa-operated infrastructure, improving reliability while keeping stablecoin liquidity flowing across the ecosystem.\n\nHere’s what’s changing and what it means for USDC users:\n\nhttps://blog.zilliqa.com/strengthening-st...",
+          "image": "https://twproxy.twproxy.workers.dev/?url=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHCqYHVwaEAAqRFS.jpg"
+        }
+      }
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 50,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "4e1c586c0fe5de7dd7d8a6fb14b64a4313409426971c893ebe62bf099964807f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -179,7 +289,7 @@
     "snippet": "Australia is moving closer to a new licensing regime that would bring crypto exchanges and tokenization platforms into the Australian Financial Services Licence regime.",
     "published_at": "2026-03-16T08:33:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -226,7 +336,7 @@
     "snippet": "",
     "published_at": "2026-03-15T19:33:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "SEC",
       "CFTC"
@@ -262,38 +372,102 @@
     ]
   },
   {
-    "id": "7bee4a5743e9c7b55c5a376cded863e268a6ac8cd10bea839e46f28c4ecec219",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Bank of England Signals Flexibility on Stablecoin Caps After Industry Pushback - Crypto News Australia",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNVl2QnNXbnFSMG1ObTJWN2g0cHQ1aUVMYXJRRkV0d0p1S1BCMzlRLW1vTUVTTm82MkctMy1vSDJUQ0tVeWh6NUJTRXNwUW5tb2h3YWg0UGQyX3FjT1FjQVJLTE8tQWZSOUZacVZMdTAwaHdBU2VCNjJ6aFVqV2hhOTh3aUtpS1U5NFg1SG5yeEc0RGhxZUdCRHdydjZNYmJ4Q01xcUVzajBGLXdiYTV6LVdXLVM1NWZu?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNVl2QnNXbnFSMG1ObTJWN2g0cHQ1aUVMYXJRRkV0d0p1S1BCMzlRLW1vTUVTTm82MkctMy1vSDJUQ0tVeWh6NUJTRXNwUW5tb2h3YWg0UGQyX3FjT1FjQVJLTE8tQWZSOUZacVZMdTAwaHdBU2VCNjJ6aFVqV2hhOTh3aUtpS1U5NFg1SG5yeEc0RGhxZUdCRHdydjZNYmJ4Q01xcUVzajBGLXdiYTV6LVdXLVM1NWZu?oc=5",
-    "snippet": "Bank of England Signals Flexibility on Stablecoin Caps After Industry Pushback Crypto News Australia",
-    "published_at": "2026-03-16T04:51:38+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "id": "25a7988a1530aab1266fb4a60cdc8c76358a47180a831fcf332b195fe4428997",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Binance will list Centrifuge (CFG) at 21:00 (UTC+8) on March 16, 2026, opening spot trading pairs CFG/USDT, CFG/USDC, and CFG/TRY. Centrifuge provides infras...",
+    "url": "https://twitter.com/WuBlockchain/status/2033496019972055503",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2033496019972055503",
+    "snippet": "Wu Blockchain (@WuBlockchain): Binance will list Centrifuge (CFG) at 21:00 (UTC+8) on March 16, 2026, opening spot trading pairs CFG/USDT, CFG/USDC, and CFG/TRY. Centrifuge provides infrastructure for institutional tokenization with automated systems, multi-chain support, and deep DeFi integrations.",
+    "published_at": "2026-03-16T10:50:06.758000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "USDC",
+      "USDT",
+      "tokenization"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "CBMiuAFBVV95cUxPNVl2QnNXbnFSMG1ObTJWN2g0cHQ1aUVMYXJRRkV0d0p1S1BCMzlRLW1vTUVTTm82MkctMy1vSDJUQ0tVeWh6NUJTRXNwUW5tb2h3YWg0UGQyX3FjT1FjQVJLTE8tQWZSOUZacVZMdTAwaHdBU2VCNjJ6aFVqV2hhOTh3aUtpS1U5NFg1SG5yeEc0RGhxZUdCRHdydjZNYmJ4Q01xcUVzajBGLXdiYTV6LVdXLVM1NWZu",
-      "guidislink": false
+      "_id": "2033496019972055503",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        },
+        {
+          "found": [
+            "Binance"
+          ],
+          "coin": "BNB",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "BNBUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BNBUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BNBBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BNBETH"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "BNBUSDT"
+            }
+          ],
+          "supply": 137737045
+        }
+      ],
+      "info": {
+        "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
     },
     "score": 40,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
+      "source_penalty": -25,
+      "launch_score": 10,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -305,7 +479,7 @@
     "consensus_boost": 0,
     "cluster_size": 1,
     "cluster_sources": [
-      "Google News RSS"
+      "Tree of Alpha"
     ]
   },
   {
@@ -319,7 +493,7 @@
     "snippet": "Under the legislation, crypto platforms and tokenized custody platforms would be treated similarly to other financial service providers.",
     "published_at": "2026-03-16T07:44:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "custody",
       "tokenized",
@@ -368,7 +542,7 @@
     "snippet": "CROWDFUNDINSIDER: Tether Announces New AI and Web3 focused Investments, Key Appointments",
     "published_at": "2026-03-15T20:54:17.821000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -419,7 +593,7 @@
     "snippet": "CROWDFUNDINSIDER: Anchorage Digital Launches Institutional Liquid Restaking Support via Integration with Puffer Finance",
     "published_at": "2026-03-15T20:52:22.867000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -478,6 +652,53 @@
     ]
   },
   {
+    "id": "7bee4a5743e9c7b55c5a376cded863e268a6ac8cd10bea839e46f28c4ecec219",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Bank of England Signals Flexibility on Stablecoin Caps After Industry Pushback - Crypto News Australia",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNVl2QnNXbnFSMG1ObTJWN2g0cHQ1aUVMYXJRRkV0d0p1S1BCMzlRLW1vTUVTTm82MkctMy1vSDJUQ0tVeWh6NUJTRXNwUW5tb2h3YWg0UGQyX3FjT1FjQVJLTE8tQWZSOUZacVZMdTAwaHdBU2VCNjJ6aFVqV2hhOTh3aUtpS1U5NFg1SG5yeEc0RGhxZUdCRHdydjZNYmJ4Q01xcUVzajBGLXdiYTV6LVdXLVM1NWZu?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNVl2QnNXbnFSMG1ObTJWN2g0cHQ1aUVMYXJRRkV0d0p1S1BCMzlRLW1vTUVTTm82MkctMy1vSDJUQ0tVeWh6NUJTRXNwUW5tb2h3YWg0UGQyX3FjT1FjQVJLTE8tQWZSOUZacVZMdTAwaHdBU2VCNjJ6aFVqV2hhOTh3aUtpS1U5NFg1SG5yeEc0RGhxZUdCRHdydjZNYmJ4Q01xcUVzajBGLXdiYTV6LVdXLVM1NWZu?oc=5",
+    "snippet": "Bank of England Signals Flexibility on Stablecoin Caps After Industry Pushback Crypto News Australia",
+    "published_at": "2026-03-16T04:51:38+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiuAFBVV95cUxPNVl2QnNXbnFSMG1ObTJWN2g0cHQ1aUVMYXJRRkV0d0p1S1BCMzlRLW1vTUVTTm82MkctMy1vSDJUQ0tVeWh6NUJTRXNwUW5tb2h3YWg0UGQyX3FjT1FjQVJLTE8tQWZSOUZacVZMdTAwaHdBU2VCNjJ6aFVqV2hhOTh3aUtpS1U5NFg1SG5yeEc0RGhxZUdCRHdydjZNYmJ4Q01xcUVzajBGLXdiYTV6LVdXLVM1NWZu",
+      "guidislink": false
+    },
+    "score": 34,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "2be4d916e24f22a92393b9474a7fe50b2ca1b946de9f6e34eade1b2f17e7115e",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -488,7 +709,7 @@
     "snippet": "CROWDFUNDINSIDER: SEC and CFTC Aim to Streamline Oversight of Cryptocurrencies and Financial Markets",
     "published_at": "2026-03-15T17:24:37.334000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "SEC",
       "CFTC"
@@ -538,7 +759,7 @@
     "snippet": "COINTELEGRAPH: SEC drops case against BitClout founder with prejudice",
     "published_at": "2026-03-16T06:39:28.906000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "SEC"
     ],
@@ -577,54 +798,6 @@
     ]
   },
   {
-    "id": "14866f4d081634c0fc2d3bc96f7402f516d823510d1c8c2c52c6b2e1801846da",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Australia Senate Panel Backs Crypto Framework in Latest Regulatory Push",
-    "url": "https://decrypt.co/361197/australia-senate-crypto-framework-latest-regulatory-push",
-    "canonical_url": "https://decrypt.co/361197/australia-senate-crypto-framework-latest-regulatory-push",
-    "snippet": "The proposal would bring crypto platforms and custodians under Australia’s financial-services law, requiring operators that hold client tokens to obtain licences and meet new asset-safeguarding standards.",
-    "published_at": "2026-03-16T04:57:57+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
-    "matched_keywords": [
-      "regulatory"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=361197",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 5,
-      "cluster_size": 2
-    },
-    "consensus_boost": 5,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS",
-      "Tree of Alpha"
-    ]
-  },
-  {
     "id": "67eb595e497da1a1f80adc42ba63541de4694d4566da43fec0384b876ad6a05a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -635,7 +808,7 @@
     "snippet": "",
     "published_at": "2026-03-16T06:28:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -670,6 +843,54 @@
     ]
   },
   {
+    "id": "14866f4d081634c0fc2d3bc96f7402f516d823510d1c8c2c52c6b2e1801846da",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Australia Senate Panel Backs Crypto Framework in Latest Regulatory Push",
+    "url": "https://decrypt.co/361197/australia-senate-crypto-framework-latest-regulatory-push",
+    "canonical_url": "https://decrypt.co/361197/australia-senate-crypto-framework-latest-regulatory-push",
+    "snippet": "The proposal would bring crypto platforms and custodians under Australia’s financial-services law, requiring operators that hold client tokens to obtain licences and meet new asset-safeguarding standards.",
+    "published_at": "2026-03-16T04:57:57+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
+    "matched_keywords": [
+      "regulatory"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=361197",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 5,
+      "cluster_size": 2
+    },
+    "consensus_boost": 5,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS",
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "295fa5424a3da61ae9906b8ee8a296a81b6ed460a444f92cb44c0ddf278994aa",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -680,7 +901,7 @@
     "snippet": "The legislation assumes that all crypto activity must pass through financial intermediaries licensed by the US government, warns Gnosis co-founder.",
     "published_at": "2026-03-15T21:32:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "legislation"
     ],
@@ -725,7 +946,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): CFTC Chair: We Can't Have Another FTX in the United States On March 12, 2026, CFTC Chair Michael Selig said on The All-In Podcast that the U.S. must prevent market manipulation and fraud, ensuring an FTX-like event never happens again. SEC Chair Paul Atkins noted that ",
     "published_at": "2026-03-15T20:30:00.635000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "SEC",
       "CFTC"
@@ -795,7 +1016,7 @@
     "snippet": "CROWDFUNDINSIDER: Ripple to Obtain Australian Financial Services License, Strengthening Cross-Border Payments Across Asia-Pacific",
     "published_at": "2026-03-16T00:24:54.282000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -880,7 +1101,7 @@
     "snippet": "CROSS (@CROSS_gamechain): Partnership News 📢 NEXUS has signed a strategic MOU with @Playfull, bringing a massive 50M+ player network and top-tier UA tech to our open gaming world. Together, we'll supercharge game launches and create joint campaigns where players can receive rewards for their engagem",
     "published_at": "2026-03-16T07:00:02.850000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -956,7 +1177,7 @@
     "snippet": "Plus, rich investors dump private credit funds, five-minute crypto bets and Wallace & Gromit at the Young V&A",
     "published_at": "2026-03-16T06:00:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "private credit"
     ],
@@ -1003,7 +1224,7 @@
     "snippet": "Australia’s securities regulator said two-thirds of Gen Z are using social media to make decisions about their financial future, leading to “riskier” financial decisions.",
     "published_at": "2026-03-16T05:14:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "regulator"
     ],
@@ -1048,7 +1269,7 @@
     "snippet": "CROSS (@CROSS_gamechain): More than 2 million gamers are ready for Thursday's @SealMonCROSS launch. Every pre-registered player will share in all the unlocked rewards for a gameplay edge at launch. Are you ready? https://t.co/erf10eBx84",
     "published_at": "2026-03-15T23:00:02.193000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1124,7 +1345,7 @@
     "snippet": "Syscoin (@syscoin): Vote for your favorite @Syscoin zkSYS launch dApp. Three projects will be granted a stake from the USDT prize pool. 🔗 https://pob.syscoin.org/ 🗳️",
     "published_at": "2026-03-15T15:27:58.247000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "USDT",
       "launch"
@@ -1214,7 +1435,7 @@
     "snippet": "The governor, who opposes CBDCs, appears poised to sign a regulatory framework for stablecoins in Florida.",
     "published_at": "2026-03-15T15:27:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "stablecoin bill",
       "stablecoin",
@@ -1264,7 +1485,7 @@
     "snippet": "COINDESK: Crypto broker Bitpanda bets on banks and tokenization to expand globally ahead of IPO plans",
     "published_at": "2026-03-15T13:03:04.421000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1315,7 +1536,7 @@
     "snippet": "Neiro (@neiro): Ready… set… launch! 🚀",
     "published_at": "2026-03-15T11:46:41.550000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1391,7 +1612,7 @@
     "snippet": "CoinDesk (@CoinDesk): POLICY: Australian Senate backs crypto regulation framework, bringing platforms and custody providers under financial services oversight with new licensing requirements.",
     "published_at": "2026-03-16T10:05:08.676000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "custody",
       "regulation"
@@ -1447,7 +1668,7 @@
     "snippet": "XPIN Network🛰️ (@XPINNetwork): AI agents are coming 🤖 and they need to buy things without asking permission #eSIM + crypto wallet = autonomous machines that can connect AND pay ⚡️💸 #XPIN is already building this AI that earns, trades, and roams freely this isn't sci-fi It's the pipeline XPIN is layi",
     "published_at": "2026-03-16T07:06:22.545000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1524,7 +1745,7 @@
     "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
     "published_at": "2026-03-15T21:56:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -1559,6 +1780,339 @@
     ]
   },
   {
+    "id": "f91a8424d0ed2481da0212911dbf93a8a78cf31fe1885d0a75277cd465a5c33b",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "QCP: BTC and ETH rose above $74,000 and $2,270 despite pressure on equities and gold, reviving the “digital safe haven” narrative amid geopolitical tensions....",
+    "url": "https://twitter.com/WuBlockchain/status/2033487732320637408",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2033487732320637408",
+    "snippet": "Wu Blockchain (@WuBlockchain): QCP: BTC and ETH rose above $74,000 and $2,270 despite pressure on equities and gold, reviving the “digital safe haven” narrative amid geopolitical tensions. Stablecoin liquidity is rising, with USDC supply hitting a record $81.1B, while Bitcoin ETFs recorded five stra",
+    "published_at": "2026-03-16T10:17:10.987000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "USDC"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "2033487732320637408",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "BTC",
+            "Bitcoin"
+          ],
+          "coin": "BTC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "BTCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BTCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "BTCUSDT"
+            }
+          ],
+          "supply": 19948812
+        },
+        {
+          "found": [
+            "ETH"
+          ],
+          "coin": "ETH",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "ETHUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "ETHUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "ETHBTC"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "ETHUSDT"
+            }
+          ],
+          "supply": 120696353
+        },
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        },
+        {
+          "found": [
+            "safe"
+          ],
+          "coin": "SAFE",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "SAFEUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "SAFEUSDT"
+            }
+          ],
+          "supply": 740844600
+        }
+      ],
+      "info": {
+        "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": -5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
+    "id": "30d4a5e31b707bed5afade849fa707836a5e7f89da0dd38fd3a5bac2f41734c7",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "From 16 March 2026, ecosystem rewards and incentives that previously used GGUSD will instead be facilitated in USDT and USDC.",
+    "url": "https://twitter.com/fslweb3/status/2033487417647190136",
+    "canonical_url": "https://twitter.com/fslweb3/status/2033487417647190136",
+    "snippet": "FSL Ecosystem (@fslweb3): From 16 March 2026, ecosystem rewards and incentives that previously used GGUSD will instead be facilitated in USDT and USDC. GGBox keys will remain purchasable in GGUSD, USDC, and USDT. The upcoming changes include: • Unused GGUSD coupons will automatically convert to USDT",
+    "published_at": "2026-03-16T10:15:56.064000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
+    "matched_keywords": [
+      "USDC",
+      "USDT"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "2033487417647190136",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "GMT"
+          ],
+          "coin": "GMT",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "GMTUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "GMTUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "GMTUSDT"
+            }
+          ],
+          "supply": 3253817956
+        },
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        },
+        {
+          "found": [
+            "ID"
+          ],
+          "coin": "ID",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "IDUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "IDUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "IDUSDT"
+            }
+          ],
+          "supply": 1198313905
+        },
+        {
+          "found": [
+            "polygon"
+          ],
+          "coin": "POL",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "POLUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "POLUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "POLBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "POLBNB"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "POLETH"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "POLUSDT"
+            }
+          ],
+          "supply": 10538992837
+        },
+        {
+          "found": [
+            "Solana"
+          ],
+          "coin": "SOL",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "SOLUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLBNB"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "SOLETH"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "SOLUSDT"
+            }
+          ],
+          "supply": 554028833
+        }
+      ],
+      "info": {
+        "twitterId": "1582914627406483456",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": -5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "986dc6485d3398e587318553d4249390ee9396b8f2eac4a05d4b7bf3c38af214",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -1569,7 +2123,7 @@
     "snippet": "Zcash Open Development Lab (@zodl_co): \"A diverse coalition of 19 (to date) smart, skilled, and powerful investors has come together to get behind one of the most consequential projects in the world. ... And our new partners are committed to supporting the team with legal, regulatory, commercial, re",
     "published_at": "2026-03-16T02:30:29.561000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "partners",
       "regulatory"
@@ -1666,7 +2220,7 @@
     "snippet": "BB: Perpification vs. Tokenization: Why Not Both?",
     "published_at": "2026-03-16T09:21:25.379000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1739,7 +2293,7 @@
     "snippet": "Lista DAO (@lista_dao): The USDC & USDT LP Campaign has extended with @flapdotsh 📅 3/21 ~ 3/27 $20k token rewards from @milady_bsc @MetaDogeCTO @COCO_DOGE @LiFang50000 Deposit USDC & USDT LP and start earning! https://lista.org/lending/smart-market/bsc/0xa7510d097c9983fdf4430febe4a8ab9081cfdde7432d5",
     "published_at": "2026-03-16T00:02:01.807000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "USDC",
       "USDT"
@@ -1871,7 +2425,7 @@
     "snippet": "CROSS (@CROSS_gamechain): NEXUS made solid impact at our first-ever GDC last week in San Francisco. 💪 See for yourself 👇 📌Reveals: 🔹CROSS Hub 🔹CROSS Prediction 🔹CROSS Forge Agent Tokens 📌Partnerships: 🔹@BGameAlliance — https://t.co/JhdcMfq7eo 🔹@Merso_io — https://t.co/DeXjsvruHf 🔹@DevStreamLabs — ht",
     "published_at": "2026-03-16T10:00:02.444000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -1945,7 +2499,7 @@
     "snippet": "Ledger’s Asia-Pacific lead, Takatoshi Shibayama, has added his take as crypto and banks continue to debate whether to allow third-party platforms to offer stablecoin yields.",
     "published_at": "2026-03-16T04:05:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1992,7 +2546,7 @@
     "snippet": "ON: Private Smart Contracts and the On-Chain Private Credit Data Problem: How zkDatabase Proves What Others Assume",
     "published_at": "2026-03-16T09:19:30.171000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "private credit"
     ],
@@ -2043,7 +2597,7 @@
     "snippet": "DIA Oracles (@DIAdata_org): Omnichain stablecoin systems require pricing infrastructure that follows assets across chains and adapts methodology to asset type. River integration shows both working together: market feeds for satUSD, contract exchange rate fundamental feed for satUSD+.",
     "published_at": "2026-03-15T17:30:10.491000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -2147,7 +2701,7 @@
     "snippet": "THENA (@ThenaFi): At around 12 PM UTC, our security systems flagged an incident involving $THE market on Venus Protocol. We immediately coordinated with all involved security partners and the Venus team to assess the situation. THENA was not directly affected. What You Need to Know: • THENA Smart Co",
     "published_at": "2026-03-15T16:56:36.661000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "partners"
     ],
@@ -2273,7 +2827,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Asia’s Weekly TOP10 Crypto News: Hong Kong Stablecoin Licenses Rumored, Dubai TOKEN2049 Postponed to 2027, South Korea Builds Crypto Tax System, China Court Crackdown on Crypto FX, Thai Platforms Freeze 10,000 Accounts, Singapore Crypto Scam Losses Hit S$182M.",
     "published_at": "2026-03-15T12:54:14.781000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -2320,17 +2874,17 @@
     ]
   },
   {
-    "id": "808e83b2de1a0c962187e267f6f1b95c7878996d86efc85e2d18ab5cdf1d0490",
+    "id": "a39ea0a0a264003e4039fd875da94f6a96fae8794a6355a8acc62e2ccdfe0a98",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
     "feed_name": "twitter",
-    "title": "Erik Voorhees(@ErikVoorhees), an early #Bitcoin supporter and founder of ShapeShift, is buying back $ETH after a one-year break.",
-    "url": "https://twitter.com/lookonchain/status/2033127937449381889",
-    "canonical_url": "https://twitter.com/lookonchain/status/2033127937449381889",
-    "snippet": "Lookonchain (@lookonchain): Erik Voorhees(@ErikVoorhees), an early #Bitcoin supporter and founder of ShapeShift, is buying back $ETH after a one-year break. One year ago, he sold 12,886 $ETH($42.83M) at $3,324. In the past 5 days, he has spent 17.75M $USDT to buy back 8,576 $ETH at $2,069. He still ",
-    "published_at": "2026-03-15T10:27:29.186000+00:00",
+    "title": "Erik Voorhees(@ErikVoorhees), an early #Bitcoin supporter and founder of ShapeShift, is buying ETH like crazy after a one-year break!",
+    "url": "https://twitter.com/lookonchain/status/2033347707784548366",
+    "canonical_url": "https://twitter.com/lookonchain/status/2033347707784548366",
+    "snippet": "Lookonchain (@lookonchain): Erik Voorhees(@ErikVoorhees), an early #Bitcoin supporter and founder of ShapeShift, is buying ETH like crazy after a one-year break! He spent 49.08M $USDT to buy 23,393 $ETH at $2,098 through 2 wallets. He still holds 35.25M $USDT and may buy more $ETH. https://intel.ark",
+    "published_at": "2026-03-16T01:00:46.497000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-16T10:14:30.658099+00:00",
+    "fetched_at": "2026-03-16T11:12:34.670832+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -2338,7 +2892,7 @@
       "Stablecoin adoption"
     ],
     "raw": {
-      "_id": "2033127937449381889",
+      "_id": "2033347707784548366",
       "coin": null,
       "toa_source": "Twitter",
       "toa_source_name": "",
@@ -2398,11 +2952,11 @@
         "isSelfReply": false
       }
     },
-    "score": -21,
+    "score": -41,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
-      "commentary": 0,
+      "commentary": 1,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
@@ -2411,14 +2965,14 @@
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 2
+      "cluster_size": 1
     },
     "consensus_boost": 0,
-    "cluster_size": 2,
+    "cluster_size": 1,
     "cluster_sources": [
       "Tree of Alpha"
     ]
