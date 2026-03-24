@@ -10,7 +10,7 @@
     "snippet": "1inch (@1inch): Fidelity asked the SEC for on-chain settlement clarity. Here's the harder question. Fidelity manages $5 trillion in assets. When they submit a formal letter to the SEC Crypto Task Force, the ask is specific: regulatory clarity on on-chain settlement. That's worth paying attention to.",
     "published_at": "2026-03-24T09:43:37.057000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "settlement",
       "regulatory",
@@ -154,6 +154,83 @@
     ]
   },
   {
+    "id": "16a00fcd697046ef3c879ef613044275f32bda633172807100ba25d2834a52f9",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "DV8Thailand has signed a share acquisition agreement to buy an equity stake in Rakkar Digital, becoming Southeast Asia’s first Bitcoin treasury company to ob...",
+    "url": "https://twitter.com/WuBlockchain/status/2036475777550815251",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2036475777550815251",
+    "snippet": "Wu Blockchain (@WuBlockchain): DV8Thailand has signed a share acquisition agreement to buy an equity stake in Rakkar Digital, becoming Southeast Asia’s first Bitcoin treasury company to obtain a digital asset license. Rakkar Digital reported over $700 million in assets under custody as of Dec. 24, 2",
+    "published_at": "2026-03-24T16:10:36.256000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "_id": "2036475777550815251",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "Bitcoin"
+          ],
+          "coin": "BTC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "BTCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BTCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "BTCUSDT"
+            }
+          ],
+          "supply": 19948812
+        }
+      ],
+      "info": {
+        "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 35,
+      "institution_bonus": 30,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "42c83a660251ed1f1b6eee67ea2dae45399abba0a90dd8fe2df1655c80f8005d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -164,7 +241,7 @@
     "snippet": "The payments infrastructure firm has unveiled an open-source framework enabling AI agents to manage crypto funds across multiple chains.",
     "published_at": "2026-03-24T11:07:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -212,7 +289,7 @@
     "snippet": "Zama and T-REX Network introduced a confidentiality layer for tokenized real-world assets, aiming to enable broader institutional adoption.",
     "published_at": "2026-03-24T11:05:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized",
       "launch"
@@ -262,7 +339,7 @@
     "snippet": "FORBES: SEC, CFTC Crypto Guidance Clarifies Digital Commodities Framework",
     "published_at": "2026-03-23T19:47:41.722000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "SEC",
       "CFTC"
@@ -312,7 +389,7 @@
     "snippet": "The CFTC launched a new task force focused on cryptocurrencies, artificial intelligence, and the rapidly emerging area of prediction markets.",
     "published_at": "2026-03-24T15:03:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launched",
       "CFTC"
@@ -361,7 +438,7 @@
     "snippet": "Silo V3, unveiled Tuesday, adds a protocol-level insolvency protection mechanism to reduce the dependency on DEX liquidity.",
     "published_at": "2026-03-24T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -409,7 +486,7 @@
     "snippet": "The first independent audit of Tether’s claimed $192 billion stablecoin reserves could pave the way to USDT’s approval under the GENIUS Act.",
     "published_at": "2026-03-24T14:52:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDT",
@@ -461,7 +538,7 @@
     "snippet": "BitGo Prime, LLC (“BitGo Prime”), a subsidiary of BitGo Holdings, Inc. (NYSE: BTGO), the digital asset infrastructure company (“BitGo”), and Susquehanna Crypto, a leading global proprietary digital asset trading firm, today announced a partnership to provide eligible institutional clients with acces",
     "published_at": "2026-03-24T12:25:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -508,7 +585,7 @@
     "snippet": "CoinDesk (@CoinDesk): LATEST: Bank of Montreal ($BMO) plans to launch 24/7 tokenized cash for institutions via @CMEGroup's network.",
     "published_at": "2026-03-24T14:25:00.524000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized",
       "launch"
@@ -567,7 +644,7 @@
     "snippet": "Circle Internet Group, Inc. (NYSE: CRCL), one of the world’s leading internet financial platform companies, today announced a collaboration between one of its affiliates and Sasai Fintech, a business of Cassava Technologies, to accelerate USDC adoption and expand internet-native financial infrastruc",
     "published_at": "2026-03-24T13:37:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -615,7 +692,7 @@
     "snippet": "The platform offers three API modules to help issue RWAs, support payments, and enable onchain swaps supported by 20 launch partners.",
     "published_at": "2026-03-24T13:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch",
       "partners"
@@ -664,7 +741,7 @@
     "snippet": "ECB Executive Board member Piero Cipollone said private digital money cannot scale Europe’s tokenized markets on its own, pointing to Pontes and broader legal reform as next steps.",
     "published_at": "2026-03-24T09:37:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
@@ -713,7 +790,7 @@
     "snippet": "Top pairs on the largest HIP-3 market platform mainly involve tokenized real-world assets, such as crude oil and silver.",
     "published_at": "2026-03-24T09:08:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -760,7 +837,7 @@
     "snippet": "Nasdaq is wiring its collateral and surveillance systems into Talos’s institutional trading stack to target a $35 billion “trapped” collateral problem.",
     "published_at": "2026-03-24T09:05:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -807,7 +884,7 @@
     "snippet": "Additional contracts cover major cryptocurrency-related stocks, such as Strategy, Coinbase, Robinhood, and Circle.",
     "published_at": "2026-03-24T09:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Circle",
       "launches"
@@ -857,7 +934,7 @@
     "snippet": "The $1 billion AI fund targets investments in stablecoin rails, agent identity, tokenized RWAs and developer tooling for autonomous AI systems.",
     "published_at": "2026-03-24T05:18:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "tokenized"
@@ -896,6 +973,170 @@
     ]
   },
   {
+    "id": "d2f1db714a0707fbbc658653f95522ec88b706b504ab9a0a51752574bcc38c5b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "BitGo, Susquehanna roll out institutional OTC access to prediction markets",
+    "url": "https://cointelegraph.com/news/bitgo-susquehanna-roll-out-institutional-otc-access-to-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/bitgo-susquehanna-roll-out-institutional-otc-access-to-prediction-markets",
+    "snippet": "The offering allows institutional investors to trade event-based contracts using crypto collateral, as regulatory scrutiny of prediction markets intensifies in the United States.",
+    "published_at": "2026-03-24T16:31:58+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "regulatory"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/bitgo-susquehanna-roll-out-institutional-otc-access-to-prediction-markets",
+      "guidislink": true
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "2035f3f810564a5eced9c0fe529c8006bfb694c31fb9f81505426a24bf67392d",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Most token launches break AFTER the raise 😵",
+    "url": "https://twitter.com/Chain_GPT/status/2036478899371294730",
+    "canonical_url": "https://twitter.com/Chain_GPT/status/2036478899371294730",
+    "snippet": "ChainGPT (@Chain_GPT): Most token launches break AFTER the raise 😵 Vesting schedules drift. Claims get delayed. Access rules create confusion when demand spikes. Our White Label Launchpad brings stability to the entire flow. Book a demo → http://calendly.com/saaswl/demo https://www.chaingpt.org/blog",
+    "published_at": "2026-03-24T16:23:00.552000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "_id": "2036478899371294730",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "CGPT",
+            "chaingpt"
+          ],
+          "coin": "CGPT",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "CGPTUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "CGPTUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "CGPTUSDT"
+            }
+          ],
+          "supply": 879790602
+        },
+        {
+          "found": [
+            "drift"
+          ],
+          "coin": "DRIFT",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "DRIFTUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "DRIFTUSDT"
+            }
+          ],
+          "supply": 750007500
+        },
+        {
+          "found": [
+            "Flow"
+          ],
+          "coin": "FLOW",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "FLOWUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "FLOWUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "FLOWUSDT"
+            }
+          ],
+          "supply": 1621987171
+        }
+      ],
+      "info": {
+        "twitterId": "1584416846773485569",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "607dff31fbf29997fcf47d97c1125599fa669810772444a4cdf6c3c4031666a2",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -906,7 +1147,7 @@
     "snippet": "Securitize will become NYSE’s first digital transfer agent to mint blockchain-based shares of stocks and develop standards for compliant tokenized stock issuance.",
     "published_at": "2026-03-24T13:12:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "issuance",
       "tokenized"
@@ -956,7 +1197,7 @@
     "snippet": "Mastercard’s planned BVNK acquisition highlights a shift toward infrastructure over token issuance, reflecting how major payment firms are approaching stablecoins.",
     "published_at": "2026-03-24T12:49:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuance"
@@ -1005,7 +1246,7 @@
     "snippet": "",
     "published_at": "2026-03-24T11:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1052,7 +1293,7 @@
     "snippet": "The derivatives give users synthetic exposure to major U.S. equities while using Bitcoin and other crypto holdings as collateral, with plans to expand into tokenized assets later this year.",
     "published_at": "2026-03-24T09:01:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1099,7 +1340,7 @@
     "snippet": "THE BLOCK: Circle urges EU to fast-track DLT reforms, widen stablecoin settlement rules",
     "published_at": "2026-03-23T20:50:49.521000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -1142,17 +1383,17 @@
     ]
   },
   {
-    "id": "d64ab64e4e9051986ea14b25c7652d2827898f16ba06dcbba4ef05264c60a6df",
+    "id": "d2f4faef9e56a16596e2a6ae7f81c7a74730b31da62e5c28044c662ac92bc001",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
     "feed_name": "twitter",
-    "title": ".@Kodeus has integrated Allora inference as a core capability in their agent launch platform. Builders deploying agents on Kodeus access Allora's predictive ...",
-    "url": "https://twitter.com/AlloraNetwork/status/2036458036332732441",
-    "canonical_url": "https://twitter.com/AlloraNetwork/status/2036458036332732441",
-    "snippet": "Allora (@AlloraNetwork): .@Kodeus has integrated Allora inference as a core capability in their agent launch platform. Builders deploying agents on Kodeus access Allora's predictive price feeds natively at the point of deployment. No separate data infrastructure required.",
-    "published_at": "2026-03-24T15:00:06.564000+00:00",
+    "title": ".@TheKodeusLabs has integrated Allora inference as a core capability in their agent launch platform. Builders deploying agents on Kodeus access Allora's pred...",
+    "url": "https://twitter.com/AlloraNetwork/status/2036484081005822177",
+    "canonical_url": "https://twitter.com/AlloraNetwork/status/2036484081005822177",
+    "snippet": "Allora (@AlloraNetwork): .@TheKodeusLabs has integrated Allora inference as a core capability in their agent launch platform. Builders deploying agents on Kodeus access Allora's predictive price feeds natively at the point of deployment. No separate data infrastructure required.",
+    "published_at": "2026-03-24T16:43:35.820000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1160,7 +1401,7 @@
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "_id": "2036458036332732441",
+      "_id": "2036484081005822177",
       "coin": null,
       "toa_source": "Twitter",
       "toa_source_name": "",
@@ -1214,10 +1455,10 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 1
+      "cluster_size": 2
     },
     "consensus_boost": 0,
-    "cluster_size": 1,
+    "cluster_size": 2,
     "cluster_sources": [
       "Tree of Alpha"
     ]
@@ -1233,7 +1474,7 @@
     "snippet": "The New York Stock Exchange (NYSE), part of Intercontinental Exchange, Inc. (NYSE: ICE), one of the world’s leading providers of financial market technology and data powering global capital markets, and Securitize, the world’s leader in tokenizing real-world assets, today announced a collaboration t",
     "published_at": "2026-03-24T13:50:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "issuer",
       "tokenized"
@@ -1282,7 +1523,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): Prediction market platform Kalshi partnered with fintech firm FIS to launch FIS CD Prediction Clearing, infrastructure aimed at enabling institutional participation in prediction markets. The system will provide real-time clearing and high-volume trade processing, allo",
     "published_at": "2026-03-24T13:42:36.121000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1339,7 +1580,7 @@
     "snippet": "Zama integrates with Apex-backed T-REX for private tokenized assets TradingView",
     "published_at": "2026-03-24T11:01:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1386,7 +1627,7 @@
     "snippet": "The Block (@TheBlockCo): Delaware lawmakers introduce bills to license stablecoin issuers, digital asset firms https://www.theblock.co/post/394823/delaware-bills-license-stablecoin-issuers?utm_source=twitter&utm_medium=social",
     "published_at": "2026-03-24T09:35:58.202000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1444,7 +1685,7 @@
     "snippet": "DLNEWS: Kalshi launches 'whistleblower' function to oust insider traders as lawmakers circle",
     "published_at": "2026-03-24T08:53:15.670000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Circle",
       "launches"
@@ -1497,7 +1738,7 @@
     "snippet": "The stablecoin bill introduced in Delaware aims to create a licensing framework for stablecoin issuers as part of the state's first major banking code update since 1981.",
     "published_at": "2026-03-24T05:02:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin bill",
       "stablecoin"
@@ -1545,7 +1786,7 @@
     "snippet": "Cookie DAO 🍪 (@cookiedotfun): Agentic payments gave agents a reason to exist a single narrative hit critical mass in ~48 hours: Agentic payments → @stripe + Tempo launched the Machine Payments Protocol. → World dropped AgentKit. → WorldLibertyFi pushed AgentPay. → Brian Armstrong started asking when",
     "published_at": "2026-03-24T15:11:47.821000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -1643,7 +1884,7 @@
     "snippet": "CoinDesk (@CoinDesk): NEW: @SolanaFndn launches the Solana Developer Platform for building tokenized assets, stablecoins and payment flows on @Solana, with @Mastercard, @WesternUnion and @Worldpay among its first adopters.",
     "published_at": "2026-03-24T14:02:00.210000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized",
       "launches"
@@ -1737,7 +1978,7 @@
     "snippet": "Solana is aiming to attract enterprises and financial institutions to its ecosystem through a new unified developer platform, which is focused on tokenization and stablecoins.",
     "published_at": "2026-03-24T13:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1785,7 +2026,7 @@
     "snippet": "CoinDesk (@CoinDesk): JUST IN: $2.2T asset manager @InvescoUS takes over Superstate's $900M tokenized Treasury fund USTB, entering the rapidly growing $12B tokenized U.S. Treasury market alongside @BlackRock and Franklin Templeton.",
     "published_at": "2026-03-24T12:00:12.157000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized treasury",
       "treasury fund",
@@ -1844,7 +2085,7 @@
     "snippet": "The Block (@TheBlockCo): BREAKING: NYSE PARTNERS WITH SECURITIZE TO DEVELOP ITS 24/7 TOKENIZED SECURITIES PLATFORM — WSJ https://t.co/hKPpHEjvEz",
     "published_at": "2026-03-24T11:51:34.497000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized",
       "partners"
@@ -1903,7 +2144,7 @@
     "snippet": "Brila (@BrilaFinance): Stablecoins are not just a crypto product. They're becoming the default payment rail. Stripe acquired Bridge. Visa settles on-chain. PayPal issued its own dollar. The payment networks didn't wait for permission, they rebuilt their infrastructure around programmable dollars.",
     "published_at": "2026-03-24T07:54:36.049000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1981,7 +2222,7 @@
     "snippet": "Injective 🥷 (@injective): Native USDC is officially coming to Injective. Together with @circle, Injective will support native USDC issuance and CCTP directly onchain. No wrapped tokens. No bridges. Just reserve-backed USDC with seamless transfers across 30+ blockchains. Below are some of the top dev",
     "published_at": "2026-03-24T04:38:17.426000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -2093,7 +2334,7 @@
     "snippet": "The Block (@TheBlockCo): BlackRock CEO Larry Fink sees tokenization making investing with your phone as easy as payments https://www.theblock.co/post/394746/blackrock-larry-fink-tokenization-making-investing-with-phone-easy-as-payments?utm_source=twitter&utm_medium=social",
     "published_at": "2026-03-23T19:37:36.927000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -2140,134 +2381,6 @@
     ]
   },
   {
-    "id": "524180849b893b002b9653dc8900bf8e799b9b79ece82f7e4e926714f5a49a2f",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "twitter",
-    "title": "Larry Fink just compared tokenization to the internet in 1996.",
-    "url": "https://twitter.com/OndoFinance/status/2036142137713070250",
-    "canonical_url": "https://twitter.com/OndoFinance/status/2036142137713070250",
-    "snippet": "Ondo Finance (@OndoFinance): Larry Fink just compared tokenization to the internet in 1996. In his 2026 Annual Chairman's Letter, the BlackRock CEO made the case that tokenizing stocks, bonds, and ETFs could democratize investing the way the internet democratized information. “Half the world's popul",
-    "published_at": "2026-03-23T18:04:50.639000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "_id": "2036142137713070250",
-      "coin": null,
-      "toa_source": "Twitter",
-      "toa_source_name": "",
-      "suggestions": [
-        {
-          "found": [
-            "ONDO"
-          ],
-          "coin": "ONDO",
-          "isAccountMapped": true,
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "ONDOUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "ONDOUSDT"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "ONDOUSDT"
-            }
-          ],
-          "supply": 4869330647
-        }
-      ],
-      "info": {
-        "twitterId": "1368671059906469889",
-        "isReply": false,
-        "isRetweet": false,
-        "isQuote": false,
-        "isSelfReply": false
-      }
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": -25,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -10,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
-    "id": "e2d8a6a29f1759b75a481423cc0895d0d666f59d33a4007c2edef02667c6bc05",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "BlackRock is betting billions that tokenized funds will do for Wall Street what the internet did to mail",
-    "url": "https://www.coindesk.com/business/2026/03/23/blackrock-is-betting-billions-that-tokenized-funds-will-do-for-wall-street-what-the-internet-did-to-mail",
-    "canonical_url": "https://coindesk.com/business/2026/03/23/blackrock-is-betting-billions-that-tokenized-funds-will-do-for-wall-street-what-the-internet-did-to-mail",
-    "snippet": "",
-    "published_at": "2026-03-23T16:12:09+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "tokenized fund",
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "f47ce7b7-a056-46fd-ac8a-3c94b9dfbd67",
-      "guidislink": false
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "7d24fc6c272f1c44efac373234003b52f8af8dfbae75ef96c1a774e9b1ff80b7",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -2278,7 +2391,7 @@
     "snippet": "Centrifuge (@centrifuge): Two years ago the debate was whether institutions would even touch public blockchains. Now the debate is whether a tokenized fund can afford to launch without composability on the roadmap. A lot has changed.",
     "published_at": "2026-03-24T08:37:45.825000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized fund",
       "tokenized",
@@ -2361,7 +2474,7 @@
     "snippet": "SEC: Self-Regulatory Organizations; LCH SA; Notice of Filing of Proposed Rule Change Relating to the CDS Clearing Rules (AMF outsourcing; EMIR SITG; EU CCPRR)",
     "published_at": "2026-03-23T22:27:06.067000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "regulatory",
       "SEC"
@@ -2411,7 +2524,7 @@
     "snippet": "SEC: Self-Regulatory Organizations; Fixed Income Clearing Corporation; Notice of Filing and Immediate Effectiveness of Proposed Rule Change to Make Corrections, Clarifications and Certain Other Changes to the GSD Rules, MBSD Rules, and EPN Rules",
     "published_at": "2026-03-23T22:04:12.068000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "regulatory",
       "SEC"
@@ -2451,6 +2564,75 @@
     ]
   },
   {
+    "id": "ac27ee1049e818561976c9691190b4bf856d0d52e7763a4be3cd8b8835b27a61",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "blogs",
+    "title": "First Lady Melania Trump Launches Fostering the Future Together 45 Member Nations Attend the Inaugural Coalition Summit",
+    "url": "https://www.whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-launches-fostering-the-future-together-45-member-nations-attend-the-inaugural-coalition-summit",
+    "canonical_url": "https://whitehouse.gov/briefings-statements/2026/03/first-lady-melania-trump-launches-fostering-the-future-together-45-member-nations-attend-the-inaugural-coalition-summit",
+    "snippet": "WHITEHOUSE: First Lady Melania Trump Launches Fostering the Future Together 45 Member Nations Attend the Inaugural Coalition Summit",
+    "published_at": "2026-03-24T16:21:59.839000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "_id": "1774369319839WFLMTLFtFT4MNAtICS",
+      "coin": null,
+      "toa_source": "Blogs",
+      "toa_source_name": "WHITEHOUSE",
+      "suggestions": [
+        {
+          "found": [
+            "melania"
+          ],
+          "coin": "MELANIA",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "MELANIAUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "MELANIAUSDT"
+            }
+          ],
+          "supply": 909996841
+        }
+      ],
+      "info": {}
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -10,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "fafe538329aa9019081249f31113083c1d3f0d4c33399dbdeec38174d29ad26e",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -2461,7 +2643,7 @@
     "snippet": "DECRYPT: RIV Coin Launches on Solana to Bridge Institutional Capital with DeFi Infrastructure",
     "published_at": "2026-03-24T15:33:44.535000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -2546,7 +2728,7 @@
     "snippet": "CHAINWIRE: ZenithBlox Introduces COBI Architecture for Regulated Enterprise Blockchain Integration",
     "published_at": "2026-03-24T14:47:49.386000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "introduces"
     ],
@@ -2597,7 +2779,7 @@
     "snippet": "COINTELEGRAPH: Fira launches fixed-rate DeFi lending market with $450M in deposits",
     "published_at": "2026-03-24T14:12:06.564000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -2648,7 +2830,7 @@
     "snippet": "MoonPay, the leading global crypto payments network, launched the Open Wallet Standard (openwallet.sh), an open-source standard that gives AI agents a secure, universal way to hold value, sign transactions, and pay for services across every major blockchain, without ever exposing a private key.",
     "published_at": "2026-03-24T13:35:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "crypto payments",
       "launched"
@@ -2696,7 +2878,7 @@
     "snippet": "Solana Foundation has launched a developer platform designed to make it easy for enterprises and financial institutions to build and launch financial products on the Solana blockchain. The Solana Developer Platform (SDP) can be used out of the box by artificial intelligence coding platforms, is powe",
     "published_at": "2026-03-24T13:00:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch",
       "launched"
@@ -2744,7 +2926,7 @@
     "snippet": "AP: Inside the botched launch of ex-NYC Mayor Eric Adams' new crypto token",
     "published_at": "2026-03-24T09:13:16.117000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -2795,7 +2977,7 @@
     "snippet": "FINANCE FEEDS: Ethereum Foundation Unveils Comprehensive Future Vision: Redefining L1/L2 Dynamics and Network Stewardship",
     "published_at": "2026-03-24T08:01:23.373000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "unveils"
     ],
@@ -2872,7 +3054,7 @@
     "snippet": "COINTELEGRAPH: Glider, Ondo launch platform for custom tokenized stock portfolios",
     "published_at": "2026-03-23T20:48:33.690000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized",
       "launch"
@@ -2937,131 +3119,6 @@
     ]
   },
   {
-    "id": "d3f0d3a544587ecab75321b9f76dbc7e49910e7999c01c5254b3a8ccaee45758",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "blogs",
-    "title": "Lyneth Launches on SKALE: Powering Trust Infrastructure for the Agent Economy",
-    "url": "https://blog.skale.space/blog/lyneth-launches-on-skale-powering-trust-infrastructure-for-the-agent-economy",
-    "canonical_url": "https://blog.skale.space/blog/lyneth-launches-on-skale-powering-trust-infrastructure-for-the-agent-economy",
-    "snippet": "SKL: Lyneth Launches on SKALE: Powering Trust Infrastructure for the Agent Economy",
-    "published_at": "2026-03-23T18:20:24.418000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "launches"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "_id": "1774290024418SLLoSPTIftAE",
-      "coin": null,
-      "toa_source": "Blogs",
-      "toa_source_name": "SKL",
-      "suggestions": [
-        {
-          "found": [
-            "SKL",
-            "skale"
-          ],
-          "coin": "SKL",
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "SKLUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "SKLUSDT"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "SKLUSDT"
-            }
-          ],
-          "supply": 6045894337
-        }
-      ],
-      "info": {}
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": -10,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
-    "id": "caaf161ea3bbe1d3b0e8efbf790d0138cbe9863ab1bd5fa0e4aa087d9f3f4007",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "blogs",
-    "title": "Timber Cladding Specialists Introduces Blockchain-Based Traceability for Sustainable Timber Supply Chains",
-    "url": "https://chainwire.org/2026/03/23/timber-cladding-specialists-introduces-blockchain-based-traceability-for-sustainable-timber-supply-chains",
-    "canonical_url": "https://chainwire.org/2026/03/23/timber-cladding-specialists-introduces-blockchain-based-traceability-for-sustainable-timber-supply-chains",
-    "snippet": "CHAINWIRE: Timber Cladding Specialists Introduces Blockchain-Based Traceability for Sustainable Timber Supply Chains",
-    "published_at": "2026-03-23T18:03:24.886000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "introduces"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "_id": "1774289004886CTCSIBTfSTSC",
-      "coin": null,
-      "toa_source": "Blogs",
-      "toa_source_name": "CHAINWIRE",
-      "suggestions": [],
-      "info": {}
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": -10,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
     "id": "c3340649cf45ad66e53f615d337e2456de7c0249ad046b5808f5f78512942200",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -3072,7 +3129,7 @@
     "snippet": "Circle Internet Group and Sasai Fintech, a pan-African digital payments solution provider, have partnered to explore applications for Circle’s USDC stablecoin across Africa. Sasai Fintech, a business of Cassava Technologies, operates across key payment corridors and offers a suite of digital financi",
     "published_at": "2026-03-24T14:24:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -3121,7 +3178,7 @@
     "snippet": "CoinDesk (@CoinDesk): NEW: @NYSE partners with @Securitize as its first digital transfer agent to enable tokenized stocks and ETFs with 24/7 trading and instant settlement via stablecoins.",
     "published_at": "2026-03-24T12:43:12.571000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "settlement",
       "tokenized",
@@ -3182,7 +3239,7 @@
     "snippet": "Securitize was selected by the New York Stock Exchange as a \"digital transfer agent\" for a platform dedicated to tokenized securities.",
     "published_at": "2026-03-24T14:47:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -3230,7 +3287,7 @@
     "snippet": "Tether has hired a Big Four accounting firm for its first full USDT stablecoin audit after years of scrutiny over its reserves.",
     "published_at": "2026-03-24T13:30:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDT",
@@ -3281,7 +3338,7 @@
     "snippet": "Circle said no euro-denominated \"e-money token,\" including its EURC stablecoin, has reached the framework's proposed market cap threshold for use in settlement.",
     "published_at": "2026-03-24T05:31:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -3330,7 +3387,7 @@
     "snippet": "DYDX: SEC Crypto Asset Interpretation: Key Takeaways for Market Participants",
     "published_at": "2026-03-24T02:11:48.107000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "SEC"
     ],
@@ -3402,7 +3459,7 @@
     "snippet": "COINTELEGRAPH: SEC sends proposed crypto interpretation to White House for review",
     "published_at": "2026-03-23T18:59:11.380000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "SEC"
     ],
@@ -3441,6 +3498,54 @@
     ]
   },
   {
+    "id": "34e74365b54e690b98716cd9564dc32ea98fbd8372990376122cb18b23cc6b62",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Circle stock plunges 18% as a new draft of the Clarity Act threatens stablecoin rewards",
+    "url": "https://www.coindesk.com/markets/2026/03/24/circle-stock-plunges-18-as-a-new-draft-of-the-clarity-act-threatens-stablecoin-rewards",
+    "canonical_url": "https://coindesk.com/markets/2026/03/24/circle-stock-plunges-18-as-a-new-draft-of-the-clarity-act-threatens-stablecoin-rewards",
+    "snippet": "",
+    "published_at": "2026-03-24T16:09:27+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "664317d4-63ad-4a2c-b458-06d8b8a3900c",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "b54ac8973fa9fd2d2d0b10b8f0acb0404037b3aa9c0efd2aa3da42080569382d",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -3451,7 +3556,7 @@
     "snippet": "THE STREET: Coinbase, Circle stocks tumble as stablecoin rewards recieve no 'clarity'",
     "published_at": "2026-03-24T15:37:44.632000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle"
@@ -3503,7 +3608,7 @@
     "snippet": "",
     "published_at": "2026-03-24T15:30:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -3550,7 +3655,7 @@
     "snippet": "",
     "published_at": "2026-03-24T13:24:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDT",
       "Tether",
@@ -3599,7 +3704,7 @@
     "snippet": "CIRCLE: Circle and Sasai Fintech Collaborate to Expand Access to USDC in Africa",
     "published_at": "2026-03-24T13:19:40.574000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -3673,7 +3778,7 @@
     "snippet": "Omnes and Apex plan to issue a tokenized Bitcoin mining debt note on Base, giving eligible non-US investors exposure to hashrate-linked returns.",
     "published_at": "2026-03-24T12:39:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -3720,7 +3825,7 @@
     "snippet": "",
     "published_at": "2026-03-24T12:31:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -3767,7 +3872,7 @@
     "snippet": "Dusk (@DuskFoundation): Important submission by EUCi. This is exactly the kind of advocacy the industry needs right now. The proposed DLT Pilot Regime amendments are a step in the right direction: expanding asset scope, raising volume caps, removing the six-year sunset clause. For tokenization in Eu",
     "published_at": "2026-03-24T11:17:00.244000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenization",
       "pilot"
@@ -3860,7 +3965,7 @@
     "snippet": "Stellar (@StellarOrg): Last year at EthCC, @tomerweller called for privacy protocols that allow institutions to get onchain while maintaining compliance. Since then, we've launched X-Ray, Stellar's protocol upgrade dedicated to privacy.",
     "published_at": "2026-03-23T19:48:49.448000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launched",
       "compliance"
@@ -3950,7 +4055,7 @@
     "snippet": "COINTELEGRAPH: Federal regulation looms as 11 states go after prediction markets",
     "published_at": "2026-03-24T13:53:22.548000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -3999,7 +4104,7 @@
     "snippet": "The Block (@TheBlockCo): BREAKING: TETHER SIGNS BIG FOUR FIRM TO COMPLETE FIRST FULL AUDIT https://t.co/7aRTZgGRxm",
     "published_at": "2026-03-24T13:05:09.659000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -4056,7 +4161,7 @@
     "snippet": "FINANCE FEEDS: Sumsub Says Africa Crypto Markets Show Lower Fraud Rates As Regulation Expands",
     "published_at": "2026-03-24T12:30:10.470000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "regulation"
     ],
@@ -4105,7 +4210,7 @@
     "snippet": "BitGo's institutional clients will be able to access prediction markets via the custodian's platform and post cash or crypto as collateral.",
     "published_at": "2026-03-24T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -4151,7 +4256,7 @@
     "snippet": "Bitlight Labs⚡️ (@BitlightLabs): Introducing Bitlight RLN, the first product-ready desktop client that brings RGB asset issuance and transfer to the Lightning Network. https://bitlightlabs.com/lightning We are making programmable Bitcoin assets instant, cheap, and real. Issue assets. Open RGB channe",
     "published_at": "2026-03-24T05:45:00.746000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "issuance"
     ],
@@ -4249,7 +4354,7 @@
     "snippet": "THE BLOCK: Biotech stock NovaBay jumps 19% amid pivot, rebrand to Stablecoin Development Corporation",
     "published_at": "2026-03-23T19:00:59.326000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -4290,128 +4395,102 @@
     ]
   },
   {
-    "id": "5d132250662ca86b7f288bc8a4038ac5a05bd708d4b722aa49d25fba06906e96",
+    "id": "7773003ae7e171f5f2415b7458c8d295fb7dd2d2cb596497abf8742f53ca700c",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
     "feed_name": "twitter",
-    "title": "yvUSD: A Cross-Chain Yearn Vault for Stablecoin Yield",
-    "url": "https://twitter.com/yearnfi/status/2036152009364029453",
-    "canonical_url": "https://twitter.com/yearnfi/status/2036152009364029453",
-    "snippet": "yearn (@yearnfi): yvUSD: A Cross-Chain Yearn Vault for Stablecoin Yield This is part 1 of a 3 article series. This month, we’re introducing yvUSD, a new Yearn vault product designed to make stablecoin yield simpler and more profitable. yvUSD is a cross-chain vault for USD-pegged assets like USDC: yo",
-    "published_at": "2026-03-23T18:44:03.903000+00:00",
+    "title": "SecretAI Portal gives developers a clear path from onboarding to deployment.",
+    "url": "https://twitter.com/SecretNetwork/status/2036473111282135406",
+    "canonical_url": "https://twitter.com/SecretNetwork/status/2036473111282135406",
+    "snippet": "Secret Network (@SecretNetwork): SecretAI Portal gives developers a clear path from onboarding to deployment. Sign up, configure resources, and launch confidential workloads with speed and confidence. https://secretai.scrtlabs.com/",
+    "published_at": "2026-03-24T16:00:00.709000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "USDC"
+      "launch"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "_id": "2036152009364029453",
+      "_id": "2036473111282135406",
       "coin": null,
       "toa_source": "Twitter",
       "toa_source_name": "",
       "suggestions": [
         {
           "found": [
-            "YFI"
+            "SCRT"
           ],
-          "coin": "YFI",
+          "coin": "SCRT",
           "isAccountMapped": true,
           "symbols": [
             {
               "exchange": "binance-futures",
-              "symbol": "YFIUSDT"
+              "symbol": "SCRTUSDT"
             },
             {
               "exchange": "binance",
-              "symbol": "YFIUSDT"
+              "symbol": "SCRTUSDT"
             },
             {
               "exchange": "bybit-perps",
-              "symbol": "YFIUSDT"
+              "symbol": "SCRTUSDT"
             }
           ],
-          "supply": 33946
+          "supply": 324204941
         },
         {
           "found": [
-            "USDC"
+            "portal"
           ],
-          "coin": "USDC",
+          "coin": "PORTAL",
           "symbols": [
             {
               "exchange": "binance-futures",
-              "symbol": "USDCUSDT"
+              "symbol": "PORTALUSDT"
             },
             {
               "exchange": "binance",
-              "symbol": "USDCUSDT"
+              "symbol": "PORTALUSDT"
             },
             {
               "exchange": "bybit-perps",
-              "symbol": "USDCUSDT"
+              "symbol": "PORTALUSDT"
             }
           ],
-          "supply": 75212581383
-        },
-        {
-          "found": [
-            "Ethereum"
-          ],
-          "coin": "ETH",
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "ETHUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "ETHUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "ETHBTC"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "ETHUSDT"
-            }
-          ],
-          "supply": 120696353
+          "supply": 659977432
         }
       ],
       "info": {
-        "twitterId": "1223779978459770880",
+        "twitterId": "3305325070",
         "isReply": false,
         "isRetweet": false,
         "isQuote": false,
         "isSelfReply": false
       }
     },
-    "score": 14,
+    "score": 10,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": -25,
       "launch_score": 25,
-      "institution_bonus": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 2
+      "cluster_size": 1
     },
     "consensus_boost": 0,
-    "cluster_size": 2,
+    "cluster_size": 1,
     "cluster_sources": [
       "Tree of Alpha"
     ]
@@ -4427,7 +4506,7 @@
     "snippet": "ether.fi (@ether_fi): Since the launch of EtherFi Cash, LiquidUSD vault TVL has grown by $106M. $84M of that sits in Cash vaults. Users are choosing EtherFi because they can earn on their balance while spending it IRL. Your money goes farther on EtherFi.",
     "published_at": "2026-03-24T15:33:05.267000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -4508,7 +4587,7 @@
     "snippet": "Ethereum Foundation (@ethereumfndn): Today, several teams at the EF are launching http://pq.ethereum.org/, a dedicated resource for Ethereum's post-quantum security effort. What started with early STARK-based signature aggregation research in 2018 has grown into a coordinated, multi-team effort, all",
     "published_at": "2026-03-24T15:26:36.277000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -4591,7 +4670,7 @@
     "snippet": "Api3 (@Api3DAO): Welcome @VyroFinance to the Api3 Ecosystem ⟁ A CDP protocol launching on @unichain Mint the overcollateralized stablecoin $vyUSD against $ETH, $wstETH & $UNI unlocking liquidity across the ecosystem.",
     "published_at": "2026-03-24T15:14:06.295000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -4734,7 +4813,7 @@
     "snippet": "Sport.fun (@sportfun): We're launching our official X community. We want this to be a space to connect with other players, give product feedback, and share your insights directly with our team. You've been asking for this for a while, so you'd better join 👇 https://x.com/i/communities/20364589980193",
     "published_at": "2026-03-24T15:08:24.418000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -4808,7 +4887,7 @@
     "snippet": "Resolv’s USR dollar stablecoin is trading at just $0.24 after an attacker minted 80 million unbacked tokens, forcing a full protocol pause and reopening fears over stablecoin risk.",
     "published_at": "2026-03-24T13:57:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -4855,7 +4934,7 @@
     "snippet": "DECRYPT: Invesco to Manage Superstate's USTB Tokenized Fund, Entering $12B Tokenized Treasuries Market",
     "published_at": "2026-03-24T13:42:39.565000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized fund",
       "tokenized"
@@ -4907,7 +4986,7 @@
     "snippet": "USDT: Tether Signs Big Four Firm to Complete First Full Audit, Setting a New Quality Standard for the Digital Asset Economy",
     "published_at": "2026-03-24T13:00:00.351000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -4959,7 +5038,7 @@
     "snippet": "FINANCE FEEDS: Mesh Joins Canton Network As Super Validator In Tokenized Finance Push",
     "published_at": "2026-03-24T12:57:31.841000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -5028,7 +5107,7 @@
     "snippet": "Data shows AI tokens and stablecoins held up better than other crypto sectors in 2026, with growth tied to usage, liquidity and infrastructure demand.",
     "published_at": "2026-03-24T12:29:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -5073,7 +5152,7 @@
     "snippet": "Will qcad stablecoin reshape Canada’s regulated payments landscape? The Cryptonomist",
     "published_at": "2026-03-24T12:08:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -5120,7 +5199,7 @@
     "snippet": "SECURITIZE: New York Stock Exchange and Securitize Agree to Memorandum of Understanding to Support Tokenized Securities",
     "published_at": "2026-03-24T11:56:15.683000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -5161,6 +5240,318 @@
     ]
   },
   {
+    "id": "2be10c54173aba962ae13cfdc1f40f1619a9209568fda8821d7a302f55d4cf71",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "DEVELOPING: Circle, the issuer of $USDC, is down over 18% this morning",
+    "url": "https://twitter.com/CoinDesk/status/2036457221815423208",
+    "canonical_url": "https://twitter.com/CoinDesk/status/2036457221815423208",
+    "snippet": "CoinDesk (@CoinDesk): DEVELOPING: Circle, the issuer of $USDC, is down over 18% this morning",
+    "published_at": "2026-03-24T14:56:52.207000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle",
+      "issuer"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "2036457221815423208",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        }
+      ],
+      "info": {
+        "twitterId": "1333467482",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
+    "id": "8929ac3cbc5ab13b9a985714009fe46a1695afeeb13a192f29491fa5074594b0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Here’s what happened in crypto today",
+    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+    "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
+    "published_at": "2026-03-24T14:27:21+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "regulation"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/what-happened-in-crypto-today",
+      "guidislink": true
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "eec1cbe3992c9c8cdb53d1e3f19d89944d3d6b65aa7df659176495fffb595d7f",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "According to WSJ, New York Stock Exchange (NYSE) has partnered with digital asset firm Securitize to develop a 24/7 tokenized securities trading platform. Un...",
+    "url": "https://twitter.com/WuBlockchain/status/2036410599735722261",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2036410599735722261",
+    "snippet": "Wu Blockchain (@WuBlockchain): According to WSJ, New York Stock Exchange (NYSE) has partnered with digital asset firm Securitize to develop a 24/7 tokenized securities trading platform. Under the plan, Securitize will act as NYSE’s first digital transfer agent, enabling shares of stocks and ETFs to ",
+    "published_at": "2026-03-24T11:51:36.828000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "_id": "2036410599735722261",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [],
+      "info": {
+        "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 20,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
+    "id": "79f0d4d4a11a312ad75597991beec79c5ccad856185d4f2fc42570c261eda0d4",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Native Rewards Season is here. 150,000 USDC rewards are waiting to be shared!",
+    "url": "https://twitter.com/BinanceWallet/status/2036401436570034661",
+    "canonical_url": "https://twitter.com/BinanceWallet/status/2036401436570034661",
+    "snippet": "Binance Wallet (@BinanceWallet): Native Rewards Season is here. 150,000 USDC rewards are waiting to be shared! Starting 2026-03-25 00:00:00 UTC, subscribe WETH or WBTC in @native_fi promoted pools to share 150,000 USDC rewards via #BinanceWallet Earn. The clock starts soon.⏳ Check out now ⤵️ https:/",
+    "published_at": "2026-03-24T11:15:12.132000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "USDC"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "2036401436570034661",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "USDC"
+          ],
+          "coin": "USDC",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "USDCUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "USDCUSDT"
+            }
+          ],
+          "supply": 75212581383
+        },
+        {
+          "found": [
+            "WBTC"
+          ],
+          "coin": "WBTC",
+          "symbols": [
+            {
+              "exchange": "binance",
+              "symbol": "WBTCUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "WBTCBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "WBTCETH"
+            }
+          ],
+          "supply": 127130
+        },
+        {
+          "found": [
+            "Binance"
+          ],
+          "coin": "BNB",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "BNBUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BNBUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BNBBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "BNBETH"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "BNBUSDT"
+            }
+          ],
+          "supply": 137737045
+        }
+      ],
+      "info": {
+        "twitterId": "1400391752368992260",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "30ace2df0d4d11d1770a1387c66717526293404a1b854355605c4b3d894284b5",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -5171,7 +5562,7 @@
     "snippet": "STEPN GO (@Stepnofficial): #STEPN & #STEPNGO March Townhall Recap 📝 🔹 Legendary Enhancement launch 🔹 🐰 teaser 🔹 Marathon Challenge Season 2 🔹 Community questions Missed it? We got you covered 👇 👑 Legendary Enhancement Legendary Enhancement is now live, and for the first time in STEPN, players can no",
     "published_at": "2026-03-24T10:32:53.233000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -5321,329 +5712,17 @@
         "isSelfReply": false
       }
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": -25,
       "launch_score": 25,
       "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
-    "id": "2be10c54173aba962ae13cfdc1f40f1619a9209568fda8821d7a302f55d4cf71",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "twitter",
-    "title": "DEVELOPING: Circle, the issuer of $USDC, is down over 18% this morning",
-    "url": "https://twitter.com/CoinDesk/status/2036457221815423208",
-    "canonical_url": "https://twitter.com/CoinDesk/status/2036457221815423208",
-    "snippet": "CoinDesk (@CoinDesk): DEVELOPING: Circle, the issuer of $USDC, is down over 18% this morning",
-    "published_at": "2026-03-24T14:56:52.207000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle",
-      "issuer"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "_id": "2036457221815423208",
-      "coin": null,
-      "toa_source": "Twitter",
-      "toa_source_name": "",
-      "suggestions": [
-        {
-          "found": [
-            "USDC"
-          ],
-          "coin": "USDC",
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "USDCUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "USDCUSDT"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "USDCUSDT"
-            }
-          ],
-          "supply": 75212581383
-        }
-      ],
-      "info": {
-        "twitterId": "1333467482",
-        "isReply": false,
-        "isRetweet": false,
-        "isQuote": false,
-        "isSelfReply": false
-      }
-    },
-    "score": 5,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": -25,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
-    "id": "8929ac3cbc5ab13b9a985714009fe46a1695afeeb13a192f29491fa5074594b0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Here’s what happened in crypto today",
-    "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-    "snippet": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-    "published_at": "2026-03-24T14:27:21+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "regulation"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "https://cointelegraph.com/news/what-happened-in-crypto-today",
-      "guidislink": true
-    },
-    "score": 5,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "eec1cbe3992c9c8cdb53d1e3f19d89944d3d6b65aa7df659176495fffb595d7f",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "twitter",
-    "title": "According to WSJ, New York Stock Exchange (NYSE) has partnered with digital asset firm Securitize to develop a 24/7 tokenized securities trading platform. Un...",
-    "url": "https://twitter.com/WuBlockchain/status/2036410599735722261",
-    "canonical_url": "https://twitter.com/WuBlockchain/status/2036410599735722261",
-    "snippet": "Wu Blockchain (@WuBlockchain): According to WSJ, New York Stock Exchange (NYSE) has partnered with digital asset firm Securitize to develop a 24/7 tokenized securities trading platform. Under the plan, Securitize will act as NYSE’s first digital transfer agent, enabling shares of stocks and ETFs to ",
-    "published_at": "2026-03-24T11:51:36.828000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "_id": "2036410599735722261",
-      "coin": null,
-      "toa_source": "Twitter",
-      "toa_source_name": "",
-      "suggestions": [],
-      "info": {
-        "twitterId": "111533746",
-        "isReply": false,
-        "isRetweet": false,
-        "isQuote": false,
-        "isSelfReply": false
-      }
-    },
-    "score": 5,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 2,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": -25,
-      "launch_score": 20,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
-    "id": "79f0d4d4a11a312ad75597991beec79c5ccad856185d4f2fc42570c261eda0d4",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "twitter",
-    "title": "Native Rewards Season is here. 150,000 USDC rewards are waiting to be shared!",
-    "url": "https://twitter.com/BinanceWallet/status/2036401436570034661",
-    "canonical_url": "https://twitter.com/BinanceWallet/status/2036401436570034661",
-    "snippet": "Binance Wallet (@BinanceWallet): Native Rewards Season is here. 150,000 USDC rewards are waiting to be shared! Starting 2026-03-25 00:00:00 UTC, subscribe WETH or WBTC in @native_fi promoted pools to share 150,000 USDC rewards via #BinanceWallet Earn. The clock starts soon.⏳ Check out now ⤵️ https:/",
-    "published_at": "2026-03-24T11:15:12.132000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "USDC"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "_id": "2036401436570034661",
-      "coin": null,
-      "toa_source": "Twitter",
-      "toa_source_name": "",
-      "suggestions": [
-        {
-          "found": [
-            "USDC"
-          ],
-          "coin": "USDC",
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "USDCUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "USDCUSDT"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "USDCUSDT"
-            }
-          ],
-          "supply": 75212581383
-        },
-        {
-          "found": [
-            "WBTC"
-          ],
-          "coin": "WBTC",
-          "symbols": [
-            {
-              "exchange": "binance",
-              "symbol": "WBTCUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "WBTCBTC"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "WBTCETH"
-            }
-          ],
-          "supply": 127130
-        },
-        {
-          "found": [
-            "Binance"
-          ],
-          "coin": "BNB",
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "BNBUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "BNBUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "BNBBTC"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "BNBETH"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "BNBUSDT"
-            }
-          ],
-          "supply": 137737045
-        }
-      ],
-      "info": {
-        "twitterId": "1400391752368992260",
-        "isReply": false,
-        "isRetweet": false,
-        "isQuote": false,
-        "isSelfReply": false
-      }
-    },
-    "score": 5,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": -25,
-      "launch_score": 0,
-      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -5669,7 +5748,7 @@
     "snippet": "Orderly (@OrderlyNetwork): The Orderly distributor program pays you for bringing volume. You refer a builder. They launch a DEX. It does volume. You earn a cut of the fees. They get the infrastructure. Traders get the liquidity. Everybody wins. https://dex.orderly.network/en/distributor",
     "published_at": "2026-03-24T08:53:52.749000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -5746,7 +5825,7 @@
     "snippet": "CIS Exclusive Binance Earn Special Offer: Subscribe to USDT Simple Earn to Enjoy 30% APR!",
     "published_at": "2026-03-24T08:00:07.049000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -5844,7 +5923,7 @@
     "snippet": "BYBIT: CLUSDT contract API detection",
     "published_at": "2026-03-24T07:53:51.021000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -5893,7 +5972,7 @@
     "snippet": "USDT: Tether Makes Strategic Investment in Eight Sleep at $1.5B to Accelerate Sustainable Health Intelligence",
     "published_at": "2026-03-24T05:44:16.356000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -5935,53 +6014,6 @@
     ]
   },
   {
-    "id": "91c6bc95e7cfc86a535d29ee17525718b04fe77e7e0e4b3763a555c567566dd9",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Eyecare biotech jumps 19% after stablecoin-focused pivot",
-    "url": "https://cointelegraph.com/news/eyecare-biotech-jumps-19-after-stablecoin-focused-rebrand?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/eyecare-biotech-jumps-19-after-stablecoin-focused-rebrand",
-    "snippet": "NovaBay Pharmaceuticals was founded in 2000 as a biopharmaceutical company developing eye care products and is now betting big on the Sky protocol and stablecoins.",
-    "published_at": "2026-03-24T01:38:44+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/eyecare-biotech-jumps-19-after-stablecoin-focused-rebrand",
-      "guidislink": true
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "cec9c08ec3743f4872cd26812741c05f2cfa22f64e4d994d8a7986c581e8ea9d",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -5992,7 +6024,7 @@
     "snippet": "Lighter (@Lighter_xyz): RWAs update: We have adjusted the parameter that governs the shift from external to internal pricing when markets are closed. This should reduce funding rate volatility and improve price discovery. When the traditional markets are closed, Lighter is open! 🕯️",
     "published_at": "2026-03-24T00:28:03.544000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -6067,7 +6099,7 @@
     "snippet": "",
     "published_at": "2026-03-23T22:43:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -6114,7 +6146,7 @@
     "snippet": "Decentraland (@decentraland): Nothing hits quite like flying with your partner in crime What spots are you launching from these days? 👇",
     "published_at": "2026-03-23T20:22:56.982000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -6192,7 +6224,7 @@
     "snippet": "CoinDesk (@CoinDesk): DATA: Global crypto market cap jumps $80B after President Trump announces a 5-day pause on strikes targeting Iran's energy infrastructure, though Iran denied Trump's assertion that negotiations to resolve U.S.-Iran hostilities were underway.",
     "published_at": "2026-03-23T20:06:45.330000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -6247,7 +6279,7 @@
     "snippet": "EigenDA (@eigen_da): Money moving onchain needs infrastructure built for real-world performance. Congrats to @conduitxyz on launching G3, a sequencer designed for high-throughput, low-latency, real-time onchain applications. Excited to support the infrastructure powering the next generation of oncha",
     "published_at": "2026-03-23T19:26:11.254000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -6332,7 +6364,7 @@
     "snippet": "CIRCLE: Circle Responds to the European Commission's Proposed Market Integration Package",
     "published_at": "2026-03-23T19:09:01.650000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -6383,7 +6415,7 @@
     "snippet": "WalletConnect (@WalletConnect): Announcing @realMeld as an official sponsor of WalletCon (March 31, Cannes). Meld is the world’s largest network of stablecoins and digital assets, in a single app.",
     "published_at": "2026-03-23T19:00:23.885000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -6451,94 +6483,6 @@
     ]
   },
   {
-    "id": "d71b373d4ef51c7fb68445c7a37abe1b55ff533e1f8803c4e7e33d6d4fca154f",
-    "source": "Tree of Alpha",
-    "source_type": "treeofalpha",
-    "feed_name": "twitter",
-    "title": "$SUI continues to deepen their ecosystem with the launch of Hashi last week.",
-    "url": "https://twitter.com/Grayscale/status/2036146628697137490",
-    "canonical_url": "https://twitter.com/Grayscale/status/2036146628697137490",
-    "snippet": "Grayscale (@Grayscale): $SUI continues to deepen their ecosystem with the launch of Hashi last week. Grayscale was an early supporter of @SuiNetwork $Sui, and our conviction has only deepened as the network has evolved.",
-    "published_at": "2026-03-23T18:22:41.029000+00:00",
-    "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
-    "matched_keywords": [
-      "launch"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "_id": "2036146628697137490",
-      "coin": null,
-      "toa_source": "Twitter",
-      "toa_source_name": "",
-      "suggestions": [
-        {
-          "found": [
-            "SUI",
-            "sui"
-          ],
-          "coin": "SUI",
-          "symbols": [
-            {
-              "exchange": "binance-futures",
-              "symbol": "SUIUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "SUIUSDT"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "SUIBTC"
-            },
-            {
-              "exchange": "binance",
-              "symbol": "SUIBNB"
-            },
-            {
-              "exchange": "bybit-perps",
-              "symbol": "SUIUSDT"
-            }
-          ],
-          "supply": 3681325480
-        }
-      ],
-      "info": {
-        "twitterId": "2800345565",
-        "isReply": false,
-        "isRetweet": false,
-        "isQuote": false,
-        "isSelfReply": false
-      }
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": -25,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Tree of Alpha"
-    ]
-  },
-  {
     "id": "512f7d9e3940a5e4d7e46e70fb116d93086ddcae665f787e8000efd66134ac8e",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -6549,7 +6493,7 @@
     "snippet": "RED: RedStone Pioneers Institution-Grade RWA Oracles On Canton Network",
     "published_at": "2026-03-24T15:26:46.820000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "RWA"
     ],
@@ -6640,7 +6584,7 @@
     "snippet": "COINDESK: New Clarity Act draft prohibits stablecoin yield payments",
     "published_at": "2026-03-24T14:36:25.680000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -6691,7 +6635,7 @@
     "snippet": "FINANCE FEEDS: Resolv Offers 10% Bounty to Hacker After $25 Million Stablecoin Exploit",
     "published_at": "2026-03-24T13:21:18.116000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -6764,7 +6708,7 @@
     "snippet": "TREE: Treehouse and AVAX One Establish Strategic Partnership to Expand Institutional Onchain Capital Allocation",
     "published_at": "2026-03-24T12:36:16.918000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -6865,7 +6809,7 @@
     "snippet": "Digital asset offerings could arrive as early as next financial year, its executive said, subject to regulatory approval.",
     "published_at": "2026-03-24T03:14:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "regulatory"
     ],
@@ -6900,6 +6844,208 @@
     ]
   },
   {
+    "id": "f1959a62b0584ae21f631f52c5bba4fbd0bfa3ccc5fd121aa29586bc467b73c2",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Draft Clarity Act Proposes Limits on Stablecoin Yield; Circle (CRCL) Slides 17% Intraday",
+    "url": "https://twitter.com/WuBlockchain/status/2036479350028247201",
+    "canonical_url": "https://twitter.com/WuBlockchain/status/2036479350028247201",
+    "snippet": "Wu Blockchain (@WuBlockchain): Draft Clarity Act Proposes Limits on Stablecoin Yield; Circle (CRCL) Slides 17% Intraday According to Bitget market data, stablecoin issuer Circle (CRCL) fell sharply to $102.58, down 17.17% on the day, with an intraday high of $126.52 and a low of $101.89, bringing it",
+    "published_at": "2026-03-24T16:24:48.345000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle",
+      "issuer"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "2036479350028247201",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "CRCL"
+          ],
+          "coin": "CRCL",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "CRCLUSDT"
+            }
+          ],
+          "supply": 999794909.021944
+        },
+        {
+          "found": [
+            "act i"
+          ],
+          "coin": "ACT",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "ACTUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "ACTUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "ACTUSDT"
+            }
+          ],
+          "supply": 948244214
+        }
+      ],
+      "info": {
+        "twitterId": "111533746",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": -5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
+    "id": "f8a64d0208b6b086ce2245e15a51e14ff5ba64dc2b4234132ce89a9dd4321428",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "When trillion-dollar markets move onchain, they need infrastructure that's fast, efficient, and ready for real adoption.",
+    "url": "https://twitter.com/BenqiFinance/status/2036474667418943492",
+    "canonical_url": "https://twitter.com/BenqiFinance/status/2036474667418943492",
+    "snippet": "BENQI🔺 (@BenqiFinance): When trillion-dollar markets move onchain, they need infrastructure that's fast, efficient, and ready for real adoption. Simply put: they need Avalanche.🔺 Great clip of Tokenization Queen @MorganKrupetsky breaking it all down with @TheStreet.👇",
+    "published_at": "2026-03-24T16:06:11.685000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "_id": "2036474667418943492",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "QI"
+          ],
+          "coin": "QI",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance",
+              "symbol": "QIUSDT"
+            }
+          ],
+          "supply": 7200000000
+        },
+        {
+          "found": [
+            "Avalanche"
+          ],
+          "coin": "AVAX",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "AVAXUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "AVAXUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "AVAXBTC"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "AVAXETH"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "AVAXUSDT"
+            }
+          ],
+          "supply": 428773629
+        }
+      ],
+      "info": {
+        "twitterId": "1342227971671785473",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": true,
+        "isSelfReply": false,
+        "quotedUser": {
+          "name": "Avalanche🔺",
+          "screen_name": "avax",
+          "icon": "https://twproxy.twproxy.workers.dev/?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2034604728672256000%2FkZSsZMIF.jpg",
+          "text": "One of the largest markets in the world is broken.\n\nThere are trillions of dollars of loans held outside of traditional banks. These loans are known as private credit, and the system is outdated.\n\nA lot of it is still run on spreadsheets and once-per-week manual reconciliation. Blockchain makes this...",
+          "image": "https://twproxy.twproxy.workers.dev/?url=https%3A%2F%2Fpbs.twimg.com%2Famplify_video_thumb%2F2036457849954660352%2Fimg%2FoITGMcgNsviNrayx.jpg"
+        }
+      }
+    },
+    "score": -5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "d0742188ccab001cc1827d7e10631dd6707635305e9e3347f132c1fc2ef29c81",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -6910,7 +7056,7 @@
     "snippet": "Lisk (@Lisk): When making regional transfers, your funds often take a detour: Local currency → USD/EUR → local currency For you, this means: 🔹 2 FX conversions 🔹 more intermediaries 🔹 more delays Not due to technical requirements, but structural issues. Stablecoins fix this. https://t.co/e04CN50AxX",
     "published_at": "2026-03-24T14:19:24.781000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -7005,7 +7151,7 @@
     "snippet": "FLock.io (@flock_io): Our @elizabethluihy presented SoK: Blockchain-Based Decentralized AI (DeAI) at the 4th IEEE Conference on Secure and Trustworthy Machine Learning @satml_conf (SaTML 2026) yesterday. 🇩🇪 A year ago, decentralized AI was largely a narrative in crypto circles. Now it's being presen",
     "published_at": "2026-03-24T13:47:20.346000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -7087,7 +7233,7 @@
     "snippet": "CoinDesk (@CoinDesk): BREAKING: @tether signs a Big Four accounting firm for its first ever full independent financial statement audit, covering $184B in market cap and 550M users, the largest inaugural audit in financial market history.",
     "published_at": "2026-03-24T13:17:38.668000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -7144,7 +7290,7 @@
     "snippet": "Tree News (@TreeNewsFeed): [🌲] TETHER HIRES BIG FOUR ACCOUNTING FIRM TO CONDUCT ITS FIRST-EVER FULL AUDIT, RAISING THE BAR FOR TRANSPARENCY IN THE DIGITAL ASSET INDUSTRY: BLOG",
     "published_at": "2026-03-24T13:01:11.077000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -7205,6 +7351,91 @@
     ]
   },
   {
+    "id": "a0eb395c9c48507d60a6a8208c3f74d4109712f207374d23eb34091ac09b9184",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "twitter",
+    "title": "Larry Fink just compared tokenization to the internet in 1996.",
+    "url": "https://twitter.com/Chiliz/status/2036417006153638050",
+    "canonical_url": "https://twitter.com/Chiliz/status/2036417006153638050",
+    "snippet": "Chiliz - The Sports Blockchain (@Chiliz): Larry Fink just compared tokenization to the internet in 1996. Now apply that to sports. Tokenizing clubs, experiences, and fan ownership is doing for sports what the internet did for information. Breaking down barriers and opening access to anyone, anywhere",
+    "published_at": "2026-03-24T12:17:04.288000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "_id": "2036417006153638050",
+      "coin": null,
+      "toa_source": "Twitter",
+      "toa_source_name": "",
+      "suggestions": [
+        {
+          "found": [
+            "CHZ",
+            "Chiliz"
+          ],
+          "coin": "CHZ",
+          "isAccountMapped": true,
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "CHZUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "CHZUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "CHZBTC"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "CHZUSDT"
+            }
+          ],
+          "supply": 10100980408
+        }
+      ],
+      "info": {
+        "twitterId": "2590633042",
+        "isReply": false,
+        "isRetweet": false,
+        "isQuote": false,
+        "isSelfReply": false
+      }
+    },
+    "score": -5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -25,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "69c0af82f4fc52dd8500ac19f7aec4791cd1ff28713b4fba44517f359ca58611",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -7215,7 +7446,7 @@
     "snippet": "STBL (@stbl_official): Heading to New York for the Digital Asset Summit. STBL’s CCO Joe will be there meeting builders, institutions, and partners shaping the next phase of digital finance. If you're exploring the future of stablecoins, tokenized assets, and institutional-grade infrastructure, let’s",
     "published_at": "2026-03-24T11:41:43.445000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenized",
       "partners"
@@ -7285,6 +7516,57 @@
     ]
   },
   {
+    "id": "59e8bb62c19e0dca0d52228914af3a0562798ba3d4d859a1739f4640df0113af",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "blogs",
+    "title": "Eyecare biotech jumps 19% after stablecoin-focused rebrand",
+    "url": "https://cointelegraph.com/news/eyecare-biotech-jumps-19-after-stablecoin-focused-rebrand",
+    "canonical_url": "https://cointelegraph.com/news/eyecare-biotech-jumps-19-after-stablecoin-focused-rebrand",
+    "snippet": "COINTELEGRAPH: Eyecare biotech jumps 19% after stablecoin-focused rebrand",
+    "published_at": "2026-03-24T01:38:47.557000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "1774316327557CEbj1asr",
+      "coin": null,
+      "toa_source": "Blogs",
+      "toa_source_name": "COINTELEGRAPH",
+      "suggestions": [],
+      "info": {}
+    },
+    "score": -6,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": -10,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "344a9c2ffc19b4b66ef6caeb7965cf8aba15c174d1569f2f7c224cc5bc5caf9f",
     "source": "Tree of Alpha",
     "source_type": "treeofalpha",
@@ -7295,7 +7577,7 @@
     "snippet": "NYPOST: Convicted man back in custody after threatening Trump, then demanding pardon: 'I'll kill him'",
     "published_at": "2026-03-24T00:51:40.015000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -7344,7 +7626,7 @@
     "snippet": "INVESTING: This crypto stocks is the best proxy for stablecoin upside",
     "published_at": "2026-03-24T00:01:35.928000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -7395,7 +7677,7 @@
     "snippet": "BLOOMBERG: Wall Street-Backed Crypto Exchange Takes Aim at Asia FX Market Using Won Stablecoin",
     "published_at": "2026-03-23T22:15:45.640000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -7446,7 +7728,7 @@
     "snippet": "CROWDFUNDINSIDER: NYSE Exchanges Move Forward with Removal of Cryptocurrency ETF Options Caps",
     "published_at": "2026-03-23T19:55:58.837000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -7485,6 +7767,152 @@
     ]
   },
   {
+    "id": "957788158a9aec35fb52c613cc3b822d051c71a6ab3b82fd2823af2fea7d3f7a",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "blogs",
+    "title": "yvUSD: A Cross-Chain Yearn Vault for Stablecoin Yield",
+    "url": "https://blog.yearn.fi/yvusd-a-cross-chain-yearn-vault-for-stablecoin-yield",
+    "canonical_url": "https://blog.yearn.fi/yvusd-a-cross-chain-yearn-vault-for-stablecoin-yield",
+    "snippet": "YFI: yvUSD: A Cross-Chain Yearn Vault for Stablecoin Yield",
+    "published_at": "2026-03-23T19:30:22.759000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "1774294222759YyACYVfSY",
+      "coin": null,
+      "toa_source": "Blogs",
+      "toa_source_name": "YFI",
+      "suggestions": [
+        {
+          "found": [
+            "YFI"
+          ],
+          "coin": "YFI",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "YFIUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "YFIUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "YFIUSDT"
+            }
+          ],
+          "supply": 33946
+        }
+      ],
+      "info": {}
+    },
+    "score": -6,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": -10,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
+    "id": "60b4c7c7b7c73f52f999f13c216bb9929f7cd252fbd74cef378bf46420bbee52",
+    "source": "Tree of Alpha",
+    "source_type": "treeofalpha",
+    "feed_name": "blogs",
+    "title": "Circle Internet Group Tumbles. Why the Clarity Act Is Crushing Crypto Stocks",
+    "url": "https://www.barrons.com/articles/circle-stock-price-clarity-act-crypto-41127901",
+    "canonical_url": "https://barrons.com/articles/circle-stock-price-clarity-act-crypto-41127901",
+    "snippet": "BARRONS: Circle Internet Group Tumbles. Why the Clarity Act Is Crushing Crypto Stocks",
+    "published_at": "2026-03-24T16:25:03.873000+00:00",
+    "published_at_confidence": "medium",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
+    "matched_keywords": [
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "_id": "1774369503873BCIGTWtCAICCS",
+      "coin": null,
+      "toa_source": "Blogs",
+      "toa_source_name": "BARRONS",
+      "suggestions": [
+        {
+          "found": [
+            "act i"
+          ],
+          "coin": "ACT",
+          "symbols": [
+            {
+              "exchange": "binance-futures",
+              "symbol": "ACTUSDT"
+            },
+            {
+              "exchange": "binance",
+              "symbol": "ACTUSDT"
+            },
+            {
+              "exchange": "bybit-perps",
+              "symbol": "ACTUSDT"
+            }
+          ],
+          "supply": 948244214
+        }
+      ],
+      "info": {}
+    },
+    "score": -10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": -10,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Tree of Alpha"
+    ]
+  },
+  {
     "id": "31b4f9a818c08e2a8eabcf2f0e789612adb58924a8c720f29f3343f57622278c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -7495,7 +7923,7 @@
     "snippet": "US dollar-denominated stablecoins may expose emerging economies to external macro shocks and financial stability risks, according to the Financial Stability Board.",
     "published_at": "2026-03-24T12:14:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -7540,7 +7968,7 @@
     "snippet": "CROWDFUNDINSIDER: AI and Tokenization Highlight Crypto Market Resilience Amid Q1 2026 Turmoil : Analysis",
     "published_at": "2026-03-24T12:13:07.424000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -7591,7 +8019,7 @@
     "snippet": "io.net (@ionet): We all know there are massive chip shortages. So why is Nvidia is launching features no one wants, while the majority of AI projects are struggling to get the compute they need? Our Head of Brand Strategy called it out in a recent interview: \"While the gaming world debates whether N",
     "published_at": "2026-03-24T11:24:14.130000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -7669,7 +8097,7 @@
     "snippet": "Wu Blockchain (@WuBlockchain): The Ethereum Foundation published an article outlining the future vision for the L1 and L2 ecosystem. The post notes that L1 will maintain its role as the global settlement and DeFi hub, while the core mission of L2s has shifted from pure scaling to offering differenti",
     "published_at": "2026-03-24T02:57:58.537000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -7752,7 +8180,7 @@
     "snippet": "Codatta (@codatta_io): AI Models don’t fail because they’re small. They fail because they lack the right data. Codatta unlocks Frontier Data: robotics, healthcare, finance, culture. Proprietary, high-quality, royalty-backed. These aren’t just datasets. They’re launchpads for the next frontier of AI ",
     "published_at": "2026-03-24T13:54:58.626000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -7827,7 +8255,7 @@
     "snippet": "Brila (@BrilaFinance): Strong signal for the future of on-chain credit. As partners, we’re excited to see SPICE pushing risk coverage into a new phase, this is just the beginning. https://x.com/SpiceProtocol/status/2036413279443230779",
     "published_at": "2026-03-24T13:08:45.836000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "partners"
     ],
@@ -7914,7 +8342,7 @@
     "snippet": "Kaia (@KaiaChain): Is @auloap secretly part of the @coinsph team now? 🤔 Join our very own \"Coins regular\" tomorrow at 8 PM PHT as we talk all things stablecoins and partnerships. Plus, bring your best questions for a chance to win some USDT.👇",
     "published_at": "2026-03-24T11:00:13.881000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -8002,7 +8430,7 @@
     "snippet": "Opinion ⁒ (@opinionlabsxyz): 🚨 JUST IN: $BP trading is live at $0.212 ($212M FDV). On Opinion: 40% chance Backpack FDV >$300M one day after launch. Trade now https://app.opinion.trade/market/backpack-fdv-above-one-day-after-launch",
     "published_at": "2026-03-24T01:31:40.658000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -8100,7 +8528,7 @@
     "snippet": "CROSS (@CROSS_gamechain): How could anyone question the staying power of blockchain gaming when @SealMonCROSS is smashing early launch goals on this level? ⚔️ 🎮 ~300K DAU with 6 new regional servers 🎯 2.2M pre-regs fueled by @crossplay_xyz 🌊 200+ Creators riding the @crosswave_xyz and word is spread",
     "published_at": "2026-03-24T03:30:00.590000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -8176,7 +8604,7 @@
     "snippet": "Jihoz.ron (@Jihoz_Axie): Wanted to give an update on the L2 migration timing! We're working through tech implementation with a few remaining partners and an April or potentially May timeline looks realistic. Will update as we get more information 🤝",
     "published_at": "2026-03-24T04:56:52.375000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "partners"
     ],
@@ -8260,7 +8688,7 @@
     "snippet": "Lista DAO (@lista_dao): How are people borrowing at 2% and earning 10%? Looping, yield farming with stables, Launchpool strategies — Crypto Lending Pt. 2 breaks down what the veterans actually do on Lista. Full article: https://blog.lista.org/what-is-crypto-lending-pt-2",
     "published_at": "2026-03-24T01:52:35.745000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -8339,7 +8767,7 @@
     "snippet": "Hemi (@hemi_xyz): The Resolv USR Incident: A Cautionary Tale – And Why Disciplined Derisking Is Everything On March 22, 2026, Resolv’s USR stablecoin suffered a major incident. A single compromised offchain privileged key allowed an attacker to mint approximately 80 million unbacked USR tokens using",
     "published_at": "2026-03-23T22:51:37.631000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -8529,7 +8957,7 @@
     "snippet": "SafePal - Crypto Wallet (@SafePal): A guide to how wallet Passphrases work and how they protect against Mnemonic/seed phrase leaks A Passphrase isn't meant to replace your mnemonic phrase; rather, it adds an additional lock and security buffer (think of it as a second lock that only exists in your h",
     "published_at": "2026-03-24T04:31:36.333000+00:00",
     "published_at_confidence": "medium",
-    "fetched_at": "2026-03-24T15:47:52.387827+00:00",
+    "fetched_at": "2026-03-24T16:44:10.401554+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
