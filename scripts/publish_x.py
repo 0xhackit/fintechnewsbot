@@ -4,9 +4,7 @@ Post approved alerts to X (Twitter) using the v2 API.
 
 Features:
   - News-wire format: posts article title with @company handles
-  - Tiered posting: high-score posts immediately; lower-score queued for peak hours
   - OG image fetching: attaches article images for higher engagement
-  - Peak-hour scheduling: queues mid-tier articles for configured time windows
   - Daily rate guard: caps posts at 40/day (free tier = 50/day)
   - Ranking agent integration: uses post_to_x flag from run_alerts.py
   - Dry-run mode: test everything without posting
@@ -15,7 +13,7 @@ import os
 import sys
 import json
 import re
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 from urllib.parse import urljoin
@@ -375,126 +373,6 @@ def _format_news_tweet(draft: dict) -> str:
 
 
 # ===========================================================================
-# Peak-hour scheduling
-# ===========================================================================
-
-X_QUEUE_PATH = Path("state/x_queue.json")
-X_QUEUE_MAX_SIZE = 50
-QUEUE_EXPIRY_HOURS = 24
-
-
-def _is_peak_hour(config: dict) -> bool:
-    """
-    Check if current UTC time falls within any configured peak window.
-    If no peak_hours_utc configured, ALL hours are peak (backward-compatible).
-    """
-    peak_windows = config.get("alerts", {}).get("peak_hours_utc", [])
-    if not peak_windows:
-        return True
-
-    now = datetime.now(timezone.utc)
-    current_minutes = now.hour * 60 + now.minute
-
-    for window in peak_windows:
-        try:
-            start_str, end_str = window.split("-")
-            start_h, start_m = map(int, start_str.strip().split(":"))
-            end_h, end_m = map(int, end_str.strip().split(":"))
-            start_total = start_h * 60 + start_m
-            end_total = end_h * 60 + end_m
-
-            if start_total <= end_total:
-                if start_total <= current_minutes < end_total:
-                    return True
-            else:
-                # Wraps midnight
-                if current_minutes >= start_total or current_minutes < end_total:
-                    return True
-        except (ValueError, AttributeError):
-            continue
-
-    return False
-
-
-def _load_queue() -> list[dict]:
-    """Load the X posting queue."""
-    if not X_QUEUE_PATH.exists():
-        return []
-    try:
-        return json.loads(X_QUEUE_PATH.read_text(encoding="utf-8"))
-    except Exception:
-        return []
-
-
-def _save_queue(queue: list[dict]):
-    """Save the X posting queue, capping at max size."""
-    if len(queue) > X_QUEUE_MAX_SIZE:
-        dropped = len(queue) - X_QUEUE_MAX_SIZE
-        queue = queue[-X_QUEUE_MAX_SIZE:]
-        print(f"  ⚠️  Queue overflow: dropped {dropped} oldest items (cap={X_QUEUE_MAX_SIZE})")
-    X_QUEUE_PATH.parent.mkdir(parents=True, exist_ok=True)
-    X_QUEUE_PATH.write_text(json.dumps(queue, indent=2, ensure_ascii=False), encoding="utf-8")
-
-
-def _add_to_queue(drafts: list[dict]):
-    """Add drafts to queue for peak-hour posting. Deduplicates by link."""
-    queue = _load_queue()
-    existing_links = {item.get("link") for item in queue}
-    now_iso = datetime.now(timezone.utc).isoformat()
-    new_items = []
-    for d in drafts:
-        if d.get("link") not in existing_links:
-            d["queued_at"] = now_iso
-            new_items.append(d)
-    queue.extend(new_items)
-    _save_queue(queue)
-    if new_items:
-        print(f"  📥 Queued {len(new_items)} mid-tier draft(s) for peak-hour posting ({len(queue)} total)")
-
-
-def _drain_queue(new_drafts: list[dict]) -> list[dict]:
-    """
-    Merge queued items with new drafts, removing expired items.
-    Returns combined list sorted by score descending, deduped by link.
-    """
-    queue = _load_queue()
-
-    # Remove expired items (> 24h old)
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=QUEUE_EXPIRY_HOURS)
-    valid_queue = []
-    expired = 0
-    for item in queue:
-        queued_at = item.get("queued_at", "")
-        try:
-            if datetime.fromisoformat(queued_at) >= cutoff:
-                valid_queue.append(item)
-            else:
-                expired += 1
-        except (ValueError, TypeError):
-            valid_queue.append(item)  # Keep items without timestamp
-
-    if expired:
-        print(f"  🗑️  Dropped {expired} expired queued item(s) (> {QUEUE_EXPIRY_HOURS}h old)")
-
-    # Merge with new drafts, dedup by link
-    seen_links = set()
-    combined = []
-    for item in valid_queue + new_drafts:
-        link = item.get("link", "")
-        if link and link not in seen_links:
-            seen_links.add(link)
-            combined.append(item)
-
-    # Sort by score descending
-    combined.sort(key=lambda d: d.get("score", 0), reverse=True)
-
-    # Clear the queue (it's been drained)
-    _save_queue([])
-
-    return combined
-
-
-# ===========================================================================
 # Daily rate guard
 # ===========================================================================
 
@@ -612,16 +490,14 @@ def _post_single(draft: dict, api_key: str, api_secret: str,
 def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
                      dry_run: bool = False) -> None:
     """
-    Post filtered, AI-enhanced drafts to X.
+    Post drafts to X immediately.
 
-    - Tiered posting: score >= 80 immediate + thread, 60-79 peak-hour queue
-    - Generates AI tweets with Claude Haiku (falls back to title only)
+    - News-wire format tweets (title + @company handle)
     - Fetches OG images and attaches to tweets
     - Respects daily rate limit (40/day)
     """
     config = _load_config()
     alerts_config = config.get("alerts", {})
-    thread_threshold = alerts_config.get("thread_score_threshold", 80)
 
     if dry_run:
         print("🔧 DRY-RUN MODE: No tweets will be posted\n")
@@ -707,59 +583,22 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
             print(f"⚠️  Feed.json title dedup error ({e}), continuing without it")
 
     # Filter by ranking agent's post_to_x flag (set during run_alerts.py)
-    x_drafts = [d for d in drafts if d.get("post_to_x", False)]
-    print(f"📋 {len(drafts)} total draft(s), {len(x_drafts)} flagged for X by ranking agent")
-
-    # Split into urgent (immediate) and mid-tier (peak-hour queue)
-    urgent = [d for d in x_drafts if d.get("score", 0) >= thread_threshold]
-    mid_tier = [d for d in x_drafts if d.get("score", 0) < thread_threshold]
-
-    peak = _is_peak_hour(config)
-    now_str = datetime.now(timezone.utc).strftime("%H:%M UTC")
-    print(f"⏰ Current time: {now_str} ({'PEAK' if peak else 'off-peak'})")
-
-    if urgent:
-        print(f"🚨 {len(urgent)} urgent draft(s) (score >= {thread_threshold}) — posting immediately")
-    if mid_tier:
-        if peak:
-            print(f"📊 {len(mid_tier)} mid-tier draft(s) — posting (peak hour)")
-        else:
-            print(f"📊 {len(mid_tier)} mid-tier draft(s) — queuing for peak hours")
-
-    # Determine what to post now
-    to_post = []
-
-    if peak:
-        # Peak hour: drain queue + post all new X-eligible drafts
-        to_post = _drain_queue(x_drafts)
-        queue_count = len(to_post) - len(x_drafts)
-        if queue_count > 0:
-            print(f"📤 Draining {queue_count} queued item(s) + {len(x_drafts)} new")
-    else:
-        # Off-peak: post urgent immediately, queue mid-tier
-        to_post = urgent
-        if mid_tier:
-            _add_to_queue(mid_tier)
+    to_post = [d for d in drafts if d.get("post_to_x", False)]
+    print(f"📋 {len(drafts)} total draft(s), {len(to_post)} flagged for X by ranking agent")
 
     if not to_post:
-        if not mid_tier:
-            print("ℹ️  No drafts to post or queue")
+        print("ℹ️  No drafts to post")
         return
 
     # Check daily rate limit
     remaining = _check_daily_limit()
     if remaining <= 0:
         print(f"⚠️  X daily limit reached ({DAILY_POST_LIMIT} posts today), skipping")
-        if to_post and not peak:
-            _add_to_queue(to_post)
         return
 
     if len(to_post) > remaining:
         print(f"⚠️  Limiting to {remaining} posts (daily cap)")
-        # Re-queue excess items
-        overflow = to_post[remaining:]
         to_post = to_post[:remaining]
-        _add_to_queue(overflow)
 
     posted_count = 0
     failed_count = 0
@@ -908,7 +747,6 @@ Environment Variables Required:
   X_API_SECRET      - Twitter API Secret (Consumer Secret)
   X_ACCESS_TOKEN    - Twitter Access Token
   X_ACCESS_SECRET   - Twitter Access Token Secret
-  ANTHROPIC_API_KEY - (Optional) For AI-enhanced tweet formatting
         """
     )
 

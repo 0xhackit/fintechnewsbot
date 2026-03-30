@@ -33,7 +33,6 @@ state/
   seen_alerts.json      # Dedup state: seen IDs + seen titles (last 500)
   posted_articles.db    # SQLite DB for dedup agent (URL hash + fuzzy title matching)
   x_daily_count.json    # Daily X posting counter (cap 40/day)
-  x_queue.json          # Peak-hour posting queue for mid-tier X drafts
 out/
   items_last24h.json    # Pipeline output: scored + deduped articles
   alerts_drafts.json    # Drafts ready for posting (title, link, message_html, tier, post_to_x)
@@ -76,7 +75,7 @@ python scripts/publish_x.py --from-drafts     # -> X (only drafts with post_to_x
 - `alerts.post_to_telegram`: enable/disable Telegram posting
 - `alerts.post_to_x`: enable/disable X posting
 - `alerts.min_score_for_telegram`: minimum score threshold (currently 50)
-- `alerts.thread_score_threshold`: score threshold for immediate X posting vs peak-hour queue (default 80)
+- `alerts.exclude_telegram_sources`: skip Telegram-sourced articles in alerts
 - `lookback_hours`: time window for articles (default 24)
 - `google_news_rss.feeds`: RSS feed URLs keyed by name
 - `telegram.channels`: list of public channel usernames to ingest
@@ -128,8 +127,7 @@ Falls back to score-based heuristics when `ANTHROPIC_API_KEY` is not set.
 
 - **News-wire format**: posts article title with one @company handle substituted for engagement
 - **OG image**: fetches og:image from article URL and attaches to tweet
-- **Tiered posting**: score >= 80 posts immediately; lower scores queued for peak hours
-- **Peak-hour scheduling**: configurable UTC time windows (`alerts.peak_hours_utc`)
+- **Immediate posting**: all X-eligible drafts post immediately when news is detected (no queuing)
 - **Daily rate guard**: caps at 40 posts/day (free tier = 50/day)
 - **feed.json dedup**: skips articles already posted to X (URL + title similarity check)
 
