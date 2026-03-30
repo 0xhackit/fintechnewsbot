@@ -22,6 +22,8 @@ from src.utils import (
     get_event_type,
     canonicalize_url,
 )
+from src.dedup_agent import DedupAgent
+from src.ranking_agent import rank_article
 
 STATE_PATH = Path("state/seen_alerts.json")
 DRAFTS_PATH = Path("out/alerts_drafts.json")
@@ -211,24 +213,14 @@ def main():
     args = ap.parse_args()
 
     # ---------------------------------------------------------------------------
-    # Initialize AI filter if enabled and API key is available
+    # Initialize AI filter + Dedup Agent
     # ---------------------------------------------------------------------------
-    ai_filter = None
     use_ai = ENABLE_AI_FILTER and not args.no_ai
 
-    if use_ai:
-        try:
-            from src.ai_filter import AIArticleFilter
-            ai_filter = AIArticleFilter()
-            print("🤖 AI filter: ENABLED (Claude claude-haiku-4-5-20251001 + SQLite dedup)")
-        except Exception as e:
-            print(f"⚠️  AI filter init failed ({e}), continuing without it")
-            ai_filter = None
-    else:
-        if args.no_ai:
-            print("🤖 AI filter: DISABLED (--no-ai flag)")
-        else:
-            print("🤖 AI filter: DISABLED (no ANTHROPIC_API_KEY)")
+    if args.no_ai:
+        print("🤖 AI filter: DISABLED (--no-ai flag)")
+    elif not ENABLE_AI_FILTER:
+        print("🤖 AI filter: DISABLED (no ANTHROPIC_API_KEY)")
 
     # Load existing items (produced by your aggregator pipeline)
     items = load_json(ITEMS_PATH, [])
@@ -249,11 +241,11 @@ def main():
     seen = set(state.get("seen", []))
     seen_titles = state.get("seen_titles", [])
 
-    # Safety-net: also mark articles already in feed.json as seen.
-    # This catches manual dashboard posts that were added directly to
-    # feed.json + state/seen_alerts.json (in case the state update failed).
+    # Load feed.json entries for dedup
     feed_data = load_json(FEED_PATH, {"entries": []})
     feed_entries = feed_data.get("entries", []) if isinstance(feed_data, dict) else []
+
+    # Also register feed.json IDs in the seen set (safety-net for manual posts)
     feed_dedup_count = 0
     for fe in feed_entries:
         fe_title = fe.get("title", "")
@@ -265,6 +257,14 @@ def main():
                 feed_dedup_count += 1
     if feed_dedup_count:
         print(f"📋 Registered {feed_dedup_count} feed.json entries in dedup set")
+
+    # Initialize unified dedup agent (consolidates SQLite + seen_titles + feed.json)
+    dedup_agent = DedupAgent(
+        seen_titles=seen_titles,
+        feed_entries=feed_entries,
+        enable_ai_tiebreaker=use_ai,
+    )
+    print(f"🔍 Dedup agent: initialized")
 
     # Filter: only dated items, only new (not seen)
     new_items = []
@@ -286,9 +286,7 @@ def main():
     skipped_low_score = 0
     skipped_telegram = 0
     skipped_blocklist = 0
-    skipped_ai_filter = 0       # NEW: count of AI-rejected articles
-    skipped_ai_duplicate = 0    # NEW: count of SQLite-deduped articles
-    skipped_quality_dup = 0     # NEW: count of quality-review deduped articles
+    skipped_ai_filter = 0       # Count of AI-rejected articles
 
     for it in new_items:
         title = clean_title(it.get("title") or "")
@@ -337,51 +335,43 @@ def main():
             print(f"⚖️  Filtered low score ({', '.join(reason)}): \"{title[:70]}...\"")
             continue
 
-        # Check for semantic similarity to previously posted titles
-        is_similar, similar_title = is_similar_to_seen(title, seen_titles)
-        if is_similar:
+        # Unified dedup check (SQLite + seen_titles + feed.json + session cache)
+        is_dup, dup_reason = dedup_agent.is_duplicate(title, link, snippet)
+        if is_dup:
             skipped_similar += 1
-            print(f"🔁 Skipping similar: \"{title[:70]}...\"")
-            print(f"   Similar to: \"{similar_title[:70]}...\"")
+            print(f"🔁 Dedup: \"{title[:70]}...\"")
+            print(f"   Reason: {dup_reason}")
             continue
 
-        # -------------------------------------------------------------------
-        # AI FILTER: SQLite dedup + Claude classification (final quality gate)
-        # This runs AFTER all cheap/local filters to minimize API calls.
-        # -------------------------------------------------------------------
-        ai_decision = None  # Track the AI decision for this item
+        # Ranking agent: determines tier + platform eligibility
+        score_breakdown = it.get("score_breakdown", {})
+        ranking = rank_article(
+            title=title,
+            snippet=snippet,
+            score=score,
+            score_breakdown=score_breakdown,
+        )
 
-        if ai_filter is not None:
-            try:
-                ai_decision = ai_filter.evaluate(it)
+        if ranking["tier"] == "reject":
+            skipped_ai_filter += 1
+            print(f"🤖 Rejected [{ranking.get('category', '?')}]: \"{title[:70]}...\"")
+            print(f"   Reason: {ranking['reason']}")
+            continue
 
-                if not ai_decision["publish"]:
-                    if ai_decision.get("source") == "duplicate_check":
-                        skipped_ai_duplicate += 1
-                        print(f"🗄️  AI dedup: \"{title[:70]}...\"")
-                        print(f"   Reason: {ai_decision['reason']}")
-                    else:
-                        skipped_ai_filter += 1
-                        print(f"🤖 AI rejected [{ai_decision.get('category', '?')}]: \"{title[:70]}...\"")
-                        print(f"   Reason: {ai_decision['reason']}")
-                    continue
+        if not ranking["post_to_telegram"]:
+            skipped_ai_filter += 1
+            print(f"🤖 Below threshold [{ranking['tier']}]: \"{title[:70]}...\"")
+            continue
 
-                # AI approved — log the decision
-                print(
-                    f"✅ AI approved [{ai_decision.get('category', '?')}/{ai_decision.get('priority', '?')}]: "
-                    f"\"{title[:70]}...\""
-                )
+        print(
+            f"✅ Ranked [{ranking['tier']}/{ranking.get('category', '?')}]: "
+            f"\"{title[:70]}...\" (X={'yes' if ranking['post_to_x'] else 'no'})"
+        )
 
-            except Exception as e:
-                # On error, fall through and publish (fail-open)
-                ai_decision = None
-                print(f"⚠️  AI filter error ({e}), defaulting to publish: \"{title[:60]}...\"")
-
-        # --- Quality review (typo fix + semantic dedup within batch) ---
+        # Quality review (typo fix only)
         if use_ai:
             try:
                 from src.ai_filter import quality_review
-
                 recent = [d["title"] for d in drafts[-20:]]
                 qr = quality_review(title, snippet, recent)
 
@@ -392,12 +382,6 @@ def main():
                 if qr.get("clean_title") and qr["clean_title"] != title:
                     print(f"   📝 Title cleaned: \"{title[:60]}\" → \"{qr['clean_title'][:60]}\"")
                     title = qr["clean_title"]
-
-                if qr.get("is_duplicate_of"):
-                    skipped_quality_dup += 1
-                    print(f"🔁 Quality dedup: \"{title[:60]}...\"")
-                    print(f"   Duplicate of: \"{qr['is_duplicate_of'][:60]}\"")
-                    continue
             except Exception as e:
                 print(f"⚠️  Quality review error ({e}), continuing with original title")
 
@@ -412,21 +396,20 @@ def main():
             "score": score,
             "snippet": snippet,
             "matched_topics": it.get("matched_topics", []),
+            "tier": ranking["tier"],
+            "post_to_x": ranking["post_to_x"],
+            "category": ranking.get("category", ""),
         }
-
-        # Include AI metadata if the filter was used and approved
-        if ai_decision and ai_decision.get("publish"):
-            draft_entry["ai_category"] = ai_decision.get("category", "")
-            draft_entry["ai_priority"] = ai_decision.get("priority", "")
 
         drafts.append(draft_entry)
 
-        # Record in SQLite that this article will be posted (for future dedup)
-        if ai_filter is not None:
-            try:
-                ai_filter.record_posted(it, ai_decision or {})
-            except Exception as e:
-                print(f"⚠️  Failed to record posted article in SQLite: {e}")
+        # Record in dedup agent (SQLite + session cache)
+        dedup_agent.record(
+            title=title,
+            url=link,
+            category=ranking.get("category", ""),
+            priority=ranking.get("tier", ""),
+        )
 
         # Mark as seen so we don't re-create approval issues every 5 mins
         seen.add(iid)
@@ -438,9 +421,8 @@ def main():
             "id": iid
         })
 
-    # Clean up AI filter resources
-    if ai_filter is not None:
-        ai_filter.close()
+    # Clean up dedup agent resources
+    dedup_agent.close()
 
     # Write drafts
     save_json(DRAFTS_PATH, drafts)
@@ -460,12 +442,8 @@ def main():
         skip_parts.append(f"{skipped_telegram} telegram")
     if skipped_blocklist:
         skip_parts.append(f"{skipped_blocklist} blocklisted")
-    if skipped_ai_duplicate:
-        skip_parts.append(f"{skipped_ai_duplicate} AI dedup")
     if skipped_ai_filter:
         skip_parts.append(f"{skipped_ai_filter} AI rejected")
-    if skipped_quality_dup:
-        skip_parts.append(f"{skipped_quality_dup} quality dedup")
 
     if skip_parts:
         print(f"⚠️  Skipped: {', '.join(skip_parts)}")

@@ -12,27 +12,32 @@ src/                    # Core pipeline modules
   match.py              # Keyword + topic matching (case-folding, word boundaries, phrases)
   dedupe.py             # Hard dedupe (URL/title) + soft clustering (Jaccard >= 0.65, consensus boost)
   improved_scoring.py   # Scoring engine: institution weighting, financial impact, regulatory priority
+  dedup_agent.py        # Unified dedup: SQLite DB + seen_titles + feed.json + session cache + AI tiebreaker
+  ranking_agent.py      # AI ranking: Claude Haiku determines tier (high/medium/low/reject) + platform eligibility
   output.py             # Write JSON + Markdown digest
   utils.py              # HTTP session with retries, HTML stripping, URL canonicalization
-  ai_filter.py          # AI classification (Claude Haiku) + SQLite duplicate detection (not yet active)
+  ai_filter.py          # AI classification (Claude Haiku) + quality review (typo fix, title cleanup)
 
 scripts/
-  run_alerts.py         # Prepare alert drafts from scored items. Filters: blocklist, score threshold,
-                        #   title similarity (SequenceMatcher + Jaccard + entity matching), AI filter (optional)
+  run_alerts.py         # Prepare alert drafts: blocklist -> score filter -> dedup agent -> ranking agent -> quality review
   publish_telegram.py   # Post to Telegram (prepare/approve/dry-run/publish modes)
-  publish_x.py          # Post to X via Twitter API v2 + OAuth 1.0a (--from-drafts or --from-issue-file)
+  publish_x.py          # Post to X: news-wire format (title + @handle), OG images, peak-hour scheduling
 
 run.py                  # Entry point: runs src/app.py main()
 post_alerts_now.py      # Quick Telegram posting script for GitHub Actions
 force_publish.py        # Manual override: bypass filters and post directly
+feed_writer.py          # Rolling 7-day feed.json management (upsert by ID, prune old entries)
 config.json             # All configuration: RSS feeds, Telegram channels, keywords, topics, alerts settings
 blocklist.json          # Blocked URLs, keywords, sources
 state/
-  seen_alerts.json      # Dedup state: seen IDs + seen titles (last 100)
-  posted_articles.db    # SQLite DB for AI filter dedup (created when AI filter is enabled)
+  seen_alerts.json      # Dedup state: seen IDs + seen titles (last 500)
+  posted_articles.db    # SQLite DB for dedup agent (URL hash + fuzzy title matching)
+  x_daily_count.json    # Daily X posting counter (cap 40/day)
+  x_queue.json          # Peak-hour posting queue for mid-tier X drafts
 out/
   items_last24h.json    # Pipeline output: scored + deduped articles
-  alerts_drafts.json    # Drafts ready for posting (title, link, message_html)
+  alerts_drafts.json    # Drafts ready for posting (title, link, message_html, tier, post_to_x)
+  feed.json             # Rolling feed of posted articles (7-day window)
   digest.md             # Markdown summary
 ```
 
@@ -55,13 +60,14 @@ FETCH: Google News RSS (20+ feeds) + Telegram (12 channels)
 python scripts/run_alerts.py --mode prepare
   -> Load items with score >= 35
   -> Skip: no title/link, Telegram sources, blocklisted, low score
-  -> Dedup vs seen_titles: SequenceMatcher + Jaccard token overlap + entity matching
-  -> (Optional) AI filter: SQLite dedup + Claude Haiku classification
-  -> Write out/alerts_drafts.json
+  -> Dedup Agent: unified check (SQLite + seen_titles + feed.json + session cache + AI tiebreaker)
+  -> Ranking Agent: Claude Haiku assigns tier (high/medium/low/reject) + post_to_x flag
+  -> Quality Review: typo fix + title cleanup (Claude Haiku)
+  -> Write out/alerts_drafts.json (includes tier, post_to_x, category)
   |
   v
-python post_alerts_now.py          # -> Telegram
-python scripts/publish_x.py --from-drafts  # -> X
+python post_alerts_now.py                     # -> Telegram (all drafts)
+python scripts/publish_x.py --from-drafts     # -> X (only drafts with post_to_x=true)
 ```
 
 ## Key Configuration (config.json)
@@ -70,6 +76,7 @@ python scripts/publish_x.py --from-drafts  # -> X
 - `alerts.post_to_telegram`: enable/disable Telegram posting
 - `alerts.post_to_x`: enable/disable X posting
 - `alerts.min_score_for_telegram`: minimum score threshold (currently 50)
+- `alerts.thread_score_threshold`: score threshold for immediate X posting vs peak-hour queue (default 80)
 - `lookback_hours`: time window for articles (default 24)
 - `google_news_rss.feeds`: RSS feed URLs keyed by name
 - `telegram.channels`: list of public channel usernames to ingest
@@ -86,18 +93,45 @@ python scripts/publish_x.py --from-drafts  # -> X
 - **Freshness**: +10 (0-6h), +4 (6-24h)
 - **Penalties**: commentary -50, listicle -200, generic -100, Telegram source -15
 - **Hard reject**: listicle or generic content forced to -50
+- **Smart overrides**: regulator+keyword min 50, financial+institution min 45, central bank+crypto min 50
 
-## Dedup in run_alerts.py
+## Dedup Agent (dedup_agent.py)
 
-Three complementary methods to catch paraphrased duplicates:
-1. **SequenceMatcher**: character-level similarity (threshold 0.75, or 0.60 for launches)
-2. **Jaccard token overlap**: shared meaningful words after stopword removal
-3. **Entity + event matching**: known company names (~50 entities) + event type detection
+Unified duplicate detection consolidating all dedup sources:
 
-Decision logic:
-- Shared entity + Jaccard >= 0.25 = duplicate
-- Jaccard >= 0.50 alone = duplicate
-- Same entity + same event type: SequenceMatcher >= 0.50 OR Jaccard >= 0.30
+**Sources checked:**
+- SQLite `posted_articles.db` (last 500 posted articles)
+- `seen_alerts.json` titles (last 500)
+- `feed.json` entries (rolling 7-day window)
+- Session cache (articles approved in current batch)
+
+**Detection methods (cheapest first):**
+1. Exact URL hash match (SHA-256 of canonical URL)
+2. Entity + event + Jaccard matching (same entity + same event type: seq >= 0.50 or jac >= 0.30)
+3. Multi-entity match (2+ shared entities + jac >= 0.10)
+4. Entity + token overlap (shared entity + jac >= 0.25)
+5. High Jaccard alone (jac >= 0.50)
+6. SequenceMatcher (>= 0.75, or >= 0.60 for launch stories)
+7. AI tiebreaker (Claude Haiku) for borderline cases (shared entity + jac 0.15-0.25)
+
+## Ranking Agent (ranking_agent.py)
+
+AI-powered quality gate using Claude Haiku. Evaluates each article and returns:
+- **tier**: high / medium / low / reject
+- **post_to_telegram**: bool
+- **post_to_x**: bool (only "high" tier gets posted to X)
+- **category**: payments, crypto, banking, regulation, etc.
+
+Falls back to score-based heuristics when `ANTHROPIC_API_KEY` is not set.
+
+## X Posting (publish_x.py)
+
+- **News-wire format**: posts article title with one @company handle substituted for engagement
+- **OG image**: fetches og:image from article URL and attaches to tweet
+- **Tiered posting**: score >= 80 posts immediately; lower scores queued for peak hours
+- **Peak-hour scheduling**: configurable UTC time windows (`alerts.peak_hours_utc`)
+- **Daily rate guard**: caps at 40 posts/day (free tier = 50/day)
+- **feed.json dedup**: skips articles already posted to X (URL + title similarity check)
 
 ## Environment Variables
 
@@ -105,7 +139,7 @@ Decision logic:
 - `TG_API_ID`, `TG_API_HASH` - Telegram API (for fetching channels)
 - `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID` - Telegram Bot (for posting)
 - `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET` - Twitter API v2
-- `ANTHROPIC_API_KEY` - (optional) enables AI classification filter
+- `ANTHROPIC_API_KEY` - (optional) enables AI ranking, dedup tiebreaker, and quality review
 
 ## Common Commands
 
@@ -116,7 +150,7 @@ python run.py
 # Prepare alert drafts
 python scripts/run_alerts.py --mode prepare
 
-# Prepare without AI filter
+# Prepare without AI (ranking falls back to score-based heuristics)
 python scripts/run_alerts.py --mode prepare --no-ai
 
 # Post drafts to Telegram
@@ -124,6 +158,9 @@ TELEGRAM_BOT_TOKEN=xxx TELEGRAM_CHAT_ID=xxx python post_alerts_now.py
 
 # Post drafts to X
 X_API_KEY=xxx X_API_SECRET=xxx X_ACCESS_TOKEN=xxx X_ACCESS_SECRET=xxx python scripts/publish_x.py --from-drafts
+
+# Dry run X (preview without posting)
+python scripts/publish_x.py --from-drafts --dry-run
 
 # Dry run Telegram (preview without posting)
 python scripts/publish_telegram.py --dry-run
@@ -136,7 +173,8 @@ python force_publish.py
 
 - GitHub Actions workflow runs every 5 minutes with concurrency limit of 1
 - Telegram failure does NOT block X posting (independent steps)
-- `state/seen_alerts.json` tracks last 100 seen titles to prevent re-posting
-- The AI filter (`src/ai_filter.py`) auto-enables when `ANTHROPIC_API_KEY` is set
+- `state/seen_alerts.json` tracks last 500 seen titles to prevent re-posting
+- Ranking agent auto-enables when `ANTHROPIC_API_KEY` is set; falls back to score thresholds otherwise
 - `filtered_log.txt` logs all AI-rejected articles for review
 - The bot commits state changes back to the repo after each run
+- X posts use plain article titles (news-wire style) — no AI rewriting or editorial commentary

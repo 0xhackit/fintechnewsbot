@@ -59,7 +59,6 @@ jobs:
         env:
           TG_API_ID: ${{ secrets.TG_API_ID }}
           TG_API_HASH: ${{ secrets.TG_API_HASH }}
-          TREE_OF_ALPHA_API_KEY: ${{ secrets.TREE_OF_ALPHA_API_KEY }}
         run: |
           python run.py
 
@@ -115,7 +114,6 @@ jobs:
           X_API_SECRET: ${{ secrets.X_API_SECRET }}
           X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FRONTEND_URL: ${{ secrets.FRONTEND_URL }}
         run: |
           if [ -f out/alerts_drafts.json ]; then
@@ -137,7 +135,7 @@ jobs:
           git config user.name "fintech-news-bot"
           git config user.email "fintech-news-bot@users.noreply.github.com"
 
-          git add state/seen_alerts.json state/posted_articles.db state/x_daily_count.json state/x_queue.json state/x_style_rotation.json out/items_last24h.json out/alerts_drafts.json out/feed.json filtered_log.txt || true
+          git add state/seen_alerts.json state/posted_articles.db state/x_daily_count.json state/x_queue.json out/items_last24h.json out/alerts_drafts.json out/feed.json filtered_log.txt || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (auto-published)"
           git pull --rebase origin main --quiet || true

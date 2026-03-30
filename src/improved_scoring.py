@@ -200,14 +200,9 @@ def score_item_improved(item: dict, now_utc: datetime,
     listicle_penalty = -min(listicle_count * 100, 200)
     generic_penalty = -min(generic_count * 50, 100)
 
-    # Source penalty: Telegram and Tree of Alpha Twitter items are noisier
-    feed_name = (item.get("feed_name") or "").lower()
+    # Source penalty: Telegram items are noisier
     if source_type == 'telegram':
         source_penalty = -15
-    elif source_type == 'treeofalpha' and feed_name == 'twitter':
-        source_penalty = -25
-    elif source_type == 'treeofalpha':
-        source_penalty = -10
     else:
         source_penalty = 0
 
@@ -237,12 +232,8 @@ def score_item_improved(item: dict, now_utc: datetime,
         freshness
     )
 
-    # Smart overrides
-    # 1. Major institution + any tier1/tier2 activity = minimum 40 points
-    if institution_bonus >= 20 and (tier1_count >= 1 or tier2_count >= 1):
-        score = max(score, 40)
-
-    # 2. Regulator + regulatory keyword = minimum 50 points
+    # Smart overrides (ranking agent handles nuanced quality decisions)
+    # 1. Regulator + regulatory keyword = minimum 50 points
     if regulatory_bonus >= 40:
         score = max(score, 50)
 
@@ -267,11 +258,8 @@ def score_item_improved(item: dict, now_utc: datetime,
         score = min(score, 10)
 
     # Ensure basic launch with tier1 gets minimum score
-    # (Skip for Tree of Alpha Twitter — too many promotional tweets match launch keywords)
-    is_toa_twitter = source_type == 'treeofalpha' and feed_name == 'twitter'
     if tier1_count >= 1 and comm_count <= 1 and listicle_count == 0 and generic_count == 0:
-        if not is_toa_twitter:
-            score = max(score, 35)
+        score = max(score, 35)
 
     item["score"] = int(score)
     item["score_breakdown"] = {

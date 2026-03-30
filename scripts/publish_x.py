@@ -3,13 +3,12 @@
 Post approved alerts to X (Twitter) using the v2 API.
 
 Features:
-  - Tiered posting: score >= 80 posts immediately + thread; 60-79 queued for peak hours
-  - AI-enhanced tweets: Claude Haiku with 6 rotating styles, @handles, no links
+  - News-wire format: posts article title with @company handles
+  - Tiered posting: high-score posts immediately; lower-score queued for peak hours
   - OG image fetching: attaches article images for higher engagement
   - Peak-hour scheduling: queues mid-tier articles for configured time windows
-  - Style rotation: tracks recent styles to ensure variety
-  - Fail-open: falls back to plain title if AI is unavailable
   - Daily rate guard: caps posts at 40/day (free tier = 50/day)
+  - Ranking agent integration: uses post_to_x flag from run_alerts.py
   - Dry-run mode: test everything without posting
 """
 import os
@@ -27,7 +26,6 @@ _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 from feed_writer import write_entries_to_feed
-from src.ai_filter import should_post_to_x
 from src.utils import canonicalize_url, normalize_title, tokenize_title, jaccard_similarity, extract_entities
 
 
@@ -84,12 +82,6 @@ COMPANY_HANDLES = {
     "okx": "@okx",
     "tether": "@Tether_to",
 }
-
-ALL_STYLES = [
-    "TRADFI_BRIDGE", "EXPLAINER", "IMPACT",
-    "QUESTION", "STAT_LED", "CONTRARIAN",
-]
-
 
 # ===========================================================================
 # Environment + config helpers
@@ -365,173 +357,21 @@ def _upload_media(image_bytes: bytes, api_key: str, api_secret: str,
 # Tweet formatting
 # ===========================================================================
 
-def _format_tweet(title: str, max_length: int = 280) -> str:
-    """Fallback: format a plain tweet with just the title (no link)."""
-    title = title.strip()
-    if len(title) > max_length:
-        title = title[:max_length - 3] + "..."
-    return title
+def _format_news_tweet(draft: dict) -> str:
+    """Format a news-wire style tweet from the article title.
+    Replaces one company name with its @handle for engagement."""
+    title = (draft.get("title") or "").strip()
 
-
-PRIORITY_GUIDANCE = {
-    "high": (
-        "This is a HIGH-PRIORITY story. Use an urgent, authoritative hook. "
-        "You may prefix with BREAKING: if appropriate.\n"
-        "Write a TWO-PART tweet:\n"
-        "- Line 1: A concise, punchy hook (1 sentence)\n"
-        "- Line 2 (after a blank line): One short sentence — why it matters, TradFi context, or what to watch next\n"
-        "CRITICAL: Both parts combined MUST be under 270 characters total. Keep each part SHORT."
-    ),
-    "medium": (
-        "This is a MEDIUM-PRIORITY story. Use an insightful, analytical hook. "
-        "Do NOT use BREAKING: prefix."
-    ),
-    "low": (
-        "This is a LOW-PRIORITY but relevant story. Use an educational or explanatory hook. "
-        "Do NOT use BREAKING: prefix."
-    ),
-}
-
-
-def _generate_ai_tweet(draft: dict, avoid_styles: list[str] = None) -> Optional[tuple[str, str]]:
-    """
-    Generate an AI-enhanced tweet using Claude Haiku.
-
-    No article link in tweet. Uses @handles, 6 rotating styles.
-    Returns (tweet_text, style_used) tuple, or None on failure.
-    """
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        return None
-
-    try:
-        from anthropic import Anthropic
-    except ImportError:
-        return None
-
-    title = draft.get("title", "")
-    snippet = draft.get("snippet", "")
-    matched_topics = draft.get("matched_topics", [])
-    ai_priority = draft.get("ai_priority", "medium") or "medium"
-
-    # Build @handles hint from title
-    title_lower = title.lower()
-    relevant_handles = []
+    # Replace one company name with its @handle
     for company, handle in COMPANY_HANDLES.items():
-        if company in title_lower and handle not in relevant_handles:
-            relevant_handles.append(handle)
+        pattern = re.compile(rf'\b{re.escape(company)}\b', re.IGNORECASE)
+        if pattern.search(title):
+            title = pattern.sub(handle, title, count=1)
+            break
 
-    handles_hint = ""
-    if relevant_handles:
-        handles_hint = f"\nRelevant company @handles you SHOULD use: {', '.join(relevant_handles[:3])}"
-
-    avoid_hint = ""
-    if avoid_styles:
-        avoid_hint = f"\nIMPORTANT: Do NOT use these styles (recently used): {', '.join(avoid_styles)}"
-
-    guidance = PRIORITY_GUIDANCE.get(ai_priority, PRIORITY_GUIDANCE["medium"])
-
-    prompt = f"""You are a fintech news editor writing a tweet for a professional audience.
-
-Given this article:
-TITLE: {title}
-SNIPPET: {snippet[:300] if snippet else '(none)'}
-TOPICS: {', '.join(matched_topics) if matched_topics else 'general fintech'}
-
-{guidance}
-
-Write a single tweet using EXACTLY ONE of these styles:
-- TRADFI_BRIDGE: Connect this news to a traditional finance concept
-- EXPLAINER: Briefly explain the tech/product for someone outside crypto
-- IMPACT: State the concrete implication for the industry
-- QUESTION: Open with a compelling rhetorical question
-- STAT_LED: Lead with a number or statistic from the article
-- CONTRARIAN: Offer a "most people miss this" angle
-{avoid_hint}
-
-Rules:
-1. Use company @handles where natural{handles_hint}
-2. Do NOT include any article link or URL
-3. NO hashtags. NO emojis. Professional, factual tone.
-4. TOTAL tweet MUST be under 270 characters (count carefully)
-5. On the LAST line of your response, write: STYLE_USED: <style_name>
-
-Return the tweet text followed by the STYLE_USED line. Nothing else."""
-
-    try:
-        client = Anthropic(api_key=api_key)
-        message = client.messages.create(
-            model="claude-haiku-4-5-20251001",
-            max_tokens=200,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        raw = message.content[0].text.strip()
-
-        # Parse STYLE_USED from last line
-        style_used = "UNKNOWN"
-        lines = raw.split("\n")
-        tweet_lines = []
-        for line in lines:
-            if line.strip().upper().startswith("STYLE_USED:"):
-                style_used = line.split(":", 1)[1].strip().upper().replace(" ", "_")
-                if style_used not in ALL_STYLES:
-                    style_used = "UNKNOWN"
-            else:
-                tweet_lines.append(line)
-
-        tweet = "\n".join(tweet_lines).strip()
-
-        # Strip quotes the model may wrap it in
-        if tweet.startswith('"') and tweet.endswith('"'):
-            tweet = tweet[1:-1]
-        if tweet.startswith("'") and tweet.endswith("'"):
-            tweet = tweet[1:-1]
-
-        # Remove any URLs the model may have added despite instructions
-        tweet = re.sub(r'https?://\S+', '', tweet).strip()
-
-        if len(tweet) > 280:
-            print(f"  ⚠️  AI tweet too long ({len(tweet)} chars), using fallback")
-            return None
-
-        if len(tweet) < 20:
-            print(f"  ⚠️  AI tweet too short ({len(tweet)} chars), using fallback")
-            return None
-
-        return (tweet, style_used)
-
-    except Exception as e:
-        print(f"  ⚠️  AI tweet generation failed ({e}), using fallback")
-        return None
-
-
-# ===========================================================================
-# Style rotation
-# ===========================================================================
-
-STYLE_ROTATION_PATH = Path("state/x_style_rotation.json")
-STYLE_HISTORY_SIZE = 4
-
-
-def _load_style_history() -> list[str]:
-    """Load the last N styles used from state file."""
-    if not STYLE_ROTATION_PATH.exists():
-        return []
-    try:
-        data = json.loads(STYLE_ROTATION_PATH.read_text(encoding="utf-8"))
-        return data.get("recent_styles", [])[-STYLE_HISTORY_SIZE:]
-    except Exception:
-        return []
-
-
-def _save_style_history(styles: list[str]):
-    """Save updated style history."""
-    STYLE_ROTATION_PATH.parent.mkdir(parents=True, exist_ok=True)
-    trimmed = styles[-STYLE_HISTORY_SIZE:]
-    STYLE_ROTATION_PATH.write_text(
-        json.dumps({"recent_styles": trimmed}, indent=2),
-        encoding="utf-8"
-    )
+    if len(title) > 280:
+        title = title[:277] + "..."
+    return title
 
 
 # ===========================================================================
@@ -704,19 +544,18 @@ def _increment_daily_count(posted: int):
 
 def _post_single(draft: dict, api_key: str, api_secret: str,
                  access_token: str, access_secret: str,
-                 style_history: list[str], config: dict,
-                 dry_run: bool = False) -> tuple[int, list[str], Optional[dict]]:
+                 config: dict,
+                 dry_run: bool = False) -> tuple[int, Optional[dict]]:
     """
-    Post a single draft to X with AI generation and image.
-    High-priority tweets get a two-part format (hook + insight) in one tweet.
-    Returns (posts_made, updated_style_history, tweet_metadata_or_None).
+    Post a single draft to X with OG image.
+    Returns (posts_made, tweet_metadata_or_None).
     """
     title = draft.get("title", "").strip()
     link = draft.get("link", "").strip()
 
     if not title:
         print(f"  ⚠️  Missing title, skipping")
-        return (0, style_history, None)
+        return (0, None)
 
     posts_made = 0
 
@@ -738,21 +577,9 @@ def _post_single(draft: dict, api_key: str, api_secret: str,
         else:
             print(f"  ⚠️  No OG image found")
 
-    # --- Generate tweet ---
-    avoid_styles = list(set(style_history[-STYLE_HISTORY_SIZE:])) if style_history else []
-    if len(avoid_styles) >= len(ALL_STYLES) - 1:
-        avoid_styles = avoid_styles[-2:]
-
-    result = _generate_ai_tweet(draft, avoid_styles=avoid_styles)
-    if result:
-        tweet_text, style_used = result
-        style_history.append(style_used)
-        print(f"  🤖 AI tweet (style={style_used}):")
-    else:
-        tweet_text = _format_tweet(title)
-        print(f"  📝 Fallback tweet:")
-
-    print(f"     {tweet_text}")
+    # --- Format news-wire tweet (title + @handle) ---
+    tweet_text = _format_news_tweet(draft)
+    print(f"  📝 Tweet: {tweet_text}")
 
     # --- Post tweet ---
     tweet_metadata = None
@@ -775,7 +602,7 @@ def _post_single(draft: dict, api_key: str, api_secret: str,
         print(f"  ✅ [DRY-RUN] Would post tweet" + (" with image" if media_id or img_bytes else ""))
         posts_made += 1
 
-    return (posts_made, style_history, tweet_metadata)
+    return (posts_made, tweet_metadata)
 
 
 # ===========================================================================
@@ -794,11 +621,7 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
     """
     config = _load_config()
     alerts_config = config.get("alerts", {})
-    min_score_for_x = alerts_config.get("min_score_for_x", 45)
     thread_threshold = alerts_config.get("thread_score_threshold", 80)
-
-    # AI quality gate thresholds: articles between these scores get an AI review
-    AI_GATE_HIGH = 75  # Above this: auto-post (no AI check needed)
 
     if dry_run:
         print("🔧 DRY-RUN MODE: No tweets will be posted\n")
@@ -883,36 +706,13 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
         except Exception as e:
             print(f"⚠️  Feed.json title dedup error ({e}), continuing without it")
 
-    # Filter by X threshold
-    x_drafts = [d for d in drafts if d.get("score", 0) >= min_score_for_x]
-    print(f"📋 {len(drafts)} total draft(s), {len(x_drafts)} qualify for X (score >= {min_score_for_x})")
-
-    # AI quality gate: articles scoring <= AI_GATE_HIGH get reviewed by Claude Haiku
-    if x_drafts and not dry_run:
-        gate_filtered = []
-        for d in x_drafts:
-            s = d.get("score", 0)
-            if s > AI_GATE_HIGH:
-                gate_filtered.append(d)  # High scorers auto-post
-            else:
-                # Borderline: ask AI
-                post_it, reason = should_post_to_x(
-                    d.get("title", ""), d.get("snippet", ""), s
-                )
-                title_short = d.get("title", "")[:50]
-                if post_it:
-                    gate_filtered.append(d)
-                    print(f"  ✅ AI gate APPROVED (score={s}): {title_short}... — {reason}")
-                else:
-                    print(f"  🚫 AI gate REJECTED (score={s}): {title_short}... — {reason}")
-        rejected = len(x_drafts) - len(gate_filtered)
-        if rejected:
-            print(f"🤖 AI gate: {len(gate_filtered)} approved, {rejected} rejected")
-        x_drafts = gate_filtered
+    # Filter by ranking agent's post_to_x flag (set during run_alerts.py)
+    x_drafts = [d for d in drafts if d.get("post_to_x", False)]
+    print(f"📋 {len(drafts)} total draft(s), {len(x_drafts)} flagged for X by ranking agent")
 
     # Split into urgent (immediate) and mid-tier (peak-hour queue)
     urgent = [d for d in x_drafts if d.get("score", 0) >= thread_threshold]
-    mid_tier = [d for d in x_drafts if min_score_for_x <= d.get("score", 0) < thread_threshold]
+    mid_tier = [d for d in x_drafts if d.get("score", 0) < thread_threshold]
 
     peak = _is_peak_hour(config)
     now_str = datetime.now(timezone.utc).strftime("%H:%M UTC")
@@ -961,8 +761,6 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
         to_post = to_post[:remaining]
         _add_to_queue(overflow)
 
-    # Load style history
-    style_history = _load_style_history()
     posted_count = 0
     failed_count = 0
     feed_entries = []
@@ -974,9 +772,9 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
         print(f"[{idx}/{len(to_post)}] score={score} | {title}...")
 
         try:
-            posts, style_history, tweet_meta = _post_single(
+            posts, tweet_meta = _post_single(
                 draft, api_key, api_secret, access_token, access_secret,
-                style_history, config, dry_run=dry_run,
+                config, dry_run=dry_run,
             )
             posted_count += posts
 
@@ -1021,7 +819,6 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
         write_entries_to_feed(feed_entries)
 
     # Save state
-    _save_style_history(style_history)
     if posted_count > 0 and not dry_run:
         _increment_daily_count(posted_count)
 
@@ -1077,7 +874,7 @@ def post_from_issue_body(issue_body_path: str) -> None:
     print(f"📝 Title: {title}")
     print(f"🔗 Link: {link}")
 
-    tweet_text = _format_tweet(title)
+    tweet_text = _format_news_tweet({"title": title})
     print(f"🐦 Tweet ({len(tweet_text)} chars): {tweet_text}")
 
     result = _post_to_x(tweet_text, api_key, api_secret, access_token, access_secret)
