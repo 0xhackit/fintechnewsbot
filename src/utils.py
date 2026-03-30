@@ -176,6 +176,10 @@ KNOWN_ENTITIES = [
     "coinbase", "binance", "kraken", "gemini", "circle", "ripple",
     "paxos", "anchorage", "anchorage digital", "bitstamp", "bybit", "okx",
     "tether", "robinhood", "sofi", "brex",
+    "aave", "uniswap", "compound", "makerdao", "maker", "lido",
+    "chainlink", "arbitrum", "optimism", "polygon", "solana",
+    "avalanche", "ethereum", "bitcoin", "sui", "aptos", "base",
+    "worldcoin", "eigenlayer", "celestia",
     "cme", "cme group", "sec", "cftc", "fed", "federal reserve",
     "payoneer", "grab", "wirex",
     "northern trust", "bny mellon", "nomura", "mizuho",
@@ -341,17 +345,20 @@ def extract_entities(title: str) -> set[str]:
 
     Returns a set of canonical (short) entity names.
     """
-    # Method 1: List-based matching (existing)
+    # Method 1: List-based matching with word boundaries
     all_entities = _load_all_entities()
     t = title.lower()
     found = set()
     for entity in sorted(all_entities, key=len, reverse=True):
-        if entity in t:
+        # Use word boundary to avoid substring matches (e.g. "ing" in "enabling")
+        if re.search(rf'\b{re.escape(entity)}\b', t):
             found.add(entity.split()[0])
 
     # Method 2: Dynamic proper noun extraction (catches ANY multi-word institution)
     for noun_phrase in extract_proper_nouns(title):
-        found.add(noun_phrase.split()[0])
+        key = noun_phrase.split()[0]
+        if len(key) >= 3:  # Skip noise like "x", "de", "ing"
+            found.add(key)
 
     return found
 
@@ -369,6 +376,10 @@ def get_event_type(title: str) -> str | None:
         "introduce", "introduces", "introduced",
         "unveil", "unveils", "unveiled",
         "release", "releases", "released",
+        "goes live", "go live", "gone live", "going live",
+        "rolls out", "rolled out", "rolling out", "rollout",
+        "now live", "now available", "now supports",
+        "enables", "enabling",
     ]):
         return "launch"
 
