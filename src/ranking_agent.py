@@ -43,14 +43,61 @@ Respond with ONLY valid JSON (no markdown):
 }}"""
 
 
+def _format_feedback_section(feedback: dict) -> str:
+    """Format feedback examples for injection into the ranking prompt."""
+    signals = feedback.get("signals", [])
+    rules = feedback.get("learned_rules", [])
+
+    if not signals and not rules:
+        return ""
+
+    lines = ["\nUSER PREFERENCES (learn from these):"]
+
+    # Positive examples
+    positive = [s for s in signals if s.get("signal") == "positive"]
+    if positive:
+        lines.append("\nLIKED (post more like these):")
+        for s in positive[-5:]:
+            reason = s.get("reason", "liked")
+            lines.append(f'- "{s["title"]}" [{s.get("category", "other")}] — {reason}')
+
+    # Negative examples
+    negative = [s for s in signals if s.get("signal") == "negative"]
+    if negative:
+        lines.append("\nDISLIKED (reject or lower tier on ALL platforms):")
+        for s in negative[-5:]:
+            reason = s.get("reason", "disliked")
+            lines.append(f'- "{s["title"]}" [{s.get("category", "other")}] — {reason}')
+
+    # Promoted to X
+    promoted = [s for s in positive if s.get("reason") == "promoted_to_x"]
+    if promoted:
+        lines.append("\nPROMOTED TO X (should have been tier 'high'):")
+        for s in promoted[-3:]:
+            lines.append(f'- "{s["title"]}" [{s.get("category", "other")}]')
+
+    # Learned rules
+    if rules:
+        lines.append("\nEditor rules:")
+        for r in rules[:10]:
+            lines.append(f"- {r}")
+
+    lines.append("\nWeight these preferences when deciding tier.")
+    return "\n".join(lines)
+
+
 def rank_article(
     title: str,
     snippet: str,
     score: int,
     score_breakdown: dict,
+    feedback: dict | None = None,
 ) -> dict:
     """
     AI-powered ranking: determines tier and platform eligibility.
+
+    Args:
+        feedback: optional dict from state/feedback.json with user preference signals
 
     Returns:
         dict with keys: tier, reason, post_to_telegram, post_to_x, category
@@ -72,6 +119,12 @@ def rank_article(
             score=score,
             score_breakdown=breakdown_str,
         )
+
+        # Inject user feedback if available
+        if feedback:
+            feedback_section = _format_feedback_section(feedback)
+            if feedback_section:
+                prompt += feedback_section
 
         message = client.messages.create(
             model=RANKING_MODEL,

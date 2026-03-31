@@ -26,6 +26,7 @@ from src.dedup_agent import DedupAgent
 from src.ranking_agent import rank_article
 
 STATE_PATH = Path("state/seen_alerts.json")
+FEEDBACK_PATH = Path("state/feedback.json")
 DRAFTS_PATH = Path("out/alerts_drafts.json")
 BLOCKLIST_PATH = Path("blocklist.json")
 FEED_PATH = Path("out/feed.json")
@@ -241,6 +242,12 @@ def main():
     seen = set(state.get("seen", []))
     seen_titles = state.get("seen_titles", [])
 
+    # Load user feedback for ranking agent
+    feedback_data = load_json(FEEDBACK_PATH, {"signals": [], "learned_rules": []})
+    feedback_count = len(feedback_data.get("signals", []))
+    if feedback_count:
+        print(f"📊 Loaded {feedback_count} feedback signal(s) for ranking agent")
+
     # Load feed.json entries for dedup
     feed_data = load_json(FEED_PATH, {"entries": []})
     feed_entries = feed_data.get("entries", []) if isinstance(feed_data, dict) else []
@@ -350,6 +357,7 @@ def main():
             snippet=snippet,
             score=score,
             score_breakdown=score_breakdown,
+            feedback=feedback_data if feedback_count else None,
         )
 
         if ranking["tier"] == "reject":

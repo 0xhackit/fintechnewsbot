@@ -171,6 +171,30 @@ export async function POST(req: NextRequest) {
       console.error("Dedup state update failed:", err);
     }
 
+    // Auto-record positive feedback for manual posts (fire-and-forget)
+    try {
+      const fbFile = await getFileFromGitHub("state/feedback.json");
+      const fb = JSON.parse(fbFile.content);
+      fb.signals.push({
+        title,
+        category: "manual",
+        tier: "high",
+        signal: "positive",
+        reason: "manual_post",
+        timestamp: new Date().toISOString(),
+      });
+      if (fb.signals.length > 100) fb.signals = fb.signals.slice(-100);
+      fb.updated_at = new Date().toISOString();
+      await putFileToGitHub(
+        "state/feedback.json",
+        JSON.stringify(fb, null, 2),
+        fbFile.sha,
+        `chore: record manual post feedback`
+      );
+    } catch {
+      // Feedback is best-effort
+    }
+
     return NextResponse.json({
       xResult: xOutcome,
       telegramResult: tgOutcome,

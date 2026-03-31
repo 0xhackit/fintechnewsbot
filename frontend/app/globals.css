@@ -781,6 +781,105 @@ body {
   cursor: not-allowed;
 }
 
+/* ── Feed Manager Actions ── */
+.feed-mgr-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.btn-thumbs {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0;
+  transition: background 0.15s, color 0.15s;
+  color: #536471;
+}
+
+.btn-thumbs-up:hover:not(:disabled) {
+  background: rgba(0, 186, 124, 0.12);
+  color: #00ba7c;
+}
+
+.btn-thumbs-down:hover:not(:disabled) {
+  background: rgba(244, 33, 46, 0.08);
+  color: #f4212e;
+}
+
+.btn-thumbs-active.btn-thumbs-up {
+  background: rgba(0, 186, 124, 0.15);
+  color: #00ba7c;
+}
+
+.btn-thumbs-active.btn-thumbs-down {
+  background: rgba(244, 33, 46, 0.12);
+  color: #f4212e;
+}
+
+.btn-thumbs:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.btn-promote {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: rgba(29, 155, 240, 0.08);
+  color: #1d9bf0;
+  font-size: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0;
+  transition: background 0.15s;
+}
+
+.btn-promote:hover:not(:disabled) {
+  background: rgba(29, 155, 240, 0.18);
+}
+
+.btn-promote:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ── Preferences Toggle ── */
+.prefs-toggle {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0 0;
+  border: none;
+  background: none;
+  font-size: 13px;
+  font-weight: 600;
+  color: #536471;
+  cursor: pointer;
+  margin-top: 8px;
+  border-top: 1px solid #eff3f4;
+}
+
+.prefs-toggle:hover {
+  color: #1d9bf0;
+}
+
+.prefs-section {
+  margin-top: 10px;
+}
+
 /* ── Preview Card ── */
 .preview-card {
   background: #fff;

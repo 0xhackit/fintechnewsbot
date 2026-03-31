@@ -65,6 +65,30 @@ export async function DELETE(req: NextRequest) {
       `chore: delete post — ${title.slice(0, 50)}`
     );
 
+    // Auto-record negative feedback (fire-and-forget)
+    try {
+      const fbFile = await getFileFromGitHub("state/feedback.json");
+      const fb = JSON.parse(fbFile.content);
+      fb.signals.push({
+        title,
+        category: entry.ai_category || "other",
+        tier: "unknown",
+        signal: "negative",
+        reason: "deleted",
+        timestamp: new Date().toISOString(),
+      });
+      if (fb.signals.length > 100) fb.signals = fb.signals.slice(-100);
+      fb.updated_at = new Date().toISOString();
+      await putFileToGitHub(
+        "state/feedback.json",
+        JSON.stringify(fb, null, 2),
+        fbFile.sha,
+        `chore: record delete feedback`
+      );
+    } catch {
+      // Feedback is best-effort — don't fail the delete
+    }
+
     return NextResponse.json({ success: true, deleted: title });
   } catch (err) {
     console.error("Feed delete error:", err);
