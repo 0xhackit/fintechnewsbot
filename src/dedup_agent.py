@@ -33,6 +33,31 @@ DB_PATH = Path("state/posted_articles.db")
 SEQ_THRESHOLD = 0.75
 LAUNCH_SEQ_THRESHOLD = 0.60
 
+# Generic news words that shouldn't trigger shared-token dedup
+# These appear across unrelated articles and would cause false positives
+_GENERIC_NEWS_WORDS = {
+    # Finance/business terms
+    "million", "billion", "raises", "raise", "funding", "fund", "funds",
+    "launches", "launch", "launched", "platform", "service", "services",
+    "company", "companies", "firm", "firms", "market", "markets",
+    "digital", "asset", "assets", "token", "tokens", "tokenized",
+    "crypto", "cryptocurrency", "blockchain", "payment", "payments",
+    "bank", "banking", "financial", "finance", "fintech",
+    "trading", "trade", "exchange", "investors", "investor",
+    "stablecoin", "stablecoins", "custody", "lending", "defi",
+    "global", "network", "protocol", "infrastructure",
+    "partners", "partner", "partnership", "deal",
+    "series", "round", "venture", "capital",
+    "regulatory", "regulation", "compliance", "license",
+    "report", "reports", "according", "announced", "announce",
+    "expansion", "expands", "expand", "growth", "revenue",
+    "users", "customers", "clients",
+    # Actions
+    "enables", "enabling", "support", "supports", "adds",
+    "targets", "plans", "eyes", "seeks", "backs",
+    "acquires", "acquisition", "merger",
+}
+
 # Claude model for tiebreaker
 TIEBREAKER_MODEL = "claude-haiku-4-5-20251001"
 
@@ -176,11 +201,19 @@ class DedupAgent:
             if shared_entities and jac_sim >= 0.25:
                 return True, f"entity+token match ({list(shared_entities)[0]}, jac={jac_sim:.2f}): \"{seen_title[:80]}\""
 
-            # (D) High Jaccard alone
+            # (D) Shared rare token + moderate Jaccard (catches unknown entities like "Midas")
+            # Rare = not a stopword, not generic news vocabulary, length >= 4
+            shared_tokens = current_tokens & seen_tokens
+            rare_shared = shared_tokens - _GENERIC_NEWS_WORDS
+            if rare_shared and jac_sim >= 0.20:
+                sample = sorted(rare_shared)[0]
+                return True, f"shared-token match ({sample}, jac={jac_sim:.2f}): \"{seen_title[:80]}\""
+
+            # (E) High Jaccard alone
             if jac_sim >= 0.50:
                 return True, f"high token overlap (jac={jac_sim:.2f}): \"{seen_title[:80]}\""
 
-            # (E) Borderline: shared entity + low Jaccard (0.15-0.25) → AI tiebreaker candidate
+            # (F) Borderline: shared entity + low Jaccard (0.15-0.25) → AI tiebreaker candidate
             if shared_entities and 0.15 <= jac_sim < 0.25 and borderline_match is None:
                 borderline_match = seen_title
 
