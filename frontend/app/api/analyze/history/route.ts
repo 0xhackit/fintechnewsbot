@@ -112,6 +112,12 @@ function evaluateResult(
 // ── Handler ──
 
 export async function GET() {
+  // ── Feature disabled ──
+  return NextResponse.json(
+    { error: "AI Trade Analysis is temporarily disabled.", analyses: [], stats: { total: 0, shortTermWins: 0, shortTermLosses: 0, shortTermPending: 0, longTermWins: 0, longTermLosses: 0, longTermPending: 0, shortTermAccuracy: null, longTermAccuracy: null } },
+    { status: 503 }
+  );
+
   try {
     // 1. Load history from GitHub
     let analyses: StoredAnalysis[] = [];

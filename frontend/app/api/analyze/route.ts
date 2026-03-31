@@ -186,112 +186,11 @@ async function saveAnalysis(
 
 // ── Handler ──
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function POST(req: NextRequest) {
-  // Rate limit
-  const ip = getClientIp(req);
-  if (!checkRateLimit(ip)) {
-    return NextResponse.json(
-      {
-        error: "Rate limit exceeded. Maximum 5 analyses per hour.",
-      },
-      { status: 429 }
-    );
-  }
-
-  // Parse body
-  let url: string;
-  try {
-    const body = (await req.json()) as { url?: string };
-    url = (body.url || "").trim();
-  } catch {
-    return NextResponse.json(
-      { error: "Invalid request body" },
-      { status: 400 }
-    );
-  }
-
-  // Validate URL
-  if (!url || !(url.startsWith("http://") || url.startsWith("https://"))) {
-    return NextResponse.json(
-      { error: "Please provide a valid URL starting with http:// or https://" },
-      { status: 400 }
-    );
-  }
-
-  try {
-    // 1. Scrape article
-    const metadata = await scrapeUrl(url, { extractFullText: true });
-
-    if (!metadata.title) {
-      return NextResponse.json(
-        { error: "Could not extract article content. Please try a different URL." },
-        { status: 422 }
-      );
-    }
-
-    // 2. AI analysis
-    const analysis = await analyzeArticleEnhanced(
-      metadata.title,
-      metadata.fullText || metadata.snippet || "",
-      url
-    );
-
-    // 3. Fetch price
-    const price = await fetchPrice(analysis.ticker, analysis.assetType);
-
-    // 4. Generate ID
-    const id = createHash("sha1")
-      .update(url + Date.now().toString())
-      .digest("hex")
-      .slice(0, 12);
-
-    // 5. Build response
-    const response: AnalysisResponse = {
-      article: {
-        title: metadata.title,
-        snippet: metadata.snippet,
-        ogImage: metadata.ogImage,
-        source: metadata.source,
-        url,
-      },
-      analysis,
-      price,
-      id,
-    };
-
-    // 6. Persist (fire-and-forget)
-    const record: AnalysisRecord = {
-      id,
-      url,
-      title: metadata.title,
-      source: metadata.source,
-      ticker: analysis.ticker,
-      assetType: analysis.assetType,
-      analyzedAt: new Date().toISOString(),
-      entryPrice: price.price,
-      summary: analysis.summary,
-      shortTerm: analysis.shortTerm,
-      longTerm: analysis.longTerm,
-      riskFactors: analysis.riskFactors,
-      catalysts: analysis.catalysts,
-    };
-
-    // Don't await — fire-and-forget
-    saveAnalysis(record).catch(() => {});
-
-    return NextResponse.json(response);
-  } catch (err) {
-    console.error("Analysis error:", err);
-    const message =
-      err instanceof Error ? err.message : "Analysis failed";
-
-    if (message.includes("ANTHROPIC_API_KEY")) {
-      return NextResponse.json(
-        { error: "AI service unavailable. Please try again later." },
-        { status: 503 }
-      );
-    }
-
-    return NextResponse.json({ error: message }, { status: 500 });
-  }
+  // ── Feature disabled ──
+  return NextResponse.json(
+    { error: "AI Trade Analysis is temporarily disabled." },
+    { status: 503 }
+  );
 }
