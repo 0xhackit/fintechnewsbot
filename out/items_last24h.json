@@ -10,7 +10,7 @@
     "snippet": "The bank boasts \"the largest network of financial advisors [with] 16,000 advisors managing $6.2 trillion\" according to an analyst.",
     "published_at": "2026-04-08T13:37:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -47,45 +47,87 @@
     ]
   },
   {
-    "id": "b7789f9ddf43a2960b7caa20d6c3751ca1060d04903797f76744e88ab00ce7d5",
+    "id": "b3a3dac691b7bb391dd9e688b81ae1484748e43abc69516862cee40416194756",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Balboa Corp launches in Panama to bring stablecoins to shipping and trade finance",
-    "url": "https://www.finextra.com/pressarticle/109387/balboa-corp-launches-in-panama-to-bring-stablecoins-to-shipping-and-trade-finance?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/109387/balboa-corp-launches-in-panama-to-bring-stablecoins-to-shipping-and-trade-finance",
-    "snippet": "BALBOA | CORP , Panama’s first local stablecoin issuer and infrastructure company focused on shipping, trade settlement and escrow, today announced its launch from stealth, unveiling infrastructure designed to reduce payment friction in shipping, trade-finance and international commerce.",
-    "published_at": "2026-04-08T09:08:00+00:00",
+    "feed_name": "coindesk",
+    "title": "RWA network Pharos lands a $1 billion valuation in $44M funding round ahead of mainnet debut",
+    "url": "https://www.coindesk.com/business/2026/04/08/pharos-raises-usd44-million-in-series-a-to-power-real-world-asset-tokenization",
+    "canonical_url": "https://coindesk.com/business/2026/04/08/pharos-raises-usd44-million-in-series-a-to-power-real-world-asset-tokenization",
+    "snippet": "",
+    "published_at": "2026-04-08T14:40:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "issuer",
-      "settlement",
-      "launch",
-      "launches"
+      "RWA"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/109387/balboa-corp-launches-in-panama-to-bring-stablecoins-to-shipping-and-trade-finance?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "034dbb2f-65a7-4c55-b442-72c557180f6d",
       "guidislink": false
     },
-    "score": 80,
+    "score": 100,
     "score_breakdown": {
-      "tier1": 3,
-      "tier2": 1,
+      "tier1": 2,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 70,
+      "launch_score": 50,
       "institution_bonus": 0,
-      "financial_bonus": 0,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b5795d50c2f85a217a4779a35bb3e895caeaa9408dcd00be3530231d8687b553",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "FDIC approves US Stablecoins Act",
+    "url": "https://www.finextra.com/pressarticle/109400/fdic-approves-us-stablecoins-act?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/109400/fdic-approves-us-stablecoins-act",
+    "snippet": "The Federal Deposit Insurance Corporation (FDIC) Board of Directors today approved a notice of proposed rulemaking that would implement certain requirements and standards under the Guiding and Establishing National Innovation for U.S. Stablecoins Act (GENIUS Act).",
+    "published_at": "2026-04-08T16:08:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
+    "matched_keywords": [
+      "Genius"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/109400/fdic-approves-us-stablecoins-act?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -109,7 +151,7 @@
     "snippet": "UBS, PostFinance, Sygnum and others launched a 2026 sandbox to test Swiss franc stablecoin use cases and blockchain payment rails in Switzerland.",
     "published_at": "2026-04-08T08:58:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "payment rails",
       "stablecoin",
@@ -124,14 +166,14 @@
       "id": "https://cointelegraph.com/news/ubs-five-banks-swiss-franc-stablecoin-sandbox",
       "guidislink": true
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 20,
@@ -160,7 +202,7 @@
     "snippet": "FDIC’s proposed rules providing insurance for corporate deposits of stablecoin issuers will not extend to the stablecoin holders, as it would conflict with the GENIUS Act’s text, the FDIC said.",
     "published_at": "2026-04-08T01:25:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -208,7 +250,7 @@
     "snippet": "The FDIC’s proposal establishes federal oversight standards for stablecoin issuers while explicitly excluding tokens from deposit insurance protections.",
     "published_at": "2026-04-07T20:25:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -256,7 +298,7 @@
     "snippet": "The FDIC proposed a rule to establish a regulatory framework for stablecoin issuers and is seeking public input.",
     "published_at": "2026-04-07T18:56:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -294,40 +336,44 @@
     ]
   },
   {
-    "id": "5f5853ecdc9070287e7997db8b7ef0b6fbaa5bd01ea71180366c690ccaf2209e",
+    "id": "016c3f2e55764abf4109e5e7de3ab5295b03d7fbd6c078f1a726bb3473e27266",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Stablecoin issuers get closer to U.S. federal rules with FDIC's new proposal",
-    "url": "https://www.coindesk.com/policy/2026/04/07/stablecoin-issuers-get-closer-to-u-s-federal-rules-with-fdic-s-new-proposal",
-    "canonical_url": "https://coindesk.com/policy/2026/04/07/stablecoin-issuers-get-closer-to-u-s-federal-rules-with-fdic-s-new-proposal",
-    "snippet": "",
-    "published_at": "2026-04-07T18:21:08+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Circle Launches CPN Managed Payments, a Full-Stack Platform for Seamless Stablecoin Settlement - Business Wire",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdTBtU3VoT1hna0R0ek43QnhJTmFLVlAxTG5zQmViUUtkaDZvMzNoQlZOckRBREdGMGEyVkhmMzI4QWdZMUdhQ21jNFp4bXNhTkFlV1NfTEZlLUZWVm1zQTd3REVIN0dtNGN6ajYwbFh4b0tBMUZtMWRESmFxUmJicDFpTGFVdGxiUEcza3JNNE5JYm9GZHE1WU1ibUdMUjFJMlNEYW1HS2owcGNuOG9YS0h4WktyUmJ0YnBYcFpubk94bjVtTGJDQ2Rab2R3UDlHSFdGNEQ4cnBrbjR6RW9RaUFuYWY?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNdTBtU3VoT1hna0R0ek43QnhJTmFLVlAxTG5zQmViUUtkaDZvMzNoQlZOckRBREdGMGEyVkhmMzI4QWdZMUdhQ21jNFp4bXNhTkFlV1NfTEZlLUZWVm1zQTd3REVIN0dtNGN6ajYwbFh4b0tBMUZtMWRESmFxUmJicDFpTGFVdGxiUEcza3JNNE5JYm9GZHE1WU1ibUdMUjFJMlNEYW1HS2owcGNuOG9YS0h4WktyUmJ0YnBYcFpubk94bjVtTGJDQ2Rab2R3UDlHSFdGNEQ4cnBrbjR6RW9RaUFuYWY?oc=5",
+    "snippet": "Circle Launches CPN Managed Payments, a Full-Stack Platform for Seamless Stablecoin Settlement Business Wire",
+    "published_at": "2026-04-08T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "stablecoin",
+      "Circle",
+      "settlement",
+      "launches"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "ef91d3f5-0107-4b00-823d-4b0858a25cee",
+      "id": "CBMi5AFBVV95cUxNdTBtU3VoT1hna0R0ek43QnhJTmFLVlAxTG5zQmViUUtkaDZvMzNoQlZOckRBREdGMGEyVkhmMzI4QWdZMUdhQ21jNFp4bXNhTkFlV1NfTEZlLUZWVm1zQTd3REVIN0dtNGN6ajYwbFh4b0tBMUZtMWRESmFxUmJicDFpTGFVdGxiUEcza3JNNE5JYm9GZHE1WU1ibUdMUjFJMlNEYW1HS2owcGNuOG9YS0h4WktyUmJ0YnBYcFpubk94bjVtTGJDQ2Rab2R3UDlHSFdGNEQ4cnBrbjR6RW9RaUFuYWY",
       "guidislink": false
     },
-    "score": 74,
+    "score": 55,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
+      "tier1": 1,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
+      "launch_score": 35,
+      "institution_bonus": 10,
       "financial_bonus": 0,
-      "regulatory_bonus": 40,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -351,7 +397,7 @@
     "snippet": "Standard Chartered reportedly plans to integrate Zodia Custody's crypto custody business into its corporate bank division",
     "published_at": "2026-04-08T13:26:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -396,7 +442,7 @@
     "snippet": "Morgan Stanley Launches MSBT, the First Spot Bitcoin ETF From a Major U.S. Bank unchainedcrypto.com",
     "published_at": "2026-04-08T11:06:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -405,55 +451,6 @@
     ],
     "raw": {
       "id": "CBMiqgFBVV95cUxPaDRzT19Db0FHcGFMUWI4T2JlS3pGQUR6QnlPaTVuQk1hdEVZMWhKOThOVFRHMGtyNWtSMXNjUUZSMlBMVGhpZXlWNVlpeG1NamVPemJ0dUNpR3FacFItcmpCbGItNVBncGZNSEdaQzl3OXl2WndIQWhqRXoyemdHTmktYUlhc1l4c1dBMTQ2T3hIZVpHSWhwN1dLYmR0RDJibFNKTEp3cEhsZw",
-      "guidislink": false
-    },
-    "score": 55,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "c5dddbabe226fa9f048bfd682e65f1df357f454fc63ffa786510dca9a83ae264",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "UBS, Sygnum, PostFinance join banks in Swiss franc stablecoin sandbox",
-    "url": "https://www.theblock.co/post/396650/swiss-franc-stablecoin-sandbox?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/396650/swiss-franc-stablecoin-sandbox",
-    "snippet": "Seven financial institutions launched sandbox testing regulated Swiss franc stablecoin, running through 2026 as stablecoin usage accelerates globally.",
-    "published_at": "2026-04-08T08:33:48+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "launched"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/396650",
       "guidislink": false
     },
     "score": 55,
@@ -492,7 +489,7 @@
     "snippet": "Stablecoins have reached a market cap of $312 billion — a 60-fold increase since 2020 — and now facilitate $33 trillion in annual transaction volume, according to a report from Morph.",
     "published_at": "2026-04-08T02:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -527,37 +524,86 @@
     ]
   },
   {
-    "id": "35644f515c094da18d29b6fe4171c6610019c2faba45e9f50ec3f40e1787c1eb",
+    "id": "c5dddbabe226fa9f048bfd682e65f1df357f454fc63ffa786510dca9a83ae264",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Stablecoin startup Inxy raises $4 million",
-    "url": "https://www.finextra.com/pressarticle/109383/stablecoin-startup-inxy-raises-4-million?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/109383/stablecoin-startup-inxy-raises-4-million",
-    "snippet": "INXY has raised $4 million in a new funding round led by Flashpoint, following a $3 million raise in 2025, bringing its total seed funding to $7 million.",
-    "published_at": "2026-04-07T16:34:00+00:00",
+    "feed_name": "theblock",
+    "title": "UBS, Sygnum, PostFinance join banks in Swiss franc stablecoin sandbox",
+    "url": "https://www.theblock.co/post/396650/swiss-franc-stablecoin-sandbox?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/396650/swiss-franc-stablecoin-sandbox",
+    "snippet": "Seven financial institutions launched sandbox testing regulated Swiss franc stablecoin, running through 2026 as stablecoin usage accelerates globally.",
+    "published_at": "2026-04-08T08:33:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "stablecoin",
+      "launched"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/109383/stablecoin-startup-inxy-raises-4-million?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "https://www.theblock.co/post/396650",
       "guidislink": false
     },
-    "score": 54,
+    "score": 49,
     "score_breakdown": {
-      "tier1": 2,
+      "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 50,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b68f3144f512ae8bf98afbe3599f9d78a4f916874dd6c8193a50d691d5dedecf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Canton Network powers real-time collateral movement with Transcend",
+    "url": "https://www.finextra.com/pressarticle/109399/canton-network-powers-real-time-collateral-movement-with-transcend?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/109399/canton-network-powers-real-time-collateral-movement-with-transcend",
+    "snippet": "Transcend, a leader in collateral and liquidity optimization technology, announced it has connected to the Canton Network to enable real-time mobility of tokenized assets.",
+    "published_at": "2026-04-08T16:06:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/109399/canton-network-powers-real-time-collateral-movement-with-transcend?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -584,7 +630,7 @@
     "snippet": "Tokenization: Republic Talks To SEC Regarding Secondary Markets, Innovation Exemption Crowdfund Insider",
     "published_at": "2026-04-07T18:04:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -631,7 +677,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -682,7 +728,7 @@
     "snippet": "By partnering with Libeara, GSR is positioning itself as a full-service, end-to-end, global digital asset and RWA capital markets partner.",
     "published_at": "2026-04-07T23:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "tokenization",
       "RWA",
@@ -732,7 +778,7 @@
     "snippet": "White House economists say a stablecoin rewards ban would not meaningfully impact community banks. In a report issued Wednesday (April 8), the Council of Economic Advisers (CEA) addresses an issue that has held up pending cryptocurrency legislation: the idea that cryptocurrency platforms that offer ",
     "published_at": "2026-04-08T13:07:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -779,7 +825,7 @@
     "snippet": "",
     "published_at": "2026-04-08T08:43:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "unveils"
     ],
@@ -797,7 +843,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -816,41 +862,39 @@
     ]
   },
   {
-    "id": "1e827e1e436352517c833d25b67298927aa6594ae58d6730a352d86b839e89e3",
+    "id": "89201203978d7c2029b29eb3994305830ab83a8f1e61b04cc01d6d00cd95f24d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "CME Set to Launch Avalanche, Sui Futures Ahead of 24/7 Crypto Derivatives Trading Shift",
-    "url": "https://decrypt.co/363498/cme-avalanche-sui-futures-247-crypto-derivatives-shift",
-    "canonical_url": "https://decrypt.co/363498/cme-avalanche-sui-futures-247-crypto-derivatives-shift",
-    "snippet": "CME Group is adding to its list of crypto derivatives contracts, expanding to include Avalanche and Sui in early May.",
-    "published_at": "2026-04-07T14:42:59+00:00",
+    "feed_name": "coindesk",
+    "title": "Standard Chartered is looking to take over crypto custody provider Zodia: Bloomberg",
+    "url": "https://www.coindesk.com/business/2026/04/08/standard-chartered-is-looking-to-take-over-crypto-custody-provider-zodia-bloomberg",
+    "canonical_url": "https://coindesk.com/business/2026/04/08/standard-chartered-is-looking-to-take-over-crypto-custody-provider-zodia-bloomberg",
+    "snippet": "",
+    "published_at": "2026-04-08T14:56:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
-      "launch"
+      "custody"
     ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
+    "matched_topics": [],
     "raw": {
-      "id": "https://decrypt.co/?p=363498",
+      "id": "514af5a0-af6e-4f5b-b34f-314cdbd316a7",
       "guidislink": false
     },
-    "score": 35,
+    "score": 30,
     "score_breakdown": {
-      "tier1": 2,
+      "tier1": 0,
       "tier2": 0,
-      "commentary": 1,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -20,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -863,38 +907,37 @@
     ]
   },
   {
-    "id": "5950c28526f55aee60d7a7e953a67f6eca69f285111c41b16ef23d3875f51e69",
+    "id": "0183b4befe07080cd0c42007729e53f5aee0bd5e2b99d45828f636d1aec1fd14",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "Are Stablecoins and Tokenization Becoming a Threat to Banks like JPMorgan? - Techloy",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzZZWVdzNW1DY2ZhWDRlQXJVa1NKd2xmUVZoWTVUc1FabTZ4QnhjZHFBTGdtQkR4d1FkWmRjNHMwTDVpc3dleF9ZcDlsMFNFY0x5RTRCaGc1T1hwNERhWEwtTExNTXpuZWs0VE14X290eklnQThpOGJITl9ud3RHcVFkakVyUVpWY1I5TkVLODFJM2NwMFJvTlYwcjJPMW8?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZzZZWVdzNW1DY2ZhWDRlQXJVa1NKd2xmUVZoWTVUc1FabTZ4QnhjZHFBTGdtQkR4d1FkWmRjNHMwTDVpc3dleF9ZcDlsMFNFY0x5RTRCaGc1T1hwNERhWEwtTExNTXpuZWs0VE14X290eklnQThpOGJITl9ud3RHcVFkakVyUVpWY1I5TkVLODFJM2NwMFJvTlYwcjJPMW8?oc=5",
-    "snippet": "Are Stablecoins and Tokenization Becoming a Threat to Banks like JPMorgan? Techloy",
-    "published_at": "2026-04-07T14:43:48+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Standard Chartered mulls folding parts of Zodia Custody in-house: Bloomberg",
+    "url": "https://cointelegraph.com/news/standard-chartered-mulls-folding-parts-of-zodia-custody-in-house-bloomberg?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/standard-chartered-mulls-folding-parts-of-zodia-custody-in-house-bloomberg",
+    "snippet": "Standard Chartered is reportedly exploring a shake-up of Zodia Custody that would bring parts of the crypto custodian inside its own investment bank.",
+    "published_at": "2026-04-08T13:56:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
-      "tokenization"
+      "custody"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMinwFBVV95cUxQZzZZWVdzNW1DY2ZhWDRlQXJVa1NKd2xmUVZoWTVUc1FabTZ4QnhjZHFBTGdtQkR4d1FkWmRjNHMwTDVpc3dleF9ZcDlsMFNFY0x5RTRCaGc1T1hwNERhWEwtTExNTXpuZWs0VE14X290eklnQThpOGJITl9ud3RHcVFkakVyUVpWY1I5TkVLODFJM2NwMFJvTlYwcjJPMW8",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/standard-chartered-mulls-folding-parts-of-zodia-custody-in-house-bloomberg",
+      "guidislink": true
     },
-    "score": 34,
+    "score": 30,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 0,
       "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -921,7 +964,7 @@
     "snippet": "White House economists say stablecoin rewards are unlikely to materially weaken bank lending, countering warnings of trillion-dollar outflows.",
     "published_at": "2026-04-08T12:35:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -968,7 +1011,7 @@
     "snippet": "The draft proposal from South Korea’s ruling party reportedly bars stablecoin interest and calls for technical standards to ensure interoperability across blockchain networks.",
     "published_at": "2026-04-08T11:34:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1016,7 +1059,7 @@
     "snippet": "South Korea’s ruling party has also reportedly proposed banning yield on stablecoins, amid ongoing debate in the U.S.",
     "published_at": "2026-04-08T09:46:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption",
@@ -1062,7 +1105,7 @@
     "snippet": "Ethereum could see $850 billion in “new flows” by 2030 if the trend continues, according to Token Terminal.",
     "published_at": "2026-04-08T06:21:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1109,7 +1152,7 @@
     "snippet": "Leading tokenization firm Securitize was recently named as the first digital transfer agent in the NYSE’s onchain securities initiative.",
     "published_at": "2026-04-08T13:00:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1146,17 +1189,17 @@
     ]
   },
   {
-    "id": "9c8f2c55468293c7e5b03923b88873dbb92766e2adff94d2fd163c087e7ee574",
+    "id": "e462295821c8dcb7bff29bbaaae2468a60e842c92fcec7da4fa40ce2323effb8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "institutional_crypto_banks",
-    "title": "Standard Chartered May Fold Zodia’s Crypto Custody Into Its Bank - Finimize",
+    "title": "Standard Chartered May Fold Zodia’s Crypto Custody Into Its Bank - finimize.com",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkVsT1Y5VnNKTW9PVi05TXdZRWdPYkRYLWNyTHFvUG9Qb2drNzA4bFBjYS1PS1dQLWVQdlBScGFQdnpHa2hHdmVGNHI4QzZNRVZEWjJtZU5pSTRvWWdNbHduRWU3TzQwUFdpYWszOXRNMWJFcVRzV21OdTJjRm1CN3pVcG1WMVdTcEt2X0ZZY2lWbVM2TE53?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdkVsT1Y5VnNKTW9PVi05TXdZRWdPYkRYLWNyTHFvUG9Qb2drNzA4bFBjYS1PS1dQLWVQdlBScGFQdnpHa2hHdmVGNHI4QzZNRVZEWjJtZU5pSTRvWWdNbHduRWU3TzQwUFdpYWszOXRNMWJFcVRzV21OdTJjRm1CN3pVcG1WMVdTcEt2X0ZZY2lWbVM2TE53?oc=5",
-    "snippet": "Standard Chartered May Fold Zodia’s Crypto Custody Into Its Bank Finimize",
+    "snippet": "Standard Chartered May Fold Zodia’s Crypto Custody Into Its Bank finimize.com",
     "published_at": "2026-04-08T12:31:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -1201,7 +1244,7 @@
     "snippet": "Is Bank of New York Mellon (BK) Quietly Becoming a Core Plumbing Provider for Tokenized Finance? Yahoo Finance",
     "published_at": "2026-04-07T23:09:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1238,6 +1281,53 @@
     ]
   },
   {
+    "id": "d8d7cc1e8630b0c558fbe3e10a3295bdd48abe7a8d3c4fea263bd1e8f92519dd",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "White House study bolsters crypto's stance in stablecoin yield fight against bankers",
+    "url": "https://www.coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers",
+    "canonical_url": "https://coindesk.com/policy/2026/04/08/white-house-study-bolsters-crypto-s-stance-in-stablecoin-yield-fight-against-bankers",
+    "snippet": "",
+    "published_at": "2026-04-08T14:14:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "1446c932-995f-456d-b195-a3442b6c97cf",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "f392de392de4cd6aca997da1c8eac544a239f5e72c08727d53c56da92f175238",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1248,7 +1338,7 @@
     "snippet": "A White House report found that banning stablecoin yield products would boost community bank lending by just 0.02%.",
     "published_at": "2026-04-08T12:54:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1295,7 +1385,7 @@
     "snippet": "White House economists say banning stablecoin yield would add little to bank lending while imposing significant costs on users.",
     "published_at": "2026-04-08T12:29:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1332,17 +1422,17 @@
     ]
   },
   {
-    "id": "63bb5de6af8225335c3030250e63f2c66022b1f0d2029f330344689c0f43829e",
+    "id": "fedc1d8c6e47c86a316c7bc79d946440e76213c2894123b1dff1cc4aea412d28",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "crypto_native_fintech_launches",
-    "title": "Paysafe adds crypto payments for US gaming - Electronic Payments International",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnlreHZUYTZqeWU5R01tX1hDOXUtM2dBdVZCVDVKekNfQ1ZzZFZPWFcxTU5ONHlTR19jMjFGRUhVX19UbDRWUjZVSG5TamR3QjRvU3V6ZWExSWIwMElfYlNlcVpCdUxBYkVPWS1GbEVVbzhHSjE4ZllwdzNvc3RmQUR4bnNmLV9sY00wOFRmMDk?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObnlreHZUYTZqeWU5R01tX1hDOXUtM2dBdVZCVDVKekNfQ1ZzZFZPWFcxTU5ONHlTR19jMjFGRUhVX19UbDRWUjZVSG5TamR3QjRvU3V6ZWExSWIwMElfYlNlcVpCdUxBYkVPWS1GbEVVbzhHSjE4ZllwdzNvc3RmQUR4bnNmLV9sY00wOFRmMDk?oc=5",
-    "snippet": "Paysafe adds crypto payments for US gaming Electronic Payments International",
-    "published_at": "2026-04-08T10:44:31+00:00",
+    "title": "Paysafe adds crypto payments for US gaming - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVTN3WWJvZG5jZlhueGgyMlZwaVFDaFBDQWl6ZmN6M29WU1BCX2VkZDF2c2xwOW12dWthMS1mUzFjd1lBNmF6bU8xaG1wb3dqR2RBTjRqdmk4ZVo2RVlfaDlnSUJVa2k0dkZwNi1ncGhGYnNpaXExMDl2NGRnT0lUOEZzM2JrSENadHpWSU9qa1QyQlduenhHaUs0eEo?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVTN3WWJvZG5jZlhueGgyMlZwaVFDaFBDQWl6ZmN6M29WU1BCX2VkZDF2c2xwOW12dWthMS1mUzFjd1lBNmF6bU8xaG1wb3dqR2RBTjRqdmk4ZVo2RVlfaDlnSUJVa2k0dkZwNi1ncGhGYnNpaXExMDl2NGRnT0lUOEZzM2JrSENadHpWSU9qa1QyQlduenhHaUs0eEo?oc=5",
+    "snippet": "Paysafe adds crypto payments for US gaming Yahoo Finance",
+    "published_at": "2026-04-08T11:21:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -1350,7 +1440,7 @@
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMikAFBVV95cUxObnlreHZUYTZqeWU5R01tX1hDOXUtM2dBdVZCVDVKekNfQ1ZzZFZPWFcxTU5ONHlTR19jMjFGRUhVX19UbDRWUjZVSG5TamR3QjRvU3V6ZWExSWIwMElfYlNlcVpCdUxBYkVPWS1GbEVVbzhHSjE4ZllwdzNvc3RmQUR4bnNmLV9sY00wOFRmMDk",
+      "id": "CBMinAFBVV95cUxPVTN3WWJvZG5jZlhueGgyMlZwaVFDaFBDQWl6ZmN6M29WU1BCX2VkZDF2c2xwOW12dWthMS1mUzFjd1lBNmF6bU8xaG1wb3dqR2RBTjRqdmk4ZVo2RVlfaDlnSUJVa2k0dkZwNi1ncGhGYnNpaXExMDl2NGRnT0lUOEZzM2JrSENadHpWSU9qa1QyQlduenhHaUs0eEo",
       "guidislink": false
     },
     "score": 10,
@@ -1389,7 +1479,7 @@
     "snippet": "Six Swiss banks are banding together to test a regulated Swiss franc stablecoin.",
     "published_at": "2026-04-08T10:36:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1436,7 +1526,7 @@
     "snippet": "Swiss banks to test possible uses for Swiss franc stablecoin Reuters",
     "published_at": "2026-04-08T06:29:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1483,7 +1573,7 @@
     "snippet": "Paysafe Debuts Crypto Payments for US iGaming Operations PYMNTS.com",
     "published_at": "2026-04-07T16:19:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -1493,100 +1583,6 @@
     "raw": {
       "id": "CBMiogFBVV95cUxOZ2p6cWhRZnJaVFh0eFB6OUcxRVBXa2Y5aFZnT1pxWGV6cDgtd0ZCOGhWZXBCaEY3ZTlHZURWYkxoQ0J1b0RKRFh3dHFiVWxoZ0w1T0c2Q3VraDUxSEJhQnBrdlZTLXlyTXhfa2hCb24yUnN6LVQwVXBRMUNPV0NFSVItbTdtUUc1dHlwNThLX1lsajgtQmwxeUpCUEx1d3RSd3c",
       "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "5490a41d2bc10a6122e860fc33d9d5015704f813de544f7584654e67563e5c32",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "crypto_native_fintech_launches",
-    "title": "Lost Your Crypto Wallet? Here's the ONLY Way to Get It Back (Before It's Too Late) - International Business Times",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM242SjU2R2o1NnZQaWJqbm40eDhOZUQxMF82d3BFMFlyTXEwTUhFVTYweUxjMkktbGFoSnFFQkI5SnVNdExWaENmeHNwREZnOUZRT3drUUJEWmpfbWE5a1JpdjNaaDRYYWlXRzJKZkN0OHZiZC1zNDQ4WEZtUVczR25lQTYwT1JSeXFld0JoYUxtMjRXeTUyMmR5US1PdmFWT3ZRaQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM242SjU2R2o1NnZQaWJqbm40eDhOZUQxMF82d3BFMFlyTXEwTUhFVTYweUxjMkktbGFoSnFFQkI5SnVNdExWaENmeHNwREZnOUZRT3drUUJEWmpfbWE5a1JpdjNaaDRYYWlXRzJKZkN0OHZiZC1zNDQ4WEZtUVczR25lQTYwT1JSeXFld0JoYUxtMjRXeTUyMmR5US1PdmFWT3ZRaQ?oc=5",
-    "snippet": "Lost Your Crypto Wallet? Here's the ONLY Way to Get It Back (Before It's Too Late) International Business Times",
-    "published_at": "2026-04-07T15:17:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
-    "matched_keywords": [
-      "crypto wallet"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMipAFBVV95cUxQM242SjU2R2o1NnZQaWJqbm40eDhOZUQxMF82d3BFMFlyTXEwTUhFVTYweUxjMkktbGFoSnFFQkI5SnVNdExWaENmeHNwREZnOUZRT3drUUJEWmpfbWE5a1JpdjNaaDRYYWlXRzJKZkN0OHZiZC1zNDQ4WEZtUVczR25lQTYwT1JSeXFld0JoYUxtMjRXeTUyMmR5US1PdmFWT3ZRaQ",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "b89facbfc2c7aecf1f457187060381a2f14498d11cad062df0f8e42a80a7e9a4",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Split Capital winds down as founder joins stablecoin startup Plasma",
-    "url": "https://cointelegraph.com/news/split-capital-wind-down-founder-plasma-stablecoin-startup?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/split-capital-wind-down-founder-plasma-stablecoin-startup",
-    "snippet": "Split Capital founder Zaheer Ebtikar is closing his crypto hedge fund after strong returns to join Plasma as chief strategy officer, citing a major industry shift.",
-    "published_at": "2026-04-07T14:50:26+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/split-capital-wind-down-founder-plasma-stablecoin-startup",
-      "guidislink": true
     },
     "score": 4,
     "score_breakdown": {
@@ -1624,7 +1620,7 @@
     "snippet": "Crypto trades settle instantly, but at the cost of capital efficiency. This forces firms to overcollateralize and limits how far markets can scale, says Cosmos co-founder Ethan Buchman.",
     "published_at": "2026-04-08T13:40:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -1671,7 +1667,7 @@
     "snippet": "KBank Enables GrabPay QR Payments via Stablecoin Tech Asia Business Outlook",
     "published_at": "2026-04-08T02:57:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-08T13:59:15.159566+00:00",
+    "fetched_at": "2026-04-08T15:17:35.365044+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
