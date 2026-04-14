@@ -10,7 +10,7 @@
     "snippet": "The SEC is signaling openness to tokenization, encouraging firms to engage directly as it fine-tunes regulations.",
     "published_at": "2026-04-13T18:23:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized"
@@ -48,42 +48,88 @@
     ]
   },
   {
-    "id": "7acefa94c632a02e980751d5fea3ddc3bb2e4caad8a27a4a0e0f170e60e11088",
+    "id": "1aaa53d6b79e13adb38b4e62c933fb32571436e49c32fd3ab40e8896e5a07e13",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "ECB backs tokenized EU capital markets with strict guardrails",
-    "url": "https://cointelegraph.com/news/ecb-tokenized-eu-markets-central-bank-money-anchor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/ecb-tokenized-eu-markets-central-bank-money-anchor",
-    "snippet": "The European Central Bank said tokenization could improve EU capital markets, but only with central bank money, interoperable infrastructure and resilient regulation.",
-    "published_at": "2026-04-13T14:02:17+00:00",
+    "feed_name": "pymnts",
+    "title": "Kraken Lands $200 Million Investment From Deutsche Börse",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/kraken-lands-200-million-investment-from-deutsche-borse/",
+    "canonical_url": "https://pymnts.com/news/investment-tracker/2026/kraken-lands-200-million-investment-from-deutsche-borse/",
+    "snippet": "German stock exchange operator Deutsche Börse has invested $200 million in cryptocurrency exchange Kraken. The deal, announced Tuesday (April 15), gives Deutsche Börse a 1.5% stake in Kraken parent Payward and expands on an existing partnership between the two groups to combine traditional financial",
+    "published_at": "2026-04-14T13:27:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
-    "matched_keywords": [
-      "tokenization",
-      "tokenized"
-    ],
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/ecb-tokenized-eu-markets-central-bank-money-anchor",
-      "guidislink": true
+      "id": "https://www.pymnts.com/?p=3650901",
+      "guidislink": false
     },
-    "score": 84,
+    "score": 75,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 1,
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 40,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "1547d216d8551ba2e37308e1f39a069fa34e347ca046905568dd70baceca9ccd",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Paxos Labs raises $12 million, launches Amplify platform for onchain financial products",
+    "url": "https://www.theblock.co/post/397348/paxos-labs-raises-12-million-amplify-onchain-financial-products?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/397348/paxos-labs-raises-12-million-amplify-onchain-financial-products",
+    "snippet": "The round was led by Blockchain Capital, with participation from Robot Ventures, Arthur Hayes' family office Maelstrom, and Uniswap.",
+    "published_at": "2026-04-14T12:31:55+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [
+      "Paxos",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/397348",
+      "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 10,
       "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": -10,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -106,7 +152,7 @@
     "snippet": "The technology services provider said wealth managers have faced challenges integrating digital assets without relying on separate systems.",
     "published_at": "2026-04-13T21:51:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -143,6 +189,60 @@
     ]
   },
   {
+    "id": "500b3e55e1ea1a296099819542bb3f496aa9d599288d8ab38e24fb0051ed7f6c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Tether launches self-custodial wallet supporting USDT, bitcoin and tokenized gold",
+    "url": "https://www.theblock.co/post/397358/tether-launches-self-custodial-wallet-supporting-usdt-bitcoin-and-tokenized-gold?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/397358/tether-launches-self-custodial-wallet-supporting-usdt-bitcoin-and-tokenized-gold",
+    "snippet": "Tether has launched tether.wallet, a self-custodial crypto wallet supporting USDT, bitcoin, and tokenized gold.",
+    "published_at": "2026-04-14T12:41:12+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [
+      "crypto wallet",
+      "USDT",
+      "Tether",
+      "tokenized",
+      "launches",
+      "launched"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/397358",
+      "guidislink": false
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "b437e71e8e1e6a2aaecdfbd302c6b61b0476da3acd6ddeeda3e8e0e110d9efba",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -153,7 +253,7 @@
     "snippet": "Deutsche Börse has spent $200 million to buy a 1.5% fully diluted stake in crypto platform Kraken, deepening an existing strategic partnership between the two firms.",
     "published_at": "2026-04-14T11:08:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -198,7 +298,7 @@
     "snippet": "Bank of Korea nominee backs central bank-led digital currency, sees limited role for stablecoins CoinDesk",
     "published_at": "2026-04-14T10:03:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -233,6 +333,102 @@
     ]
   },
   {
+    "id": "fd3f8434535aa3ab701405a74941ee4112d22c3726a9434b130c04b6bf2d73be",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "JPMorgan CFO warns stablecoins risk becoming ‘regulatory arbitrage’ play",
+    "url": "https://www.coindesk.com/business/2026/04/14/jpmorgan-cfo-warns-stablecoins-risk-becoming-regulatory-arbitrage-play",
+    "canonical_url": "https://coindesk.com/business/2026/04/14/jpmorgan-cfo-warns-stablecoins-risk-becoming-regulatory-arbitrage-play",
+    "snippet": "",
+    "published_at": "2026-04-14T13:50:09+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "17ddd23c-7d4c-4b75-a881-bd9fbf7f13e1",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "bd9a1d67cc9a1dbce15dc9c5547b62faadbd7a94c668afbff5d9309b81179aed",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Tether introduces crypto wallet to bring stablecoin and bitcoin payments directly to users - CoinDesk",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVlRcUxxUmEteTMwTUwzZEk1R2hFZXgtSUstejFmUk0wT1JXNXZlTVRNLTVxN0tWeGZQSDhEbzdVbGFMcG9zVll0VG9TWFdrTGlqamRiM0FnRUlvWndWSzdNcmNEZkt4cC1vNGExYnQtcld5ZnNlVERfeS1XSHhxcjhWd0N0aEMya2xVcHc2cmV4ellBU3I2RE00M3RtMHQyWGNJbWh5RzZsdEo1Uzc0QzN4OVpRRmNsb2Jjdlc0YlVxcGJXY0h5MzAwQ0xJUU1E?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPOVlRcUxxUmEteTMwTUwzZEk1R2hFZXgtSUstejFmUk0wT1JXNXZlTVRNLTVxN0tWeGZQSDhEbzdVbGFMcG9zVll0VG9TWFdrTGlqamRiM0FnRUlvWndWSzdNcmNEZkt4cC1vNGExYnQtcld5ZnNlVERfeS1XSHhxcjhWd0N0aEMya2xVcHc2cmV4ellBU3I2RE00M3RtMHQyWGNJbWh5RzZsdEo1Uzc0QzN4OVpRRmNsb2Jjdlc0YlVxcGJXY0h5MzAwQ0xJUU1E?oc=5",
+    "snippet": "Tether introduces crypto wallet to bring stablecoin and bitcoin payments directly to users CoinDesk",
+    "published_at": "2026-04-14T12:38:40+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [
+      "crypto wallet",
+      "stablecoin",
+      "Tether",
+      "introduces"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMi0AFBVV95cUxPOVlRcUxxUmEteTMwTUwzZEk1R2hFZXgtSUstejFmUk0wT1JXNXZlTVRNLTVxN0tWeGZQSDhEbzdVbGFMcG9zVll0VG9TWFdrTGlqamRiM0FnRUlvWndWSzdNcmNEZkt4cC1vNGExYnQtcld5ZnNlVERfeS1XSHhxcjhWd0N0aEMya2xVcHc2cmV4ellBU3I2RE00M3RtMHQyWGNJbWh5RzZsdEo1Uzc0QzN4OVpRRmNsb2Jjdlc0YlVxcGJXY0h5MzAwQ0xJUU1E",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c41eef26dbf418beb2fff3ee8d22c797ca36d59557dab9acd40e2e10e02e3496",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -243,7 +439,7 @@
     "snippet": "Exclusive: Paxos Labs raises $12 million after startup spins off from veteran stablecoin issuer Fortune",
     "published_at": "2026-04-14T12:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos",
@@ -292,7 +488,7 @@
     "snippet": "Former CFTC Chair Chris Giancarlo has advised several firms since leaving public office, including Polymarket and Paxos.",
     "published_at": "2026-04-13T19:36:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "Paxos"
     ],
@@ -339,7 +535,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -390,7 +586,7 @@
     "snippet": "Visa, Stripe and Zodia by Standard Chartered are notable early additions for Tempo as it begins to build out its validator set.",
     "published_at": "2026-04-14T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -435,7 +631,7 @@
     "snippet": "HSBC Welcomes HKMA’s Grant of a Hong Kong Stablecoin Issuer Licence Fintech Finance",
     "published_at": "2026-04-14T09:04:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuer"
@@ -483,7 +679,7 @@
     "snippet": "The accelerator settled $500,000 in USDC funding on Solana for Totalis, marking its first all-stablecoin investment.",
     "published_at": "2026-04-14T03:56:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -521,6 +717,56 @@
     ]
   },
   {
+    "id": "224d0dbc26f2857c57dbaeed67cfa523f0bcad96ce03ee04d281f50476806161",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "American Express launches AI payment tool and explores stablecoin settlement scenarios - Bitget",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIZmZVWks5QXN1V01zUTV6OTNnLUhCd0pQYkpHcjdLZ1FTc3AwNzg4TF9lNERXUDlBSVp6NWVGelZEWXBZandnYlBiQ1NSZ3A2SEdZMFhKaE5xUXp1VlHSAWNBVV95cUxOMmhGeWxCZ0FPSDQxN1hSLWlIRVE5NlNTVkNoLVdER2hnUE5ma3dYRU9Rc3NxYV9vcWNEX0w2VUN3WElOb09xQ0ZOZWtUdUpYT0RSWEg1QWtJNkx3TlRmOHNoSzg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIZmZVWks5QXN1V01zUTV6OTNnLUhCd0pQYkpHcjdLZ1FTc3AwNzg4TF9lNERXUDlBSVp6NWVGelZEWXBZandnYlBiQ1NSZ3A2SEdZMFhKaE5xUXp1VlHSAWNBVV95cUxOMmhGeWxCZ0FPSDQxN1hSLWlIRVE5NlNTVkNoLVdER2hnUE5ma3dYRU9Rc3NxYV9vcWNEX0w2VUN3WElOb09xQ0ZOZWtUdUpYT0RSWEg1QWtJNkx3TlRmOHNoSzg?oc=5",
+    "snippet": "American Express launches AI payment tool and explores stablecoin settlement scenarios Bitget",
+    "published_at": "2026-04-13T21:27:29+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMiXkFVX3lxTFBIZmZVWks5QXN1V01zUTV6OTNnLUhCd0pQYkpHcjdLZ1FTc3AwNzg4TF9lNERXUDlBSVp6NWVGelZEWXBZandnYlBiQ1NSZ3A2SEdZMFhKaE5xUXp1VlHSAWNBVV95cUxOMmhGeWxCZ0FPSDQxN1hSLWlIRVE5NlNTVkNoLVdER2hnUE5ma3dYRU9Rc3NxYV9vcWNEX0w2VUN3WElOb09xQ0ZOZWtUdUpYT0RSWEg1QWtJNkx3TlRmOHNoSzg",
+      "guidislink": false
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c8408dbf920c8d91ba7c12f91deeed274c10ae6bc526b3fb076e5dc8b33fc2bb",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -531,7 +777,7 @@
     "snippet": "",
     "published_at": "2026-04-14T06:13:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -549,7 +795,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -578,7 +824,7 @@
     "snippet": "OneCoin was launched by Ruja Ignatova and Karl Sebastian Greenwood in Bulgaria. Ignatova has been missing since 2017, and Greenwood was sentenced to 20 years in prison.",
     "published_at": "2026-04-14T06:05:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -615,149 +861,6 @@
     ]
   },
   {
-    "id": "bc1232c9345419b16abd72cd9c6004194b636bc0eeb227d6295116ba7c95bbf5",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Crypto wallet firm Exodus sues W3C and its CEO Garth Howat, seeking to compel $175M acquisition",
-    "url": "https://www.coindesk.com/policy/2026/04/13/crypto-wallet-firm-exodus-sues-w3c-and-its-ceo-garth-howat-to-complete-usd175m-acquisition",
-    "canonical_url": "https://coindesk.com/policy/2026/04/13/crypto-wallet-firm-exodus-sues-w3c-and-its-ceo-garth-howat-to-complete-usd175m-acquisition",
-    "snippet": "",
-    "published_at": "2026-04-13T19:04:07+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
-    "matched_keywords": [
-      "crypto wallet"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "a7ef52c5-c53b-4b78-97ef-efb4170f5983",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "ba2fecbd2396870ba52f207033ffb715337ae27d147b3ad41d82cb94c960d67b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "HSBC Extends Tokenized Deposit Service to US Firms - PYMNTS.com",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3VBSW84ay1CUjZzQlRUb0RnZmpybjdlQ0NYM2I5eVJtdEVXOXpHNlVKTVdlQVZ2aHU3eFZEUGdjQUEyeW1pSDlFYVJ5VXd4YkVaLTZwb09QUkxOTS1XbkR5NGtwRXBzSHozSTA4WjhSeTN3V1RyNnk1X1M5WDVlR2k2UzFBZkF1enVnQ0pMcUJIU1VT?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3VBSW84ay1CUjZzQlRUb0RnZmpybjdlQ0NYM2I5eVJtdEVXOXpHNlVKTVdlQVZ2aHU3eFZEUGdjQUEyeW1pSDlFYVJ5VXd4YkVaLTZwb09QUkxOTS1XbkR5NGtwRXBzSHozSTA4WjhSeTN3V1RyNnk1X1M5WDVlR2k2UzFBZkF1enVnQ0pMcUJIU1VT?oc=5",
-    "snippet": "HSBC Extends Tokenized Deposit Service to US Firms PYMNTS.com",
-    "published_at": "2026-04-13T23:46:08+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
-    "matched_keywords": [
-      "tokenized deposit",
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "CBMilAFBVV95cUxOM3VBSW84ay1CUjZzQlRUb0RnZmpybjdlQ0NYM2I5eVJtdEVXOXpHNlVKTVdlQVZ2aHU3eFZEUGdjQUEyeW1pSDlFYVJ5VXd4YkVaLTZwb09QUkxOTS1XbkR5NGtwRXBzSHozSTA4WjhSeTN3V1RyNnk1X1M5WDVlR2k2UzFBZkF1enVnQ0pMcUJIU1VT",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "904cf81a44086d1d76f512f7015504af86b4c72a1a548b33dbd9bd12d37d2c63",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "U.S. SEC says software allowing crypto wallet transactions not considered broker",
-    "url": "https://www.coindesk.com/policy/2026/04/13/u-s-sec-says-software-allowing-crypto-wallet-transactions-aren-t-considered-brokers",
-    "canonical_url": "https://coindesk.com/policy/2026/04/13/u-s-sec-says-software-allowing-crypto-wallet-transactions-aren-t-considered-brokers",
-    "snippet": "",
-    "published_at": "2026-04-13T17:17:12+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
-    "matched_keywords": [
-      "crypto wallet"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "e828d1a6-7452-4ef3-8301-dcb6e765ecdf",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "ea369d7a3e8f4315b215b59dd980fcc233b5148d8beed4621aa87ed6d885fa47",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -768,7 +871,7 @@
     "snippet": "Nauru moves from building rules to promoting its digital asset framework as it looks to attract companies and cross-border partnerships.",
     "published_at": "2026-04-14T10:07:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -816,7 +919,7 @@
     "snippet": "Crypto-related stocks closed higher on Monday, with Circle jumping 12%, Bullish rising 7.5%, and Coinbase gaining 3.9%.",
     "published_at": "2026-04-14T05:43:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -863,7 +966,7 @@
     "snippet": "Circle’s Allaire says USDC freezes require legal orders amid rising criticism CoinDesk",
     "published_at": "2026-04-13T15:43:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -873,54 +976,6 @@
     ],
     "raw": {
       "id": "CBMi2wFBVV95cUxPQ3VRYVZhVDliUFVBVEFBem1Sb2ZJSGt4Wk9TT3hZNDNvUU5LSGRzZ0FnNGlORXJER3pHdS1lT09raVBxTFAtLWJOVmFWX1VqTXQ1a3hDSUdVSGt1NGRMRlU5d0N1SlFCN0xPaGpzc21GRTdtOXBQTldmM3B0MjRBd2k0d1RsSUt3Y0JyVEJJSEtCUDVUTkRnUEFjUmxsWXUyV3hzYjcxaHUwQXcxQ2R6MEFvLXduU25KeW1OQzdRazd4Mkk1TmhaMk91SnhiOEtmVjdUa2NuY1gtWUk",
-      "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6c7f537e675d25a9fa70306947899a926fbc9413e47b4f736371bfb5f1d9015a",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Circle CEO says he won’t freeze USDC without a court order even as hackers walk away with millions",
-    "url": "https://www.coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
-    "canonical_url": "https://coindesk.com/business/2026/04/13/circle-ceo-says-he-won-t-freeze-usdc-without-a-court-order-even-as-hackers-walk-away-with-millions",
-    "snippet": "",
-    "published_at": "2026-04-13T15:37:58+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "4bf7122a-72a9-47db-b498-6b35f90c6899",
       "guidislink": false
     },
     "score": 24,
@@ -959,7 +1014,7 @@
     "snippet": "The SEC said certain user interfaces that allow users to transact and use their crypto wallets may not need to register as broker-dealer.",
     "published_at": "2026-04-13T14:19:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1006,7 +1061,7 @@
     "snippet": "The collaboration aims to bring regulated custody and staking for JitoSOL to South Korea as institutions prepare for new crypto rules.",
     "published_at": "2026-04-13T17:26:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -1051,7 +1106,7 @@
     "snippet": "The arrest of an alleged cryptocurrency-fuelled “revenge agency” chief fails to halt a market for on-demand violence, with operators still soliciting clients.",
     "published_at": "2026-04-13T16:17:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -1088,6 +1143,53 @@
     ]
   },
   {
+    "id": "f9ac51b06f67279e754f8a90c826240a46d4c34cfc3226c8d0ebeb0d0bd068fa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "X product chief Nikita Bier teases a crypto ‘fix’ amid market slump",
+    "url": "https://cointelegraph.com/news/x-product-chief-nikita-bier-fix-crypto-market-slump?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/x-product-chief-nikita-bier-fix-crypto-market-slump",
+    "snippet": "X product chief Nikita Bier teases a crypto “fix” product as speculation grows around an X Money rollout this month, a potential Bitcoin revival and Bier’s Solana ties.",
+    "published_at": "2026-04-14T13:06:06+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
+    "matched_keywords": [
+      "rollout"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/x-product-chief-nikita-bier-fix-crypto-market-slump",
+      "guidislink": true
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c8a73d171d9abfdb15afd7d6e2de89833aaedfe1926ff1e5a4d06bf660a351f8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1098,7 +1200,7 @@
     "snippet": "US Moves to Make Stablecoin Payments Tax Free Coinfomania",
     "published_at": "2026-04-14T07:39:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1111,14 +1213,14 @@
       "id": "CBMiekFVX3lxTE1Od040V0lCdUp6eTRudjdRbWIzU2xLbFJYVTZYWWQ4bzRYdDNqbjhlRmZqY2tQTEplVkNkbkpYeTliSHFCOGNCZ1FobXM3d3M5Yzk3a3RfWGVRSUZIVnRfN3AybU90Y0VOSWhocWhTN0c0ckthbmJDb0xn",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1147,7 +1249,7 @@
     "snippet": "Banks have been strongly pushing back against allowing crypto firms to pay rewards on idle stablecoin balances.",
     "published_at": "2026-04-14T06:17:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1158,14 +1260,14 @@
       "id": "https://www.theblock.co/post/397314",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1194,7 +1296,7 @@
     "snippet": "The American Bankers Association is concerned that stablecoin yields would lead to mass deposit outflows from smaller community banks.",
     "published_at": "2026-04-14T05:02:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1241,7 +1343,7 @@
     "snippet": "Shares of Coinbase stock remain roughly 60% below their July 2025 peak of $445, even after a rebound in March.",
     "published_at": "2026-04-13T15:38:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-14T12:10:16.785161+00:00",
+    "fetched_at": "2026-04-14T14:11:02.152684+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
