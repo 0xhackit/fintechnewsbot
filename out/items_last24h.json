@@ -10,7 +10,7 @@
     "snippet": "SEC Chair Paul Atkins says the SEC is “on the cusp” of an innovation exemption to enable compliant onchain trading of tokenized securities.",
     "published_at": "2026-04-22T12:29:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -57,7 +57,7 @@
     "snippet": "The Shariah-compliant stablecoin backed by Gulf currencies expands to a new Layer 2 network aimed at institutional settlement in the Middle East.",
     "published_at": "2026-04-22T21:11:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -69,65 +69,17 @@
       "id": "https://cointelegraph.com/news/pusd-stablecoin-deploys-on-adi-chain-targeting-3t-islamic-finance-market",
       "guidislink": true
     },
-    "score": 70,
+    "score": 64,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 2,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 45,
       "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "0892cd62df03824f13db4e2191f88bcbd68ee51a1602bd6c8e2f2fbf17541a72",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Banking group asks for more time to comment on US stablecoin bill",
-    "url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
-    "snippet": "The letter to four US government agencies said banks needed 60 more days for comment after OCC stablecoin rulemaking had been finalized.",
-    "published_at": "2026-04-22T20:32:17+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
-    "matched_keywords": [
-      "stablecoin bill",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
-      "guidislink": true
-    },
-    "score": 55,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
       "commentary_penalty": 0,
@@ -153,7 +105,7 @@
     "snippet": "Infinite is introducing bank accounts that support traditional and crypto services like ACH, wire and stablecoin transfers.",
     "published_at": "2026-04-22T12:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -190,6 +142,54 @@
     ]
   },
   {
+    "id": "0892cd62df03824f13db4e2191f88bcbd68ee51a1602bd6c8e2f2fbf17541a72",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Banking group asks for more time to comment on US stablecoin bill",
+    "url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
+    "snippet": "The letter to four US government agencies said banks needed 60 more days for comment after OCC stablecoin rulemaking had been finalized.",
+    "published_at": "2026-04-22T20:32:17+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
+    "matched_keywords": [
+      "stablecoin bill",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
+      "guidislink": true
+    },
+    "score": 49,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "11d06d701aaf52aef5e1b6c25a015512202ca48b91793ca33b0beebcfe54c2f3",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -200,7 +200,7 @@
     "snippet": "Nium integrates Coinbase to support USDC payments Electronic Payments International",
     "published_at": "2026-04-22T11:55:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -247,7 +247,7 @@
     "snippet": "",
     "published_at": "2026-04-22T09:46:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -284,57 +284,6 @@
     ]
   },
   {
-    "id": "abdeff9ba03242c7aec4372ccc7a2ced107e1ce4e8d5309e4747c23661d7848f",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "Kaia’s KIP Launches Tokenized Private Credit Fund Yield8 to Tap Asia RWA Market - bloomingbit",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GV1hwczAwTnB6Q1c2a2Z1b1VQMmdoLXYxN0dmeHAxbC1ZeWk1al9xNEdZYWZ2Wk5TTmRvM0ltclVFajVBbGUwaW1oXzdkOV93b0hqSg?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GV1hwczAwTnB6Q1c2a2Z1b1VQMmdoLXYxN0dmeHAxbC1ZeWk1al9xNEdZYWZ2Wk5TTmRvM0ltclVFajVBbGUwaW1oXzdkOV93b0hqSg?oc=5",
-    "snippet": "Kaia’s KIP Launches Tokenized Private Credit Fund Yield8 to Tap Asia RWA Market bloomingbit",
-    "published_at": "2026-04-22T02:11:17+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
-    "matched_keywords": [
-      "private credit",
-      "tokenized",
-      "RWA",
-      "launches"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiVEFVX3lxTE5GV1hwczAwTnB6Q1c2a2Z1b1VQMmdoLXYxN0dmeHAxbC1ZeWk1al9xNEdZYWZ2Wk5TTmRvM0ltclVFajVBbGUwaW1oXzdkOV93b0hqSg",
-      "guidislink": false
-    },
-    "score": 39,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "3bf889a12301a062bbffe29fce3c97f8f84e9a866ab5285bddafbfea99b7615e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -345,7 +294,7 @@
     "snippet": "Crypto means a lot of things to merchants and payment service providers (PSPs). But for the first time, it might actually mean opportunity. With MoneyGram launching its stablecoin wallet in El Salvador Wednesday (April 22) as the start of a broader Latin American rollout, and DoorDash on Tuesday (Ap",
     "published_at": "2026-04-22T23:37:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "crypto payments",
       "stablecoin",
@@ -395,7 +344,7 @@
     "snippet": "Crypto market maker GSR has launched an actively managed ETF on the Nasdaq that includes Bitcoin, Ethereum, and Solana.",
     "published_at": "2026-04-22T15:47:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "launches",
       "launched"
@@ -443,7 +392,7 @@
     "snippet": "",
     "published_at": "2026-04-22T14:33:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -490,7 +439,7 @@
     "snippet": "Infinite Launches Dedicated Bank Accounts for Embedded Stablecoin and Fiat Payments | Corporate EQS News",
     "published_at": "2026-04-22T12:39:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin",
       "launches"
@@ -539,7 +488,7 @@
     "snippet": "\"A creator earns 1.5% of all of the volume in the market as a fee when the market successfully settles,\" said Gensyn's Ben Fielding.",
     "published_at": "2026-04-22T11:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -586,7 +535,7 @@
     "snippet": "These include a lack of CFTC commissioners, conflicts tied to World Liberty Financial, and concerns around Iran's use of crypto payments.",
     "published_at": "2026-04-22T17:21:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "crypto payments",
       "stablecoin"
@@ -635,7 +584,7 @@
     "snippet": "The legislation would license crypto exchanges and permit cross-border cryptocurrency use while maintaining domestic payment restrictions.",
     "published_at": "2026-04-22T15:26:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -682,7 +631,7 @@
     "snippet": "",
     "published_at": "2026-04-22T15:32:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -729,7 +678,7 @@
     "snippet": "Naval’s USVC Opens Private AI to Retail — and Quietly Tests the Tokenization Thesis Brave New Coin",
     "published_at": "2026-04-22T23:27:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -776,7 +725,7 @@
     "snippet": "Smaller crypto companies across Europe face mounting compliance costs as MiCA moves from framework to enforcement, raising fears of market consolidation.",
     "published_at": "2026-04-22T13:28:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -811,39 +760,39 @@
     ]
   },
   {
-    "id": "0b50731327e6962ab71610adac1117b618d48c04f1f9c633d90a3076b300290c",
+    "id": "7785b1b30ae905fd5584adee8241fc5375f8b578e9467c5f2ab753f6753c716a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Russia passes crypto bill in first reading; permits use in foreign trade settlements",
-    "url": "https://www.theblock.co/post/398402/russias-crypto-bill-first-reading?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/398402/russias-crypto-bill-first-reading",
-    "snippet": "The bill would prohibit the use of crypto for domestic payments but allow its use in foreign economic activities, according to TASS.",
-    "published_at": "2026-04-22T06:59:18+00:00",
+    "feed_name": "cointelegraph",
+    "title": "LONGITUDE recap: Adam Back on Satoshi, crypto regulation needs tweaks",
+    "url": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
+    "snippet": "Blockstream’s Adam Back discusses why people think he’s Satoshi Nakamoto, while the CEO of OKX Europe said MiCA is “extremely beneficial” for the industry at the latest LONGITUDE event in Paris.",
+    "published_at": "2026-04-23T00:30:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Stablecoin adoption"
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
+    "matched_keywords": [
+      "MiCA"
     ],
+    "matched_topics": [],
     "raw": {
-      "id": "https://www.theblock.co/post/398402",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
+      "guidislink": true
     },
-    "score": 19,
+    "score": 15,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
-      "commentary": 0,
+      "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 0,
+      "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
-      "commentary_penalty": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -866,7 +815,7 @@
     "snippet": "",
     "published_at": "2026-04-22T21:16:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -875,14 +824,14 @@
       "id": "https://www.dlnews.com/articles/regulation/uk-bets-on-stablecoins-to-drive-fintech-growth/",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -911,7 +860,7 @@
     "snippet": "",
     "published_at": "2026-04-22T16:23:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -959,7 +908,7 @@
     "snippet": "Anzens, Credit Bank Explore Stablecoin Banking In East Africa CIO Africa",
     "published_at": "2026-04-22T13:26:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1006,7 +955,7 @@
     "snippet": "Anzens and Credit Bank test stablecoin payments Africa Business Communities",
     "published_at": "2026-04-22T12:00:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1055,7 +1004,7 @@
     "snippet": "Country is facing pressure from its neighbours to share increased energy earnings to support Ukraine",
     "published_at": "2026-04-22T04:00:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1100,7 +1049,7 @@
     "snippet": "Zaheer explains why stablecoins, better UX, and focused execution are key to crypto’s next phase of adoption.",
     "published_at": "2026-04-22T19:23:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1109,14 +1058,14 @@
       "id": "https://www.theblock.co/post/398515",
       "guidislink": false
     },
-    "score": -10,
+    "score": -16,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1145,7 +1094,7 @@
     "snippet": "After months of negotiations over how a crypto bill should treat stablecoin rewards, a key negotiator says discussions are in a \"good spot.\"",
     "published_at": "2026-04-22T16:30:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T00:09:39.266182+00:00",
+    "fetched_at": "2026-04-23T03:45:29.250427+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
