@@ -1,39 +1,39 @@
 [
   {
-    "id": "f4c312977b60abf4a4354ab702df77a0e996f17ac1c851138fcdc25b1ab9a467",
+    "id": "2e60d9f1ed2a3dc2719c32acbc7995725679d896b37b16780a9a9f9e7f98bc63",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "PUSD stablecoin deploys on ADI Chain, targeting $3T Islamic finance market",
-    "url": "https://conpletus.cointelegraph.com/news/pusd-stablecoin-deploys-on-adi-chain-targeting-3t-islamic-finance-market?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://conpletus.cointelegraph.com/news/pusd-stablecoin-deploys-on-adi-chain-targeting-3t-islamic-finance-market",
-    "snippet": "The Shariah-compliant stablecoin backed by Gulf currencies expands to a new Layer-2 network aimed at institutional settlement in the Middle East.",
-    "published_at": "2026-04-22T22:11:15+00:00",
+    "feed_name": "theblock",
+    "title": "Tether freezes $344 million in USDT on Tron after wallets flagged by US authorities",
+    "url": "https://www.theblock.co/post/398599/tether-freezes-344-million-in-usdt-on-tron-after-wallets-flagged-by-u-s-authorities?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/398599/tether-freezes-344-million-in-usdt-on-tron-after-wallets-flagged-by-u-s-authorities",
+    "snippet": "Tether says it froze $344 million in USDT on Tron in coordination with OFAC and U.S. law enforcement, one of the largest freezes on record.",
+    "published_at": "2026-04-23T13:25:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "settlement"
+      "USDT",
+      "Tether"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://conpletus.cointelegraph.com/news/pusd-stablecoin-deploys-on-adi-chain-targeting-3t-islamic-finance-market",
-      "guidislink": true
+      "id": "https://www.theblock.co/post/398599",
+      "guidislink": false
     },
-    "score": 64,
+    "score": 65,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 2,
+      "tier1": 0,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 45,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 30,
       "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -58,7 +58,7 @@
     "snippet": "Plasma Stablecoin Product Launch in June 2025 Promises Revolutionary Crypto Payments Card and Cashback Bitcoin World",
     "published_at": "2026-04-23T10:50:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "crypto payments",
       "stablecoin",
@@ -98,17 +98,115 @@
     ]
   },
   {
-    "id": "c2379360c224519817f1086c1d8a19a154f661836732cecfd193edd7eef395d6",
+    "id": "1071ca6116d27b558221cc16d788803e6cb424ff98982b9ca6cc2794f01533aa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Tether freezes $344 million in USDT on Tron tied to 'illicit activity'",
+    "url": "https://www.coindesk.com/business/2026/04/23/tether-freezes-usd344-million-in-usdt-on-tron-tied-to-illicit-activity",
+    "canonical_url": "https://coindesk.com/business/2026/04/23/tether-freezes-usd344-million-in-usdt-on-tron-tied-to-illicit-activity",
+    "snippet": "",
+    "published_at": "2026-04-23T14:53:38+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
+    "matched_keywords": [
+      "USDT",
+      "Tether"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "aa87ab05-69d5-4b08-a7f1-7926b0b39914",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "62d7602ef90066de4dbd694c63b1397bcea87891d88608d88d95931f9f39dfcf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Tether Freezes $344 Million in USDT Stablecoins Flagged for Illicit Activity",
+    "url": "https://decrypt.co/365278/tether-freezes-344-million-usdt-stablecoins-flagged-illicit-activity",
+    "canonical_url": "https://decrypt.co/365278/tether-freezes-344-million-usdt-stablecoins-flagged-illicit-activity",
+    "snippet": "Stablecoin issuer Tether said it coordinated with U.S. authorities to implement one of its largest asset freezes on record.",
+    "published_at": "2026-04-23T14:50:16+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "USDT",
+      "Tether",
+      "issuer"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=365278",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "0892cd62df03824f13db4e2191f88bcbd68ee51a1602bd6c8e2f2fbf17541a72",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
     "title": "Banking group asks for more time to comment on US stablecoin bill",
-    "url": "https://conpletus.cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://conpletus.cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
+    "url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
     "snippet": "The letter to four US government agencies said banks needed 60 more days for comment after OCC stablecoin rulemaking had been finalized.",
     "published_at": "2026-04-22T21:32:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin bill",
       "stablecoin"
@@ -117,7 +215,7 @@
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://conpletus.cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
+      "id": "https://cointelegraph.com/news/banking-groups-ask-for-more-time-to-comment-on-genius-act-potentially-delaying-implementation",
       "guidislink": true
     },
     "score": 49,
@@ -146,25 +244,26 @@
     ]
   },
   {
-    "id": "46e6c078a3458b84b74794f88d66510f99c7ce822a94ee5222b7f7aae43a7acb",
+    "id": "d58a53745bd4947e95cd9c95ccdf7e8c69dc7ebde4d7155bb1b5dfbfe0906901",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Podcast: What Paxos CEO Charles Cascarilla Sees in 2026 That His 2015 Self Missed",
-    "url": "https://www.pymnts.com/blockchain/2026/podcast-what-paxos-ceo-charles-cascarilla-sees-in-2026-that-his-2015-self-missed/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/podcast-what-paxos-ceo-charles-cascarilla-sees-in-2026-that-his-2015-self-missed/",
-    "snippet": "Explore more conversations like this From the Block. What would Charles Cascarilla’s 2015 self make of where digital assets landed in 2026? It’s the kind of question that hangs over a conversation like the one PYMNTS CEO Karen Webster and Citi’s Ryan Rugg hosted on the latest episode of the “From th",
-    "published_at": "2026-04-23T08:00:19+00:00",
+    "feed_name": "theblock",
+    "title": "JPMorgan says DeFi exploits and stagnant TVL continue to limit institutional appeal",
+    "url": "https://www.theblock.co/post/398611/jpmorgan-defi-exploits-stagnant-tvl-limit-institutional-appeal?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/398611/jpmorgan-defi-exploits-stagnant-tvl-limit-institutional-appeal",
+    "snippet": "JPMorgan said persistent hacks appear to push investors toward Tether's USDT, as users move funds out of DeFi during stress.",
+    "published_at": "2026-04-23T14:57:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
-      "Paxos"
+      "USDT",
+      "Tether"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3674758",
+      "id": "https://www.theblock.co/post/398611",
       "guidislink": false
     },
     "score": 40,
@@ -193,17 +292,17 @@
     ]
   },
   {
-    "id": "10830de8703b10a423f321d25c56f6390893222a9b61c1063462ec0526d6e7f7",
+    "id": "b53904f1d17ec3d8b32ea80aeadb7dd0ea71c5b39aa836b2123739a316524d62",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
     "title": "Market maker GSR launches first ETF tracking Bitcoin, Ether and Solana",
-    "url": "https://conpletus.cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://conpletus.cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf",
+    "url": "https://cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf",
     "snippet": "The GSR Crypto Core3 ETF is GSR's first crypto exchange-traded product, giving investors access to the top three largest cryptocurrencies by market capitalization.",
     "published_at": "2026-04-23T05:46:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -211,7 +310,7 @@
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://conpletus.cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf",
+      "id": "https://cointelegraph.com/news/crypto-market-maker-gsr-launched-multi-asset-etf",
       "guidislink": true
     },
     "score": 35,
@@ -250,7 +349,7 @@
     "snippet": "Crypto market maker GSR has launched an actively managed ETF on the Nasdaq that includes Bitcoin, Ethereum, and Solana.",
     "published_at": "2026-04-22T15:47:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "launches",
       "launched"
@@ -288,38 +387,38 @@
     ]
   },
   {
-    "id": "7a7b4b20599ae4d02de5c03f0fdad6c28128fcc859e9cfdccfe998a1c97a9e35",
+    "id": "46e6c078a3458b84b74794f88d66510f99c7ce822a94ee5222b7f7aae43a7acb",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Crypto giant GSR launches its first ETF to give investors an easy way to bet on the big 3 tokens",
-    "url": "https://www.coindesk.com/markets/2026/04/21/crypto-giant-gsr-launches-its-first-etf-to-give-investors-an-easy-way-to-bet-on-the-big-3-tokens",
-    "canonical_url": "https://coindesk.com/markets/2026/04/21/crypto-giant-gsr-launches-its-first-etf-to-give-investors-an-easy-way-to-bet-on-the-big-3-tokens",
-    "snippet": "",
-    "published_at": "2026-04-22T14:33:12+00:00",
+    "feed_name": "pymnts",
+    "title": "Podcast: What Paxos CEO Charles Cascarilla Sees in 2026 That His 2015 Self Missed",
+    "url": "https://www.pymnts.com/blockchain/2026/podcast-what-paxos-ceo-charles-cascarilla-sees-in-2026-that-his-2015-self-missed/",
+    "canonical_url": "https://pymnts.com/blockchain/2026/podcast-what-paxos-ceo-charles-cascarilla-sees-in-2026-that-his-2015-self-missed/",
+    "snippet": "Explore more conversations like this From the Block. What would Charles Cascarilla’s 2015 self make of where digital assets landed in 2026? It’s the kind of question that hangs over a conversation like the one PYMNTS CEO Karen Webster and Citi’s Ryan Rugg hosted on the latest episode of the “From th",
+    "published_at": "2026-04-23T08:00:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
-      "launches"
+      "Paxos"
     ],
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "d9bc1137-29d1-4657-88f4-ba2a359176c8",
+      "id": "https://www.pymnts.com/?p=3674758",
       "guidislink": false
     },
-    "score": 35,
+    "score": 34,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -345,7 +444,7 @@
     "snippet": "These include a lack of CFTC commissioners, conflicts tied to World Liberty Financial, and concerns around Iran's use of crypto payments.",
     "published_at": "2026-04-22T17:21:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "crypto payments",
       "stablecoin"
@@ -384,6 +483,54 @@
     ]
   },
   {
+    "id": "31a35d341e4906b816a18252b2267bedf6d818aac7aee008e7ff6224711bbd10",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Circle chief economist floats higher USDC rates on Aave amid KelpDAO fallout",
+    "url": "https://www.theblock.co/post/398577/circle-chief-economist-floats-higher-usdc-rates-on-aave-amid-kelpdao-fallout?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/398577/circle-chief-economist-floats-higher-usdc-rates-on-aave-amid-kelpdao-fallout",
+    "snippet": "Circle Chief Economist Gordon Liao proposed raising USDC borrowing rates on Aave to ease post-KelpDAO liquidity strains.",
+    "published_at": "2026-04-23T12:30:23+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/398577",
+      "guidislink": false
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "4339544926cc1013a268c1a3580af3ece1f951b056639761a197367a8697f92c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -394,7 +541,7 @@
     "snippet": "The legislation would license crypto exchanges and permit cross-border cryptocurrency use while maintaining domestic payment restrictions.",
     "published_at": "2026-04-22T15:26:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -441,7 +588,7 @@
     "snippet": "The Payments Association Warns of Stablecoin Regulation Risk FinTech Magazine",
     "published_at": "2026-04-23T09:04:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -488,7 +635,7 @@
     "snippet": "Nium, Coinbase team up for global stablecoin payments and settlement TNGlobal",
     "published_at": "2026-04-23T01:51:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -528,53 +675,6 @@
     ]
   },
   {
-    "id": "ef7c87492614af71c5e0650e15babf750eabc4e4a9b5e582c88450b26da11821",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Bitcoin tops $79,000 as crypto rally gathers steam; Circle, Coinbase, Strategy lead",
-    "url": "https://www.coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead",
-    "canonical_url": "https://coindesk.com/markets/2026/04/22/bitcoin-tops-usd79-000-as-crypto-rally-gathers-steam-circle-coinbase-strategy-lead",
-    "snippet": "",
-    "published_at": "2026-04-22T15:32:42+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
-    "matched_keywords": [
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "67509712-0f29-456c-9174-0f83226541fe",
-      "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "b89ceac46fda63183688f6bd5d519ea6413a2870b5d01692004157e60d4f5eb7",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -585,7 +685,7 @@
     "snippet": "STABLECOINS | The Upcoming Bank-Backed Euro Stablecoin Selects FireBlocks as the Infrastructure and Compliance Provider BitKE",
     "published_at": "2026-04-23T04:00:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -632,7 +732,7 @@
     "snippet": "Naval’s USVC Opens Private AI to Retail — and Quietly Tests the Tokenization Thesis Brave New Coin",
     "published_at": "2026-04-22T23:27:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -669,23 +769,115 @@
     ]
   },
   {
-    "id": "512042e37da0cf89ac64f577acc667310b25de5dc19323153fe21d92bdeb995d",
+    "id": "2e5486c773f1570a55b42e4da705b7cf4589fec597823c3c55d7509d801c65fe",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Microsoft venture unit supports public rollout of AI builder for Base applications",
+    "url": "https://www.theblock.co/post/398614/microsoft-venture-unit-supports-public-rollout-ai-builder-base-applications?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/398614/microsoft-venture-unit-supports-public-rollout-ai-builder-base-applications",
+    "snippet": "Space and Time, the blockchain data solution supported by Microsoft, secures the data layer underneath Dreamspace.",
+    "published_at": "2026-04-23T14:49:53+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
+    "matched_keywords": [
+      "rollout"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/398614",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "c51adb33c853b9425c63bd101e5e2b75b44b203f1a62cbd358e2da9b533ee0e4",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "ft_markets",
+    "title": "Trump says US navy will ‘shoot and kill’ any boat laying mines in Strait of Hormuz",
+    "url": "https://www.ft.com/content/730f572b-edf7-4633-bdfd-1707f16d445b",
+    "canonical_url": "https://ft.com/content/730f572b-edf7-4633-bdfd-1707f16d445b",
+    "snippet": "Oil rises as Tehran and Washington battle for control of waterway",
+    "published_at": "2026-04-23T12:52:22+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "730f572b-edf7-4633-bdfd-1707f16d445b",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "7785b1b30ae905fd5584adee8241fc5375f8b578e9467c5f2ab753f6753c716a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
     "title": "LONGITUDE recap: Adam Back on Satoshi, crypto regulation needs tweaks",
-    "url": "https://conpletus.cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://conpletus.cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
+    "url": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
     "snippet": "Blockstream’s Adam Back discusses why people think he’s Satoshi Nakamoto, while the CEO of OKX Europe said MiCA is “extremely beneficial” for the industry at the latest LONGITUDE event in Paris.",
     "published_at": "2026-04-23T01:30:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "MiCA"
     ],
     "matched_topics": [],
     "raw": {
-      "id": "https://conpletus.cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
+      "id": "https://cointelegraph.com/news/longitude-recap-adam-back-on-satoshi-crypto-regulation-needs-tweaks",
       "guidislink": true
     },
     "score": 9,
@@ -724,7 +916,7 @@
     "snippet": "",
     "published_at": "2026-04-22T21:16:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -769,7 +961,7 @@
     "snippet": "",
     "published_at": "2026-04-22T16:23:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -817,7 +1009,7 @@
     "snippet": "The risk to US banks is real in theory but difficult to realise in practice",
     "published_at": "2026-04-23T11:25:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -864,7 +1056,7 @@
     "snippet": "Zaheer explains why stablecoins, better UX, and focused execution are key to crypto’s next phase of adoption.",
     "published_at": "2026-04-22T19:23:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -909,7 +1101,7 @@
     "snippet": "After months of negotiations over how a crypto bill should treat stablecoin rewards, a key negotiator says discussions are in a \"good spot.\"",
     "published_at": "2026-04-22T16:30:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-23T12:47:44.445866+00:00",
+    "fetched_at": "2026-04-23T15:01:02.315269+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
