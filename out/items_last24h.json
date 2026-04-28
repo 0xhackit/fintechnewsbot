@@ -10,7 +10,7 @@
     "snippet": "State Street said it plans to launch tokenized fund servicing from Luxembourg by the end of 2026, as firms predict a tokenization boom.",
     "published_at": "2026-04-28T13:33:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "tokenized fund",
       "tokenization",
@@ -61,7 +61,7 @@
     "snippet": "OKX integrates BlackRock’s tokenized Treasury fund into Standard Chartered custody, allowing institutions to use it as regulated trading collateral.",
     "published_at": "2026-04-28T11:03:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "tokenized treasury",
       "treasury fund",
@@ -75,57 +75,7 @@
       "id": "https://cointelegraph.com/news/okx-adds-blackrocks-tokenized-treasury-fund-standard-chartered",
       "guidislink": true
     },
-    "score": 85,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 40,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "0cd26a0c2040e4df47d218053698c3ebe3f83bd42a857888eae04da1569792d8",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "ledger_insights",
-    "title": "Singapore revisits bank prudential restrictions on permissionless blockchains",
-    "url": "https://www.ledgerinsights.com/singapore-revisits-bank-prudential-restrictions-on-permissionless-blockchains/",
-    "canonical_url": "https://ledgerinsights.com/singapore-revisits-bank-prudential-restrictions-on-permissionless-blockchains/",
-    "snippet": "The Monetary Authority of Singapore (MAS) has launched a new consultation on prudential rules for banks and cryptoassets, particularly around the use of permissionless blockchains for tokenized assets and stablecoins. The latest iteration provides lighter touch alternatives to crypto rules proposed ",
-    "published_at": "2026-04-27T16:38:37+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
-    "matched_keywords": [
-      "tokenized",
-      "launched"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://ledgerinsights.com/?p=42547",
-      "guidislink": false
-    },
-    "score": 84,
+    "score": 79,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
@@ -135,9 +85,9 @@
       "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
-      "institution_bonus": 30,
+      "institution_bonus": 40,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -161,7 +111,7 @@
     "snippet": "Block’s proof-of-reserves will enable anyone to verify the company’s 8,883 Bitcoin stash worth over $680 million through an on-chain signature.",
     "published_at": "2026-04-28T06:05:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "reserves",
       "unveils"
@@ -200,6 +150,55 @@
     ]
   },
   {
+    "id": "9cec64cd90ac5183fdcf2c08e547339c281b4b10b5651afcba0471c455b2b76b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "RWA yield platform Nuva, co-incubated by Animoca, raises $5.2 million in seed funding",
+    "url": "https://www.theblock.co/post/399222/rwa-yield-platform-nuva-animoca-seed-funding?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/399222/rwa-yield-platform-nuva-animoca-seed-funding",
+    "snippet": "Nuva is a marketplace for tokenized real-world assets that aims to help users earn yield by connecting issuers and users directly.",
+    "published_at": "2026-04-28T16:00:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "RWA"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/399222",
+      "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "b7acd017236691c39493ce693d6bbd2a1191bef77cc85342e13cf4ca8d1b0d04",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -210,7 +209,7 @@
     "snippet": "MiCA-Licensed Banking Circle Launches Stablecoin Settlement Services in Europe FinanceFeeds",
     "published_at": "2026-04-27T20:06:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -252,104 +251,6 @@
     ]
   },
   {
-    "id": "335b3b69723b262a46794ddd64c437b44fc72e03911af57dd3b00c6c5633e580",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Crypto Exchange Gemini Launches Agentic Trading Feature for AI Agents",
-    "url": "https://decrypt.co/365661/crypto-exchange-gemini-agentic-trading-feature-ai-agents",
-    "canonical_url": "https://decrypt.co/365661/crypto-exchange-gemini-agentic-trading-feature-ai-agents",
-    "snippet": "Gemini has integrated AI models like Claude and ChatGPT to execute automated trading strategies via an open protocol.",
-    "published_at": "2026-04-27T16:56:47+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
-    "matched_keywords": [
-      "launches"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=365661",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "1a08c75cb01d4b1ab5ea7ee3a433ebb5b5308d1ded61380d8248ce16190d72d3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Banking Circle Unveils Stablecoin Settlement After Landing Crypto License - PYMNTS.com",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHBrTVFENWEzNlQ4UU0ySUJJMUR1bjFidHlfV0pKZnBZZEVRdV9CRTBRNFVPV3o0UVhlR0M0OUN4VXhWdHhPSUVwTzZMNHRYNTVuLWh3d21oY002Y3NySnF4dU5sWWwySnJyTXZpQUJYRHVab1RId0pMZVQzQWN4cEFPS1dOVGlEWnJLQmlMc2VyTTZ6dU1Nb3VuSURqQm8zRl95LUtTZkhfSG12cjVOenV4MA?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHBrTVFENWEzNlQ4UU0ySUJJMUR1bjFidHlfV0pKZnBZZEVRdV9CRTBRNFVPV3o0UVhlR0M0OUN4VXhWdHhPSUVwTzZMNHRYNTVuLWh3d21oY002Y3NySnF4dU5sWWwySnJyTXZpQUJYRHVab1RId0pMZVQzQWN4cEFPS1dOVGlEWnJLQmlMc2VyTTZ6dU1Nb3VuSURqQm8zRl95LUtTZkhfSG12cjVOenV4MA?oc=5",
-    "snippet": "Banking Circle Unveils Stablecoin Settlement After Landing Crypto License PYMNTS.com",
-    "published_at": "2026-04-27T15:37:10+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "Circle",
-      "settlement",
-      "unveils"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiswFBVV95cUxORHBrTVFENWEzNlQ4UU0ySUJJMUR1bjFidHlfV0pKZnBZZEVRdV9CRTBRNFVPV3o0UVhlR0M0OUN4VXhWdHhPSUVwTzZMNHRYNTVuLWh3d21oY002Y3NySnF4dU5sWWwySnJyTXZpQUJYRHVab1RId0pMZVQzQWN4cEFPS1dOVGlEWnJLQmlMc2VyTTZ6dU1Nb3VuSURqQm8zRl95LUtTZkhfSG12cjVOenV4MA",
-      "guidislink": false
-    },
-    "score": 59,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 2,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 45,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "2fc900e2c387e83500ee667af296b9298d1fafbbfdb2e1681dae6b399cd7336a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -360,7 +261,7 @@
     "snippet": "Toku has integrated Paxos Labs’ Amplify platform, enabling employees to earn yield on their pay “the moment it lands.”",
     "published_at": "2026-04-28T13:01:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos"
@@ -398,42 +299,42 @@
     ]
   },
   {
-    "id": "0d941a18f6394aeff5dfa17fd956c7b48a570b584be8ade485c524b935bf7761",
+    "id": "3528d36a980c20fba25b27db1ed0b145e4069c4e229d41e7adeefb83ba0e06b1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Israeli regulators approve shekel-pegged stablecoin",
-    "url": "https://cointelegraph.com/news/israel-shekel-pegged-stablecoin-bils?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/israel-shekel-pegged-stablecoin-bils",
-    "snippet": "The approval of the BILS stablecoin issued by Israeli exchange Bits of Gold came after a two-year pilot program on the Solana blockchain.",
-    "published_at": "2026-04-27T22:45:00+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "New Stock Futures Listings: TXN USDT-M Futures to Launch on Apr 28 With 0-Fee Trading - MEXC",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzlIV3JwQ1RpTTZ4UFVhWlFqdXRoTE0zUW5odmJZRl9DNFVmZXlKejZNLWpyaXBvd0NfRjdrLUlidVhfcVF3UGFUTHI2NDVvcUlmc0h0cWhxTkVwcnV0cUJIYURkTERRcVJhSzJyeC1YT3ZvVl9MZUxfV3BUZzJXQlk4Y29IbGp1SGItTA?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMzlIV3JwQ1RpTTZ4UFVhWlFqdXRoTE0zUW5odmJZRl9DNFVmZXlKejZNLWpyaXBvd0NfRjdrLUlidVhfcVF3UGFUTHI2NDVvcUlmc0h0cWhxTkVwcnV0cUJIYURkTERRcVJhSzJyeC1YT3ZvVl9MZUxfV3BUZzJXQlk4Y29IbGp1SGItTA?oc=5",
+    "snippet": "New Stock Futures Listings: TXN USDT-M Futures to Launch on Apr 28 With 0-Fee Trading MEXC",
+    "published_at": "2026-04-28T06:25:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "pilot"
+      "USDT",
+      "launch"
     ],
     "matched_topics": [
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/israel-shekel-pegged-stablecoin-bils",
-      "guidislink": true
+      "id": "CBMijAFBVV95cUxQMzlIV3JwQ1RpTTZ4UFVhWlFqdXRoTE0zUW5odmJZRl9DNFVmZXlKejZNLWpyaXBvd0NfRjdrLUlidVhfcVF3UGFUTHI2NDVvcUlmc0h0cWhxTkVwcnV0cUJIYURkTERRcVJhSzJyeC1YT3ZvVl9MZUxfV3BUZzJXQlk4Y29IbGp1SGItTA",
+      "guidislink": false
     },
     "score": 54,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
+      "tier1": 2,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 35,
+      "launch_score": 50,
       "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -457,7 +358,7 @@
     "snippet": "Western Union to launch Solana-based stablecoin next month Crypto Briefing",
     "published_at": "2026-04-27T21:27:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -496,56 +397,6 @@
     ]
   },
   {
-    "id": "7abede2fb7ab7e77bef36ec3172522b5a34954dac403269ecdf3c9a84cf10b36",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Cross-border B2B stablecoin payments to hit $5 trillion by 2035, says Juniper Research - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSmRkY01zRk45cVRFeXRPdVZObnJhN1FlUExnRzJhMzc4TFF2MVpuSFlMSTFlR0lseFBJOEpPTUhtclJpWUJpUVV0Ujhrc3BvNmJWSzhVUEtDSGk1WkhISDVrLWNxeG5BTkp1TWxkX1RIb29nanhzdkhhTDJiTDhkY0x1UC05cWFjcTlGZms1YlFINm9EMzRDckRIQkNabHNldUFkMjN3bnNBdUw2Y0xaSU50VkcyQTVyME1aMWln?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSmRkY01zRk45cVRFeXRPdVZObnJhN1FlUExnRzJhMzc4TFF2MVpuSFlMSTFlR0lseFBJOEpPTUhtclJpWUJpUVV0Ujhrc3BvNmJWSzhVUEtDSGk1WkhISDVrLWNxeG5BTkp1TWxkX1RIb29nanhzdkhhTDJiTDhkY0x1UC05cWFjcTlGZms1YlFINm9EMzRDckRIQkNabHNldUFkMjN3bnNBdUw2Y0xaSU50VkcyQTVyME1aMWln?oc=5",
-    "snippet": "Cross-border B2B stablecoin payments to hit $5 trillion by 2035, says Juniper Research CoinDesk",
-    "published_at": "2026-04-27T15:52:47+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "cross-border"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMivgFBVV95cUxNSmRkY01zRk45cVRFeXRPdVZObnJhN1FlUExnRzJhMzc4TFF2MVpuSFlMSTFlR0lseFBJOEpPTUhtclJpWUJpUVV0Ujhrc3BvNmJWSzhVUEtDSGk1WkhISDVrLWNxeG5BTkp1TWxkX1RIb29nanhzdkhhTDJiTDhkY0x1UC05cWFjcTlGZms1YlFINm9EMzRDckRIQkNabHNldUFkMjN3bnNBdUw2Y0xaSU50VkcyQTVyME1aMWln",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 50,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "c5ab627a78d7e1a5cb70552fd294b7bea6302881f4ae3af1eea65d7273ab3685",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -556,7 +407,7 @@
     "snippet": "BLOG: JPMorgan, BNY Mellon roll out deposit tokens, lobby to restrict non-bank stablecoins thebusinessjournal.com",
     "published_at": "2026-04-27T20:39:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "deposit token"
     ],
@@ -593,6 +444,57 @@
     ]
   },
   {
+    "id": "cae1fe05aa1df1803451fb704ff8f563dcff280b97ff3514ee68de3a3a0cc7b8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Amboss launches RailsX for self-custodial bitcoin and stablecoin trading on Lightning",
+    "url": "https://www.theblock.co/post/399134/amboss-launches-railsx-for-self-custodial-bitcoin-and-stablecoin-trading-on-lightning?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/399134/amboss-launches-railsx-for-self-custodial-bitcoin-and-stablecoin-trading-on-lightning",
+    "snippet": "RailsX launches with bitcoin-stablecoin pairs USDT-L and USDC-L from Speed Wallet, with users retaining full control of their keys.",
+    "published_at": "2026-04-28T16:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "USDC",
+      "USDT",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/399134",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "8043da23fc3a4e3ffc171ea02a11251b4c8921561e8c13c4cd124fd9ca3f4104",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -603,7 +505,7 @@
     "snippet": "",
     "published_at": "2026-04-28T07:29:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -650,7 +552,7 @@
     "snippet": "Israel Approves Launch of Shekel-Pegged Stablecoin BILS bloomingbit",
     "published_at": "2026-04-27T23:08:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -699,7 +601,7 @@
     "snippet": "The collaboration adds to a rapidly growing list of initiatives between existing payment networks and digital asset firms.",
     "published_at": "2026-04-28T14:01:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -746,7 +648,7 @@
     "snippet": "",
     "published_at": "2026-04-28T13:38:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -783,51 +685,6 @@
     ]
   },
   {
-    "id": "1ebd885e6e3838fd8a71c2d3218c224c0ceed49c063b0e581292d553500393fc",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Canada advances bill to ban crypto political donations",
-    "url": "https://cointelegraph.com/news/canada-advances-bill-ban-crypto-political-donations?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/canada-advances-bill-ban-crypto-political-donations",
-    "snippet": "Lawmakers look to push election reform that would block crypto campaign donations, even as Canada expands oversight of stablecoins and digital asset markets.",
-    "published_at": "2026-04-27T21:50:17+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/canada-advances-bill-ban-crypto-political-donations",
-      "guidislink": true
-    },
-    "score": 39,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "97913f276aa7852188502bfd08d6f5431424cc5a56788aa8ea6a8d9d8e2588bf",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -838,7 +695,7 @@
     "snippet": "Western Union eyeing stablecoin launch to settle global transactions without SWIFT, CEO says CoinDesk",
     "published_at": "2026-04-27T20:40:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -868,37 +725,39 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 2
+      "cluster_size": 1
     },
     "consensus_boost": 0,
-    "cluster_size": 2,
+    "cluster_size": 1,
     "cluster_sources": [
       "Google News RSS"
     ]
   },
   {
-    "id": "9c55c03e119d77bc872966c8664c15dcfb7d5902f7ce59ab23bd31f7578ecf74",
+    "id": "04812a04c28c2131e72cbf482b467e9a97f23b2fd85a95b5ff0f7744eef35bba",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "A digital shekel is here: Israel approves its first regulated stablecoin",
-    "url": "https://www.coindesk.com/policy/2026/04/28/a-digital-shekel-is-here-israel-approves-its-first-regulated-stablecoin",
-    "canonical_url": "https://coindesk.com/policy/2026/04/28/a-digital-shekel-is-here-israel-approves-its-first-regulated-stablecoin",
-    "snippet": "",
-    "published_at": "2026-04-28T10:39:57+00:00",
+    "feed_name": "decrypt",
+    "title": "Stablecoin Giant Tether Reveals Plans for Modular Bitcoin Mining Hardware",
+    "url": "https://decrypt.co/365840/stablecoin-giant-tether-modular-bitcoin-mining-hardware",
+    "canonical_url": "https://decrypt.co/365840/stablecoin-giant-tether-modular-bitcoin-mining-hardware",
+    "snippet": "Leading stablecoin issuer Tether has teamed with Canaan and ACME Swisstech to develop customizable, upgradable Bitcoin mining rigs.",
+    "published_at": "2026-04-28T16:50:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "stablecoin",
+      "Tether",
+      "issuer"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "1c95d5eb-868a-4fe7-80a7-f10a0ff9adce",
+      "id": "https://decrypt.co/?p=365840",
       "guidislink": false
     },
-    "score": 25,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
@@ -908,9 +767,9 @@
       "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 0,
+      "institution_bonus": 10,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -934,7 +793,7 @@
     "snippet": "The integration lets employees earn yield on stablecoin-paid salaries without moving funds or giving up custody.",
     "published_at": "2026-04-28T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos",
@@ -983,7 +842,7 @@
     "snippet": "Tokenized stock holders can now participate in corporate governance, closing a long-standing gap between onchain securities and their traditional counterparts.",
     "published_at": "2026-04-28T12:10:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1020,6 +879,53 @@
     ]
   },
   {
+    "id": "9c55c03e119d77bc872966c8664c15dcfb7d5902f7ce59ab23bd31f7578ecf74",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "A digital shekel is here: Israel approves its first regulated stablecoin",
+    "url": "https://www.coindesk.com/policy/2026/04/28/a-digital-shekel-is-here-israel-approves-its-first-regulated-stablecoin",
+    "canonical_url": "https://coindesk.com/policy/2026/04/28/a-digital-shekel-is-here-israel-approves-its-first-regulated-stablecoin",
+    "snippet": "",
+    "published_at": "2026-04-28T10:39:57+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "1c95d5eb-868a-4fe7-80a7-f10a0ff9adce",
+      "guidislink": false
+    },
+    "score": 19,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "a7165b07dca669931a149b6c5e762702356afaa25dbe11f161ebb7610fbc2ceb",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1030,7 +936,7 @@
     "snippet": "Stablecoin transfer volume fell more than 19% in 30 days even as supply, holders and active addresses continued to climb.",
     "published_at": "2026-04-28T12:53:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin",
       "RWA"
@@ -1069,36 +975,35 @@
     ]
   },
   {
-    "id": "4c002c9219c4ba2e1e63165f738e6ea62299570705d6f710244538df5ee50c0f",
+    "id": "5e5fae0aaf5a96c864e31e620d787d4582005b882935c080ae73f266643e6371",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Inside the Race to Bring Stablecoins to the Checkout Counter",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/inside-the-race-to-bring-stablecoins-to-the-checkout-counter/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/inside-the-race-to-bring-stablecoins-to-the-checkout-counter/",
-    "snippet": "The winners in crypto payments may not be the most innovative, but the least disruptive. “You don’t want to be there waiting for 20 seconds just for the payment conversion to go through,” Jess Houlgrave, CEO of WalletConnect, told PYMNTS. While for years the promise of crypto payments has largely un",
-    "published_at": "2026-04-28T08:01:36+00:00",
+    "feed_name": "cointelegraph",
+    "title": "BitMart x EAT Trade-to-Feed Competition to Pay Out $4.4M USDT to Traders in May 2026",
+    "url": "https://cointelegraph.com/press-releases/bitmart-x-eat-trade-to-feed-competition-to-pay-out-44m-usdt-to-traders-in-may-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/press-releases/bitmart-x-eat-trade-to-feed-competition-to-pay-out-44m-usdt-to-traders-in-may-2026",
+    "snippet": "The 30-day Trade-to-Feed competition marks BitMart's 8th anniversary and the exchange's strategic listing of EAT, the first cause coin.",
+    "published_at": "2026-04-28T15:45:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
-      "crypto payments"
+      "USDT"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3685943",
-      "guidislink": false
+      "id": "https://cointelegraph.com/press-releases/bitmart-x-eat-trade-to-feed-competition-to-pay-out-44m-usdt-to-traders-in-may-2026",
+      "guidislink": true
     },
-    "score": -16,
+    "score": -10,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1127,7 +1032,7 @@
     "snippet": "Bitcoin’s ascending channel setup and rising stablecoin inflows suggest improving liquidity conditions could support a push toward higher price levels.",
     "published_at": "2026-04-28T06:57:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-28T15:35:16.660589+00:00",
+    "fetched_at": "2026-04-28T17:15:41.813573+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
