@@ -1,41 +1,38 @@
 [
   {
-    "id": "3763990970258c037560248fa299d2012d68d6b7e000ad21f8f611c54b392f97",
+    "id": "fb0e9d7b7c59917222d72a68de954eeae4f6030414af410bb15e989754c4fd91",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "OKX lets institutions use BlackRock’s BUIDL fund as trading collateral",
-    "url": "https://cointelegraph.com/news/okx-adds-blackrocks-tokenized-treasury-fund-standard-chartered?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/okx-adds-blackrocks-tokenized-treasury-fund-standard-chartered",
-    "snippet": "OKX integrates BlackRock’s tokenized Treasury fund into Standard Chartered custody, allowing institutions to use it as regulated trading collateral.",
-    "published_at": "2026-04-28T11:03:28+00:00",
+    "feed_name": "theblock",
+    "title": "‘DeFi bent, not broken’: Standard Chartered says rsETH episode won’t derail path to $2T RWA market",
+    "url": "https://www.theblock.co/post/399355/defi-bent-not-broken-standard-chartered-says-rseth-episode-wont-derail-path-to-2t-rwa-market?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/399355/defi-bent-not-broken-standard-chartered-says-rseth-episode-wont-derail-path-to-2t-rwa-market",
+    "snippet": "The bank said DeFi’s $300 million-plus rescue effort and structural upgrades reinforce its long-term $2 trillion real-world asset thesis.",
+    "published_at": "2026-04-29T11:53:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
-      "tokenized treasury",
-      "treasury fund",
-      "custody",
-      "tokenized"
+      "RWA"
     ],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/okx-adds-blackrocks-tokenized-treasury-fund-standard-chartered",
-      "guidislink": true
+      "id": "https://www.theblock.co/post/399355",
+      "guidislink": false
     },
-    "score": 79,
+    "score": 80,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
+      "tier1": 0,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 40,
-      "financial_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 50,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -50,40 +47,41 @@
     ]
   },
   {
-    "id": "9cec64cd90ac5183fdcf2c08e547339c281b4b10b5651afcba0471c455b2b76b",
+    "id": "268148c6a3e5eb7ded41282d977b9a2b7ffe49b21e97c36a91f6c2a09ce9dde9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "RWA yield platform Nuva, co-incubated by Animoca, raises $5.2 million in seed funding",
-    "url": "https://www.theblock.co/post/399222/rwa-yield-platform-nuva-animoca-seed-funding?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/399222/rwa-yield-platform-nuva-animoca-seed-funding",
-    "snippet": "Nuva is a marketplace for tokenized real-world assets that aims to help users earn yield by connecting issuers and users directly.",
-    "published_at": "2026-04-28T16:00:03+00:00",
+    "feed_name": "pymnts",
+    "title": "Visa Adds 5 Blockchains as Stablecoin Settlement Volume Surges",
+    "url": "https://www.pymnts.com/visa/2026/visa-adds-5-blockchains-as-stablecoin-settlement-volume-surges/",
+    "canonical_url": "https://pymnts.com/visa/2026/visa-adds-5-blockchains-as-stablecoin-settlement-volume-surges/",
+    "snippet": "Visa is adding five more blockchains to its global stablecoin settlement pilot, bringing the total number of blockchains it supports to nine. The newly supported blockchains are Arc, Base, Canton, Polygon and Tempo, the company said in a Wednesday (April 29) press release emailed to PYMNTS. They joi",
+    "published_at": "2026-04-29T11:00:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
-      "tokenized",
-      "RWA"
+      "stablecoin",
+      "settlement",
+      "pilot"
     ],
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/399222",
+      "id": "https://www.pymnts.com/?p=3690112",
       "guidislink": false
     },
-    "score": 64,
+    "score": 65,
     "score_breakdown": {
-      "tier1": 2,
+      "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 0,
+      "launch_score": 35,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -109,7 +107,7 @@
     "snippet": "HSBC and Anchorpoint Financial both clarified that they have not launched any stablecoins in Hong Kong, but plan to do so this year.",
     "published_at": "2026-04-29T06:56:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "launched"
@@ -148,6 +146,54 @@
     ]
   },
   {
+    "id": "eb7b042806fa89e5e91307fa63e0f08849d7aacda1dcc082290545d9b278adeb",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Stable Sea taps WisdomTree to bring tokenized Treasury access to small and medium-sized businesses",
+    "url": "https://www.theblock.co/post/399349/stable-sea-taps-wisdomtree-tokenized-treasurys-businesses?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/399349/stable-sea-taps-wisdomtree-tokenized-treasurys-businesses",
+    "snippet": "“We want to be the default for 'money at rest' within the onchain space,” WisdomTree Head of Digital Assets Will Peck said.",
+    "published_at": "2026-04-29T12:05:02+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
+    "matched_keywords": [
+      "tokenized treasury",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/399349",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e8b958b72b700f3c2923c9e143aa065249ca5ee5601f1b57c7960a24810c81a3",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -158,7 +204,7 @@
     "snippet": "A new system targets the mismatch between fast DeFi liquidations and slow asset redemptions, a key barrier to the use of tokenized assets in lending markets.",
     "published_at": "2026-04-28T19:42:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "settlement",
       "tokenized",
@@ -200,6 +246,56 @@
     ]
   },
   {
+    "id": "4585194c45aaa42ad5ba24fe3852547d40dc97268cfe38f6338d068c032773c4",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Tether leads Belo's $14 million raise to expand stablecoin payments across Latin America",
+    "url": "https://www.coindesk.com/business/2026/04/28/tether-leads-belo-s-usd14-million-raise-to-expand-stablecoin-payments-across-latin-america",
+    "canonical_url": "https://coindesk.com/business/2026/04/28/tether-leads-belo-s-usd14-million-raise-to-expand-stablecoin-payments-across-latin-america",
+    "snippet": "",
+    "published_at": "2026-04-29T11:13:32+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin",
+      "Tether"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "51745b37-f206-42b9-a7ec-fa33fb4ec45a",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c7e8bba2b715a7f1e0e17d6c0b92c48f9be5f905f6d1732ebbb2e9710a82a34d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -210,7 +306,7 @@
     "snippet": "Canaan secures a new Tether order for modular mining hardware as the stablecoin issuer expands into integrated, data center-style Bitcoin infrastructure.",
     "published_at": "2026-04-28T17:14:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether",
@@ -250,57 +346,6 @@
     ]
   },
   {
-    "id": "cae1fe05aa1df1803451fb704ff8f563dcff280b97ff3514ee68de3a3a0cc7b8",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Amboss launches RailsX for self-custodial bitcoin and stablecoin trading on Lightning",
-    "url": "https://www.theblock.co/post/399134/amboss-launches-railsx-for-self-custodial-bitcoin-and-stablecoin-trading-on-lightning?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/399134/amboss-launches-railsx-for-self-custodial-bitcoin-and-stablecoin-trading-on-lightning",
-    "snippet": "RailsX launches with bitcoin-stablecoin pairs USDT-L and USDC-L from Speed Wallet, with users retaining full control of their keys.",
-    "published_at": "2026-04-28T16:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "USDC",
-      "USDT",
-      "launches"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/399134",
-      "guidislink": false
-    },
-    "score": 39,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "9e17cddfc0d402c9dc603a1a5cf4dcc64a35785cbac006ef134914e4eb874e71",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -311,7 +356,7 @@
     "snippet": "The crypto tokens are not yet safe enough to be used at scale in the settlement of large, wholesale financial transactions",
     "published_at": "2026-04-29T04:00:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -349,53 +394,6 @@
     ]
   },
   {
-    "id": "76211a8a1c5f7d0e91e1c5eaaf61c7fd824dc589f9f6aa3921df746b8b7cfa75",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Visa is teaming up with a Tether co-founder to build onchain banks",
-    "url": "https://www.coindesk.com/business/2026/04/28/visa-working-with-tether-og-reeve-collins-decentralized-banking-platform-wefi",
-    "canonical_url": "https://coindesk.com/business/2026/04/28/visa-working-with-tether-og-reeve-collins-decentralized-banking-platform-wefi",
-    "snippet": "",
-    "published_at": "2026-04-28T13:38:31+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
-    "matched_keywords": [
-      "Tether"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "e3dd50e8-947c-4e59-9130-990637c7b696",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "fee2056f7c32b07f6def935f939f58801de54aec40b042282ad4e934bcd81e04",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -406,7 +404,7 @@
     "snippet": "Toku Adopts Paxos Amplify DeFi Feature for Stablecoin Salary Payments, Unlocking Automatic Interest Earnings MEXC",
     "published_at": "2026-04-28T21:23:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos"
@@ -454,7 +452,7 @@
     "snippet": "Mesh Expands USDC Settlement to Advance Global Digital Asset Payments PR Newswire",
     "published_at": "2026-04-28T16:51:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "USDC",
       "settlement"
@@ -502,7 +500,7 @@
     "snippet": "Watch more: The Digital Shift With Stablecore’s Alex Treece For all the momentum behind digital assets, the banking industry’s biggest hurdle isn’t conceptual. It’s operational. The tools to support cryptocurrencies, stablecoins and tokenized deposits already exist, but what’s missing is the connect",
     "published_at": "2026-04-29T08:03:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
@@ -551,7 +549,7 @@
     "snippet": "Leading stablecoin issuer Tether has teamed with Canaan and ACME Swisstech to develop customizable, upgradable Bitcoin mining rigs.",
     "published_at": "2026-04-28T16:50:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether",
@@ -600,7 +598,7 @@
     "snippet": "The integration lets employees earn yield on stablecoin-paid salaries without moving funds or giving up custody.",
     "published_at": "2026-04-28T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos",
@@ -649,7 +647,7 @@
     "snippet": "Tokenized stock holders can now participate in corporate governance, closing a long-standing gap between onchain securities and their traditional counterparts.",
     "published_at": "2026-04-28T12:10:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -686,6 +684,53 @@
     ]
   },
   {
+    "id": "f7f0251656b4153c587baa991f9a6ff858552ce212d711115370fba5db17f29e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Dunamu, Hana Financial take blockchain remittance system live with POSCO",
+    "url": "https://cointelegraph.com/news/dunamu-hana-financial-take-blockchain-remittance-system-live-with-posco?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/dunamu-hana-financial-take-blockchain-remittance-system-live-with-posco",
+    "snippet": "South Korea's Hana Financial, POSCO International and Upbit operator Dunamu have moved their blockchain remittance system into live trade transactions.",
+    "published_at": "2026-04-29T10:59:59+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
+    "matched_keywords": [
+      "remittance"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/dunamu-hana-financial-take-blockchain-remittance-system-live-with-posco",
+      "guidislink": true
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "f67a3fdf5dc09c90b24eb9d95243bb786249a804fa4a064c2b18f9c27abf6ca6",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -696,7 +741,7 @@
     "snippet": "",
     "published_at": "2026-04-29T10:06:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -741,7 +786,7 @@
     "snippet": "Stablecoin transfer volume fell more than 19% in 30 days even as supply, holders and active addresses continued to climb.",
     "published_at": "2026-04-28T12:53:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "stablecoin",
       "RWA"
@@ -790,7 +835,7 @@
     "snippet": "The 30-day Trade-to-Feed competition marks BitMart's 8th anniversary and the exchange's strategic listing of EAT, the first cause coin.",
     "published_at": "2026-04-28T15:45:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-04-29T10:30:27.068478+00:00",
+    "fetched_at": "2026-04-29T12:05:39.080910+00:00",
     "matched_keywords": [
       "USDT"
     ],
