@@ -10,7 +10,7 @@
     "snippet": "Wall Street bank becomes one of a handful of big lenders to offer service",
     "published_at": "2026-05-06T15:51:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -47,40 +47,89 @@
     ]
   },
   {
-    "id": "b317bc315082ef4289c00308b3f90e1627d5e5455b5e90b884a0c562e2cf3e05",
+    "id": "29eea6aef05ca0bfbeb810f3416b02f64b21765eb30fc44dc2efbf6a400818c3",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "SoFi to launch its stablecoin on Solana, citing speed and cost - The Block",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXJfRUpXNnNlUWdyREJYQVFvdVplRTI2S1N0SF83a1dhV3NYTEY2VHRGM0l4bnBZQmZXMF9zeWloNUdJNW52MDZzRkhjWFNZVGw4dHJ6b1g2Qm9qcEd0X19rS1NUeXlHaXVTLTF2UWhXbzNFSlN3czc5dkdyazRmX1FETG1md3g1STg1bmhCbnJSZ05kcVI3M1FBbnQ0dw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXJfRUpXNnNlUWdyREJYQVFvdVplRTI2S1N0SF83a1dhV3NYTEY2VHRGM0l4bnBZQmZXMF9zeWloNUdJNW52MDZzRkhjWFNZVGw4dHJ6b1g2Qm9qcEd0X19rS1NUeXlHaXVTLTF2UWhXbzNFSlN3czc5dkdyazRmX1FETG1md3g1STg1bmhCbnJSZ05kcVI3M1FBbnQ0dw?oc=5",
-    "snippet": "SoFi to launch its stablecoin on Solana, citing speed and cost The Block",
-    "published_at": "2026-05-05T19:15:55+00:00",
+    "feed_name": "decrypt",
+    "title": "OKX to Launch OpenAI, SpaceX and Anthropic Perpetual Futures in Pre-IPO Trading Push",
+    "url": "https://decrypt.co/367022/okx-openai-spacex-anthropic-perpetual-futures-pre-ipo",
+    "canonical_url": "https://decrypt.co/367022/okx-openai-spacex-anthropic-perpetual-futures-pre-ipo",
+    "snippet": "Crypto exchange OKX will offer synthetic exposure to private AI and tech company valuations through derivatives contracts.",
+    "published_at": "2026-05-06T18:25:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "launch"
+      "launch",
+      "pre-IPO"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMingFBVV95cUxQRXJfRUpXNnNlUWdyREJYQVFvdVplRTI2S1N0SF83a1dhV3NYTEY2VHRGM0l4bnBZQmZXMF9zeWloNUdJNW52MDZzRkhjWFNZVGw4dHJ6b1g2Qm9qcEd0X19rS1NUeXlHaXVTLTF2UWhXbzNFSlN3czc5dkdyazRmX1FETG1md3g1STg1bmhCbnJSZ05kcVI3M1FBbnQ0dw",
+      "id": "https://decrypt.co/?p=367022",
       "guidislink": false
     },
-    "score": 74,
+    "score": 70,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 50,
-      "institution_bonus": 20,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9c3b6c72ba223cb12f778d251533f7bae1caa1fe5bd14b18fd8773200cfb169d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Ripple, JPMorgan and others use XRP Ledger to cash out tokenized Treasurys fund internationally",
+    "url": "https://www.theblock.co/post/400281/ripple-jpmorgan-xrp-ledger-transfer-tokenized-treasury-across-borders?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/400281/ripple-jpmorgan-xrp-ledger-transfer-tokenized-treasury-across-borders",
+    "snippet": "The transaction represents an example of crypto firms and Wall Street institutions jointly exploring 24/7 settlement systems.",
+    "published_at": "2026-05-06T17:41:29+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "tokenized treasury",
+      "settlement",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/400281",
+      "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 40,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -106,7 +155,7 @@
     "snippet": "The Wall Street bank is charging 50 basis points per crypto trade, below basic retail pricing at Coinbase, Robinhood and Charles Schwab.",
     "published_at": "2026-05-06T15:08:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "pilot"
     ],
@@ -153,7 +202,7 @@
     "snippet": "OpenTrade raises $17 million as the stablecoin platform tops $200 million in TVL and expands infrastructure targeting neobanks and fintechs.",
     "published_at": "2026-05-06T13:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -200,7 +249,7 @@
     "snippet": "Anchorage’s new product enables AI agents to have compliant access to capital across traditional finance and crypto payment rails.",
     "published_at": "2026-05-06T06:55:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "payment rails",
       "launches"
@@ -239,6 +288,53 @@
     ]
   },
   {
+    "id": "403a2d8f8ea9ed2a9d2ebcfa315e8ffa694f2bf392884734850dae88e4676c23",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "OpenTrade Raises $17 Million to Meet Stablecoin Infrastructure Demand",
+    "url": "https://www.pymnts.com/news/investment-tracker/2026/opentrade-raises-17-million-to-meet-stablecoin-infrastructure-demand/",
+    "canonical_url": "https://pymnts.com/news/investment-tracker/2026/opentrade-raises-17-million-to-meet-stablecoin-infrastructure-demand/",
+    "snippet": "Stablecoin infrastructure platform OpenTrade has raised $17 million in new funding. The strategic round brings the U.K.-based startup’s total funding to more than $30 million and gives OpenTrade “the runway to scale at the pace the market is demanding,” as the company said in a post on LinkedIn Wedn",
+    "published_at": "2026-05-06T17:43:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3711683",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e93e0aab9b524b47dfdfa3e7368704721db9af89d90653beb7703aa180bcf2b4",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -249,7 +345,7 @@
     "snippet": "OpenTrade raised $17 million to expand its stablecoin yield platform, bringing total funding above $30 million as it scales stablecoin yield infrastructure for global clients.",
     "published_at": "2026-05-06T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -286,51 +382,6 @@
     ]
   },
   {
-    "id": "ea812b3800ad8cdeec38d2f6014163cc1ea03d655f8523552df42d763739bfdf",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Morgan Stanley pilots crypto trading on E*Trade with 50-basis-point fee: Bloomberg",
-    "url": "https://www.theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg",
-    "snippet": "Morgan Stanley pilots crypto trading at 50 basis points, expanding digital asset push weeks after launching a bitcoin ETF.",
-    "published_at": "2026-05-06T15:44:58+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/400259",
-      "guidislink": false
-    },
-    "score": 55,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "e5ff707963aa79cc58ff0cecdedc956cdd2fc54a8f4d16d225624f25fd9e69a0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -339,9 +390,9 @@
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XUnBEZGMwT2JaRXYtdEtoV1p2ZjFIZFpTTkVqRjV4blJRMXVveTFHdWY4MzhGTjJnTEE3dWh4cE1ycmdjRVF6RG9HMUczV2RGd2swdzFsc0MtSGxYSnBFcS00bjRzNG94VVRrSW40Tnh6dG9FX2c2SQ?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1XUnBEZGMwT2JaRXYtdEtoV1p2ZjFIZFpTTkVqRjV4blJRMXVveTFHdWY4MzhGTjJnTEE3dWh4cE1ycmdjRVF6RG9HMUczV2RGd2swdzFsc0MtSGxYSnBFcS00bjRzNG94VVRrSW40Tnh6dG9FX2c2SQ?oc=5",
     "snippet": "Morgan Stanley launches crypto trading on E*Trade at lower fees qz.com",
-    "published_at": "2026-05-06T15:04:16+00:00",
+    "published_at": "2026-05-06T15:53:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -378,6 +429,147 @@
     ]
   },
   {
+    "id": "ea812b3800ad8cdeec38d2f6014163cc1ea03d655f8523552df42d763739bfdf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Morgan Stanley pilots crypto trading on E*Trade with 50-basis-point fee: Bloomberg",
+    "url": "https://www.theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/400259/morgan-stanley-pilots-crypto-trading-on-etrade-with-50-basis-point-fee-bloomberg",
+    "snippet": "Morgan Stanley pilots crypto trading at 50 basis points, expanding digital asset push weeks after launching a bitcoin ETF.",
+    "published_at": "2026-05-06T15:44:58+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/400259",
+      "guidislink": false
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "3e91ab7731aac1707e26392d9e8ac2bd3fa49ec17309bdbad93dbb2cdc0eb47e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "SoFi to launch its stablecoin on Solana, citing speed and cost - theblock.co",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXJfRUpXNnNlUWdyREJYQVFvdVplRTI2S1N0SF83a1dhV3NYTEY2VHRGM0l4bnBZQmZXMF9zeWloNUdJNW52MDZzRkhjWFNZVGw4dHJ6b1g2Qm9qcEd0X19rS1NUeXlHaXVTLTF2UWhXbzNFSlN3czc5dkdyazRmX1FETG1md3g1STg1bmhCbnJSZ05kcVI3M1FBbnQ0dw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRXJfRUpXNnNlUWdyREJYQVFvdVplRTI2S1N0SF83a1dhV3NYTEY2VHRGM0l4bnBZQmZXMF9zeWloNUdJNW52MDZzRkhjWFNZVGw4dHJ6b1g2Qm9qcEd0X19rS1NUeXlHaXVTLTF2UWhXbzNFSlN3czc5dkdyazRmX1FETG1md3g1STg1bmhCbnJSZ05kcVI3M1FBbnQ0dw?oc=5",
+    "snippet": "SoFi to launch its stablecoin on Solana, citing speed and cost theblock.co",
+    "published_at": "2026-05-05T19:15:55+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMingFBVV95cUxQRXJfRUpXNnNlUWdyREJYQVFvdVplRTI2S1N0SF83a1dhV3NYTEY2VHRGM0l4bnBZQmZXMF9zeWloNUdJNW52MDZzRkhjWFNZVGw4dHJ6b1g2Qm9qcEd0X19rS1NUeXlHaXVTLTF2UWhXbzNFSlN3czc5dkdyazRmX1FETG1md3g1STg1bmhCbnJSZ05kcVI3M1FBbnQ0dw",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "73974e8302e8f553a3896fd41069fff344c0a6fa250dae5d23114ba0b399e0af",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Ondo, JPMorgan, Mastercard and Ripple Team to Settle Tokenized Treasuries on XRP Ledger",
+    "url": "https://decrypt.co/367033/ondo-jpmorgan-mastercard-ripple-settle-tokenized-treasuries-xrp-ledger",
+    "canonical_url": "https://decrypt.co/367033/ondo-jpmorgan-mastercard-ripple-settle-tokenized-treasuries-xrp-ledger",
+    "snippet": "Major financial institutions use XRP Ledger to demonstrate blockchain's ability to settle tokenized Treasuries across borders in seconds.",
+    "published_at": "2026-05-06T18:52:46+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=367033",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c448f754b82b1c8a2655bc182676f52b01afe44ea0abbbf3f0ba2a44ce0888f1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -388,7 +580,7 @@
     "snippet": "The rollout marks the first product built on Payward’s newly acquired Bitnomial licenses, with perpetuals and options expected later.",
     "published_at": "2026-05-06T15:39:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "launches",
       "rollout"
@@ -426,51 +618,6 @@
     ]
   },
   {
-    "id": "e45c4cea976e30b99c8c82e98c00eb40bb397e9280d801c045d2192c9c6ddb4f",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Crypto custodian Taurus moves straight into EU capital markets with MiFID license in Cyprus",
-    "url": "https://www.coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus",
-    "canonical_url": "https://coindesk.com/policy/2026/05/06/crypto-custody-firm-taurus-granted-mifid-license-in-cyprus",
-    "snippet": "",
-    "published_at": "2026-05-06T08:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "793429c6-1bad-4842-91ce-36a1354876db",
-      "guidislink": false
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "9c16e1cdb64fe3748cf86ce7d2f0c5ccfc342e633b6b42ebfc02c05f58a3b13c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -481,7 +628,7 @@
     "snippet": "The crypto industry in the UK has come out against the Bank of England’s proposed policy that would ban custodial wallets for stablecoins.",
     "published_at": "2026-05-06T14:55:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -528,7 +675,7 @@
     "snippet": "A new era of on-chain trading transparency. Atlas Live enables traders to analyze token concentration and spot potential rug pulls. Now in real time.",
     "published_at": "2026-05-06T11:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -575,7 +722,7 @@
     "snippet": "Solana and Google Cloud Launch Pay.sh for AI Agent Payments Using USDC Coinpedia",
     "published_at": "2026-05-06T09:50:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "USDC",
       "launch"
@@ -614,6 +761,54 @@
     ]
   },
   {
+    "id": "4c7553326ab038f7f3cfd2f6775c52935bbcde402126b2ba9ba9dc981221a5c3",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Crypto.com Launches in-App Travel Booking Service",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-com-launches-in-app-travel-booking-service/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/crypto-com-launches-in-app-travel-booking-service/",
+    "snippet": "Crypto.com has launched an in-app booking service in partnership with travel infrastructure provider Bookit. Crypto.com Travel lets users book travel and entertainment directly through the company app, according to a Wednesday (May 6) news release. “Crypto.com Travel represents another important ste",
+    "published_at": "2026-05-06T18:12:04+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "launches",
+      "launched"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3711916",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "4cd2558bd79cbe80a8c1ea060bb1fe92802590d209f637855c68875a5c9ce939",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -624,7 +819,7 @@
     "snippet": "",
     "published_at": "2026-05-06T16:27:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -633,6 +828,51 @@
     ],
     "raw": {
       "id": "2071d03a-f95d-4584-8be6-554872565c69",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9bd5ad541b95ec0c50957225744aa565149f60ceedeac35ade242d823022a3a8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "ledger_insights",
+    "title": "SIX gets approval to merge SDX DLT CSD into securities services, adds crypto custody",
+    "url": "https://www.ledgerinsights.com/six-gets-approval-to-merge-sdx-dlt-csd-into-securities-services-adds-crypto-custody/",
+    "canonical_url": "https://ledgerinsights.com/six-gets-approval-to-merge-sdx-dlt-csd-into-securities-services-adds-crypto-custody/",
+    "snippet": "SIX has received approval from Swiss regulator FINMA to merge its blockchain entity SIX Digital Exchange AG (SDX) into its central securities depository SIX SIS AG. SDX previously operated as a separate licensed entity with its own CSD license for digital assets. Separately, FINMA also approved the ",
+    "published_at": "2026-05-06T13:21:24+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://ledgerinsights.com/?p=42633",
       "guidislink": false
     },
     "score": 35,
@@ -671,7 +911,7 @@
     "snippet": "",
     "published_at": "2026-05-06T13:13:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -716,60 +956,13 @@
     "snippet": "Buying bitcoin during such negative funding regimes has consistently led to strong forward returns, Head of Research Vetle Lunde said.",
     "published_at": "2026-05-06T11:41:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
       "id": "https://www.theblock.co/post/400182",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "08af1f5c579123c4118eb4043539b6553d75b0606230d443126a4cd453ed2071",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Blockchain.com launches SnapMarkets as prediction markets move into faster crypto bets",
-    "url": "https://www.coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets",
-    "canonical_url": "https://coindesk.com/business/2026/05/06/blockchain-com-launches-snapmarkets-as-prediction-markets-move-into-faster-crypto-bets",
-    "snippet": "",
-    "published_at": "2026-05-06T09:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
-    "matched_keywords": [
-      "launches"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "b6a379bb-0b30-4341-9df2-f0a9a668dabe",
       "guidislink": false
     },
     "score": 35,
@@ -808,7 +1001,7 @@
     "snippet": "Andreessen Horowitz’s crypto investment arm said its new fund would seek to back projects that “people keep using when the hype fades.”",
     "published_at": "2026-05-06T07:24:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -843,53 +1036,6 @@
     ]
   },
   {
-    "id": "cce1200f160245246d81af3c4348f8fe64a19b333dab4e40daceb104523dfde4",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Ripple CEO says market structure bill not ‘done deal,’ despite compromise",
-    "url": "https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise",
-    "snippet": "Brad Garlinghouse addressed attendees at a Tuesday crypto conference on the progress of the CLARITY Act after US lawmakers announced a compromise on stablecoin yield that could advance the legislation.",
-    "published_at": "2026-05-05T22:08:41+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/ripple-ceo-market-structure-progress-stablecoin-compromise",
-      "guidislink": true
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "9d4bb39310992d34b44fe399ec6acf7633075b3f394d5ccf07b380ca178bc178",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -900,7 +1046,7 @@
     "snippet": "Solana and Google Cloud Launch Stablecoin Payments Service for AI Agents Decrypt",
     "published_at": "2026-05-05T20:10:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -950,7 +1096,7 @@
     "snippet": "Matt Hougan said tech firms like DoorDash and Meta exploring stablecoin payouts could help drive projections of $4 trillion in supply by 2030.",
     "published_at": "2026-05-06T09:44:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -987,40 +1133,39 @@
     ]
   },
   {
-    "id": "a882715b6d9133932452b86e2985d3a2069c8991857ac365e00ed6b2117c95d9",
+    "id": "6a7c498d05a4b56147c7a0dd85fc329db72d57deeea2003857a60cf23aca820a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Stablecoin Settlement Brings Cross-Border Interoperability to Local RTP Networks",
-    "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/stablecoin-settlement-brings-cross-border-interoperability-to-local-rtp-networks/",
-    "canonical_url": "https://pymnts.com/news/cross-border-commerce/cross-border-payments/2026/stablecoin-settlement-brings-cross-border-interoperability-to-local-rtp-networks/",
-    "snippet": "Domestic payment systems around the world are growing more instantaneous. And money movement in the blink of an eye is reframing the possibilities of commerce. Consumers in Brazil can transfer money in seconds using Pix, while businesses in India settle transactions instantly through UPI, and Europe",
-    "published_at": "2026-05-06T15:00:39+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Corpay Taps JPMorgan and BVNK to Bring Stablecoin Settlement to Global Platform - The Crypto Times",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlBKQ3VNUnI4REZLTFNfdTd0c0VjaGJCZXJzT1FxTDc5UjgyRlN3QkRYaDdBVGQtSmEwbnNhR1BITENKdTFsY3VtSWpsVjVOZ3ZMRlM2QVh6WHotYkhVV2NRUU1rWEVjX2dtanVOeGkyUU53TXhscVNCNkFZOHhRSlhNQ0FBRG04YldZcG5NWXdobnc4amV3cEdUUklxaDV2di13bGFjS0JMaXFCWXJFRlBGN20yLU5nTXc?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONlBKQ3VNUnI4REZLTFNfdTd0c0VjaGJCZXJzT1FxTDc5UjgyRlN3QkRYaDdBVGQtSmEwbnNhR1BITENKdTFsY3VtSWpsVjVOZ3ZMRlM2QVh6WHotYkhVV2NRUU1rWEVjX2dtanVOeGkyUU53TXhscVNCNkFZOHhRSlhNQ0FBRG04YldZcG5NWXdobnc4amV3cEdUUklxaDV2di13bGFjS0JMaXFCWXJFRlBGN20yLU5nTXc?oc=5",
+    "snippet": "Corpay Taps JPMorgan and BVNK to Bring Stablecoin Settlement to Global Platform The Crypto Times",
+    "published_at": "2026-05-06T06:49:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin",
-      "settlement",
-      "cross-border"
+      "settlement"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3711055",
+      "id": "CBMiugFBVV95cUxONlBKQ3VNUnI4REZLTFNfdTd0c0VjaGJCZXJzT1FxTDc5UjgyRlN3QkRYaDdBVGQtSmEwbnNhR1BITENKdTFsY3VtSWpsVjVOZ3ZMRlM2QVh6WHotYkhVV2NRUU1rWEVjX2dtanVOeGkyUU53TXhscVNCNkFZOHhRSlhNQ0FBRG04YldZcG5NWXdobnc4amV3cEdUUklxaDV2di13bGFjS0JMaXFCWXJFRlBGN20yLU5nTXc",
       "guidislink": false
     },
-    "score": 20,
+    "score": 34,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
-      "institution_bonus": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -1046,7 +1191,7 @@
     "snippet": "Coinbase CLO Paul Grewal says the Clarity Act will pass this summer, backing the Tillis-Alsobrooks stablecoin compromise.",
     "published_at": "2026-05-06T14:46:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1083,51 +1228,6 @@
     ]
   },
   {
-    "id": "0ab1f5e3d0791dd97c67116a682637cfed538274dff1a245821a1aa5fee7d4a3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "OKX joins crypto’s pre-IPO frenzy with OpenAI, SpaceX perpetual futures",
-    "url": "https://www.coindesk.com/markets/2026/05/06/okx-joins-crypto-s-pre-ipo-frenzy-with-openai-spacex-perpetual-futures",
-    "canonical_url": "https://coindesk.com/markets/2026/05/06/okx-joins-crypto-s-pre-ipo-frenzy-with-openai-spacex-perpetual-futures",
-    "snippet": "",
-    "published_at": "2026-05-06T08:59:36+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
-    "matched_keywords": [
-      "pre-IPO"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "4bb8239c-39d9-4c6c-a416-2a2f7abde534",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "5649b0344890ff12060115e874e7f5c3aae49a598842a496e74a91fae7aaf4f2",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1138,7 +1238,7 @@
     "snippet": "Anzens and Credit Bank partner to explore crypto-based stablecoin settlement for banking in East Africa The Digital Banker",
     "published_at": "2026-05-06T01:57:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -1176,6 +1276,51 @@
     ]
   },
   {
+    "id": "2c067274f1f4315a4b1d95a13dae5dc4ace9f2a491279d1eba5b96a7b98c7f58",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Switzerland's Amina becomes first regulated bank to custody Canton Coin",
+    "url": "https://cointelegraph.com/news/amina-becomes-first-regulated-bank-to-custody-canton-coin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/amina-becomes-first-regulated-bank-to-custody-canton-coin",
+    "snippet": "The FINMA-regulated bank's institutional clients will get access to trading and holding Canton Coin through a banking platform instead of crypto-native venues.",
+    "published_at": "2026-05-06T17:25:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/amina-becomes-first-regulated-bank-to-custody-canton-coin",
+      "guidislink": true
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e2341c7edf458cee7813b805bd9d431349ba144f6395f1a625fecf63349567ee",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1186,7 +1331,7 @@
     "snippet": "Investors back a model that moves insurance risk and capital flows onto blockchain rails, as onchain reinsurance looks to attract institutional participation.",
     "published_at": "2026-05-05T22:20:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1231,7 +1376,7 @@
     "snippet": "Crypto's 'barbell': speculation and stablecoin payments drive adoption, Tempo's Romero says CoinDesk",
     "published_at": "2026-05-05T21:26:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1280,7 +1425,7 @@
     "snippet": "Exodus Wallet Review 2026: A Secure Crypto Wallet or Risky Choice? MEXC Exchange",
     "published_at": "2026-05-05T19:47:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1327,7 +1472,7 @@
     "snippet": "",
     "published_at": "2026-05-06T14:08:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "tokenization",
       "partners"
@@ -1376,7 +1521,7 @@
     "snippet": "",
     "published_at": "2026-05-06T12:18:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1387,63 +1532,16 @@
       "id": "1c94b9a5-9e3d-4d10-be86-73aba6fb6ada",
       "guidislink": false
     },
-    "score": 0,
+    "score": -6,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "f079916ba1e12cd0e16ee6c9d719fba8b31d938367a28cefd1eaefd49a522666",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Solana Prez Touts Blockchain’s Usefulness for Payments",
-    "url": "https://www.pymnts.com/blockchain/2026/solana-prez-touts-blockchains-usefulness-for-payments/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/solana-prez-touts-blockchains-usefulness-for-payments/",
-    "snippet": "Solana Foundation’s president says increasing corporate stablecoin adoption is validating blockchain’s role as global financial infrastructure. This trend is also setting the stage for AI-driven “machine economies,” said Lily Liu, whose comments Tuesday (May 5) at Consensus Miami 2026 were reported ",
-    "published_at": "2026-05-06T12:54:46+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=3710330",
-      "guidislink": false
-    },
-    "score": -10,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -1470,7 +1568,7 @@
     "snippet": "Remittance firms are using crypto to bypass parts of traditional settlement infrastructure, but this does not mean SWIFT is disappearing.",
     "published_at": "2026-05-06T13:47:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-06T17:09:03.840217+00:00",
+    "fetched_at": "2026-05-06T18:56:43.387519+00:00",
     "matched_keywords": [
       "settlement",
       "remittance"
