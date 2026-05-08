@@ -10,7 +10,7 @@
     "snippet": "Amazon Web Services (AWS) has introduced one of the first end-to-end payment systems for AI agents, built in collaboration with Coinbase and Stripe. The new service, Amazon Bedrock AgentCore payments, enables AI agents to make micropayments to pay for API usage, web content or to pay other agents. T",
     "published_at": "2026-05-07T17:22:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "unveils"
     ],
@@ -48,40 +48,88 @@
     ]
   },
   {
-    "id": "27210e8c0b20cae8e590fafb3170a4e3cdea9ede73f6f7dc4072fb534d765a59",
+    "id": "8c8a307135b4b1cf128eb53bce6fe7e2bdcda6d58c2f0ac31cc26665cda382ff",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "decrypt",
-    "title": "Kraken Parent Acquires Asian Stablecoin Firm Reap for $600 Million: Bloomberg",
-    "url": "https://decrypt.co/367094/kraken-parent-acquires-asian-stablecoin-firm-reap-600-million",
-    "canonical_url": "https://decrypt.co/367094/kraken-parent-acquires-asian-stablecoin-firm-reap-600-million",
-    "snippet": "The deal marks Kraken's largest acquisition as it pushes into Asian cross-border payments through stablecoin infrastructure.",
-    "published_at": "2026-05-07T13:48:34+00:00",
+    "title": "Zcash Targeting Post-Quantum Crypto Milestone by 2027",
+    "url": "https://decrypt.co/367250/zcash-targeting-post-quantum-crypto-milestone-by-2027",
+    "canonical_url": "https://decrypt.co/367250/zcash-targeting-post-quantum-crypto-milestone-by-2027",
+    "snippet": "The privacy-focused cryptocurrency plans to launch a quantum-recoverable wallet within a month as it outlines its roadmap.",
+    "published_at": "2026-05-08T13:15:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "cross-border"
+      "launch"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=367094",
+      "id": "https://decrypt.co/?p=367250",
       "guidislink": false
     },
-    "score": 94,
+    "score": 70,
     "score_breakdown": {
-      "tier1": 2,
+      "tier1": 3,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 10,
-      "financial_bonus": 30,
+      "launch_score": 60,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b8c31eb3e5990ac74563b827e11d4496a0b7005bf27d7a59c2e9fd30ec947732",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Stablecoins won’t strengthen global role of euro, ECB’s Lagarde says",
+    "url": "https://cointelegraph.com/news/stablecoins-euro-global-role-ecb-christine-lagarde?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/stablecoins-euro-global-role-ecb-christine-lagarde",
+    "snippet": "ECB President Christine Lagarde said Europe should build tokenized settlement infrastructure anchored by central bank money rather than rely on private stablecoins.",
+    "published_at": "2026-05-08T12:59:10+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
+    "matched_keywords": [
+      "settlement",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/stablecoins-euro-global-role-ecb-christine-lagarde",
+      "guidislink": true
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -106,7 +154,7 @@
     "snippet": "BlockSec data shows Tether froze over $500 million in USDT across 370 Ethereum and Tron addresses in 30 days, adding to $1.26 billion frozen in 2025 linked to illicit activity.",
     "published_at": "2026-05-08T10:35:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -154,7 +202,7 @@
     "snippet": "Kraken parent Payward agreed to buy Hong Kong-based Reap for up to $600 million, adding card issuance and stablecoin payment capabilities to its new B2B platform.",
     "published_at": "2026-05-07T15:00:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -204,7 +252,7 @@
     "snippet": "The campaigns target over-the-counter operators and local exchanges as new laws expand oversight to custody and brokerage services.",
     "published_at": "2026-05-08T10:13:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "custody",
       "launches"
@@ -242,55 +290,6 @@
     ]
   },
   {
-    "id": "f38d0564757fa50340c8ebcda5f4054beb3ebb8e91553724be530634ccf601f3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Kraken to buy stablecoin payments firm Reap in $600 million deal: Bloomberg - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQby01NTB0VzNVY0JkSlpSY3BlVXprQTBkblVIcHQ1RzF1bnFvbllJaEx5amwyNUJhNTdGZ3ZzZzJqdWNkLXJvNktlemY3eUlGdnREUGRSSWFPSEFweE50ckZ6WElsVW9GSHBrdUpSQVhGMHBJSjdkdUYyNi1yLXAtYVFvS3o1X0pwN0ZTM0lTeHJhSnRwblFNNVBmTWlPZGVwLUw1MVgyRGZDVDdKbldCd19TbTcyam5TN3NOYXJB?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQby01NTB0VzNVY0JkSlpSY3BlVXprQTBkblVIcHQ1RzF1bnFvbllJaEx5amwyNUJhNTdGZ3ZzZzJqdWNkLXJvNktlemY3eUlGdnREUGRSSWFPSEFweE50ckZ6WElsVW9GSHBrdUpSQVhGMHBJSjdkdUYyNi1yLXAtYVFvS3o1X0pwN0ZTM0lTeHJhSnRwblFNNVBmTWlPZGVwLUw1MVgyRGZDVDdKbldCd19TbTcyam5TN3NOYXJB?oc=5",
-    "snippet": "Kraken to buy stablecoin payments firm Reap in $600 million deal: Bloomberg CoinDesk",
-    "published_at": "2026-05-07T12:55:28+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMivgFBVV95cUxQby01NTB0VzNVY0JkSlpSY3BlVXprQTBkblVIcHQ1RzF1bnFvbllJaEx5amwyNUJhNTdGZ3ZzZzJqdWNkLXJvNktlemY3eUlGdnREUGRSSWFPSEFweE50ckZ6WElsVW9GSHBrdUpSQVhGMHBJSjdkdUYyNi1yLXAtYVFvS3o1X0pwN0ZTM0lTeHJhSnRwblFNNVBmTWlPZGVwLUw1MVgyRGZDVDdKbldCd19TbTcyam5TN3NOYXJB",
-      "guidislink": false
-    },
-    "score": 45,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 30,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "d953a5db423bd06699e2b28acbf8313212cfbf9e61765c79cdddcbfa001b5fbd",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -301,7 +300,7 @@
     "snippet": "It cited security as the core reason for the migration, in an apparent response to the recent exploit of LayerZero-powered Kelp DAO.",
     "published_at": "2026-05-08T02:17:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -348,7 +347,7 @@
     "snippet": "The ECB President argued that euro-denominated stablecoins risk financial stability and monetary policy, pushing for a digital euro instead.",
     "published_at": "2026-05-08T10:07:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -383,42 +382,38 @@
     ]
   },
   {
-    "id": "8544ef7684c17b1b668e3474d56065acf01b8ad0b762993b793b71a4395f1ccd",
+    "id": "4446215dcbe198ece0e37efc1b92b8edc9420135b0c5a2709e7c8bada93abf0d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Kraken's Parent Company Acquires Stablecoin Payments Firm Reap for $600M - thedefiant.io",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObjBSNmprUDk4akMxVFF5ZlRxM0hvZkxtVHpEZld2dVhXRUVkVmRORnNxbUstaXdSY2FaREVvakJFeXc5alpqcjBKaHJRYkczSlRlQzEta3d6VEVBOGZEdy1ta0Y4eXdiRzE4ZzhYcFNvZldBWE12MlVXRUdDS0dFVEItVGJtMlB4ODdMRGoySUNoWWhiaS1EM205OFdBbkhxSVlnbDd3?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObjBSNmprUDk4akMxVFF5ZlRxM0hvZkxtVHpEZld2dVhXRUVkVmRORnNxbUstaXdSY2FaREVvakJFeXc5alpqcjBKaHJRYkczSlRlQzEta3d6VEVBOGZEdy1ta0Y4eXdiRzE4ZzhYcFNvZldBWE12MlVXRUdDS0dFVEItVGJtMlB4ODdMRGoySUNoWWhiaS1EM205OFdBbkhxSVlnbDd3?oc=5",
-    "snippet": "Kraken's Parent Company Acquires Stablecoin Payments Firm Reap for $600M thedefiant.io",
-    "published_at": "2026-05-07T14:10:49+00:00",
+    "feed_name": "coindesk",
+    "title": "Coinbase bulls point to crypto legislation and stablecoins after earnings miss",
+    "url": "https://www.coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
+    "canonical_url": "https://coindesk.com/markets/2026/05/08/coinbase-bulls-point-to-crypto-legislation-and-stablecoins-after-earnings-miss",
+    "snippet": "",
+    "published_at": "2026-05-08T13:21:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMipgFBVV95cUxObjBSNmprUDk4akMxVFF5ZlRxM0hvZkxtVHpEZld2dVhXRUVkVmRORnNxbUstaXdSY2FaREVvakJFeXc5alpqcjBKaHJRYkczSlRlQzEta3d6VEVBOGZEdy1ta0Y4eXdiRzE4ZzhYcFNvZldBWE12MlVXRUdDS0dFVEItVGJtMlB4ODdMRGoySUNoWWhiaS1EM205OFdBbkhxSVlnbDd3",
+      "id": "ef1a7171-8202-4a59-bb95-51191ae3c458",
       "guidislink": false
     },
-    "score": 39,
+    "score": 35,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
+      "launch_score": 0,
       "institution_bonus": 10,
       "financial_bonus": 0,
-      "regulatory_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -442,7 +437,7 @@
     "snippet": "Senator Elizabeth Warren questioned Meta over its stablecoin trial, citing Libra risks and 2026 integration plans.",
     "published_at": "2026-05-08T10:58:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin",
       "rollout"
@@ -491,7 +486,7 @@
     "snippet": "The new Amazon Web Services system lets AI agents use the USDC stablecoin to pay for APIs, data, and online services.",
     "published_at": "2026-05-07T16:32:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -539,7 +534,7 @@
     "snippet": "AWS taps Coinbase and Stripe to power USDC payments for AI agents The Block",
     "published_at": "2026-05-07T14:56:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -576,6 +571,100 @@
     ]
   },
   {
+    "id": "013a51ee5fc587f98e44e47b72b8d638bc5d1dd58e82a215383ab2ac7dace69f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Mastercard, Yellow Card partner on stablecoin payments in Kenya, Africa - Capitalfm.co.ke",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk52OGpocXVRU3ZiLTlfOXdiYWJjQUN6SlZUbS1KbEJLeDBONlNRV3kzUmZNWFo3bS1MMmxRS1ZDZEhwb2dRajZSNlFqUUJGVWVKallINDBOX3RxSG1FRjEwYUhzbk5JRDA1c0o4dzNtREFOd2tzTnNPQ3RweDU3cWpYTmNrS0w1ZmlxMF9WWVJWNXNhZlZIUTJZMll2cTdNNlJDRlpIeXA4MEJ0TjVPV1AwOUo0UQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWk52OGpocXVRU3ZiLTlfOXdiYWJjQUN6SlZUbS1KbEJLeDBONlNRV3kzUmZNWFo3bS1MMmxRS1ZDZEhwb2dRajZSNlFqUUJGVWVKallINDBOX3RxSG1FRjEwYUhzbk5JRDA1c0o4dzNtREFOd2tzTnNPQ3RweDU3cWpYTmNrS0w1ZmlxMF9WWVJWNXNhZlZIUTJZMll2cTdNNlJDRlpIeXA4MEJ0TjVPV1AwOUo0UQ?oc=5",
+    "snippet": "Mastercard, Yellow Card partner on stablecoin payments in Kenya, Africa Capitalfm.co.ke",
+    "published_at": "2026-05-08T13:42:27+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMitgFBVV95cUxNWk52OGpocXVRU3ZiLTlfOXdiYWJjQUN6SlZUbS1KbEJLeDBONlNRV3kzUmZNWFo3bS1MMmxRS1ZDZEhwb2dRajZSNlFqUUJGVWVKallINDBOX3RxSG1FRjEwYUhzbk5JRDA1c0o4dzNtREFOd2tzTnNPQ3RweDU3cWpYTmNrS0w1ZmlxMF9WWVJWNXNhZlZIUTJZMll2cTdNNlJDRlpIeXA4MEJ0TjVPV1AwOUo0UQ",
+      "guidislink": false
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d806e2152f34fae69e022b72c6ae36c7a4d9b9a9d4362db417c96587a7654145",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Stablecoins have their 'permission slip.' Now comes the hard part.",
+    "url": "https://www.coindesk.com/policy/2026/05/08/stablecoins-have-their-permission-slip-now-comes-the-hard-part",
+    "canonical_url": "https://coindesk.com/policy/2026/05/08/stablecoins-have-their-permission-slip-now-comes-the-hard-part",
+    "snippet": "",
+    "published_at": "2026-05-08T13:22:15+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "9b742dbd-fe68-4ded-86fc-607900a0cc2c",
+      "guidislink": false
+    },
+    "score": 25,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "7706711bfbf0beeadb2556874347d80a5f1313f5964f24005538082a49603b95",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -586,7 +675,7 @@
     "snippet": "Citi stock falls. Bank lifts key financial target as investor day gets underway MSN",
     "published_at": "2026-05-07T20:12:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -631,7 +720,7 @@
     "snippet": "Coinbase and AWS add USDC payments to Bedrock AgentCore Let's Data Science",
     "published_at": "2026-05-07T15:25:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -641,55 +730,6 @@
     "raw": {
       "id": "CBMingFBVV95cUxOZlJGMkRGOUJiZG9zcktLMkpydnNtcEdILWF6N3dDTUU2VENoNWM2bjZKY3pWTjdYX1ZPWWJzLUpUX0VoOVFESTdaS2RrMGo4Q2RYR2FteEJVMXh1MUNGaGxZN3JCT3NpdEF4NFFtMDZlZG1qaFpaWElDTGUyMTZJSmlocjNmR1ZiS0t4RWdLUDZnamV1aTFNWUdEZm1YZw",
       "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "64680af2508fa17675406ed6c2e08122c1ff10e16d83e1c4995bf92ea7fb0cdc",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Polygon reduces block time to 1.75 seconds as payments push accelerates",
-    "url": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second",
-    "snippet": "Polygon delivered its first block time reduction upgrade since genesis, as the network seeks to position for more high-frequency applications such as private stablecoin payments.",
-    "published_at": "2026-05-07T14:49:54+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/polygon-reduces-block-production-time-175-second",
-      "guidislink": true
     },
     "score": 24,
     "score_breakdown": {
@@ -727,7 +767,7 @@
     "snippet": "",
     "published_at": "2026-05-07T21:35:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -774,7 +814,7 @@
     "snippet": "Solv Protocol will move its tokenized Bitcoin infrastructure to Chainlink, following Kelp DAO's lead after it blamed LayerZero for a hack.",
     "published_at": "2026-05-07T22:31:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -811,53 +851,6 @@
     ]
   },
   {
-    "id": "0c766fbc03de19990f0f916b28cd77d5bff4cb47b0f80fa8db0ca6d8500fff5e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "The stablecoin queue: 20 banks and tech giants are waiting to issue tokens with Anchorage Digital",
-    "url": "https://www.coindesk.com/business/2026/05/07/anchorage-says-it-has-a-pipeline-of-up-to-20-big-firms-looking-to-issue-stablecoins",
-    "canonical_url": "https://coindesk.com/business/2026/05/07/anchorage-says-it-has-a-pipeline-of-up-to-20-big-firms-looking-to-issue-stablecoins",
-    "snippet": "",
-    "published_at": "2026-05-07T16:36:42+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "9dbb94f4-4c2a-4e15-888b-707d29251df1",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "5e2a807c7ad01be0b44379b75ce6f5c03446baa511d04688422e9e96ab50068c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -868,7 +861,7 @@
     "snippet": "Kraken parent Payward to buy stablecoin payments firm Reap for $600m ledgerinsights.com",
     "published_at": "2026-05-07T15:12:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -917,7 +910,7 @@
     "snippet": "",
     "published_at": "2026-05-08T10:11:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -964,7 +957,7 @@
     "snippet": "Taiwan prosecutors indicted a news anchor for allegedly accepting crypto payments from an \"overseas hostile force\" to produce news shows.",
     "published_at": "2026-05-08T08:38:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -1011,7 +1004,7 @@
     "snippet": "Plus, Norway’s rate increase. And dishwashers.",
     "published_at": "2026-05-08T05:30:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1056,7 +1049,7 @@
     "snippet": "AWS adds stablecoin payments to its AI agent platform MEXC Exchange",
     "published_at": "2026-05-08T01:16:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1105,7 +1098,7 @@
     "snippet": "",
     "published_at": "2026-05-07T21:10:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1152,7 +1145,7 @@
     "snippet": "Lord Ranger is a Member of the UK House of Lords and serves as Co-Chair of the All-Party Parliamentary Group (APPG) on Digital Markets and Digital Money.",
     "published_at": "2026-05-07T17:04:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1197,7 +1190,7 @@
     "snippet": "The Snapshot vote would move the recovery effort toward a binding onchain Arbitrum governance proposal.",
     "published_at": "2026-05-07T15:14:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "Arbitrum"
     ],
@@ -1242,7 +1235,7 @@
     "snippet": "",
     "published_at": "2026-05-07T18:28:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -1289,7 +1282,7 @@
     "snippet": "How BNY’s UAE Crypto Custody Expansion At Bank of New York Mellon (BK) Has Changed Its Investment Story simplywall.st",
     "published_at": "2026-05-08T11:57:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -1334,7 +1327,7 @@
     "snippet": "Unlocking Financial Freedom: How On-Chain Private Credit Empowers You Phemex",
     "published_at": "2026-05-08T06:10:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "fetched_at": "2026-05-08T14:15:47.425657+00:00",
     "matched_keywords": [
       "private credit"
     ],
