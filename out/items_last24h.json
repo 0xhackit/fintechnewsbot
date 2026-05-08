@@ -10,7 +10,7 @@
     "snippet": "Amazon Web Services (AWS) has introduced one of the first end-to-end payment systems for AI agents, built in collaboration with Coinbase and Stripe. The new service, Amazon Bedrock AgentCore payments, enables AI agents to make micropayments to pay for API usage, web content or to pay other agents. T",
     "published_at": "2026-05-07T17:22:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "unveils"
     ],
@@ -58,7 +58,7 @@
     "snippet": "The deal marks Kraken's largest acquisition as it pushes into Asian cross-border payments through stablecoin infrastructure.",
     "published_at": "2026-05-07T13:48:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin",
       "cross-border"
@@ -96,39 +96,40 @@
     ]
   },
   {
-    "id": "f1ab8d937d3e1a711c06770c15151e7b2a54f95676eb0e31d1b2c8a8aabe95df",
+    "id": "99a63d3dd488ff9b8fd555c8aa6310d4c2a033478d444819c3c521aa46fc510a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Morning Minute: Morgan Stanley Is Coming for Coinbase",
-    "url": "https://decrypt.co/367069/morning-minute-morgan-stanley-is-coming-for-coinbase",
-    "canonical_url": "https://decrypt.co/367069/morning-minute-morgan-stanley-is-coming-for-coinbase",
-    "snippet": "Morgan Stanley just launched crypto trading on ETrade, while the White House wants the Clarity Act signed by July 4.",
-    "published_at": "2026-05-07T11:35:21+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Tether freezes over $500M of USDT in 30 days, BlockSec data shows",
+    "url": "https://cointelegraph.com/news/tether-freezes-over-500m-usdt-30-days-blocksec-data-show?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/tether-freezes-over-500m-usdt-30-days-blocksec-data-show",
+    "snippet": "BlockSec data shows Tether froze over $500 million in USDT across 370 Ethereum and Tron addresses in 30 days, adding to $1.26 billion frozen in 2025 linked to illicit activity.",
+    "published_at": "2026-05-08T10:35:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
-      "launched"
+      "USDT",
+      "Tether"
     ],
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=367069",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/tether-freezes-over-500m-usdt-30-days-blocksec-data-show",
+      "guidislink": true
     },
-    "score": 59,
+    "score": 60,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -153,7 +154,7 @@
     "snippet": "Kraken parent Payward agreed to buy Hong Kong-based Reap for up to $600 million, adding card issuance and stablecoin payment capabilities to its new B2B platform.",
     "published_at": "2026-05-07T15:00:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -193,56 +194,6 @@
     ]
   },
   {
-    "id": "957afb207d8e81ab4530a9b72aad1fe623f4985d7f703a3e4c5cba84625548fe",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMnlfSFBaOFg5N1JUMHBVc0dmX013MEwtREJ2d0tTS3AyM192NVRuc3h3M0VKT202MGZqVDJhTUZmbzdQbUJVSTFMSzRMaEN2WHdUR05HU25lZ3l4aEZHUmtEMUN6b2tDeXZJVDJXWkdyajgwQkpMVFhxQ3otZ1BQa09ldGZSenVmdDVWX0RXZjlKYUd1Y1V4UFRWZXNPZExkbmZfdzVnTThUbzRGaW5tZ21yaEVhVU5JMmNucUp2U2V5ckZtOEFtTw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMnlfSFBaOFg5N1JUMHBVc0dmX013MEwtREJ2d0tTS3AyM192NVRuc3h3M0VKT202MGZqVDJhTUZmbzdQbUJVSTFMSzRMaEN2WHdUR05HU25lZ3l4aEZHUmtEMUN6b2tDeXZJVDJXWkdyajgwQkpMVFhxQ3otZ1BQa09ldGZSenVmdDVWX0RXZjlKYUd1Y1V4UFRWZXNPZExkbmZfdzVnTThUbzRGaW5tZ21yaEVhVU5JMmNucUp2U2V5ckZtOEFtTw?oc=5",
-    "snippet": "Ripple, JPMorgan settle first cross-border tokenized Treasury redemption on XRP Ledger CoinDesk",
-    "published_at": "2026-05-07T11:30:15+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
-    "matched_keywords": [
-      "tokenized treasury",
-      "cross-border",
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "CBMiyAFBVV95cUxQMnlfSFBaOFg5N1JUMHBVc0dmX013MEwtREJ2d0tTS3AyM192NVRuc3h3M0VKT202MGZqVDJhTUZmbzdQbUJVSTFMSzRMaEN2WHdUR05HU25lZ3l4aEZHUmtEMUN6b2tDeXZJVDJXWkdyajgwQkpMVFhxQ3otZ1BQa09ldGZSenVmdDVWX0RXZjlKYUd1Y1V4UFRWZXNPZExkbmZfdzVnTThUbzRGaW5tZ21yaEVhVU5JMmNucUp2U2V5ckZtOEFtTw",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 40,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "b1132308c94ed4a81a977d6b7998fe00eacba0b54d53ecac749580dd0ea792ba",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -253,7 +204,7 @@
     "snippet": "The campaigns target over-the-counter operators and local exchanges as new laws expand oversight to custody and brokerage services.",
     "published_at": "2026-05-08T10:13:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "custody",
       "launches"
@@ -301,7 +252,7 @@
     "snippet": "Kraken to buy stablecoin payments firm Reap in $600 million deal: Bloomberg CoinDesk",
     "published_at": "2026-05-07T12:55:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -350,7 +301,7 @@
     "snippet": "It cited security as the core reason for the migration, in an apparent response to the recent exploit of LayerZero-powered Kelp DAO.",
     "published_at": "2026-05-08T02:17:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -397,7 +348,7 @@
     "snippet": "The ECB President argued that euro-denominated stablecoins risk financial stability and monetary policy, pushing for a digital euro instead.",
     "published_at": "2026-05-08T10:07:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -442,7 +393,7 @@
     "snippet": "Kraken's Parent Company Acquires Stablecoin Payments Firm Reap for $600M thedefiant.io",
     "published_at": "2026-05-07T14:10:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -481,6 +432,55 @@
     ]
   },
   {
+    "id": "82cfcde43f55b0c0f7e0980703de8a1fcd02c276965c4fd965179b4f184eeb64",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Senator Warren presses Meta over stablecoin trial ahead of 2026 rollout plans",
+    "url": "https://www.theblock.co/post/400556/senator-warren-presses-meta-over-stablecoin-trial-ahead-of-2026-rollout-plans?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/400556/senator-warren-presses-meta-over-stablecoin-trial-ahead-of-2026-rollout-plans",
+    "snippet": "Senator Elizabeth Warren questioned Meta over its stablecoin trial, citing Libra risks and 2026 integration plans.",
+    "published_at": "2026-05-08T10:58:45+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "rollout"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/400556",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "a8ab6b1a1232137e33557c442a160bd6e36c238e14568aced494b71235ed8b37",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -491,7 +491,7 @@
     "snippet": "The new Amazon Web Services system lets AI agents use the USDC stablecoin to pay for APIs, data, and online services.",
     "published_at": "2026-05-07T16:32:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -539,7 +539,7 @@
     "snippet": "AWS taps Coinbase and Stripe to power USDC payments for AI agents The Block",
     "published_at": "2026-05-07T14:56:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -567,10 +567,10 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 2
+      "cluster_size": 1
     },
     "consensus_boost": 0,
-    "cluster_size": 2,
+    "cluster_size": 1,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -586,7 +586,7 @@
     "snippet": "Citi stock falls. Bank lifts key financial target as investor day gets underway MSN",
     "published_at": "2026-05-07T20:12:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -631,7 +631,7 @@
     "snippet": "Coinbase and AWS add USDC payments to Bedrock AgentCore Let's Data Science",
     "published_at": "2026-05-07T15:25:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -678,7 +678,7 @@
     "snippet": "Polygon delivered its first block time reduction upgrade since genesis, as the network seeks to position for more high-frequency applications such as private stablecoin payments.",
     "published_at": "2026-05-07T14:49:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -727,7 +727,7 @@
     "snippet": "",
     "published_at": "2026-05-07T21:35:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -774,7 +774,7 @@
     "snippet": "Solv Protocol will move its tokenized Bitcoin infrastructure to Chainlink, following Kelp DAO's lead after it blamed LayerZero for a hack.",
     "published_at": "2026-05-07T22:31:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -821,7 +821,7 @@
     "snippet": "",
     "published_at": "2026-05-07T16:36:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -868,7 +868,7 @@
     "snippet": "Kraken parent Payward to buy stablecoin payments firm Reap for $600m ledgerinsights.com",
     "published_at": "2026-05-07T15:12:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -917,7 +917,7 @@
     "snippet": "",
     "published_at": "2026-05-08T10:11:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -964,7 +964,7 @@
     "snippet": "Taiwan prosecutors indicted a news anchor for allegedly accepting crypto payments from an \"overseas hostile force\" to produce news shows.",
     "published_at": "2026-05-08T08:38:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -1011,7 +1011,7 @@
     "snippet": "Plus, Norway’s rate increase. And dishwashers.",
     "published_at": "2026-05-08T05:30:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1020,14 +1020,14 @@
       "id": "e767bc68-e762-4ad6-9b74-e6b8b824a820",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1056,7 +1056,7 @@
     "snippet": "AWS adds stablecoin payments to its AI agent platform MEXC Exchange",
     "published_at": "2026-05-08T01:16:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1105,7 +1105,7 @@
     "snippet": "",
     "published_at": "2026-05-07T21:10:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1152,7 +1152,7 @@
     "snippet": "Lord Ranger is a Member of the UK House of Lords and serves as Co-Chair of the All-Party Parliamentary Group (APPG) on Digital Markets and Digital Money.",
     "published_at": "2026-05-07T17:04:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1197,7 +1197,7 @@
     "snippet": "The Snapshot vote would move the recovery effort toward a binding onchain Arbitrum governance proposal.",
     "published_at": "2026-05-07T15:14:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "Arbitrum"
     ],
@@ -1242,7 +1242,7 @@
     "snippet": "",
     "published_at": "2026-05-07T18:28:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -1279,25 +1279,23 @@
     ]
   },
   {
-    "id": "bc6818752ec13e07ceaa12a542e7883bb235da80a92c2bdaef0ce75553a9d133",
+    "id": "285cbf16810073ef12255deede8c026f699af4154a17b459d6a6b23fd20a9b7f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "Unlocking Financial Freedom: How On-Chain Private Credit Empowers You - Phemex",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50MXpiaUlieVVCTGhfSHRjamJ2Nm00T3VnZ2tvbWdRN0lhb0dnOG5IV0xTd0tWSzczMmhKbjN2SUhUdklPZDBFeVV4b0I5NjZwbW9IREJhWWV5SXZocExTZ0c0a2g3WlltS1E?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50MXpiaUlieVVCTGhfSHRjamJ2Nm00T3VnZ2tvbWdRN0lhb0dnOG5IV0xTd0tWSzczMmhKbjN2SUhUdklPZDBFeVV4b0I5NjZwbW9IREJhWWV5SXZocExTZ0c0a2g3WlltS1E?oc=5",
-    "snippet": "Unlocking Financial Freedom: How On-Chain Private Credit Empowers You Phemex",
-    "published_at": "2026-05-08T06:10:28+00:00",
+    "feed_name": "institutional_crypto_banks",
+    "title": "How BNY’s UAE Crypto Custody Expansion At Bank of New York Mellon (BK) Has Changed Its Investment Story - simplywall.st",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHN4Y0luQnRibUFob2tUMWFWOEp5VTUzWEJobnpBVkVUZjZKaWMxd0dVTVIyVHBqLWdwQW55SW9VeXNwZk1BcU9ZZU1qOXViVk5VR1FTcXVNQTJIZmJ1SVhpTGFvSWdVWDFvaUZEcWE5UnpJVFBFb0Z6U01Kb0luS24zT2xKWGhZVWJJMEFaOVNNU1YwTDNFV2ZMMUJtOWNucFoyLXJ2S3lld0xHdzRzTFF0bnlXUkVhclE0eWlTVl9FbUdUUFcyYzRNd1E0ZF9RWUY4S2RRcVVXY2JEOGdaSWJiQm5KclnSAewBQVVfeXFMUEN2RFExU1V2ZXdpM0lGb3o5TFBqTnJPTnotbVZvTVRiQ1BGUmZZTGdRMDVKb093MG0weU9KeWx1dVFYc0NjVVVOdUhmVFJLVlpJY1RselhSR2k4cVU0VjhQNWJHZGUyWklfOEJBYjA1UFg5ZTRZSVBQSTlLV0xpNGZpT2xxRTNfMi0wZ2pWMTdrcFJQWFF4ZDh4ZlZxdmJnMl9RaVJzQkFtc0xnMWdxS1Zwbm9DUGJUOVU0M3F0YnhKNkh5ZFh5MG5lQ0hEaFZnZEJhdk1rd1cxZUExZzA5ZzJ6MnkwajZMS3FGeWs?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHN4Y0luQnRibUFob2tUMWFWOEp5VTUzWEJobnpBVkVUZjZKaWMxd0dVTVIyVHBqLWdwQW55SW9VeXNwZk1BcU9ZZU1qOXViVk5VR1FTcXVNQTJIZmJ1SVhpTGFvSWdVWDFvaUZEcWE5UnpJVFBFb0Z6U01Kb0luS24zT2xKWGhZVWJJMEFaOVNNU1YwTDNFV2ZMMUJtOWNucFoyLXJ2S3lld0xHdzRzTFF0bnlXUkVhclE0eWlTVl9FbUdUUFcyYzRNd1E0ZF9RWUY4S2RRcVVXY2JEOGdaSWJiQm5KclnSAewBQVVfeXFMUEN2RFExU1V2ZXdpM0lGb3o5TFBqTnJPTnotbVZvTVRiQ1BGUmZZTGdRMDVKb093MG0weU9KeWx1dVFYc0NjVVVOdUhmVFJLVlpJY1RselhSR2k4cVU0VjhQNWJHZGUyWklfOEJBYjA1UFg5ZTRZSVBQSTlLV0xpNGZpT2xxRTNfMi0wZ2pWMTdrcFJQWFF4ZDh4ZlZxdmJnMl9RaVJzQkFtc0xnMWdxS1Zwbm9DUGJUOVU0M3F0YnhKNkh5ZFh5MG5lQ0hEaFZnZEJhdk1rd1cxZUExZzA5ZzJ6MnkwajZMS3FGeWs?oc=5",
+    "snippet": "How BNY’s UAE Crypto Custody Expansion At Bank of New York Mellon (BK) Has Changed Its Investment Story simplywall.st",
+    "published_at": "2026-05-08T11:57:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-08T10:58:47.788440+00:00",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
     "matched_keywords": [
-      "private credit"
+      "custody"
     ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
+    "matched_topics": [],
     "raw": {
-      "id": "CBMiakFVX3lxTE50MXpiaUlieVVCTGhfSHRjamJ2Nm00T3VnZ2tvbWdRN0lhb0dnOG5IV0xTd0tWSzczMmhKbjN2SUhUdklPZDBFeVV4b0I5NjZwbW9IREJhWWV5SXZocExTZ0c0a2g3WlltS1E",
+      "id": "CBMi5wFBVV95cUxQNHN4Y0luQnRibUFob2tUMWFWOEp5VTUzWEJobnpBVkVUZjZKaWMxd0dVTVIyVHBqLWdwQW55SW9VeXNwZk1BcU9ZZU1qOXViVk5VR1FTcXVNQTJIZmJ1SVhpTGFvSWdVWDFvaUZEcWE5UnpJVFBFb0Z6U01Kb0luS24zT2xKWGhZVWJJMEFaOVNNU1YwTDNFV2ZMMUJtOWNucFoyLXJ2S3lld0xHdzRzTFF0bnlXUkVhclE0eWlTVl9FbUdUUFcyYzRNd1E0ZF9RWUY4S2RRcVVXY2JEOGdaSWJiQm5KclnSAewBQVVfeXFMUEN2RFExU1V2ZXdpM0lGb3o5TFBqTnJPTnotbVZvTVRiQ1BGUmZZTGdRMDVKb093MG0weU9KeWx1dVFYc0NjVVVOdUhmVFJLVlpJY1RselhSR2k4cVU0VjhQNWJHZGUyWklfOEJBYjA1UFg5ZTRZSVBQSTlLV0xpNGZpT2xxRTNfMi0wZ2pWMTdrcFJQWFF4ZDh4ZlZxdmJnMl9RaVJzQkFtc0xnMWdxS1Zwbm9DUGJUOVU0M3F0YnhKNkh5ZFh5MG5lQ0hEaFZnZEJhdk1rd1cxZUExZzA5ZzJ6MnkwajZMS3FGeWs",
       "guidislink": false
     },
     "score": -10,
@@ -1308,6 +1306,53 @@
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "bc6818752ec13e07ceaa12a542e7883bb235da80a92c2bdaef0ce75553a9d133",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Unlocking Financial Freedom: How On-Chain Private Credit Empowers You - Phemex",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50MXpiaUlieVVCTGhfSHRjamJ2Nm00T3VnZ2tvbWdRN0lhb0dnOG5IV0xTd0tWSzczMmhKbjN2SUhUdklPZDBFeVV4b0I5NjZwbW9IREJhWWV5SXZocExTZ0c0a2g3WlltS1E?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50MXpiaUlieVVCTGhfSHRjamJ2Nm00T3VnZ2tvbWdRN0lhb0dnOG5IV0xTd0tWSzczMmhKbjN2SUhUdklPZDBFeVV4b0I5NjZwbW9IREJhWWV5SXZocExTZ0c0a2g3WlltS1E?oc=5",
+    "snippet": "Unlocking Financial Freedom: How On-Chain Private Credit Empowers You Phemex",
+    "published_at": "2026-05-08T06:10:28+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-08T12:10:34.046118+00:00",
+    "matched_keywords": [
+      "private credit"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMiakFVX3lxTE50MXpiaUlieVVCTGhfSHRjamJ2Nm00T3VnZ2tvbWdRN0lhb0dnOG5IV0xTd0tWSzczMmhKbjN2SUhUdklPZDBFeVV4b0I5NjZwbW9IREJhWWV5SXZocExTZ0c0a2g3WlltS1E",
+      "guidislink": false
+    },
+    "score": -16,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
