@@ -10,7 +10,7 @@
     "snippet": "Paxos wins SEC approval to clear U.S. stocks on blockchain CoinDesk",
     "published_at": "2026-05-29T12:30:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "Paxos"
     ],
@@ -57,7 +57,7 @@
     "snippet": "The approval makes Paxos the “only blockchain-native firm” approved by the SEC to operate as a registered clearing agency in the U.S.",
     "published_at": "2026-05-29T10:34:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "Paxos"
     ],
@@ -68,14 +68,14 @@
       "id": "https://decrypt.co/?p=369440",
       "guidislink": false
     },
-    "score": 90,
+    "score": 84,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 40,
@@ -104,7 +104,7 @@
     "snippet": "Paxos says its approval as a blockchain-focused clearing agency represents a “critical piece of financial market infrastructure” as Wall Street becomes more interested in crypto.",
     "published_at": "2026-05-29T05:37:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "Paxos"
     ],
@@ -151,7 +151,7 @@
     "snippet": "Paxos has become the first blockchain-native firm to be approved by US regulators to provide clearing and settlement services by the SEC.",
     "published_at": "2026-05-29T14:04:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "Paxos",
       "settlement"
@@ -189,41 +189,87 @@
     ]
   },
   {
-    "id": "d84942a2fd05e93076ce840ba56ba706f55537008394053a889736d0c8528592",
+    "id": "b1677456684f832718a377efbcfee3523b3534e469cf73d2663f9ae85b8d4d5d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "VanEck’s tokenized VBILL US Treasury fund can now be used as collateral on Euler",
-    "url": "https://www.theblock.co/post/402904/vaneck-tokenized-vbill-us-treasury-fund-collateral-euler?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/402904/vaneck-tokenized-vbill-us-treasury-fund-collateral-euler",
-    "snippet": "Securitize launched VanEck's VBILL as a collateral asset in an Euler lending market curated by KPK on Thursday.",
-    "published_at": "2026-05-28T15:37:48+00:00",
+    "feed_name": "pymnts",
+    "title": "Paxos Secures SEC License to Settle Securities Transactions Nationwide",
+    "url": "https://www.pymnts.com/blockchain/2026/paxos-secures-sec-license-settle-securities-transactions-nationwide/",
+    "canonical_url": "https://pymnts.com/blockchain/2026/paxos-secures-sec-license-settle-securities-transactions-nationwide/",
+    "snippet": "Paxos expanded the capabilities of its blockchain infrastructure platform to include clearing and settlement services for transactions in eligible securities. The company’s subsidiary Paxos Securities Settlement Company (PSSC) has been granted registration as a clearing agency by the Securities and ",
+    "published_at": "2026-05-29T17:32:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
-      "treasury fund",
-      "tokenized",
-      "launched"
+      "Paxos",
+      "settlement"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/402904",
+      "id": "https://www.pymnts.com/?p=3784997",
       "guidislink": false
     },
-    "score": 69,
+    "score": 70,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "508fa10c4633d2b92f87d5de9547385ddd9985a02f7ff595e4c325b86efff6f2",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Paxos Gets SEC Green Light for Blockchain-Based Securities Settlement - Blockonomi",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTZpcHh4bzd1Y3Atd1JHY1htT01sdWdqYzdVYlluMXhLNlBoWXB5VHh1d3JXT3kyMThPUHVRMWxTRHlWSC1TMlI1TGJvUjg1cDV2UEdRa3g5N20taTl5SmlZRjRSSlRRVWZIN0ZJeGhoMktqM3ZaMG5XdE5peTcxbDIxbktSSlVLemRVMzlUS2JqX05GVWl1Vg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNTZpcHh4bzd1Y3Atd1JHY1htT01sdWdqYzdVYlluMXhLNlBoWXB5VHh1d3JXT3kyMThPUHVRMWxTRHlWSC1TMlI1TGJvUjg1cDV2UEdRa3g5N20taTl5SmlZRjRSSlRRVWZIN0ZJeGhoMktqM3ZaMG5XdE5peTcxbDIxbktSSlVLemRVMzlUS2JqX05GVWl1Vg?oc=5",
+    "snippet": "Paxos Gets SEC Green Light for Blockchain-Based Securities Settlement Blockonomi",
+    "published_at": "2026-05-29T11:37:15+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
+    "matched_keywords": [
+      "Paxos",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMimAFBVV95cUxPNTZpcHh4bzd1Y3Atd1JHY1htT01sdWdqYzdVYlluMXhLNlBoWXB5VHh1d3JXT3kyMThPUHVRMWxTRHlWSC1TMlI1TGJvUjg1cDV2UEdRa3g5N20taTl5SmlZRjRSSlRRVWZIN0ZJeGhoMktqM3ZaMG5XdE5peTcxbDIxbktSSlVLemRVMzlUS2JqX05GVWl1Vg",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 30,
+      "launch_score": 10,
+      "institution_bonus": 40,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -249,7 +295,7 @@
     "snippet": "The investment firm said nation-states and central banks are increasingly turning to assets like Bitcoin and gold as alternative settlement systems outside of US control.",
     "published_at": "2026-05-28T22:32:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -286,6 +332,51 @@
     ]
   },
   {
+    "id": "6c3104d929f4107398e020bd2ed39e1971abc822a1ba19343dfaacf9c795c3d4",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "CFTC opens door for crypto perpetual future contracts in US as Coinbase, Kalshi move forward",
+    "url": "https://www.theblock.co/post/403040/cftc-opens-door-for-crypto-perpetual-future-contracts-in-us-as-coinbase-kalshi-move-forward?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403040/cftc-opens-door-for-crypto-perpetual-future-contracts-in-us-as-coinbase-kalshi-move-forward",
+    "snippet": "The CFTC opened the doors for perpetual futures contracts, giving way for Kalshi and Coinbase to offer those products.",
+    "published_at": "2026-05-29T14:45:57+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/403040",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "37fbfa3fa9e85c5e752ee2a0ea775664baa010e2212d598b4a0441859b15f871",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -296,7 +387,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -337,54 +428,6 @@
     ]
   },
   {
-    "id": "6e8a95730ffe2cca4bb2cfedfc0f3b7adaa686cdfa2a962a60ceaa7d15fb2e26",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Aave Labs secures dual UK licenses for regulated crypto payments infrastructure through local subsidiary",
-    "url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary",
-    "snippet": "Aave Labs has obtained FCA cryptoasset registration in the U.K. for its Push subsidiaries, unlocking zero-fee fiat on-ramps.",
-    "published_at": "2026-05-29T10:18:22+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
-    "matched_keywords": [
-      "crypto payments"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/403014",
-      "guidislink": false
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "1bd43f154ee21b46b1c4f13505f5989f65e5c5a73c4479c8722df9584cd3551e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -395,7 +438,7 @@
     "snippet": "The move comes as Gemini continues to expand beyond spot crypto trading into derivatives, predictions, and other financial services.",
     "published_at": "2026-05-28T20:40:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -442,7 +485,7 @@
     "snippet": "SoFi continues to surge following launch of its stablecoin to 15 million customers Sherwood News",
     "published_at": "2026-05-29T14:01:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -491,7 +534,7 @@
     "snippet": "ICE’s CEO said regulators need to create a “level playing field” for launching 24/7 onchain perps contracts, which are already trading on exchanges such as Hyperliquid.",
     "published_at": "2026-05-29T13:25:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -536,7 +579,7 @@
     "snippet": "SoFi Technologies Surges 12% on Stablecoin Launch; Robinhood, Upstart Extend Fintech Bounce 24/7 Wall St.",
     "published_at": "2026-05-29T13:23:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -585,7 +628,7 @@
     "snippet": "SoFi Technologies stock surges 7% on stablecoin launch Investing.com",
     "published_at": "2026-05-29T11:21:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -605,7 +648,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -634,7 +677,7 @@
     "snippet": "SOFI Stock Jumps As SoFiUSD Stablecoin Launch Grabs Attention timothysykes.com",
     "published_at": "2026-05-28T18:34:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -673,39 +716,39 @@
     ]
   },
   {
-    "id": "d4e7e5aa4b6346b85dc31cfa547d707f3c19ee13fdf21f9e490ed7eb20c947e7",
+    "id": "6e8a95730ffe2cca4bb2cfedfc0f3b7adaa686cdfa2a962a60ceaa7d15fb2e26",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "P2P.org launches real-time data stream for Sui and Hyperliquid",
-    "url": "https://cointelegraph.com/press-releases/p2porg-launches-real-time-data-stream-for-sui-and-hyperliquid?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/press-releases/p2porg-launches-real-time-data-stream-for-sui-and-hyperliquid",
-    "snippet": "P2P.org, a blockchain infrastructure provider operating validators across 40+ proof-of-stake networks since 2018, today launched Syncro Data Stream, a real-time blockchain data stream for Sui and Hyperliquid.",
-    "published_at": "2026-05-28T16:57:03+00:00",
+    "feed_name": "theblock",
+    "title": "Aave Labs secures dual UK licenses for regulated crypto payments infrastructure through local subsidiary",
+    "url": "https://www.theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403014/aave-labs-secures-dual-uk-licenses-for-regulated-crypto-payments-infrastructure-through-local-subsidiary",
+    "snippet": "Aave Labs has obtained FCA cryptoasset registration in the U.K. for its Push subsidiaries, unlocking zero-fee fiat on-ramps.",
+    "published_at": "2026-05-29T10:18:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
-      "launches",
-      "launched"
+      "crypto payments"
     ],
     "matched_topics": [
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/press-releases/p2porg-launches-real-time-data-stream-for-sui-and-hyperliquid",
-      "guidislink": true
+      "id": "https://www.theblock.co/post/403014",
+      "guidislink": false
     },
-    "score": 35,
+    "score": 34,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -731,7 +774,7 @@
     "snippet": "How Private Market Tokenization is Revolutionizing Equity, Funds, and Alternative Investments vocal.media",
     "published_at": "2026-05-29T14:06:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -768,6 +811,55 @@
     ]
   },
   {
+    "id": "52a1fddcb673d6400f3eace3322197b2463a7311b181f9cd60ab02f63723a40d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "SoFiUSD Explained: Is a Bank-Issued Stablecoin Safer Than USDT or USDC? - BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JNXRsU3F2bGhPVjF3b1FxUm01R1JJU0gzWDdUVXM5U2VWeFVycXRfVkpvMVJDdVB3TVd6R09MYlhYX3dKal9CYnM2c3Fyb3RrTHJIMTBvaTZLNUY2?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JNXRsU3F2bGhPVjF3b1FxUm01R1JJU0gzWDdUVXM5U2VWeFVycXRfVkpvMVJDdVB3TVd6R09MYlhYX3dKal9CYnM2c3Fyb3RrTHJIMTBvaTZLNUY2?oc=5",
+    "snippet": "SoFiUSD Explained: Is a Bank-Issued Stablecoin Safer Than USDT or USDC? BeInCrypto",
+    "published_at": "2026-05-29T14:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "USDC",
+      "USDT"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiXEFVX3lxTE1JNXRsU3F2bGhPVjF3b1FxUm01R1JJU0gzWDdUVXM5U2VWeFVycXRfVkpvMVJDdVB3TVd6R09MYlhYX3dKal9CYnM2c3Fyb3RrTHJIMTBvaTZLNUY2",
+      "guidislink": false
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "f437b8b43d642cc6a06f097ea76e7ccfc5900430cf46fe59e2e319beaa446cfb",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -778,7 +870,7 @@
     "snippet": "Texas is hiring a crypto custodian to move its $10 million Strategic Bitcoin Reserve from BlackRock’s IBIT ETF into directly held coins and build full state‑level BTC plumbing.",
     "published_at": "2026-05-29T11:39:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -789,17 +881,65 @@
       "id": "https://cointelegraph.com/news/texas-plans-shift-bitcoin-reserve-from-etf-to-direct-custody",
       "guidislink": true
     },
-    "score": 30,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "c178fe09549c4974456aa336c4f20c5b1324c8a59086b0ce0f402ac57f578f94",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Stablecoin Settlement Is Here, but Seamless Off-Chain Money Movement Is Not",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-settlement-is-here-but-seamless-off-chain-money-movement-is-not/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/stablecoin-settlement-is-here-but-seamless-off-chain-money-movement-is-not/",
+    "snippet": "The stablecoin industry has spent years trying to prove one thing above all else: that blockchain-based money can move faster, cheaper and more efficiently than the financial infrastructure it hopes to replace. This week, the industry produced another wave of evidence that the technology itself is w",
+    "published_at": "2026-05-29T17:49:27+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3784418",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -825,60 +965,13 @@
     "snippet": "The European Union's Markets in Crypto Assets regulations first took effect in 2024, but gave crypto service providers time to fully comply with the framework.",
     "published_at": "2026-05-28T20:19:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "MiCA"
     ],
     "matched_topics": [],
     "raw": {
       "id": "https://cointelegraph.com/news/france-amf-regulator-june-deadline-mica-licensing",
-      "guidislink": true
-    },
-    "score": 19,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "595a5d78d61df6a6fc4f9b00fb82690db88cf6f3e758ddf546aca3c86ae02c0c",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Argentina bill targets crypto payments to illegal gambling sites",
-    "url": "https://cointelegraph.com/news/argentina-bill-crypto-payments-illegal-gambling?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/argentina-bill-crypto-payments-illegal-gambling",
-    "snippet": "Argentina’s proposed online gambling bill would restrict banks, payment firms and crypto providers from serving unauthorized betting platforms.",
-    "published_at": "2026-05-28T15:05:21+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
-    "matched_keywords": [
-      "crypto payments"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/argentina-bill-crypto-payments-illegal-gambling",
       "guidislink": true
     },
     "score": 19,
@@ -917,7 +1010,7 @@
     "snippet": "Brazil Nixes Settlement for Stablecoin eFX Global Finance Magazine",
     "published_at": "2026-05-29T07:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -965,7 +1058,7 @@
     "snippet": "",
     "published_at": "2026-05-28T18:53:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
+    "fetched_at": "2026-05-29T17:50:49.582354+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether"
@@ -991,196 +1084,6 @@
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "e48e163aaae17c7667b99772ed4e029ec5279cf0ad4b8151cfc19aa4c1677765",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Trezor adds native USDt, USDC yield via Morpho integration",
-    "url": "https://cointelegraph.com/news/trezor-usdc-usdt-yield-morpho-trezor-suite?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/trezor-usdc-usdt-yield-morpho-trezor-suite",
-    "snippet": "The feature lets users earn stablecoin yield directly through Trezor Suite without connecting external wallets or using separate DeFi apps.",
-    "published_at": "2026-05-28T17:28:36+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "USDC",
-      "USDT"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/trezor-usdc-usdt-yield-morpho-trezor-suite",
-      "guidislink": true
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "f16ab888524c217b62c66a55f0096e3271a87c09949c3f5c4fed0f47a21a9e59",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Nala Secures $50M Credit Line for Stablecoin Payments - Dabafinance",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbUFmZnppWkZwbk9UbFZoVU9oa0llM3hNcFJQeTY2VFRQcDdOa0tDYzlMTHdkZmNYUmZrcnRQMm5VWUNPN1V0LWxBTE1vcVh4aW5UYlBGYU5KTUVEQ2pFMG42WmhlN2x6M3h4dEc4a29hQ0Rzd0l1SWFkaXpPcjh4VVZ3?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbUFmZnppWkZwbk9UbFZoVU9oa0llM3hNcFJQeTY2VFRQcDdOa0tDYzlMTHdkZmNYUmZrcnRQMm5VWUNPN1V0LWxBTE1vcVh4aW5UYlBGYU5KTUVEQ2pFMG42WmhlN2x6M3h4dEc4a29hQ0Rzd0l1SWFkaXpPcjh4VVZ3?oc=5",
-    "snippet": "Nala Secures $50M Credit Line for Stablecoin Payments Dabafinance",
-    "published_at": "2026-05-28T17:48:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiggFBVV95cUxPbUFmZnppWkZwbk9UbFZoVU9oa0llM3hNcFJQeTY2VFRQcDdOa0tDYzlMTHdkZmNYUmZrcnRQMm5VWUNPN1V0LWxBTE1vcVh4aW5UYlBGYU5KTUVEQ2pFMG42WmhlN2x6M3h4dEc4a29hQ0Rzd0l1SWFkaXpPcjh4VVZ3",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "d92fa4a3f5f21ad9a7a5bc6590f5921f0ce1a9f1531fa10fadedb276008e7767",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObTdreFRnazFSbS0wRG5kdmRLOERrT2dxektZd0FwU2tFTkx6ZjBucFphc1JGTkV1RXVoY1BKOGRSSmU4STdTRG83Y01vbXI2aGpXekhUUm9DRFdhTm5MSUt2MkhGY1A0RS1qeEl2ZTE4aDk3LVkyUk1FNGZucVR4amUtM1Nwd3VRbzh3MFJ0MWtlWTNDNWFxUVhURF9YT0g3cXlxNDlVdV9vcERnX1lsTF92NjJMZlk3dW9EMmxzYjFWdUo1UWc?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObTdreFRnazFSbS0wRG5kdmRLOERrT2dxektZd0FwU2tFTkx6ZjBucFphc1JGTkV1RXVoY1BKOGRSSmU4STdTRG83Y01vbXI2aGpXekhUUm9DRFdhTm5MSUt2MkhGY1A0RS1qeEl2ZTE4aDk3LVkyUk1FNGZucVR4amUtM1Nwd3VRbzh3MFJ0MWtlWTNDNWFxUVhURF9YT0g3cXlxNDlVdV9vcERnX1lsTF92NjJMZlk3dW9EMmxzYjFWdUo1UWc?oc=5",
-    "snippet": "UniCredit warns Europe may struggle to contain crypto-bank crisis under MiCA rules CoinDesk",
-    "published_at": "2026-05-28T16:51:49+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
-    "matched_keywords": [
-      "MiCA"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "CBMixgFBVV95cUxObTdreFRnazFSbS0wRG5kdmRLOERrT2dxektZd0FwU2tFTkx6ZjBucFphc1JGTkV1RXVoY1BKOGRSSmU4STdTRG83Y01vbXI2aGpXekhUUm9DRFdhTm5MSUt2MkhGY1A0RS1qeEl2ZTE4aDk3LVkyUk1FNGZucVR4amUtM1Nwd3VRbzh3MFJ0MWtlWTNDNWFxUVhURF9YT0g3cXlxNDlVdV9vcERnX1lsTF92NjJMZlk3dW9EMmxzYjFWdUo1UWc",
-      "guidislink": false
-    },
-    "score": -1,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "75e7f29bb81486d72cb76161e6a8b94606f3acda18de94e577c3c32609a01b8a",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "ERC-7943 author says institutions can’t play DeFi’s ‘pirate game’",
-    "url": "https://cointelegraph.com/features/erc-7943-author-institutions-defi-pirate-game?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/features/erc-7943-author-institutions-defi-pirate-game",
-    "snippet": "RWA standard ERC-7943 reaches final stage as Ethereum builders rethink how institutional finance move onchain.",
-    "published_at": "2026-05-28T14:45:44+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-29T14:29:51.593918+00:00",
-    "matched_keywords": [
-      "RWA"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/features/erc-7943-author-institutions-defi-pirate-game",
-      "guidislink": true
-    },
-    "score": -16,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
