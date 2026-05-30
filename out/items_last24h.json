@@ -10,7 +10,7 @@
     "snippet": "JPMorgan CEO Jamie Dimon Blasts Coinbase: Banks Won’t Accept Stablecoin Bill Without Equal Regulation BeInCrypto",
     "published_at": "2026-05-29T19:07:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
     "matched_keywords": [
       "stablecoin bill",
       "stablecoin"
@@ -58,7 +58,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -99,26 +99,26 @@
     ]
   },
   {
-    "id": "5eda846d1dd0e83c9817bec28f96ed14f11d8d87785e16312c358cb1c42213a2",
+    "id": "375ea3c24c32c46b277bc44bd1c9fb50076016186f1d99d27fcb592602537072",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "theblock",
-    "title": "Court-ordered Circle freeze traps $12.6 million in Zama cUSDC contract amid Overnight Finance suit",
-    "url": "https://www.theblock.co/post/403091/court-ordered-circle-freeze-traps-12-6-million-in-zama-cusdc-contract-amid-overnight-finance-suit?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/403091/court-ordered-circle-freeze-traps-12-6-million-in-zama-cusdc-contract-amid-overnight-finance-suit",
-    "snippet": "Zama CEO Rand Hindi said the protocol's confidential USDC contract was \"caught in a crossfire\" and that his team is investigating the freeze.",
-    "published_at": "2026-05-30T12:30:00+00:00",
+    "title": "Cosmos-based Gravity Bridge drained of $5.4 million in suspected key compromise, researchers say",
+    "url": "https://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say",
+    "snippet": "The attacker took USDC, ether, tether and PAYG tokens before laundering a portion through ChangeNow and Binance.",
+    "published_at": "2026-05-30T18:21:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
     "matched_keywords": [
       "USDC",
-      "Circle"
+      "Tether"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/403091",
+      "id": "https://www.theblock.co/post/403108",
       "guidislink": false
     },
     "score": 30,
@@ -147,36 +147,39 @@
     ]
   },
   {
-    "id": "392171c71eb2f34bfa8d20b983b1ab21c0f356734a8979fcbcc16f236cb20969",
+    "id": "5eda846d1dd0e83c9817bec28f96ed14f11d8d87785e16312c358cb1c42213a2",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Airwallex Challenges Legacy Software With New Billing Solution",
-    "url": "https://www.pymnts.com/news/b2b-payments/2026/airwallex-challenges-legacy-software-with-new-billing-solution/",
-    "canonical_url": "https://pymnts.com/news/b2b-payments/2026/airwallex-challenges-legacy-software-with-new-billing-solution/",
-    "snippet": "Airwallex has added a billing solution to its global payments and financial offerings. The new Airwallex Billing includes tools for invoicing, subscription management and usage-based billing, allowing users to adopt the ones that are relevant to them today and add other billing models as needed, the",
-    "published_at": "2026-05-29T19:18:59+00:00",
+    "feed_name": "theblock",
+    "title": "Court-ordered Circle freeze traps $12.6 million in Zama cUSDC contract amid Overnight Finance suit",
+    "url": "https://www.theblock.co/post/403091/court-ordered-circle-freeze-traps-12-6-million-in-zama-cusdc-contract-amid-overnight-finance-suit?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403091/court-ordered-circle-freeze-traps-12-6-million-in-zama-cusdc-contract-amid-overnight-finance-suit",
+    "snippet": "Zama CEO Rand Hindi said the protocol's confidential USDC contract was \"caught in a crossfire\" and that his team is investigating the freeze.",
+    "published_at": "2026-05-30T12:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3785389",
+      "id": "https://www.theblock.co/post/403091",
       "guidislink": false
     },
-    "score": 14,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -192,26 +195,23 @@
     ]
   },
   {
-    "id": "c178fe09549c4974456aa336c4f20c5b1324c8a59086b0ce0f402ac57f578f94",
+    "id": "392171c71eb2f34bfa8d20b983b1ab21c0f356734a8979fcbcc16f236cb20969",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "pymnts",
-    "title": "Stablecoin Settlement Is Here, but Seamless Off-Chain Money Movement Is Not",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/stablecoin-settlement-is-here-but-seamless-off-chain-money-movement-is-not/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/stablecoin-settlement-is-here-but-seamless-off-chain-money-movement-is-not/",
-    "snippet": "The stablecoin industry has spent years trying to prove one thing above all else: that blockchain-based money can move faster, cheaper and more efficiently than the financial infrastructure it hopes to replace. This week, the industry produced another wave of evidence that the technology itself is w",
-    "published_at": "2026-05-29T17:49:27+00:00",
+    "title": "Airwallex Challenges Legacy Software With New Billing Solution",
+    "url": "https://www.pymnts.com/news/b2b-payments/2026/airwallex-challenges-legacy-software-with-new-billing-solution/",
+    "canonical_url": "https://pymnts.com/news/b2b-payments/2026/airwallex-challenges-legacy-software-with-new-billing-solution/",
+    "snippet": "Airwallex has added a billing solution to its global payments and financial offerings. The new Airwallex Billing includes tools for invoicing, subscription management and usage-based billing, allowing users to adopt the ones that are relevant to them today and add other billing models as needed, the",
+    "published_at": "2026-05-29T19:18:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement"
-    ],
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3784418",
+      "id": "https://www.pymnts.com/?p=3785389",
       "guidislink": false
     },
     "score": 14,
@@ -250,7 +250,7 @@
     "snippet": "‘The banks will not accept it’: Dimon escalates battle over stablecoin rewards in CLARITY Act debate CoinDesk",
     "published_at": "2026-05-29T20:05:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -297,7 +297,7 @@
     "snippet": "Every so often, a person with a security detail, a compensation committee and five admins emerges to tell the rest of us that the top job is actually fairly straightforward. This week’s entry is Google and Alphabet CEO Sundar Pichai, who told The Verge Tuesday (May 26) that “the CEO job is not that ",
     "published_at": "2026-05-30T08:00:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-30T17:38:47.650980+00:00",
+    "fetched_at": "2026-05-30T18:45:19.117476+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
