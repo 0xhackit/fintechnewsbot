@@ -10,7 +10,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -61,7 +61,7 @@
     "snippet": "The $12.6 million in USDC was likely frozen in connection with an ongoing but unrelated civil court case, according to onchain sleuth ZachXBT.",
     "published_at": "2026-05-30T19:11:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -99,54 +99,6 @@
     ]
   },
   {
-    "id": "375ea3c24c32c46b277bc44bd1c9fb50076016186f1d99d27fcb592602537072",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Cosmos-based Gravity Bridge drained of $5.4 million in suspected key compromise, researchers say",
-    "url": "https://www.theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/403108/cosmos-based-gravity-bridge-drained-of-5-4-million-in-suspected-key-compromise-researchers-say",
-    "snippet": "The attacker took USDC, ether, tether and PAYG tokens before laundering a portion through ChangeNow and Binance.",
-    "published_at": "2026-05-30T18:21:02+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Tether"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/403108",
-      "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "2070831d3d2b25f0d615d61056ba5cb9b64f50de1b3e4976043140ba2677f31b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -157,7 +109,7 @@
     "snippet": "Gravity Bridge was drained of roughly $5.4 million in a suspected signing key compromise, prompting validators to halt the bridge while an investigation is underway.",
     "published_at": "2026-05-31T08:57:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -192,6 +144,53 @@
     ]
   },
   {
+    "id": "1aa25b1102278f6648b5f65e7e113bfd002b09a8f73771f876da32829a800f6a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "How the House Financial Services Committee is taking on tokenization: State of Crypto",
+    "url": "https://www.coindesk.com/policy/2026/05/31/how-the-house-financial-services-committee-is-taking-on-tokenization-state-of-crypto",
+    "canonical_url": "https://coindesk.com/policy/2026/05/31/how-the-house-financial-services-committee-is-taking-on-tokenization-state-of-crypto",
+    "snippet": "",
+    "published_at": "2026-05-31T18:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "f6a46e9c-7950-4ac6-b31c-90de169a0d6c",
+      "guidislink": false
+    },
+    "score": 0,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "95ba200cb10b045d08ee550a44474715089ded7bd42345ed378ed8f51897b839",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -202,7 +201,7 @@
     "snippet": "",
     "published_at": "2026-05-31T17:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -249,7 +248,7 @@
     "snippet": "When the Trump family faced pressure from banks, it embraced crypto. Now, immigrants who are in the U.S. illegally face a similar choice.",
     "published_at": "2026-05-31T15:49:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -296,7 +295,7 @@
     "snippet": "Stablecoin demand may soon fade, BoE's Greene says Reuters",
     "published_at": "2026-05-31T15:30:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-05-31T17:20:17.653041+00:00",
+    "fetched_at": "2026-05-31T18:38:27.485483+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
