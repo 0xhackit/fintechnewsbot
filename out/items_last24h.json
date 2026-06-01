@@ -1,5 +1,52 @@
 [
   {
+    "id": "13e46b295ed080cd56befdfccacb4f3fae45e6721e9b8cc319e39e095389a1ed",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Digital euro is key to counter stablecoin risks, says ECB’s Schnabel",
+    "url": "https://www.theblock.co/post/403142/digital-euro-stablecoin-risks-ecb?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403142/digital-euro-stablecoin-risks-ecb",
+    "snippet": "Isabel Schnabel, an ECB board member, said Monday that central banks should respond to stablecoin risks with strong regulation and CBDCs.",
+    "published_at": "2026-06-01T08:49:18+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/403142",
+      "guidislink": false
+    },
+    "score": 90,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "a1bb468700460519c8c0e730afc1e609b3615129d17420edc03daa08028385c4",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -10,7 +57,7 @@
     "snippet": "",
     "published_at": "2026-06-01T06:57:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -21,20 +68,68 @@
       "id": "defac05f-6cd7-4025-892d-e54ec3efe529",
       "guidislink": false
     },
-    "score": 90,
+    "score": 84,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 20,
       "financial_bonus": 50,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d47b98fd69df1bf23aee32c28ce2882504e5603dbfc1bbfe4f381ab45edec045",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "ECB official says stablecoins risk importing old market flaws",
+    "url": "https://cointelegraph.com/news/ecb-stablecoins-public-money-digital-euro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/ecb-stablecoins-public-money-digital-euro",
+    "snippet": "ECB board member Isabel Schnabel warned that stablecoins could bring money-market risks into tokenized finance and reinforce US dollar dominance.",
+    "published_at": "2026-06-01T11:21:55+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/ecb-stablecoins-public-money-digital-euro",
+      "guidislink": true
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": -10,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -57,7 +152,7 @@
     "snippet": "",
     "published_at": "2026-05-31T23:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -94,41 +189,92 @@
     ]
   },
   {
-    "id": "df1f2f1baef98b0d93bb3437f28c15077b121fcc58e6b7df703975c430f79183",
+    "id": "da49a1ab026404233af5e6175ccbe79c9d5aadbe0102e5c68ecff369efec9d33",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Fed Gov. Waller Champions Stablecoins and Dismisses CBDCs",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/fed-gov-waller-champions-stablecoins-and-dismisses-cbdcs/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/fed-gov-waller-champions-stablecoins-and-dismisses-cbdcs/",
-    "snippet": "Federal Reserve Governor Christopher Waller is promoting stablecoin usage while blasting central bank digital currencies. During a speech Sunday (May 31) in Croatia, Waller said the global spread of stablecoins could increase the influence of U.S. central bank policy. “Countries that adopt it, it’s ",
-    "published_at": "2026-05-31T22:13:04+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Binance adds US stock trading in push beyond crypto",
+    "url": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading",
+    "snippet": "Binance launched US equities trading for eligible users and plans tokenized stocks as crypto exchanges expand into broader financial markets.",
+    "published_at": "2026-06-01T11:30:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "tokenized",
+      "launched"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3789211",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading",
+      "guidislink": true
     },
-    "score": 50,
+    "score": 55,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 1,
-      "commentary": 2,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 40,
+      "launch_score": 35,
+      "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -20,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ff7ff64b00500e7c564e6bce33efa07118ef271f5a8cbf08bc7754bca4457cf9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Binance adds over 7,000 US stocks and ETFs for traders outside the United States amid super app push",
+    "url": "https://www.theblock.co/post/403155/binance-adds-us-stocks-etfs-traders-outside-united-states-super-app-push?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403155/binance-adds-us-stocks-etfs-traders-outside-united-states-super-app-push",
+    "snippet": "Binance launched U.S. stock and ETF trading for non-U.S. users and has plans for tokenized equities on BNB Chain.",
+    "published_at": "2026-06-01T10:48:36+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "launched"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/403155",
+      "guidislink": false
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -151,7 +297,7 @@
     "snippet": "Federal Reserve Governor Christopher Waller told a conference on Sunday that stablecoins expand the reach of US policy while the Bank of England’s Megan Greene expects their popularity will soon fade.",
     "published_at": "2026-05-31T21:11:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -196,7 +342,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -247,7 +393,7 @@
     "snippet": "Stablecoin Demand Likely To Wane, Says This Bank Of England Policymaker, ECB Executive Thinks They Could Benzinga",
     "published_at": "2026-06-01T03:52:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -258,65 +404,20 @@
       "id": "CBMivgFBVV95cUxNMjNYWld6NDdDRHlvMlMtR0VvQkhSOG1DUlJRb0habExrZnhxQnlnN0ZxTVcteXptVjI5SVVOa1MyUjlZQjBUZ2NOeXEzbWtJX3U5bTlCNFdHTjB5MGVXYW9UOElWUFpPaDRpMVR6bWFxcTVVbkNVblBva29neUpTSC11UktrSjROZndPR0NNc2UtQlpkcDdkcnhpby13TFFfM2NFbE00TjBNV052bHdfV3JfOW9jZ1g1cXBKQ09n",
       "guidislink": false
     },
-    "score": 40,
+    "score": 34,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 40,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": -10,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "2070831d3d2b25f0d615d61056ba5cb9b64f50de1b3e4976043140ba2677f31b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Cosmos-based Gravity Bridge halts bridge after reported $5.4M exploit",
-    "url": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit",
-    "snippet": "Gravity Bridge was drained of roughly $5.4 million in a suspected signing key compromise, prompting validators to halt the bridge while an investigation is underway.",
-    "published_at": "2026-05-31T08:57:25+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/cosmos-based-gravity-bridge-halts-bridge-after-reported-54m-exploit",
-      "guidislink": true
-    },
-    "score": 19,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -339,7 +440,7 @@
     "snippet": "A Bank of England economist says stablecoins’ popularity could soon wane, supplanted by tokenized deposits. “I think tokenized deposits are probably going to take over from stablecoins, and five years from now, I suspect we might wonder why we were talking about stablecoins,” said Megan Greene, whos",
     "published_at": "2026-05-31T23:23:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
@@ -378,6 +479,141 @@
     ]
   },
   {
+    "id": "60c784f83f88c91c8b516bc53d4e7d74047bcdd8f2bb0cf45841338b1a8e7e6a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "U.S. Congress returns as GENIUS comments periods close, jobs report: Crypto Week Ahead",
+    "url": "https://www.coindesk.com/markets/2026/06/01/u-s-congress-returns-as-genius-comments-periods-close-jobs-report-crypto-week-ahead",
+    "canonical_url": "https://coindesk.com/markets/2026/06/01/u-s-congress-returns-as-genius-comments-periods-close-jobs-report-crypto-week-ahead",
+    "snippet": "",
+    "published_at": "2026-06-01T08:50:45+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [
+      "Genius"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "ff12b7ba-302d-472b-bfd7-b924868c391f",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ed6426c3753372793e7056a0c38d4ae4abc3179132dc3b2a002362f5ffdff44a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "crypto_native_fintech_launches",
+    "title": "SMSF Crypto Storage: Exchange Wallet, Cold Wallet or Custody Provider? - Kalkine",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUklTUngzX2VZZUFtRGk4bFpzTjhwODV0djRJZm95aHdQYy1haGNUTDd4R0ttRHdoVF84OTlXQXpxa2VyR1Jidmwyd2htMVlfSUZYTnhaVUM3eXZZQ2RibTl0SUZDSXFNYWVfV1lEUkdFRjNESm1lZzNKdkJEdXY5bXZldHI2c3lmZFNXNUFyejB4cVhzcWtkQ3dtZm5DbWVYNXc?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUklTUngzX2VZZUFtRGk4bFpzTjhwODV0djRJZm95aHdQYy1haGNUTDd4R0ttRHdoVF84OTlXQXpxa2VyR1Jidmwyd2htMVlfSUZYTnhaVUM3eXZZQ2RibTl0SUZDSXFNYWVfV1lEUkdFRjNESm1lZzNKdkJEdXY5bXZldHI2c3lmZFNXNUFyejB4cVhzcWtkQ3dtZm5DbWVYNXc?oc=5",
+    "snippet": "SMSF Crypto Storage: Exchange Wallet, Cold Wallet or Custody Provider? Kalkine",
+    "published_at": "2026-06-01T07:26:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "CBMiogFBVV95cUxNUklTUngzX2VZZUFtRGk4bFpzTjhwODV0djRJZm95aHdQYy1haGNUTDd4R0ttRHdoVF84OTlXQXpxa2VyR1Jidmwyd2htMVlfSUZYTnhaVUM3eXZZQ2RibTl0SUZDSXFNYWVfV1lEUkdFRjNESm1lZzNKdkJEdXY5bXZldHI2c3lmZFNXNUFyejB4cVhzcWtkQ3dtZm5DbWVYNXc",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "42b566d7b1c3a6d8a94076a1982b2d9ef132b943e63bc0d0c31cbcc6d0320ab3",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "77% of CFOs Cite Crypto Compliance Uncertainty",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/77percent-chief-financial-officers-cite-crypto-compliance-uncertainty/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/77percent-chief-financial-officers-cite-crypto-compliance-uncertainty/",
+    "snippet": "For middle-market chief financial officers, the promise of faster payments is not enough to move digital assets into the finance stack. That was the main signal from “Waiting for Certainty: Why Most CFOs Are Holding Back on Crypto and Stablecoins,” the March installment of PYMNTS Intelligence’s 2026",
+    "published_at": "2026-06-01T08:00:19+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3783612",
+      "guidislink": false
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1aa25b1102278f6648b5f65e7e113bfd002b09a8f73771f876da32829a800f6a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -388,7 +624,7 @@
     "snippet": "",
     "published_at": "2026-05-31T18:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -435,7 +671,7 @@
     "snippet": "",
     "published_at": "2026-05-31T17:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -472,6 +708,51 @@
     ]
   },
   {
+    "id": "c2ebf155e1f4a0bf32a40e36f9a7ccefcbedec74b713e9a4f22770eaff92f3ea",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Why Family Offices Are Thinking Like Geopolitical Risk Managers",
+    "url": "https://www.finextra.com/blogposting/31876/why-family-offices-are-thinking-like-geopolitical-risk-managers?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/blogposting/31876/why-family-offices-are-thinking-like-geopolitical-risk-managers",
+    "snippet": "For decades, family offices focused on a relatively straightforward mission: preserve wealth, grow",
+    "published_at": "2026-05-31T21:03:10+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/blogposting/31876/why-family-offices-are-thinking-like-geopolitical-risk-managers?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": -16,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "58257979556c2074794fe881c658744a6580ef662404ff01284fe15bd84d6699",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -482,7 +763,7 @@
     "snippet": "When the Trump family faced pressure from banks, it embraced crypto. Now, immigrants who are in the U.S. illegally face a similar choice.",
     "published_at": "2026-05-31T15:49:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -529,7 +810,7 @@
     "snippet": "Stablecoin demand may soon fade, BoE's Greene says Reuters",
     "published_at": "2026-05-31T15:30:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-01T07:16:48.388909+00:00",
+    "fetched_at": "2026-06-01T13:02:35.809141+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
