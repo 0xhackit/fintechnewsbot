@@ -1,41 +1,143 @@
 [
   {
-    "id": "d47b98fd69df1bf23aee32c28ce2882504e5603dbfc1bbfe4f381ab45edec045",
+    "id": "1651a977dad36dae56550e2938dcb3b5bb6b3fb3e669564dab773f0b4b4cf48a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "ECB official says stablecoins risk importing old market flaws",
-    "url": "https://cointelegraph.com/news/ecb-stablecoins-public-money-digital-euro?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/ecb-stablecoins-public-money-digital-euro",
-    "snippet": "ECB board member Isabel Schnabel warned that stablecoins could bring money-market risks into tokenized finance and reinforce US dollar dominance.",
-    "published_at": "2026-06-01T11:21:55+00:00",
+    "feed_name": "theblock",
+    "title": "Coinbase investing into stablecoin reserves ETF issued by ProShares",
+    "url": "https://www.theblock.co/post/403367/coinbases-investing-into-stablecoin-reserves-etf-issued-by-proshares?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403367/coinbases-investing-into-stablecoin-reserves-etf-issued-by-proshares",
+    "snippet": "The fund, called ProShares GENIUS Money Market ETF, has $22 billion in assets under management and launched this year.",
+    "published_at": "2026-06-02T14:48:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
-      "tokenized"
+      "stablecoin",
+      "reserves",
+      "launched",
+      "Genius"
     ],
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/ecb-stablecoins-public-money-digital-euro",
-      "guidislink": true
+      "id": "https://www.theblock.co/post/403367",
+      "guidislink": false
     },
-    "score": 74,
+    "score": 95,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 1,
-      "commentary": 1,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "61f871772350b080e0b86dc24df8d1e984c1e92b952d7981f46b430b0aba1345",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Hamilton Lane’s tokenized HLSCOPE fund launches on Tron, marking first Securitize asset on the network",
+    "url": "https://www.theblock.co/post/403239/hamilton-lanes-tokenized-hlscope-fund-launches-on-tron-marking-first-securitize-product-issued-on-the-once-maligned-blockchain?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403239/hamilton-lanes-tokenized-hlscope-fund-launches-on-tron-marking-first-securitize-product-issued-on-the-once-maligned-blockchain",
+    "snippet": "Hamilton Lane’s tokenized Senior Credit Opportunities Fund will be the first Securitize-issued asset to launch on TRON.",
+    "published_at": "2026-06-02T13:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "launch",
+      "launches"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/403239",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 70,
+      "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": -10,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "fbd029b7296a23b156c9eddc1d848d71801fe50cb0cd2beb8514e0628c665aab",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "MoneyGram launches stablecoin",
+    "url": "https://www.finextra.com/newsarticle/47843/moneygram-launches-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/newsarticle/47843/moneygram-launches-stablecoin",
+    "snippet": "MoneyGram has launches a US dollar stabelcoin on the Stellar blockchain and issued by Stripe-owned Bridge.",
+    "published_at": "2026-06-02T14:14:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/newsarticle/47843/moneygram-launches-stablecoin?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -58,7 +160,7 @@
     "snippet": "Dogecoin Parent Company Partners Paxos To Launch DOGE On Crypto Brokerage CoinGape",
     "published_at": "2026-06-01T16:56:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "Paxos",
       "launch",
@@ -98,54 +200,6 @@
     ]
   },
   {
-    "id": "f3693de5cc9c0554371f18bdbfd8c73cda4bd93060212baec473d57a24ac013b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Crypto meets Wall Street: MEXC unveils 'RealStocks' with 0-fee U.S. equity trading and real dividends",
-    "url": "https://cointelegraph.com/press-releases/crypto-meets-wall-street-mexc-unveils-realstocks-with-0-fee-us-equity-trading-and-real-dividends?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/press-releases/crypto-meets-wall-street-mexc-unveils-realstocks-with-0-fee-us-equity-trading-and-real-dividends",
-    "snippet": "MEXC, a leading 0-fee cross-asset trading platform, today announced the official launch of 'RealStocks.'",
-    "published_at": "2026-06-01T12:40:48+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
-    "matched_keywords": [
-      "launch",
-      "unveils"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/press-releases/crypto-meets-wall-street-mexc-unveils-realstocks-with-0-fee-us-equity-trading-and-real-dividends",
-      "guidislink": true
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 3,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "2a7d8d0bb44315deb72df0c74f30bf9b655b930e9fb46d120bb2223136df9c42",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -156,7 +210,7 @@
     "snippet": "Tokenization Fueling a $400 Billion Individual Investor Frontier: HedgeCo.Net",
     "published_at": "2026-06-02T04:41:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -203,7 +257,7 @@
     "snippet": "Federal Reserve Governor Chris Waller made a robust case for stablecoins as a competitive force in payments during a panel in Croatia this weekend, putting him at odds with most of his fellow panelists who favored tokenized deposits. The wide-ranging session also produced a lively exchange on what h",
     "published_at": "2026-06-01T17:13:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
@@ -242,40 +296,39 @@
     ]
   },
   {
-    "id": "da49a1ab026404233af5e6175ccbe79c9d5aadbe0102e5c68ecff369efec9d33",
+    "id": "00070b90d720b60ad58d312378c7bee6524c24f10e426de9a0e9ef39013605ef",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Binance adds US stock trading in push beyond crypto",
-    "url": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading",
-    "snippet": "Binance launched US equities trading for eligible users and plans tokenized stocks as crypto exchanges expand into broader financial markets.",
-    "published_at": "2026-06-01T11:30:08+00:00",
+    "feed_name": "finextra",
+    "title": "Franklin Templeton and MoonPay bid to expand institutional access to tokenised funds",
+    "url": "https://www.finextra.com/pressarticle/110007/franklin-templeton-and-moonpay-bid-to-expand-institutional-access-to-tokenised-funds?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110007/franklin-templeton-and-moonpay-bid-to-expand-institutional-access-to-tokenised-funds",
+    "snippet": "Franklin Templeton and MoonPay today announced a strategic partnership to make tokenized financial products more accessible and usable across the onchain financial ecosystem.",
+    "published_at": "2026-06-02T14:41:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
-      "tokenized",
-      "launched"
+      "tokenized"
     ],
     "matched_topics": [
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/binance-launches-tokenized-stocks-245-trading",
-      "guidislink": true
+      "id": "https://www.finextra.com/pressarticle/110007/franklin-templeton-and-moonpay-bid-to-expand-institutional-access-to-tokenised-funds?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
     },
-    "score": 49,
+    "score": 45,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 35,
-      "institution_bonus": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -291,26 +344,125 @@
     ]
   },
   {
-    "id": "c282513808c5098e2dc13fc0f570f843985f75275d3505dcb456542cc237062c",
+    "id": "fb1f5c5cc3bf4cbf747e4f0706ee052e186414509f3f419f0a2bb08f132c72ec",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Ripple brings RLUSD stablecoin to Turkey",
-    "url": "https://www.finextra.com/pressarticle/109996/ripple-brings-rlusd-stablecoin-to-turkey?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/109996/ripple-brings-rlusd-stablecoin-to-turkey",
-    "snippet": "Ripple, the leading provider of blockchain-based enterprise solutions across traditional and digital finance, today announced that its enterprise-grade, USD-backed stablecoin Ripple USD (RLUSD) is now available to institutions in Türkiye through three new partnerships with BiLira, Bitexen and Bitlo.",
-    "published_at": "2026-06-02T09:53:00+00:00",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Securitize launches Hamilton Lane private credit fund HLSCOPE tokenization product on TRON - WEEX",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSHpsQWx3ZzhFaW1ON090V21LOFVHREtBTW5nYS14bDVMNUdXUVNQSGhHLVJBS21ILXluVnZaTllHSmtEVFN2WVQ1eUJIUnhLX1dfdG5zZ1UtWmtuRDZmeG95OVFOaXpUR3BjcTZUMDlhRXM1NzFPM01MU0tYX1VPN0NLRXFhby03RjZFWFpMZUNHSXIwOVlFdGpHYWR6N3JPNC1FSVRfUUlQemlZeUFvS0VvVkxRXzlLc0U1MTZrZHM2bGlRLTh5YmFmVFh5OU5aLVA4RTAwWkRtWk50Q3oybUJB?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOSHpsQWx3ZzhFaW1ON090V21LOFVHREtBTW5nYS14bDVMNUdXUVNQSGhHLVJBS21ILXluVnZaTllHSmtEVFN2WVQ1eUJIUnhLX1dfdG5zZ1UtWmtuRDZmeG95OVFOaXpUR3BjcTZUMDlhRXM1NzFPM01MU0tYX1VPN0NLRXFhby03RjZFWFpMZUNHSXIwOVlFdGpHYWR6N3JPNC1FSVRfUUlQemlZeUFvS0VvVkxRXzlLc0U1MTZrZHM2bGlRLTh5YmFmVFh5OU5aLVA4RTAwWkRtWk50Q3oybUJB?oc=5",
+    "snippet": "Securitize launches Hamilton Lane private credit fund HLSCOPE tokenization product on TRON WEEX",
+    "published_at": "2026-06-02T13:48:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "private credit",
+      "tokenization",
+      "launches"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMi4gFBVV95cUxOSHpsQWx3ZzhFaW1ON090V21LOFVHREtBTW5nYS14bDVMNUdXUVNQSGhHLVJBS21ILXluVnZaTllHSmtEVFN2WVQ1eUJIUnhLX1dfdG5zZ1UtWmtuRDZmeG95OVFOaXpUR3BjcTZUMDlhRXM1NzFPM01MU0tYX1VPN0NLRXFhby03RjZFWFpMZUNHSXIwOVlFdGpHYWR6N3JPNC1FSVRfUUlQemlZeUFvS0VvVkxRXzlLc0U1MTZrZHM2bGlRLTh5YmFmVFh5OU5aLVA4RTAwWkRtWk50Q3oybUJB",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "dd2cf2a4bf6b5370f52fc00764bf38471708edf64e4561605221e2ec42120a72",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Backpack launches securities platform blending traditional and tokenized stock trading",
+    "url": "https://www.theblock.co/post/403328/backpack-launches-securities-platform-blending-traditional-and-tokenized-stock-trading?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403328/backpack-launches-securities-platform-blending-traditional-and-tokenized-stock-trading",
+    "snippet": "Backpack Securities combines a U.S.-regulated brokerage for traditional equities ownership with a tokenization platform.",
+    "published_at": "2026-06-02T13:05:02+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "tokenization",
+      "tokenized",
+      "launches"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/403328",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "376a8380c08df6f537ae18f1edb58a9d0af085d787a008402ba5ee489154b2c5",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Ripple’s dollar stablecoin expands to Turkey through three local platforms",
+    "url": "https://www.coindesk.com/markets/2026/06/02/ripple-s-dollar-stablecoin-expands-to-turkey-through-three-local-platforms",
+    "canonical_url": "https://coindesk.com/markets/2026/06/02/ripple-s-dollar-stablecoin-expands-to-turkey-through-three-local-platforms",
+    "snippet": "",
+    "published_at": "2026-06-02T11:50:35+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/109996/ripple-brings-rlusd-stablecoin-to-turkey?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "bbf19110-86c2-493b-a8b8-0bf602830429",
       "guidislink": false
     },
     "score": 45,
@@ -349,7 +501,7 @@
     "snippet": "How PSPs can push their stablecoin projects from pilot to launch.",
     "published_at": "2026-06-02T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -400,7 +552,7 @@
     "snippet": "Kasikornbank has signed an MoU with Ant International to deploy blockchain rails for cross-border US Dollar transactions.",
     "published_at": "2026-06-02T09:23:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -409,53 +561,6 @@
     ],
     "raw": {
       "id": "https://www.finextra.com/newsarticle/47841/kbank-and-ant-international-turn-to-jpmorgans-kinexys-for-real-time-cross-border-usd?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "8f6772417b883d6e4938c2b98b32ae1c892c725da40422c04be227fd604fb9d0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Three in five Mastercard e-commerce transactions in Europe now tokenized",
-    "url": "https://www.finextra.com/pressarticle/109990/three-in-five-mastercard-e-commerce-transactions-in-europe-now-tokenized?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/109990/three-in-five-mastercard-e-commerce-transactions-in-europe-now-tokenized",
-    "snippet": "Mastercard is advancing the transformation of online checkout across Europe, building momentum toward its 2030 goal of phasing out manual card entry and reducing reliance on static credentials.",
-    "published_at": "2026-06-02T09:10:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/109990/three-in-five-mastercard-e-commerce-transactions-in-europe-now-tokenized?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
     "score": 40,
@@ -494,7 +599,7 @@
     "snippet": "SoFi Launches First Bank-Issued Stablecoin (SoFiUSD) on Consumer Banking App Loeb & Loeb LLP",
     "published_at": "2026-06-01T18:23:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "stablecoin",
       "launches"
@@ -543,7 +648,7 @@
     "snippet": "House of DOGE partners with Paxos to integrate Dogecoin across major fintech platforms Crypto Briefing",
     "published_at": "2026-06-01T16:18:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "Paxos",
       "partners"
@@ -582,6 +687,148 @@
     ]
   },
   {
+    "id": "801f7d4e0635950f8c50037cc674ed5b73f14c44690aa959f0d3ed3a11b23c2d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "DNB Bank expands partnership with Infosys for AI-driven financial crime operations",
+    "url": "https://www.finextra.com/pressarticle/110005/dnb-bank-expands-partnership-with-infosys-for-ai-driven-financial-crime-operations?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110005/dnb-bank-expands-partnership-with-infosys-for-ai-driven-financial-crime-operations",
+    "snippet": "Infosys (NSE, BSE, NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced the expansion of its strategic collaboration with DNB Bank ASA (DNB), Norway’s largest bank, to modernize its Financial Crime (FinCrime) operations using NICE Actimize X-Sight Ent",
+    "published_at": "2026-06-02T14:37:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110005/dnb-bank-expands-partnership-with-infosys-for-ai-driven-financial-crime-operations?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "383ea100d0086982b918b503fd92e0206fefecd3382a398c9918471a96b015a8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Franklin Templeton teams up with MoonPay to let big investors swap stablecoins for yields 24/7",
+    "url": "https://www.coindesk.com/business/2026/06/02/franklin-templeton-teams-up-with-moonpay-to-let-big-investors-swap-stablecoins-for-yields-24-7",
+    "canonical_url": "https://coindesk.com/business/2026/06/02/franklin-templeton-teams-up-with-moonpay-to-let-big-investors-swap-stablecoins-for-yields-24-7",
+    "snippet": "",
+    "published_at": "2026-06-02T13:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "d305d692-2a30-4d3b-b657-1e043612c281",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "3a780faed1f39cd12024497611ea65c37ab76496f8dc7ce58b6d8b3cdde210c7",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "MoneyGram launches MGUSD stablecoin on Stellar network",
+    "url": "https://cointelegraph.com/news/moneygram-mgusd-stablecoin-remittance-onchain-rails?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/moneygram-mgusd-stablecoin-remittance-onchain-rails",
+    "snippet": "MoneyGram launched MGUSD, a dollar stablecoin on Stellar, as the remittance company deepens its push into blockchain-based global payments.",
+    "published_at": "2026-06-02T13:27:47+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "remittance",
+      "launches",
+      "launched"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/moneygram-mgusd-stablecoin-remittance-onchain-rails",
+      "guidislink": true
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "de52e0c6ab8a938e0f699c5a3c561f090f352af3d8e0c420ced3dde64cf8c93b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -592,7 +839,7 @@
     "snippet": "MoneyGram launched MGUSD, a USD stablecoin on Stellar backed by Bridge and Fireblocks, targeting 60M+ customers for cross-border payments.",
     "published_at": "2026-06-02T10:49:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "stablecoin",
       "cross-border",
@@ -642,7 +889,7 @@
     "snippet": "MoneyGram has launched its own stablecoin as it builds its blockchain payments infrastructure. The native U.S. dollar coin, MGUSD, is designed less for crypto natives than for people who need to move money but don’t have access to traditional financial services, MoneyGram said in a news release Tues",
     "published_at": "2026-06-02T10:49:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "blockchain payments",
       "stablecoin",
@@ -682,6 +929,55 @@
     ]
   },
   {
+    "id": "3ad25e264432f8b3d6eca84a567f15da66f267193c0a67919d61cd1f5a8f2a95",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "MoneyGram Launches MGUSD, a Stablecoin to Power Its Own Global Network - PR Newswire",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMkYyUUQ3dHprVE9KYWY3SEtyZWJBWTA4a0E4WGQyT1k2TkJzVTVaMHRXLTdCOG9aZ28xM1lLb3lVUHhJU0FVV1NEeE5VZWJRN050T3A4U1FWQWczbWNzenM1RG5CUXltRVI0UjBsVTNZSkM3U0FCY1AxRUdCOWpWdWZIZjBoYm9mOC1CRlFkdmFwTHF5ZHJ0Q3F2WGJOVVNKaUc2ZEhhVkJCUHEwc3JkWjVJdXRYWFdzWFcyak5tQkxGYVE?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPMkYyUUQ3dHprVE9KYWY3SEtyZWJBWTA4a0E4WGQyT1k2TkJzVTVaMHRXLTdCOG9aZ28xM1lLb3lVUHhJU0FVV1NEeE5VZWJRN050T3A4U1FWQWczbWNzenM1RG5CUXltRVI0UjBsVTNZSkM3U0FCY1AxRUdCOWpWdWZIZjBoYm9mOC1CRlFkdmFwTHF5ZHJ0Q3F2WGJOVVNKaUc2ZEhhVkJCUHEwc3JkWjVJdXRYWFdzWFcyak5tQkxGYVE?oc=5",
+    "snippet": "MoneyGram Launches MGUSD, a Stablecoin to Power Its Own Global Network PR Newswire",
+    "published_at": "2026-06-02T09:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMiwwFBVV95cUxPMkYyUUQ3dHprVE9KYWY3SEtyZWJBWTA4a0E4WGQyT1k2TkJzVTVaMHRXLTdCOG9aZ28xM1lLb3lVUHhJU0FVV1NEeE5VZWJRN050T3A4U1FWQWczbWNzenM1RG5CUXltRVI0UjBsVTNZSkM3U0FCY1AxRUdCOWpWdWZIZjBoYm9mOC1CRlFkdmFwTHF5ZHJ0Q3F2WGJOVVNKaUc2ZEhhVkJCUHEwc3JkWjVJdXRYWFdzWFcyak5tQkxGYVE",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c4ee3de31092d4a3e6c6ee7b8ffb700b7d7e5140a1ba20d658e92ad95a75ea2b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -692,7 +988,7 @@
     "snippet": "",
     "published_at": "2026-06-02T09:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "stablecoin",
       "launches"
@@ -731,41 +1027,227 @@
     ]
   },
   {
-    "id": "3eb5ee1b692aea8a7bcf1c51cfee8eb039fd0f3135251a3b86a8c5cf72eff838",
+    "id": "fadde69391338661b585ea7f6dd1d2b9e84555775289f58f7de2f61542d9be9c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Binance Opens Access to 7,000 US Stocks, Prepares Tokenized 'bStocks' Rollout",
-    "url": "https://decrypt.co/369603/binance-opens-access-to-7000-us-stocks-prepares-tokenized-bstocks-rollout",
-    "canonical_url": "https://decrypt.co/369603/binance-opens-access-to-7000-us-stocks-prepares-tokenized-bstocks-rollout",
-    "snippet": "Binance opened equities trading and previewed \"bStocks,\" with experts split over whether tokenization unlocks growth or layers on new risk.",
-    "published_at": "2026-06-01T14:33:49+00:00",
+    "feed_name": "pymnts",
+    "title": "Polymarket Challenges Traditional Futures With AI-Focused Institutional Block Trade",
+    "url": "https://www.pymnts.com/markets/2026/polymarket-challenges-traditional-futures-with-ai-focused-institutional-block-trade/",
+    "canonical_url": "https://pymnts.com/markets/2026/polymarket-challenges-traditional-futures-with-ai-focused-institutional-block-trade/",
+    "snippet": "Polymarket has closed its first on-chain institutional block trade tied to artificial intelligence compute infrastructure, saying this shows prediction markets can function like commodity futures for the AI era. The transaction was a six-figure block trade between digital asset prime brokerage Falco",
+    "published_at": "2026-06-02T14:35:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3796995",
+      "guidislink": false
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "847a0c66f14378241079a944c9533b840e74075c1995d39b0dd803d26e1a0ffe",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Franklin Templeton brings BENJI tokenized fund to MoonPay",
+    "url": "https://www.theblock.co/post/403223/franklin-templeton-brings-benji-tokenized-fund-to-moonpay?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/403223/franklin-templeton-brings-benji-tokenized-fund-to-moonpay",
+    "snippet": "The partnership will serve as \"the foundation for a broader strategic relationship between Franklin Templeton and MoonPay.\"",
+    "published_at": "2026-06-02T13:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
-      "tokenization",
-      "tokenized",
-      "rollout"
+      "tokenized fund",
+      "tokenized"
     ],
     "matched_topics": [
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=369603",
+      "id": "https://www.theblock.co/post/403223",
       "guidislink": false
     },
-    "score": 24,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 10,
-      "institution_bonus": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ca76f745833f0f4a47446a82709ed4e9ca377dcff9a81c7dc00c24e7eedaa87d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Stellar CEO says Clarity Act would help, but tokenization isn't dependent on it",
+    "url": "https://www.coindesk.com/coindesk-news/2026/06/02/stellar-ceo-says-clarity-act-would-help-but-tokenization-isn-t-dependent-on-it",
+    "canonical_url": "https://coindesk.com/coindesk-news/2026/06/02/stellar-ceo-says-clarity-act-would-help-but-tokenization-isn-t-dependent-on-it",
+    "snippet": "",
+    "published_at": "2026-06-02T12:35:35+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "12459742-8400-4958-b4c5-960d896b9d16",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9dad259977892bc623f55ae4861fd6a110b46ffe083b4e52462a748a220b8310",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Symbiotic aims to make tokenized assets easier to cash out with new liquidity network",
+    "url": "https://www.coindesk.com/business/2026/06/02/symbiotic-aims-to-make-tokenized-assets-easier-to-cash-out-with-new-liquidity-network",
+    "canonical_url": "https://coindesk.com/business/2026/06/02/symbiotic-aims-to-make-tokenized-assets-easier-to-cash-out-with-new-liquidity-network",
+    "snippet": "",
+    "published_at": "2026-06-02T12:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "c48b82fc-3305-4913-afbb-88e705a3a627",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "69c72023e6b4e4b84168ef7e8d3b9c7539959c9b18d50a74512be91b2e0a0ab9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "PayWallet expands payout capabilities with TerraPay integration",
+    "url": "https://www.finextra.com/pressarticle/109998/paywallet-expands-payout-capabilities-with-terrapay-integration?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/109998/paywallet-expands-payout-capabilities-with-terrapay-integration",
+    "snippet": "TerraPay, a global money movement company, has partnered with PalWallet, a fintech infrastructure provider focused on stablecoin settlement, global payments infrastructure and embedded financial services, to help businesses move money across borders faster and more efficiently.",
+    "published_at": "2026-06-02T11:32:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/109998/paywallet-expands-payout-capabilities-with-terrapay-integration?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -791,7 +1273,7 @@
     "snippet": "The Parliamentary Association for the Promotion of Blockchain delivered recommendations to Japan’s finance minister on crypto and blockchain.",
     "published_at": "2026-06-01T18:33:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -799,51 +1281,6 @@
     "raw": {
       "id": "https://cointelegraph.com/news/japans-ruling-party-crypto-etfs-yen-denominated-stablecoins",
       "guidislink": true
-    },
-    "score": 19,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6d819f20706912d22f5ccb367e10eb409086a84f3371e6937a6f5a854bc7e692",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Japan's ruling party supports crypto ETF trading, yen-based stablecoins",
-    "url": "https://www.coindesk.com/policy/2026/06/01/japan-s-ruling-party-supports-crypto-etf-trading-yen-based-stablecoins",
-    "canonical_url": "https://coindesk.com/policy/2026/06/01/japan-s-ruling-party-supports-crypto-etf-trading-yen-based-stablecoins",
-    "snippet": "",
-    "published_at": "2026-06-01T13:38:04+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "dce58611-43e4-42c7-ac09-ac32a96c380e",
-      "guidislink": false
     },
     "score": 19,
     "score_breakdown": {
@@ -881,7 +1318,7 @@
     "snippet": "The integration gives fintech and institutional platforms a new pathway to evaluate DOGE amid signs of slowing crypto adoption.",
     "published_at": "2026-06-01T21:51:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "Paxos"
     ],
@@ -918,6 +1355,55 @@
     ]
   },
   {
+    "id": "23aa11a9b3c1b9d076bc5dd9e08abfc024cf8f1f6d356491a4b02d1248774f38",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Movement pivots to stablecoin payments as the layer-2 boom loses momentum",
+    "url": "https://www.coindesk.com/tech/2026/06/02/movement-pivots-to-stablecoin-payments-as-the-layer-2-boom-loses-momentum",
+    "canonical_url": "https://coindesk.com/tech/2026/06/02/movement-pivots-to-stablecoin-payments-as-the-layer-2-boom-loses-momentum",
+    "snippet": "",
+    "published_at": "2026-06-02T13:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "cc341a1a-e4a6-4212-a9a9-dc35638259f1",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1ec87a88d7a387276b49ea505c18839313333ea291eadcec5cf81397af7d5aaa",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -928,7 +1414,7 @@
     "snippet": "TransferMate, the leading provider of embedded B2B payments, has selected BVNK as its stablecoin infrastructure partner in a new integration that will see TransferMate use BVNK to offer stablecoin capabilities across its global network for the first time.",
     "published_at": "2026-06-02T10:46:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-02T10:58:06.514710+00:00",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -953,6 +1439,53 @@
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "6ef5794b01bfe7a7a189501029cebf87f1d8a0c70deb5b79ca982f3ca9733869",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Why integration with existing infrastructure is the key to mass stablecoin adoption",
+    "url": "https://www.finextra.com/blogposting/31900/why-integration-with-existing-infrastructure-is-the-key-to-mass-stablecoin-adoption?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/blogposting/31900/why-integration-with-existing-infrastructure-is-the-key-to-mass-stablecoin-adoption",
+    "snippet": "The innovation in payments over the past decade has been extraordinary. Transfers are completed with...",
+    "published_at": "2026-06-02T11:16:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-02T14:56:31.538365+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/blogposting/31900/why-integration-with-existing-infrastructure-is-the-key-to-mass-stablecoin-adoption?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": -10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
