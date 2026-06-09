@@ -1,16 +1,16 @@
 [
   {
-    "id": "4bbb67665b83319d7630242fc0fbc3811201539bc3ad8925008d48e0f4deb6f3",
+    "id": "a1f5e56dc4176d6dfb078f58c6d3e50573e026d9967b381427fa7fda18bab46b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "New York Moves to Align Stablecoin Rules With GENIUS Act",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/new-york-moves-align-stablecoin-rules-with-genius-act/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/new-york-moves-align-stablecoin-rules-with-genius-act/",
-    "snippet": "The New York State Department of Financial Services (DFS) announced a proposed regulation that would harmonize its stablecoin framework with new federal regulations. The proposed regulation would add provisions to ensure alignment with the U.S. Treasury Department’s proposed requirements for state f",
-    "published_at": "2026-06-09T16:34:31+00:00",
+    "feed_name": "finextra",
+    "title": "NYDFS proposes stablecoin regulatory framework",
+    "url": "https://www.finextra.com/pressarticle/110086/nydfs-proposes-stablecoin-regulatory-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110086/nydfs-proposes-stablecoin-regulatory-framework",
+    "snippet": "New York State Department of Financial Services (DFS) Acting Superintendent Kaitlin Asrow today announced a proposed regulation to build on New York’s first-in-the-nation stablecoin framework in accordance with federal regulations under the GENIUS Act.",
+    "published_at": "2026-06-09T19:58:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -19,10 +19,10 @@
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3827306",
+      "id": "https://www.finextra.com/pressarticle/110086/nydfs-proposes-stablecoin-regulatory-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 80,
+    "score": 50,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
@@ -32,7 +32,7 @@
       "freshness": 10,
       "source_penalty": 0,
       "launch_score": 25,
-      "institution_bonus": 30,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
       "commentary_penalty": 0,
@@ -48,137 +48,84 @@
     ]
   },
   {
-    "id": "6f737f292f4e68ca839e909817b20298b10848a16387e321c30b30d40d9d6397",
+    "id": "9fc7207ffd355b0bcefd46663f4b1fb0c05144ee754310e1ec59022ecf0296c3",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Banking Circle to provide financial infrastructure for Bridge",
-    "url": "https://www.finextra.com/pressarticle/110073/banking-circle-to-provide-financial-infrastructure-for-bridge?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110073/banking-circle-to-provide-financial-infrastructure-for-bridge",
-    "snippet": "Banking Circle S.A. (Banking Circle) today announces a collaboration with Bridge, a leading stablecoin infrastructure platform and a Stripe company, to support its global money movement capabilities through Banking Circle’s regulated, API-led banking infrastructure.",
-    "published_at": "2026-06-09T13:34:00+00:00",
+    "feed_name": "coindesk",
+    "title": "Securitize CEO says tokenized stocks could unlock a $5 trillion crypto market",
+    "url": "https://www.coindesk.com/business/2026/06/09/securitize-ceo-says-tokenized-stocks-could-unlock-a-usd5-trillion-crypto-market",
+    "canonical_url": "https://coindesk.com/business/2026/06/09/securitize-ceo-says-tokenized-stocks-could-unlock-a-usd5-trillion-crypto-market",
+    "snippet": "",
+    "published_at": "2026-06-09T19:49:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "Circle"
+      "tokenized"
     ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "50472942-cf9a-4f60-bafe-1d3b02de73f1",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 50,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d29c07501efe4e8ff4ead8b24b03185ae50a1ec88f1283a6345bd3df29e438c2",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Seattle-Area Man Gets Prison for Laundering Foreign Fraud Funds With Bitcoin, Ethereum",
+    "url": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
+    "canonical_url": "https://decrypt.co/370576/seattle-man-prison-laundering-foreign-fraud-funds-bitcoin-ethereum",
+    "snippet": "The fraudster took in nearly $100 million from victims before laundering funds via Bitcoin, Ethereum, and stablecoins.",
+    "published_at": "2026-06-09T20:26:11+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
+    "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/110073/banking-circle-to-provide-financial-infrastructure-for-bridge?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "https://decrypt.co/?p=370576",
       "guidislink": false
     },
-    "score": 65,
+    "score": 40,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "3c2902e6488b3c4db0ad8ff67420e8214ed633681d93eddad822e94306dc5e8d",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "HKMA Chief: Hong Kong Dollar Stablecoin to Launch Within the Year, Wealth Management Connect 3.0 Continues Discussions - Bitget",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UMUhOdEFrY3EzYTM0OW9DRUR4ZXRRa2EyVlFxbmNzWHI5SHNIVEFGUmlWNjdnN2stZVdoM3Awd2tMaWJsc0R3QnlwanVHVzZzd09tcDEyODVtQUpDYlHSAWNBVV95cUxPeE84ZXZ3YkloVmlXVExtckVEYUQ0ekMwUW4tazFLOEZRMU5veXMySjhaMWdtcDk1WmpkdDR0TmdEMjU3dGJnc19JRzNOLXBRdXhtOWltWW1CRHp3eUdfM2h4NzQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9UMUhOdEFrY3EzYTM0OW9DRUR4ZXRRa2EyVlFxbmNzWHI5SHNIVEFGUmlWNjdnN2stZVdoM3Awd2tMaWJsc0R3QnlwanVHVzZzd09tcDEyODVtQUpDYlHSAWNBVV95cUxPeE84ZXZ3YkloVmlXVExtckVEYUQ0ekMwUW4tazFLOEZRMU5veXMySjhaMWdtcDk1WmpkdDR0TmdEMjU3dGJnc19JRzNOLXBRdXhtOWltWW1CRHp3eUdfM2h4NzQ?oc=5",
-    "snippet": "HKMA Chief: Hong Kong Dollar Stablecoin to Launch Within the Year, Wealth Management Connect 3.0 Continues Discussions Bitget",
-    "published_at": "2026-06-09T04:14:09+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "launch"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiXkFVX3lxTE9UMUhOdEFrY3EzYTM0OW9DRUR4ZXRRa2EyVlFxbmNzWHI5SHNIVEFGUmlWNjdnN2stZVdoM3Awd2tMaWJsc0R3QnlwanVHVzZzd09tcDEyODVtQUpDYlHSAWNBVV95cUxPeE84ZXZ3YkloVmlXVExtckVEYUQ0ekMwUW4tazFLOEZRMU5veXMySjhaMWdtcDk1WmpkdDR0TmdEMjU3dGJnc19JRzNOLXBRdXhtOWltWW1CRHp3eUdfM2h4NzQ",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 50,
+      "launch_score": 0,
       "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "5178a2403e075da9783d69f0ce131bbd8b2cf8c732c27693f66e4e5b14fe6c35",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Tokenized equities reach $5.5 billion market cap, fueled by SpaceX IPO access and exchange expansion",
-    "url": "https://www.theblock.co/post/404034/tokenized-equities-5-5-billion-market-cap-fueled-spacex-ipo-exchange-expansion?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/404034/tokenized-equities-5-5-billion-market-cap-fueled-spacex-ipo-exchange-expansion",
-    "snippet": "The growth of the fourth-largest RWA category signals a structural demand trend as crypto users want access to equity markets.",
-    "published_at": "2026-06-08T20:18:53+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
-    "matched_keywords": [
-      "tokenized",
-      "RWA"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/404034",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
+      "financial_bonus": 30,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -203,7 +150,7 @@
     "snippet": "Trad.Fi, W3 target $650 million in onchain private credit using AI evaluation CoinDesk",
     "published_at": "2026-06-09T15:06:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "private credit"
     ],
@@ -250,7 +197,7 @@
     "snippet": "",
     "published_at": "2026-06-09T08:04:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -295,7 +242,7 @@
     "snippet": "One of MiCA's architects said he sees no need to regulate DeFi as the European Commission gathers feedback on the framework's future.",
     "published_at": "2026-06-09T12:30:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "tokenization",
       "MiCA"
@@ -343,7 +290,7 @@
     "snippet": "The Hyperliquid-backed lobby group and Paradigm seek to prevent rules that would limit decentralized stablecoin usage on public blockchains.",
     "published_at": "2026-06-09T18:37:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -390,7 +337,7 @@
     "snippet": "Zodia Custody secured a Luxembourg payment licence from the CSSF, enabling regulated stablecoin custody and transfers across the EU.",
     "published_at": "2026-06-09T10:36:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "stablecoin",
       "custody"
@@ -428,53 +375,6 @@
     ]
   },
   {
-    "id": "745f2049b01eccf8773fde318c6229ba087fc07804605717b65faca9e43bcbe2",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Active tokenized RWAs surge almost 600% despite crypto pullback: Binance",
-    "url": "https://cointelegraph.com/news/tokenized-rwas-stocks-gold-real-estate-institutional-adoption-binance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/tokenized-rwas-stocks-gold-real-estate-institutional-adoption-binance",
-    "snippet": "Tokenized stocks, gold and real estate are driving broader adoption as banks and institutions embrace blockchain-based assets despite a weaker crypto market.",
-    "published_at": "2026-06-08T20:53:35+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/tokenized-rwas-stocks-gold-real-estate-institutional-adoption-binance",
-      "guidislink": true
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "d601ea2642e0f4a8bd3155e23d5b61239e48730eaeb5379483d01faf284f2cd5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -485,7 +385,7 @@
     "snippet": "The crypto exchange will promote digital asset adoption through fan activations and product experiences at the first 48-team FIFA World Cup.",
     "published_at": "2026-06-09T07:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -530,7 +430,7 @@
     "snippet": "The academic researchers attempt to debunk idea that giving AI agents access to crypto wallets has the ability to make them autonomous.",
     "published_at": "2026-06-08T21:23:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -577,7 +477,7 @@
     "snippet": "Plus non-dollar stablecoins",
     "published_at": "2026-06-09T05:30:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -612,53 +512,6 @@
     ]
   },
   {
-    "id": "8dd270615dc242dd3f28ac7aab4126db626392dbdc1587867e8ba91bf67d0e63",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Tokenization Exec Predicts An All-Blockchain Wall Street by 2030",
-    "url": "https://www.pymnts.com/blockchain/2026/tokenization-exec-predicts-an-all-blockchain-wall-street-by-2030/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/tokenization-exec-predicts-an-all-blockchain-wall-street-by-2030/",
-    "snippet": "Brickken’s CEO foresees a day when Wall Street operates solely on blockchain technology. That day could come by 2030, Edwin Mata—who is also the founder of the Spain-based tokenization platform—said in a Tuesday (June 9) CoinDesk interview. He said that buzzwords like “Web3” have faded as banks adop",
-    "published_at": "2026-06-09T16:24:14+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=3826897",
-      "guidislink": false
-    },
-    "score": 0,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "d4c481a3b1a70c149969f27dab1892fe8d6720a2c95f41ada1e42e7b8cc18baa",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -669,7 +522,7 @@
     "snippet": "Bitwise research suggests that Bitcoin is leading a broader risk-off move across markets as global liquidity and stablecoin reserves remain elevated.",
     "published_at": "2026-06-09T17:48:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "stablecoin",
       "reserves"
@@ -717,7 +570,7 @@
     "snippet": "",
     "published_at": "2026-06-09T09:27:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -764,7 +617,7 @@
     "snippet": "10 Best Crypto Wallets in 2026 (Hot & Cold Storage Ranked) Ventureburn",
     "published_at": "2026-06-09T08:28:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-09T19:01:17.908916+00:00",
+    "fetched_at": "2026-06-09T21:03:37.866784+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
