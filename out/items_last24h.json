@@ -10,7 +10,7 @@
     "snippet": "Kraken completed its acquisition of the fully CFTC-licensed exchange, clearinghouse, and brokerage Bitnomial in May.",
     "published_at": "2026-06-15T13:50:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -21,14 +21,14 @@
       "id": "https://www.theblock.co/post/404751",
       "guidislink": false
     },
-    "score": 105,
+    "score": 99,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 40,
@@ -57,7 +57,7 @@
     "snippet": "Standard Chartered Bank: Tokenization could drive the scale of DeFi assets to $2.7 trillion, growing 37 times by 2030 WEEX",
     "published_at": "2026-06-15T13:47:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -68,14 +68,14 @@
       "id": "CBMigAJBVV95cUxQc0NES043NXR6dTlsRUVVUGtWbXZ6SUJTaVAxdGdOLUdZaUtPVWlCUWxReGlGVl9UMFRmcnh6U1BlVkI3WE5rWnZMYVFBdWlpNmtrZTJJZi1wNzI0YzFTMG5idzZOQ0xHUkN6THNqTmlzYjhZc3RmMGZfelozWTRueEdUeVFTNWdwRUdQc3pDeTk1bHdWLVlnRGFhd3h1RUNkMWptdVFLUk1JNzd4bTZSRlR3X29pQU5iVU00M0d0LTdCYVJLY3otdzN5TkhzVHY4S19rQWMwQi1fTENGdDA0TVhqb0pwbWlvaC1hWi13Mm90cU1ZN3VQQ0VIUjIxQ29z",
       "guidislink": false
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 20,
@@ -104,7 +104,7 @@
     "snippet": "Standard Chartered forecasts assets locked in decentralized finance will reach $2.7 trillion by 2030, driven by tokenization and crypto-native growth.",
     "published_at": "2026-06-15T13:28:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -115,20 +115,70 @@
       "id": "https://cointelegraph.com/news/tokenization-push-defi-assets-trillion-2030-standard-chartered",
       "guidislink": true
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 20,
       "financial_bonus": 50,
       "regulatory_bonus": 0,
       "commentary_penalty": -10,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "19209964bbf21e95097641994a0944714963af7cf282ca4828c03a6ac6c51ac4",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Rain Debuts Native Loyalty for Stablecoin Card Programs",
+    "url": "https://www.pymnts.com/news/loyalty-and-rewards-news/2026/rain-debuts-native-loyalty-stablecoin-card-programs/",
+    "canonical_url": "https://pymnts.com/news/loyalty-and-rewards-news/2026/rain-debuts-native-loyalty-stablecoin-card-programs/",
+    "snippet": "Stablecoin payments infrastructure company Rain introduced a new loyalty capability called Rewards, according to a Monday (June 15) press release. Rewards is integrated into Rain’s issuing stack and lets any partner running a card program on Rain launch fully branded rewards for their customers with",
+    "published_at": "2026-06-15T19:51:44+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin",
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3850337",
+      "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 3,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -151,7 +201,7 @@
     "snippet": "Payment technology firm Nuvei has agreed to acquire cross border payments platform Payoneer for $2.75 billion in cash, creating a combined entity processing more than $500 billion in annual payment volume across more than 190 countries. The deal brings together Nuvei’s payment acceptance capabilitie",
     "published_at": "2026-06-15T15:15:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -162,14 +212,14 @@
       "id": "https://ledgerinsights.com/?p=43035",
       "guidislink": false
     },
-    "score": 75,
+    "score": 69,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -198,7 +248,7 @@
     "snippet": "Forward Industries is offering to acquire Solana DAT competitors at a premium as their mNAVs slip along with the declining price of SOL.",
     "published_at": "2026-06-15T17:59:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -243,7 +293,7 @@
     "snippet": "Forward Industries has been unsuccessful on all three recent attempts to combine with rival publicly traded Solana treasury firms.",
     "published_at": "2026-06-15T17:30:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -288,7 +338,7 @@
     "snippet": "Citi launches tokenized certificates of deposit to bring private companies and investors closer Demócrata",
     "published_at": "2026-06-15T11:55:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "tokenized",
       "launches"
@@ -327,6 +377,57 @@
     ]
   },
   {
+    "id": "b033647ed297df7d2e991693a1feb5206bd813104f697c1d69113b5ba7b4fe7a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Zelle picks India for first cross border remittance launch, unveils ZLUSD stablecoin - crypto.news",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOENyemJOZ3ZEb1JQN1JoWElCd2Jpc0dIYUFYczhrZ2h0b3dPc2dmemQ4RDNnZ2pnTG5fenZibXE1OUI0TUdHSVlnRWdhMUkwSkhBbzdDbWUwalJxYktZRWV6dmIzMm1oVHM5bW93b1BOaHh5WUgyc1JUWk1zTkVVczFxNlo0NEVwOFQwdHlrcTNQbWdyNE1xWFpUcGJYeHF0TXR6aEdaaw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOENyemJOZ3ZEb1JQN1JoWElCd2Jpc0dIYUFYczhrZ2h0b3dPc2dmemQ4RDNnZ2pnTG5fenZibXE1OUI0TUdHSVlnRWdhMUkwSkhBbzdDbWUwalJxYktZRWV6dmIzMm1oVHM5bW93b1BOaHh5WUgyc1JUWk1zTkVVczFxNlo0NEVwOFQwdHlrcTNQbWdyNE1xWFpUcGJYeHF0TXR6aEdaaw?oc=5",
+    "snippet": "Zelle picks India for first cross border remittance launch, unveils ZLUSD stablecoin crypto.news",
+    "published_at": "2026-06-15T08:22:07+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "remittance",
+      "launch",
+      "unveils"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMipwFBVV95cUxOOENyemJOZ3ZEb1JQN1JoWElCd2Jpc0dIYUFYczhrZ2h0b3dPc2dmemQ4RDNnZ2pnTG5fenZibXE1OUI0TUdHSVlnRWdhMUkwSkhBbzdDbWUwalJxYktZRWV6dmIzMm1oVHM5bW93b1BOaHh5WUgyc1JUWk1zTkVVczFxNlo0NEVwOFQwdHlrcTNQbWdyNE1xWFpUcGJYeHF0TXR6aEdaaw",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1c1d6141c029edd7e0f7dcddcdd49ffbfca8cf6d006af10aa0fbba65b3e674c7",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -337,7 +438,7 @@
     "snippet": "The Euro Banking Association (EBA) today announced the publication of a new insight note by its Digital Currencies & Smart Payments Working Group (DSWG) “Adoption of Tokenised Money – Part 2: Considerations of key criteria”.",
     "published_at": "2026-06-15T16:24:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -374,6 +475,54 @@
     ]
   },
   {
+    "id": "3b2c4686448f84b65e638d462c34d70e545695f5d0301f282344dc9e89901c02",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Bybit expands RWA push with tokenized bond funds from PIMCO, CMBI",
+    "url": "https://cointelegraph.com/news/bybit-launches-tokenized-bond-products-from-pimco-and-cmbi-through-rwa-platform?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/bybit-launches-tokenized-bond-products-from-pimco-and-cmbi-through-rwa-platform",
+    "snippet": "The new offering gives eligible users access to tokenized institutional bond funds as demand for blockchain-based real-world assets continues to grow.",
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "RWA"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/bybit-launches-tokenized-bond-products-from-pimco-and-cmbi-through-rwa-platform",
+      "guidislink": true
+    },
+    "score": 44,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "64c63e3789d0f12791a303e44f2b8e0a58879db23379ead8d2db3cf70db10a08",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -384,7 +533,7 @@
     "snippet": "There’s a battle brewing over blockchain finance. Banks view stablecoins as a new form of private money that lacks the stabilizing infrastructure developed around banking over the past century. Stablecoin advocates counter that many of those protections emerged only after innovation occurred, and th",
     "published_at": "2026-06-15T17:57:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -431,7 +580,7 @@
     "snippet": "Stablecoin payments infrastructure company Rain has added a native loyalty capability built directly into its card issuing stack.",
     "published_at": "2026-06-15T13:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -451,7 +600,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -470,23 +619,68 @@
     ]
   },
   {
-    "id": "383e91e6c1d7c26b217f7c17ddb54f533a6b0702ca1bac2f1f2c1921c43a60ff",
+    "id": "8a0a071bbab173547698b55afaae6a2b2b4bd561340997f181b5bc8e902ac4aa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "July 1 MiCA Deadline Threatens Thousands of European Crypto Firms",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/july-1-mica-deadline-threatens-thousands-of-european-crypto-firms/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/july-1-mica-deadline-threatens-thousands-of-european-crypto-firms/",
+    "snippet": "Crypto exchanges and users are set to be impacted by the July 1 deadline for compliance with Europe’s Markets in Crypto-Assets Regulation (MiCA), according to multiple media reports. NewsBTC reported Monday (June 15) that crypto service providers that are not properly licensed in the MiCA framework ",
+    "published_at": "2026-06-15T19:57:38+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
+    "matched_keywords": [
+      "MiCA"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3850450",
+      "guidislink": false
+    },
+    "score": 25,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "91d577f21afc7ba3369c1bb94225ad08058099a0e6555016d505794f44e67850",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "institutional_crypto_banks",
     "title": "HSBC HOLDINGS, Hang Seng Bank Mobile Apps Experience Outage This Morning; Spokespersons Say Fix Underway - AASTOCKS.com",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObUx1VFY2YVRPTGY4M3hXRHZHUkZkb2FWbzVNaTBnWW1BdkVLaEV2aGtZRWdja0dLSXM2TlpvenV3RDVoWmlyTFRvMnhxS1VlSVdkcWtWNkhfdGNPTGxzamMtcndTQm5FengxZ1VzU3R0cEF2M1VaVFNrekQ4V1BaM3ZSX0k?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObUx1VFY2YVRPTGY4M3hXRHZHUkZkb2FWbzVNaTBnWW1BdkVLaEV2aGtZRWdja0dLSXM2TlpvenV3RDVoWmlyTFRvMnhxS1VlSVdkcWtWNkhfdGNPTGxzamMtcndTQm5FengxZ1VzU3R0cEF2M1VaVFNrekQ4V1BaM3ZSX0k?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOajgyMkxtTzF2WkZHM2xjZEgwS1dlQ041d2NrcWhwUFQ1aGdnZVVENzFRMUtramVZWG0yekhQektyNlRVZFcwN2JoRlRNcDhjSEJsMjgtSDNfQUNtR1ZvWjFraDVWNkRlUTJyeVlvSDkzeG9RU254NEIzT3hNSDhKUGpDRQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOajgyMkxtTzF2WkZHM2xjZEgwS1dlQ041d2NrcWhwUFQ1aGdnZVVENzFRMUtramVZWG0yekhQektyNlRVZFcwN2JoRlRNcDhjSEJsMjgtSDNfQUNtR1ZvWjFraDVWNkRlUTJyeVlvSDkzeG9RU254NEIzT3hNSDhKUGpDRQ?oc=5",
     "snippet": "HSBC HOLDINGS, Hang Seng Bank Mobile Apps Experience Outage This Morning; Spokespersons Say Fix Underway AASTOCKS.com",
     "published_at": "2026-06-15T04:27:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "CBMihAFBVV95cUxObUx1VFY2YVRPTGY4M3hXRHZHUkZkb2FWbzVNaTBnWW1BdkVLaEV2aGtZRWdja0dLSXM2TlpvenV3RDVoWmlyTFRvMnhxS1VlSVdkcWtWNkhfdGNPTGxzamMtcndTQm5FengxZ1VzU3R0cEF2M1VaVFNrekQ4V1BaM3ZSX0k",
+      "id": "CBMigwFBVV95cUxOajgyMkxtTzF2WkZHM2xjZEgwS1dlQ041d2NrcWhwUFQ1aGdnZVVENzFRMUtramVZWG0yekhQektyNlRVZFcwN2JoRlRNcDhjSEJsMjgtSDNfQUNtR1ZvWjFraDVWNkRlUTJyeVlvSDkzeG9RU254NEIzT3hNSDhKUGpDRQ",
       "guidislink": false
     },
     "score": 24,
@@ -515,6 +709,53 @@
     ]
   },
   {
+    "id": "1282fa68395bc9fe39ab8b2505cc75cc21f6c1a451713a2014914f3b82586469",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Ventuals shuts down after processing $650m in tokenized private-market trading - AMBCrypto",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTVrUFFxc1NHUEFFcWxEbEtOYlhsaGNFY3VWUV9zdXdiSlVGalp4akJnSVZ5QmFtTE5zV2twbnFZb3dXUElCWnNNaWRPRW96RFlwZ2ZWZV9ZUVktQzhHTDlOVFpaTml4T1ZoZmdkcTdxQjhrTEhrOTNXUExETHNTSmZPUlNrc05Za3NNLTlBTW1CUnk1UWVCZUVmTU1yWVprZHfSAacBQVVfeXFMTjRubnNUVjBmTTBGUE4xa2ZULU52OFR5ZzZyWHZSWW1kNzB6OGdPLVRVbnhMS0xxWXJNNHN2X3NZaURIZUx2Y1hjNmptNTBmbDhudE9zQ1Y3SFQ0TVRGa1ZXZy0yaU51UFNGWHhneW9HN2NpTkZwTXd0Zmk5NDBpTkIxTjV0NnpuVC0ta29DdTNicmszNEFEd0FjUDJRLWZ0NHhoM1ZHbTg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMTVrUFFxc1NHUEFFcWxEbEtOYlhsaGNFY3VWUV9zdXdiSlVGalp4akJnSVZ5QmFtTE5zV2twbnFZb3dXUElCWnNNaWRPRW96RFlwZ2ZWZV9ZUVktQzhHTDlOVFpaTml4T1ZoZmdkcTdxQjhrTEhrOTNXUExETHNTSmZPUlNrc05Za3NNLTlBTW1CUnk1UWVCZUVmTU1yWVprZHfSAacBQVVfeXFMTjRubnNUVjBmTTBGUE4xa2ZULU52OFR5ZzZyWHZSWW1kNzB6OGdPLVRVbnhMS0xxWXJNNHN2X3NZaURIZUx2Y1hjNmptNTBmbDhudE9zQ1Y3SFQ0TVRGa1ZXZy0yaU51UFNGWHhneW9HN2NpTkZwTXd0Zmk5NDBpTkIxTjV0NnpuVC0ta29DdTNicmszNEFEd0FjUDJRLWZ0NHhoM1ZHbTg?oc=5",
+    "snippet": "Ventuals shuts down after processing $650m in tokenized private-market trading AMBCrypto",
+    "published_at": "2026-06-15T15:47:29+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMiogFBVV95cUxNMTVrUFFxc1NHUEFFcWxEbEtOYlhsaGNFY3VWUV9zdXdiSlVGalp4akJnSVZ5QmFtTE5zV2twbnFZb3dXUElCWnNNaWRPRW96RFlwZ2ZWZV9ZUVktQzhHTDlOVFpaTml4T1ZoZmdkcTdxQjhrTEhrOTNXUExETHNTSmZPUlNrc05Za3NNLTlBTW1CUnk1UWVCZUVmTU1yWVprZHfSAacBQVVfeXFMTjRubnNUVjBmTTBGUE4xa2ZULU52OFR5ZzZyWHZSWW1kNzB6OGdPLVRVbnhMS0xxWXJNNHN2X3NZaURIZUx2Y1hjNmptNTBmbDhudE9zQ1Y3SFQ0TVRGa1ZXZy0yaU51UFNGWHhneW9HN2NpTkZwTXd0Zmk5NDBpTkIxTjV0NnpuVC0ta29DdTNicmszNEFEd0FjUDJRLWZ0NHhoM1ZHbTg",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "4f2a04d638f98e4e37df5116247c1a250351eb282add86cadd4000cad5b64bfd",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -525,7 +766,7 @@
     "snippet": "New on-chain USDC vault targets yield with risk framework focus Stock Titan",
     "published_at": "2026-06-15T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -562,25 +803,27 @@
     ]
   },
   {
-    "id": "c73837ac514a5eba7d029bb9bb2d67f92b704bf585e71dee05dbc01d2e759cba",
+    "id": "141fc91a728087147962fd336569c47fb15f7f2eb47f16624575f7dcb6aa1567",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Trump-linked stablecoin used for bonus payouts at White House UFC contest",
-    "url": "https://www.coindesk.com/markets/2026/06/15/trump-linked-stablecoin-used-for-bonus-payouts-at-white-house-ufc-contest",
-    "canonical_url": "https://coindesk.com/markets/2026/06/15/trump-linked-stablecoin-used-for-bonus-payouts-at-white-house-ufc-contest",
-    "snippet": "",
-    "published_at": "2026-06-15T08:09:53+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Paradigm leads $9 million investment in stablecoin payments platform El Dorado - crypto.news",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaENTdmxJSnJ5RWxLWTFZTm00Z3ZzcWJ0SWhEMFFwaUFqUTNoMEVRUURBenJNb1Z0UmZiXzRPQjJSdWNiTDdFdmZqeUNjOVJhS1Q0b0FxZE5DWURrNTdiYW90RkFLb0FURmhNVmYwaXg3d3dJQmFBMnVhVnczNjhtMzhJVERPRDFWU09KcDE3YkRPOWZVWXFQdERMckk4U2c?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaENTdmxJSnJ5RWxLWTFZTm00Z3ZzcWJ0SWhEMFFwaUFqUTNoMEVRUURBenJNb1Z0UmZiXzRPQjJSdWNiTDdFdmZqeUNjOVJhS1Q0b0FxZE5DWURrNTdiYW90RkFLb0FURmhNVmYwaXg3d3dJQmFBMnVhVnczNjhtMzhJVERPRDFWU09KcDE3YkRPOWZVWXFQdERMckk4U2c?oc=5",
+    "snippet": "Paradigm leads $9 million investment in stablecoin payments platform El Dorado crypto.news",
+    "published_at": "2026-06-15T14:35:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
     "matched_keywords": [
+      "stablecoin payments",
       "stablecoin"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "4aaef304-cf47-481f-a945-3be77f3d5367",
+      "id": "CBMinwFBVV95cUxNaENTdmxJSnJ5RWxLWTFZTm00Z3ZzcWJ0SWhEMFFwaUFqUTNoMEVRUURBenJNb1Z0UmZiXzRPQjJSdWNiTDdFdmZqeUNjOVJhS1Q0b0FxZE5DWURrNTdiYW90RkFLb0FURmhNVmYwaXg3d3dJQmFBMnVhVnczNjhtMzhJVERPRDFWU09KcDE3YkRPOWZVWXFQdERMckk4U2c",
       "guidislink": false
     },
     "score": 4,
@@ -609,23 +852,25 @@
     ]
   },
   {
-    "id": "4d589ff5e675c6bf2616f529851f49538a72ad6f16be8f9db1e6f4150d4ed797",
+    "id": "c73837ac514a5eba7d029bb9bb2d67f92b704bf585e71dee05dbc01d2e759cba",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Bitcoin mining difficulty drops 10% in second-largest negative adjustment of 2026",
-    "url": "https://www.theblock.co/post/404702/bitcoin-mining-difficulty-drops-10-in-second-largest-negative-adjustment-of-2026?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/404702/bitcoin-mining-difficulty-drops-10-in-second-largest-negative-adjustment-of-2026",
-    "snippet": "The cut hands surviving miners roughly 11% more bitcoin per unit of active hashrate, but all-in production economics remain underwater at current prices.",
-    "published_at": "2026-06-14T20:42:19+00:00",
+    "feed_name": "coindesk",
+    "title": "Trump-linked stablecoin used for bonus payouts at White House UFC contest",
+    "url": "https://www.coindesk.com/markets/2026/06/15/trump-linked-stablecoin-used-for-bonus-payouts-at-white-house-ufc-contest",
+    "canonical_url": "https://coindesk.com/markets/2026/06/15/trump-linked-stablecoin-used-for-bonus-payouts-at-white-house-ufc-contest",
+    "snippet": "",
+    "published_at": "2026-06-15T08:09:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-15T18:05:21.860068+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-06-15T21:17:10.753048+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/404702",
+      "id": "4aaef304-cf47-481f-a945-3be77f3d5367",
       "guidislink": false
     },
     "score": 4,
