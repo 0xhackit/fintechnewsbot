@@ -1,36 +1,40 @@
 [
   {
-    "id": "d2e7d9f649cf0664fceda2bd53fa0cd45441f2de38a949773b125fca1eaa8dda",
+    "id": "18a94294c17edce33c009a8e07a1790188263e416f970ec7cdb7cac6804b35ee",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Ripple takes stake in Flutterwave",
-    "url": "https://www.finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave",
-    "snippet": "African payments powerhouse Flutterwave has hit a $3.25 billion valuation on its Series E funding round after an investment from US blockchain firm Ripple.",
-    "published_at": "2026-06-16T13:37:00+00:00",
+    "feed_name": "ledger_insights",
+    "title": "Coinbase to launch tokenized stocks offshore",
+    "url": "https://www.ledgerinsights.com/coinbase-to-launch-tokenized-stocks-offshore/",
+    "canonical_url": "https://ledgerinsights.com/coinbase-to-launch-tokenized-stocks-offshore/",
+    "snippet": "Today Coinbase announced it will be launching tokenized stocks with details available later today. This will enable 24/7 stock trading outside of the United States and provide full ownership and dividend rights. Coinbase already provides stock trading for US investors, but those are conventional sto",
+    "published_at": "2026-06-16T17:39:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "launch"
+    ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "https://ledgerinsights.com/?p=43050",
       "guidislink": false
     },
-    "score": 85,
+    "score": 90,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
+      "tier1": 3,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
+      "launch_score": 70,
       "institution_bonus": 10,
-      "financial_bonus": 40,
+      "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -55,7 +59,7 @@
     "snippet": "Citi becomes 1st to launch tokenized depositary receipt service for private shares The Korea Times",
     "published_at": "2026-06-16T02:29:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized",
@@ -96,6 +100,100 @@
     ]
   },
   {
+    "id": "7172258f9964c4391a5bb4ab8f0fddd53bfe27a4681ff91c76c96a3200b034b2",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Coinbase Gears Up to Launch Tokenized Stock Trading, Crypto and Equities Options",
+    "url": "https://decrypt.co/371293/coinbase-launch-tokenized-stock-trading-crypto-equities-options",
+    "canonical_url": "https://decrypt.co/371293/coinbase-launch-tokenized-stock-trading-crypto-equities-options",
+    "snippet": "Publicly traded crypto exchange Coinbase added to its feature set Tuesday as it seeks to become the \"everything exchange.\"",
+    "published_at": "2026-06-16T19:00:38+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "launch"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=371293",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d2e7d9f649cf0664fceda2bd53fa0cd45441f2de38a949773b125fca1eaa8dda",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Ripple takes stake in Flutterwave",
+    "url": "https://www.finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave",
+    "snippet": "African payments powerhouse Flutterwave has hit a $3.25 billion valuation on its Series E funding round after an investment from US blockchain firm Ripple.",
+    "published_at": "2026-06-16T13:37:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/newsarticle/47931/ripple-takes-stake-in-flutterwave?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 79,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "4c60fe8f3f93b385dafff61cf448a01bd69adad924af6875d51a6991af825fb8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -106,7 +204,7 @@
     "snippet": "State Street Bank launches a stablecoin reserve money market fund compliant with the GENIUS Act WEEX",
     "published_at": "2026-06-16T15:28:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "money market fund",
       "stablecoin",
@@ -158,7 +256,7 @@
     "snippet": "Both rivals like Robinhood and Kraken and traditional financial institutions have shown an interest in offering tokenized shares.",
     "published_at": "2026-06-16T16:02:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -206,7 +304,7 @@
     "snippet": "Solana DAT stocks are moving on Tuesday as the largest SOL DAT Forward works to keep its acquisition bids alive.",
     "published_at": "2026-06-16T15:22:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -251,7 +349,7 @@
     "snippet": "State Street Investment Management Accelerates Digital And Tokenization Innovation With Launch Of State Street Stablecoin Reserves Money Market Fund TradingView",
     "published_at": "2026-06-16T12:55:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "money market fund",
       "stablecoin",
@@ -268,14 +366,14 @@
       "id": "CBMivwJBVV95cUxOZ2FtUlowWjRjMmd2VHVUNEQxSXlpVjVJaV9fTDF2SVR5WUVXR3plU2luSDV0ZU1zLU00bEdmSzNILXhJMU5vUU0tV3UyNUpSbWJRamk3VGtfZDhuenNyVVc3WkZEcGROaExuQXlJRklPcWQtTW9VTmNfczFRbUZNNm55amRuckpOdkUtM2J2NHdSYnl2d3JHWUpCUk1UZDE2aTJCLUgwbmJxeE4zZlVsVFpMU3B3OUJ0bThFRkxwSjB0Z0hLdDlpUDJKSjFqSUFUc2Y4c1BNYnlUYm9LYVZfOEs0ZXM5LU5PWWdfZEk2YWY1aVlRTVJ1UG85N2JFZURIWGZXM3BnT0FBSHFpTUxQVGw1SGt0UUhYOGwyNi0takMyOFM0RUFwOTZubi1QbUd0Qy1VV3lOdHFYNzI1bjFJ",
       "guidislink": false
     },
-    "score": 65,
+    "score": 59,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
       "institution_bonus": 20,
@@ -294,145 +392,6 @@
     ]
   },
   {
-    "id": "60446ee59e608e9fbc9297feda14afdc9624279c508e528b3c799d24fd08ee1e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Flutterwave Valuation Hits $3.3 Billion Following Ripple Investment",
-    "url": "https://www.pymnts.com/news/investment-tracker/2026/flutterwave-valuation-hits-3-3-billion-following-ripple-investment/",
-    "canonical_url": "https://pymnts.com/news/investment-tracker/2026/flutterwave-valuation-hits-3-3-billion-following-ripple-investment/",
-    "snippet": "Africa-focused FinTech startup Flutterwave has reportedly sold an equity stake to blockchain company Ripple. This investment lifts Flutterwave’s valuation to $3.3 billion, CEO Olugbenga Agboola said in an interview with Bloomberg News published Tuesday (June 16). The news outlet added that Agboola d",
-    "published_at": "2026-06-16T16:31:18+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=3854118",
-      "guidislink": false
-    },
-    "score": 60,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "97f99f19817af2c343b98900c18bb4e96f7681c4ae16e619d28ace042dc6fbf3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Ripple buys into Flutterwave Series E at $3.2 billion valuation, backs RLUSD integration",
-    "url": "https://www.theblock.co/post/404942/ripple-flutterwave-series-3-2-billion-valuation-rlusd-integration?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/404942/ripple-flutterwave-series-3-2-billion-valuation-rlusd-integration",
-    "snippet": "Ripple backs Flutterwave's $3.2 billion Series E with RLUSD and XRP Ledger integration across 34 African markets through investment.",
-    "published_at": "2026-06-16T13:45:22+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/404942",
-      "guidislink": false
-    },
-    "score": 60,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "1403e614c86b97004ebeceb69f7c6b78401e65da6eb741416fa183d1b739f18b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Wyoming’s State Stablecoin Becomes Ground Zero for Crypto Debate",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/wyomings-state-stablecoin-becomes-ground-zero-for-crypto-debate/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/wyomings-state-stablecoin-becomes-ground-zero-for-crypto-debate/",
-    "snippet": "Wyoming has become the first state in the U.S. to launch its own stablecoin. And with that launch, Bloomberg News reported Tuesday (June 16), comes a debate about what the Frontier Stable Token means for the cryptocurrency industry. Governor Mark Gordon told Bloomberg he’s been a “cautious adopter” ",
-    "published_at": "2026-06-16T13:41:33+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "launch"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=3852721",
-      "guidislink": false
-    },
-    "score": 60,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "a080fb75447280258e487e897bb1dbee3c49d69cd2aef376659e94caff3e97c4",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -443,58 +402,13 @@
     "snippet": "Two Solana treasury firms rejected acquisition proposals from Forward Industries, while a third offer expired without a response.",
     "published_at": "2026-06-16T11:22:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
       "id": "43749",
-      "guidislink": false
-    },
-    "score": 59,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "caafad4aff37e49d5334df7ddcfe46e27333dd522cd27ab8f458fcc1505da33b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Solana Treasury Firm Forward Industries Keeps Trying to Acquire Rivals—But Nobody's Biting",
-    "url": "https://decrypt.co/371198/solana-treasury-firm-forward-industries-trying-acquire-rivals",
-    "canonical_url": "https://decrypt.co/371198/solana-treasury-firm-forward-industries-trying-acquire-rivals",
-    "snippet": "Forward Industries has been unsuccessful on all three recent attempts to combine with rival publicly traded Solana treasury firms.",
-    "published_at": "2026-06-15T17:30:29+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=371198",
       "guidislink": false
     },
     "score": 59,
@@ -530,10 +444,10 @@
     "title": "State Street launches GENIUS Act-aligned money market fund for stablecoin reserves",
     "url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "canonical_url": "https://cointelegraph.com/news/state-street-launches-genius-act-aligned-money-market-fund-for-stablecoin-reserves",
-    "snippet": "The launch comes as financial institutions increasingly compete to manage assets backing dollar-pegged stablecoins.",
-    "published_at": "2026-06-16T06:00:00+00:00",
+    "snippet": "The launch comes amid growing competition among financial institutions to manage assets backing dollar-pegged stablecoins.",
+    "published_at": "2026-06-16T17:28:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "money market fund",
       "stablecoin",
@@ -551,17 +465,109 @@
       "id": "43770",
       "guidislink": false
     },
-    "score": 49,
+    "score": 55,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "97f99f19817af2c343b98900c18bb4e96f7681c4ae16e619d28ace042dc6fbf3",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Ripple buys into Flutterwave Series E at $3.2 billion valuation, backs RLUSD integration",
+    "url": "https://www.theblock.co/post/404942/ripple-flutterwave-series-3-2-billion-valuation-rlusd-integration?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/404942/ripple-flutterwave-series-3-2-billion-valuation-rlusd-integration",
+    "snippet": "Ripple backs Flutterwave's $3.2 billion Series E with RLUSD and XRP Ledger integration across 34 African markets through investment.",
+    "published_at": "2026-06-16T13:45:22+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/404942",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d544777e79ce12a4d30e1da549dea5e8363bdd50f6b90012d09f2399d171cbaa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Squid adds Ripple’s RLUSD stablecoin for cross-chain swaps",
+    "url": "https://www.theblock.co/post/405005/squid-ripple-rlusd-stablecoin-cross-chain-swaps?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/405005/squid-ripple-rlusd-stablecoin-cross-chain-swaps",
+    "snippet": "Cross-chain platform Squid has integrated Ripple's RLUSD stablecoin, allowing users to swap into and out of RLUSD across chains and assets.",
+    "published_at": "2026-06-16T17:40:27+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/405005",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -587,7 +593,7 @@
     "snippet": "Inveniam to Acquire MANTRA, Combining Tokenized Asset Infrastructure with AI-Ready Private Market Data The Manila Times",
     "published_at": "2026-06-16T15:02:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -624,6 +630,53 @@
     ]
   },
   {
+    "id": "9d20e4b8d09783ee965f72762e2031b1ad03788647f226a48fe95d23c8a87700",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Bipartisan senators push Treasury to uphold states’ authorities under the GENIUS Act",
+    "url": "https://www.theblock.co/post/405018/bipartisan-senators-push-treasury-uphold-states-authorities-under-genius-act?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/405018/bipartisan-senators-push-treasury-uphold-states-authorities-under-genius-act",
+    "snippet": "A group of bipartisan senators pressed the Treasury Department to preserve states' ability to regulate stablecoins.",
+    "published_at": "2026-06-16T20:07:23+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
+    "matched_keywords": [
+      "Genius"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/405018",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c90c13036c4fcab77eac64242c9b1c919a57f83ea0d8cf06022c7ff212897aba",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -634,7 +687,7 @@
     "snippet": "It’s now more than 17 years since the mining of Bitcoin’s genesis block, an event which signaled the...",
     "published_at": "2026-06-16T15:43:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "real world assets",
       "tokenized"
@@ -682,7 +735,7 @@
     "snippet": "Gr4vy, the cloud-based payment orchestration platform, today announced a new partnership with Airwallex, a leading global financial and payments platform for modern businesses, adding Airwallex as a payment connection.",
     "published_at": "2026-06-16T14:14:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA",
@@ -699,7 +752,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -728,7 +781,7 @@
     "snippet": "Nuvei to acquire stablecoin payments platform Payoneer for $2.75B crypto.news",
     "published_at": "2026-06-16T07:37:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -777,7 +830,7 @@
     "snippet": "",
     "published_at": "2026-06-16T15:03:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -824,7 +877,7 @@
     "snippet": "",
     "published_at": "2026-06-16T14:27:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "money market fund",
       "stablecoin"
@@ -871,9 +924,9 @@
     "url": "https://cointelegraph.com/news/ripple-flutterwave-africa-stablecoin-remittances-investment?utm_source=rss&utm_medium=rss&utm_campaign=rss",
     "canonical_url": "https://cointelegraph.com/news/ripple-flutterwave-africa-stablecoin-remittances-investment",
     "snippet": "Ripple’s investment in Flutterwave will bring RLUSD, Ripple Payments and XRPL to one of Africa’s largest fintechs as blockchain remittances gain traction.",
-    "published_at": "2026-06-16T17:24:20+00:00",
+    "published_at": "2026-06-16T17:28:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "remittance"
     ],
@@ -921,7 +974,7 @@
     "snippet": "",
     "published_at": "2026-06-16T15:35:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -969,7 +1022,7 @@
     "snippet": "SpaceX’s blockbuster debut didn’t just mint a trillionaire; it became a real-world stress test for crypto’s promise of democratized market access.",
     "published_at": "2026-06-16T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -980,14 +1033,14 @@
       "id": "43760",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -1016,7 +1069,7 @@
     "snippet": "Ripple Participates in Flutterwave's Series E With Strategic Investment to Accelerate African Stablecoin Payments PR Newswire",
     "published_at": "2026-06-16T11:44:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1030,14 +1083,14 @@
       "id": "CBMi_AFBVV95cUxOdFduM0oyRGY0b2o3emRDVW5sV0lXUkhBa21zbVVUeDBOYzdmV0VlaTlzaVprcUo0amFKS3FFTDFUWVlYMDhSNGoyR1BheHpsWndkREtpdWJEVE5KcFNaRTFLZk5PaFVJUy1DT3RDT2xVMGRRQ0RiczBpcHNNTF82TU5NOFVjWThrZmo0OTRZWnNPYW9XMUp1X3NRYjVWOF9ybmFBQUZCSGpiSnJRVFozbzVMTTk1b2t6enp3QkZJRmJoOGNQd09halotNExxRnR2ei10aGZLUF9nUVUxNFZpN0VObk9BMTdrV3FSWjZ5dk9reVJpc3FpZzdXaWk",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 10,
@@ -1056,17 +1109,17 @@
     ]
   },
   {
-    "id": "b3fed60192af36e1be805a90833dcf22b50b45683bd7aafef0d38fc07efd7d69",
+    "id": "b2e8d2ea8909c3ab1d44744682e6ff3dc73c5ad996bcb49fe0f03f0052c48dca",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "IMF says Nigeria’s stablecoin adoption is ‘testing the limits’ of monetary and regulatory frameworks",
-    "url": "https://www.theblock.co/post/404862/imf-nigeria-stablecoin-adoption-testing-limits-monetary-regulatory-frameworks?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/404862/imf-nigeria-stablecoin-adoption-testing-limits-monetary-regulatory-frameworks",
-    "snippet": "The IMF said stablecoin adoption in Nigeria is testing monetary and regulatory frameworks, while warning of digital dollarization risks.",
-    "published_at": "2026-06-16T09:32:29+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "IMF urges Nigeria to take action over rising stablecoin cross border payments - ledgerinsights.com",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc2YxUWNFVWwyZ0NLWXl4MWxBRTlsMVdKdWh6RXZiZ3F4SXN6UzhXbGhvV0hYQnk1QUI4dHE3ZEJJa1JzU1M5STIxaEdiS09zSUQ4cGZCX0RpRmJ4QTh1djJSWE5yV1NjRUhvRHR3NEJFWG5tQ0h0WmJQX0lZZU9HNkhXTXRqQ2VLQ2pzSDM3NFhKME1vX3FlQ29iWTdBdFc2alE0T3ZtUk9BbGZTTEE?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPc2YxUWNFVWwyZ0NLWXl4MWxBRTlsMVdKdWh6RXZiZ3F4SXN6UzhXbGhvV0hYQnk1QUI4dHE3ZEJJa1JzU1M5STIxaEdiS09zSUQ4cGZCX0RpRmJ4QTh1djJSWE5yV1NjRUhvRHR3NEJFWG5tQ0h0WmJQX0lZZU9HNkhXTXRqQ2VLQ2pzSDM3NFhKME1vX3FlQ29iWTdBdFc2alE0T3ZtUk9BbGZTTEE?oc=5",
+    "snippet": "IMF urges Nigeria to take action over rising stablecoin cross border payments ledgerinsights.com",
+    "published_at": "2026-06-16T19:21:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1074,22 +1127,22 @@
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/404862",
+      "id": "CBMirgFBVV95cUxPc2YxUWNFVWwyZ0NLWXl4MWxBRTlsMVdKdWh6RXZiZ3F4SXN6UzhXbGhvV0hYQnk1QUI4dHE3ZEJJa1JzU1M5STIxaEdiS09zSUQ4cGZCX0RpRmJ4QTh1djJSWE5yV1NjRUhvRHR3NEJFWG5tQ0h0WmJQX0lZZU9HNkhXTXRqQ2VLQ2pzSDM3NFhKME1vX3FlQ29iWTdBdFc2alE0T3ZtUk9BbGZTTEE",
       "guidislink": false
     },
-    "score": 19,
+    "score": 10,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -1113,7 +1166,7 @@
     "snippet": "The reported setback comes just weeks before the EU's July 1 deadline for crypto firms to obtain MiCA authorization or cease operating.",
     "published_at": "2026-06-16T14:19:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -1122,70 +1175,20 @@
       "id": "https://www.theblock.co/post/404947",
       "guidislink": false
     },
-    "score": 15,
+    "score": 9,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
       "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "90c01eed658a1026a8cd6255b74a9e6bf1ec958099657ee5d73e8951ada28e03",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Nigeria Leads Africa’s Adoption of Cross-Border Stablecoin Payments",
-    "url": "https://www.pymnts.com/news/cross-border-commerce/cross-border-payments/2026/nigeria-leads-africas-adoption-of-cross-border-stablecoin-payments/",
-    "canonical_url": "https://pymnts.com/news/cross-border-commerce/cross-border-payments/2026/nigeria-leads-africas-adoption-of-cross-border-stablecoin-payments/",
-    "snippet": "Nigeria has become sub-Saharan Africa’s leader in cross-border stablecoin payments. That’s according to an International Monetary Fund (IMF) report published Tuesday (June 16), showing that the country accounts for 60% of stablecoin inflows since 2019. “What began as a niche technology has become a ",
-    "published_at": "2026-06-16T15:42:47+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "cross-border"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=3853792",
-      "guidislink": false
-    },
-    "score": 10,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -1208,7 +1211,7 @@
     "snippet": "Efforts to suppress stablecoin use are “likely to be only partly effective,” the International Monetary Fund’s researchers said.",
     "published_at": "2026-06-16T13:49:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1217,53 +1220,6 @@
     ],
     "raw": {
       "id": "https://decrypt.co/?p=371287",
-      "guidislink": false
-    },
-    "score": 10,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "19be582b0922596af1227dc95939a3ccd045483204f66f07937199d6cd25e5de",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "South Korean police arrest 23 individuals in $11 million USDT laundering case: report",
-    "url": "https://www.theblock.co/post/404843/south-korea-usdt-laundering-arrest?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/404843/south-korea-usdt-laundering-arrest",
-    "snippet": "From February 2024 to April 2025, the group allegedly moved $11.1 million in illegal funds by purchasing USDT and trading on exchanges.",
-    "published_at": "2026-06-16T08:02:42+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
-    "matched_keywords": [
-      "USDT"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/404843",
       "guidislink": false
     },
     "score": 4,
@@ -1302,7 +1258,7 @@
     "snippet": "Despite Promises, Stablecoin Cross-Border Integrations Fail to Scale in Asia Fintech Singapore",
     "published_at": "2026-06-16T07:28:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [
       "stablecoin",
       "cross-border"
@@ -1350,7 +1306,7 @@
     "snippet": "A spokesperson for the Democratic National Committee decried the move as “an opportunity to use the power of the presidency to make [Trump] and his family even richer.”",
     "published_at": "2026-06-15T21:10:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-16T17:26:24.258203+00:00",
+    "fetched_at": "2026-06-16T20:22:55.615932+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
