@@ -10,7 +10,7 @@
     "snippet": "Lawyers say MiCA rules do not bar the European Central Bank from communicating with national regulators during the application process, though crypto licensing decisions remain with member states.",
     "published_at": "2026-06-19T13:38:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -45,37 +45,39 @@
     ]
   },
   {
-    "id": "b4e2a8ab34fa3b47d0c28e28dcc2ace3294a704f9ab86896127891a225c2f10c",
+    "id": "14151754d213ef0d4835585670fd3110685832a1b3bd7ec93faf432e1ae4d6cf",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Zodia Custody secures payment license in Luxembourg",
-    "url": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg",
-    "snippet": "Zodia Custody (Europe) S.A, the institution-first crypto asset platform with shareholders and investors including Standard Chartered, Northern Trust, SBI Holdings, National Australia Bank, and Emirates NBD, today announced that it has been granted a Payment Institution licence by Luxembourg’s Commis",
-    "published_at": "2026-06-19T11:48:00+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Crypto Biz: Is AI the exit strategy for miners?",
+    "url": "https://cointelegraph.com/news/crypto-biz-ai-exit-strategy-bitcoin-miners?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+    "canonical_url": "https://cointelegraph.com/news/crypto-biz-ai-exit-strategy-bitcoin-miners",
+    "snippet": "Bitcoin miners double down on AI, tokenized RWAs top $43 billion, Ripple strengthens its African payments network and Sam Bankman-Fried loses his appeal.",
+    "published_at": "2026-06-19T17:03:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
-      "custody"
+      "tokenized"
     ],
-    "matched_topics": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "43937",
       "guidislink": false
     },
-    "score": 65,
+    "score": 70,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -100,7 +102,7 @@
     "snippet": "The fund invests exclusively in eligible reserve assets permitted for stablecoin issuers under the GENIUS Act.",
     "published_at": "2026-06-19T01:58:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "money market fund",
       "stablecoin",
@@ -142,6 +144,51 @@
     ]
   },
   {
+    "id": "b4e2a8ab34fa3b47d0c28e28dcc2ace3294a704f9ab86896127891a225c2f10c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Zodia Custody secures payment license in Luxembourg",
+    "url": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg",
+    "snippet": "Zodia Custody (Europe) S.A, the institution-first crypto asset platform with shareholders and investors including Standard Chartered, Northern Trust, SBI Holdings, National Australia Bank, and Emirates NBD, today announced that it has been granted a Payment Institution licence by Luxembourg’s Commis",
+    "published_at": "2026-06-19T11:48:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110189/zodia-custody-secures-payment-license-in-luxembourg?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 59,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "d59ad02fc2c5a642577bfaab56aba3a4d3fbfbe30085ae1694fe9b87d4a2fbee",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -152,7 +199,7 @@
     "snippet": "Repay Holdings Corporation (NASDAQ: RPAY) (\"REPAY\"), a leading provider of vertically-integrated payment solutions, today announced the successful completion of a proof of concept demonstrating stablecoin payment capabilities on its platform.",
     "published_at": "2026-06-19T12:08:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -165,14 +212,14 @@
       "id": "https://www.finextra.com/pressarticle/110192/repay-completes-stablecoin-payments-proof-of-concept?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 60,
+    "score": 54,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 0,
@@ -182,10 +229,10 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 2
+      "cluster_size": 1
     },
     "consensus_boost": 0,
-    "cluster_size": 2,
+    "cluster_size": 1,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -201,7 +248,7 @@
     "snippet": "The US commodities watchdog has settled with Celsius founder Alex Mashinsky, ending the agency’s first-ever case against a crypto lending platform.",
     "published_at": "2026-06-19T02:33:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -248,7 +295,7 @@
     "snippet": "The settlement ensures that convicted Celsius founder Alex Mashinsky is unable to trade in CFTC markets or register with the regulator.",
     "published_at": "2026-06-18T21:02:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -295,7 +342,7 @@
     "snippet": "FIS (NYSE: FIS), a global leader in financial services technology, announced that First Commerce Bank, a $1.8B-asset community bank based in New Jersey, has selected FIS as its go-forward core banking platform – giving the institution a modern, AI-ready foundation as community banks of its size face",
     "published_at": "2026-06-19T13:23:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -340,7 +387,7 @@
     "snippet": "BitGo Europe GmbH (“BitGo Europe”), a subsidiary of BitGo Holdings, Inc. (NYSE: BTGO) (“BitGo”), the digital asset infrastructure company, today announced a partnership with Bielik Vault Sp. z o.o. (”Bielik.io”), a Warsaw-based crypto trading platform, to support Bielik.io’s transition from Poland’s",
     "published_at": "2026-06-19T12:14:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -356,7 +403,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -385,7 +432,7 @@
     "snippet": "AllUnity launches Swedish krona-backed stablecoin SEKAU with multi-chain support, expanding its stablecoin portfolio regulated under the EU’s MiCA framework.",
     "published_at": "2026-06-19T07:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "stablecoin",
       "launches",
@@ -435,7 +482,7 @@
     "snippet": "The proposed rules by US government agencies suggested that stablecoin issuers be subject to customer identification program requirements under the Bank Secrecy Act, the same as regulated financial firms.",
     "published_at": "2026-06-18T21:42:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -444,54 +491,6 @@
     ],
     "raw": {
       "id": "43888",
-      "guidislink": false
-    },
-    "score": 19,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6d241fe8d50508102fd7ff3ba92df4f97d8f30592f44b5b1f3973131e9019041",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "U.S. agencies seek stablecoin customer-ID rules akin to banks in new GENIUS Act pitch",
-    "url": "https://www.coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
-    "canonical_url": "https://coindesk.com/policy/2026/06/18/u-s-agencies-seek-stablecoin-customer-id-rules-akin-to-banks-in-new-genius-act-rule",
-    "snippet": "",
-    "published_at": "2026-06-18T17:17:22+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "Genius"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "533fae3a-798d-40e2-a654-c8d4f4219090",
       "guidislink": false
     },
     "score": 19,
@@ -530,7 +529,7 @@
     "snippet": "On 21 January 2026, Poland’s Financial Supervision Authority (KNF) revoked the payment licence of Qu...",
     "published_at": "2026-06-19T10:03:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "crypto card"
     ],
@@ -539,54 +538,6 @@
     ],
     "raw": {
       "id": "https://www.finextra.com/blogposting/32054/crypto-cards-and-the-licence-you-dont-own?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "36f0d4e01888a9f6ebb78ad8f53bb91c9f1b32494451c5d2d39eff24ace46838",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "AI Financial Adds USDU, UAE’s First Regulated USD Stablecoin, to Settlement Infrastructure - TechAfrica News",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTURFWGIxc1hCaTEwa0x1UzZCdVpMMlZiVGg2RmlmRmFfbFI2dWktcDNhVzhjVUR1b2s2TXFMLUNtOXFha181eU8xZlZkM3h5bjBzc2tRakc0dVpzdUN4MUlncldKQXg2NzFHaWFHVG9DOXVBUlF3cDA4U1pyaW9fYXRtNUxoZDZkZEk3SzFuNDFOdW94QWNUdGFvelQzckE0VjBCbGVxcTJfTE0wV2l0U3FUaENNT1EzdzNSX1NSalNQNTVj?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTURFWGIxc1hCaTEwa0x1UzZCdVpMMlZiVGg2RmlmRmFfbFI2dWktcDNhVzhjVUR1b2s2TXFMLUNtOXFha181eU8xZlZkM3h5bjBzc2tRakc0dVpzdUN4MUlncldKQXg2NzFHaWFHVG9DOXVBUlF3cDA4U1pyaW9fYXRtNUxoZDZkZEk3SzFuNDFOdW94QWNUdGFvelQzckE0VjBCbGVxcTJfTE0wV2l0U3FUaENNT1EzdzNSX1NSalNQNTVj?oc=5",
-    "snippet": "AI Financial Adds USDU, UAE’s First Regulated USD Stablecoin, to Settlement Infrastructure TechAfrica News",
-    "published_at": "2026-06-19T07:13:09+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMixAFBVV95cUxPTURFWGIxc1hCaTEwa0x1UzZCdVpMMlZiVGg2RmlmRmFfbFI2dWktcDNhVzhjVUR1b2s2TXFMLUNtOXFha181eU8xZlZkM3h5bjBzc2tRakc0dVpzdUN4MUlncldKQXg2NzFHaWFHVG9DOXVBUlF3cDA4U1pyaW9fYXRtNUxoZDZkZEk3SzFuNDFOdW94QWNUdGFvelQzckE0VjBCbGVxcTJfTE0wV2l0U3FUaENNT1EzdzNSX1NSalNQNTVj",
       "guidislink": false
     },
     "score": 14,
@@ -625,7 +576,7 @@
     "snippet": "",
     "published_at": "2026-06-19T08:48:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -672,7 +623,7 @@
     "snippet": "The proposed system aims to connect traditional banking infrastructure with blockchain-based payment networks with banks retaining customer deposits.",
     "published_at": "2026-06-18T21:02:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -717,7 +668,7 @@
     "snippet": "As the MiCA grace period closes, only a fraction of registered firms hold full licenses, setting up the prospect of a wave of consolidation.",
     "published_at": "2026-06-18T19:26:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-19T16:42:40.660013+00:00",
+    "fetched_at": "2026-06-19T18:22:34.503985+00:00",
     "matched_keywords": [
       "MiCA"
     ],
