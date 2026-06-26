@@ -1,16 +1,16 @@
 [
   {
-    "id": "9cd159a9ee0d80a87a3b0f1574dafe95f3d39acdc10d76cc75673da917a1cbea",
+    "id": "b95850d1933c9739e284b7b69fdf2c4c1afb2256b111771524ba227645590aff",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "coindesk",
-    "title": "Securitize aims to raise $400 million as tokenization firm nears public debut",
-    "url": "https://www.coindesk.com/business/2026/06/26/securitize-aims-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
-    "canonical_url": "https://coindesk.com/business/2026/06/26/securitize-aims-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
+    "title": "Securitize expects to raise $400 million as tokenization firm nears public debut",
+    "url": "https://www.coindesk.com/business/2026/06/26/securitize-expects-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
+    "canonical_url": "https://coindesk.com/business/2026/06/26/securitize-expects-to-raise-usd400-million-as-tokenization-firm-nears-public-debut",
     "snippet": "",
     "published_at": "2026-06-26T15:04:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -47,38 +47,85 @@
     ]
   },
   {
-    "id": "3888ba7cc5cd80b1e782e17a3169bc03e6b479f438a8096b800244a977aead69",
+    "id": "839e0cbc546fecbf55e100986bf51499eef4d15cdf02a03f167b9d334011d4a1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Airwallex targets agentic commerce after hitting $11bn valuation",
-    "url": "https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation",
-    "snippet": "Business payments outfit Airwallex has hit an $11 billion valuation on a $320 million funding round as it gears up for a push into autonomous finance and agentic commerce.",
-    "published_at": "2026-06-25T18:05:00+00:00",
+    "feed_name": "theblock",
+    "title": "Tokenization firm Securitize eyes early July NYSE debut with $400 million SPAC deal",
+    "url": "https://www.theblock.co/post/406396/tokenization-firm-securitize-july-nyse-debut-400-million-spac-deal?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406396/tokenization-firm-securitize-july-nyse-debut-400-million-spac-deal",
+    "snippet": "Seeking to debut next week, Securitize will receive roughly $400 million after retaining more than 70% of its SPAC trust.",
+    "published_at": "2026-06-26T17:23:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.finextra.com/newsarticle/47996/airwallex-targets-agentic-commerce-after-hitting-11bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "https://www.theblock.co/post/406396",
       "guidislink": false
     },
-    "score": 69,
+    "score": 50,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
+      "tier1": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
+      "launch_score": 10,
       "institution_bonus": 0,
-      "financial_bonus": 40,
+      "financial_bonus": 30,
       "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "e2fb426b8134cced10e8e6295b4727e6105ef5e63e6d03c25f9996b9b74a857c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Spanish Regulator Says No Extensions for EU Crypto Deadline as Binance Remains Unlicensed",
+    "url": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
+    "canonical_url": "https://decrypt.co/372230/spanish-regulator-no-extensions-eu-crypto-deadline-binance",
+    "snippet": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
+    "published_at": "2026-06-26T18:02:22+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "matched_keywords": [
+      "MiCA"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://decrypt.co/?p=372230",
+      "guidislink": false
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -102,7 +149,7 @@
     "snippet": "Crypto giant Binance has told customers in the EU that it will stop providing them with services from 1 July after it failed to secure a license under the bloc’s Markets in Crypto-Assets Regulation.",
     "published_at": "2026-06-26T13:56:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -147,7 +194,7 @@
     "snippet": "USDe circulating supply has shrunk by 70% since the October bull market peak, when it topped $14 billion.",
     "published_at": "2026-06-26T03:48:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -192,7 +239,7 @@
     "snippet": "The buy came days after a group of former Ethereum Foundation researchers launched Ethlabs, a nonprofit Sharplink helped fund.",
     "published_at": "2026-06-26T03:55:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -229,54 +276,6 @@
     ]
   },
   {
-    "id": "d16a7501223070a3966558cc5c0ff8104dc498691cb62ff5e198e6bfad14d135",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Euroclear to adopt SocGen USDCV stablecoin for commercial paper settlement - ledgerinsights.com",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmdxY2lhTDVhSFhyR1RWNWJCLUQ5MThkanFIbHpzUXpUTlBseVNzbGI5Z1JYWG1tdE5UNU52YWZBRWVYelFhWHRwMlRFbU5zOENSczNfSjREc2s3aWd1dVh5Y3NUN2pDRGtoZllVVkd6cjN1b2VYSW1JQlBCUjFBaHgwRDBBdk1pM3FfQUdfdEVxOHNBLXh2Tnc1WDNOemRYd1BnbmQwVi13UQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmdxY2lhTDVhSFhyR1RWNWJCLUQ5MThkanFIbHpzUXpUTlBseVNzbGI5Z1JYWG1tdE5UNU52YWZBRWVYelFhWHRwMlRFbU5zOENSczNfSjREc2s3aWd1dVh5Y3NUN2pDRGtoZllVVkd6cjN1b2VYSW1JQlBCUjFBaHgwRDBBdk1pM3FfQUdfdEVxOHNBLXh2Tnc1WDNOemRYd1BnbmQwVi13UQ?oc=5",
-    "snippet": "Euroclear to adopt SocGen USDCV stablecoin for commercial paper settlement ledgerinsights.com",
-    "published_at": "2026-06-25T17:42:35+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiqgFBVV95cUxOZmdxY2lhTDVhSFhyR1RWNWJCLUQ5MThkanFIbHpzUXpUTlBseVNzbGI5Z1JYWG1tdE5UNU52YWZBRWVYelFhWHRwMlRFbU5zOENSczNfSjREc2s3aWd1dVh5Y3NUN2pDRGtoZllVVkd6cjN1b2VYSW1JQlBCUjFBaHgwRDBBdk1pM3FfQUdfdEVxOHNBLXh2Tnc1WDNOemRYd1BnbmQwVi13UQ",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 2,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 20,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "7f461bc4dbac6501f51136af3e238d512880a2a1fa5d7a949bdd64cd5a681abc",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -287,7 +286,7 @@
     "snippet": "Circle, Nomura Plan Instant Stablecoin FX Settlement for Japanese Companies bloomingbit",
     "published_at": "2026-06-25T23:00:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -336,7 +335,7 @@
     "snippet": "Operation accused over smuggling from mineral-rich DR Congo",
     "published_at": "2026-06-26T10:29:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -381,7 +380,7 @@
     "snippet": "World’s biggest crypto exchange tells customers how to withdraw their money as MiCA rules set to come into force",
     "published_at": "2026-06-26T04:00:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -426,7 +425,7 @@
     "snippet": "Broadridge highlights growing tokenization demand, shares trade below June Xetra high Ad-hoc-news.de",
     "published_at": "2026-06-26T10:46:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -473,7 +472,7 @@
     "snippet": "Euroclear, SG-FORGE Explore USD Stablecoin Settlement Markets Media",
     "published_at": "2026-06-26T09:36:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -521,7 +520,7 @@
     "snippet": "Ether prices are currently back at crucial long-term support levels last visited in October 2023 and April 2025.",
     "published_at": "2026-06-26T06:02:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether"
@@ -569,7 +568,7 @@
     "snippet": "BitGo CEO says the firm will now focus on key areas, including security, trading, stablecoins, settlement, and AI-powered infrastructure.",
     "published_at": "2026-06-26T03:43:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -616,7 +615,7 @@
     "snippet": "",
     "published_at": "2026-06-25T20:47:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "tokenized fund",
       "stablecoin",
@@ -656,55 +655,6 @@
     ]
   },
   {
-    "id": "0bbe00349c7ed61c8c6d5890289aab63a6eff8d949805ecfbfd67b447fb56b30",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Trillion-dollar asset manager Invesco looks to plant a flag in tokenized stablecoin reserve sector",
-    "url": "https://www.theblock.co/post/406239/trillion-dollar-asset-manager-invesco-plant-flag-tokenized-stablecoin-reserve-sector?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/406239/trillion-dollar-asset-manager-invesco-plant-flag-tokenized-stablecoin-reserve-sector",
-    "snippet": "The fund will invest primarily in U.S. Treasuries, repo agreements, and cash equivalents to maintain a stable $1 net asset value.",
-    "published_at": "2026-06-25T20:11:28+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/406239",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "a25b6fec1e6d44ce010dfd56992b8420f466329dc2a4fbbe098c0413b3a88fc1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -715,7 +665,7 @@
     "snippet": "CryptoQuant urged Strategy to pause Bitcoin buying as dividend coverage shrank. Meanwhile, CBOE eyes crypto perpetual futures and Chainlink joins a stablecoin FX project.",
     "published_at": "2026-06-26T16:23:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -762,7 +712,7 @@
     "snippet": "The newly public crypto custodian is slashing nearly 15% of its workforce as it pivots to focus on stablecoins and AI infrastructure.",
     "published_at": "2026-06-26T10:15:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption",
@@ -808,7 +758,7 @@
     "snippet": "BitGo co-founder and CEO Mike Belshe says the layoffs are “a one-time action” and the company doesn’t see the need for further staff reductions.",
     "published_at": "2026-06-26T00:41:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -853,7 +803,7 @@
     "snippet": "Industry leaders remain divided over MiCA, with some praising the framework while others warn it could limit customer access to liquidity.",
     "published_at": "2026-06-26T15:01:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -898,7 +848,7 @@
     "snippet": "Stablecoins, as currently designed, have structural flaws that could affect macroeconomic and financial stability if they were to see widespread adoption, according to the Bank for International Settlements.",
     "published_at": "2026-06-26T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T17:18:28.307677+00:00",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -922,6 +872,55 @@
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ca115718aaeb655e8aa352cdf4f0e005d01f7d8d3da8c62269418a98a70ef2ea",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "ledger_insights",
+    "title": "Tokenized deposits: the threat and the fix you probably missed",
+    "url": "https://www.ledgerinsights.com/tokenized-deposits-the-threat-and-the-fix-you-probably-missed/",
+    "canonical_url": "https://ledgerinsights.com/tokenized-deposits-the-threat-and-the-fix-you-probably-missed/",
+    "snippet": "It’s been a while since we sent one of these. We’re bringing the newsletter back, and this felt like the right story to restart with. Last week there were two consequential stories linked to tokenized deposits that didn’t feature household names, so may not have received the attention they deserve. ",
+    "published_at": "2026-06-26T09:45:09+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "matched_keywords": [
+      "tokenized deposit",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://ledgerinsights.com/?p=43139",
+      "guidislink": false
+    },
+    "score": -6,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
       "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
