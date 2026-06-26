@@ -10,7 +10,7 @@
     "snippet": "",
     "published_at": "2026-06-26T15:04:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -57,7 +57,7 @@
     "snippet": "Seeking to debut next week, Securitize will receive roughly $400 million after retaining more than 70% of its SPAC trust.",
     "published_at": "2026-06-26T17:23:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -104,58 +104,13 @@
     "snippet": "Crypto firms operating in the European Union will be forced to cease operations if they do not obtain a MiCA license by July 1.",
     "published_at": "2026-06-26T18:02:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "MiCA"
     ],
     "matched_topics": [],
     "raw": {
       "id": "https://decrypt.co/?p=372230",
-      "guidislink": false
-    },
-    "score": 45,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "097f395a79510959a1b6e6cd8826eb61ab39bc28b752672b573867081f92a6fa",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Binance to stop serving EU customers after failing to secure MiCA license",
-    "url": "https://www.finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license",
-    "snippet": "Crypto giant Binance has told customers in the EU that it will stop providing them with services from 1 July after it failed to secure a license under the bloc’s Markets in Crypto-Assets Regulation.",
-    "published_at": "2026-06-26T13:56:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
-    "matched_keywords": [
-      "MiCA"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "https://www.finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
     "score": 45,
@@ -194,7 +149,7 @@
     "snippet": "USDe circulating supply has shrunk by 70% since the October bull market peak, when it topped $14 billion.",
     "published_at": "2026-06-26T03:48:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -229,6 +184,98 @@
     ]
   },
   {
+    "id": "d031c010815b352d9a726c06b1bdef521c4212ecf27acc495d6bbb9684824080",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Wall Street's Next Tokenization Test: BlackRock-Backed Securitize's Market Debut",
+    "url": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
+    "canonical_url": "https://decrypt.co/372249/wall-street-next-tokenization-test-blackrock-backed-securitize-ipo",
+    "snippet": "Securitize expects to begin trading next week under the ticker symbol “SECZ,” following the completion of a merger with a blank-check firm.",
+    "published_at": "2026-06-26T20:47:44+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=372249",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "097f395a79510959a1b6e6cd8826eb61ab39bc28b752672b573867081f92a6fa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Binance to stop serving EU customers after failing to secure MiCA license",
+    "url": "https://www.finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license",
+    "snippet": "Crypto giant Binance has told customers in the EU that it will stop providing them with services from 1 July after it failed to secure a license under the bloc’s Markets in Crypto-Assets Regulation.",
+    "published_at": "2026-06-26T13:56:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
+    "matched_keywords": [
+      "MiCA"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://www.finextra.com/newsarticle/48000/binance-to-stop-serving-eu-customers-after-failing-to-secure-mica-license?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "088483906e56e1bac9d8edb3b83cc0d90bdd02802d79ebc5b4cdb4e3a72cc47d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -239,7 +286,7 @@
     "snippet": "The buy came days after a group of former Ethereum Foundation researchers launched Ethlabs, a nonprofit Sharplink helped fund.",
     "published_at": "2026-06-26T03:55:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -276,6 +323,51 @@
     ]
   },
   {
+    "id": "77bfb645b808e4aa7725241f1442fabcf7e4784d822d57968805647734ec60a4",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Spain regulator rules out extension for non-MiCA compliant crypto companies",
+    "url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies",
+    "snippet": "Carlos San Basilio said that “there will be no exceptions ​or extensions” to the MiCA deadline requiring crypto exchanges offering services to EU-based users to be licensed.",
+    "published_at": "2026-06-26T19:20:33+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
+    "matched_keywords": [
+      "MiCA"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/spain-no-extension-mica-compliance-crypto-companies",
+      "guidislink": true
+    },
+    "score": 25,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "7f461bc4dbac6501f51136af3e238d512880a2a1fa5d7a949bdd64cd5a681abc",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -286,7 +378,7 @@
     "snippet": "Circle, Nomura Plan Instant Stablecoin FX Settlement for Japanese Companies bloomingbit",
     "published_at": "2026-06-25T23:00:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -325,6 +417,54 @@
     ]
   },
   {
+    "id": "75836d63d5df5f605ee7adc2e2dbf14f488872b103f0044f636694c4000152fa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "This Week in Stablecoins: Building Toward T+0 Settlement",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-building-toward-t0-settlement/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/this-week-in-stablecoins-building-toward-t0-settlement/",
+    "snippet": "Stablecoins entered 2026 with an ambitious narrative around disrupting card networks, replacing traditional payment rails and fundamentally reshaping consumer commerce. This week’s headlines suggested a different destination. Across a series of seemingly unrelated announcements — from new foreign ex",
+    "published_at": "2026-06-26T20:43:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
+    "matched_keywords": [
+      "payment rails",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3893653",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "376b9cfd173c504558447dd805ff0d8544fac17ef065c4d93d427cc31749fa57",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -335,7 +475,7 @@
     "snippet": "Operation accused over smuggling from mineral-rich DR Congo",
     "published_at": "2026-06-26T10:29:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -380,7 +520,7 @@
     "snippet": "World’s biggest crypto exchange tells customers how to withdraw their money as MiCA rules set to come into force",
     "published_at": "2026-06-26T04:00:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -425,7 +565,7 @@
     "snippet": "Broadridge highlights growing tokenization demand, shares trade below June Xetra high Ad-hoc-news.de",
     "published_at": "2026-06-26T10:46:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -472,7 +612,7 @@
     "snippet": "Euroclear, SG-FORGE Explore USD Stablecoin Settlement Markets Media",
     "published_at": "2026-06-26T09:36:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -520,7 +660,7 @@
     "snippet": "Ether prices are currently back at crucial long-term support levels last visited in October 2023 and April 2025.",
     "published_at": "2026-06-26T06:02:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether"
@@ -568,7 +708,7 @@
     "snippet": "BitGo CEO says the firm will now focus on key areas, including security, trading, stablecoins, settlement, and AI-powered infrastructure.",
     "published_at": "2026-06-26T03:43:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -577,56 +717,6 @@
     ],
     "raw": {
       "id": "https://www.theblock.co/post/406266",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "ff4ae21deadadeba14397a7042ac6aae5bd6b1f4d85c6fe3b51e13e7646c9a65",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Asset management giant Invesco files for tokenized fund targeting stablecoin reserve market",
-    "url": "https://www.coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
-    "canonical_url": "https://coindesk.com/business/2026/06/25/asset-management-giant-invesco-files-for-tokenized-fund-targeting-stablecoin-reserve-market",
-    "snippet": "",
-    "published_at": "2026-06-25T20:47:24+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
-    "matched_keywords": [
-      "tokenized fund",
-      "stablecoin",
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "c9877180-bff1-475e-8552-200331b25aef",
       "guidislink": false
     },
     "score": 14,
@@ -665,7 +755,7 @@
     "snippet": "CryptoQuant urged Strategy to pause Bitcoin buying as dividend coverage shrank. Meanwhile, CBOE eyes crypto perpetual futures and Chainlink joins a stablecoin FX project.",
     "published_at": "2026-06-26T16:23:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -712,7 +802,7 @@
     "snippet": "The newly public crypto custodian is slashing nearly 15% of its workforce as it pivots to focus on stablecoins and AI infrastructure.",
     "published_at": "2026-06-26T10:15:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption",
@@ -758,7 +848,7 @@
     "snippet": "BitGo co-founder and CEO Mike Belshe says the layoffs are “a one-time action” and the company doesn’t see the need for further staff reductions.",
     "published_at": "2026-06-26T00:41:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -803,7 +893,7 @@
     "snippet": "Industry leaders remain divided over MiCA, with some praising the framework while others warn it could limit customer access to liquidity.",
     "published_at": "2026-06-26T15:01:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -848,7 +938,7 @@
     "snippet": "Stablecoins, as currently designed, have structural flaws that could affect macroeconomic and financial stability if they were to see widespread adoption, according to the Bank for International Settlements.",
     "published_at": "2026-06-26T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -895,7 +985,7 @@
     "snippet": "It’s been a while since we sent one of these. We’re bringing the newsletter back, and this felt like the right story to restart with. Last week there were two consequential stories linked to tokenized deposits that didn’t feature household names, so may not have received the attention they deserve. ",
     "published_at": "2026-06-26T09:45:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-26T19:10:13.533222+00:00",
+    "fetched_at": "2026-06-26T20:54:35.289492+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
