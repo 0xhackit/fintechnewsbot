@@ -10,7 +10,7 @@
     "snippet": "ESMA said EU crypto clients must be served through a MiCA-authorized entity as Binance faces questions over its servicing model in the region after the MiCA deadline.",
     "published_at": "2026-06-30T10:25:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -55,7 +55,7 @@
     "snippet": "Bank of England and Financial Conduct Authority’s approach to joint regulation of systemic stablecoin issuers Bank of England",
     "published_at": "2026-06-30T08:13:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -92,38 +92,90 @@
     ]
   },
   {
-    "id": "029b6dee3a38b6492d5b521462a308b991e19abca0f826e8fce6d10727e1e62b",
+    "id": "d5502a0148b3d7d4ed3613b1b39529d47f4503c9d486a1e6a5c7dae6a7804bc0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Axiology goes live on blockchain Canton",
-    "url": "https://www.finextra.com/pressarticle/110281/axiology-goes-live-on-blockchain-canton?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110281/axiology-goes-live-on-blockchain-canton",
-    "snippet": "Axiology is now operating as a live validator node on Canton network, the privacy-enabled blockchain network used by a significant share of the world's regulated financial institutions for tokenisation, settlement, and asset servicing. Applications deployed on Canton can now interact directly with A",
-    "published_at": "2026-06-30T10:03:00+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Spiko links EU regulated T-bill funds to Coinbase stablecoin rails",
+    "url": "https://cointelegraph.com/news/spiko-coinbase-stablecoin-payments-treasury-funds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/spiko-coinbase-stablecoin-payments-treasury-funds",
+    "snippet": "Spiko integrated Coinbase Payments into two EU regulated UCITS Treasury funds, enabling USDC and EURC subscriptions and redemption payments through Base.",
+    "published_at": "2026-06-30T12:21:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
-      "settlement"
+      "treasury fund",
+      "stablecoin",
+      "USDC"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/110281/axiology-goes-live-on-blockchain-canton?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/spiko-coinbase-stablecoin-payments-treasury-funds",
+      "guidislink": true
     },
-    "score": 65,
+    "score": 85,
     "score_breakdown": {
       "tier1": 1,
-      "tier2": 3,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 55,
-      "institution_bonus": 0,
+      "launch_score": 35,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "0df08308437ccd28c60cbf6d992428d397eb399d998849a7caf88a8516a9cb7e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Theo becomes first crypto-native investor in Fidelity tokenized fund",
+    "url": "https://cointelegraph.com/news/fidelity-tokenized-fund-first-crypto-native-investor?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/fidelity-tokenized-fund-first-crypto-native-investor",
+    "snippet": "The onchain capital markets platform allocated $20 million to Fidelity International's tokenized liquidity fund as tokenized Treasury products continue to attract institutional capital.",
+    "published_at": "2026-06-30T13:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [
+      "tokenized fund",
+      "tokenized treasury",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/fidelity-tokenized-fund-first-crypto-native-investor",
+      "guidislink": true
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 40,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -149,7 +201,7 @@
     "snippet": "FalconX, the leading institutional digital asset prime broker, today announced that FalconX Limited has received authorization under the European Union's Markets in Crypto-Assets Regulation (MiCA) from the Malta Financial Services Authority (MFSA).",
     "published_at": "2026-06-30T12:17:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -194,7 +246,7 @@
     "snippet": "The FCA finalized UK crypto rules covering capital, stablecoins and market abuse ahead of Oct. 2027 implementation.",
     "published_at": "2026-06-29T23:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -237,9 +289,9 @@
     "url": "https://cointelegraph.com/news/coinbase-okx-kraken-eu-users-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "canonical_url": "https://cointelegraph.com/news/coinbase-okx-kraken-eu-users-mica",
     "snippet": "Several exchanges that have already been authorized by EU regulators are attempting to bring in users from companies unlicensed under the Markets in Crypto-Assets rules, offering transfer bonuses and prizes.",
-    "published_at": "2026-06-29T17:42:39+00:00",
+    "published_at": "2026-06-29T17:50:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -284,7 +336,7 @@
     "snippet": "BNY, the world's largest custodian bank, said it plans to add support for additional stablecoin via its Digital Asset Custody platform.",
     "published_at": "2026-06-29T16:58:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -325,6 +377,54 @@
     ]
   },
   {
+    "id": "c72ef87271aef6de9d9cb7e8ce56a6c1e3fed487221776e9f630f3655f9bced9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "RedotPay selects OpenPayd for stabelcoin payments",
+    "url": "https://www.finextra.com/pressarticle/110285/redotpay-selects-openpayd-for-stabelcoin-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110285/redotpay-selects-openpayd-for-stabelcoin-payments",
+    "snippet": "RedotPay, a global stablecoin-based payment fintech, has selected OpenPayd, a leading financial infrastructure provider, to enhance its treasury operations, multi-currency payments, and cross-border remittances for customers worldwide.",
+    "published_at": "2026-06-30T12:43:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "cross-border"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110285/redotpay-selects-openpayd-for-stabelcoin-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "343af25f61c1dce60c1e8be1360250b7613c0fdc99de8d17805ef6aca86c1d1e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -335,7 +435,7 @@
     "snippet": "JPMorgan backs bank-style stablecoin rules grafa.com",
     "published_at": "2026-06-29T23:33:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -382,7 +482,7 @@
     "snippet": "JPMorgan execs argued that stablecoin innovation can easily drift into “shadow banking” if yield payments are permitted.",
     "published_at": "2026-06-29T18:37:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -419,43 +519,37 @@
     ]
   },
   {
-    "id": "e06f65abaece4696bbc6c0261dbc17e4c6409b758bb5856eca3a10ded0c589b1",
+    "id": "6af4ff06768c505d9967e47ead18b3a57cc0b62694f668db859e890294703591",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Breez launches Bitcoin-to-stablecoin payments across more than 30 blockchains",
-    "url": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins",
-    "snippet": "The new SDK feature lets developers route payments from Bitcoin balances to recipients in USDC and USDT without requiring users to hold stablecoins.",
-    "published_at": "2026-06-29T13:00:00+00:00",
+    "feed_name": "finextra",
+    "title": "Qliro becomes PPRO's Nordic BNPL partner",
+    "url": "https://www.finextra.com/pressarticle/110288/qliro-becomes-ppros-nordic-bnpl-partner?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110288/qliro-becomes-ppros-nordic-bnpl-partner",
+    "snippet": "Qliro AB (publ) (\"Qliro\") today announced that it has partnered with PPRO, the leading local payments platform. Through this exclusive partnership, Qliro becomes the only BNPL provider available to PPRO's network of payment service providers (PSPs) and merchants across Sweden, Norway, Finland and De",
+    "published_at": "2026-06-30T13:13:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "USDC",
-      "USDT",
-      "launches"
-    ],
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/breez-bitcoin-wallets-send-usdc-usdt-without-holding-stablecoins",
-      "guidislink": true
+      "id": "https://www.finextra.com/pressarticle/110288/qliro-becomes-ppros-nordic-bnpl-partner?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
     },
-    "score": 39,
+    "score": 35,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 25,
-      "institution_bonus": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -471,38 +565,38 @@
     ]
   },
   {
-    "id": "0543eeb4f8a3848dc91194ee4a124d6bbdfa880f48ff9f2d5a2ea9b7fab373fa",
+    "id": "b3d7f3817d2b66c9eda48ec4c8acf3e2b9b0fdff581de5a992e4211f7235b95c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
-    "title": "Cathie Wood’s ARK adds $43.5M in crypto stocks amid market dip",
-    "url": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip",
-    "snippet": "ARK Invest's biggest crypto stock purchases over the past three trading days were Coinbase and Circle, whose shares have fallen 17% and 27.6%, respectively, over the past month.",
-    "published_at": "2026-06-30T05:49:50+00:00",
+    "title": "StarkWare unveils Starknet quantum roadmap, says industry has no excuse",
+    "url": "https://cointelegraph.com/news/starkware-ceo-blasts-crypto-complacency-in-quantum-threat-elliptic-illusion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/starkware-ceo-blasts-crypto-complacency-in-quantum-threat-elliptic-illusion",
+    "snippet": "“The crypto industry shouldn’t need wake-up calls from the White House or anyone else,” said StarkWare CEO Eli Ben-Sasson.",
+    "published_at": "2026-06-30T12:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
-      "Circle"
+      "unveils"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip",
+      "id": "https://cointelegraph.com/news/starkware-ceo-blasts-crypto-complacency-in-quantum-threat-elliptic-illusion",
       "guidislink": true
     },
-    "score": 30,
+    "score": 35,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
+      "launch_score": 25,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -513,6 +607,101 @@
     },
     "consensus_boost": 0,
     "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b2f827b5408a703fbf22c9a511fe253a94c44f609db67cc0c5e86b6c3f494116",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "StarkWare unveils Starknet post-quantum roadmap, calling it crypto’s ‘strongest’ to date",
+    "url": "https://www.theblock.co/post/406677/starkware-unveils-starknet-post-quantum-roadmap-calling-it-cryptos-strongest-to-date?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406677/starkware-unveils-starknet-post-quantum-roadmap-calling-it-cryptos-strongest-to-date",
+    "snippet": "StarkWare debuted a three-phase roadmap to make Starknet quantum-ready within months, according to the company.",
+    "published_at": "2026-06-30T12:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [
+      "unveils"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/406677",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "8d0d9101a3270dc417d3f596f547a5575a4632c188e85bea3b974027f21f6f4a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "JPMorgan broadens blockchain settlement network as banks modernize cross-border payments",
+    "url": "https://www.coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
+    "canonical_url": "https://coindesk.com/business/2026/06/29/j-p-morgan-broadens-blockchain-settlement-network-as-banks-modernize-cross-border-payments",
+    "snippet": "",
+    "published_at": "2026-06-29T15:23:36+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [
+      "settlement",
+      "cross-border"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "b1fb43a1-7323-4b5d-874c-fe2bdc4ccf61",
+      "guidislink": false
+    },
+    "score": 34,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -528,7 +717,7 @@
     "snippet": "Firm outlines reasons why it may sell crypto, in reverse of previous pledge to hold",
     "published_at": "2026-06-29T17:40:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "unveils"
     ],
@@ -565,6 +754,53 @@
     ]
   },
   {
+    "id": "0543eeb4f8a3848dc91194ee4a124d6bbdfa880f48ff9f2d5a2ea9b7fab373fa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Cathie Wood’s ARK adds $43.5M in crypto stocks amid market dip",
+    "url": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip",
+    "snippet": "ARK Invest's biggest crypto stock purchases over the past three trading days were Coinbase and Circle, whose shares have fallen 17% and 27.6%, respectively, over the past month.",
+    "published_at": "2026-06-30T05:49:50+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/cathie-woods-ark-scoops-up-43m-worth-of-crypto-stocks-amid-market-dip",
+      "guidislink": true
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "2600cfb97d0116d82acef2194a1e38444551dc4905f805061329b6185c272855",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -575,7 +811,7 @@
     "snippet": "The move deepens BNY's partnership with Circle and builds on the bank's role as the primary custodian of USDC reserves.",
     "published_at": "2026-06-29T16:10:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -626,7 +862,7 @@
     "snippet": "Bank of New York Mellon (BNY) Stock Climbs on Enhanced Circle USDC Integration Blockonomi",
     "published_at": "2026-06-29T15:36:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -674,7 +910,7 @@
     "snippet": "",
     "published_at": "2026-06-29T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -711,40 +947,38 @@
     ]
   },
   {
-    "id": "0baad6ef3baab8ef5b8cb64f0aa45675891a896b10808a7692442c2102339434",
+    "id": "3e6937001bd9156a65bc27ca98afcae770ba6f78513acfbd169b95ec137f9038",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "coindesk",
-    "title": "Wall Street's BNY expands stablecoin services for institutions, starting with Circle's USDC",
-    "url": "https://www.coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
-    "canonical_url": "https://coindesk.com/business/2026/06/29/wall-street-s-bny-expands-stablecoin-services-for-institutions-starting-with-circle-s-usdc",
+    "title": "Tokenized securities need competition, not gatekeepers",
+    "url": "https://www.coindesk.com/opinion/2026/06/29/tokenized-securities-need-competition-not-gatekeepers",
+    "canonical_url": "https://coindesk.com/opinion/2026/06/29/tokenized-securities-need-competition-not-gatekeepers",
     "snippet": "",
-    "published_at": "2026-06-29T14:46:33+00:00",
+    "published_at": "2026-06-30T13:25:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "USDC",
-      "Circle"
+      "tokenized"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "3f25114f-39c3-4922-ad1c-b23c01e7dec9",
+      "id": "b202a4f1-4bc2-45cd-962d-1e1edd40b37f",
       "guidislink": false
     },
-    "score": 24,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
+      "launch_score": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -760,38 +994,86 @@
     ]
   },
   {
-    "id": "c217950b253b36acadd70d07c31eee585a008bd44e138595954c6ae19c29959b",
+    "id": "35383efdd48116d23853a6c5c61959fc0d12358cc213d494d760567317fcc3aa",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "theblock",
-    "title": "BlackRock’s Aladdin platform adds deeper support for Ethena’s stablecoin products",
-    "url": "https://www.theblock.co/post/405670/blackrock-ethena-partnership-usde?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/405670/blackrock-ethena-partnership-usde",
-    "snippet": "The move makes USDe more accessible to investment professionals wishing to take advantage of 'digital dollar exposure.'",
-    "published_at": "2026-06-29T13:00:00+00:00",
+    "title": "New York Life makes first tokenized move partnering with Centrifuge on high-yield corporate bond strategy",
+    "url": "https://www.theblock.co/post/406696/new-york-life-first-tokenized-centrifuge-high-yield-corporate-bond-strategy?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406696/new-york-life-first-tokenized-centrifuge-high-yield-corporate-bond-strategy",
+    "snippet": "The tokenized fund will enable eligible investors to access NYLIM’s established institutional high-yield strategy.",
+    "published_at": "2026-06-30T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "tokenized fund",
+      "tokenized"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/405670",
+      "id": "https://www.theblock.co/post/406696",
       "guidislink": false
     },
-    "score": 24,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "f28e69f2b37669063182fe5384fd982adb49391cf8a559b120b3650a7a01a0db",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "New York Life makes tokenization debut with onchain high-yield bond fund with Centrifuge",
+    "url": "https://www.coindesk.com/business/2026/06/29/new-york-life-makes-tokenization-debut-with-onchain-high-yield-bond-fund-with-centrifuge",
+    "canonical_url": "https://coindesk.com/business/2026/06/29/new-york-life-makes-tokenization-debut-with-onchain-high-yield-bond-fund-with-centrifuge",
+    "snippet": "",
+    "published_at": "2026-06-30T11:20:30+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "2167bb48-d36a-4935-8351-63bbbe76c7fc",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -817,7 +1099,7 @@
     "snippet": "Bank of Thailand Sets 2026–2027 Timeline for Baht Stablecoin Rules Thailand Business News",
     "published_at": "2026-06-29T23:40:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -864,7 +1146,7 @@
     "snippet": "Bank Of New York Mellon To Support USDC Stablecoin Crowdfund Insider",
     "published_at": "2026-06-29T16:28:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -902,101 +1184,6 @@
     ]
   },
   {
-    "id": "681779cc26d5000325aa0aa72306b6523ec1cb21056c90ac8b24b291fee388e6",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONDhLem4zSmp2cWVWM0g0UkpTekNDU3Q1ZkJNLTE2ODhHa2Ewa3lyekNmVGh1WWVBMGNjU0pORHhSdkNERmJYcUtwbjhNUVRKaW1Va2t2eHlMeVR6MkNKZXJ4NnNfdUV4M01aLXdtODV5SEhtUnkxcjJYRjgyV21TbXJOUG9TdmJJUHp2ck1JLUxHR2xpR0NRVzhyYl84VmloN3pKNldvLWhTTUd2dTJHTGtuN1hiM3VKejdxMzVRMlVSelg4VTN0a0J0dE4tR3Zp?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxONDhLem4zSmp2cWVWM0g0UkpTekNDU3Q1ZkJNLTE2ODhHa2Ewa3lyekNmVGh1WWVBMGNjU0pORHhSdkNERmJYcUtwbjhNUVRKaW1Va2t2eHlMeVR6MkNKZXJ4NnNfdUV4M01aLXdtODV5SEhtUnkxcjJYRjgyV21TbXJOUG9TdmJJUHp2ck1JLUxHR2xpR0NRVzhyYl84VmloN3pKNldvLWhTTUd2dTJHTGtuN1hiM3VKejdxMzVRMlVSelg4VTN0a0J0dE4tR3Zp?oc=5",
-    "snippet": "J.P. Morgan broadens blockchain settlement network as banks modernize cross-border payments CoinDesk",
-    "published_at": "2026-06-29T15:24:37+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
-    "matched_keywords": [
-      "settlement",
-      "cross-border"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMi0AFBVV95cUxONDhLem4zSmp2cWVWM0g0UkpTekNDU3Q1ZkJNLTE2ODhHa2Ewa3lyekNmVGh1WWVBMGNjU0pORHhSdkNERmJYcUtwbjhNUVRKaW1Va2t2eHlMeVR6MkNKZXJ4NnNfdUV4M01aLXdtODV5SEhtUnkxcjJYRjgyV21TbXJOUG9TdmJJUHp2ck1JLUxHR2xpR0NRVzhyYl84VmloN3pKNldvLWhTTUd2dTJHTGtuN1hiM3VKejdxMzVRMlVSelg4VTN0a0J0dE4tR3Zp",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "ec240c4cea87660578917bd6fd4af5b9fcc222e0a971f1439173583d15d846c7",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "Siebert Expands Into Tokenized Securities Through tZERO's End-to-End Digital Markets Infrastructure - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTElmS1pCX1RyYmJNQTJpNzhmazBuZkJ4dUgyZzZJUnB1dTN4RFlHaWVlb05kOE40VldwamtKSE91Z29BQ1o4WHJ3YzZYU2dfdHFrSGQ2b3ZHaFAyLXpEaXFqSl8tTXh2WElJOXRHTEN0bXhjdk9IeHp2cE1mRzhFMG45VFY4TTdFcGNrMnZkcUxMQ2ZLbXN0RFFoNl9LazNGM2JYYS1uc0hkRDBWUGxOcmYyQTVGQjYxNTVETFI0QWZobnlpTjQtV1ktazc4dUVEbVdIdUswbGY5VmRaR1FKNV9JVElPMFp1?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNTElmS1pCX1RyYmJNQTJpNzhmazBuZkJ4dUgyZzZJUnB1dTN4RFlHaWVlb05kOE40VldwamtKSE91Z29BQ1o4WHJ3YzZYU2dfdHFrSGQ2b3ZHaFAyLXpEaXFqSl8tTXh2WElJOXRHTEN0bXhjdk9IeHp2cE1mRzhFMG45VFY4TTdFcGNrMnZkcUxMQ2ZLbXN0RFFoNl9LazNGM2JYYS1uc0hkRDBWUGxOcmYyQTVGQjYxNTVETFI0QWZobnlpTjQtV1ktazc4dUVEbVdIdUswbGY5VmRaR1FKNV9JVElPMFp1?oc=5",
-    "snippet": "Siebert Expands Into Tokenized Securities Through tZERO's End-to-End Digital Markets Infrastructure TradingView",
-    "published_at": "2026-06-29T11:36:01+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "CBMi6AFBVV95cUxNTElmS1pCX1RyYmJNQTJpNzhmazBuZkJ4dUgyZzZJUnB1dTN4RFlHaWVlb05kOE40VldwamtKSE91Z29BQ1o4WHJ3YzZYU2dfdHFrSGQ2b3ZHaFAyLXpEaXFqSl8tTXh2WElJOXRHTEN0bXhjdk9IeHp2cE1mRzhFMG45VFY4TTdFcGNrMnZkcUxMQ2ZLbXN0RFFoNl9LazNGM2JYYS1uc0hkRDBWUGxOcmYyQTVGQjYxNTVETFI0QWZobnlpTjQtV1ktazc4dUVEbVdIdUswbGY5VmRaR1FKNV9JVElPMFp1",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "82096440d41798e3137b499d5612dd49722fc1c8ed73978b3953043831a9e2cf",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1007,7 +1194,7 @@
     "snippet": "",
     "published_at": "2026-06-30T10:08:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin",
       "MiCA"
@@ -1055,7 +1242,7 @@
     "snippet": "Watch more: The Digital Shift With Plasma’s Zaheer Ebtikar Start with the part nobody in the payments industry wants to hear. Stablecoins probably won’t win at payments. Hundreds of billions of dollars in stablecoins circulate globally, and consumer payment adoption in developed markets is still thi",
     "published_at": "2026-06-30T08:03:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1102,7 +1289,7 @@
     "snippet": "",
     "published_at": "2026-06-30T06:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -1111,14 +1298,14 @@
       "id": "384df62f-aacc-4834-9844-066f22e5ae56",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1147,7 +1334,7 @@
     "snippet": "Polygon Edges Solana & BNB In Stablecoin Payments DailyCoin",
     "published_at": "2026-06-29T23:43:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1186,6 +1373,51 @@
     ]
   },
   {
+    "id": "a4db00fa542eeb929031cd7d5c455e9c764ee9bb1af167adacfa65827110568e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Morning Minute: A Change of Strategy",
+    "url": "https://decrypt.co/372411/morning-minute-a-change-of-strategy",
+    "canonical_url": "https://decrypt.co/372411/morning-minute-a-change-of-strategy",
+    "snippet": "Michael Saylor's Strategy is rolling out some major changes to how it handles Bitcoin going forward. And so far, the market likes it.",
+    "published_at": "2026-06-30T12:13:27+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=372411",
+      "guidislink": false
+    },
+    "score": -10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "ccf61d223e4f4c16fe4dfdaf4e25e3febfa0f47e4e2d2f1b68e2e718b8a7195d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1196,7 +1428,7 @@
     "snippet": "",
     "published_at": "2026-06-29T15:03:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-06-30T11:35:11.701531+00:00",
+    "fetched_at": "2026-06-30T13:27:34.285912+00:00",
     "matched_keywords": [
       "MiCA"
     ],
