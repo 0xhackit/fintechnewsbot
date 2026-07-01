@@ -10,7 +10,7 @@
     "snippet": "Visa, Mastercard join 140 businesses to launch Open USD stablecoin crypto.news",
     "published_at": "2026-07-01T09:58:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -49,41 +49,93 @@
     ]
   },
   {
-    "id": "e90f20618fc3fba9ef96c6074c160fb6b1280d968fad26394353eeff380f3acf",
+    "id": "a9dc1b3ad9b774db542b84be25246047d6371eba0d883df0a3f3b86d5af6c6c6",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Open USD’s Biggest Challenge Isn’t Circle or Tether, It’s History",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/open-usds-biggest-challenge-isnt-circle-or-tether-its-history/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/open-usds-biggest-challenge-isnt-circle-or-tether-its-history/",
-    "snippet": "Institutional memory tends to go out the window when covering crypto’s innovations. But the Tuesday (June 30) announcement that more than 140 companies spanning the payments, banking, asset management and cryptocurrency infrastructure spaces have joined a consortium called Open Standard to launch Op",
-    "published_at": "2026-07-01T15:58:31+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Open Standard to Launch OUSD Stablecoin This Year With 140 Partners, Challenging Tether and Circle - bloomingbit",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6dUZ6MklkWjZwZnV1RkFWZXJ6TXV4cmFldHhoZG5TRkN1NENJU2NUMDFmMndOREgtbk43WUp1c1hFUVZDeUkyZjVfTU5zRlFIVnlKNA?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6dUZ6MklkWjZwZnV1RkFWZXJ6TXV4cmFldHhoZG5TRkN1NENJU2NUMDFmMndOREgtbk43WUp1c1hFUVZDeUkyZjVfTU5zRlFIVnlKNA?oc=5",
+    "snippet": "Open Standard to Launch OUSD Stablecoin This Year With 140 Partners, Challenging Tether and Circle bloomingbit",
+    "published_at": "2026-07-01T06:32:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
+      "stablecoin",
       "Tether",
       "Circle",
-      "launch"
+      "launch",
+      "partners"
     ],
     "matched_topics": [
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3909615",
+      "id": "CBMiVEFVX3lxTFB6dUZ6MklkWjZwZnV1RkFWZXJ6TXV4cmFldHhoZG5TRkN1NENJU2NUMDFmMndOREgtbk43WUp1c1hFUVZDeUkyZjVfTU5zRlFIVnlKNA",
       "guidislink": false
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ebdd76f3c6b68ed8d06797a0f59bd9765dbe94ba6d75b1d946253aed9ab20027",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Robinhood Chain goes live on mainnet alongside 24/7 tokenized stocks, Lighter perps and planned crypto agentic trading",
+    "url": "https://www.theblock.co/post/406918/robinhood-chain-goes-live-mainnet-alongside-24-7-tokenized-stocks-lighter-perps-planned-crypto-agentic-trading?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406918/robinhood-chain-goes-live-mainnet-alongside-24-7-tokenized-stocks-lighter-perps-planned-crypto-agentic-trading",
+    "snippet": "Robinhood Chain, a Layer 2 built using Arbitrum's tech stack, went live on public mainnet, with partners including Uniswap from day one.",
+    "published_at": "2026-07-01T18:45:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "partners",
+      "Arbitrum"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/406918",
+      "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -109,64 +161,13 @@
     "snippet": "Shares in top Solana treasury firm Forward Industries are jumping Wedesday after announcing that it added over 500,000 SOL to its stash.",
     "published_at": "2026-07-01T15:09:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
       "id": "https://decrypt.co/?p=372519",
-      "guidislink": false
-    },
-    "score": 65,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "67b2e3b97968ccf0525421d27c2e798fbefbc9cbc8564ed78e36c486821dc723",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Morning Minute: Major New Stablecoin Launch Shakes Incumbents",
-    "url": "https://decrypt.co/372513/morning-minute-major-new-stablecoin-launch-shakes-incumbents",
-    "canonical_url": "https://decrypt.co/372513/morning-minute-major-new-stablecoin-launch-shakes-incumbents",
-    "snippet": "Open USD takes a shot at USDC and USDT, with backing from heavy hitters including Visa, Mastercard and Google.",
-    "published_at": "2026-07-01T12:31:07+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "USDC",
-      "USDT",
-      "launch"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=372513",
       "guidislink": false
     },
     "score": 65,
@@ -205,7 +206,7 @@
     "snippet": "Grasshopper, the client-first, full-service digital bank, today announced the launch of a new stablecoin-based payments capability.",
     "published_at": "2026-07-01T14:57:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -244,39 +245,41 @@
     ]
   },
   {
-    "id": "6540c66c901b43febaa490d85b5f45a6da0d86bd1a5b6a6bd5d51a5e53aeb87a",
+    "id": "67b2e3b97968ccf0525421d27c2e798fbefbc9cbc8564ed78e36c486821dc723",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Bank of Korea governor outlines tokenized bond vision, unified ledger plan",
-    "url": "https://cointelegraph.com/news/bank-korea-governor-tokenized-government-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/bank-korea-governor-tokenized-government-bonds",
-    "snippet": "The Bank of Korea’s governor praised tokenized government bonds for easing the issuance and management of government debt during a panel discussion at the ECB Forum.",
-    "published_at": "2026-07-01T13:36:13+00:00",
+    "feed_name": "decrypt",
+    "title": "Morning Minute: Major New Stablecoin Launch Shakes Incumbents",
+    "url": "https://decrypt.co/372513/morning-minute-major-new-stablecoin-launch-shakes-incumbents",
+    "canonical_url": "https://decrypt.co/372513/morning-minute-major-new-stablecoin-launch-shakes-incumbents",
+    "snippet": "Open USD takes a shot at USDC and USDT, with backing from heavy hitters including Visa, Mastercard and Google.",
+    "published_at": "2026-07-01T12:31:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
-      "issuance",
-      "tokenized"
+      "stablecoin",
+      "USDC",
+      "USDT",
+      "launch"
     ],
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/bank-korea-governor-tokenized-government-bonds",
-      "guidislink": true
+      "id": "https://decrypt.co/?p=372513",
+      "guidislink": false
     },
-    "score": 60,
+    "score": 59,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 2,
+      "tier1": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 20,
+      "launch_score": 25,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -303,7 +306,7 @@
     "snippet": "Crédit Agricole’s CACEIS launches a euro-pegged stablecoin on Ethereum with 20.02 million tokens issued, targeting institutional flows and tokenized fund access.",
     "published_at": "2026-07-01T14:24:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "tokenized fund",
       "stablecoin",
@@ -345,6 +348,55 @@
     ]
   },
   {
+    "id": "6540c66c901b43febaa490d85b5f45a6da0d86bd1a5b6a6bd5d51a5e53aeb87a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Bank of Korea governor outlines tokenized bond vision, unified ledger plan",
+    "url": "https://cointelegraph.com/news/bank-korea-governor-tokenized-government-bonds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/bank-korea-governor-tokenized-government-bonds",
+    "snippet": "The Bank of Korea’s governor praised tokenized government bonds for easing the issuance and management of government debt during a panel discussion at the ECB Forum.",
+    "published_at": "2026-07-01T13:36:13+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "issuance",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/bank-korea-governor-tokenized-government-bonds",
+      "guidislink": true
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "f0d1293240ffdda5a1b398fbdfbe659f713d81550df179932a6bfbf852b4be37",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -355,7 +407,7 @@
     "snippet": "KeyBanc weighs Circle and Coinbase stock on Open USD stablecoin launch Investing.com",
     "published_at": "2026-07-01T13:25:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -369,14 +421,14 @@
       "id": "CBMiygFBVV95cUxNSDRxcndtTUFwbGtORnR4V1d3MmV4YXRWaDRqM3dhSlZDRk1BUmZlOHFyUGFWMDBKa1JOLWQ2ZHdJY2tueFBVYnBoQld5eGpWV3VDaVJKZHhEYVdpQlRRT2l0dzZNNDBvNURmRUV6REZlMkRFYXpQY2xTcGg5VTA5Sm9DNmc5Q19vekxiRUctWThMWUtaWE9pS0kyNUl6YjJjMUQ0VlJBSmwtSEp2OF9kNERna2MxRENTNTYwMVd6UWh1VTh4V215dDJn",
       "guidislink": false
     },
-    "score": 55,
+    "score": 49,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 20,
@@ -405,7 +457,7 @@
     "snippet": "Circle CEO defends USDC’s network effects amid Open USD consortium launch Crypto Briefing",
     "published_at": "2026-07-01T12:44:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -419,169 +471,20 @@
       "id": "CBMie0FVX3lxTE02aFZHOVVSbGxFNVlRU3dHOTg4cUhCLTRCOVFIaGNTM0J4YnZzUUtvTWYwRktiWUtibllDSEZqQnhsZTZMQ3B4SzBuX3h1V2RlWkRKamNnU3liN1VkMF9Sc1dxV0lqd0tkWGtzVFRUSDFadi1DTU5FUXB5Zw",
       "guidislink": false
     },
-    "score": 55,
+    "score": 49,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "eb696f9e7f7e5ff94e89a2fb6fc4e188425eee23db93bf1793a12fe3863f0239",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "INTRODUCING | Leading Global Payments, Banking Firms Launch the Open USD Stablecoin and Infrastructure - BitKE",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wVGxCa2RrczR4LWp5Q2VVU2tockViWWZ1cl9ZUGM5YVc5N1VmMHR2cVdISF9raFhHVnYyMkpDQWFKQnVzSXp2WW12c05JdG1mRzdqRTlnSllJSjdGLU0w?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1wVGxCa2RrczR4LWp5Q2VVU2tockViWWZ1cl9ZUGM5YVc5N1VmMHR2cVdISF9raFhHVnYyMkpDQWFKQnVzSXp2WW12c05JdG1mRzdqRTlnSllJSjdGLU0w?oc=5",
-    "snippet": "INTRODUCING | Leading Global Payments, Banking Firms Launch the Open USD Stablecoin and Infrastructure BitKE",
-    "published_at": "2026-07-01T06:00:35+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "launch"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiX0FVX3lxTE1wVGxCa2RrczR4LWp5Q2VVU2tockViWWZ1cl9ZUGM5YVc5N1VmMHR2cVdISF9raFhHVnYyMkpDQWFKQnVzSXp2WW12c05JdG1mRzdqRTlnSllJSjdGLU0w",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "a6e65078cd39488a0f45484047d39d97312342aa1752c478e20b01bb2455ca99",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Panther Hollow launches multi-strategy merchant bank focused on compliant RWA and yield strategies",
-    "url": "https://www.theblock.co/post/406875/panther-hollow-launches-multi-strategy-merchant-bank-focused-on-compliant-rwa-and-yield-strategies?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/406875/panther-hollow-launches-multi-strategy-merchant-bank-focused-on-compliant-rwa-and-yield-strategies",
-    "snippet": "Panther is a hybrid merchant bank, fund complex, and incubator focused on Ethereum, Canton, Solana, and StarkNet.",
-    "published_at": "2026-07-01T13:18:25+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "RWA",
-      "launches"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/406875",
-      "guidislink": false
-    },
-    "score": 50,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "aa24d5f72fbde1701d93dcddcc1679878c16da9e022df503a74e2be34e17bea1",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Financial companies join forces for US dollar stablecoin, keeping reserve earnings",
-    "url": "https://cointelegraph.com/news/financial-companies-us-dollar-payment-stablecoin?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/financial-companies-us-dollar-payment-stablecoin",
-    "snippet": "The project, supported by Visa, Mastercard and many crypto companies, could be in a position to challenge Tether’s USDT and Circle’s USDC, currently the two largest stablecoins by market capitalization.",
-    "published_at": "2026-06-30T19:31:41+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "USDC",
-      "USDT",
-      "Tether",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/financial-companies-us-dollar-payment-stablecoin",
-      "guidislink": true
-    },
-    "score": 49,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -10,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -604,7 +507,7 @@
     "snippet": "Analysts don't think the threat of a new stablecoin launch was enough to warrant a major Circle (CRCL) sell-off on Tuesday.",
     "published_at": "2026-07-01T17:42:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -644,43 +547,42 @@
     ]
   },
   {
-    "id": "9db48d82ac6f52ad88c7d583f1da3609fbb8cbab118030aa1269b47e36f42213",
+    "id": "a6e65078cd39488a0f45484047d39d97312342aa1752c478e20b01bb2455ca99",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "theblock",
-    "title": "Bernstein sees 203% upside for Circle even as new stablecoin rival OUSD debuts",
-    "url": "https://www.theblock.co/post/406877/bernstein-sees-203-upside-for-circle-even-as-new-stablecoin-rival-ousd-debuts?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/406877/bernstein-sees-203-upside-for-circle-even-as-new-stablecoin-rival-ousd-debuts",
-    "snippet": "Bernstein reaffirms Outperform on Circle with a $190 target after OUSD's launch sent CRCL stock down over 17%.",
-    "published_at": "2026-07-01T13:07:57+00:00",
+    "title": "Panther Hollow launches multi-strategy merchant bank focused on compliant RWA and yield strategies",
+    "url": "https://www.theblock.co/post/406875/panther-hollow-launches-multi-strategy-merchant-bank-focused-on-compliant-rwa-and-yield-strategies?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406875/panther-hollow-launches-multi-strategy-merchant-bank-focused-on-compliant-rwa-and-yield-strategies",
+    "snippet": "Panther is a hybrid merchant bank, fund complex, and incubator focused on Ethereum, Canton, Solana, and StarkNet.",
+    "published_at": "2026-07-01T13:18:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "Circle",
-      "launch"
+      "RWA",
+      "launches"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.theblock.co/post/406877",
+      "id": "https://www.theblock.co/post/406875",
       "guidislink": false
     },
-    "score": 45,
+    "score": 44,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
-      "institution_bonus": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -704,7 +606,7 @@
     "snippet": "U.S. Financial Giants and 140 Companies Team Up to Launch Stablecoin: Why Did Circle's Stock Plunge? WuBlockchain",
     "published_at": "2026-07-01T11:44:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -754,7 +656,7 @@
     "snippet": "The integration addresses one of the biggest obstacles keeping institutional capital on the sidelines of crypto markets: exchange counterparty risk.",
     "published_at": "2026-07-01T16:55:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -801,7 +703,7 @@
     "snippet": "Forward Industries holds more SOL than the next three largest publicly traded Solana treasury companies combined.",
     "published_at": "2026-07-01T15:53:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -836,6 +738,56 @@
     ]
   },
   {
+    "id": "9db48d82ac6f52ad88c7d583f1da3609fbb8cbab118030aa1269b47e36f42213",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Bernstein sees 203% upside for Circle even as new stablecoin rival OUSD debuts",
+    "url": "https://www.theblock.co/post/406877/bernstein-sees-203-upside-for-circle-even-as-new-stablecoin-rival-ousd-debuts?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406877/bernstein-sees-203-upside-for-circle-even-as-new-stablecoin-rival-ousd-debuts",
+    "snippet": "Bernstein reaffirms Outperform on Circle with a $190 target after OUSD's launch sent CRCL stock down over 17%.",
+    "published_at": "2026-07-01T13:07:57+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle",
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/406877",
+      "guidislink": false
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "47e053019a9c0766ffa8133a3e0cf13283159a11ca07ce6dedcf37ece821703c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -846,7 +798,7 @@
     "snippet": "Circle stock falls 17.5% after Russell removals and Open USD launch crypto.news",
     "published_at": "2026-07-01T06:42:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "Circle",
       "launch"
@@ -895,7 +847,7 @@
     "snippet": "The tokenized NYLIM Anemoy U.S. High Yield Corporate Bond Segregated Portfolio is launching in collaboration with Centrifuge.",
     "published_at": "2026-06-30T20:46:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -933,6 +885,53 @@
     ]
   },
   {
+    "id": "22ec3e2597d7c18c84cf38e312cd34c17d7ec5541887968beba5b5ef388263e8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "BitMine, Sharplink and Joe Lubin Accelerate Wall Street Ethereum Push With Nonprofit Launch",
+    "url": "https://decrypt.co/372540/bitmine-sharplink-joe-lubin-wall-street-ethereum-push-nonprofit",
+    "canonical_url": "https://decrypt.co/372540/bitmine-sharplink-joe-lubin-wall-street-ethereum-push-nonprofit",
+    "snippet": "Ethereum Institutional will serve as a point of contact for financial institutions seeking to get more involved with on-chain infrastructure.",
+    "published_at": "2026-07-01T18:40:40+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "launch"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=372540",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "7c022dd21077f4caac92400000715a993e6ebfbcc107d2fc17a8fd5602f3a9c8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -943,7 +942,7 @@
     "snippet": "“Prediction markets are one of the most powerful applications you can build on a high-performance blockchain,” said Solana Foundation.",
     "published_at": "2026-07-01T15:34:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -990,7 +989,7 @@
     "snippet": "Nebeus has been authorised by Spain's CNMV as a Crypto-Asset Service Provider (CASP) under the EU's Markets in Crypto-Assets (MiCA) regulation, placing the Barcelona-based fintech among the first regulated firms able to passport digital asset services across the European Economic Area.",
     "published_at": "2026-07-01T15:32:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -1025,6 +1024,56 @@
     ]
   },
   {
+    "id": "4af154e974409ff0800f5d3483e16c3722fd80b8feabc1cad4204183fb76b24c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "LINE NEXT unveils Unifi Pay for zero-fee stablecoin payments - crypto.news",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHpMMnd2SXBhZnAwdHY2QU9FbGFJWXRVTTdhTDJISjhDNVlKSWVDQkdKMjNsSkdJRExpajZQMGV3ejJMczAwbGpNTkE4aUZlRWpJUzNBYnNVcGxBOVp1TjA3Z0NRS19zSHRsaFVuWnZtbjhDUC1TdHZZZTA4MXpfZXFlUVVzLTVQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTHpMMnd2SXBhZnAwdHY2QU9FbGFJWXRVTTdhTDJISjhDNVlKSWVDQkdKMjNsSkdJRExpajZQMGV3ejJMczAwbGpNTkE4aUZlRWpJUzNBYnNVcGxBOVp1TjA3Z0NRS19zSHRsaFVuWnZtbjhDUC1TdHZZZTA4MXpfZXFlUVVzLTVQ?oc=5",
+    "snippet": "LINE NEXT unveils Unifi Pay for zero-fee stablecoin payments crypto.news",
+    "published_at": "2026-07-01T13:33:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin",
+      "unveils"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMiiAFBVV95cUxPTHpMMnd2SXBhZnAwdHY2QU9FbGFJWXRVTTdhTDJISjhDNVlKSWVDQkdKMjNsSkdJRExpajZQMGV3ejJMczAwbGpNTkE4aUZlRWpJUzNBYnNVcGxBOVp1TjA3Z0NRS19zSHRsaFVuWnZtbjhDUC1TdHZZZTA4MXpfZXFlUVVzLTVQ",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "d53fc91c1ea9a4db187ae0da69f3b11093f3c9a2c4abbe42c249322230577a62",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1035,7 +1084,7 @@
     "snippet": "Symbiotic now powers shared collateral infrastructure that can support multiple DeFi use cases like insurance, credit, and RWAs.",
     "published_at": "2026-07-01T12:00:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -1083,7 +1132,7 @@
     "snippet": "French bank Credit Agricole has launched a euro-denominated stablecoin and subscribed to a tokenised Amundi money market fund (MMF), in what the bank has described as a European first.",
     "published_at": "2026-07-01T08:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "money market fund",
       "stablecoin",
@@ -1125,54 +1174,6 @@
     ]
   },
   {
-    "id": "719533d2805af41b2d5d4c6ffc1d949dc86f97203576782e752bed1073716832",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Dozens of major companies join Open USD as launch partners - Crypto Briefing",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nQmFwRWMwdlFVb2FHSTZRclVHdWpJdW1oNjBuSXgzYUVRR3ZuMVZzaTRwbmZjTGR4Y3l5SVlPTEpOTHRqaEFXZEdBSE04bm82NkhUSHRsYXMtbXpqeS02NVU2Q2JLaUR5M05vcUxsQnk?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nQmFwRWMwdlFVb2FHSTZRclVHdWpJdW1oNjBuSXgzYUVRR3ZuMVZzaTRwbmZjTGR4Y3l5SVlPTEpOTHRqaEFXZEdBSE04bm82NkhUSHRsYXMtbXpqeS02NVU2Q2JLaUR5M05vcUxsQnk?oc=5",
-    "snippet": "Dozens of major companies join Open USD as launch partners Crypto Briefing",
-    "published_at": "2026-06-30T18:32:28+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "launch",
-      "partners"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMicEFVX3lxTE9nQmFwRWMwdlFVb2FHSTZRclVHdWpJdW1oNjBuSXgzYUVRR3ZuMVZzaTRwbmZjTGR4Y3l5SVlPTEpOTHRqaEFXZEdBSE04bm82NkhUSHRsYXMtbXpqeS02NVU2Q2JLaUR5M05vcUxsQnk",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "e5bf2466bc45744d706174044b2adbd0a1f9831a1ce3d18e3f7317a0f3c6ca08",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1183,7 +1184,7 @@
     "snippet": "Visa expands AI stablecoin and tokenized payments across CEMEA Yabiladi.com",
     "published_at": "2026-07-01T10:51:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "tokenized"
@@ -1232,7 +1233,7 @@
     "snippet": "Standard Chartered and LMAX Group Execute First Live Digital Asset Prime Brokerage Trades Bitcoin Magazine",
     "published_at": "2026-07-01T17:24:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -1277,7 +1278,7 @@
     "snippet": "Stringent bloc-wide MiCA regulations push unlicensed digital-assets companies to offload customers",
     "published_at": "2026-07-01T04:00:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -1312,99 +1313,6 @@
     ]
   },
   {
-    "id": "b096f3615222e185b89b669f86256487f764afb05f313923353fed9e31863435",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Europe's MiCA rollout sparks debate over who wins under new crypto rules",
-    "url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
-    "canonical_url": "https://coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
-    "snippet": "",
-    "published_at": "2026-07-01T14:00:24+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "rollout",
-      "MiCA"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "b2194710-1cbd-45fa-9818-3f3a7accd828",
-      "guidislink": false
-    },
-    "score": 25,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "9f04c4d9908342eead267c6e7d81f97438c50a5572c646b60d5a77b39f18901b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Europe is rewriting its landmark crypto rulebook MiCA as hard July 1 deadline passes",
-    "url": "https://www.coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
-    "canonical_url": "https://coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
-    "snippet": "",
-    "published_at": "2026-07-01T12:29:17+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "MiCA"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "a8302699-dc49-476a-9e7e-061745bdba59",
-      "guidislink": false
-    },
-    "score": 25,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "13866e8153186956e3cf74bfea8d3e88ac5cbe7f87be2fd693c53ca888b030ba",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1415,7 +1323,7 @@
     "snippet": "Securitize President Brett Redfearn argues that tokenization will bring crypto's core benefit of disintermediation to retail investors.",
     "published_at": "2026-07-01T16:36:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1462,7 +1370,7 @@
     "snippet": "Circle (CRCL) news: Jefferies wouldn't buy the dip as Open USD heats up stablecoin race CoinDesk",
     "published_at": "2026-07-01T16:12:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle"
@@ -1500,40 +1408,41 @@
     ]
   },
   {
-    "id": "ba1dce94a7fc6c716c2d72fd30edff35bb0b1d1e67b187f91534efb077511e2f",
+    "id": "b096f3615222e185b89b669f86256487f764afb05f313923353fed9e31863435",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "coindesk",
-    "title": "Tokenized Google stock inflated 7,700% in rare DeFi lending exploit",
-    "url": "https://www.coindesk.com/tech/2026/07/01/tokenized-google-stock-inflated-7-700-in-rare-defi-lending-exploit",
-    "canonical_url": "https://coindesk.com/tech/2026/07/01/tokenized-google-stock-inflated-7-700-in-rare-defi-lending-exploit",
+    "title": "Europe's MiCA rollout sparks debate over who wins under new crypto rules",
+    "url": "https://www.coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
+    "canonical_url": "https://coindesk.com/policy/2026/07/01/europe-s-mica-rollout-sparks-debate-over-who-wins-under-new-crypto-rules",
     "snippet": "",
-    "published_at": "2026-07-01T13:32:20+00:00",
+    "published_at": "2026-07-01T14:00:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
-      "tokenized"
+      "rollout",
+      "MiCA"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "65a338bb-2e1d-424b-a3d6-22f77f1d06f3",
+      "id": "b2194710-1cbd-45fa-9818-3f3a7accd828",
       "guidislink": false
     },
-    "score": 20,
+    "score": 19,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -1547,40 +1456,38 @@
     ]
   },
   {
-    "id": "f7f5f96ece9e7fa0d1d17c3bf2e1abcbd7f602c3a4bc759a7a78a25c3579f884",
+    "id": "9f04c4d9908342eead267c6e7d81f97438c50a5572c646b60d5a77b39f18901b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "The Cross-Asset Frontier: Tokenized Equities and Stock Trading on Crypto Platforms",
-    "url": "https://www.theblock.co/post/406198/the-cross-asset-frontier-tokenized-equities-and-stock-trading-on-crypto-platforms?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/406198/the-cross-asset-frontier-tokenized-equities-and-stock-trading-on-crypto-platforms",
-    "snippet": "Multi-Asset Trading Terminals The integration of traditional equities into crypto venues represents a fundamental paradigm shift in global trading infrastructure. Rather than managing fragmented positions across siloed traditional brokerages and crypto exchanges, modern cross-asset market participan",
-    "published_at": "2026-07-01T13:02:03+00:00",
+    "feed_name": "coindesk",
+    "title": "Europe is rewriting its landmark crypto rulebook MiCA as hard July 1 deadline passes",
+    "url": "https://www.coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
+    "canonical_url": "https://coindesk.com/policy/2026/06/30/europe-is-rewriting-its-landmark-crypto-rulebook-mica-as-hard-july-1-deadline-passes",
+    "snippet": "",
+    "published_at": "2026-07-01T12:29:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
-      "tokenized"
+      "MiCA"
     ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
+    "matched_topics": [],
     "raw": {
-      "id": "https://www.theblock.co/post/406198",
+      "id": "a8302699-dc49-476a-9e7e-061745bdba59",
       "guidislink": false
     },
-    "score": 20,
+    "score": 19,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -1604,7 +1511,7 @@
     "snippet": "A final wave of MiCA approvals expanded Europe's roster of licensed crypto firms as the transitional period came to a close.",
     "published_at": "2026-07-01T12:17:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -1649,7 +1556,7 @@
     "snippet": "The new law puts virtual asset firms under FSC oversight for the first time and sets reserve-and-trust rules for stablecoins.",
     "published_at": "2026-07-01T12:00:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1696,7 +1603,7 @@
     "snippet": "Taiwan’s legislative branch has passed the nation’s first crypto and stablecoin rules, which aim to integrate the country with the global crypto market.",
     "published_at": "2026-07-01T06:15:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1733,17 +1640,111 @@
     ]
   },
   {
+    "id": "ba1dce94a7fc6c716c2d72fd30edff35bb0b1d1e67b187f91534efb077511e2f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Tokenized Google stock inflated 7,700% in rare DeFi lending exploit",
+    "url": "https://www.coindesk.com/tech/2026/07/01/tokenized-google-stock-inflated-7-700-in-rare-defi-lending-exploit",
+    "canonical_url": "https://coindesk.com/tech/2026/07/01/tokenized-google-stock-inflated-7-700-in-rare-defi-lending-exploit",
+    "snippet": "",
+    "published_at": "2026-07-01T13:32:20+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "65a338bb-2e1d-424b-a3d6-22f77f1d06f3",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "f7f5f96ece9e7fa0d1d17c3bf2e1abcbd7f602c3a4bc759a7a78a25c3579f884",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "The Cross-Asset Frontier: Tokenized Equities and Stock Trading on Crypto Platforms",
+    "url": "https://www.theblock.co/post/406198/the-cross-asset-frontier-tokenized-equities-and-stock-trading-on-crypto-platforms?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/406198/the-cross-asset-frontier-tokenized-equities-and-stock-trading-on-crypto-platforms",
+    "snippet": "Multi-Asset Trading Terminals The integration of traditional equities into crypto venues represents a fundamental paradigm shift in global trading infrastructure. Rather than managing fragmented positions across siloed traditional brokerages and crypto exchanges, modern cross-asset market participan",
+    "published_at": "2026-07-01T13:02:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/406198",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "21aa5c15408400e55e6b55525c40d29ef2533232757361636d95a98535e936b2",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "institutional_crypto_banks",
     "title": "Bank of New York Mellon (BNY) Adds USDC As Valuation Hinges On Growth Confidence - simplywall.st",
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdW9vSHRJNFgxbjFMSG1CX0M1ZUlUQ3gwZllxNmU0aUNNOGZ0SkFFZmlxSzY0MmU2c3FYNDRJUloxVGMtZWo5eHhmams0NTYweGVYV2xYLXBmYWdZUjdQeWlZRnpPblhycnhNS21wS0hEaUJramlZcHNJVWxZMFpTZlA3TnlfMTBUdTZLclVBeTJhT2hoS2pjVnh6c2t1TWV0bmlfYjVMNDU4SjRiaGU2cGVHcGI1UDdVRF9qdnpzQnhta1EyaXJTd19HeHk1OHNPLWRIRnp4NjRCenlBcm03bUpvdC0tY2w40gHuAUFVX3lxTE1ZdDYzMkVyS0x5cFlBU3R6M2ZIWEwtNmpxcklzcVBPLXU5S2VqSE40SG4wU0FTTHBpTjN1Qy1kVGR4c1Q2UVMtRDZqVjlpTjRyaEt5OS1UeDlUaEF2ci11T1N3SWtNcWNIUmxkdnI5NXJqV2dRaXFUNktnSmotcnVxNGxraXlfOXprZzFNd2pQb0huSzlPZGJIalpzNlNHN0o1ZlNQbHRkdmJyUXMtWU4yYmo4QlB1bUlveTJhbjkzcnB6UWIteUplNTBLOWZKZ0pnWWFfbG9ZWFFua3ZYU0FzaGU1UXh3dkJzcml2bFE?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPdW9vSHRJNFgxbjFMSG1CX0M1ZUlUQ3gwZllxNmU0aUNNOGZ0SkFFZmlxSzY0MmU2c3FYNDRJUloxVGMtZWo5eHhmams0NTYweGVYV2xYLXBmYWdZUjdQeWlZRnpPblhycnhNS21wS0hEaUJramlZcHNJVWxZMFpTZlA3TnlfMTBUdTZLclVBeTJhT2hoS2pjVnh6c2t1TWV0bmlfYjVMNDU4SjRiaGU2cGVHcGI1UDdVRF9qdnpzQnhta1EyaXJTd19HeHk1OHNPLWRIRnp4NjRCenlBcm03bUpvdC0tY2w40gHuAUFVX3lxTE1ZdDYzMkVyS0x5cFlBU3R6M2ZIWEwtNmpxcklzcVBPLXU5S2VqSE40SG4wU0FTTHBpTjN1Qy1kVGR4c1Q2UVMtRDZqVjlpTjRyaEt5OS1UeDlUaEF2ci11T1N3SWtNcWNIUmxkdnI5NXJqV2dRaXFUNktnSmotcnVxNGxraXlfOXprZzFNd2pQb0huSzlPZGJIalpzNlNHN0o1ZlNQbHRkdmJyUXMtWU4yYmo4QlB1bUlveTJhbjkzcnB6UWIteUplNTBLOWZKZ0pnWWFfbG9ZWFFua3ZYU0FzaGU1UXh3dkJzcml2bFE?oc=5",
     "snippet": "Bank of New York Mellon (BNY) Adds USDC As Valuation Hinges On Growth Confidence simplywall.st",
     "published_at": "2026-07-01T11:55:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -1790,7 +1791,7 @@
     "snippet": "From Illiquid to Investable: Tokenization and the Restructuring of Private Markets cbn.com.cy",
     "published_at": "2026-07-01T08:15:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1837,7 +1838,7 @@
     "snippet": "Securitize Set to Trade on NYSE Thursday as First Pure-Play Tokenization Company TradingView",
     "published_at": "2026-07-01T05:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -1884,7 +1885,7 @@
     "snippet": "Tokenization and RWA TVL growth highlight Ethereum’s fundamentals, but stagnant DApps and spot ETF outflows keep the pressure on ETH price.",
     "published_at": "2026-06-30T21:16:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "tokenization",
       "RWA"
@@ -1932,7 +1933,7 @@
     "snippet": "Stablecoins and exchanges once solved each other’s biggest problem. Now they are each trying to compete for the other’s role in the financial value chain. The Tuesday (June 30) announcement that more than 140 companies from FinTech, financial services and institutional cryptocurrency joined a consor",
     "published_at": "2026-07-01T18:09:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1977,7 +1978,7 @@
     "snippet": "Circle Price Forecast: CRCL Crashes 17% as Rival Stablecoin Challenges USDC TradingKey",
     "published_at": "2026-07-01T13:05:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -1990,14 +1991,14 @@
       "id": "CBMivwFBVV95cUxQd0lJc0NqbDFzUnc4VFI2bFVaM0VKRl9Wb1REeHU5UVMyMFlzUHR3bkFaenBwLVM5ampmODRzZUJIYnIzdHFUZzM1am5tbkdwRnJvdHVWcDNNamhobjdhZmQ0TV9GSFYxN1MwUm50U2FJUUdIS2lGV2MzLWVoRldjWERIM1ctYk9KTVN1aU52QmR2cnZKRzZWQU4wRFpJWE9WNHFGUGNabXFZb3lVbkVVeFZTaXdBcDM4Szhzd1JUZw",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 20,
@@ -2026,7 +2027,7 @@
     "snippet": "Bernstein said OUSD could become the strongest new challenger to the Circle-Tether duopoly, while flagging unresolved questions around governance, operations and revenue sharing.",
     "published_at": "2026-07-01T12:38:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "USDC",
       "Tether",
@@ -2039,14 +2040,14 @@
       "id": "https://cointelegraph.com/news/circle-ceo-challenges-ousd-revenue-sharing-governance",
       "guidislink": true
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 20,
@@ -2075,7 +2076,7 @@
     "snippet": "Former Goliath Ventures CEO Christopher Delgado pleaded guilty to fraud and money laundering and agreed to forfeit properties, vehicles, luxury goods and crypto wallets.",
     "published_at": "2026-07-01T08:20:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -2122,7 +2123,7 @@
     "snippet": "Open USD Just Turned the Stablecoin Race Into an Ecosystem Contest PYMNTS.com",
     "published_at": "2026-06-30T20:56:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -2159,96 +2160,6 @@
     ]
   },
   {
-    "id": "77e1c1d8f7fc09782c56685eb6ae603cbbc623de96b772d58c9c2378c0aab348",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Nasdaq brings proprietary market data onchain through Pyth",
-    "url": "https://cointelegraph.com/news/nasdaq-brings-proprietary-market-data-onchain-through-pyth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/nasdaq-brings-proprietary-market-data-onchain-through-pyth",
-    "snippet": "The partnership extends distribution of Nasdaq's TotalView market data to blockchain applications and other software platforms through Pyth's marketplace.",
-    "published_at": "2026-06-30T18:46:29+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/nasdaq-brings-proprietary-market-data-onchain-through-pyth",
-      "guidislink": true
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "8847a278477d141320cce790f78d81ed2a6a66cbf075b62c7ba9867d506dde89",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Why Poland is the only EU country where crypto firms can't get a MiCA license",
-    "url": "https://www.coindesk.com/policy/2026/07/01/why-poland-is-the-only-eu-country-where-crypto-firms-can-t-get-a-mica-license",
-    "canonical_url": "https://coindesk.com/policy/2026/07/01/why-poland-is-the-only-eu-country-where-crypto-firms-can-t-get-a-mica-license",
-    "snippet": "",
-    "published_at": "2026-07-01T06:30:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
-    "matched_keywords": [
-      "MiCA"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "509cb59d-93d0-49fd-a56a-5f3eb5b78a50",
-      "guidislink": false
-    },
-    "score": -6,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "66965765baccdede7912418c5d99d8675257b8f3935b6199cac47529e718b934",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -2259,7 +2170,7 @@
     "snippet": "INSIGHTS | How the Open Standard Stablecoin Infrastructure is Challenging the Circle Payments Network Fundamentals BitKE",
     "published_at": "2026-07-01T06:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle"
@@ -2307,7 +2218,7 @@
     "snippet": "With the July 1 deadline now passed, how will the end of MiCA's final transition phase affect users, companies, and the market?",
     "published_at": "2026-07-01T11:01:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-01T18:21:21.679629+00:00",
+    "fetched_at": "2026-07-01T20:19:23.476376+00:00",
     "matched_keywords": [
       "MiCA"
     ],
