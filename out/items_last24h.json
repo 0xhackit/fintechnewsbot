@@ -10,7 +10,7 @@
     "snippet": "The CFTC has launched a rare crypto-related enforcement action against a commodity pool operator that allegedly defrauded investors of more than $14 million.",
     "published_at": "2026-07-08T03:25:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "launched"
     ],
@@ -57,7 +57,7 @@
     "snippet": "",
     "published_at": "2026-07-08T15:11:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -104,7 +104,7 @@
     "snippet": "",
     "published_at": "2026-07-08T14:35:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -115,19 +115,69 @@
       "id": "37afcbe1-5726-41ac-87c9-6d9f5644555d",
       "guidislink": false
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "6d8a68a6a077ae373877a732c5469684308c7c1b7b04b4cb428b704c4f022a80",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Officials set to revise MiCA to cover non-EU stablecoin issuers: Report",
+    "url": "https://cointelegraph.com/news/officials-revise-mica-non-eu-issuers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/officials-revise-mica-non-eu-issuers",
+    "snippet": "EU officials reportedly plan to consider changes to the Markets in Crypto-Assets framework, dubbed by some as “MiCA 2.0,” in response to a US stablecoin law and rules on tokenized payments and deposits.",
+    "published_at": "2026-07-08T19:14:15+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "tokenized",
+      "MiCA"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/officials-revise-mica-non-eu-issuers",
+      "guidislink": true
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -151,7 +201,7 @@
     "snippet": "The European Commission is reportedly seeking comment from stakeholders on expanding MiCA rules until Sept. 30.",
     "published_at": "2026-07-08T15:32:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "stablecoin",
       "tokenization",
@@ -201,7 +251,7 @@
     "snippet": "The EU securities regulator will assess custody providers’ key management, incident response and reliance on third-party technology providers.",
     "published_at": "2026-07-08T10:49:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "custody",
       "MiCA"
@@ -247,7 +297,7 @@
     "snippet": "Olugbenga Agboola's Flutterwave takes Circle investment to expand USDC settlement in Africa Billionaires.Africa",
     "published_at": "2026-07-08T08:06:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -297,7 +347,7 @@
     "snippet": "STABLECOINS | Circle Invests in Africa’s Leading Fintech, Flutterwave, to Expand USDC Settlement BitKE",
     "published_at": "2026-07-08T03:00:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -347,7 +397,7 @@
     "snippet": "Citi's Tokenized Shares Test Whether Transparency Remains the Price of Liquidity RealClearMarkets",
     "published_at": "2026-07-07T21:39:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -394,7 +444,7 @@
     "snippet": "The asset manager is hiring a head of digital assets to lead its strategy for tokenization, stablecoins, blockchain infrastructure and client-facing products.",
     "published_at": "2026-07-07T20:57:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -432,53 +482,6 @@
     ]
   },
   {
-    "id": "5c337918deab63cd5395778415344a79a6c2681fabd169c16fefafe6a1badcd1",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "BlackRock-backed Securitize slides 40% after SPAC debut despite tokenization boom",
-    "url": "https://www.coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
-    "canonical_url": "https://coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
-    "snippet": "",
-    "published_at": "2026-07-07T19:35:14+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "a916a4d7-8942-4e0b-852f-4e3ac5572db5",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "48df3c0f64305fa4cfe6f51c29ba2930e53be4253395dbef830555362bcc4193",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -489,7 +492,7 @@
     "snippet": "Stablecoins: The USDT and USDC Rivalry Completely Changes Face Cointribune",
     "published_at": "2026-07-08T14:05:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "USDC",
       "USDT"
@@ -501,14 +504,14 @@
       "id": "CBMikgFBVV95cUxObTdrWE44RUpSc0FqUDRwY2E2TmFGLVRMVFFNdHlpUFlHN1lfZ1hDMkFfSUUzRkpVTlNKOGpjLU9LN21aaTdCYzctaE8tNGZsRVpVMm5JQXNtN3hacGlNMkVaTWd5OEVRMGVGM3VYOGpjZm9zMV9XRWFMNXlzcEp2RXFsVlRPSmhCcGg2WV9ZMWZfdw",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 10,
@@ -537,7 +540,7 @@
     "snippet": "Tokenized Real World Assets span treasuries, real estate, stocks, commodities and private credit. The sector is still small in TradFi terms but it's growing very, very fast.",
     "published_at": "2026-07-08T13:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "real world assets",
       "private credit",
@@ -550,14 +553,14 @@
       "id": "https://cointelegraph.com/features/as-real-world-asset-tokenization-accelerates-heres-whats-been-put-onchain",
       "guidislink": true
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -586,7 +589,7 @@
     "snippet": "Nigel Farage resigned as an MP amid two probes over gifts from Tether investor Christopher Harborne and convicted fraudster George Cottrell.",
     "published_at": "2026-07-08T09:04:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -633,7 +636,7 @@
     "snippet": "Flutterwave's Circle deal signals stablecoins are moving from crypto to core payment infrastructure Business News Nigeria",
     "published_at": "2026-07-08T05:36:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -681,7 +684,7 @@
     "snippet": "Swyftx interim co-CEO Andrea Yuen says the company \"won’t be a pure crypto spot exchange in future,” after it secured a license allowing it to offer payment services.",
     "published_at": "2026-07-08T05:30:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -728,7 +731,7 @@
     "snippet": "USDT for payments, USDC for DeFi as stablecoin rivalry reshapes 디지털투데이",
     "published_at": "2026-07-08T01:12:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -777,7 +780,7 @@
     "snippet": "Brazilian crypto exchange Mercado Bitcoin has raised $20 million in fresh investment from USDT stablecoin issuer Tether.",
     "published_at": "2026-07-07T21:31:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDT",
@@ -827,7 +830,7 @@
     "snippet": "Kazakhstan targets gas-powered electricity for mining, income tax exemptions for regulated crypto transactions and cross-border stablecoin payments in a new decree signed by the president.",
     "published_at": "2026-07-08T13:19:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -841,14 +844,14 @@
       "id": "https://cointelegraph.com/news/kazakhstan-president-decree-accelerate-crypto-adoption",
       "guidislink": true
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -877,7 +880,7 @@
     "snippet": "Toss has reportedly partnered with Optimism and Sunnyside Labs for a proof of concept on the feasibility of a Korean won-based stablecoin for payments.",
     "published_at": "2026-07-08T11:33:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -924,7 +927,7 @@
     "snippet": "Base is scheduled to activate its B20 token standard on Wednesday at 6 pm UTC, allowing developers to begin creating native tokens on the network.",
     "published_at": "2026-07-08T08:46:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption",
@@ -970,7 +973,7 @@
     "snippet": "Analysis flagged a Bitcoin moving average derivative that last triggered at the end of the 2022 bear market as BTC price action returned to its reversal zone.",
     "published_at": "2026-07-08T12:59:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T19:11:58.127084+00:00",
+    "fetched_at": "2026-07-08T20:37:00.057730+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
