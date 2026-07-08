@@ -1,37 +1,39 @@
 [
   {
-    "id": "418f1dcc08290ad6a7c8f7ba28db1a9b38f474b9a9855b481f15b4829f4eeb90",
+    "id": "8a39dba2b48dd790997b4864a58a0cba67a4f11024e1505060f0f5032e127a97",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Stripe-owned Bridge secures MiCA and EMI authorisations",
-    "url": "https://www.finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations",
-    "snippet": "We’re proud to announce that Bridge has secured both a Crypto-Asset Service Provider authorisation under the Markets in Crypto-Assets Regulation (MiCA) and an Electronic Money Institution license in Luxembourg.",
-    "published_at": "2026-07-07T19:14:00+00:00",
+    "feed_name": "cointelegraph",
+    "title": "CFTC charges commodity, crypto pool operator with $14M fraud",
+    "url": "https://cointelegraph.com/news/cftc-charges-commodity-crypto-pool-operator-with-14m-fraud?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/cftc-charges-commodity-crypto-pool-operator-with-14m-fraud",
+    "snippet": "The CFTC has launched a rare crypto-related enforcement action against a commodity pool operator that allegedly defrauded investors of more than $14 million.",
+    "published_at": "2026-07-08T03:25:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
-      "MiCA"
+      "launched"
     ],
-    "matched_topics": [],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/cftc-charges-commodity-crypto-pool-operator-with-14m-fraud",
+      "guidislink": true
     },
-    "score": 55,
+    "score": 105,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
+      "tier1": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
+      "launch_score": 25,
+      "institution_bonus": 30,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 40,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -55,7 +57,7 @@
     "snippet": "",
     "published_at": "2026-07-07T16:18:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -92,6 +94,51 @@
     ]
   },
   {
+    "id": "418f1dcc08290ad6a7c8f7ba28db1a9b38f474b9a9855b481f15b4829f4eeb90",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Stripe-owned Bridge secures MiCA and EMI authorisations",
+    "url": "https://www.finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations",
+    "snippet": "We’re proud to announce that Bridge has secured both a Crypto-Asset Service Provider authorisation under the Markets in Crypto-Assets Regulation (MiCA) and an Electronic Money Institution license in Luxembourg.",
+    "published_at": "2026-07-07T19:14:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "MiCA"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110363/stripe-owned-bridge-secures-mica-and-emi-authorisations?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 49,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1dc154d714c381e0df34fab39a80dc6a0b476330dce254e03ca6eecb4b04d28e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -102,7 +149,7 @@
     "snippet": "Mercado Bitcoin will use the funding to expand tokenized finance across Latin America, adding to Tether's growing portfolio of infrastructure investments.",
     "published_at": "2026-07-07T16:43:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "Tether",
       "tokenized"
@@ -141,101 +188,6 @@
     ]
   },
   {
-    "id": "e775c481c90eed2c1aba9f01ffbe3da1c66005dbb60cc8d8145e037a20dde89d",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Vanguard seeks digital assets chief after years of crypto skepticism",
-    "url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism",
-    "snippet": "The asset manager is hiring a head of digital assets to lead its strategy for tokenization, stablecoins, blockchain infrastructure and client-facing products.",
-    "published_at": "2026-07-07T20:57:02+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism",
-      "guidislink": true
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "5c337918deab63cd5395778415344a79a6c2681fabd169c16fefafe6a1badcd1",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "BlackRock-backed Securitize slides 40% after SPAC debut despite tokenization boom",
-    "url": "https://www.coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
-    "canonical_url": "https://coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
-    "snippet": "",
-    "published_at": "2026-07-07T19:35:14+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "a916a4d7-8942-4e0b-852f-4e3ac5572db5",
-      "guidislink": false
-    },
-    "score": 40,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "8426406877297d76e1137e17108cb6095c37133b3e0e759c7a974c467fa019bc",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -246,7 +198,7 @@
     "snippet": "Last year, the tokenized real-world asset issuer launched 24/7 onchain access to more than 100 U.S. stocks and ETFs.",
     "published_at": "2026-07-07T16:29:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "issuer",
       "tokenized",
@@ -297,7 +249,7 @@
     "snippet": "Flutterwave, Africa’s leading payments technology company, today announced a strategic investment from Circle Ventures, the corporate venture arm of Circle Internet Group, Inc. (Circle) (NYSE:CRCL).",
     "published_at": "2026-07-07T12:22:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -345,7 +297,7 @@
     "snippet": "Tether USDT Bitcoin Launch: Can RGB Protocol End Tron’s Reign? The Cryptonomist",
     "published_at": "2026-07-07T08:27:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "USDT",
       "Tether",
@@ -385,6 +337,101 @@
     ]
   },
   {
+    "id": "e775c481c90eed2c1aba9f01ffbe3da1c66005dbb60cc8d8145e037a20dde89d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Vanguard seeks digital assets chief after years of crypto skepticism",
+    "url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism",
+    "snippet": "The asset manager is hiring a head of digital assets to lead its strategy for tokenization, stablecoins, blockchain infrastructure and client-facing products.",
+    "published_at": "2026-07-07T20:57:02+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/vanguard-seeks-digital-assets-chief-after-years-of-crypto-skepticism",
+      "guidislink": true
+    },
+    "score": 34,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "5c337918deab63cd5395778415344a79a6c2681fabd169c16fefafe6a1badcd1",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "BlackRock-backed Securitize slides 40% after SPAC debut despite tokenization boom",
+    "url": "https://www.coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
+    "canonical_url": "https://coindesk.com/markets/2026/07/07/blackrock-backed-securitize-slides-40-after-spac-debut-despite-tokenization-boom",
+    "snippet": "",
+    "published_at": "2026-07-07T19:35:14+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "a916a4d7-8942-4e0b-852f-4e3ac5572db5",
+      "guidislink": false
+    },
+    "score": 34,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "8ac54bf51c58261e3adb21bb7996522bfd3b68f124655f6b1782356c6164b36d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -395,7 +442,7 @@
     "snippet": "Circle Ventures Invests in Flutterwave for USDC Payments, Settlement | Business Post Nigeria",
     "published_at": "2026-07-07T13:23:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -445,7 +492,7 @@
     "snippet": "Kyriba and Merge Partner to Deliver Enterprise Stablecoin Payments and Global Treasury Management FF News",
     "published_at": "2026-07-07T10:34:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -484,105 +531,6 @@
     ]
   },
   {
-    "id": "323a99fa757395bb721477d59db3ca59330695477d5fb144914d58e85c4d4106",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Flutterwave expands USDC payments, secures investment from Circle Ventures - The Guardian Nigeria News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3J1LTFrM1FQaUVESWw4VER3UHMwdVc5UmVSdkg0Y1ZvaEM5clFUTG5ZMUx6VXlqR283Rk9TWExjYnFjZFA3RVBlQ21VY1kxR05LQ05tVFFpbXhyN2hOckNiQnQtNXNMRml6TmQ2OTl4bzhSV0xKUFItR3RSRk9pQ3Y0VmxobkNFWTVvaDBlSXlVRG55dWJhY2RWMERKSXJo?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3J1LTFrM1FQaUVESWw4VER3UHMwdVc5UmVSdkg0Y1ZvaEM5clFUTG5ZMUx6VXlqR283Rk9TWExjYnFjZFA3RVBlQ21VY1kxR05LQ05tVFFpbXhyN2hOckNiQnQtNXNMRml6TmQ2OTl4bzhSV0xKUFItR3RSRk9pQ3Y0VmxobkNFWTVvaDBlSXlVRG55dWJhY2RWMERKSXJo?oc=5",
-    "snippet": "Flutterwave expands USDC payments, secures investment from Circle Ventures The Guardian Nigeria News",
-    "published_at": "2026-07-07T21:30:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "CBMioAFBVV95cUxPX3J1LTFrM1FQaUVESWw4VER3UHMwdVc5UmVSdkg0Y1ZvaEM5clFUTG5ZMUx6VXlqR283Rk9TWExjYnFjZFA3RVBlQ21VY1kxR05LQ05tVFFpbXhyN2hOckNiQnQtNXNMRml6TmQ2OTl4bzhSV0xKUFItR3RSRk9pQ3Y0VmxobkNFWTVvaDBlSXlVRG55dWJhY2RWMERKSXJo",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "232e170dc3fed4f60a8074b408abc87212e05e1994b42281a67798d239a1f6fb",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Tether’s USDT dominates payments while Circle’s USDC leads DeFi, Dune data shows - Crypto Briefing",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUFktbkxRVXFrRlhmSEdYcmZOSnUxWVNhMFp0NGF5VERFYnRndFRpWmRTOVpYRW5NUmRKX2trVG52TU5ZZnZwdHVNXzZRbjlSVmUtQXgyNjJsN1Ewa1JWTXdCeHVJQnVaaDd4eEcwWV83Y2c?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUFktbkxRVXFrRlhmSEdYcmZOSnUxWVNhMFp0NGF5VERFYnRndFRpWmRTOVpYRW5NUmRKX2trVG52TU5ZZnZwdHVNXzZRbjlSVmUtQXgyNjJsN1Ewa1JWTXdCeHVJQnVaaDd4eEcwWV83Y2c?oc=5",
-    "snippet": "Tether’s USDT dominates payments while Circle’s USDC leads DeFi, Dune data shows Crypto Briefing",
-    "published_at": "2026-07-07T19:48:42+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
-    "matched_keywords": [
-      "USDC",
-      "USDT",
-      "Tether",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMic0FVX3lxTE8tUFktbkxRVXFrRlhmSEdYcmZOSnUxWVNhMFp0NGF5VERFYnRndFRpWmRTOVpYRW5NUmRKX2trVG52TU5ZZnZwdHVNXzZRbjlSVmUtQXgyNjJsN1Ewa1JWTXdCeHVJQnVaaDd4eEcwWV83Y2c",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "ddc51b4a399f68b7da01d356983868118a2b10b52311d4e52794bf911921384e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -593,7 +541,7 @@
     "snippet": "The European Parliament adopted a digital assets report calling for further assessment of DeFi, staking, crypto lending and NFTs after MiCA’s transition period ended.",
     "published_at": "2026-07-07T12:36:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -628,6 +576,105 @@
     ]
   },
   {
+    "id": "323a99fa757395bb721477d59db3ca59330695477d5fb144914d58e85c4d4106",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Flutterwave expands USDC payments, secures investment from Circle Ventures - The Guardian Nigeria News",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3J1LTFrM1FQaUVESWw4VER3UHMwdVc5UmVSdkg0Y1ZvaEM5clFUTG5ZMUx6VXlqR283Rk9TWExjYnFjZFA3RVBlQ21VY1kxR05LQ05tVFFpbXhyN2hOckNiQnQtNXNMRml6TmQ2OTl4bzhSV0xKUFItR3RSRk9pQ3Y0VmxobkNFWTVvaDBlSXlVRG55dWJhY2RWMERKSXJo?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3J1LTFrM1FQaUVESWw4VER3UHMwdVc5UmVSdkg0Y1ZvaEM5clFUTG5ZMUx6VXlqR283Rk9TWExjYnFjZFA3RVBlQ21VY1kxR05LQ05tVFFpbXhyN2hOckNiQnQtNXNMRml6TmQ2OTl4bzhSV0xKUFItR3RSRk9pQ3Y0VmxobkNFWTVvaDBlSXlVRG55dWJhY2RWMERKSXJo?oc=5",
+    "snippet": "Flutterwave expands USDC payments, secures investment from Circle Ventures The Guardian Nigeria News",
+    "published_at": "2026-07-07T21:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMioAFBVV95cUxPX3J1LTFrM1FQaUVESWw4VER3UHMwdVc5UmVSdkg0Y1ZvaEM5clFUTG5ZMUx6VXlqR283Rk9TWExjYnFjZFA3RVBlQ21VY1kxR05LQ05tVFFpbXhyN2hOckNiQnQtNXNMRml6TmQ2OTl4bzhSV0xKUFItR3RSRk9pQ3Y0VmxobkNFWTVvaDBlSXlVRG55dWJhY2RWMERKSXJo",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "232e170dc3fed4f60a8074b408abc87212e05e1994b42281a67798d239a1f6fb",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Tether’s USDT dominates payments while Circle’s USDC leads DeFi, Dune data shows - Crypto Briefing",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUFktbkxRVXFrRlhmSEdYcmZOSnUxWVNhMFp0NGF5VERFYnRndFRpWmRTOVpYRW5NUmRKX2trVG52TU5ZZnZwdHVNXzZRbjlSVmUtQXgyNjJsN1Ewa1JWTXdCeHVJQnVaaDd4eEcwWV83Y2c?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tUFktbkxRVXFrRlhmSEdYcmZOSnUxWVNhMFp0NGF5VERFYnRndFRpWmRTOVpYRW5NUmRKX2trVG52TU5ZZnZwdHVNXzZRbjlSVmUtQXgyNjJsN1Ewa1JWTXdCeHVJQnVaaDd4eEcwWV83Y2c?oc=5",
+    "snippet": "Tether’s USDT dominates payments while Circle’s USDC leads DeFi, Dune data shows Crypto Briefing",
+    "published_at": "2026-07-07T19:48:42+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "USDC",
+      "USDT",
+      "Tether",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMic0FVX3lxTE8tUFktbkxRVXFrRlhmSEdYcmZOSnUxWVNhMFp0NGF5VERFYnRndFRpWmRTOVpYRW5NUmRKX2trVG52TU5ZZnZwdHVNXzZRbjlSVmUtQXgyNjJsN1Ewa1JWTXdCeHVJQnVaaDd4eEcwWV83Y2c",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "dcec755e4dab1d07914db8afffe8b29cb18935fb96cd93874ea9a0818c76ae8f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -638,7 +685,7 @@
     "snippet": "Mercado Bitcoin has grown from an early crypto exchange into a regulated digital financial services platform.",
     "published_at": "2026-07-07T15:57:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "Tether",
       "tokenization"
@@ -677,41 +724,38 @@
     ]
   },
   {
-    "id": "60ed2fbe8672723827a1fb3d96f313157604334977d17df464368a4bb822182a",
+    "id": "d36bf962ea4bc53fb151ad697399b57010afe64a2eb77d48401a97292e97ed4d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Tether Invests $20 Million in Mercado Bitcoin to Fuel Expansion Across Latin America",
-    "url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
-    "canonical_url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
-    "snippet": "Brazilian crypto exchange Mercado Bitcoin has raised $20 million in fresh investment from USDT stablecoin issuer Tether.",
-    "published_at": "2026-07-07T21:31:09+00:00",
+    "feed_name": "crypto_native_fintech_launches",
+    "title": "OKX to suspend USDC deposit and withdrawal on APTOS network for wallet maintainance - OKX",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGNlVmlqYTVqNTFDdGVNWVBJQnlLQ3d5enhMNlR4SjhKTkZMdEplUGFmQ19YOTBvazQ0SWtPMjBVRFF1d2FzdW9aSDhjZl9oMzZmY183WDhJQUlZeEZRbHQzOFlsa1lRVzlTM2RHN1hlV0c4b1I0N0swQU5HUWNaelV6NmVDNUtjOU9HZkpuUUJOcXMyUEhkRzZjejhJbko1MW9r?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVGNlVmlqYTVqNTFDdGVNWVBJQnlLQ3d5enhMNlR4SjhKTkZMdEplUGFmQ19YOTBvazQ0SWtPMjBVRFF1d2FzdW9aSDhjZl9oMzZmY183WDhJQUlZeEZRbHQzOFlsa1lRVzlTM2RHN1hlV0c4b1I0N0swQU5HUWNaelV6NmVDNUtjOU9HZkpuUUJOcXMyUEhkRzZjejhJbko1MW9r?oc=5",
+    "snippet": "OKX to suspend USDC deposit and withdrawal on APTOS network for wallet maintainance OKX",
+    "published_at": "2026-07-07T13:24:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "USDT",
-      "Tether",
-      "issuer"
+      "USDC"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=372946",
+      "id": "CBMiowFBVV95cUxPVGNlVmlqYTVqNTFDdGVNWVBJQnlLQ3d5enhMNlR4SjhKTkZMdEplUGFmQ19YOTBvazQ0SWtPMjBVRFF1d2FzdW9aSDhjZl9oMzZmY183WDhJQUlZeEZRbHQzOFlsa1lRVzlTM2RHN1hlV0c4b1I0N0swQU5HUWNaelV6NmVDNUtjOU9HZkpuUUJOcXMyUEhkRzZjejhJbko1MW9r",
       "guidislink": false
     },
-    "score": 20,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 10,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -727,27 +771,74 @@
     ]
   },
   {
-    "id": "11a68c28c0d923bc7adb641760a0b901c5a530e1f22ddc7d65185ac9e91c55f7",
+    "id": "ccbb685405f65ca3e0f1b06bb4179f5cb65a8cd4177856bff649a39f01f22046",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Tether Invests $20 Million in Brazil’s Mercado Bitcoin",
-    "url": "https://www.pymnts.com/news/investment-tracker/2026/tether-invests-20-million-in-brazils-mercado-bitcoin/",
-    "canonical_url": "https://pymnts.com/news/investment-tracker/2026/tether-invests-20-million-in-brazils-mercado-bitcoin/",
-    "snippet": "Stablecoin issuer Tether is investing $20 million in Brazil-based digital assets platform Mercado Bitcoin. “The investment reflects Tether’s continued commitment to supporting open, efficient, and accessible financial infrastructure in high-growth markets and reinforces Brazil’s role as an advanced ",
-    "published_at": "2026-07-07T19:02:12+00:00",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "SpaceX IPO Analysts Issue Buy Ratings as Tokenization Looms Over Private Equity Markets - Cryptonews.net",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NZlFMUllkSnUyc3hoY2YzcUVsc215WnQ4c0VxZnJqVVZqSllLcjFwXy1yT0FRLTlvQ3dFbVVGSlNjWlV0VlpGR2ttUGotUVduNkZOUWpERng?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9NZlFMUllkSnUyc3hoY2YzcUVsc215WnQ4c0VxZnJqVVZqSllLcjFwXy1yT0FRLTlvQ3dFbVVGSlNjWlV0VlpGR2ttUGotUVduNkZOUWpERng?oc=5",
+    "snippet": "SpaceX IPO Analysts Issue Buy Ratings as Tokenization Looms Over Private Equity Markets Cryptonews.net",
+    "published_at": "2026-07-08T02:18:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMiWEFVX3lxTE9NZlFMUllkSnUyc3hoY2YzcUVsc215WnQ4c0VxZnJqVVZqSllLcjFwXy1yT0FRLTlvQ3dFbVVGSlNjWlV0VlpGR2ttUGotUVduNkZOUWpERng",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "93b725cf37cd4c9dfc83ed7680a3038d66b00f2b84394eb81aae644d251bbd8c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "USDT for payments, USDC for DeFi as stablecoin rivalry reshapes - 디지털투데이",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlI3Z2FyVC1OYnBTWVhuejlhdzVWa2E4YnhfQ1QyWnpJT1B1RzNnZ0JFTmItR2p3QTRZaWRkOEJuX0xkWjBrY19TRlNHMk5pcVNZOG54d3NMM0dReVBndHlFekwtTkFmSXBhZnhWenpnZ0FuMGJ6dThLMGg0NENNS0dwZGtFd1NFeTBDZXVsY1NBcmZXSHFycmVjYzJLWmNoY3FicjVEcw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlI3Z2FyVC1OYnBTWVhuejlhdzVWa2E4YnhfQ1QyWnpJT1B1RzNnZ0JFTmItR2p3QTRZaWRkOEJuX0xkWjBrY19TRlNHMk5pcVNZOG54d3NMM0dReVBndHlFekwtTkFmSXBhZnhWenpnZ0FuMGJ6dThLMGg0NENNS0dwZGtFd1NFeTBDZXVsY1NBcmZXSHFycmVjYzJLWmNoY3FicjVEcw?oc=5",
+    "snippet": "USDT for payments, USDC for DeFi as stablecoin rivalry reshapes 디지털투데이",
+    "published_at": "2026-07-08T01:12:36+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "stablecoin",
-      "Tether",
-      "issuer"
+      "USDC",
+      "USDT"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=3930688",
+      "id": "CBMipwFBVV95cUxQdlI3Z2FyVC1OYnBTWVhuejlhdzVWa2E4YnhfQ1QyWnpJT1B1RzNnZ0JFTmItR2p3QTRZaWRkOEJuX0xkWjBrY19TRlNHMk5pcVNZOG54d3NMM0dReVBndHlFekwtTkFmSXBhZnhWenpnZ0FuMGJ6dThLMGg0NENNS0dwZGtFd1NFeTBDZXVsY1NBcmZXSHFycmVjYzJLWmNoY3FicjVEcw",
       "guidislink": false
     },
     "score": 20,
@@ -786,7 +877,7 @@
     "snippet": "Decta's report said the market cap of eight MiCA-compliant euro stablecoins rose to $673.9 million in the year before Europe’s CASP transition period ended.",
     "published_at": "2026-07-07T09:10:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -823,6 +914,56 @@
     ]
   },
   {
+    "id": "60ed2fbe8672723827a1fb3d96f313157604334977d17df464368a4bb822182a",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Tether Invests $20 Million in Mercado Bitcoin to Fuel Expansion Across Latin America",
+    "url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
+    "canonical_url": "https://decrypt.co/372946/tether-invests-20-million-mercado-bitcoin-fuel-expansion-latin-america",
+    "snippet": "Brazilian crypto exchange Mercado Bitcoin has raised $20 million in fresh investment from USDT stablecoin issuer Tether.",
+    "published_at": "2026-07-07T21:31:09+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "USDT",
+      "Tether",
+      "issuer"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=372946",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "18c21fe864f8c2f542281f418550ad5fd9e315b5447649275e689157113ad21c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -833,7 +974,7 @@
     "snippet": "Tether Equity Stake Sale: Richard Heathcote's Planned Exit The Cryptonomist",
     "published_at": "2026-07-07T16:34:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "Tether"
     ],
@@ -880,7 +1021,7 @@
     "snippet": "Former Tether investment chief seeks to sell 1% stake in USDT issuer Cryptonews.net",
     "published_at": "2026-07-07T15:54:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "USDT",
       "Tether",
@@ -929,7 +1070,7 @@
     "snippet": "Former Tether investment chief is looking to sell part of his stake in the stablecoin giant: Bloomberg CoinDesk",
     "published_at": "2026-07-07T13:47:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether"
@@ -977,7 +1118,7 @@
     "snippet": "BTC traded around $63,500 after a six-day rally as Wintermute and Bitfinex flagged weak ETF demand, while K33 said 50% of supply is at a loss.",
     "published_at": "2026-07-07T12:43:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1022,7 +1163,7 @@
     "snippet": "Businesses today operate in a world where customers, suppliers, contractors, and partners increasingly span multiple countries and currencies.",
     "published_at": "2026-07-07T09:17:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "stablecoin",
       "partners"
@@ -1071,7 +1212,7 @@
     "snippet": "Dune data shows Tether's USDT has become crypto’s dominant payments stablecoin while Circle's USDC powers DeFi, highlighting how blockchain choice shapes stablecoin use.",
     "published_at": "2026-07-07T18:05:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -1122,7 +1263,7 @@
     "snippet": "The real estate tokenization industry is facing a severe reality check. Right now, we are witnessing...",
     "published_at": "2026-07-07T15:28:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-08T00:14:39.469120+00:00",
+    "fetched_at": "2026-07-08T03:46:56.316328+00:00",
     "matched_keywords": [
       "tokenization",
       "RWA"
