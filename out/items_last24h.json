@@ -1,5 +1,52 @@
 [
   {
+    "id": "01014776eae374e8a9f4f6825057aa64a5d6ddc14ff10a9e3b912a9d33c60daa",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Kraken launches crypto debit card in UK and Europe",
+    "url": "https://www.finextra.com/newsarticle/48082/kraken-launches-crypto-debit-card-in-uk-and-europe?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/newsarticle/48082/kraken-launches-crypto-debit-card-in-uk-and-europe",
+    "snippet": "Kraken has introduced a Mastercard debit card in the UK and Europe that lets users spend hundreds of crypto and cash currencies.",
+    "published_at": "2026-07-13T14:58:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/newsarticle/48082/kraken-launches-crypto-debit-card-in-uk-and-europe?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 90,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "ad3ffdf4da479f67a573ab1cce57a10201fc8a520d1d53f6ff9c26617bdc63aa",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -10,7 +57,7 @@
     "snippet": "Robinhood Chain hit $3.1B in weekly DEX volume and 65K users since its July 1 launch, as the Layer 2 eyes tokenized markets, Bernstein said.",
     "published_at": "2026-07-13T12:30:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "tokenized",
       "launch"
@@ -59,7 +106,7 @@
     "snippet": "Lawson will test yen stablecoin payments in Tokyo as Netstars launches a merchant service supporting USDC, USDT and JPYC.",
     "published_at": "2026-07-13T08:58:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -76,19 +123,113 @@
       "id": "https://cointelegraph.com/news/japan-lawson-netstars-stablecoin-payments",
       "guidislink": true
     },
-    "score": 85,
+    "score": 79,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "7bd308f106840e61607c21eaf067aafd01e079d919319bbe0d9cc7f2bcf1d320",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Japan’s largest security token platform moves nearly $3 billion to Avalanche blockchain",
+    "url": "https://www.theblock.co/post/408036/japans-largest-security-token-platform-moves-nearly-3-billion-to-avalanche-blockchain?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/408036/japans-largest-security-token-platform-moves-nearly-3-billion-to-avalanche-blockchain",
+    "snippet": "Progmat develops security token infrastructure that accounts for 64.6% of Japan’s security token market total issuance value.",
+    "published_at": "2026-07-13T14:29:57+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "issuance"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/408036",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b9ec406e52564e2f8cc1eb955ad414c4a97aea0ad9eebf5548f801d15f54cd93",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "UK Treasury report on tokenization cites Ripple as convergence model",
+    "url": "https://www.coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
+    "canonical_url": "https://coindesk.com/policy/2026/07/13/ripple-lands-inside-uk-plan-for-tokenized-repo-bonds-and-funds",
+    "snippet": "",
+    "published_at": "2026-07-13T14:06:53+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "d1559ffd-2987-420f-ac1f-7c274b58c19c",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -112,7 +253,7 @@
     "snippet": "SBI VC Trade will open JPYSC lending applications on July 16, offering an initial 3% annual rate for a 12-week term without deposit insurance.",
     "published_at": "2026-07-13T10:27:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -161,7 +302,7 @@
     "snippet": "The SBI's service would offer users a 3% annual yield for deposited JPYSC stablecoins, according to Nikkei.",
     "published_at": "2026-07-13T07:22:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -174,14 +315,14 @@
       "id": "https://www.theblock.co/post/407988",
       "guidislink": false
     },
-    "score": 60,
+    "score": 54,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 0,
@@ -200,6 +341,101 @@
     ]
   },
   {
+    "id": "ae0d7a24f691581ae39725adc6dc355a2ceb4d55131be95edc7e10f2acef61cc",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Stablecoin Supply Shrinks by $10 Billion Just as Circle Wins a Bank Charter - Startup Fortune",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPckl4SVBEakcybnhXeHFPNlRaM3RDUi1wbVl4UnhDM2JiMDhITS1MTU9UMEpzVzlqdm92ajh6NEpuTVJDeGZCblFQcGM0c3R0d0pCbTI5M3JjNHJ0em5POGtFSWFuM0c2cXpxSWNjQnVYQWpTUVFZRVhzTnV5OE9hcGVHblRPRUVfV29HWjJOckJCenI3VndxM004N1lzemdhdVJjVA?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPckl4SVBEakcybnhXeHFPNlRaM3RDUi1wbVl4UnhDM2JiMDhITS1MTU9UMEpzVzlqdm92ajh6NEpuTVJDeGZCblFQcGM0c3R0d0pCbTI5M3JjNHJ0em5POGtFSWFuM0c2cXpxSWNjQnVYQWpTUVFZRVhzTnV5OE9hcGVHblRPRUVfV29HWjJOckJCenI3VndxM004N1lzemdhdVJjVA?oc=5",
+    "snippet": "Stablecoin Supply Shrinks by $10 Billion Just as Circle Wins a Bank Charter Startup Fortune",
+    "published_at": "2026-07-13T06:58:40+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMipAFBVV95cUxPckl4SVBEakcybnhXeHFPNlRaM3RDUi1wbVl4UnhDM2JiMDhITS1MTU9UMEpzVzlqdm92ajh6NEpuTVJDeGZCblFQcGM0c3R0d0pCbTI5M3JjNHJ0em5POGtFSWFuM0c2cXpxSWNjQnVYQWpTUVFZRVhzTnV5OE9hcGVHblRPRUVfV29HWjJOckJCenI3VndxM004N1lzemdhdVJjVA",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "83bf5cc90be15942462269282d3c6a7c17b1a3c1f046870b7b96848d4e5acbcf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Bank of Thailand Flags Abnormal Stablecoin Trades in 'Grey Economy' Crackdown",
+    "url": "https://decrypt.co/373380/bank-of-thailand-flags-abnormal-stablecoin-trades-in-grey-economy-crackdown",
+    "canonical_url": "https://decrypt.co/373380/bank-of-thailand-flags-abnormal-stablecoin-trades-in-grey-economy-crackdown",
+    "snippet": "Data analytics flagged stablecoin transfers meant to evade scrutiny, the central bank says, handing the findings to the securities regulator.",
+    "published_at": "2026-07-13T13:56:36+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=373380",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 3
+    },
+    "consensus_boost": 0,
+    "cluster_size": 3,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "00ad83d004eaffb7cbacf8bcee41836f673d9b810d71c9d9a03904bf76bdb87b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -210,7 +446,7 @@
     "snippet": "",
     "published_at": "2026-07-13T11:40:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -257,7 +493,7 @@
     "snippet": "The central bank and the SEC have reportedly begun using data analytics tools to examine abnormal stablecoin trades, with a focus on USDT.",
     "published_at": "2026-07-13T08:19:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDT"
@@ -276,7 +512,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 40,
@@ -305,7 +541,7 @@
     "snippet": "Bottomline, a global leader in business payments, today announced an expansion of its Bottomline CFO Suite, enabling finance teams to access and view stablecoin payments within existing payment and cash management workflows.",
     "published_at": "2026-07-13T09:57:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -354,7 +590,7 @@
     "snippet": "Strategy holds 843,775 BTC at an average cost of $75,476, leaving the position roughly $9.7 billion underwater with bitcoin trading near $64,000.",
     "published_at": "2026-07-12T18:43:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -389,6 +625,53 @@
     ]
   },
   {
+    "id": "554d8e2b736e738bbe10f2637a68a12e580c4838e099ba2e6a3161606250020b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Circle gains national trust bank approval, Bitcoin eyes $56K amid key data releases - Crypto Briefing",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDB6emZlS2F3OEUwck41X1FYYkhuNl9QLW9ZZWxTNVo3TzV6SGh3YlB2SnVkSFZjUEc0amFuX2Raam13Y3RhZnozSnByWC15dEZ3dGROTlJuZzk1azhRN2ZYbEVUcERzY0xjNm1HRmU0Y1c3VFhpd21XeFhmQlRGeXFwc0VFRm5rQnFVQ19YZ3BPQzFfcTFoQjhDbTc1YWVadmc?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMDB6emZlS2F3OEUwck41X1FYYkhuNl9QLW9ZZWxTNVo3TzV6SGh3YlB2SnVkSFZjUEc0amFuX2Raam13Y3RhZnozSnByWC15dEZ3dGROTlJuZzk1azhRN2ZYbEVUcERzY0xjNm1HRmU0Y1c3VFhpd21XeFhmQlRGeXFwc0VFRm5rQnFVQ19YZ3BPQzFfcTFoQjhDbTc1YWVadmc?oc=5",
+    "snippet": "Circle gains national trust bank approval, Bitcoin eyes $56K amid key data releases Crypto Briefing",
+    "published_at": "2026-07-13T13:11:05+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiogFBVV95cUxPMDB6emZlS2F3OEUwck41X1FYYkhuNl9QLW9ZZWxTNVo3TzV6SGh3YlB2SnVkSFZjUEc0amFuX2Raam13Y3RhZnozSnByWC15dEZ3dGROTlJuZzk1azhRN2ZYbEVUcERzY0xjNm1HRmU0Y1c3VFhpd21XeFhmQlRGeXFwc0VFRm5rQnFVQ19YZ3BPQzFfcTFoQjhDbTc1YWVadmc",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "5e8e54acfbe902a5923207739c8616efecc4a99a0a9beee012625a5771dd5242",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -399,7 +682,7 @@
     "snippet": "USDT Transactions Draw Scrutiny From Thailand’s Central Bank Bitcoin Foundation",
     "published_at": "2026-07-13T07:59:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -410,14 +693,14 @@
       "id": "CBMingFBVV95cUxNTnFZRl93QlBCVHFma0YtSmtkUTNWYklhclpwNDNlYkwwZktQQnRZTjh5LXZqMXpqVXNsUm1IVXBUQWpobDNBTjhETlNJUVVrTXkwUWlPNEVwdzRLMVZkdER6MS1zakhXcDdSREd3MUEzc1VmMGkwaWN0YXZUVDU5dm1sbWdDQmgtOFM2dXA3Sk9ZYng5RzNlRHRqQjBxZw",
       "guidislink": false
     },
-    "score": 40,
+    "score": 34,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 30,
@@ -446,7 +729,7 @@
     "snippet": "",
     "published_at": "2026-07-13T11:40:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuance",
@@ -496,7 +779,7 @@
     "snippet": "REGULATION | Bank of Thailand Preparing Regulatory Crackdown on Transactions Involving USDT BitKE",
     "published_at": "2026-07-13T12:00:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -533,41 +816,89 @@
     ]
   },
   {
-    "id": "7e6d8ca5ebf4eabaa9e998d2594383689f17976f466862372d79f127628a52b0",
+    "id": "bfdc6eaff116f0578cd91838c6ca707802806591cb2b538f5c55048b5d3c031f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "coindesk",
-    "title": "Stablecoin market cap has shrunk by $10 billion since May, but analyst sees no reason to panic",
-    "url": "https://www.coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
-    "canonical_url": "https://coindesk.com/markets/2026/07/12/stablecoin-market-cap-has-shrunk-by-usd10-billion-since-may-but-analyst-sees-no-reason-to-panic",
+    "title": "Robinhood built a blockchain for tokenized stocks. Memecoins took over",
+    "url": "https://www.coindesk.com/tech/2026/07/13/robinhood-built-a-blockchain-for-tokenized-stocks-memecoins-took-over",
+    "canonical_url": "https://coindesk.com/tech/2026/07/13/robinhood-built-a-blockchain-for-tokenized-stocks-memecoins-took-over",
     "snippet": "",
-    "published_at": "2026-07-12T13:00:00+00:00",
+    "published_at": "2026-07-13T15:17:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "71122c1d-62f5-4b9a-ad7a-2e856f9f33e9",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "98a693d0e1b03559c87efb5331c75805e9437051201b39a2da4de517a9cdf19d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Bolivia weighs adding Tether's USDT to its national payments system",
+    "url": "https://www.coindesk.com/business/2026/07/13/bolivia-weighs-adding-tether-s-usdt-to-its-national-payments-system",
+    "canonical_url": "https://coindesk.com/business/2026/07/13/bolivia-weighs-adding-tether-s-usdt-to-its-national-payments-system",
+    "snippet": "",
+    "published_at": "2026-07-13T14:47:52+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
+    "matched_keywords": [
+      "USDT",
+      "Tether"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "863c96bc-b125-4418-a439-63dabb787504",
+      "id": "7d948b61-cf46-407f-bb1b-b2362cdb55ee",
       "guidislink": false
     },
-    "score": 24,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
-      "commentary": 1,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -20,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -590,7 +921,7 @@
     "snippet": "This is part of a proof-of-concept involving telecommunications giant KDDI and crypto wallet firm HashPort.",
     "published_at": "2026-07-13T03:59:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "crypto wallet",
@@ -630,17 +961,17 @@
     ]
   },
   {
-    "id": "9b69c0fff3b57dc4bde3ee58ea2311e0d8a2bf07915a0a758f49a455b880d08d",
+    "id": "e0095e1c36d857311b7c183c67b3d4bbc7d093d47d391444070b7461cf7956cf",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Japanese Convenience Giant Trials Stablecoin Payments Starting August - BeInCrypto",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkQU1JdThNZDZCSFRBYm1kZ0ZnTG9EZTU3VEhrd0hHc3lXdVpwdURXWUZPNWdlZXY3b3NIbWI2YzlqZWVRd1JZRWVpMUJBeDJHNUctRmVQcGw5LXJ3WW9OQ2tpVVpvNUp5cDMzZA?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkQU1JdThNZDZCSFRBYm1kZ0ZnTG9EZTU3VEhrd0hHc3lXdVpwdURXWUZPNWdlZXY3b3NIbWI2YzlqZWVRd1JZRWVpMUJBeDJHNUctRmVQcGw5LXJ3WW9OQ2tpVVpvNUp5cDMzZA?oc=5",
-    "snippet": "Japanese Convenience Giant Trials Stablecoin Payments Starting August BeInCrypto",
-    "published_at": "2026-07-13T07:35:00+00:00",
+    "feed_name": "theblock",
+    "title": "Stablecoin FX priced below interbank rates in Q2, with routing now the biggest cost lever: Borderless",
+    "url": "https://www.theblock.co/post/408006/stablecoin-fx-priced-below-interbank-rates-in-q2-with-routing-now-the-biggest-cost-lever-borderless?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/408006/stablecoin-fx-priced-below-interbank-rates-in-q2-with-routing-now-the-biggest-cost-lever-borderless",
+    "snippet": "Stablecoin payments were priced 3.2 bps below interbank FX rates across 260 corridors in Q2, per Borderless.xyz's benchmark.",
+    "published_at": "2026-07-13T14:01:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -650,7 +981,7 @@
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMibEFVX3lxTFBkQU1JdThNZDZCSFRBYm1kZ0ZnTG9EZTU3VEhrd0hHc3lXdVpwdURXWUZPNWdlZXY3b3NIbWI2YzlqZWVRd1JZRWVpMUJBeDJHNUctRmVQcGw5LXJ3WW9OQ2tpVVpvNUp5cDMzZA",
+      "id": "https://www.theblock.co/post/408006",
       "guidislink": false
     },
     "score": 10,
@@ -689,7 +1020,7 @@
     "snippet": "Bank of Thailand reviews large USDT transactions to boost anti-money laundering efforts. Pluang",
     "published_at": "2026-07-13T06:04:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -736,7 +1067,7 @@
     "snippet": "Thailand has been plagued by Chinese-affiliated scam centers, with illicit gains flowing through a “gray money” economy.",
     "published_at": "2026-07-13T04:43:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -783,7 +1114,7 @@
     "snippet": "The stablecoin market saw its largest decline in nearly four years last month. That’s according to a report Sunday (July 12) by CoinDesk, which calls the downturn a sign that on-chain liquidity has dipped as crypto markets continue to consolidate near this year’s lows. Stablecoins’ market capitaliza",
     "published_at": "2026-07-13T00:27:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -830,7 +1161,7 @@
     "snippet": "The government-backed roadmap calls for the UK’s first digital gilt by early 2027 and seeks to make tokenized bonds usable for trading and borrowing.",
     "published_at": "2026-07-13T11:50:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized"
@@ -878,7 +1209,7 @@
     "snippet": "The AI-native cohort of the expanding gig economy could increasingly use stablecoins to avoid slow and expensive traditional payment rails, Australian crypto exchange Swyftx said.",
     "published_at": "2026-07-13T05:24:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-13T12:35:01.640495+00:00",
+    "fetched_at": "2026-07-13T15:31:26.100420+00:00",
     "matched_keywords": [
       "payment rails",
       "stablecoin"
