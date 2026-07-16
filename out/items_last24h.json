@@ -10,7 +10,7 @@
     "snippet": "U.S. adds four Iran central bank crypto wallets to sanctions, Tether freezes $131 million of contents CoinDesk",
     "published_at": "2026-07-16T10:07:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "crypto wallet",
       "Tether"
@@ -21,55 +21,6 @@
     ],
     "raw": {
       "id": "CBMi3wFBVV95cUxPOUhJNW42VGJSa3lCb25XVVh4dml4UGNkUE11eTZqbEpURkhvYmpPREh2eVpDVGdWQUh2d0JhMy12SkZZdXUzSUN0c2EtakxsUGhEUFJ1TDVic0RCNVNLaFctckMySFdWLWdfUzhaMUdWbmF6djV6U091RV83d2tfV0pkTXFKVVJMdWpaSUFIMk5JVm5nNVlGdllnZzYwVm5MX1JwUmlpUWMzcG5lVXptWkV3eDVnUnRvSkdYTDdpVDZlNVd4c21hWVJmYi1TOFVveng2VXNOYjFUYjMyYmhN",
-      "guidislink": false
-    },
-    "score": 120,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 40,
-      "financial_bonus": 30,
-      "regulatory_bonus": 40,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "4bd142d39c171bfb9b2d7f30b767ddc72fab1aac478f8cd01d7aa374e81507bd",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "US Treasury Freezes $131 Million in Iran-Linked Crypto Wallets",
-    "url": "https://decrypt.co/373565/us-treasury-freezes-131-million-iran-crypto",
-    "canonical_url": "https://decrypt.co/373565/us-treasury-freezes-131-million-iran-crypto",
-    "snippet": "OFAC sanctioned addresses tied to Iran's central bank and armed forces, with Tether locking four Tron wallets as Washington's financial campaign against Tehran accelerates.",
-    "published_at": "2026-07-15T16:54:14+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
-    "matched_keywords": [
-      "crypto wallet",
-      "Tether"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=373565",
       "guidislink": false
     },
     "score": 114,
@@ -89,10 +40,10 @@
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
-      "cluster_size": 1
+      "cluster_size": 2
     },
     "consensus_boost": 0,
-    "cluster_size": 1,
+    "cluster_size": 2,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -108,7 +59,7 @@
     "snippet": "The U.S. Treasury Department and HM Treasury have unveiled a joint blueprint for closer regulatory cooperation on digital assets. It features a series of measures designed to align the two countries’ approaches to stablecoins, tokenization and digital financial infrastructure while laying the ground",
     "published_at": "2026-07-16T14:52:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -146,6 +97,53 @@
     ]
   },
   {
+    "id": "3838965d479c39eff5a50b446ffadbabedc31198456d2ad228669ae537b0ae20",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "$1.9 trillion asset manager T. Rowe Price launches first actively managed multi-token crypto ETF",
+    "url": "https://www.theblock.co/post/408667/t-rowe-price-launches-first-actively-managed-multi-token-crypto-etf?utm_source=rss&utm_medium=rss",
+    "canonical_url": "https://theblock.co/post/408667/t-rowe-price-launches-first-actively-managed-multi-token-crypto-etf",
+    "snippet": "T. Rowe Price's TKNZ Active Crypto ETF began trading Thursday after the firm filed for the product in October.",
+    "published_at": "2026-07-16T16:09:15+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/408667",
+      "guidislink": false
+    },
+    "score": 85,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 50,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "6bb9492f405c2cf5a0e7712cda02f54379abaf88851e98edb3f14cfe6493459c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -156,7 +154,7 @@
     "snippet": "The market capitalization of tokenized stocks rose to a record $2.3 billion, as investors sought exposure to the growing list of tokenized equity products launched by cryptocurrency exchanges.",
     "published_at": "2026-07-16T12:35:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenized equity",
       "tokenized",
@@ -206,7 +204,7 @@
     "snippet": "",
     "published_at": "2026-07-16T14:19:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -253,7 +251,7 @@
     "snippet": "The Depository Trust & Clearing Corporation is working with nearly 40 financial firms in a pilot to test tokenized stocks and U.S. treasuries.",
     "published_at": "2026-07-15T18:02:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenized",
       "pilot"
@@ -302,7 +300,7 @@
     "snippet": "Open Standard's stablecoin is expected to become a major competitor to Circle's USDC, the dominant stablecoin in the U.S.",
     "published_at": "2026-07-16T15:15:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -342,42 +340,41 @@
     ]
   },
   {
-    "id": "23ed719dbbe45531668ba9068a043b23cd3e4244128124af76099c439afafb3f",
+    "id": "ea1e96376838360411b4d18cda1843700222ce245a413f8a58e8cc12e4c9380f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
-    "title": "Aave launches V4 on Avalanche, laying groundwork for tokenized credit markets",
-    "url": "https://cointelegraph.com/news/aave-brings-v4-to-avalanche-laying-groundwork-for-tokenized-asset-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/aave-brings-v4-to-avalanche-laying-groundwork-for-tokenized-asset-lending",
-    "snippet": "The deployment marks Aave V4’s first expansion beyond Ethereum and introduces lending infrastructure designed to support future markets for tokenized real-world assets.",
-    "published_at": "2026-07-15T16:29:39+00:00",
+    "title": "Tradable’s $1B Stellar deal adds to institutional tokenization boom",
+    "url": "https://cointelegraph.com/news/tradables-1b-stellar-deal-adds-to-institutional-tokenization-boom?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/tradables-1b-stellar-deal-adds-to-institutional-tokenization-boom",
+    "snippet": "Tradable will bring up to $1 billion in private credit assets to Stellar, extending the blockchain’s push into institutional finance and tokenized real-world assets.",
+    "published_at": "2026-07-16T16:19:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
-      "tokenized",
-      "launches",
-      "introduces"
+      "private credit",
+      "tokenization",
+      "tokenized"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/aave-brings-v4-to-avalanche-laying-groundwork-for-tokenized-asset-lending",
+      "id": "https://cointelegraph.com/news/tradables-1b-stellar-deal-adds-to-institutional-tokenization-boom",
       "guidislink": true
     },
-    "score": 64,
+    "score": 60,
     "score_breakdown": {
-      "tier1": 2,
+      "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 60,
+      "launch_score": 10,
       "institution_bonus": 0,
-      "financial_bonus": 0,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -402,7 +399,7 @@
     "snippet": "Plus, Stripe makes a $53 billion move that could crown a stablecoin king. And Ostium gets drained of $18M in the latest DeFi exploit.",
     "published_at": "2026-07-16T12:03:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -439,6 +436,152 @@
     ]
   },
   {
+    "id": "f7e25c2411cdb591d758d36a5e3f9134f6270d05d969a09f7e526d1f27829e7e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Fireblocks Integrates Circle Payment Rails Into Its Platform",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/fireblocks-integrates-circle-payment-rails/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/fireblocks-integrates-circle-payment-rails/",
+    "snippet": "Circle’s Gateway and Circle Payments Network (CPN) are now natively accessible within Fireblocks’ stablecoin infrastructure, Fireblocks said in a Thursday (June 16) blog post. Gateway gives Fireblocks customers access to a USDC Virtual Wallet that aggregates balances across supported chains into a s",
+    "published_at": "2026-07-16T16:48:55+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
+    "matched_keywords": [
+      "payment rails",
+      "stablecoin",
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=3967569",
+      "guidislink": false
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "871cc3b2df5ae0278cc3f68d54c965312a027936f281901bbd7cc3651317342b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Morgan Stanley’s E*TRADE launches spot crypto trading through Zero Hash",
+    "url": "https://cointelegraph.com/news/morgan-stanleys-etrade-rolls-out-spot-crypto-trading-for-retail-investors?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/morgan-stanleys-etrade-rolls-out-spot-crypto-trading-for-retail-investors",
+    "snippet": "Eligible E*TRADE retail clients can now buy, sell and hold Bitcoin, Ether and Solana through a partnership with crypto infrastructure provider Zero Hash.",
+    "published_at": "2026-07-16T16:32:01+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/morgan-stanleys-etrade-rolls-out-spot-crypto-trading-for-retail-investors",
+      "guidislink": true
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9cbd56e5e0a6e599151ea1697179b16470d4f8dd448fa2ea5e8e659f086c7dec",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Visa Launches Stablecoin Platform for Minting, Wallets and Payments - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRG5CdUc0QmJGaTgxX19vWkNKMU9FS282Z1ZnNkpGdmdWTlp1eDY0TDZSUGYxMnEycExlak12MFNtcmdmNURWX09SMzdUdVJYTms5c2VUREJidUR0dmlvNndrUHRiZnZQTmxEeVJiTGZ1NzB1Zy1xSC12QXgycWlyR2h1Nl83LUFYRE9pamhDcFJJNktnanFVYjdFWTZJX3ZfU21ZbjNKUXJ5QQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRG5CdUc0QmJGaTgxX19vWkNKMU9FS282Z1ZnNkpGdmdWTlp1eDY0TDZSUGYxMnEycExlak12MFNtcmdmNURWX09SMzdUdVJYTms5c2VUREJidUR0dmlvNndrUHRiZnZQTmxEeVJiTGZ1NzB1Zy1xSC12QXgycWlyR2h1Nl83LUFYRE9pamhDcFJJNktnanFVYjdFWTZJX3ZfU21ZbjNKUXJ5QQ?oc=5",
+    "snippet": "Visa Launches Stablecoin Platform for Minting, Wallets and Payments Yahoo Finance",
+    "published_at": "2026-07-16T16:23:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMiqgFBVV95cUxPRG5CdUc0QmJGaTgxX19vWkNKMU9FS282Z1ZnNkpGdmdWTlp1eDY0TDZSUGYxMnEycExlak12MFNtcmdmNURWX09SMzdUdVJYTms5c2VUREJidUR0dmlvNndrUHRiZnZQTmxEeVJiTGZ1NzB1Zy1xSC12QXgycWlyR2h1Nl83LUFYRE9pamhDcFJJNktnanFVYjdFWTZJX3ZfU21ZbjNKUXJ5QQ",
+      "guidislink": false
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "f8fda74f292417983deda8a0dcf434dba5cecaee5189ff6acce5a3f8c49a76a3",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -449,7 +592,7 @@
     "snippet": "Prediction markets reached a record $113.8 billion in notional volume in Q2 as spot CEX trading, derivatives volume and stablecoin market cap declined.",
     "published_at": "2026-07-16T13:05:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -496,7 +639,7 @@
     "snippet": "The BNP-backed brokerage infrastructure provider is expanding into tokenized markets and AI-native financial services as both DeFi and TradFi companies pursue onchain business.",
     "published_at": "2026-07-16T13:34:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -543,7 +686,7 @@
     "snippet": "Introduction The financial industry is entering a new phase of digital transformation, where traditi...",
     "published_at": "2026-07-16T10:58:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized",
@@ -584,6 +727,54 @@
     ]
   },
   {
+    "id": "cfa3be8b95e1a1198dc6e0576062c0627093bd3e402150e2d80eca3254f0c4ab",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Visa backs Open USD with new stablecoin platform as Circle faces fresh competition",
+    "url": "https://www.coindesk.com/business/2026/07/16/visa-backs-open-usd-with-new-stablecoin-platform-as-circle-faces-fresh-competition",
+    "canonical_url": "https://coindesk.com/business/2026/07/16/visa-backs-open-usd-with-new-stablecoin-platform-as-circle-faces-fresh-competition",
+    "snippet": "",
+    "published_at": "2026-07-16T16:14:30+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "f73d99ea-b0cd-4188-a327-b132cbd25f6d",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "0cded3b7dd1c7b494d72d700675e563918236b014a93d062aef3955b0221375a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -594,7 +785,7 @@
     "snippet": "Stable, the Tether-aligned Layer 1 blockchain built for stablecoin payments, today launched StablePay, a mobile app that lets anyone send and receive USDT instantly and for free, anywhere in the world.",
     "published_at": "2026-07-16T09:44:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -647,7 +838,7 @@
     "snippet": "Cyclops Raises $20 Million to Scale Stablecoin Platform for Payments Firms PYMNTS.com",
     "published_at": "2026-07-15T21:10:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -694,7 +885,7 @@
     "snippet": "Cyclops raises $20M to build the missing link in stablecoin payments Refresh Miami",
     "published_at": "2026-07-15T17:49:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -743,7 +934,7 @@
     "snippet": "The global task force said criminal networks are using stablecoins and developing proprietary tokens to evade asset freezes as countries struggle to enforce crypto AML rules.",
     "published_at": "2026-07-16T12:05:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -790,7 +981,7 @@
     "snippet": "Visa said it expects agentic commerce to integrate a hybrid flow that combines both card and stablecoin rails at different stages of a task.",
     "published_at": "2026-07-16T08:29:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -837,7 +1028,7 @@
     "snippet": "Japan's SBI Holdings will use JPYSC for settlement and collateral while distributing Ondo products through its network.",
     "published_at": "2026-07-16T14:59:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -874,53 +1065,6 @@
     ]
   },
   {
-    "id": "373541c2401a285c719735061b81ce5c57170a191e5b6125e978a57b8199f424",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Why a $545 Slice of a Dubai Apartment Is the Biggest Story in Tokenization",
-    "url": "https://www.pymnts.com/blockchain/2026/why-a-545-slice-of-a-dubai-apartment-is-the-biggest-story-in-tokenization/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/why-a-545-slice-of-a-dubai-apartment-is-the-biggest-story-in-tokenization/",
-    "snippet": "Explore more conversations like this From the Block. The blockchain industry has spent years promising to replace the filing cabinet to either make illiquid assets tradable or provide an immutable record in the event a natural disaster wipes out the paper record. Dubai may have finally found a filin",
-    "published_at": "2026-07-16T08:00:51+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=3963941",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 2,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "a8972915e3a5119ff9cf78062e22545a9cb7284e3377f9261ac2cc80e3cecaa9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -931,7 +1075,7 @@
     "snippet": "How Morgan Stanley plans to bring crypto custody, staking and lending support in-house CryptoSlate",
     "published_at": "2026-07-15T18:55:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -976,7 +1120,7 @@
     "snippet": "",
     "published_at": "2026-07-15T17:02:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -986,53 +1130,6 @@
     "raw": {
       "id": "9bcd1f65-e836-4088-83d4-80cffb35bad2",
       "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "c7c5e0b027cf58d418a65796e5551ac59fc555855916766768313253f1fbb025",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Securitize, Cantor target tokenized IPOs for public markets",
-    "url": "https://cointelegraph.com/news/securitize-cantor-target-tokenized-ipos-for-public-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/securitize-cantor-target-tokenized-ipos-for-public-markets",
-    "snippet": "Securitize and Cantor Fitzgerald are developing infrastructure for tokenized IPOs and secondary equity offerings within the existing US securities framework.",
-    "published_at": "2026-07-15T15:59:36+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/securitize-cantor-target-tokenized-ipos-for-public-markets",
-      "guidislink": true
     },
     "score": 14,
     "score_breakdown": {
@@ -1070,7 +1167,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1115,7 +1212,7 @@
     "snippet": "",
     "published_at": "2026-07-16T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1162,7 +1259,7 @@
     "snippet": "Zyaire Wilkins allegedly procured malware hidden in video games that infected 8,000 devices and broke into 80 crypto wallets, the FBI says.",
     "published_at": "2026-07-16T10:54:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1173,14 +1270,14 @@
       "id": "https://decrypt.co/?p=373631",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1209,7 +1306,7 @@
     "snippet": "Stockpiles that acted as shock absorbers early in Iran war are running low as crucial waterway closes again",
     "published_at": "2026-07-15T19:49:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-16T15:46:48.439171+00:00",
+    "fetched_at": "2026-07-16T16:55:16.791084+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
