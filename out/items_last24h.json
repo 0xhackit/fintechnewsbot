@@ -1,185 +1,39 @@
 [
   {
-    "id": "f45c76c01852d0265ee3d683e651a8d8e2fbceb280c1e3ef3d8c0bbff49033db",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Visa launches stablecoin platform",
-    "url": "https://www.finextra.com/newsarticle/48110/visa-launches-stablecoin-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/48110/visa-launches-stablecoin-platform",
-    "snippet": "Visa has introduced a platform that enables financial institutions and fintechs mint, move and manage stablecoins.",
-    "published_at": "2026-07-16T18:21:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "launches"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/newsarticle/48110/visa-launches-stablecoin-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 84,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "f1ba36786327df9d9d51ccca11fc5cf4c2515bba028d73da41bfdac5f089c6e8",
+    "id": "a038a70aa1e9ec4fc923e903681e7348ecabd60b50759e358d65fe2a365b42b7",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "ledger_insights",
-    "title": "CFTC collateral rule change could boost tokenized MMF",
-    "url": "https://www.ledgerinsights.com/cftc-collateral-rule-change-could-boost-tokenized-mmf/",
-    "canonical_url": "https://ledgerinsights.com/cftc-collateral-rule-change-could-boost-tokenized-mmf/",
-    "snippet": "This week the Commodity Futures Trading Commission (CFTC) finalized a rule change for margin for uncleared swaps, which expands the range of money market funds (MMFs) that can be used as initial margin. MMFs were already eligible as collateral, provided they only invested in cash and government secu",
-    "published_at": "2026-07-17T14:56:06+00:00",
+    "title": "Tokenized stocks’ main custodian Alpaca raises $135m equity, takes on $300m debt",
+    "url": "https://www.ledgerinsights.com/tokenized-stocks-main-custodian-alpaca-raises-135m-equity-takes-on-300m-debt/",
+    "canonical_url": "https://ledgerinsights.com/tokenized-stocks-main-custodian-alpaca-raises-135m-equity-takes-on-300m-debt/",
+    "snippet": "US broker Alpaca announced a $135 million venture funding led by Peak XV, with participation by Elefund, Opera Tech Ventures, the venture capital arm of BNP Paribas Group, and Unbound. Alpaca isn’t your conventional broker but more of an API broker, enabling fintechs to piggy back off its infrastruc",
+    "published_at": "2026-07-17T17:25:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
-      "money market fund",
       "tokenized"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://ledgerinsights.com/?p=43404",
+      "id": "https://ledgerinsights.com/?p=43408",
       "guidislink": false
     },
-    "score": 80,
+    "score": 140,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 1,
+      "tier1": 3,
+      "tier2": 2,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": -10,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "48f33df686bd688932b486d3103f2f7e2de0aec73905f02ddd98174c0c8f28f5",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Citadel Securities invests $400 million in Crypto.com at $20 billion valuation",
-    "url": "https://www.theblock.co/post/408688/citadel-securities-invests-400-million-crypto-com-20-billion-valuation?utm_source=rss&utm_medium=rss",
-    "canonical_url": "https://theblock.co/post/408688/citadel-securities-invests-400-million-crypto-com-20-billion-valuation",
-    "snippet": "Crypto.com plans to use proceeds from its “first institutional funding round\" to expand its tokenization and derivatives operations.",
-    "published_at": "2026-07-16T18:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
-    "matched_keywords": [
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.theblock.co/post/408688",
-      "guidislink": false
-    },
-    "score": 79,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "33ae03a1cde5ee7559e6d9ce18111bf3472a553a2783d3e4be27ef037c24dc4b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Visa Unveils Stablecoin Platform for Banks and Fintech Companies",
-    "url": "https://decrypt.co/373668/visa-stablecoin-platform-banks-fintech-open-usd",
-    "canonical_url": "https://decrypt.co/373668/visa-stablecoin-platform-banks-fintech-open-usd",
-    "snippet": "The Visa Stablecoin Platform will let financial institutions integrate stablecoin payments and treasury operations into Visa's existing network.",
-    "published_at": "2026-07-16T17:57:57+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "unveils"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=373668",
-      "guidislink": false
-    },
-    "score": 69,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 40,
-      "financial_bonus": 0,
+      "launch_score": 80,
+      "institution_bonus": 20,
+      "financial_bonus": 30,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -204,7 +58,7 @@
     "snippet": "The launch gives Bybit a locally operated platform in one of Asia’s largest crypto markets, home to more than 21 million crypto exchange users.",
     "published_at": "2026-07-17T04:16:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "launch",
       "launches"
@@ -252,7 +106,7 @@
     "snippet": "SBI Holdings received regulatory approval to acquire a majority stake in Singapore-based crypto exchange Coinhako as it expands into stablecoins, onchain finance and tokenized assets.",
     "published_at": "2026-07-17T13:30:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -300,7 +154,7 @@
     "snippet": "The feature offers European customers a voluntary path away from Tether’s USDT as MiCA rules reshape the region’s stablecoin market.",
     "published_at": "2026-07-17T16:54:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -351,7 +205,7 @@
     "snippet": "Tradable to Tokenize Up to $1 Billion in Private Credit on Stellar Blockchain finance.biggo.com",
     "published_at": "2026-07-16T22:03:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "private credit"
     ],
@@ -398,7 +252,7 @@
     "snippet": "The company said the filing would create a regulated pathway for maintaining ownership records for tokenized securities onchain.",
     "published_at": "2026-07-16T19:27:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -445,7 +299,7 @@
     "snippet": "Tokenized deposits are moving from pilot initiatives to production very fast. There are at least fiv...",
     "published_at": "2026-07-17T10:51:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized",
@@ -496,7 +350,7 @@
     "snippet": "The most important digital asset story this week was not the price of bitcoin, the launch of another cryptocurrency fund or even the continued expansion of stablecoins. It was the widening gap between the parts of crypto that traditional finance wants to preserve and the parts it intends to remove. ",
     "published_at": "2026-07-17T15:07:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -544,7 +398,7 @@
     "snippet": "ECB’s Piero Cipollone said stablecoin adoption could erode bank deposits, but the digital euro will keep banks at the center of payments.",
     "published_at": "2026-07-17T12:03:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -555,14 +409,14 @@
       "id": "https://cointelegraph.com/news/stablecoin-growth-bank-deposits-ecbs-cipollone",
       "guidislink": true
     },
-    "score": 30,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 30,
@@ -591,7 +445,7 @@
     "snippet": "USDT and USDC are stablecoins pegged one-to-one to the U.S. dollar, each backed by reserves covering every token in circulation. Tether’s USDT is the largest stablecoin, with the deepest liquidity across global exchanges. Circle’s USDC is the second-largest, with Circle staking its reputation on bei",
     "published_at": "2026-07-17T04:22:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -643,7 +497,7 @@
     "snippet": "The Rotterdam court said bankruptcy was necessary to ensure an orderly settlement because the company lacked enough assets to fully repay users.",
     "published_at": "2026-07-17T12:21:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -654,69 +508,19 @@
       "id": "https://cointelegraph.com/news/dutch-court-knaken-crypto-platform-bankruptcy",
       "guidislink": true
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "e03bdfb9ed4dbb7fb6066c4b79cad4b384cfc2b962716873b123e933b23718a7",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "BitPay secures Dutch licensing under MiCA, plans to expand stablecoin payments",
-    "url": "https://cointelegraph.com/news/bitpay-licensing-mica-stablecoin-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/bitpay-licensing-mica-stablecoin-payments",
-    "snippet": "The Dutch Authority for the Financial Markets approved BitPay’s application as a crypto-asset service provider under the Markets in Crypto-Assets requirements.",
-    "published_at": "2026-07-16T18:45:25+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "MiCA"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/bitpay-licensing-mica-stablecoin-payments",
-      "guidislink": true
-    },
-    "score": 19,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -740,7 +544,7 @@
     "snippet": "",
     "published_at": "2026-07-17T08:50:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -787,7 +591,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -832,7 +636,7 @@
     "snippet": "",
     "published_at": "2026-07-17T13:46:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -879,7 +683,7 @@
     "snippet": "A macOS malware steals credentials to hijack Telegram sessions, decrypt cryptocurrency wallets or trick users into entering their wallet recovery phrases through fake applications.",
     "published_at": "2026-07-17T08:48:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-07-17T17:57:36.892699+00:00",
+    "fetched_at": "2026-07-17T19:11:59.882298+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
