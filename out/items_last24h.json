@@ -10,7 +10,7 @@
     "snippet": "Binance’s UK arm has been barred from offering regulated activities in the country since June 2021, but the company will reportedly move to secure licensing under new crypto rules.",
     "published_at": "2026-08-17T18:45:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -55,7 +55,7 @@
     "snippet": "Under the law, entities generally cannot issue payment stablecoins in the U.S. without obtaining an appropriate federal or state license.",
     "published_at": "2026-08-17T16:40:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -103,7 +103,7 @@
     "snippet": "Exchanges and other crypto platforms would face new restrictions on selling stablecoins to US customers beginning in 2027.",
     "published_at": "2026-08-17T20:31:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -148,7 +148,7 @@
     "snippet": "The stablecoin bill signed into law last year is scheduled to go into effect in January 2027, potentially without finalized regulations from US government agencies.",
     "published_at": "2026-08-17T16:29:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "stablecoin bill",
       "stablecoin",
@@ -198,7 +198,7 @@
     "snippet": "",
     "published_at": "2026-08-17T14:44:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -210,19 +210,117 @@
       "id": "23a210ff-0123-45b8-899b-0506bc851c5a",
       "guidislink": false
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "6e22f05f3d25cf3b8b7ecf9e814977cce8f9bacee4165359462e5e3d85b9c800",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Tokenized equities triple market share as Ondo, Binance and xStocks dominate",
+    "url": "https://www.theblock.co/news/defi/2026-08-17-tokenized-equities-triple-market-share-ondo-binance-xstocks-dominate-411996",
+    "canonical_url": "https://theblock.co/news/defi/2026-08-17-tokenized-equities-triple-market-share-ondo-binance-xstocks-dominate-411996",
+    "snippet": "Tokenized stock market share has grown to 15%, up 3x from the start of the year, with the total market cap around $2.8 billion.",
+    "published_at": "2026-08-17T20:55:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.theblock.co/post/411996",
+      "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "642abfb233387b286a92c5ceb8d31e0b27cb0eca40622af4771a11935626aaca",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "N3XT Unveils Tokenized Cross-Border Payments",
+    "url": "https://www.pymnts.com/news/cross-border-payments/2026/n3xt-unveils-tokenized-cross-border-payments/",
+    "canonical_url": "https://pymnts.com/news/cross-border-payments/2026/n3xt-unveils-tokenized-cross-border-payments/",
+    "snippet": "Blockchain-powered bank N3XT has secured approval from Wyoming regulators to let customers use its digital token to transact with foreign counterparties, Bloomberg reported Monday (Aug. 17), citing its interview with N3XT Founder Scott Shay. This approval will enable N3XT to offer its customers inst",
+    "published_at": "2026-08-17T20:44:13+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
+    "matched_keywords": [
+      "cross-border",
+      "tokenized",
+      "unveils"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=4088529",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -246,7 +344,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -291,7 +389,7 @@
     "snippet": "",
     "published_at": "2026-08-17T09:13:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -339,7 +437,7 @@
     "snippet": "Anthropic’s Tokenized Price Implies $1.8T Valuation, 88% Above Private-Market Deal CCN.com",
     "published_at": "2026-08-17T15:22:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -386,7 +484,7 @@
     "snippet": "The FMA said Bitpanda breached MiCA rules on crypto white papers and marketing communications, with the decision now final.",
     "published_at": "2026-08-17T09:31:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -431,7 +529,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -476,7 +574,7 @@
     "snippet": "Austria's FMA fined Bitpanda €70,000 in its first published MiCA penalty, citing white paper and marketing disclosure failures.",
     "published_at": "2026-08-17T13:03:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -521,7 +619,7 @@
     "snippet": "Bitdefender says fake downloads of the newly released blockbuster are already spreading Lumma Stealer, malware that scrapes crypto wallets, passwords and browser sessions from infected machines.",
     "published_at": "2026-08-17T12:31:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -568,7 +666,7 @@
     "snippet": "Wavebridge, BC Card test overseas stablecoin QR payments CFOtech Asia",
     "published_at": "2026-08-17T06:49:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -615,7 +713,7 @@
     "snippet": "Owners of Trezor and SafePal crypto wallets at high risk of phishing attempts after separate data leaks, CLARITY odds at 10% despite White House meeting this week.",
     "published_at": "2026-08-16T23:54:50+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-17T20:36:20.298426+00:00",
+    "fetched_at": "2026-08-17T20:58:49.356922+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
