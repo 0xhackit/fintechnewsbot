@@ -214,7 +214,7 @@
     "id": "2973ec8948c835e05c57a98e527b47a2c5a58114",
     "title": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
     "link": "https://www.coindesk.com/business/2026/08/19/beyond-crypto-funding-rates-ethena-diversifies-usde-backing-with-usd1-billion-falconx-facility",
-    "score": 75,
+    "score": 69,
     "snippet": "Beyond crypto funding rates: Ethena diversifies USDe backing with $1 billion FalconX facility",
     "regions": [],
     "primary_region": null,
@@ -509,10 +509,10 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T16:47:53.230000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
     "fulltext": true,
     "origin": "tree"
   },
@@ -662,31 +662,6 @@
     "origin": "tree"
   },
   {
-    "id": "e71ff852ef51eb240b7c693a18d4ce4840444849",
-    "title": "'Largely Mechanical'—Hyperliquid's $589M Cliff Lands Before Fed Week",
-    "link": "https://www.forbes.com/sites/digital-assets/2026/08/19/largely-mechanical-hyperliquids-589m-cliff-lands-before-fed-week",
-    "score": 40,
-    "snippet": "'Largely Mechanical'—Hyperliquid's $589M Cliff Lands Before Fed Week",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:forbes",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T12:46:00.478000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
     "id": "89d7b2b6f76135e2ae919c777a4826d32839462a",
     "title": "Ripple raises $275M for US prime brokerage to meet institutional demand",
     "link": "https://cointelegraph.com/news/ripple-raises-275m-us-prime-brokerage",
@@ -739,34 +714,6 @@
     "axis": "market_event",
     "reason": "concrete market event ('integration')",
     "matched": "integration",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
-    "id": "6a5e5af2e5343a2e9dc74a46ca20796ac22e6420",
-    "title": "Kraken launches US debit card with bitcoin rewards",
-    "link": "https://www.techinasia.com/news/kraken-launches-debit-card-bitcoin-rewards",
-    "score": 39,
-    "snippet": "Kraken launches US debit card with bitcoin rewards",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:techinasia",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T06:38:55.783000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
     "fulltext": true,
     "origin": "tree"
   },
