@@ -23,6 +23,9 @@ type ReviewItem = {
   source?: string;
   feed_name?: string;
   published_at?: string;
+  origin?: string; // rss | tree | rss+tree (consensus)
+  consensus?: number;
+  coins?: string[];
 };
 
 type CardAction = {
@@ -70,6 +73,13 @@ function Card({ item, action }: { item: ReviewItem; action?: CardAction }) {
       <div className="rq-card-top">
         <span className="rq-score">{item.score ?? 0}</span>
         <span className="rq-badge" style={{ background: c.bg, color: c.fg }}>{label}</span>
+        {item.origin === "rss+tree" ? (
+          <span className="rq-origin rq-consensus" title="Reported by both RSS and TreeOfAlpha">
+            ✓ consensus{item.consensus ? ` ×${item.consensus}` : ""}
+          </span>
+        ) : item.origin === "tree" ? (
+          <span className="rq-origin rq-tree" title="From the TreeOfAlpha firehose">Tree</span>
+        ) : null}
         {item.source_tier ? <span className="rq-tier">tier {item.source_tier}</span> : null}
         {item.regions && item.regions.length ? (
           <span className="rq-regions">
@@ -311,6 +321,9 @@ function Style() {
       .rq-score { font-size:12.5px; font-weight:800; color:#0f1419; background:#eef3f5; border-radius:8px; padding:2px 8px; min-width:30px; text-align:center; }
       .rq-badge { font-size:11.5px; font-weight:700; border-radius:999px; padding:2px 10px; letter-spacing:0.02em; }
       .rq-tier { font-size:11px; font-weight:700; color:#536471; background:#f2f4f5; border:1px solid #e6eaeb; border-radius:6px; padding:1px 6px; }
+      .rq-origin { font-size:11px; font-weight:700; border-radius:6px; padding:1px 7px; }
+      .rq-consensus { color:#00734d; background:rgba(0,135,90,0.12); border:1px solid rgba(0,135,90,0.25); }
+      .rq-tree { color:#6d28d9; background:rgba(139,92,246,0.12); border:1px solid rgba(139,92,246,0.22); }
       .rq-regions { display:flex; gap:4px; margin-left:auto; }
       .rq-region { font-size:11px; font-weight:700; color:#0c447c; background:rgba(29,155,240,0.10); border-radius:6px; padding:1px 7px; }
       .rq-title { display:block; font-size:15px; font-weight:600; color:#0f1419; text-decoration:none; line-height:1.4; }
