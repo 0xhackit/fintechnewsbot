@@ -78,34 +78,6 @@
     "origin": "tree"
   },
   {
-    "id": "f4b97483ba0e897899de682069042b46f6ee43e8",
-    "title": "Arc Mainnet launches September 16. Where Arc stands today: → More than half a billion testnet transactions → Nearly 3 million wallets → 100+ partners active on private mainnet → Initial validator cohort expected to help",
-    "link": "https://x.com/circle/status/2090106516816978124",
-    "score": 80,
-    "snippet": "Arc Mainnet launches September 16. Where Arc stands today: → More than half a billion testnet transactions → Nearly 3 million wallets → 100+ partners active on private mainnet → Initial validator cohort expected to help operate the network alongside Circle Arc is being built as financial infrastruct",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T16:00:01.074000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
     "id": "6bb8513fc0d521353e02beb5b5ef2eb856127a9d",
     "title": "Clawdi is now live on the Monad Agent Hub. ⚡ Built through the Phala × Monad collaboration, Clawdi gives anyone a fast path to launch a hosted AI agent, with Monad as the payment rail.",
     "link": "https://x.com/PhalaNetwork/status/2090183722285097178",
@@ -127,6 +99,34 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
+    "fulltext": true,
+    "origin": "tree"
+  },
+  {
+    "id": "f4b97483ba0e897899de682069042b46f6ee43e8",
+    "title": "Arc Mainnet launches September 16. Where Arc stands today: → More than half a billion testnet transactions → Nearly 3 million wallets → 100+ partners active on private mainnet → Initial validator cohort expected to help",
+    "link": "https://x.com/circle/status/2090106516816978124",
+    "score": 74,
+    "snippet": "Arc Mainnet launches September 16. Where Arc stands today: → More than half a billion testnet transactions → Nearly 3 million wallets → 100+ partners active on private mainnet → Initial validator cohort expected to help operate the network alongside Circle Arc is being built as financial infrastruct",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T16:00:01.074000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": true,
     "origin": "tree"
   },
@@ -205,8 +205,11 @@
     "link": "https://www.forbes.com/sites/digital-assets/2026/08/19/bitcoin-approaches-70000-after-treasury-announces-buyback-expansion",
     "score": 65,
     "snippet": "Bitcoin Approaches $70,000 After Treasury Announces Buyback Expansion",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -215,11 +218,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T19:40:19.601000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -377,33 +380,6 @@
     "origin": "tree"
   },
   {
-    "id": "d5cbcf8f09c37f074402801ac70af9103d914d58",
-    "title": "Bybit's RLUSD Hold & Earn Surpasses $50M AUC, Launches Phase 2 with Boosted XRP-RLUSD Rewards in Partnership with Ripple",
-    "link": "https://www.prnewswire.com/news-releases/bybits-rlusd-hold--earn-surpasses-50m-auc-launches-phase-2-with-boosted-xrp-rlusd-rewards-in-partnership-with-ripple-302855203.html",
-    "score": 49,
-    "snippet": "Bybit's RLUSD Hold & Earn Surpasses $50M AUC, Launches Phase 2 with Boosted XRP-RLUSD Rewards in Partnership with Ripple",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:prn",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T11:38:02.472000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
     "id": "db7c8703cc3605ea871e0a21cbe7b1e6ae659fcc",
     "title": "Solana's award-winning phone now has embedded yield. Introducing the Solana Mobile USDC Earn Vault, powered by Kamino. Deposit USDC and access onchain yield directly on @solanamobile Seeker.",
     "link": "https://x.com/kamino/status/2090190036985909410",
@@ -502,34 +478,6 @@
     "origin": "tree"
   },
   {
-    "id": "13ad7253918a4e1618b19efc5c012d9342a2fc04",
-    "title": "Jeonbuk Bank Teams Up with Ripple to Support Cross-Border Payments in South Koreahttps",
-    "link": "https://www.crowdfundinsider.com/2026/08/298820-jeonbuk-bank-teams-up-with-ripple-to-support-cross-border-payments-in-south-korea",
-    "score": 45,
-    "snippet": "Jeonbuk Bank Teams Up with Ripple to Support Cross-Border Payments in South Koreahttps",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T16:13:35.682000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('roll out')",
-    "matched": "roll out",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
     "id": "7557d58776d8be34ebcecfa6e48371acb5bfff05",
     "title": "We’re pleased to welcome Coburn Berry as a Member of Technical Staff. Coburn spent nearly six years as a Software Engineer at Compound Labs, building Compound v2, Compound Governance, Compound Treasury, and authoring EIP",
     "link": "https://x.com/Compound_xyz/status/2090180555073523960",
@@ -570,10 +518,10 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T19:50:39.536000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
     "fulltext": true,
     "origin": "tree"
   },
@@ -618,10 +566,10 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T16:47:53.230000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree"
   },
@@ -651,48 +599,30 @@
     "origin": "tree"
   },
   {
-    "id": "7d196ed6266a430bacffed1f7b2606a6371059ad",
-    "title": "Gold, Bitcoin rally as U.S. Treasury makes unexpected bond market move",
-    "link": "https://www.thestreet.com/crypto/markets/gold-bitcoin-rally-as-u-s-treasury-makes-unexpected-bond-market-move",
-    "score": 40,
-    "snippet": "Gold, Bitcoin rally as U.S. Treasury makes unexpected bond market move",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "13ad7253918a4e1618b19efc5c012d9342a2fc04",
+    "title": "Jeonbuk Bank Teams Up with Ripple to Support Cross-Border Payments in South Koreahttps",
+    "link": "https://www.crowdfundinsider.com/2026/08/298820-jeonbuk-bank-teams-up-with-ripple-to-support-cross-border-payments-in-south-korea",
+    "score": 39,
+    "snippet": "Jeonbuk Bank Teams Up with Ripple to Support Cross-Border Payments in South Koreahttps",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:the street",
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:crowdfundinsider",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T16:11:51.722000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
-    "id": "87dbebdd1fc740062d7ae7aaa4654c4bf626c49e",
-    "title": "When an Agent Runs Your Treasury: The Data Verifiability Problem",
-    "link": "https://www.spaceandtime.io/blog/when-an-agent-runs-your-treasury-the-data-verifiability-problem",
-    "score": 40,
-    "snippet": "When an Agent Runs Your Treasury: The Data Verifiability Problem",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:sxt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T16:00:45.995000+00:00",
+    "published_at": "2026-08-19T16:13:35.682000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
+    "reason": "concrete market event ('roll out')",
+    "matched": "roll out",
     "fulltext": true,
     "origin": "tree"
   },
