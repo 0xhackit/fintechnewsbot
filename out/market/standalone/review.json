@@ -1,68 +1,12 @@
 [
   {
-    "id": "ef8d1895187261e9151329e81d857a1ca639ca87",
-    "title": "OSL is bringing compliant USDC liquidity to Asia. By integrating USDC into StableHub, @osldotcom gives eligible clients USDC access, exchange, custody, and settlement. Within about four months of launch, StableHub reache",
-    "link": "https://x.com/circle/status/2089880024174514566",
-    "score": 129,
-    "snippet": "OSL is bringing compliant USDC liquidity to Asia. By integrating USDC into StableHub, @osldotcom gives eligible clients USDC access, exchange, custody, and settlement. Within about four months of launch, StableHub reached more than $100 million in USDC deposits. https://www.circle.com/case-studies/o",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T01:00:01.058000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
-    "id": "8e0c26717fd0bd5a781cb0871c624a1fe9e7021f",
-    "title": "THE BLOCK: Kalshi has filed with the CFTC to launch perpetual futures tied to equity indexes. Its \"US500 Contract\" would track the MerQube US Large Cap Index, which gauges the performance of the 500 largest companies lis",
-    "link": "https://x.com/TheBlockCo/status/2089894721837814083",
-    "score": 94,
-    "snippet": "THE BLOCK: Kalshi has filed with the CFTC to launch perpetual futures tied to equity indexes. Its \"US500 Contract\" would track the MerQube US Large Cap Index, which gauges the performance of the 500 largest companies listed and based in the United States.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T01:58:25.066000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
     "id": "70faac37d1f6fc47f377a9e77a04d8a66a583d81",
     "title": "🚨 BREAKING: Injective is now an official SEC-registered transfer agent! With this move, Injective becomes the first layer 1 blockchain to possess the RWA infrastructure and regulatory readiness needed to accelerate token",
     "link": "https://x.com/injective/status/2090077233327046692",
     "score": 90,
     "snippet": "🚨 BREAKING: Injective is now an official SEC-registered transfer agent! With this move, Injective becomes the first layer 1 blockchain to possess the RWA infrastructure and regulatory readiness needed to accelerate tokenization to new heights. Injective has rapidly expanded its tokenization efforts ",
     "regions": [
-      "US",
-      "APAC"
+      "US"
     ],
     "primary_region": "US",
     "category": "regulation",
@@ -77,9 +21,9 @@
     "published_at": "2026-08-19T14:03:39.426000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
+    "reason": "concrete market event ('expanded its to')",
+    "matched": "expanded its to",
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -106,7 +50,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -134,7 +78,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -161,7 +105,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -188,7 +132,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -198,7 +142,6 @@
     "score": 79,
     "snippet": "The digital asset platform announced its appointment as an authorized Credit Representative in Australia, launching its regulated crypto-backed Credit Lines under the National Consumer Credit Protection Act. Nexo Australia is a member of the Australian Financial Complaints Authority (AFCA). Alongsid",
     "regions": [
-      "US",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -216,7 +159,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -289,10 +232,58 @@
     "origin": "tree"
   },
   {
+    "id": "7d5e8d3671747a1cd3b97f7eca3b24ff6a8fb7a3",
+    "title": "THE BLOCK: Yield Basis markets built around Curve Finance pool technology generated $1.97 billion in trading volume in the first half of 2026, accounting for about 8% of Curve's total volume. The markets generated $10.98",
+    "link": "https://x.com/TheBlockCo/status/2090059117612380344",
+    "score": 70,
+    "snippet": "THE BLOCK: Yield Basis markets built around Curve Finance pool technology generated $1.97 billion in trading volume in the first half of 2026, accounting for about 8% of Curve's total volume. The markets generated $10.98 million in LP fees on an average net TVL of roughly $165.5 million.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T12:51:40.253000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree"
+  },
+  {
+    "id": "422cc6b9f5a5016540accdf9aa6a5b1d94725869",
+    "title": "THE BLOCK: N3XT founder and former Signature Bank chairman Scott Shay says big banks could use crypto to take market share from mid-sized and smaller banks. @SALTConference Shay said Signet was transferring $1 trillion b",
+    "link": "https://x.com/TheBlockCo/status/2090037377934987645",
+    "score": 70,
+    "snippet": "THE BLOCK: N3XT founder and former Signature Bank chairman Scott Shay says big banks could use crypto to take market share from mid-sized and smaller banks. @SALTConference Shay said Signet was transferring $1 trillion by the end of 2022. His new venture, N3XT, is expanding cross-border dollar payme",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T11:25:17.087000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree"
+  },
+  {
     "id": "9a0f4a6e949950d86dde78dd483adc359d15712d",
     "title": "JUST IN: @Ripple raises $275 million in investment-grade senior notes to fund Ripple Prime, its prime brokerage arm targeting institutional markets.",
     "link": "https://x.com/CoinDesk/status/2090031938874597557",
-    "score": 75,
+    "score": 69,
     "snippet": "JUST IN: @Ripple raises $275 million in investment-grade senior notes to fund Ripple Prime, its prime brokerage arm targeting institutional markets.",
     "regions": [
       "US"
@@ -310,9 +301,9 @@
     "published_at": "2026-08-19T11:03:40.064000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('acquisition')",
-    "matched": "acquisition",
-    "fulltext": true,
+    "reason": "concrete market event ('raises $275 million')",
+    "matched": "raises $275 million",
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -335,11 +326,11 @@
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T14:22:18.899000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -348,11 +339,9 @@
     "link": "https://x.com/centrifuge/status/2090098212518715550",
     "score": 55,
     "snippet": "Exiting a tokenized fund no longer means waiting for the fund’s settlement window before capital can move onchain. Market makers can take the position immediately, while the fund’s redemption process runs as usual. @Symbioticfi’s Liquid Lane is now integrated with Centrifuge.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -367,7 +356,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integrated')",
     "matched": "integrated",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -447,7 +436,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -538,10 +527,8 @@
     "link": "https://x.com/AlchemyPay/status/2090016040713613582",
     "score": 44,
     "snippet": "Alchemy Pay 🤝 @AEON_Community #AlchemyPay now supports $AEON on its fiat-crypto ramp, enabling users across 173 countries to seamlessly buy $AEON through Visa, Mastercard, Apple Pay, Google Pay, local bank transfers, and mobile wallets. Bringing the AI economy with fewer barriers closer to everyone.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -552,9 +539,9 @@
     "published_at": "2026-08-19T10:00:29.791000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
+    "reason": "concrete market event ('buy')",
+    "matched": "buy",
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -573,37 +560,11 @@
     "feed_name": "tree:x:kiteaifdn",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T09:21:46.740000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('selected')",
-    "matched": "selected",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
-    "id": "3040ee393543069f0d3a189f5f13c51d60015d81",
-    "title": "THE BLOCK: Rain CEO Farooq Malik said more than 100,000 merchants are accepting stablecoin payments without knowing it. He said those transactions currently settle through Visa and outlined plans to let merchants opt for",
-    "link": "https://x.com/TheBlockCo/status/2090000949482041476",
-    "score": 44,
-    "snippet": "THE BLOCK: Rain CEO Farooq Malik said more than 100,000 merchants are accepting stablecoin payments without knowing it. He said those transactions currently settle through Visa and outlined plans to let merchants opt for stablecoin settlement instead of waiting three days.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T09:00:31.723000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -630,9 +591,32 @@
     "published_at": "2026-08-19T04:05:22.987000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "reason": "concrete market event ('adoption')",
+    "matched": "adoption",
+    "fulltext": false,
+    "origin": "tree"
+  },
+  {
+    "id": "aea34d20389165c3e81ebd2b8cec98eeac17d26b",
+    "title": "MARKETS: Bitcoin jumped 6% above $68,000 after the Treasury doubled the size of its bond buyback operations, a move investors viewed as supportive of market liquidity. @HeleneBraunn & @OKnightCrypto report.",
+    "link": "https://x.com/CoinDesk/status/2090118564367798527",
+    "score": 40,
+    "snippet": "MARKETS: Bitcoin jumped 6% above $68,000 after the Treasury doubled the size of its bond buyback operations, a move investors viewed as supportive of market liquidity. @HeleneBraunn & @OKnightCrypto report.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T16:47:53.230000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -653,11 +637,11 @@
     "feed_name": "tree:x:pythnetwork",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T16:33:04.432000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -787,8 +771,7 @@
     "score": 40,
     "snippet": "'Largely Mechanical'—Hyperliquid's $589M Cliff Lands Before Fed Week",
     "regions": [
-      "US",
-      "APAC"
+      "US"
     ],
     "primary_region": "US",
     "category": "other",
@@ -799,11 +782,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T12:46:00.478000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partner')",
-    "matched": "partner",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -822,11 +805,11 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T12:34:34.670000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -847,11 +830,11 @@
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T11:52:23.999000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -901,11 +884,11 @@
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T09:41:57.808000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('integration')",
-    "matched": "integration",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -983,7 +966,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1009,7 +992,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1043,12 +1026,8 @@
     "link": "https://x.com/citrea_xyz/status/2090092338999599598",
     "score": 35,
     "snippet": "ctUSD MoonPay On-Ramps/Off-Ramps are Live Today, @moonpay on-ramps and off-ramps officially went live for ctUSD, providing seamless banking rails between on-chain collateral and off-chain fiat systems for the Bitcoin ecosystem. In partnership with MoonPay and M0, Citrea launched ctUSD to establish f",
-    "regions": [
-      "US",
-      "APAC",
-      "LatAm"
-    ],
-    "primary_region": "APAC",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -1064,7 +1043,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1083,11 +1062,11 @@
     "feed_name": "tree:x:solsticefi",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T14:59:39.375000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('investment')",
-    "matched": "investment",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1113,7 +1092,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1132,11 +1111,11 @@
     "feed_name": "tree:x:bancor",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T13:56:00.805000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1159,7 +1138,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1185,7 +1164,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1227,11 +1206,11 @@
     "feed_name": "tree:x:berachain",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T13:03:02.682000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('rebrand')",
-    "matched": "rebrand",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1250,11 +1229,11 @@
     "feed_name": "tree:x:hedera",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T13:03:00.577000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1304,7 +1283,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1323,11 +1302,11 @@
     "feed_name": "tree:x:grvt_io",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T12:20:00.784000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1350,9 +1329,9 @@
     "published_at": "2026-08-19T10:42:21.075000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "reason": "concrete market event ('goes live')",
+    "matched": "goes live",
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1377,7 +1356,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1492,10 +1471,8 @@
     "link": "https://x.com/Stable/status/2089914914823622941",
     "score": 35,
     "snippet": "Idle USDT can keep earning, even between trades. With the StableEarn SDK integrated into @coinsdot, users can put deposits to work while keeping funds ready for the next opportunity. Bringing yield closer to where USDT is being used.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -1508,9 +1485,9 @@
     "published_at": "2026-08-19T03:18:39.564000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('partner')",
-    "matched": "partner",
-    "fulltext": true,
+    "reason": "concrete market event ('integrated')",
+    "matched": "integrated",
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1529,11 +1506,11 @@
     "feed_name": "tree:x:swarms_corp",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T03:03:33.456000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('now live')",
-    "matched": "now live",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   }
 ]
