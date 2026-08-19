@@ -200,43 +200,13 @@
     "origin": "tree"
   },
   {
-    "id": "9a0f4a6e949950d86dde78dd483adc359d15712d",
-    "title": "JUST IN: @Ripple raises $275 million in investment-grade senior notes to fund Ripple Prime, its prime brokerage arm targeting institutional markets.",
-    "link": "https://x.com/CoinDesk/status/2090031938874597557",
-    "score": 69,
-    "snippet": "JUST IN: @Ripple raises $275 million in investment-grade senior notes to fund Ripple Prime, its prime brokerage arm targeting institutional markets.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T11:03:40.064000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('acquisition')",
-    "matched": "acquisition",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
     "id": "973469a652f1767e0f83dd3720ab6edfc396f167",
     "title": "Bitcoin Approaches $70,000 After Treasury Announces Buyback Expansion",
     "link": "https://www.forbes.com/sites/digital-assets/2026/08/19/bitcoin-approaches-70000-after-treasury-announces-buyback-expansion",
     "score": 65,
     "snippet": "Bitcoin Approaches $70,000 After Treasury Announces Buyback Expansion",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "APAC",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -245,39 +215,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T19:40:19.601000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partner')",
-    "matched": "partner",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
-    "id": "3367452bec10a4182fb1d8810c8b56d5effa80e6",
-    "title": "Exiting a tokenized fund no longer means waiting for the fund’s settlement window before capital can move onchain. Market makers can take the position immediately, while the fund’s redemption process runs as usual. @Symb",
-    "link": "https://x.com/centrifuge/status/2090098212518715550",
-    "score": 55,
-    "snippet": "Exiting a tokenized fund no longer means waiting for the fund’s settlement window before capital can move onchain. Market makers can take the position immediately, while the fund’s redemption process runs as usual. @Symbioticfi’s Liquid Lane is now integrated with Centrifuge.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:centrifuge",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T15:27:01.188000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('integrated')",
-    "matched": "integrated",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -354,6 +296,34 @@
     "origin": "tree"
   },
   {
+    "id": "3367452bec10a4182fb1d8810c8b56d5effa80e6",
+    "title": "Exiting a tokenized fund no longer means waiting for the fund’s settlement window before capital can move onchain. Market makers can take the position immediately, while the fund’s redemption process runs as usual. @Symb",
+    "link": "https://x.com/centrifuge/status/2090098212518715550",
+    "score": 49,
+    "snippet": "Exiting a tokenized fund no longer means waiting for the fund’s settlement window before capital can move onchain. Market makers can take the position immediately, while the fund’s redemption process runs as usual. @Symbioticfi’s Liquid Lane is now integrated with Centrifuge.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:centrifuge",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T15:27:01.188000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integrated')",
+    "matched": "integrated",
+    "fulltext": true,
+    "origin": "tree"
+  },
+  {
     "id": "1ccdbda675aa33c0fa88840c1cbdd0b9874bebd9",
     "title": "Bybit's RLUSD Hold & Earn Surpasses $50M AUC, Launches Phase 2 with Boosted XRP-RLUSD Rewards in Partnership with Ripple",
     "link": "https://chainwire.org/2026/08/19/bybits-rlusd-hold-earn-surpasses-50m-auc-launches-phase-2-with-boosted-xrp-rlusd-rewards-in-partnership-with-ripple",
@@ -404,6 +374,56 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
+    "fulltext": true,
+    "origin": "tree"
+  },
+  {
+    "id": "db7c8703cc3605ea871e0a21cbe7b1e6ae659fcc",
+    "title": "Solana's award-winning phone now has embedded yield. Introducing the Solana Mobile USDC Earn Vault, powered by Kamino. Deposit USDC and access onchain yield directly on @solanamobile Seeker.",
+    "link": "https://x.com/kamino/status/2090190036985909410",
+    "score": 45,
+    "snippet": "Solana's award-winning phone now has embedded yield. Introducing the Solana Mobile USDC Earn Vault, powered by Kamino. Deposit USDC and access onchain yield directly on @solanamobile Seeker.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:kamino",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T21:31:53.637000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('tap')",
+    "matched": "tap",
+    "fulltext": true,
+    "origin": "tree"
+  },
+  {
+    "id": "2e3b9b30da6677347f95d1087bc3bf23d4124835",
+    "title": "Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵",
+    "link": "https://x.com/solanamobile/status/2090185322986668285",
+    "score": 45,
+    "snippet": "Your stablecoins were never meant to sit still. Now you can earn yield on your USDC on the go. Introducing the USDC Earn Vault powered by @Kamino, now live on Seeker in Seed Vault Wallet 🧵",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:solanamobile",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T21:13:09.696000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now live')",
+    "matched": "now live",
     "fulltext": true,
     "origin": "tree"
   },
