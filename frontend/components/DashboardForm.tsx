@@ -23,10 +23,13 @@ interface PostResult {
 
 type Phase = "auth" | "input" | "preview" | "posting" | "done";
 
-export default function DashboardForm() {
-  const [password, setPassword] = useState("");
-  const [authed, setAuthed] = useState(false);
-  const [phase, setPhase] = useState<Phase>("auth");
+export default function DashboardForm({
+  preAuthed = false,
+  presetPassword = "",
+}: { preAuthed?: boolean; presetPassword?: string } = {}) {
+  const [password, setPassword] = useState(presetPassword);
+  const [authed, setAuthed] = useState(preAuthed);
+  const [phase, setPhase] = useState<Phase>(preAuthed ? "input" : "auth");
 
   // Input
   const [url, setUrl] = useState("");

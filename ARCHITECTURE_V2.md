@@ -12,7 +12,7 @@ LLM-free pipeline (`scripts/standalone_pipeline.py`).
 
 ## Decisions (locked)
 
-- **Region delivery:** one feed, region as **metadata + frontend filter chips** (APAC/US/EU/LatAm) on `/market`.
+- **Region delivery:** one feed, region as **metadata + filter chips** (APAC/US/EU/LatAm) in the admin review queue (`/dashboard`).
   Multi-region items appear under each matching chip. Per-region channels deferred until labeling is proven.
 - **Signal bar:** **balanced gate** — publish if `KEEP` AND region-resolved AND (Tier-A source OR ≥2-outlet consensus OR material $ size). See §3.
 
@@ -189,7 +189,7 @@ other new sources (filings, on-chain): they're inputs to the entity graph and th
 ## Phased rollout (each phase independently deployable; free parts first)
 
 1. **Regions (free).** Ship `src/regions.py`; wire into `standalone_pipeline.py`; add `regions`/`primary_region`
-   to `out/standalone/` and a region filter to the `/market` page. Zero LLM, zero risk.
+   to `out/standalone/` and a region filter to the admin review queue. Zero LLM, zero risk.
 2. **Sources + signal (free).** Add `sources.yaml` (Tier A/B/C), tier weighting, `consensus_count` from
    clustering, and the higher-signal gate. Still zero LLM.
 3. **Tie-break (cheap LLM).** Add batched, prompt-cached Haiku for the REVIEW + region-unknown tail.

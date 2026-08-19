@@ -2,12 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 import { readFileSync } from "fs";
 import { join } from "path";
 
-// Serves the market/editorial reports produced offline. Read-only.
-//   ?source=feed (published feed) | items (current candidates)   → scripts/shadow_market.py
-//   ?source=standalone (v2 pipeline: regions + content lanes + tiers) → scripts/standalone_pipeline.py
-// Default: feed.
+// Serves the v2 pipeline's review-queue report (kept/killed/review), produced by
+// `python scripts/standalone_pipeline.py`. Read-only, admin (/dashboard) only.
 
-const SOURCES = ["feed", "items", "standalone"] as const;
+const SOURCES = ["standalone"] as const;
 type Source = (typeof SOURCES)[number];
 
 function marketDir(source: Source, name: string): string {
@@ -24,7 +22,7 @@ function readJson<T>(source: Source, name: string, fallback: T): T {
 
 export async function GET(req: NextRequest) {
   const param = req.nextUrl.searchParams.get("source");
-  const source: Source = SOURCES.includes(param as Source) ? (param as Source) : "feed";
+  const source: Source = SOURCES.includes(param as Source) ? (param as Source) : "standalone";
 
   const kept = readJson(source, "kept", [] as unknown[]);
   const killed = readJson(source, "killed", [] as unknown[]);

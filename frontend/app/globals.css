@@ -1612,3 +1612,85 @@ body {
     border-right: none;
   }
 }
+
+/* ── Category sections (Regulation / Product / Fundraising / Others) ── */
+
+/* Six tabs no longer fit on one line — let them scroll horizontally while the
+   "Updated" stamp stays pinned to the right. */
+.feed-tabs-scroll {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  min-width: 0;
+}
+
+.feed-tabs-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.feed-tabs .feed-tab {
+  white-space: nowrap;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.feed-tab-count {
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  padding: 3px 6px;
+  border-radius: 999px;
+  background: rgba(15, 20, 25, 0.08);
+  color: #536471;
+}
+
+.feed-tab-active .feed-tab-count {
+  background: rgba(255, 255, 255, 0.22);
+  color: #fff;
+}
+
+.feed-tabs .feed-updated {
+  margin-left: 12px;
+  flex-shrink: 0;
+}
+
+/* Category badge on Latest News rows, where product and fundraising mix. */
+.post-category {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-right: 2px;
+}
+
+.post-category-product {
+  background: rgba(29, 155, 240, 0.12);
+  color: #1573b8;
+}
+
+.post-category-fundraising {
+  background: rgba(0, 154, 97, 0.12);
+  color: #007a4d;
+}
+
+.post-category-regulation {
+  background: rgba(240, 118, 29, 0.12);
+  color: #b35a13;
+}
+
+.post-category-other {
+  background: rgba(15, 20, 25, 0.07);
+  color: #536471;
+}
+
+@media (max-width: 600px) {
+  .feed-tabs .feed-updated {
+    display: none;
+  }
+}

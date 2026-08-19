@@ -21,7 +21,6 @@ export default function RootLayout({
           </a>
           <nav className="nav-links">
             <a href="/" className="nav-link">Feed</a>
-            <a href="/market" className="nav-link">Market</a>
             <a href="/analyze" className="nav-link">Analyze</a>
           </nav>
           <div className="live-badge">

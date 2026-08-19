@@ -45,7 +45,7 @@ from src.improved_scoring import score_item_improved  # noqa: E402
 from src.dedup_agent import DedupAgent  # noqa: E402
 from src import editorial  # noqa: E402
 from src import regions as regions_mod  # noqa: E402
-from src import content_type as ct_mod  # noqa: E402
+from src.categorize import categorize  # noqa: E402  (site sections: regulation/product/fundraising/other)
 from src import enrich_fulltext  # noqa: E402
 
 OUT_DIR = _PROJECT_ROOT / "out" / "market" / "standalone"  # served by /market (source=standalone)
@@ -158,7 +158,7 @@ def main() -> int:
     dedup = DedupAgent(db_path=STATE_DIR / "posted_articles.db",
                        seen_titles=[], feed_entries=[], enable_ai_tiebreaker=False)
     kept, killed, review = [], [], []
-    skipped_dup = skipped_low = n_slop = n_fulltext = 0
+    skipped_dup = skipped_low = n_fulltext = 0
 
     for it in sorted(items, key=lambda x: x.get("score", 0), reverse=True):
         title = (it.get("title") or "").strip()
@@ -171,60 +171,48 @@ def main() -> int:
 
         tier = tiers.get(feed_name, {}).get("tier", default_tier)
         region = regions_mod.classify_region(title, snippet)
-        ct = ct_mod.classify_content_type(title, snippet)
+        cat = categorize(title, snippet)
         base = {
             "title": title, "link": link, "score": score, "snippet": snippet,
             "regions": region["regions"], "primary_region": region["primary"],
-            "content_type": ct["content_type"], "source_tier": tier,
+            "category": cat["category"], "source_tier": tier,
             "consensus": _consensus(it), "financial": _financial(it),
         }
 
-        # 1. Cheap slop drop (title-only tells).
-        if ct_mod.is_slop(title):
-            n_slop += 1
-            killed.append({**base, "content_type": "slop", "verdict": "kill",
-                           "axis": "low_signal", "reason": "AI-slop / SEO title", "matched": None})
-            continue
-        # 2. Score floor.
+        # 1. Score floor.
         if score < MIN_SCORE:
             skipped_low += 1
             continue
-        # 3. Cheap editorial gate on title+snippet. Price-moves reroute past a low_signal kill.
+        # 2. Cheap editorial gate on title+snippet (drops commentary/policy/political/low-signal).
         v0 = editorial.classify(title, snippet)
-        is_price = ct["content_type"] == "price_move"
-        if not (v0["verdict"] in (editorial.KEEP, editorial.REVIEW) or is_price):
+        if v0["verdict"] not in (editorial.KEEP, editorial.REVIEW):
             killed.append({**base, "verdict": v0["verdict"], "axis": v0["axis"],
                            "reason": v0["reason"], "matched": v0["matched"]})
             continue
 
-        # 4. Enrich survivors only, then re-classify on the fuller body.
+        # 3. Enrich survivors only, then re-classify on the fuller body.
         body = enrich_fulltext.fetch_fulltext(link) if use_fulltext else None
         if body:
             n_fulltext += 1
         text = body if body else snippet
         v = editorial.classify(title, text)
         region = regions_mod.classify_region(title, text)
-        ct = ct_mod.classify_content_type(title, text)
-        is_price = ct["content_type"] == "price_move"
-        passes = (v["verdict"] == editorial.KEEP) or is_price
-        content = ct["content_type"]
-        if content == "other" and passes:
-            content = "breaking"
+        cat = categorize(title, text)
 
         rec = {**base, "verdict": v["verdict"], "axis": v["axis"], "reason": v["reason"],
                "matched": v["matched"], "regions": region["regions"],
-               "primary_region": region["primary"], "content_type": content,
+               "primary_region": region["primary"], "category": cat["category"],
                "fulltext": bool(body)}
 
-        # 5. Only survived as editorial REVIEW (ambiguous) → review view.
-        if not passes:
+        # 4. Only survived as editorial REVIEW (ambiguous) → review view.
+        if v["verdict"] != editorial.KEEP:
             review.append(rec)
             continue
-        # 6. Balanced higher-signal gate. A concrete event (already editorial-gated) from a
+        # 5. Balanced higher-signal gate. A concrete event (already editorial-gated) from a
         #    curated Tier-A/B publisher is signal; the noisy Tier-C broad web searches must
         #    corroborate (≥2 sources) or be materially large. Region is a filter, not a gate
-        #    (global crypto news often has no region); price-moves are concrete by construction.
-        high_signal = (tier in ("A", "B")) or (rec["consensus"] >= 2) or (rec["financial"] >= 40) or is_price
+        #    (global crypto news often has no region).
+        high_signal = (tier in ("A", "B")) or (rec["consensus"] >= 2) or (rec["financial"] >= 40)
         if not high_signal:
             review.append(rec)
             continue
@@ -233,7 +221,7 @@ def main() -> int:
         if is_dup:
             skipped_dup += 1
             continue
-        dedup.record(title=title, url=link, category=content, priority=tier)
+        dedup.record(title=title, url=link, category=rec["category"], priority=tier)
         kept.append(rec)
 
     dedup.close()
@@ -246,20 +234,19 @@ def main() -> int:
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total": len(kept) + len(killed) + len(review),
         "keep": len(kept), "kill": len(killed), "review": len(review),
-        "deduped": skipped_dup, "below_score": skipped_low, "slop": n_slop,
+        "deduped": skipped_dup, "below_score": skipped_low,
         "fulltext_fetched": n_fulltext,
     }
     (OUT_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
 
     print(f"\n✅ KEEP {len(kept)}   🗑️ KILL {len(killed)}   🔎 REVIEW {len(review)}"
-          f"   (deduped {skipped_dup}, below score {skipped_low}, slop {n_slop}, "
-          f"full-text {n_fulltext})")
+          f"   (deduped {skipped_dup}, below score {skipped_low}, full-text {n_fulltext})")
     print(f"📄 {OUT_DIR}/  — 0 paid/LLM calls, Telegram excluded, production untouched")
     if kept:
         print("\nTop kept:")
         for r in kept[:10]:
             reg = ",".join(r["regions"]) or "—"
-            print(f"  [{r['score']:>3}] {r['content_type']:<15} {reg:<10} {r['title'][:60]}")
+            print(f"  [{r['score']:>3}] {r['category']:<13} {reg:<10} {r['title'][:60]}")
     return 0
 
 
