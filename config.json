@@ -335,7 +335,7 @@
         "note": "Telegram gets all articles (score >= 35). X posts immediately when ranking agent flags post_to_x=true."
     },
     "tree": {
-        "enabled": false,
+        "enabled": true,
         "limit": 300,
         "note": "TreeOfAlpha consensus merge in prepare_alerts_v2.py. Set enabled=true to fold the Tree firehose into the v2 gate (Tree corroboration of an RSS story bumps consensus -> auto-keep). Public REST needs no key; TREE_API_KEY (env) is only for the real-time WebSocket upgrade."
     },
