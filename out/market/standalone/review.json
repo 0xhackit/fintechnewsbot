@@ -515,35 +515,6 @@
     "origin": "tree"
   },
   {
-    "id": "acda2821d8767174f86521159417d9b0543388dc",
-    "title": "🚨 DAILY ALPHA DROP: August 19, 2026 Revenue. Payments rails. Bank adoption. 👇 🔥 $PUMP : $11.52M in weekly revenue and its first golden cross. Buybacks and burns total 429M. 🟣 $POL : Polygon joined the Bank of England’s D",
-    "link": "https://x.com/_WOO_X/status/2089926671738851797",
-    "score": 44,
-    "snippet": "🚨 DAILY ALPHA DROP: August 19, 2026 Revenue. Payments rails. Bank adoption. 👇 🔥 $PUMP : $11.52M in weekly revenue and its first golden cross. Buybacks and burns total 429M. 🟣 $POL : Polygon joined the Bank of England’s Digital Pound Lab as it expands business stablecoin payments. 🏦 $XRP : Ripple lan",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:_woo_x",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T04:05:22.987000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('adoption')",
-    "matched": "adoption",
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
     "id": "aea34d20389165c3e81ebd2b8cec98eeac17d26b",
     "title": "MARKETS: Bitcoin jumped 6% above $68,000 after the Treasury doubled the size of its bond buyback operations, a move investors viewed as supportive of market liquidity. @HeleneBraunn & @OKnightCrypto report.",
     "link": "https://x.com/CoinDesk/status/2090118564367798527",
@@ -718,7 +689,8 @@
     "score": 40,
     "snippet": "'Largely Mechanical'—Hyperliquid's $589M Cliff Lands Before Fed Week",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "other",
@@ -729,11 +701,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T12:46:00.478000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -752,31 +724,6 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T12:34:34.670000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
-    "id": "14d4ace92df070f7e0867868e8e6cd886c184922",
-    "title": "THE BLOCK: Institutional crypto financing firm Antalpha reported a $12.5 million net loss for the second quarter as revenue fell 28% year over year to $12.2 million. The firm said its results were hit by fair-value losse",
-    "link": "https://x.com/TheBlockCo/status/2090044202243813444",
-    "score": 40,
-    "snippet": "THE BLOCK: Institutional crypto financing firm Antalpha reported a $12.5 million net loss for the second quarter as revenue fell 28% year over year to $12.2 million. The firm said its results were hit by fair-value losses on tokenized gold holdings.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T11:52:23.999000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -866,6 +813,31 @@
     "reason": "concrete market event ('launches')",
     "matched": "launches",
     "fulltext": true,
+    "origin": "tree"
+  },
+  {
+    "id": "7fb312f6ce14dfea4d21a9dd1cee6f2e5c4af1cb",
+    "title": "Staking is live on Launchpad https://launch.o1.exchange on @base.",
+    "link": "https://x.com/o1_exchange/status/2090133263545180316",
+    "score": 35,
+    "snippet": "Staking is live on Launchpad https://launch.o1.exchange on @base.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:o1_exchange",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T17:46:17.959000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -1429,34 +1401,6 @@
     "feed_name": "tree:business times sg",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T06:08:40.951000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree"
-  },
-  {
-    "id": "e6e27b07d4a5d06c37d72c2adce97865eb0fe9e1",
-    "title": "Vietnam rushes to pilot regulated crypto market as FATF pressure builds",
-    "link": "https://www.businesstimes.com.sg/international/vietnam-rushes-pilot-regulated-crypto-market-fatf-pressure-builds",
-    "score": 35,
-    "snippet": "Vietnam rushes to pilot regulated crypto market as FATF pressure builds",
-    "regions": [
-      "EU",
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:business times sg",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T04:24:19.624000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
