@@ -62,12 +62,14 @@ jobs:
         run: |
           python run.py
 
-      - name: Prepare alert drafts (with AI filter)
+      - name: Prepare alert drafts (v2 deterministic gate — $0 LLM)
         if: steps.check_config.outputs.auto_approve == 'true'
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          python scripts/run_alerts.py --mode prepare
+          # Editorial + region + section + source-tier gate (src/pipeline_v2).
+          # KEEP → out/alerts_drafts.json (post_to_x set on the high-quality subset);
+          # REVIEW → out/market/standalone/review.json (admin decides); KILLED → dropped.
+          # Deterministic — no ANTHROPIC_API_KEY / ranking agent needed.
+          python scripts/prepare_alerts_v2.py
 
       - name: Commit dedup state (pre-post)
         if: steps.check_config.outputs.auto_approve == 'true'
@@ -136,6 +138,8 @@ jobs:
           git config user.email "fintech-news-bot@users.noreply.github.com"
 
           git add state/seen_alerts.json state/posted_articles.db state/x_daily_count.json out/items_last24h.json out/alerts_drafts.json out/feed.json filtered_log.txt || true
+          # v2 review-queue report (kept/review/killed) — powers the admin Review queue.
+          git add out/market/standalone/kept.json out/market/standalone/review.json out/market/standalone/killed.json out/market/standalone/meta.json || true
           git diff --cached --quiet && echo "No state changes" && exit 0
           git commit -m "chore: update alerts state (auto-published)"
           git pull --rebase origin main --quiet || true

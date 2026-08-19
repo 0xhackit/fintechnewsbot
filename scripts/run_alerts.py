@@ -461,8 +461,16 @@ def main():
     if len(seen_titles) > 500:
         seen_titles = seen_titles[-500:]
 
+    # Prune seen IDs to last 1000 to prevent unbounded growth.
+    # Without pruning, this set grows forever and silently blocks new articles
+    # whose SHA1(title|url) collides with any historical entry.
+    seen_list = sorted(seen)
+    if len(seen_list) > 1000:
+        seen_list = seen_list[-1000:]
+        print(f"✂️  Pruned seen IDs: {len(seen)} → {len(seen_list)}")
+
     # Save state
-    state["seen"] = sorted(seen)
+    state["seen"] = seen_list
     state["seen_titles"] = seen_titles
     save_json(STATE_PATH, state)
     print(f"💾 Updated state: {STATE_PATH} (seen={len(state['seen'])}, seen_titles={len(seen_titles)})")

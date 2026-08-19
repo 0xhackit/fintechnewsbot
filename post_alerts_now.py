@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from telegram import Bot
 from feed_writer import write_entries_to_feed
+from src.categorize import categorize
 
 try:
     import requests as _requests
@@ -185,6 +186,8 @@ async def post_drafts():
                 "matched_topics": draft.get("matched_topics", []),
                 "ai_category": draft.get("ai_category", ""),
                 "ai_priority": draft.get("ai_priority", ""),
+                # Site section: regulation | product | fundraising | other
+                "category": categorize(title, draft.get("snippet", ""))["category"],
                 "posted_at": posted_at,
                 "source": draft.get("source", ""),
                 "feed_name": draft.get("feed_name", ""),

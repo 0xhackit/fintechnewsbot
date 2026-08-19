@@ -133,6 +133,20 @@ class DedupAgent:
             "CREATE INDEX IF NOT EXISTS idx_url_hash ON posted_articles(url_hash)"
         )
         self.conn.commit()
+        self._prune_old_rows()
+
+    def _prune_old_rows(self, keep: int = 500):
+        """Delete rows beyond the most recent `keep` to prevent unbounded DB growth."""
+        count = self.conn.execute("SELECT COUNT(*) FROM posted_articles").fetchone()[0]
+        if count > keep:
+            self.conn.execute(
+                "DELETE FROM posted_articles WHERE id NOT IN "
+                "(SELECT id FROM posted_articles ORDER BY id DESC LIMIT ?)",
+                (keep,),
+            )
+            self.conn.commit()
+            pruned = count - keep
+            logger.info(f"Pruned {pruned} old rows from posted_articles (kept {keep})")
 
     def _url_hash(self, url: str) -> str:
         canonical = canonicalize_url((url or "").strip())
@@ -203,9 +217,14 @@ class DedupAgent:
 
             # (D) Shared rare token + moderate Jaccard (catches unknown entities like "Midas")
             # Rare = not a stopword, not generic news vocabulary, length >= 4
+            # Requires 2+ rare shared tokens OR higher Jaccard (0.30) for a single token
+            # to avoid false positives from one shared company name in different stories.
             shared_tokens = current_tokens & seen_tokens
             rare_shared = shared_tokens - _GENERIC_NEWS_WORDS
-            if rare_shared and jac_sim >= 0.20:
+            if len(rare_shared) >= 2 and jac_sim >= 0.20:
+                sample = sorted(rare_shared)[0]
+                return True, f"shared-token match ({sample}+, jac={jac_sim:.2f}): \"{seen_title[:80]}\""
+            if len(rare_shared) == 1 and jac_sim >= 0.30:
                 sample = sorted(rare_shared)[0]
                 return True, f"shared-token match ({sample}, jac={jac_sim:.2f}): \"{seen_title[:80]}\""
 

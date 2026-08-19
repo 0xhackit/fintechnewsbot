@@ -1,3 +1,5 @@
+import type { Category } from "./categories";
+
 export interface FeedEntry {
   id: string;
   title: string;
@@ -7,6 +9,8 @@ export interface FeedEntry {
   matched_topics: string[];
   ai_category?: string;
   ai_priority?: string;
+  /** Site section, stamped by src/categorize.py. See lib/categories.ts. */
+  category?: Category;
   posted_at: string;
   source?: string;
   feed_name?: string;

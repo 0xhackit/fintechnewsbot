@@ -3,6 +3,13 @@
 import { useState, useEffect, useCallback, useMemo } from "react";
 import PostItem from "./PostItem";
 import { FeedEntry } from "@/lib/feed";
+import {
+  Category,
+  CATEGORY_LABELS,
+  CATEGORY_ORDER,
+  isHighSignal,
+  resolveCategory,
+} from "@/lib/categories";
 
 // ── Dedup helpers (same logic as lib/feed.ts) ──
 
@@ -69,7 +76,34 @@ function relativeTimeShort(iso: string): string {
 
 // ── Component ──
 
-type Tab = "latest" | "highlights";
+type Tab = "latest" | Category | "highlights";
+
+const EMPTY_COPY: Record<string, { title: string; sub: string }> = {
+  latest: {
+    title: "No high-signal news yet",
+    sub: "Latest News shows product updates and fundraising only. The feed updates every 5 minutes.",
+  },
+  regulation: {
+    title: "No regulatory news yet",
+    sub: "Rule-making, enforcement, licensing and political coverage lands here.",
+  },
+  product: {
+    title: "No product updates yet",
+    sub: "Launches, go-lives, partnerships and integrations land here.",
+  },
+  fundraising: {
+    title: "No fundraising news yet",
+    sub: "Funding rounds, raises and IPOs land here.",
+  },
+  other: {
+    title: "Nothing here yet",
+    sub: "M&A, personnel moves and market statistics land here.",
+  },
+  highlights: {
+    title: "No highlights yet",
+    sub: "Top articles from the past 7 days will appear here.",
+  },
+};
 
 interface FeedTabsProps {
   initialEntries: FeedEntry[];
@@ -79,7 +113,6 @@ interface FeedTabsProps {
 
 export default function FeedTabs({
   initialEntries,
-  initialHighlights,
   updatedAt,
 }: FeedTabsProps) {
   const [tab, setTab] = useState<Tab>("latest");
@@ -106,105 +139,133 @@ export default function FeedTabs({
     return () => clearInterval(interval);
   }, [refreshFeed]);
 
-  // Compute highlights client-side from current entries
-  const highlights = useMemo(
-    () => computeHighlights(entries, 10),
-    [entries]
+  // Bucket every entry into its section once per feed change.
+  const byCategory = useMemo(() => {
+    const buckets: Record<Category, FeedEntry[]> = {
+      regulation: [],
+      product: [],
+      fundraising: [],
+      other: [],
+    };
+    for (const entry of entries) {
+      buckets[resolveCategory(entry)].push(entry);
+    }
+    return buckets;
+  }, [entries]);
+
+  // Latest News is high-signal only: product updates + fundraising.
+  const latest = useMemo(
+    () =>
+      CATEGORY_ORDER.filter(isHighSignal)
+        .flatMap((c) => byCategory[c])
+        .sort(
+          (a, b) =>
+            new Date(b.posted_at).getTime() - new Date(a.posted_at).getTime()
+        ),
+    [byCategory]
   );
+
+  const highlights = useMemo(() => computeHighlights(entries, 10), [entries]);
+
+  const visible: FeedEntry[] =
+    tab === "latest"
+      ? latest
+      : tab === "highlights"
+      ? highlights
+      : byCategory[tab];
+
+  const tabs: { key: Tab; label: string; count: number }[] = [
+    { key: "latest", label: "Latest News", count: latest.length },
+    ...CATEGORY_ORDER.map((c) => ({
+      key: c as Tab,
+      label: CATEGORY_LABELS[c],
+      count: byCategory[c].length,
+    })),
+    { key: "highlights", label: "Weekly Highlights", count: highlights.length },
+  ];
+
+  const empty = EMPTY_COPY[tab] ?? EMPTY_COPY.other;
 
   return (
     <>
       {/* Tab bar */}
       <div className="feed-tabs">
-        <button
-          className={`feed-tab ${tab === "latest" ? "feed-tab-active" : ""}`}
-          onClick={() => setTab("latest")}
-        >
-          Latest News
-        </button>
-        <button
-          className={`feed-tab ${tab === "highlights" ? "feed-tab-active" : ""}`}
-          onClick={() => setTab("highlights")}
-        >
-          Weekly Highlights
-        </button>
+        <div className="feed-tabs-scroll">
+          {tabs.map(({ key, label, count }) => (
+            <button
+              key={key}
+              className={`feed-tab ${tab === key ? "feed-tab-active" : ""}`}
+              onClick={() => setTab(key)}
+            >
+              {label}
+              <span className="feed-tab-count">{count}</span>
+            </button>
+          ))}
+        </div>
         <span className="feed-updated" title={lastUpdated}>
           Updated {relativeTimeShort(lastUpdated)}
         </span>
       </div>
 
-      {/* Latest News tab */}
-      {tab === "latest" && (
-        <>
-          {entries.length === 0 ? (
-            <div className="empty-state">
-              <p>No articles yet</p>
-              <p>The feed updates every 5 minutes.</p>
-            </div>
-          ) : (
-            <div className="news-feed">
-              {entries.map((entry) => (
-                <PostItem key={entry.id} entry={entry} />
-              ))}
-            </div>
-          )}
-        </>
-      )}
-
-      {/* Weekly Highlights tab */}
-      {tab === "highlights" && (
-        <>
-          {highlights.length === 0 ? (
-            <div className="empty-state">
-              <p>No highlights yet</p>
-              <p>Top articles from the past 7 days will appear here.</p>
-            </div>
-          ) : (
-            <div className="news-feed">
-              {highlights.map((entry, i) => (
-                <article key={entry.id} className="post-item highlight-item">
-                  <div className="highlight-rank-badge">{i + 1}</div>
-                  <div className="post-content">
-                    <a
-                      href={entry.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="post-title-link"
-                    >
-                      <h3 className="post-title">{entry.title}</h3>
-                    </a>
-                    {entry.snippet && (
-                      <p className="post-snippet">{entry.snippet}</p>
+      {visible.length === 0 ? (
+        <div className="empty-state">
+          <p>{empty.title}</p>
+          <p>{empty.sub}</p>
+        </div>
+      ) : tab === "highlights" ? (
+        <div className="news-feed">
+          {visible.map((entry, i) => (
+            <article key={entry.id} className="post-item highlight-item">
+              <div className="highlight-rank-badge">{i + 1}</div>
+              <div className="post-content">
+                <a
+                  href={entry.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="post-title-link"
+                >
+                  <h3 className="post-title">{entry.title}</h3>
+                </a>
+                {entry.snippet && (
+                  <p className="post-snippet">{entry.snippet}</p>
+                )}
+                <div className="post-meta">
+                  <span className="highlight-score">Score: {entry.score}</span>
+                  <span className="post-meta-dot">&middot;</span>
+                  <span className="post-time">
+                    {relativeTimeShort(entry.posted_at)}
+                  </span>
+                  <span className="post-meta-dot">&middot;</span>
+                  <span className="highlight-category">
+                    {CATEGORY_LABELS[resolveCategory(entry)]}
+                  </span>
+                  {entry.tweet_url &&
+                    entry.tweet_url.startsWith("https://x.com/") && (
+                      <a
+                        href={entry.tweet_url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="post-tweet-link"
+                      >
+                        View on X
+                      </a>
                     )}
-                    <div className="post-meta">
-                      <span className="highlight-score">Score: {entry.score}</span>
-                      <span className="post-meta-dot">&middot;</span>
-                      <span className="post-time">
-                        {relativeTimeShort(entry.posted_at)}
-                      </span>
-                      {entry.ai_category && (
-                        <>
-                          <span className="post-meta-dot">&middot;</span>
-                          <span className="highlight-category">{entry.ai_category}</span>
-                        </>
-                      )}
-                      {entry.tweet_url && entry.tweet_url.startsWith("https://x.com/") && (
-                        <a
-                          href={entry.tweet_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="post-tweet-link"
-                        >
-                          View on X
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          )}
-        </>
+                </div>
+              </div>
+            </article>
+          ))}
+        </div>
+      ) : (
+        <div className="news-feed">
+          {visible.map((entry) => (
+            <PostItem
+              key={entry.id}
+              entry={entry}
+              // Inside a single-category tab the badge is redundant.
+              showCategory={tab === "latest"}
+            />
+          ))}
+        </div>
       )}
     </>
   );

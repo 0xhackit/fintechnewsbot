@@ -24,6 +24,7 @@ _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 from feed_writer import write_entries_to_feed
+from src.categorize import categorize
 from src.utils import canonicalize_url, normalize_title, tokenize_title, jaccard_similarity, extract_entities
 
 
@@ -628,6 +629,10 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
                     "matched_topics": draft.get("matched_topics", []),
                     "ai_category": draft.get("ai_category", ""),
                     "ai_priority": draft.get("ai_priority", ""),
+                    # Site section: regulation | product | fundraising | other
+                    "category": categorize(
+                        draft.get("title", ""), draft.get("snippet", "")
+                    )["category"],
                     "posted_at": now_iso,
                     "source": draft.get("source", ""),
                     "feed_name": draft.get("feed_name", ""),

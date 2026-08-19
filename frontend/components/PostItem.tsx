@@ -1,4 +1,5 @@
 import { FeedEntry } from "@/lib/feed";
+import { CATEGORY_LABELS, resolveCategory } from "@/lib/categories";
 
 function relativeTime(isoString: string): string {
   if (!isoString) return "";
@@ -79,9 +80,16 @@ function displaySource(feedName: string, source: string, link: string): string {
   return "";
 }
 
-export default function PostItem({ entry }: { entry: FeedEntry }) {
+export default function PostItem({
+  entry,
+  showCategory = false,
+}: {
+  entry: FeedEntry;
+  showCategory?: boolean;
+}) {
   const source = displaySource(entry.feed_name || "", entry.source || "", entry.link || "");
   const hasRealTweet = entry.tweet_url && entry.tweet_url.startsWith("https://x.com/");
+  const category = resolveCategory(entry);
 
   return (
     <article className="post-item">
@@ -93,6 +101,11 @@ export default function PostItem({ entry }: { entry: FeedEntry }) {
           <p className="post-snippet">{entry.snippet}</p>
         )}
         <div className="post-meta">
+          {showCategory && (
+            <span className={`post-category post-category-${category}`}>
+              {CATEGORY_LABELS[category]}
+            </span>
+          )}
           {source && <span className="post-source">{source}</span>}
           {source && <span className="post-meta-dot">&middot;</span>}
           <span className="post-time">{relativeTime(entry.posted_at)}</span>

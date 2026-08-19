@@ -352,7 +352,12 @@ def extract_entities(title: str) -> set[str]:
     for entity in sorted(all_entities, key=len, reverse=True):
         # Use word boundary to avoid substring matches (e.g. "ing" in "enabling")
         if re.search(rf'\b{re.escape(entity)}\b', t):
-            found.add(entity.split()[0])
+            key = entity.split()[0]
+            # Skip very short entity keys (e.g. "ing" from ING bank) — they cause
+            # false positive dedup matches across unrelated articles
+            if len(key) < 4:
+                continue
+            found.add(key)
 
     # Method 2: Dynamic proper noun extraction (catches ANY multi-word institution)
     for noun_phrase in extract_proper_nouns(title):
