@@ -24,7 +24,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -51,7 +51,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -61,7 +61,8 @@
     "score": 90,
     "snippet": "🚨 BREAKING: Injective is now an official SEC-registered transfer agent! With this move, Injective becomes the first layer 1 blockchain to possess the RWA infrastructure and regulatory readiness needed to accelerate tokenization to new heights. Injective has rapidly expanded its tokenization efforts ",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "regulation",
@@ -76,9 +77,9 @@
     "published_at": "2026-08-19T14:03:39.426000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('expanded its to')",
-    "matched": "expanded its to",
-    "fulltext": false,
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -105,7 +106,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -133,7 +134,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -160,7 +161,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -187,7 +188,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -197,6 +198,7 @@
     "score": 79,
     "snippet": "The digital asset platform announced its appointment as an authorized Credit Representative in Australia, launching its regulated crypto-backed Credit Lines under the National Consumer Credit Protection Act. Nexo Australia is a member of the Australian Financial Complaints Authority (AFCA). Alongsid",
     "regions": [
+      "US",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -214,7 +216,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -237,7 +239,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -260,7 +262,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -283,7 +285,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -308,84 +310,10 @@
     "published_at": "2026-08-19T11:03:40.064000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('raises $275 million')",
-    "matched": "raises $275 million",
-    "fulltext": false,
+    "reason": "concrete market event ('acquisition')",
+    "matched": "acquisition",
+    "fulltext": true,
     "origin": "tree"
-  },
-  {
-    "id": "7d5e8d3671747a1cd3b97f7eca3b24ff6a8fb7a3",
-    "title": "THE BLOCK: Yield Basis markets built around Curve Finance pool technology generated $1.97 billion in trading volume in the first half of 2026, accounting for about 8% of Curve's total volume. The markets generated $10.98",
-    "link": "https://x.com/TheBlockCo/status/2090059117612380344",
-    "score": 70,
-    "snippet": "THE BLOCK: Yield Basis markets built around Curve Finance pool technology generated $1.97 billion in trading volume in the first half of 2026, accounting for about 8% of Curve's total volume. The markets generated $10.98 million in LP fees on an average net TVL of roughly $165.5 million.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T12:51:40.253000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
-    "id": "422cc6b9f5a5016540accdf9aa6a5b1d94725869",
-    "title": "THE BLOCK: N3XT founder and former Signature Bank chairman Scott Shay says big banks could use crypto to take market share from mid-sized and smaller banks. @SALTConference Shay said Signet was transferring $1 trillion b",
-    "link": "https://x.com/TheBlockCo/status/2090037377934987645",
-    "score": 70,
-    "snippet": "THE BLOCK: N3XT founder and former Signature Bank chairman Scott Shay says big banks could use crypto to take market share from mid-sized and smaller banks. @SALTConference Shay said Signet was transferring $1 trillion by the end of 2022. His new venture, N3XT, is expanding cross-border dollar payme",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T11:25:17.087000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
-    "id": "61e62322dbaafcadc0c3c4c3e687209095f1b1a8",
-    "title": "HSBC, Standard Chartered  make first live tokenized deposit tranfer via Swift blockchain",
-    "link": "https://www.ledgerinsights.com/hsbc-standard-chartered-make-first-live-tokenized-deposit-tranfer-via-swift-blockchain/",
-    "score": 69,
-    "snippet": "HSBC and Standard Chartered have announced the inaugural live tokenized deposit transaction using Swift’s blockchain-based ledger. Currently the vast majority of tokenized deposits are executed on single bank blockchains and hence only support transactions between customers of the same bank. Swift i",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "ledger_insights",
-    "source": "Google News RSS",
-    "published_at": "2026-08-19T09:33:16+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss+tree"
   },
   {
     "id": "ea8d3dd3c732bf4faa9b740e1c365f4be948c5f3",
@@ -407,11 +335,11 @@
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T14:22:18.899000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -420,9 +348,11 @@
     "link": "https://x.com/centrifuge/status/2090098212518715550",
     "score": 55,
     "snippet": "Exiting a tokenized fund no longer means waiting for the fund’s settlement window before capital can move onchain. Market makers can take the position immediately, while the fund’s redemption process runs as usual. @Symbioticfi’s Liquid Lane is now integrated with Centrifuge.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -437,7 +367,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integrated')",
     "matched": "integrated",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -464,7 +394,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -491,57 +421,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
-    "id": "c471a09f3e79916cf7f85e9aa3781b0d6bfe314a",
-    "title": "Injective receives SEC transfer agent registration for institutional services arm",
-    "link": "https://cointelegraph.com/news/injective-sec-transfer-agent-tokenized-securities-recordkeeping?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 50,
-    "snippet": "Injective’s affiliated entity can now maintain securities ownership records, adding regulated market infrastructure to its growing push into tokenized assets.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-08-19T15:19:21+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss+tree"
-  },
-  {
-    "id": "56aece6125059ad075c86817686cef9d060fdacc",
-    "title": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
-    "link": "https://decrypt.co/375955",
-    "score": 50,
-    "snippet": "Bitcoin Surges Toward $70K as $1.14 Billion in Crypto Shorts Get Rekt in an Hour",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-19T16:10:00.349000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -567,7 +447,35 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
+    "origin": "tree"
+  },
+  {
+    "id": "13ad7253918a4e1618b19efc5c012d9342a2fc04",
+    "title": "Jeonbuk Bank Teams Up with Ripple to Support Cross-Border Payments in South Koreahttps",
+    "link": "https://www.crowdfundinsider.com/2026/08/298820-jeonbuk-bank-teams-up-with-ripple-to-support-cross-border-payments-in-south-korea",
+    "score": 45,
+    "snippet": "Jeonbuk Bank Teams Up with Ripple to Support Cross-Border Payments in South Koreahttps",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-19T16:13:35.682000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('roll out')",
+    "matched": "roll out",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -576,8 +484,10 @@
     "link": "https://www.canton.network/canton-network-press-releases/ledger-canton-coin-privacy-enabled-assets",
     "score": 45,
     "snippet": "Ledger Introduces Support for Canton Coin and Privacy-Enabled Assets on Canton Network",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -590,9 +500,9 @@
     "published_at": "2026-08-19T13:40:27.179000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('introduces')",
-    "matched": "introduces",
-    "fulltext": false,
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -617,35 +527,10 @@
     "published_at": "2026-08-19T11:19:06.027000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('raises $')",
-    "matched": "raises $",
-    "fulltext": false,
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree"
-  },
-  {
-    "id": "6f1726452dbd56e24fb036f6bdd59b93946d1e7a",
-    "title": "Wyoming joins $15 billion LayerZero exodus with state stablecoin move",
-    "link": "https://www.coindesk.com/business/2026/08/18/wyoming-joins-usd15-billion-layerzero-exodus-with-state-stablecoin-move",
-    "score": 44,
-    "snippet": "",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "coindesk",
-    "source": "Google News RSS",
-    "published_at": "2026-08-18T18:57:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss"
   },
   {
     "id": "bbcce4ee0642c13317d1e9878b7f3ca175921a9d",
@@ -653,8 +538,10 @@
     "link": "https://x.com/AlchemyPay/status/2090016040713613582",
     "score": 44,
     "snippet": "Alchemy Pay 🤝 @AEON_Community #AlchemyPay now supports $AEON on its fiat-crypto ramp, enabling users across 173 countries to seamlessly buy $AEON through Visa, Mastercard, Apple Pay, Google Pay, local bank transfers, and mobile wallets. Bringing the AI economy with fewer barriers closer to everyone.",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -665,9 +552,9 @@
     "published_at": "2026-08-19T10:00:29.791000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('buy')",
-    "matched": "buy",
-    "fulltext": false,
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -686,11 +573,11 @@
     "feed_name": "tree:x:kiteaifdn",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T09:21:46.740000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('selected')",
+    "matched": "selected",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -714,9 +601,9 @@
     "published_at": "2026-08-19T09:00:31.723000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -743,9 +630,34 @@
     "published_at": "2026-08-19T04:05:22.987000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('adoption')",
-    "matched": "adoption",
-    "fulltext": false,
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
+    "origin": "tree"
+  },
+  {
+    "id": "b3f47a4fa3bc3dffa74ce055fc91900009559611",
+    "title": "JUST IN: @Kalshi filed with the CFTC for a copper perpetual futures contract priced by Pyth. https://www.theblock.co/news/business/2026-08-18-kalshi-files-perps-equity-index-copper-412176",
+    "link": "https://x.com/PythNetwork/status/2090114836361318452",
+    "score": 40,
+    "snippet": "JUST IN: @Kalshi filed with the CFTC for a copper perpetual futures contract priced by Pyth. https://www.theblock.co/news/business/2026-08-18-kalshi-files-perps-equity-index-copper-412176",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:pythnetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-19T16:33:04.432000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -768,7 +680,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -787,11 +699,11 @@
     "feed_name": "tree:sxt",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T16:00:45.995000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('back')",
+    "matched": "back",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -814,7 +726,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -824,7 +736,8 @@
     "score": 40,
     "snippet": "Injective is Now an Official SEC Registered Transfer Agent",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "regulation",
@@ -835,11 +748,11 @@
     "feed_name": "tree:inj",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T14:00:15.250000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -848,8 +761,10 @@
     "link": "https://decrypt.co/375935",
     "score": 40,
     "snippet": "Chinese InsurTech Firm Zhibao Adds 2,380 Bitcoin in $154.7M Treasury Pivot",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -858,11 +773,11 @@
     "feed_name": "tree:decrypt",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T13:31:02.070000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -872,7 +787,8 @@
     "score": 40,
     "snippet": "'Largely Mechanical'—Hyperliquid's $589M Cliff Lands Before Fed Week",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "other",
@@ -883,11 +799,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T12:46:00.478000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -906,11 +822,11 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T12:34:34.670000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -931,11 +847,11 @@
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T11:52:23.999000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -960,34 +876,8 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
-  },
-  {
-    "id": "b32e38929bd2136fce9f9de61a79a97598b39c44",
-    "title": "AWS Launches AgentCore Payments: AI Agents Can Now Pay With USDC - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmdDdwMWpGT1ZWTDhOTVQwbjVUMG5TRXVaY1pocVdnTXBTYmxLYnRlNTRqQ1NodWk3djU1Y2M5LXFXWFFSM0V0YjdfVmRfSG1YRkhVa0RyeFA3c2x1NkF1TV9fVG51aWhIc3IzakdxQ21aNG8?oc=5",
-    "score": 39,
-    "snippet": "AWS Launches AgentCore Payments: AI Agents Can Now Pay With USDC Bitcoin World",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-08-19T08:45:11+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss"
   },
   {
     "id": "4e8542a2db82ecf473d76566d27d95659d750008",
@@ -1011,11 +901,11 @@
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T09:41:57.808000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1025,7 +915,8 @@
     "score": 39,
     "snippet": "Kraken launches US debit card with bitcoin rewards",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "product",
@@ -1042,7 +933,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1061,11 +952,11 @@
     "feed_name": "tree:allo",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T16:06:30.485000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1092,7 +983,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1118,7 +1009,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1127,8 +1018,10 @@
     "link": "https://www.certik.com/blog/aptos-confidential-apt",
     "score": 35,
     "snippet": "Aptos Confidential APT: Verifiable Encrypted Transfers on Mainnet",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -1141,7 +1034,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1150,8 +1043,12 @@
     "link": "https://x.com/citrea_xyz/status/2090092338999599598",
     "score": 35,
     "snippet": "ctUSD MoonPay On-Ramps/Off-Ramps are Live Today, @moonpay on-ramps and off-ramps officially went live for ctUSD, providing seamless banking rails between on-chain collateral and off-chain fiat systems for the Bitcoin ecosystem. In partnership with MoonPay and M0, Citrea launched ctUSD to establish f",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US",
+      "APAC",
+      "LatAm"
+    ],
+    "primary_region": "APAC",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -1167,7 +1064,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1186,11 +1083,11 @@
     "feed_name": "tree:x:solsticefi",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T14:59:39.375000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('investment')",
+    "matched": "investment",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1216,7 +1113,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1235,11 +1132,11 @@
     "feed_name": "tree:x:bancor",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T13:56:00.805000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1262,7 +1159,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1288,7 +1185,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1307,11 +1204,11 @@
     "feed_name": "tree:twt",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T13:06:08.993000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('to buy')",
+    "matched": "to buy",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1330,11 +1227,11 @@
     "feed_name": "tree:x:berachain",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T13:03:02.682000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('rebrand')",
+    "matched": "rebrand",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1353,11 +1250,11 @@
     "feed_name": "tree:x:hedera",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T13:03:00.577000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1382,7 +1279,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1407,7 +1304,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1426,11 +1323,11 @@
     "feed_name": "tree:x:grvt_io",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T12:20:00.784000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1453,9 +1350,9 @@
     "published_at": "2026-08-19T10:42:21.075000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('goes live')",
-    "matched": "goes live",
-    "fulltext": false,
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1480,7 +1377,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1501,9 +1398,9 @@
     "published_at": "2026-08-19T09:59:20.142000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('integrates')",
-    "matched": "integrates",
-    "fulltext": false,
+    "reason": "concrete market event ('to buy')",
+    "matched": "to buy",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1512,8 +1409,10 @@
     "link": "https://decrypt.co/375926",
     "score": 35,
     "snippet": "Winklevoss-Backed Cypherpunk Launches 'World's Largest' Zcash Mining Fleet",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -1528,7 +1427,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1538,6 +1437,7 @@
     "score": 35,
     "snippet": "Vietnam rushes to pilot regulated crypto market as pressure from global watchdog builds",
     "regions": [
+      "EU",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -1551,11 +1451,11 @@
     "feed_name": "tree:business times sg",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T06:08:40.951000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1565,6 +1465,7 @@
     "score": 35,
     "snippet": "Vietnam rushes to pilot regulated crypto market as FATF pressure builds",
     "regions": [
+      "EU",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -1578,11 +1479,11 @@
     "feed_name": "tree:business times sg",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T04:24:19.624000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1591,8 +1492,10 @@
     "link": "https://x.com/Stable/status/2089914914823622941",
     "score": 35,
     "snippet": "Idle USDT can keep earning, even between trades. With the StableEarn SDK integrated into @coinsdot, users can put deposits to work while keeping funds ready for the next opportunity. Bringing yield closer to where USDT is being used.",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -1605,9 +1508,9 @@
     "published_at": "2026-08-19T03:18:39.564000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('integrated')",
-    "matched": "integrated",
-    "fulltext": false,
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -1626,11 +1529,11 @@
     "feed_name": "tree:x:swarms_corp",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T03:03:33.456000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now live')",
+    "matched": "now live",
+    "fulltext": true,
     "origin": "tree"
   }
 ]
