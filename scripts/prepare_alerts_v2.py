@@ -34,8 +34,9 @@ _PROJECT_ROOT = Path(__file__).resolve().parent.parent
 if str(_PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(_PROJECT_ROOT))
 
+from src.app import load_config  # noqa: E402
 from src.dedup_agent import DedupAgent  # noqa: E402
-from src import pipeline_v2  # noqa: E402
+from src import pipeline_v2, fetch_tree  # noqa: E402
 
 ITEMS_PATH = _PROJECT_ROOT / "out" / "items_last24h.json"
 DRAFTS_PATH = _PROJECT_ROOT / "out" / "alerts_drafts.json"
@@ -82,6 +83,8 @@ def main() -> int:
                     help="compute + write a preview; do NOT write drafts or touch dedup state")
     ap.add_argument("--no-fulltext", action="store_true",
                     help="skip Jina full-text enrichment (classify on title+snippet)")
+    ap.add_argument("--tree", action="store_true",
+                    help="force-enable the TreeOfAlpha merge for this run (overrides config.tree.enabled)")
     args = ap.parse_args()
     use_fulltext = not args.no_fulltext
 
@@ -94,6 +97,28 @@ def main() -> int:
     tiers, default_tier = load_sources()
     blocklist = _load_json(BLOCKLIST_PATH,
                            {"blocked_urls": [], "blocked_keywords": [], "blocked_sources": []})
+
+    # ── TreeOfAlpha consensus merge (config: tree.enabled) ──────────────────
+    # Fetch the Tree firehose, run it through the same relevance+scoring, then
+    # corroborate RSS stories with it (a Tree match bumps consensus → auto-keep).
+    # Fail-soft: any Tree error leaves the RSS pipeline untouched.
+    cfg = load_config()
+    tree_cfg = cfg.get("tree", {})
+    if tree_cfg.get("enabled") or args.tree:
+        try:
+            tree_items, tstats = fetch_tree.fetch_tree_items(
+                cfg, limit=int(tree_cfg.get("limit", 300)),
+                window_hours=int(cfg.get("lookback_hours", 24)))
+            items, mstats = fetch_tree.merge_consensus(items, tree_items)
+            for it in items:
+                fn = it.get("feed_name", "")
+                if fn.startswith("tree:") and fn not in tiers:
+                    tiers[fn] = {"tier": fetch_tree.tree_tier(fn)}
+            print(f"🌳 Tree: pulled {tstats['pulled']}, on-topic {mstats['tree_scored']} "
+                  f"→ corroborated {mstats['corroborated_rss']} RSS, "
+                  f"{mstats['tree_standalone']} standalone")
+        except Exception as e:
+            print(f"⚠️  Tree merge skipped (fail-soft): {e}")
 
     # Production dedup state (real): seen_alerts.json + feed.json + posted_articles.db.
     state = _load_json(SEEN_PATH, {"seen": [], "seen_titles": []})
@@ -128,6 +153,7 @@ def main() -> int:
         rec = pipeline_v2.evaluate_item(it, tiers, default_tier, use_fulltext=use_fulltext)
         if rec is None:
             continue
+        rec["origin"] = it.get("origin", "rss")  # rss | tree | rss+tree (consensus)
         bucket = rec.pop("bucket", None)
         if bucket == "below_score":
             skipped_low += 1

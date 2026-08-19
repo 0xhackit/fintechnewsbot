@@ -96,9 +96,36 @@ dashboard password → **Review queue**. Filter by region and section; switch
 kept / review / killed; on **Review**, Publish or Kill each item. The public `/`
 feed shows what actually posted.
 
+## TreeOfAlpha consensus source (`config.json` → `tree.enabled`)
+
+TreeOfAlpha aggregates X/Twitter + blogs + wires into one structured, real-time,
+server-friendly stream (no cookies, no ban risk, runs in CI). It's noisy, so it rides
+the **same v2 gate** as RSS. The payoff is **cross-source consensus**:
+
+- `src/fetch_tree.py` fetches Tree (public REST — no key needed), normalizes, applies
+  the same relevance + scoring as RSS, then `merge_consensus()` corroborates: a Tree
+  item matching an RSS story **bumps that story's consensus (+1 source)** and is
+  absorbed; unmatched Tree items pass through as single-source candidates.
+- In `prepare_alerts_v2.py` (behind `tree.enabled`), the merged pool runs the gate.
+  A story both RSS **and** Tree report reaches `consensus ≥ 2` → **auto-keep** (as long
+  as editorial says KEEP — editorial KILL/REVIEW still has veto over consensus).
+- Every record carries `origin` = `rss` | `tree` | `rss+tree`; the admin Review queue
+  shows a **Tree** or **✓ consensus** badge accordingly.
+- Tree items default to **Tier C** (`src/fetch_tree.py::TREE_TRUSTED_TIER_B` promotes a
+  few reliable aggregator sources to B). The API key (`TREE_API_KEY`) is only needed for
+  the real-time WebSocket upgrade — the batch REST path works without it.
+
+Preview it in isolation (posts nowhere) before enabling:
+
+```bash
+python scripts/fetch_tree_local.py --limit 300           # Tree-only preview → out/market/tree/
+python scripts/prepare_alerts_v2.py --dry-run --tree     # full RSS+Tree merge, touches no state
+```
+
 ## Tuning
 
 Pattern banks live at the top of `src/editorial.py`, `src/regions.py`, and
 `src/categorize.py`; the KEEP and X thresholds live at the top of
-`src/pipeline_v2.py`. Edit, run that module's self-test, then re-run
-`standalone_pipeline.py` (preview) to see the effect before it reaches production.
+`src/pipeline_v2.py`; Tree tiers/trusted-sources at the top of `src/fetch_tree.py`.
+Edit, run that module's self-test, then re-run `standalone_pipeline.py` (RSS preview) or
+`fetch_tree_local.py` (Tree preview) to see the effect before it reaches production.
