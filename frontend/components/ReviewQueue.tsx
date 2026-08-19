@@ -7,9 +7,11 @@ import { CATEGORY_ORDER, CATEGORY_LABELS, type Category } from "@/lib/categories
 // filterable by region and the site's 4 sections. Read-only.
 
 type ReviewItem = {
+  id?: string;
   title: string;
   link: string;
   score?: number;
+  snippet?: string;
   verdict: "keep" | "kill" | "review";
   axis: string;
   reason: string;
@@ -18,6 +20,16 @@ type ReviewItem = {
   primary_region?: string | null;
   category?: string;
   source_tier?: string;
+  source?: string;
+  feed_name?: string;
+  published_at?: string;
+};
+
+type CardAction = {
+  busy: boolean;
+  status: string;
+  onPublish: () => void;
+  onKill: () => void;
 };
 
 type Meta = { generated_at?: string } | null;
@@ -50,7 +62,7 @@ function relativeTime(iso: string): string {
   return new Date(iso).toLocaleDateString(undefined, { month: "short", day: "numeric" });
 }
 
-function Card({ item }: { item: ReviewItem }) {
+function Card({ item, action }: { item: ReviewItem; action?: CardAction }) {
   const c = item.category ? CAT_COLORS[item.category] || CAT_COLORS.other : CAT_COLORS.other;
   const label = (item.category && CATEGORY_LABELS[item.category as Category]) || item.category || "—";
   return (
@@ -72,17 +84,65 @@ function Card({ item }: { item: ReviewItem }) {
         {item.reason}
         {item.matched ? <code className="rq-trigger">{item.matched}</code> : null}
       </div>
+      {action ? (
+        <div className="rq-actions">
+          <button className="rq-act rq-publish" disabled={action.busy} onClick={action.onPublish}>
+            {action.busy ? "…" : "Publish"}
+          </button>
+          <button className="rq-act rq-kill" disabled={action.busy} onClick={action.onKill}>
+            Kill
+          </button>
+          {action.status ? <span className="rq-act-status">{action.status}</span> : null}
+        </div>
+      ) : null}
     </div>
   );
 }
 
-export default function ReviewQueue() {
+function itemKey(it: ReviewItem): string {
+  return it.id || `${it.title}|${it.link}`;
+}
+
+export default function ReviewQueue({ password = "" }: { password?: string }) {
   const [data, setData] = useState<Data | null>(null);
   const [tab, setTab] = useState<Tab>("kept");
   const [region, setRegion] = useState<string>("all");
   const [lane, setLane] = useState<string>("all");
   const [error, setError] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [busyKey, setBusyKey] = useState<string | null>(null);
+  const [statusByKey, setStatusByKey] = useState<Record<string, string>>({});
+
+  async function doAction(item: ReviewItem, action: "publish" | "kill") {
+    const key = itemKey(item);
+    if (action === "kill" && !window.confirm(`Kill "${item.title.slice(0, 60)}"? It won't be posted or resurface.`)) {
+      return;
+    }
+    setBusyKey(key);
+    setStatusByKey((s) => ({ ...s, [key]: "" }));
+    try {
+      const res = await fetch("/api/review-action", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${password}` },
+        body: JSON.stringify({
+          action, id: item.id, title: item.title, link: item.link,
+          snippet: item.snippet, score: item.score, category: item.category,
+          source: item.source, feed_name: item.feed_name, published_at: item.published_at,
+        }),
+      });
+      if (!res.ok) {
+        const j = (await res.json().catch(() => ({}))) as { error?: string };
+        setStatusByKey((s) => ({ ...s, [key]: j.error || `Failed (${res.status})` }));
+        return;
+      }
+      // Success — remove the item from the review list.
+      setData((d) => (d ? { ...d, review: d.review.filter((r) => itemKey(r) !== key) } : d));
+    } catch {
+      setStatusByKey((s) => ({ ...s, [key]: "Network error" }));
+    } finally {
+      setBusyKey(null);
+    }
+  }
 
   async function load() {
     setLoading(true);
@@ -143,8 +203,9 @@ export default function ReviewQueue() {
           ) : null}
         </div>
         <p className="rq-sub">
-          v2 pipeline triage — kept / review / killed, tagged by section &amp; region, gated by editorial
-          + source tier. Deterministic, $0 LLM. Re-run <code>standalone_pipeline.py</code> then ↻.
+          v2 pipeline triage — tagged by section &amp; region, gated by editorial + source tier ($0 LLM).
+          <b> Kept</b> posts automatically (Telegram + feed; high-quality also X). <b>Killed</b> is dropped.
+          On <b>Review</b>, you decide: <b>Publish</b> (→ Telegram + feed) or <b>Kill</b> (never resurfaces).
         </p>
         <div className="rq-stats">
           <Stat label="Keep" value={data.kept.length} pct={pct(data.kept.length)} color="#00875a" />
@@ -183,7 +244,19 @@ export default function ReviewQueue() {
         {items.length === 0 ? (
           <div className="rq-empty">Nothing matches this filter.</div>
         ) : (
-          items.map((it, i) => <Card key={`${tab}-${i}`} item={it} />)
+          items.map((it, i) => {
+            const key = itemKey(it);
+            const action =
+              tab === "review"
+                ? {
+                    busy: busyKey === key,
+                    status: statusByKey[key] || "",
+                    onPublish: () => doAction(it, "publish"),
+                    onKill: () => doAction(it, "kill"),
+                  }
+                : undefined;
+            return <Card key={`${tab}-${i}`} item={it} action={action} />;
+          })
         )}
       </div>
 
@@ -244,6 +317,14 @@ function Style() {
       .rq-title:hover { text-decoration:underline; }
       .rq-reason { font-size:12.5px; color:#536471; margin-top:7px; line-height:1.5; }
       .rq-trigger { background:#f2f4f5; border:1px solid #e6eaeb; border-radius:6px; padding:1px 6px; margin-left:6px; font-size:11.5px; color:#b45309; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+      .rq-actions { display:flex; align-items:center; gap:8px; margin-top:12px; }
+      .rq-act { border:none; font-size:13px; font-weight:700; padding:6px 16px; border-radius:999px; cursor:pointer; }
+      .rq-act:disabled { opacity:0.5; cursor:default; }
+      .rq-publish { background:#00875a; color:#fff; }
+      .rq-publish:hover:not(:disabled) { background:#00734d; }
+      .rq-kill { background:#fff; color:#c81e1e; border:1px solid #f3c9c9; }
+      .rq-kill:hover:not(:disabled) { background:#fdecec; }
+      .rq-act-status { font-size:12px; color:#c81e1e; font-weight:600; }
       .rq-empty { text-align:center; color:#536471; padding:40px 20px; font-size:14px; line-height:1.6; }
       .rq-empty-sub { font-size:13px; margin-top:8px; }
       .rq-empty code { background:#f2f4f5; border-radius:6px; padding:2px 7px; font-size:12.5px; }

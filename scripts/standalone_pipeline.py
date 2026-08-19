@@ -43,15 +43,11 @@ from src.match import match_item  # noqa: E402
 from src.dedupe import hard_dedupe, cluster_and_select  # noqa: E402
 from src.improved_scoring import score_item_improved  # noqa: E402
 from src.dedup_agent import DedupAgent  # noqa: E402
-from src import editorial  # noqa: E402
-from src import regions as regions_mod  # noqa: E402
-from src.categorize import categorize  # noqa: E402  (site sections: regulation/product/fundraising/other)
-from src import enrich_fulltext  # noqa: E402
+from src import pipeline_v2  # noqa: E402  (shared editorial+region+section+tier gate)
 
 OUT_DIR = _PROJECT_ROOT / "out" / "market" / "standalone"  # served by /market (source=standalone)
 STATE_DIR = _PROJECT_ROOT / "state" / "standalone"
 SOURCES_PATH = _PROJECT_ROOT / "sources.json"
-MIN_SCORE = 35  # same score floor the live pipeline uses to enter the alert stage
 
 
 def load_sources() -> tuple[dict, str]:
@@ -127,14 +123,6 @@ def build_scored_items(cfg: dict) -> list[dict]:
     return cluster_and_select(scored, now_utc=now_utc)
 
 
-def _consensus(it: dict) -> int:
-    return int(it.get("cluster_size") or len(it.get("cluster_sources") or []) or 1)
-
-
-def _financial(it: dict) -> int:
-    return int((it.get("score_breakdown") or {}).get("financial_bonus", 0) or 0)
-
-
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", choices=["rss", "items"], default="rss",
@@ -161,67 +149,30 @@ def main() -> int:
     skipped_dup = skipped_low = n_fulltext = 0
 
     for it in sorted(items, key=lambda x: x.get("score", 0), reverse=True):
-        title = (it.get("title") or "").strip()
-        link = (it.get("link") or it.get("url") or "").strip()
-        snippet = (it.get("snippet") or "")[:300]
-        score = it.get("score", 0)
-        feed_name = it.get("feed_name") or ""
-        if not title or not link:
+        # Single shared brain (src/pipeline_v2). The preview differs from production
+        # ONLY in dedup target (isolated DB below) and outputs — never in judgement.
+        rec = pipeline_v2.evaluate_item(it, tiers, default_tier, use_fulltext=use_fulltext)
+        if rec is None:
             continue
-
-        tier = tiers.get(feed_name, {}).get("tier", default_tier)
-        region = regions_mod.classify_region(title, snippet)
-        cat = categorize(title, snippet)
-        base = {
-            "title": title, "link": link, "score": score, "snippet": snippet,
-            "regions": region["regions"], "primary_region": region["primary"],
-            "category": cat["category"], "source_tier": tier,
-            "consensus": _consensus(it), "financial": _financial(it),
-        }
-
-        # 1. Score floor.
-        if score < MIN_SCORE:
+        bucket = rec.pop("bucket", None)
+        if bucket == "below_score":
             skipped_low += 1
             continue
-        # 2. Cheap editorial gate on title+snippet (drops commentary/policy/political/low-signal).
-        v0 = editorial.classify(title, snippet)
-        if v0["verdict"] not in (editorial.KEEP, editorial.REVIEW):
-            killed.append({**base, "verdict": v0["verdict"], "axis": v0["axis"],
-                           "reason": v0["reason"], "matched": v0["matched"]})
-            continue
-
-        # 3. Enrich survivors only, then re-classify on the fuller body.
-        body = enrich_fulltext.fetch_fulltext(link) if use_fulltext else None
-        if body:
+        if rec.get("fulltext"):
             n_fulltext += 1
-        text = body if body else snippet
-        v = editorial.classify(title, text)
-        region = regions_mod.classify_region(title, text)
-        cat = categorize(title, text)
-
-        rec = {**base, "verdict": v["verdict"], "axis": v["axis"], "reason": v["reason"],
-               "matched": v["matched"], "regions": region["regions"],
-               "primary_region": region["primary"], "category": cat["category"],
-               "fulltext": bool(body)}
-
-        # 4. Only survived as editorial REVIEW (ambiguous) → review view.
-        if v["verdict"] != editorial.KEEP:
+        if bucket == "killed":
+            killed.append(rec)
+            continue
+        if bucket == "review":
             review.append(rec)
             continue
-        # 5. Balanced higher-signal gate. A concrete event (already editorial-gated) from a
-        #    curated Tier-A/B publisher is signal; the noisy Tier-C broad web searches must
-        #    corroborate (≥2 sources) or be materially large. Region is a filter, not a gate
-        #    (global crypto news often has no region).
-        high_signal = (tier in ("A", "B")) or (rec["consensus"] >= 2) or (rec["financial"] >= 40)
-        if not high_signal:
-            review.append(rec)
-            continue
-        # 7. Deterministic dedup, then keep.
-        is_dup, _ = dedup.is_duplicate(title, link, text)
+        # kept → isolated deterministic dedup (never touches production state), then keep.
+        is_dup, _ = dedup.is_duplicate(rec["title"], rec["link"], rec["snippet"])
         if is_dup:
             skipped_dup += 1
             continue
-        dedup.record(title=title, url=link, category=rec["category"], priority=tier)
+        dedup.record(title=rec["title"], url=rec["link"],
+                     category=rec["category"], priority=rec["source_tier"])
         kept.append(rec)
 
     dedup.close()

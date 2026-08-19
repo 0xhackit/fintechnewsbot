@@ -203,5 +203,10 @@ other new sources (filings, on-chain): they're inputs to the entity graph and th
    Bloomberg-terminal north star; earlier phases feed it.
 
 Phases 1–2 deliver regions + higher signal + more sources at **$0 LLM cost**. Only phases 3–4 spend,
-and only on the tail. Production posting stays untouched until you choose to promote from the
-standalone pipeline.
+and only on the tail.
+
+> **Status (shipped):** Phases 1–2 are live, and the deterministic gate has been **promoted to
+> production** — `scripts/prepare_alerts_v2.py` now drives posting (replacing the Haiku ranking agent),
+> so KEEP auto-posts to Telegram + the website feed, a quality subset posts to X, REVIEW is triaged in
+> the admin panel, and KILLED is dropped. The Haiku tie-break (phase 3) was **not** adopted — routing
+> is fully deterministic at $0/article. See `MARKET_PROFILE.md` for the shipped wiring.

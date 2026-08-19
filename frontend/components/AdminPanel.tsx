@@ -67,7 +67,7 @@ export default function AdminPanel() {
         </button>
       </div>
       {tab === "review" ? (
-        <ReviewQueue />
+        <ReviewQueue password={password} />
       ) : (
         <DashboardForm preAuthed presetPassword={password} />
       )}
