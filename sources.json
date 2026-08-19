@@ -1,0 +1,31 @@
+{
+  "_comment": "Source trust tiers for the standalone (v2) pipeline. Maps config.json feed names -> tier. A = primary (wire/regulator/company newsroom), B = vetted trade press, C = broad Google-News keyword/company searches (need corroboration). Read only by scripts/standalone_pipeline.py; config.json is untouched.",
+  "tiers": {
+    "ft_markets":        { "tier": "A" },
+    "ft_fintech":        { "tier": "A" },
+    "wsj_markets":       { "tier": "A" },
+    "techcrunch_fintech":{ "tier": "A" },
+    "stripe_blog":       { "tier": "A" },
+
+    "theblock":          { "tier": "B" },
+    "coindesk":          { "tier": "B" },
+    "dlnews":            { "tier": "B" },
+    "blockworks":        { "tier": "B" },
+    "ledger_insights":   { "tier": "B" },
+    "decrypt":           { "tier": "B" },
+    "finextra":          { "tier": "B" },
+    "pymnts":            { "tier": "B" },
+    "fintechfutures":    { "tier": "B" },
+    "cointelegraph":     { "tier": "B" },
+
+    "stablecoin_adoption":           { "tier": "C" },
+    "tokenized_funds_rwa":           { "tier": "C" },
+    "crypto_native_fintech_launches":{ "tier": "C" },
+    "institutional_crypto_banks":    { "tier": "C" },
+    "coinbase_news":                 { "tier": "C" },
+    "circle_news":                   { "tier": "C" },
+    "revolut_news":                  { "tier": "C" },
+    "plaid_news":                    { "tier": "C" }
+  },
+  "default_tier": "C"
+}
