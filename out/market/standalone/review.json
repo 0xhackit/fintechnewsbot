@@ -181,8 +181,11 @@
     "link": "https://www.forbes.com/sites/digital-assets/2026/08/19/bitcoin-approaches-70000-after-treasury-announces-buyback-expansion",
     "score": 59,
     "snippet": "Bitcoin Approaches $70,000 After Treasury Announces Buyback Expansion",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -191,38 +194,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T19:40:19.601000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
-    "id": "ea8d3dd3c732bf4faa9b740e1c365f4be948c5f3",
-    "title": "THE BLOCK: Injective says its institutional services arm is now an SEC-registered transfer agent, making it the first Layer 1 ecosystem to secure such a registration. The move adds a regulated recordkeeping layer to Inje",
-    "link": "https://x.com/TheBlockCo/status/2090081928867418285",
-    "score": 54,
-    "snippet": "THE BLOCK: Injective says its institutional services arm is now an SEC-registered transfer agent, making it the first Layer 1 ecosystem to secure such a registration. The move adds a regulated recordkeeping layer to Injective's push into tokenized equities, private shares, and other real-world asset",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T14:22:18.899000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
     "origin": "tree"
   },
   {
