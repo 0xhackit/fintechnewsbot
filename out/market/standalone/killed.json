@@ -111,7 +111,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 3,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -231,26 +231,30 @@
     "origin": "tree"
   },
   {
-    "id": "03f159adb8567646c78de4ce75de6b69e707d95a",
-    "title": "Bitcoin Rises Above $68,000 as Crypto Liquidations Reach $1.31 Billion in One Hour Binance market data shows that BTC rose above $68,000 to $68,418, up 5.47% over the past 24 hours. ETH rose above $2,000 to $2,081, up 8.",
-    "link": "https://x.com/WuBlockchain/status/2090105664626683918",
-    "score": 54,
-    "snippet": "Bitcoin Rises Above $68,000 as Crypto Liquidations Reach $1.31 Billion in One Hour Binance market data shows that BTC rose above $68,000 to $68,418, up 5.47% over the past 24 hours. ETH rose above $2,000 to $2,081, up 8.4%. CoinGlass data shows that approximately $1.31 billion in crypto positions we",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
+    "id": "b71a8bb6fe8330ec77e46d001c7395e2bf82a98f",
+    "title": "Banking Regulator Races to Finalize GENIUS Act Stablecoin Rules",
+    "link": "https://decrypt.co/376048/banking-regulator-occ-genius-act-stablecoin-rules-november",
+    "score": 55,
+    "snippet": "OCC Comptroller Jonathan Gould told the Wyoming Blockchain Symposium the agency is moving at a rapid pace to beat a January statutory deadline, after already missing an earlier July target.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T15:56:37.875000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-08-20T09:31:03+00:00",
     "verdict": "kill",
-    "axis": "low_signal",
-    "reason": "low-signal stat/promo ('data shows')",
-    "matched": "data shows",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('races to')",
+    "matched": "races to",
     "fulltext": false,
-    "origin": "tree"
+    "origin": "rss"
   }
 ]
