@@ -28,12 +28,27 @@ export const CATEGORY_LABELS: Record<Category, string> = {
   other: "Others",
 };
 
-/** Sections that qualify for the high-signal "Latest News" timeline. */
+/** Sections that qualify for the high-signal "Top" timeline. */
 export const HIGH_SIGNAL: Category[] = ["product", "fundraising"];
 
 export function isHighSignal(category: Category): boolean {
   return HIGH_SIGNAL.includes(category);
 }
+
+/**
+ * Single source of truth for category chip colors (feed + admin). Values match the
+ * public feed's original `.post-category-*` CSS so nothing changes visually.
+ */
+export const CATEGORY_COLORS: Record<Category, { bg: string; fg: string }> = {
+  regulation: { bg: "rgba(240,118,29,0.12)", fg: "#b35a13" },
+  product: { bg: "rgba(29,155,240,0.12)", fg: "#1573b8" },
+  fundraising: { bg: "rgba(0,154,97,0.12)", fg: "#007a4d" },
+  other: { bg: "rgba(15,20,25,0.07)", fg: "#536471" },
+};
+
+/** Regions (APAC/US/EU/LatAm) — a filter facet, matches src/regions.py labels. */
+export const REGIONS = ["APAC", "US", "EU", "LatAm"] as const;
+export type Region = (typeof REGIONS)[number];
 
 // ── Fallback classifier (mirror of src/categorize.py, abridged) ──
 

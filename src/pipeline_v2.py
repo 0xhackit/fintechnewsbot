@@ -158,8 +158,10 @@ def build_draft(rec: dict) -> dict:
         "tier": rec["source_tier"],
         "post_to_x": qualifies_for_x(rec),
         "category": rec["category"],
-        # v2 extras (harmless to the posters, useful in the feed/admin).
+        # v2 extras (harmless to the posters, surfaced on the feed cards + admin).
         "source_tier": rec["source_tier"],
+        "origin": rec.get("origin", "rss"),
+        "coins": rec.get("coins", []),
         "regions": rec.get("regions", []),
         "primary_region": rec.get("primary_region"),
         "source": rec.get("source", ""),

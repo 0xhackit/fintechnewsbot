@@ -7,6 +7,7 @@ import {
   Category,
   CATEGORY_LABELS,
   CATEGORY_ORDER,
+  REGIONS,
   isHighSignal,
   resolveCategory,
 } from "@/lib/categories";
@@ -76,28 +77,21 @@ function relativeTimeShort(iso: string): string {
 
 // ── Component ──
 
-type Tab = "latest" | Category | "highlights";
+type View = "top" | "latest" | "highlights";
+type SectionFilter = "all" | Category;
+type RegionFilter = "all" | (typeof REGIONS)[number];
 
-const EMPTY_COPY: Record<string, { title: string; sub: string }> = {
-  latest: {
+const byPostedDesc = (a: FeedEntry, b: FeedEntry) =>
+  new Date(b.posted_at).getTime() - new Date(a.posted_at).getTime();
+
+const EMPTY_COPY: Record<View, { title: string; sub: string }> = {
+  top: {
     title: "No high-signal news yet",
-    sub: "Latest News shows product updates and fundraising only. The feed updates every 5 minutes.",
+    sub: "Top shows product updates and fundraising. The feed updates every 5 minutes.",
   },
-  regulation: {
-    title: "No regulatory news yet",
-    sub: "Rule-making, enforcement, licensing and political coverage lands here.",
-  },
-  product: {
-    title: "No product updates yet",
-    sub: "Launches, go-lives, partnerships and integrations land here.",
-  },
-  fundraising: {
-    title: "No fundraising news yet",
-    sub: "Funding rounds, raises and IPOs land here.",
-  },
-  other: {
-    title: "Nothing here yet",
-    sub: "M&A, personnel moves and market statistics land here.",
+  latest: {
+    title: "No news yet",
+    sub: "Everything, newest first. The feed updates every 5 minutes.",
   },
   highlights: {
     title: "No highlights yet",
@@ -107,15 +101,13 @@ const EMPTY_COPY: Record<string, { title: string; sub: string }> = {
 
 interface FeedTabsProps {
   initialEntries: FeedEntry[];
-  initialHighlights: FeedEntry[];
   updatedAt: string;
 }
 
-export default function FeedTabs({
-  initialEntries,
-  updatedAt,
-}: FeedTabsProps) {
-  const [tab, setTab] = useState<Tab>("latest");
+export default function FeedTabs({ initialEntries, updatedAt }: FeedTabsProps) {
+  const [view, setView] = useState<View>("top");
+  const [section, setSection] = useState<SectionFilter>("all");
+  const [region, setRegion] = useState<RegionFilter>("all");
   const [entries, setEntries] = useState(initialEntries);
   const [lastUpdated, setLastUpdated] = useState(updatedAt);
 
@@ -139,63 +131,56 @@ export default function FeedTabs({
     return () => clearInterval(interval);
   }, [refreshFeed]);
 
-  // Bucket every entry into its section once per feed change.
-  const byCategory = useMemo(() => {
-    const buckets: Record<Category, FeedEntry[]> = {
-      regulation: [],
-      product: [],
-      fundraising: [],
-      other: [],
-    };
-    for (const entry of entries) {
-      buckets[resolveCategory(entry)].push(entry);
-    }
-    return buckets;
-  }, [entries]);
-
-  // Latest News is high-signal only: product updates + fundraising.
-  const latest = useMemo(
-    () =>
-      CATEGORY_ORDER.filter(isHighSignal)
-        .flatMap((c) => byCategory[c])
-        .sort(
-          (a, b) =>
-            new Date(b.posted_at).getTime() - new Date(a.posted_at).getTime()
-        ),
-    [byCategory]
+  // Base pools computed once per feed change.
+  const allNewest = useMemo(() => [...entries].sort(byPostedDesc), [entries]);
+  const highSignal = useMemo(
+    () => allNewest.filter((e) => isHighSignal(resolveCategory(e))),
+    [allNewest]
   );
-
   const highlights = useMemo(() => computeHighlights(entries, 10), [entries]);
 
-  const visible: FeedEntry[] =
-    tab === "latest"
-      ? latest
-      : tab === "highlights"
-      ? highlights
-      : byCategory[tab];
+  const inRegion = useCallback(
+    (list: FeedEntry[]) =>
+      region === "all" ? list : list.filter((e) => (e.regions || []).includes(region)),
+    [region]
+  );
+  const inSection = useCallback(
+    (list: FeedEntry[]) =>
+      section === "all" ? list : list.filter((e) => resolveCategory(e) === section),
+    [section]
+  );
 
-  const tabs: { key: Tab; label: string; count: number }[] = [
-    { key: "latest", label: "Latest News", count: latest.length },
-    ...CATEGORY_ORDER.map((c) => ({
-      key: c as Tab,
-      label: CATEGORY_LABELS[c],
-      count: byCategory[c].length,
-    })),
-    { key: "highlights", label: "Weekly Highlights", count: highlights.length },
+  // View picks the base pool; a chosen section on Top/Latest browses ALL entries of
+  // that section (so it never empties); region narrows last.
+  let base: FeedEntry[];
+  if (view === "highlights") base = highlights;
+  else if (section !== "all") base = allNewest;
+  else if (view === "top") base = highSignal;
+  else base = allNewest;
+  const visible = inRegion(inSection(base));
+
+  // Counts: tab counts reflect the region filter; section counts reflect region + the
+  // current view's universe (highlights vs all).
+  const universe = inRegion(view === "highlights" ? highlights : allNewest);
+  const tabs: { key: View; label: string; count: number }[] = [
+    { key: "top", label: "Top", count: inRegion(highSignal).length },
+    { key: "latest", label: "Latest", count: inRegion(allNewest).length },
+    { key: "highlights", label: "Highlights", count: inRegion(highlights).length },
   ];
+  const sectionCount = (c: Category) => universe.filter((e) => resolveCategory(e) === c).length;
 
-  const empty = EMPTY_COPY[tab] ?? EMPTY_COPY.other;
+  const empty = EMPTY_COPY[view];
 
   return (
     <>
-      {/* Tab bar */}
+      {/* Primary views */}
       <div className="feed-tabs">
         <div className="feed-tabs-scroll">
           {tabs.map(({ key, label, count }) => (
             <button
               key={key}
-              className={`feed-tab ${tab === key ? "feed-tab-active" : ""}`}
-              onClick={() => setTab(key)}
+              className={`feed-tab ${view === key ? "feed-tab-active" : ""}`}
+              onClick={() => setView(key)}
             >
               {label}
               <span className="feed-tab-count">{count}</span>
@@ -207,12 +192,52 @@ export default function FeedTabs({
         </span>
       </div>
 
+      {/* Secondary filters */}
+      <div className="feed-filters">
+        <div className="feed-filter-row">
+          <span className="feed-filter-label">Section</span>
+          <button
+            className={`feed-chip ${section === "all" ? "feed-chip-active" : ""}`}
+            onClick={() => setSection("all")}
+          >
+            All <span className="feed-chip-count">{universe.length}</span>
+          </button>
+          {CATEGORY_ORDER.map((c) => (
+            <button
+              key={c}
+              className={`feed-chip ${section === c ? "feed-chip-active" : ""}`}
+              onClick={() => setSection(c)}
+            >
+              {CATEGORY_LABELS[c]} <span className="feed-chip-count">{sectionCount(c)}</span>
+            </button>
+          ))}
+        </div>
+        <div className="feed-filter-row">
+          <span className="feed-filter-label">Region</span>
+          <button
+            className={`feed-chip ${region === "all" ? "feed-chip-active" : ""}`}
+            onClick={() => setRegion("all")}
+          >
+            All
+          </button>
+          {REGIONS.map((r) => (
+            <button
+              key={r}
+              className={`feed-chip ${region === r ? "feed-chip-active" : ""}`}
+              onClick={() => setRegion(r)}
+            >
+              {r}
+            </button>
+          ))}
+        </div>
+      </div>
+
       {visible.length === 0 ? (
         <div className="empty-state">
           <p>{empty.title}</p>
           <p>{empty.sub}</p>
         </div>
-      ) : tab === "highlights" ? (
+      ) : view === "highlights" ? (
         <div className="news-feed">
           {visible.map((entry, i) => (
             <article key={entry.id} className="post-item highlight-item">
@@ -226,30 +251,25 @@ export default function FeedTabs({
                 >
                   <h3 className="post-title">{entry.title}</h3>
                 </a>
-                {entry.snippet && (
-                  <p className="post-snippet">{entry.snippet}</p>
-                )}
+                {entry.snippet && <p className="post-snippet">{entry.snippet}</p>}
                 <div className="post-meta">
                   <span className="highlight-score">Score: {entry.score}</span>
                   <span className="post-meta-dot">&middot;</span>
-                  <span className="post-time">
-                    {relativeTimeShort(entry.posted_at)}
-                  </span>
+                  <span className="post-time">{relativeTimeShort(entry.posted_at)}</span>
                   <span className="post-meta-dot">&middot;</span>
                   <span className="highlight-category">
                     {CATEGORY_LABELS[resolveCategory(entry)]}
                   </span>
-                  {entry.tweet_url &&
-                    entry.tweet_url.startsWith("https://x.com/") && (
-                      <a
-                        href={entry.tweet_url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="post-tweet-link"
-                      >
-                        View on X
-                      </a>
-                    )}
+                  {entry.tweet_url && entry.tweet_url.startsWith("https://x.com/") && (
+                    <a
+                      href={entry.tweet_url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="post-tweet-link"
+                    >
+                      View on X
+                    </a>
+                  )}
                 </div>
               </div>
             </article>
@@ -258,12 +278,7 @@ export default function FeedTabs({
       ) : (
         <div className="news-feed">
           {visible.map((entry) => (
-            <PostItem
-              key={entry.id}
-              entry={entry}
-              // Inside a single-category tab the badge is redundant.
-              showCategory={tab === "latest"}
-            />
+            <PostItem key={entry.id} entry={entry} />
           ))}
         </div>
       )}
