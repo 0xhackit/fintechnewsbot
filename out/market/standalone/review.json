@@ -73,6 +73,31 @@
     "origin": "tree"
   },
   {
+    "id": "d9243999ae57bbcd59039a4293b2e0aa2b204d16",
+    "title": "THE BLOCK: Binance has launched Agent OS, enabling AI agents to access market data, view account information, and execute trades. The platform supports tools including ChatGPT, Claude Code, Codex, and Cursor.",
+    "link": "https://x.com/TheBlockCo/status/2090403999799493121",
+    "score": 75,
+    "snippet": "THE BLOCK: Binance has launched Agent OS, enabling AI agents to access market data, view account information, and execute trades. The platform supports tools including ChatGPT, Claude Code, Codex, and Cursor.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-20T11:42:06.434000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree"
+  },
+  {
     "id": "0df971a9fefc5597d109ba300158dba0d90f487c",
     "title": "NEW: President Trump says the CFTC is working to bring Hyperliquid to the U.S. “in a fully compliant and legal fashion.”",
     "link": "https://x.com/CoinDesk/status/2090162106876276814",
@@ -121,6 +146,31 @@
     "matched": null,
     "fulltext": false,
     "origin": "tree"
+  },
+  {
+    "id": "2cd0b4002b22ea72d4bdaa64e1625459579413ff",
+    "title": "Datavault AI to acquire BankWyse",
+    "link": "https://www.finextra.com/pressarticle/110693/datavault-ai-to-acquire-bankwyse?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 70,
+    "snippet": "Datavault AI Inc. (“Datavault AI” or the “Company”) (NASDAQ: DVLT), an Artificial Intelligence Platform (“AIP”) company providing data monetization, credentialing, digital engagement, real-world asset (“RWA”) tokenization and spatial audio technologies, today announced that it has signed a definitiv",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-08-20T12:53:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss"
   },
   {
     "id": "197a9f87fce943a3b33ca9103909a4a56f0a85de",
@@ -396,7 +446,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss"
   },
   {
@@ -422,7 +472,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss"
   }
 ]
