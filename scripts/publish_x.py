@@ -633,6 +633,12 @@ def post_from_drafts(drafts_path: str = "out/alerts_drafts.json",
                     "category": categorize(
                         draft.get("title", ""), draft.get("snippet", "")
                     )["category"],
+                    # v2 metadata surfaced on the public feed cards
+                    "regions": draft.get("regions", []),
+                    "primary_region": draft.get("primary_region"),
+                    "coins": draft.get("coins", []),
+                    "origin": draft.get("origin", "rss"),
+                    "source_tier": draft.get("source_tier", ""),
                     "posted_at": now_iso,
                     "source": draft.get("source", ""),
                     "feed_name": draft.get("feed_name", ""),

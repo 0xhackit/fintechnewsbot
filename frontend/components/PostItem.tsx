@@ -1,5 +1,5 @@
 import { FeedEntry } from "@/lib/feed";
-import { CATEGORY_LABELS, resolveCategory } from "@/lib/categories";
+import { CATEGORY_LABELS, CATEGORY_COLORS, resolveCategory } from "@/lib/categories";
 
 function relativeTime(isoString: string): string {
   if (!isoString) return "";
@@ -80,16 +80,14 @@ function displaySource(feedName: string, source: string, link: string): string {
   return "";
 }
 
-export default function PostItem({
-  entry,
-  showCategory = false,
-}: {
-  entry: FeedEntry;
-  showCategory?: boolean;
-}) {
+export default function PostItem({ entry }: { entry: FeedEntry }) {
   const source = displaySource(entry.feed_name || "", entry.source || "", entry.link || "");
   const hasRealTweet = entry.tweet_url && entry.tweet_url.startsWith("https://x.com/");
   const category = resolveCategory(entry);
+  const cc = CATEGORY_COLORS[category];
+  const regions = (entry.regions || []).filter(Boolean).slice(0, 2);
+  const coins = (entry.coins || []).filter(Boolean).slice(0, 3);
+  const isConsensus = entry.origin === "rss+tree";
 
   return (
     <article className="post-item">
@@ -97,13 +95,20 @@ export default function PostItem({
         <a href={entry.link} target="_blank" rel="noopener noreferrer" className="post-title-link">
           <h3 className="post-title">{entry.title}</h3>
         </a>
-        {entry.snippet && (
-          <p className="post-snippet">{entry.snippet}</p>
-        )}
+        {entry.snippet && <p className="post-snippet">{entry.snippet}</p>}
         <div className="post-meta">
-          {showCategory && (
-            <span className={`post-category post-category-${category}`}>
-              {CATEGORY_LABELS[category]}
+          <span className="post-category" style={{ background: cc.bg, color: cc.fg }}>
+            {CATEGORY_LABELS[category]}
+          </span>
+          {regions.map((r) => (
+            <span key={r} className="post-region">{r}</span>
+          ))}
+          {coins.map((c) => (
+            <span key={c} className="post-ticker">${c}</span>
+          ))}
+          {isConsensus && (
+            <span className="post-consensus" title="Reported by two independent sources">
+              ✓ 2 sources
             </span>
           )}
           {source && <span className="post-source">{source}</span>}

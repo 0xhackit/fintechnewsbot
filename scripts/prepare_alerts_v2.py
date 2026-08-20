@@ -163,6 +163,7 @@ def main() -> int:
         if rec is None:
             continue
         rec["origin"] = it.get("origin", "rss")  # rss | tree | rss+tree (consensus)
+        rec["coins"] = it.get("coins", [])       # detected tickers (Tree items)
         bucket = rec.pop("bucket", None)
         if bucket == "below_score":
             skipped_low += 1

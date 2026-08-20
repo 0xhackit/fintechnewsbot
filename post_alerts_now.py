@@ -188,6 +188,12 @@ async def post_drafts():
                 "ai_priority": draft.get("ai_priority", ""),
                 # Site section: regulation | product | fundraising | other
                 "category": categorize(title, draft.get("snippet", ""))["category"],
+                # v2 metadata surfaced on the public feed cards
+                "regions": draft.get("regions", []),
+                "primary_region": draft.get("primary_region"),
+                "coins": draft.get("coins", []),
+                "origin": draft.get("origin", "rss"),
+                "source_tier": draft.get("source_tier", ""),
                 "posted_at": posted_at,
                 "source": draft.get("source", ""),
                 "feed_name": draft.get("feed_name", ""),

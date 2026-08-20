@@ -99,64 +99,6 @@ body {
   min-height: 100vh;
 }
 
-/* ── Weekly Highlights ── */
-.highlights {
-  background: #fff;
-  border: 1px solid #eff3f4;
-  border-radius: 16px;
-  padding: 20px;
-  margin: 16px 0;
-}
-
-.highlights-header {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.highlights-icon {
-  color: #f59e0b;
-}
-
-.highlights-heading {
-  font-size: 18px;
-  font-weight: 800;
-  color: #0f1419;
-}
-
-.highlights-list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  padding: 0;
-}
-
-.highlights-item {
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
-  padding: 11px 0;
-  border-top: 1px solid #eff3f4;
-}
-
-.highlights-rank {
-  font-size: 15px;
-  font-weight: 800;
-  color: #1d9bf0;
-  min-width: 20px;
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-.highlights-title {
-  font-size: 14px;
-  font-weight: 600;
-  color: #0f1419;
-  line-height: 1.4;
-}
-
 /* ── Feed Tabs ── */
 .feed-tabs {
   display: flex;
@@ -199,6 +141,93 @@ body {
   font-size: 12px;
   color: #536471;
   white-space: nowrap;
+}
+
+/* ── Secondary filters (section + region) ── */
+.feed-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 0 0 10px;
+}
+
+.feed-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.feed-filter-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #8b98a5;
+  min-width: 54px;
+}
+
+.feed-chip {
+  border: 1px solid #eff3f4;
+  background: #fff;
+  color: #536471;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 4px 11px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.feed-chip:hover {
+  background: rgba(29, 155, 240, 0.08);
+}
+
+.feed-chip-active {
+  background: #0f1419;
+  color: #fff;
+  border-color: #0f1419;
+}
+
+.feed-chip-count {
+  opacity: 0.55;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+.feed-chip-active .feed-chip-count {
+  opacity: 0.75;
+}
+
+/* ── Card metadata chips (region / ticker / consensus) ── */
+.post-region {
+  font-size: 11px;
+  font-weight: 700;
+  color: #0c447c;
+  background: rgba(29, 155, 240, 0.1);
+  border-radius: 6px;
+  padding: 1px 7px;
+}
+
+.post-ticker {
+  font-size: 11px;
+  font-weight: 700;
+  color: #536471;
+  background: #f2f4f5;
+  border: 1px solid #e6eaeb;
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-variant-numeric: tabular-nums;
+}
+
+.post-consensus {
+  font-size: 11px;
+  font-weight: 700;
+  color: #00734d;
+  background: rgba(0, 135, 90, 0.12);
+  border: 1px solid rgba(0, 135, 90, 0.25);
+  border-radius: 6px;
+  padding: 1px 7px;
 }
 
 /* ── Highlight Items ── */
@@ -314,9 +343,12 @@ body {
 .post-meta {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
+  row-gap: 6px;
   font-size: 13px;
   color: #536471;
+  margin-top: 8px;
 }
 
 .post-meta-dot {
@@ -1539,13 +1571,6 @@ body {
 /* Responsive */
 @media (max-width: 640px) {
   .feed {
-    margin: 0;
-  }
-
-  .highlights {
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
     margin: 0;
   }
 
