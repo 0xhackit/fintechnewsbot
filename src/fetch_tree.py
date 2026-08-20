@@ -31,6 +31,12 @@ TREE_URL = "https://news.treeofalpha.com/api/news"
 # Tree items are single-source + unverified → Tier C by default. A few aggregator
 # sources Tree relays are reliable enough to treat as Tier B (still editorial-gated).
 TREE_DEFAULT_TIER = "C"
+
+# Tree is a raw firehose with no app.py pre-filter, so it dumps promo/hype at exactly
+# the score floor (35). Single-source Tree items therefore need a HIGHER bar than RSS
+# to reach the gate; corroborated (rss+tree) items keep the normal bar — corroboration
+# is the signal. Enforced in prepare_alerts_v2 on items with origin == "tree".
+TREE_STANDALONE_MIN_SCORE = 50
 TREE_TRUSTED_TIER_B = {
     "tree:the block", "tree:theblock", "tree:coindesk", "tree:bloomberg",
     "tree:reuters", "tree:wsj", "tree:the information", "tree:ft",
