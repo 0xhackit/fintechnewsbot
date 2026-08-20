@@ -104,16 +104,19 @@ def evaluate_item(it: dict, tiers: dict, default_tier: str = "C",
         "published_at": it.get("published_at", ""),
     }
 
-    # 1. Cheap editorial gate on title+snippet (drops commentary/policy/political/low-signal).
-    v0 = editorial.classify(title, snippet)
-    if v0["verdict"] not in (editorial.KEEP, editorial.REVIEW):
-        return {**base, "bucket": "killed", "verdict": v0["verdict"], "axis": v0["axis"],
-                "reason": v0["reason"], "matched": v0["matched"], "fulltext": False}
+    # 1. Editorial gate on title+snippet. This verdict is FINAL — the full-text
+    #    enrichment below sharpens category/region only, it does NOT revisit keep/kill.
+    #    Re-judging on the fetched body let a market-event verb buried deep in a long
+    #    article or tweet ("onboard", "launch") manufacture a KEEP for commentary and
+    #    market-recap items — the leak that put opinion/price-wrap tweets on the wire.
+    v = editorial.classify(title, snippet)
+    if v["verdict"] not in (editorial.KEEP, editorial.REVIEW):
+        return {**base, "bucket": "killed", "verdict": v["verdict"], "axis": v["axis"],
+                "reason": v["reason"], "matched": v["matched"], "fulltext": False}
 
-    # 2. Enrich survivors only, then re-classify on the fuller body.
+    # 2. Enrich survivors — to sharpen category + region only, not the verdict.
     body = enrich_fulltext.fetch_fulltext(link) if use_fulltext else None
     text = body if body else snippet
-    v = editorial.classify(title, text)
     region = regions_mod.classify_region(title, text)
     cat = categorize(title, text)
     rec = {**base, "verdict": v["verdict"], "axis": v["axis"], "reason": v["reason"],

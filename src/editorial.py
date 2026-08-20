@@ -89,7 +89,7 @@ COMMENTARY = [
     r"\bis\s+(?:this|that)\s+the\b",
     r"\bshould\b", r"\bneeds?\s+to\b", r"\btoo\s+much\b", r"\bunsaid\b",
     r"\bquestions?\b", r"\bslams?\b", r"\bcriticis?z?es?\b", r"\bpushes?\s+back\b",
-    r"\bcalls?\s+for\b", r"\burges?\b",
+    r"\bcalls?\s+for\b", r"\bcalls?\s+on\b", r"\burges?\b",
 ]
 
 # Policy / rule-making noise — kill (concrete reg actions are handled earlier).
