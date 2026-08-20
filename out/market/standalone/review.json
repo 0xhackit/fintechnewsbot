@@ -1,30 +1,5 @@
 [
   {
-    "id": "177258f36d4f672271263c1870e8ef0dfa083074",
-    "title": "THE BLOCK: $BTC climbed to $69,000 for the first time in two months while $ETH reclaimed $2,000 as crypto markets rallied after the Treasury doubled certain longer-dated bond buybacks and the SEC proposed a new crypto of",
-    "link": "https://x.com/TheBlockCo/status/2090150142922097039",
-    "score": 84,
-    "snippet": "THE BLOCK: $BTC climbed to $69,000 for the first time in two months while $ETH reclaimed $2,000 as crypto markets rallied after the Treasury doubled certain longer-dated bond buybacks and the SEC proposed a new crypto offering framework. The rally triggered nearly $2 billion in liquidations over 24 ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-19T18:53:22.650000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
     "id": "0df971a9fefc5597d109ba300158dba0d90f487c",
     "title": "NEW: President Trump says the CFTC is working to bring Hyperliquid to the U.S. “in a fully compliant and legal fashion.”",
     "link": "https://x.com/CoinDesk/status/2090162106876276814",
@@ -42,11 +17,11 @@
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T19:40:55.339000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -67,11 +42,11 @@
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T19:21:35.596000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -99,7 +74,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -120,11 +95,11 @@
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-19T23:21:05.904000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('onboard')",
+    "matched": "onboard",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -149,30 +124,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
-    "origin": "tree"
-  },
-  {
-    "id": "511247e95ef26762cbf068ba2fb8e74c047980d7",
-    "title": "“Jane Street lost $15 billion in July and the correct response was spectatorship. Fifteen years ago that loss lives inside a bank — atop depositor capital and hedge fund portfolios — and we are all conscripted as its cre",
-    "link": "https://x.com/richardcraib/status/2090302181002068319",
-    "score": 65,
-    "snippet": "“Jane Street lost $15 billion in July and the correct response was spectatorship. Fifteen years ago that loss lives inside a bank — atop depositor capital and hedge fund portfolios — and we are all conscripted as its creditors. The Volcker Rule (Dodd-Frank §619) exiled proprietary risk from deposit-",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:richardcraib",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-20T04:57:31.020000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -181,11 +133,8 @@
     "link": "https://www.forbes.com/sites/digital-assets/2026/08/19/bitcoin-approaches-70000-after-treasury-announces-buyback-expansion",
     "score": 59,
     "snippet": "Bitcoin Approaches $70,000 After Treasury Announces Buyback Expansion",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "APAC",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -194,11 +143,11 @@
     "feed_name": "tree:forbes",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-19T19:40:19.601000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partner')",
-    "matched": "partner",
-    "fulltext": true,
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree"
   },
   {
@@ -219,11 +168,11 @@
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
     "published_at": "2026-08-20T02:56:57.426000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('acquired')",
+    "matched": "acquired",
+    "fulltext": true,
     "origin": "tree"
   },
   {
@@ -233,6 +182,7 @@
     "score": 50,
     "snippet": "THE BLOCK: OKX CEO Star Xu said the exchange is working with Anthropic to address issues regarding its corporate account, which was reportedly suspended after its Hong Kong-based staff accessed Claude in violation of Anthropic's geo-restrictions.",
     "regions": [
+      "US",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -248,7 +198,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('issues')",
     "matched": "issues",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree"
   },
   {
