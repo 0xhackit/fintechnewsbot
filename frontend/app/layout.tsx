@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import SiteChrome from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
   title: "Fintech Onchain",
@@ -15,19 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="header">
-          <a href="/" className="header-brand">
-            <h1>Fintech Onchain</h1>
-          </a>
-          <nav className="nav-links">
-            <a href="/" className="nav-link">Feed</a>
-            <a href="/analyze" className="nav-link">Analyze</a>
-          </nav>
-          <div className="live-badge">
-            <span className="live-dot" />
-            Live
-          </div>
-        </header>
+        <SiteChrome />
         {children}
       </body>
     </html>

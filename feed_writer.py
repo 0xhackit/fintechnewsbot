@@ -11,7 +11,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 FEED_PATH = Path("out/feed.json")
-FEED_RETENTION_DAYS = 7
+FEED_RETENTION_DAYS = 365
 
 
 def load_feed() -> dict:
