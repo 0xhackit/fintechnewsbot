@@ -329,37 +329,6 @@
     ]
   },
   {
-    "id": "2385437f30049b793df07545cd6c1b1b291e44ba",
-    "title": "Metaplanet to Provide 2,100 Bitcoin and Cash for Controlling Stake in Super League, Launching US BTC Treasury Vehicle Superplanet",
-    "link": "https://www.crowdfundinsider.com/2026/08/299234-metaplanet-to-provide-2100-bitcoin-and-cash-for-controlling-stake-in-super-league-launching-us-btc-treasury-vehicle-superplanet",
-    "score": 65,
-    "snippet": "Metaplanet to Provide 2,100 Bitcoin and Cash for Controlling Stake in Super League, Launching US BTC Treasury Vehicle Superplanet",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-20T12:10:19.915000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
     "id": "197a9f87fce943a3b33ca9103909a4a56f0a85de",
     "title": "THE BLOCK: Bitdeer has signed a five-year offtake deal worth about $400 million for roughly half of its 9.5 MW AI cloud facility in Malaysia. The bitcoin miner is targeting up to 350 MW of AI cloud data center capacity b",
     "link": "https://x.com/TheBlockCo/status/2090377972817842624",
@@ -418,13 +387,16 @@
     ]
   },
   {
-    "id": "983be7d3e3566696872a845c34aa0f8e37fa37e7",
-    "title": "July 2026 Validator Set Highlights Curious about what's happening inside the Lido validator set? July marked a major milestone for Lido Core, the main liquid staking infrastructure of the Lido protocol, with its latest u",
-    "link": "https://x.com/LidoFinance/status/2090355320639942960",
-    "score": 54,
-    "snippet": "July 2026 Validator Set Highlights Curious about what's happening inside the Lido validator set? July marked a major milestone for Lido Core, the main liquid staking infrastructure of the Lido protocol, with its latest upgrade going live and Curated Module v2 launching on Ethereum mainnet. Alongside",
-    "regions": [],
-    "primary_region": null,
+    "id": "2385437f30049b793df07545cd6c1b1b291e44ba",
+    "title": "Metaplanet to Provide 2,100 Bitcoin and Cash for Controlling Stake in Super League, Launching US BTC Treasury Vehicle Superplanet",
+    "link": "https://www.crowdfundinsider.com/2026/08/299234-metaplanet-to-provide-2100-bitcoin-and-cash-for-controlling-stake-in-super-league-launching-us-btc-treasury-vehicle-superplanet",
+    "score": 59,
+    "snippet": "Metaplanet to Provide 2,100 Bitcoin and Cash for Controlling Stake in Super League, Launching US BTC Treasury Vehicle Superplanet",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -432,20 +404,17 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:lidofinance",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-20T08:28:40.491000+00:00",
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-20T12:10:19.915000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "LDO",
-      "ETH",
-      "PORTAL",
-      "CRV"
+      "BTC"
     ]
   },
   {
@@ -553,7 +522,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss+tree",
     "coins": []
   }
