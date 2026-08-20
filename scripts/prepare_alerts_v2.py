@@ -144,6 +144,15 @@ def main() -> int:
             skipped_block += 1
             continue
 
+        # Single-source Tree items clear a higher bar than RSS (firehose has no
+        # pre-filter); corroborated rss+tree items are exempt (origin != "tree"), and
+        # so are materially large items (financial >= 40 would auto-keep anyway).
+        if it.get("origin") == "tree":
+            _fin = int((it.get("score_breakdown") or {}).get("financial_bonus", 0) or 0)
+            if int(it.get("score", 0)) < fetch_tree.TREE_STANDALONE_MIN_SCORE and _fin < 40:
+                skipped_low += 1
+                continue
+
         title = (it.get("title") or "").strip()
         link = (it.get("link") or it.get("url") or "").strip()
         if title and link and pipeline_v2.stable_item_id(title, link) in seen:
