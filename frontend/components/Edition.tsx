@@ -10,7 +10,6 @@ import {
 } from "@/lib/broadsheet";
 
 const READING_LIST_KEY = "fintech-onchain-reading-list";
-const SITE = "https://fintechonchain.news/";
 
 type Filter = "all" | DeskKey;
 
@@ -274,7 +273,7 @@ export default function Edition({
                 <button
                   type="button"
                   className="btn btn-secondary bs-btn"
-                  onClick={() => copy(SITE + lead.id, "Link copied")}
+                  onClick={() => copy(lead.url, "Link copied")}
                 >
                   Copy link
                 </button>
