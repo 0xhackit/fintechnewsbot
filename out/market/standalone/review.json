@@ -26,7 +26,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ",
@@ -40,7 +40,8 @@
     "score": 120,
     "snippet": "Injective in the last few weeks: ✅Official SEC Transfer Agent Registration ✅ Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅ $INJ listed on @RobinhoodCrypto ✅ $INJ integrated onto @coinbase ✅ MiCA Whitepaper in the EU ✅ @krakenfx integrates Injective $USDC",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
     "category": "product",
@@ -59,7 +60,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ",
@@ -88,7 +89,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CC"
@@ -116,7 +117,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PLUME"
@@ -160,7 +161,7 @@
     "snippet": ". @BitcoinCom announced that its self-custody http://Bitcoin.com Wallet app now natively supports the TRON network. Users can hold, send, swap, and buy TRX and USDT on TRON directly within the mobile application. By integrating TRON natively, http://Bitcoin.com Wallet users can transact with counter",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -174,7 +175,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TRX",
@@ -203,40 +204,12 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CLO",
       "XRP"
     ]
-  },
-  {
-    "id": "ecd0c1d595b4cca2ffc8bbda05ceee74d0a18608",
-    "title": "THE BLOCK: STS Digital CEO Maxime Seiler says crypto is in \"winter\" price-wise but an \"institutional summer\" as firms build on the technology. \"Future bases have converged pretty close to the risk-free rate,\" Seiler said",
-    "link": "https://x.com/TheBlockCo/status/2090745111814823954",
-    "score": 59,
-    "snippet": "THE BLOCK: STS Digital CEO Maxime Seiler says crypto is in \"winter\" price-wise but an \"institutional summer\" as firms build on the technology. \"Future bases have converged pretty close to the risk-free rate,\" Seiler said, as STS partners with Clear Street on digital asset trading. @SALTConference",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-21T10:17:34.036000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": []
   },
   {
     "id": "43640444180e981204667f44783a5d27ba292d7a",
@@ -260,7 +233,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "IMX",
@@ -288,7 +261,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -340,7 +313,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ACU",
@@ -367,7 +340,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorization')",
     "matched": "authorization",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BB",
@@ -403,35 +376,6 @@
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "d18f602430c20877d80f0481810f1d2fddec2280",
-    "title": "Ripple launches tokenized private credit lendin... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXJNV3p0aXV1RkV1Njk5dnZ2bUFiRHc3V0d2TzBELVpWNkRQczIxbTZOUXU1endaTzJmdGVMbFBkMGtMNTQ0aU1OWTVqOF9TR29EM2xWbFRWcEhCQ0JNekkyMVJLMXFNeFFZS1RvZW9FY3F2Y0FFTy1tRTJ0d1BMV1JRcU1wdk1vOHVUSlBZTmhON1JFU0FvVldBUHFZZlk?oc=5",
-    "score": 49,
-    "snippet": "Ripple launches tokenized private credit lendin... Pluang",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-08-20T19:19:31+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "434e907440764eb26f933d55beed194d30d60a38",
