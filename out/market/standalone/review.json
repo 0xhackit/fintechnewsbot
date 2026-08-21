@@ -21,7 +21,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -51,7 +51,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CC",
@@ -115,34 +115,29 @@
     ]
   },
   {
-    "id": "bd0eaead6665e3521645276aaf629bc149c045ed",
-    "title": "Binance Launches Binance Agent OS and Binance MCP Server Binance announced the launch of its AI developer platform Binance Agent OS, integrating the Binance API, Binance Wallet Agentic Hub, Binance x402, Binance Skill Hu",
-    "link": "https://x.com/WuBlockchain/status/2090457386918256759",
-    "score": 74,
-    "snippet": "Binance Launches Binance Agent OS and Binance MCP Server Binance announced the launch of its AI developer platform Binance Agent OS, integrating the Binance API, Binance Wallet Agentic Hub, Binance x402, Binance Skill Hub, and Model Context Protocol (MCP) support, alongside the launch of the Binance",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
+    "id": "468822bdecce09199bef4176f82575a1c9c34e93",
+    "title": "THE BLOCK: Trading volume on Upbit has soared 223.8% in the past 24 hours to $1.67 billion, according to CoinGecko data. Bitcoin continues to trade above $75,000, its highest level in over three months. $BTC",
+    "link": "https://x.com/TheBlockCo/status/2090695847805608144",
+    "score": 70,
+    "snippet": "THE BLOCK: Trading volume on Upbit has soared 223.8% in the past 24 hours to $1.67 billion, according to CoinGecko data. Bitcoin continues to trade above $75,000, its highest level in over three months. $BTC",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-20T15:14:15.014000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
+    "published_at": "2026-08-21T07:01:48.327000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BNB",
-      "WLD"
+      "BTC"
     ]
   },
   {
@@ -167,7 +162,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -194,7 +189,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -232,10 +227,8 @@
     "link": "https://x.com/CoinDesk/status/2090553712414503256",
     "score": 54,
     "snippet": "BTC surged past $72K today, but @markus10x of @10xResearch says a new all-time high is still at least a year away because substantially more capital is needed to move a $1.2 trillion market. “To push Bitcoin quite high up from here, I think it’s gonna take a lot more catalysts, a lot more narratives",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -248,7 +241,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -284,65 +277,6 @@
     "fulltext": true,
     "origin": "tree",
     "coins": []
-  },
-  {
-    "id": "b09bb314561a82f9431230e2b7125e27f9e9dfa7",
-    "title": "THE BLOCK: Binance founder CZ says tokenization is one of the best ways for countries to attract foreign direct investment. \"While this creates the 'fragmented liquidity' problem, it is the fastest way to grow the sector",
-    "link": "https://x.com/TheBlockCo/status/2090616105614356895",
-    "score": 50,
-    "snippet": "THE BLOCK: Binance founder CZ says tokenization is one of the best ways for countries to attract foreign direct investment. \"While this creates the 'fragmented liquidity' problem, it is the fastest way to grow the sector, with multiple players pushing.\"",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-21T01:44:56.762000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('investment')",
-    "matched": "investment",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "d1d8a70fb50644e53a39f04474df695c7229c925",
-    "title": "Shinhan Asset Management has signed a four-party MOU with @SolanaFndn, @etherfuse, and Orca to run a proof-of-concept for a KRW-denominated tokenized fund, modeled on BlackRock's BUIDL. The four organizations will valida",
-    "link": "https://x.com/orca_so/status/2090605682773176422",
-    "score": 50,
-    "snippet": "Shinhan Asset Management has signed a four-party MOU with @SolanaFndn, @etherfuse, and Orca to run a proof-of-concept for a KRW-denominated tokenized fund, modeled on BlackRock's BUIDL. The four organizations will validate the full issuance-to-distribution cycle.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:orca_so",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-21T01:03:31.586000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issuance')",
-    "matched": "issuance",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ORCA"
-    ]
   },
   {
     "id": "d18f602430c20877d80f0481810f1d2fddec2280",
