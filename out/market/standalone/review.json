@@ -1,30 +1,69 @@
 [
   {
-    "id": "2f7809b0b2da99d67875f0eb36f9abfeb394b0ca",
-    "title": "'It brought companies to their knees' - Ripple CEO denounces old SEC regulatory methods at CFTC meeting",
-    "link": "https://www.nadanews.com/364938",
-    "score": 84,
-    "snippet": "'It brought companies to their knees' - Ripple CEO denounces old SEC regulatory methods at CFTC meeting",
+    "id": "06bc8023db88e1f49f6ee29343d2c8e23da3e27d",
+    "title": "Injective in the past few weeks: ✅Official SEC Transfer Agent Registration ✅Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅$INJ listed on @RobinhoodCrypto ✅MiCA Whitepaper in t",
+    "link": "https://x.com/injective/status/2090869882568978501",
+    "score": 120,
+    "snippet": "Injective in the past few weeks: ✅Official SEC Transfer Agent Registration ✅Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅$INJ listed on @RobinhoodCrypto ✅MiCA Whitepaper in the EU ✅@krakenfx integrates Injective USDC ✅@coinbase integrates native $INJ ✅In",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:jp-coindesk",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-21T09:57:32.404000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-21T18:33:21.462000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XRP"
+      "INJ",
+      "USDC"
+    ]
+  },
+  {
+    "id": "6e248751f1820cd3d11ccb3cb610dd1d9f1a3d27",
+    "title": "Injective in the last few weeks: ✅Official SEC Transfer Agent Registration ✅ Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅ $INJ listed on @RobinhoodCrypto ✅ $INJ integrated o",
+    "link": "https://x.com/injective/status/2090868952800935976",
+    "score": 120,
+    "snippet": "Injective in the last few weeks: ✅Official SEC Transfer Agent Registration ✅ Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅ $INJ listed on @RobinhoodCrypto ✅ $INJ integrated onto @coinbase ✅ MiCA Whitepaper in the EU ✅ @krakenfx integrates Injective $USDC",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-21T18:29:39.772000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "INJ",
+      "USDC"
     ]
   },
   {
@@ -227,6 +266,32 @@
       "IMX",
       "CRM",
       "BILL"
+    ]
+  },
+  {
+    "id": "106cf8df1ecae1749aa354b15650ffbf8020aec9",
+    "title": "THE BLOCK: As debt levels rise and central banks increasingly monetize government debt, Bridgewater founder Ray Dalio expects a broad devaluation of fiat currencies and poor returns from bonds. \"I expect non-government-p",
+    "link": "https://x.com/TheBlockCo/status/2090872160730652895",
+    "score": 50,
+    "snippet": "THE BLOCK: As debt levels rise and central banks increasingly monetize government debt, Bridgewater founder Ray Dalio expects a broad devaluation of fiat currencies and poor returns from bonds. \"I expect non-government-produced monies like gold and Bitcoin to do relatively well,\" Dalio wrote Friday ",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-21T18:42:24.863000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
