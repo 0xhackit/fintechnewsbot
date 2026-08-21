@@ -21,7 +21,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -51,7 +51,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CC",
@@ -134,7 +134,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -162,7 +162,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -189,7 +189,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -227,8 +227,10 @@
     "link": "https://x.com/CoinDesk/status/2090553712414503256",
     "score": 54,
     "snippet": "BTC surged past $72K today, but @markus10x of @10xResearch says a new all-time high is still at least a year away because substantially more capital is needed to move a $1.2 trillion market. “To push Bitcoin quite high up from here, I think it’s gonna take a lot more catalysts, a lot more narratives",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -241,7 +243,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -325,32 +327,6 @@
     "feed_name": "tree:decrypt",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-08-20T16:04:00.939000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "5279527a6bfa1697c18ba144c7ba7e6721af268b",
-    "title": "Short squeeze sends Bitcoin to $72,000 and erases $1.6 billion",
-    "link": "https://www.thestreet.com/crypto/markets/short-squeeze-sends-bitcoin-to-72000-and-erases-1-6-billion",
-    "score": 44,
-    "snippet": "Short squeeze sends Bitcoin to $72,000 and erases $1.6 billion",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the street",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-20T15:42:05.833000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
