@@ -21,7 +21,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -51,7 +51,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CC",
@@ -115,6 +115,32 @@
     ]
   },
   {
+    "id": "4ae92825a1c6e8aefd4b40092c9ba38b62a1e4ae",
+    "title": "THE BLOCK: Arbitrum's ArbOS Elara upgrade is now live, introducing protocol-level compliance filtering and customizable priority fees for dedicated chains. The upgrade also quadruples Stylus smart contract capacity on Ar",
+    "link": "https://x.com/TheBlockCo/status/2090729376816238928",
+    "score": 70,
+    "snippet": "THE BLOCK: Arbitrum's ArbOS Elara upgrade is now live, introducing protocol-level compliance filtering and customizable priority fees for dedicated chains. The upgrade also quadruples Stylus smart contract capacity on Arbitrum One.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-21T09:15:02.357000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now live')",
+    "matched": "now live",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ARB"
+    ]
+  },
+  {
     "id": "468822bdecce09199bef4176f82575a1c9c34e93",
     "title": "THE BLOCK: Trading volume on Upbit has soared 223.8% in the past 24 hours to $1.67 billion, according to CoinGecko data. Bitcoin continues to trade above $75,000, its highest level in over three months. $BTC",
     "link": "https://x.com/TheBlockCo/status/2090695847805608144",
@@ -134,7 +160,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -162,7 +188,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -189,7 +215,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -227,10 +253,8 @@
     "link": "https://x.com/CoinDesk/status/2090553712414503256",
     "score": 54,
     "snippet": "BTC surged past $72K today, but @markus10x of @10xResearch says a new all-time high is still at least a year away because substantially more capital is needed to move a $1.2 trillion market. “To push Bitcoin quite high up from here, I think it’s gonna take a lot more catalysts, a lot more narratives",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -243,7 +267,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
