@@ -1,5 +1,65 @@
 [
   {
+    "id": "11f8f297dc29614ff8fbcbb14708f4a643392648",
+    "title": "With the U.S. Treasury Department proposing GENIUS Act stablecoin rule, you don't want to miss Jasmine Burgess of Blockstream Capital Partners, Aaron Iovine of JPMorgan Chase, and @AmyDavineKim of PayPal for a roundtable",
+    "link": "https://x.com/CoinDesk/status/2090861646671421871",
+    "score": 90,
+    "snippet": "With the U.S. Treasury Department proposing GENIUS Act stablecoin rule, you don't want to miss Jasmine Burgess of Blockstream Capital Partners, Aaron Iovine of JPMorgan Chase, and @AmyDavineKim of PayPal for a roundtable on stablecoins at CoinDesk: Policy & Regulation.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-21T18:00:37.965000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rule')",
+    "matched": "rule",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "GENIUS"
+    ]
+  },
+  {
+    "id": "f5f16111c98d56619b316947270744f20fa46fe0",
+    "title": "WuBlockchain Weekly: Bitcoin rebounds sharply, U.S. regulators accelerate crypto market rules, Citi prepares Bitcoin custody services, and institutions expand into digital assets. This week also saw continued growth in t",
+    "link": "https://x.com/WuBlockchain/status/2090786389025845533",
+    "score": 75,
+    "snippet": "WuBlockchain Weekly: Bitcoin rebounds sharply, U.S. regulators accelerate crypto market rules, Citi prepares Bitcoin custody services, and institutions expand into digital assets. This week also saw continued growth in tokenization, Bitcoin treasury strategies, and AI-related crypto infrastructure.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-21T13:01:35.161000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
     "id": "5d54ac0ec255a9f428f9f34388be78b9492db25f",
     "title": "CFTC chair says agency will move forward on crypto regulation if CLARITY fails",
     "link": "https://cointelegraph.com/news/cftc-chair-crypto-regulation-without-clarity-act-congress?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -26,5 +86,31 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "a4e08c8fb013596531e07aa6dee5d88722f7bf62",
+    "title": "Strategy Swings From $13 Billion Bitcoin Loss to $1.4 Billion Profit as BTC Rallies",
+    "link": "https://decrypt.co/376230",
+    "score": 50,
+    "snippet": "Strategy Swings From $13 Billion Bitcoin Loss to $1.4 Billion Profit as BTC Rallies",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-21T17:28:51.171000+00:00",
+    "verdict": "kill",
+    "axis": "low_signal",
+    "reason": "low-signal stat/promo ('rallies')",
+    "matched": "rallies",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
   }
 ]
