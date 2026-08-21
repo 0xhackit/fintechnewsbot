@@ -26,7 +26,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ",
@@ -40,7 +40,8 @@
     "score": 120,
     "snippet": "Injective in the last few weeks: ✅Official SEC Transfer Agent Registration ✅ Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅ $INJ listed on @RobinhoodCrypto ✅ $INJ integrated onto @coinbase ✅ MiCA Whitepaper in the EU ✅ @krakenfx integrates Injective $USDC",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
     "category": "product",
@@ -59,7 +60,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ",
@@ -88,7 +89,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PLUME"
@@ -116,7 +117,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CC"
@@ -160,7 +161,7 @@
     "snippet": ". @BitcoinCom announced that its self-custody http://Bitcoin.com Wallet app now natively supports the TRON network. Users can hold, send, swap, and buy TRX and USDT on TRON directly within the mobile application. By integrating TRON natively, http://Bitcoin.com Wallet users can transact with counter",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -174,7 +175,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TRX",
@@ -203,7 +204,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CLO",
@@ -232,7 +233,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "IMX",
@@ -260,7 +261,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -312,7 +313,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ACU",
@@ -339,7 +340,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorization')",
     "matched": "authorization",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BB",
@@ -400,7 +401,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
