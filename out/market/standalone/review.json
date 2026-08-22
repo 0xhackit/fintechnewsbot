@@ -26,7 +26,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ",
@@ -40,8 +40,7 @@
     "score": 114,
     "snippet": "Injective in the last few weeks: ✅Official SEC Transfer Agent Registration ✅ Korea's largest trading company POSCO AND LG CNS launch tokenization pilot with Injective ✅ $INJ listed on @RobinhoodCrypto ✅ $INJ integrated onto @coinbase ✅ MiCA Whitepaper in the EU ✅ @krakenfx integrates Injective $USDC",
     "regions": [
-      "US",
-      "EU"
+      "US"
     ],
     "primary_region": "US",
     "category": "product",
@@ -60,7 +59,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ",
@@ -89,7 +88,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PLUME"
@@ -103,7 +102,7 @@
     "snippet": ". @BitcoinCom announced that its self-custody http://Bitcoin.com Wallet app now natively supports the TRON network. Users can hold, send, swap, and buy TRX and USDT on TRON directly within the mobile application. By integrating TRON natively, http://Bitcoin.com Wallet users can transact with counter",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -117,7 +116,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "TRX",
@@ -146,38 +145,12 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CLO",
       "XRP"
     ]
-  },
-  {
-    "id": "06891b86f52e9cdbffa2b7ab21f5b449e3ada3e1",
-    "title": "Trump-backed $4 billion USD1 stablecoin has wallet powers its own GitHub does not show - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QTU5IM0ZuOXlEZ1hqU2xmc0I0bEZ0THF3WGVwSWUzVzRlUW9yME1PUmNRR2dSX2NiSHo2U3BUQzVCX244b3hvM2RLVUluMWpaVHRkbVk4aU5VUQ?oc=5",
-    "score": 50,
-    "snippet": "Trump-backed $4 billion USD1 stablecoin has wallet powers its own GitHub does not show Cryptonews.net",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "crypto_native_fintech_launches",
-    "source": "Google News RSS",
-    "published_at": "2026-08-21T22:40:44+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "ebeffcf4e2d4b9fc4f392b059f2bad559942b6e8",
@@ -201,12 +174,38 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE",
       "BNB"
     ]
+  },
+  {
+    "id": "99c3fc994533e8a63d4f2cad6f1ce339b95ef44d",
+    "title": "Trump-backed $4 billion USD1 stablecoin has wallet powers its own GitHub does not show - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQm5yS19HMk8wTThYM3pvSGx2cUpmYUJRNzduTk9NNlJKWXpzOENXV0pfQVVRY0lFdGQ5M1lTcXpidzZTUVo3cFdoMmsxUnJwRzh2VkpwWFpLVE45VlZJYzljSGZPd2duNXlkUzNLSWdHMmFqaElzS1k0T3VQd3hlcWszY3B0SUFRbjd4RVhnU3JjQU9vVDF1MnluanBPWV9aLTBoV3AyZzZZWlBPaGpV?oc=5",
+    "score": 44,
+    "snippet": "Trump-backed $4 billion USD1 stablecoin has wallet powers its own GitHub does not show CryptoSlate",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "crypto_native_fintech_launches",
+    "source": "Google News RSS",
+    "published_at": "2026-08-21T21:55:39+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "97b988fb926989f67e1a445519735eb72f6c5cfd",
@@ -254,7 +253,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ACU",
