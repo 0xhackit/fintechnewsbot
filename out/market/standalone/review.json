@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -49,7 +49,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveiled')",
     "matched": "unveiled",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -77,39 +77,12 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
       "CAP"
     ]
-  },
-  {
-    "id": "2474be4465e06e3a7f08b714fb942e7cc60caadf",
-    "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
-    "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
-    "score": 50,
-    "snippet": "",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "coindesk",
-    "source": "Google News RSS",
-    "published_at": "2026-08-23T15:00:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
   },
   {
     "id": "6fd78257ecd74e75a6c2265fe5bcd384ee1ba791",
@@ -140,5 +113,32 @@
     "coins": [
       "BTC"
     ]
+  },
+  {
+    "id": "2474be4465e06e3a7f08b714fb942e7cc60caadf",
+    "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+    "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+    "score": 44,
+    "snippet": "",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-08-23T15:00:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
   }
 ]
