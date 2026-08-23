@@ -1,38 +1,5 @@
 [
   {
-    "id": "3e1c25824e849fd5f958e321b91059beedcada02",
-    "title": "THIS WEEK IN MEDIA - 8/14-8/21 Read Securitize and Neuberger Launch New Tokenized Fixed Income Fund The Block: South Korea's Shinhan Partners With Solana Foundation, Etherfuse, Orca for Tokenized Fund Issuance CryptoNews",
-    "link": "https://x.com/solana/status/2091138248181510587",
-    "score": 94,
-    "snippet": "THIS WEEK IN MEDIA - 8/14-8/21 Read Securitize and Neuberger Launch New Tokenized Fixed Income Fund The Block: South Korea's Shinhan Partners With Solana Foundation, Etherfuse, Orca for Tokenized Fund Issuance CryptoNews: Solana Agave 4.2: 90% Rent Cut and the Road to 200ms Slots TradingView: Solana",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:solana",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-22T12:19:44.871000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SOL",
-      "ORCA"
-    ]
-  },
-  {
     "id": "cf5b8737c9632eafabaa393127d0d148794801c6",
     "title": "THE BLOCK: U.S. spot bitcoin and ether ETFs drew a combined $2.6 billion in net inflows last week, their strongest week since October 2025. Combined trading volume more than tripled to $29 billion as crypto prices rallie",
     "link": "https://x.com/TheBlockCo/status/2091250667151384576",
@@ -52,7 +19,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -79,7 +46,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZEC"
@@ -105,10 +72,40 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SWARMS"
+    ]
+  },
+  {
+    "id": "14b2503581aeeb465b2f3615c5ad810e4d2eb297",
+    "title": "Injective is now the first layer 1 blockchain to be a SEC registered transfer agent. Tokenized funds, equities, private company shares, and enterprise receivables now connect to the regulated recordkeeping layer U.S. mar",
+    "link": "https://x.com/injective/status/2091503243658473661",
+    "score": 50,
+    "snippet": "Injective is now the first layer 1 blockchain to be a SEC registered transfer agent. Tokenized funds, equities, private company shares, and enterprise receivables now connect to the regulated recordkeeping layer U.S. markets require. Below are some of the top developments that happened on Injective ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-23T12:30:06.513000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "INJ"
     ]
   },
   {
