@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -52,7 +52,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('deploy')",
     "matched": "deploy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -80,7 +80,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveiled')",
     "matched": "unveiled",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -108,7 +108,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
