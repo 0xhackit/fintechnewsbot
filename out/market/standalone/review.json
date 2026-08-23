@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -47,7 +47,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -74,7 +74,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZEC"
@@ -100,11 +100,38 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SWARMS"
     ]
+  },
+  {
+    "id": "2474be4465e06e3a7f08b714fb942e7cc60caadf",
+    "title": "Crypto card spending tops $1 billion as stablecoins move into everyday purchases",
+    "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
+    "score": 50,
+    "snippet": "",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-08-23T15:00:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
   },
   {
     "id": "14b2503581aeeb465b2f3615c5ad810e4d2eb297",
@@ -130,7 +157,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
