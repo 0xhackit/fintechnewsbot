@@ -6,7 +6,6 @@
     "score": 94,
     "snippet": "THIS WEEK IN MEDIA - 8/14-8/21 Read Securitize and Neuberger Launch New Tokenized Fixed Income Fund The Block: South Korea's Shinhan Partners With Solana Foundation, Etherfuse, Orca for Tokenized Fund Issuance CryptoNews: Solana Agave 4.2: 90% Rent Cut and the Road to 200ms Slots TradingView: Solana",
     "regions": [
-      "EU",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -26,7 +25,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL",
@@ -53,7 +52,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -80,7 +79,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZEC"
@@ -106,7 +105,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SWARMS"
