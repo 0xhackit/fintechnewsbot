@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -47,7 +47,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -76,7 +76,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveiled')",
     "matched": "unveiled",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -104,7 +104,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -166,36 +166,6 @@
     "origin": "tree",
     "coins": [
       "BTC"
-    ]
-  },
-  {
-    "id": "14b2503581aeeb465b2f3615c5ad810e4d2eb297",
-    "title": "Injective is now the first layer 1 blockchain to be a SEC registered transfer agent. Tokenized funds, equities, private company shares, and enterprise receivables now connect to the regulated recordkeeping layer U.S. mar",
-    "link": "https://x.com/injective/status/2091503243658473661",
-    "score": 50,
-    "snippet": "Injective is now the first layer 1 blockchain to be a SEC registered transfer agent. Tokenized funds, equities, private company shares, and enterprise receivables now connect to the regulated recordkeeping layer U.S. markets require. Below are some of the top developments that happened on Injective ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:injective",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-23T12:30:06.513000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "INJ"
     ]
   },
   {
