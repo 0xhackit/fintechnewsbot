@@ -1,5 +1,36 @@
 [
   {
+    "id": "37b41b6655971886e50aff39cf07d36d85da504d",
+    "title": "THE BLOCK: Bernstein analysts rate Circle \"Outperform\" with a $140 target, saying its growth cycle does not depend on Clarity Act progress. The analysts cited $1.7 billion in USDC supply growth over the last week and exp",
+    "link": "https://x.com/TheBlockCo/status/2091809722047566190",
+    "score": 80,
+    "snippet": "THE BLOCK: Bernstein analysts rate Circle \"Outperform\" with a $140 target, saying its growth cycle does not depend on Clarity Act progress. The analysts cited $1.7 billion in USDC supply growth over the last week and expanding market share in stablecoin transaction volumes. $CRCL",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-24T08:47:56.869000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CRCL",
+      "USDC"
+    ]
+  },
+  {
     "id": "405859262a1bab1330c97fe7032f825fda8de30a",
     "title": "Asia's weekly TOP10 crypto news South Korea Plans a Joint Virtual-Asset Crime Investigation Unit, KRX Prepares to Launch a New Securities Market, Nomura-Backed Laser Digital Secures Japan’s First New Crypto Registration",
     "link": "https://x.com/WuBlockchain/status/2091524124174602704",
@@ -26,34 +57,6 @@
     "fulltext": false,
     "origin": "tree",
     "coins": []
-  },
-  {
-    "id": "68525b37b054eeccb83d1837d0263d68dbdaa2da",
-    "title": "Three days from Mainnet launch to $2M ✅",
-    "link": "https://x.com/SuiNetwork/status/2091718237709119904",
-    "score": 60,
-    "snippet": "Three days from Mainnet launch to $2M ✅",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:suinetwork",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T02:44:25.066000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SUI"
-    ]
   },
   {
     "id": "2ecd0af8664c0e53e9218c034bae72fffd980e64",
@@ -84,6 +87,34 @@
     "coins": [
       "BTC",
       "ACT"
+    ]
+  },
+  {
+    "id": "68525b37b054eeccb83d1837d0263d68dbdaa2da",
+    "title": "Three days from Mainnet launch to $2M ✅",
+    "link": "https://x.com/SuiNetwork/status/2091718237709119904",
+    "score": 54,
+    "snippet": "Three days from Mainnet launch to $2M ✅",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:suinetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-24T02:44:25.066000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SUI"
     ]
   },
   {
@@ -210,8 +241,11 @@
     "link": "https://www.coindesk.com/business/2026/08/23/crypto-card-spending-tops-usd1-billion-as-stablecoins-move-into-everyday-purchases",
     "score": 44,
     "snippet": "",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU",
+      "LatAm"
+    ],
+    "primary_region": "LatAm",
     "category": "other",
     "source_tier": "B",
     "consensus": 2,
