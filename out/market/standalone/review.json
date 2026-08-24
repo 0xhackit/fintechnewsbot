@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -168,7 +168,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -221,7 +221,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "MSTR",
@@ -234,8 +234,10 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 60,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -250,37 +252,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HBAR"
-    ]
-  },
-  {
-    "id": "1593516134f52e5d82d37a0910a9cf01220917b7",
-    "title": "Introducing Bench, now live on Solana Mainnet. Hiring Markets, Powered by Arcium.",
-    "link": "https://x.com/Arcium/status/2091940719279935768",
-    "score": 60,
-    "snippet": "Introducing Bench, now live on Solana Mainnet. Hiring Markets, Powered by Arcium.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:arcium",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T17:28:29.082000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('now live')",
-    "matched": "now live",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ARX",
-      "SOL"
     ]
   },
   {
@@ -308,10 +283,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "AERO"
+    ]
+  },
+  {
+    "id": "1593516134f52e5d82d37a0910a9cf01220917b7",
+    "title": "Introducing Bench, now live on Solana Mainnet. Hiring Markets, Powered by Arcium.",
+    "link": "https://x.com/Arcium/status/2091940719279935768",
+    "score": 54,
+    "snippet": "Introducing Bench, now live on Solana Mainnet. Hiring Markets, Powered by Arcium.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:arcium",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-24T17:28:29.082000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now live')",
+    "matched": "now live",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ARX",
+      "SOL"
     ]
   },
   {
@@ -393,7 +395,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -503,7 +505,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -515,8 +517,10 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -529,7 +533,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PYTH",
@@ -616,7 +620,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
