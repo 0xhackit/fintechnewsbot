@@ -23,7 +23,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CRCL",
@@ -54,7 +54,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "WLFI"
@@ -84,7 +84,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('issuance')",
     "matched": "issuance",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -141,7 +141,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SUI"
@@ -172,7 +172,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('deploy')",
     "matched": "deploy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -200,7 +200,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveiled')",
     "matched": "unveiled",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -228,7 +228,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -294,8 +294,10 @@
     "link": "https://x.com/WuBlockchain/status/2091732093101564286",
     "score": 44,
     "snippet": "Spot Bitcoin ETFs Recorded $1.918 Billion in Net Inflows Last Week From Aug. 17 to Aug. 21 (ET), spot Bitcoin ETFs recorded net inflows of $1.918 billion. Spot Ethereum ETFs saw net inflows of $697 million, while spot Solana ETFs recorded $28.34 million, spot XRP ETFs $39.78 million, and spot HYPE E",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -308,7 +310,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -317,6 +319,32 @@
       "BTC",
       "SOL"
     ]
+  },
+  {
+    "id": "83eb68810e2f6ebdaf856de0a1fd6d318e797665",
+    "title": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset - ledgerinsights.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEpFeGk5UHNWSF81MDhlTzBqd1IyWk5JM3dLSHlhNU9YNm5XWF9NRFA5RkREd1VSdmlrWFAyMmROR3NIMHMtSmxiUDhrR1ZrRmxVa3NaQjREZ1VKd3FlS1hMNmx4eVJHcWNFRGtIald0VkRZQ1VuNzVsSGpudlVxeFA2LVJkS1JJZVB4bmNtUWt4Y00wLThmUw?oc=5",
+    "score": 35,
+    "snippet": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset ledgerinsights.com",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-08-24T10:39:47+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "432f1e80d37ecb9b2d8cc0ae8ec7d47aeedc916a",
