@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -49,7 +49,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SUI"
@@ -80,7 +80,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('deploy')",
     "matched": "deploy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -108,7 +108,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveiled')",
     "matched": "unveiled",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -136,11 +136,41 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
       "CAP"
+    ]
+  },
+  {
+    "id": "ace6c03ae05bba1ec1a60a05cfa973a7bd32f517",
+    "title": "Spot Bitcoin ETFs Recorded $1.918 Billion in Net Inflows Last Week From Aug. 17 to Aug. 21 (ET), spot Bitcoin ETFs recorded net inflows of $1.918 billion. Spot Ethereum ETFs saw net inflows of $697 million, while spot So",
+    "link": "https://x.com/WuBlockchain/status/2091732093101564286",
+    "score": 50,
+    "snippet": "Spot Bitcoin ETFs Recorded $1.918 Billion in Net Inflows Last Week From Aug. 17 to Aug. 21 (ET), spot Bitcoin ETFs recorded net inflows of $1.918 billion. Spot Ethereum ETFs saw net inflows of $697 million, while spot Solana ETFs recorded $28.34 million, spot XRP ETFs $39.78 million, and spot HYPE E",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-24T03:39:28.736000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "HYPE",
+      "ETH",
+      "BTC",
+      "SOL"
     ]
   },
   {
