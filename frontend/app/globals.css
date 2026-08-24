@@ -1852,6 +1852,17 @@ body {
   border-bottom: 1px solid var(--color-divider);
 }
 .broadsheet .bs-wire-row:hover { background: color-mix(in srgb, var(--color-accent) 4%, transparent); }
+.broadsheet .bs-wire-day {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--color-accent-2);
+  padding: 26px 0 7px;
+  border-bottom: 2px solid var(--color-text);
+}
+.broadsheet .bs-wire-day:first-child { padding-top: 6px; }
 .broadsheet .bs-wire-time { font-size: 14px; color: var(--color-neutral-600); font-variant-numeric: tabular-nums; }
 .broadsheet .bs-wire-body { min-width: 0; }
 .broadsheet .bs-wire-title {

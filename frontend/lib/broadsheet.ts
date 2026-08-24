@@ -36,6 +36,8 @@ export interface Story {
   regions: string[];
   postedToX: boolean;
   tweetUrl: string | null;
+  dayKey: string; // UTC calendar day (YYYY-MM-DD), drives the wire date separators
+  dayLabel: string; // "Monday, August 24" (UTC), shown as a wire day heading
 }
 
 export interface Desk {
@@ -54,6 +56,7 @@ export interface BriefLine {
 export interface Edition {
   lead: Story | null;
   brief: BriefLine[];
+  briefLabel: string; // "The top three from yesterday" — reflects what the brief holds
   desks: Desk[];
   wire: Story[];
   updatedAt: string;
@@ -231,6 +234,9 @@ function fmtMillions(m: number): string {
 
 // ── Time helpers (locale-formatted, pure) ──────────────────────────────────────
 
+// UTC so the wire time agrees with the UTC date separators (a story filed at
+// 21:34 UTC reads as "21:34" under its "August 21" heading, not a skewed local
+// time under the wrong day) — and so SSR and client always match.
 function hhmm(ms: number): string {
   if (!ms) return "";
   const d = new Date(ms);
@@ -238,7 +244,62 @@ function hhmm(ms: number): string {
     hour: "2-digit",
     minute: "2-digit",
     hour12: false,
+    timeZone: "UTC",
   });
+}
+
+// ── Recency + day grouping (UTC, so server and client agree — no hydration drift)
+
+/** UTC calendar day, e.g. "2026-08-24". Stable across SSR/client. */
+function utcDayKey(ms: number): string {
+  if (!ms) return "undated";
+  const d = new Date(ms);
+  return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, "0")}-${String(
+    d.getUTCDate()
+  ).padStart(2, "0")}`;
+}
+
+/** Absolute day heading, e.g. "Monday, August 24" (UTC). */
+function utcDayLabel(ms: number): string {
+  if (!ms) return "Undated";
+  return new Date(ms).toLocaleDateString("en-US", {
+    weekday: "long",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC",
+  });
+}
+
+// Pure market/price recaps ("$BTC climbed to…", "holdings are back above…", "ETF
+// inflow") are wire filler — never a lead or a brief headline. Applied only to the
+// "other" bucket; a desk-mapped story (Regulation/Funding/Rails) is always eligible.
+function isMarketRecap(s: Story): boolean {
+  const t = (s.title || "").toLowerCase();
+  return (
+    /\b(climbs?|surges?|approaches|hovers?|dips?|rall(?:y|ies|ied)|jumps?|slips?|soars?|trades?\s+around|back\s+above)\b[^.]*\$?\d/.test(
+      t
+    ) ||
+    /\bholdings?\s+(?:are|is)\s+back\b/.test(t) ||
+    /\b(?:unrealized\s+(?:profit|loss)|net\s+(?:in|out)flows?|(?:etf|fund)\s+(?:in|out)flows?)\b/.test(
+      t
+    )
+  );
+}
+
+/** Highest-scoring story in the tightest recency window that has any — so a fresh
+ *  but slightly lower-scored story wins the slot over a stale high-scorer. */
+function pickFreshTop(pool: Story[], refMs: number): Story | null {
+  if (!pool.length) return null;
+  for (const days of [1, 2, 4, 8, 3650]) {
+    const cut = refMs - days * DAY_MS;
+    const inWin = pool.filter((s) => s.publishedAt >= cut);
+    if (inWin.length) {
+      return [...inWin].sort(
+        (a, b) => b.score - a.score || b.publishedAt - a.publishedAt
+      )[0];
+    }
+  }
+  return pool[0];
 }
 
 // ── Shaping ────────────────────────────────────────────────────────────────────
@@ -273,6 +334,8 @@ function toStory(e: FeedEntry): Story {
     sectionLabel: SECTION_LABEL[category],
     publishedAt,
     time: hhmm(publishedAt),
+    dayKey: utcDayKey(publishedAt),
+    dayLabel: utcDayLabel(publishedAt),
     score: e.score ?? 0,
     origin: e.origin || "rss",
     isConsensus,
@@ -310,40 +373,70 @@ const EDITION_EPOCH = Date.UTC(2025, 0, 1); // Jan 1, 2025 — sets Edition No. 
 export function shapeEdition(entries: FeedEntry[], updatedAt: string): Edition {
   const stories = entries.map(toStory).filter((s) => s.title && s.url);
 
-  const byScore = [...stories].sort(
-    (a, b) => b.score - a.score || b.publishedAt - a.publishedAt
+  const newest = [...stories].sort(
+    (a, b) => b.publishedAt - a.publishedAt || b.score - a.score
   );
 
-  // Lead + brief are the curated surfaces, so they draw from desk-mapped stories
-  // (Regulation / Funding / Rails) — a high-scoring "other" price-wrap tree dump
-  // stays in the Wire rather than leading the edition. Fall back to the raw
-  // score order only if nothing maps to a desk.
-  const editorial = byScore.filter((s) => s.section !== null);
-  const lead = editorial[0] ?? byScore[0] ?? null;
+  const updatedMs = Date.parse(updatedAt) || newest[0]?.publishedAt || 0;
 
-  // Brief = next three (desk-mapped preferred), one line each.
-  const briefPool = (editorial.length ? editorial : byScore).filter(
-    (s) => s.id !== lead?.id
+  // ── Lead: the most important story of the *freshest* day that carries news, so
+  //    a new filing takes the top slot instead of a high-scoring week-old story.
+  //    Price-wrap "other" dumps stay in the Wire; desk-mapped stories always count.
+  const leadPool = newest.filter(
+    (s) => s.section !== null || (s.category === "other" && !isMarketRecap(s))
   );
-  const brief: BriefLine[] = briefPool.slice(0, 3).map((s, i) => ({
+  const lead = pickFreshTop(leadPool, updatedMs) ?? newest[0] ?? null;
+
+  // ── Sixty-second brief: the top three from the day before — a fixed "what you
+  //    missed yesterday" recap that rolls over each morning. The feed is sparse,
+  //    so when yesterday was quiet we backfill with the most recent earlier
+  //    stories (never today's — those belong to the lead and the desks).
+  const briefEligible = leadPool.filter((s) => s.id !== lead?.id);
+  const todayKey = utcDayKey(updatedMs);
+  const yesterdayKey = utcDayKey(updatedMs - DAY_MS);
+  const yesterday = briefEligible
+    .filter((s) => s.dayKey === yesterdayKey)
+    .sort((a, b) => b.score - a.score || b.publishedAt - a.publishedAt);
+  const hadYesterday = yesterday.length > 0;
+  const briefStories = [...yesterday];
+  if (briefStories.length < 3) {
+    const chosen = new Set(briefStories.map((s) => s.id));
+    const backfill = briefEligible
+      .filter(
+        (s) => !chosen.has(s.id) && s.dayKey !== todayKey && s.publishedAt < updatedMs
+      )
+      .sort((a, b) => b.publishedAt - a.publishedAt || b.score - a.score);
+    for (const s of backfill) {
+      if (briefStories.length >= 3) break;
+      briefStories.push(s);
+    }
+  }
+  const brief: BriefLine[] = briefStories.slice(0, 3).map((s, i) => ({
     n: String(i + 1).padStart(2, "0"),
     text: s.deck || s.title,
     id: s.id,
   }));
+  const briefLabel = hadYesterday
+    ? "The top three from yesterday"
+    : "The biggest stories you may have missed";
 
-  // Desks = per-section, score-ordered, capped. Lead is pulled out of its column.
+  // ── Desks: per-section, NEWEST first — a story surfaces at the top of its
+  //    category the moment it is filed. The lead is pulled out of its column.
   const desks: Desk[] = DESK_DEFS.map(({ key, category, name }) => {
-    const inSection = byScore.filter(
+    const inSection = newest.filter(
       (s) => s.category === category && s.id !== lead?.id
     );
-    const capped = inSection.slice(0, 5);
-    return { key, name, note: deskNote(key, inSection), stories: capped };
+    return {
+      key,
+      name,
+      note: deskNote(key, inSection),
+      stories: inSection.slice(0, 5),
+    };
   });
 
-  // Wire = everything, newest first.
-  const wire = [...stories].sort((a, b) => b.publishedAt - a.publishedAt);
+  // Wire = everything, newest first (Story.dayKey drives the date separators).
+  const wire = newest;
 
-  const updatedMs = Date.parse(updatedAt) || 0;
   const dateline = updatedMs
     ? new Date(updatedMs).toLocaleDateString("en-US", {
         weekday: "long",
@@ -362,6 +455,7 @@ export function shapeEdition(entries: FeedEntry[], updatedAt: string): Edition {
   return {
     lead,
     brief,
+    briefLabel,
     desks,
     wire,
     updatedAt,

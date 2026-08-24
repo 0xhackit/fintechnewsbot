@@ -221,7 +221,7 @@ export default function Edition({
             <div className="bs-brief-head">
               <span className="bs-kicker bs-kicker-accent">The sixty-second brief</span>
               <span className="bs-kicker bs-kicker-muted">
-                The top three of the last 24 hours
+                {edition.briefLabel}
               </span>
             </div>
             <div className="bs-brief-grid">
@@ -349,37 +349,52 @@ export default function Edition({
           <div className="bs-wire-head">
             <h3>The Wire</h3>
             <span className="bs-kicker bs-kicker-muted">
-              Everything filed today, in order
+              Every story filed, newest first · times UTC
             </span>
           </div>
           <div>
-            {wire.map((w) => (
-              <div key={w.id} className="bs-wire-row">
-                <span className="bs-wire-time" suppressHydrationWarning>
-                  {w.time || ago(w.publishedAt, ref)}
-                </span>
-                <div className="bs-wire-body">
-                  <a href={w.url} target="_blank" rel="noopener noreferrer" className="bs-wire-title">
-                    {w.title}
-                  </a>
-                  <div className="bs-wire-meta">
-                    <span>{w.sectionLabel}</span>
-                    <span>·</span>
-                    <span>{w.source}</span>
-                    {w.isConsensus && (
-                      <>
+            {(() => {
+              const rows: JSX.Element[] = [];
+              let prevDay = "";
+              for (const w of wire) {
+                if (w.dayKey !== prevDay) {
+                  prevDay = w.dayKey;
+                  rows.push(
+                    <div key={`day-${w.dayKey}`} className="bs-wire-day">
+                      {w.dayLabel}
+                    </div>
+                  );
+                }
+                rows.push(
+                  <div key={w.id} className="bs-wire-row">
+                    <span className="bs-wire-time" suppressHydrationWarning>
+                      {w.time || ago(w.publishedAt, ref)}
+                    </span>
+                    <div className="bs-wire-body">
+                      <a href={w.url} target="_blank" rel="noopener noreferrer" className="bs-wire-title">
+                        {w.title}
+                      </a>
+                      <div className="bs-wire-meta">
+                        <span>{w.sectionLabel}</span>
                         <span>·</span>
-                        <span className="bs-consensus">✓ {sourcesLabel(w.sources)}</span>
-                      </>
-                    )}
-                    {w.coins.slice(0, 2).map((c) => (
-                      <span key={c} className="bs-ticker">${c}</span>
-                    ))}
+                        <span>{w.source}</span>
+                        {w.isConsensus && (
+                          <>
+                            <span>·</span>
+                            <span className="bs-consensus">✓ {sourcesLabel(w.sources)}</span>
+                          </>
+                        )}
+                        {w.coins.slice(0, 2).map((c) => (
+                          <span key={c} className="bs-ticker">${c}</span>
+                        ))}
+                      </div>
+                    </div>
+                    <SaveButton story={w} variant="link" />
                   </div>
-                </div>
-                <SaveButton story={w} variant="link" />
-              </div>
-            ))}
+                );
+              }
+              return rows;
+            })()}
           </div>
           <div className="bs-wire-foot">
             <p>That is the whole file. The next edition prints at 6:00.</p>
