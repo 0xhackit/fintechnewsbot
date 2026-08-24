@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -93,7 +93,7 @@
     "id": "8f9a4bb80e082f015828482a03fa1b00dc439b17",
     "title": "Introducing agent tokenization on Solana from @virtuals_io Anyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain. Launch your first agent",
     "link": "https://x.com/solana/status/2091918581755793520",
-    "score": 80,
+    "score": 74,
     "snippet": "Introducing agent tokenization on Solana from @virtuals_io Anyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain. Launch your first agent on Solana https://x.com/virtuals_io/status/2091895910905299009?s=20",
     "regions": [],
     "primary_region": null,
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -168,7 +168,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -221,7 +221,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "MSTR",
@@ -248,7 +248,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -280,7 +280,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "AERO"
@@ -365,7 +365,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -449,7 +449,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -487,10 +487,8 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -503,7 +501,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PYTH",
