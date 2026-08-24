@@ -1,5 +1,36 @@
 [
   {
+    "id": "9493136a3b416be7cf89a9f9500b2f72015a9c80",
+    "title": "Coinbase Tokenized Stocks are now live on @Base. Centrifuge is one of the first tokenization platforms to launch equity products paired with Coinbase Tokenized Stocks on Base, live from day one. Only available in eligibl",
+    "link": "https://x.com/centrifuge/status/2091922123170430979",
+    "score": 80,
+    "snippet": "Coinbase Tokenized Stocks are now live on @Base. Centrifuge is one of the first tokenization platforms to launch equity products paired with Coinbase Tokenized Stocks on Base, live from day one. Only available in eligible geos ex U.S.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:centrifuge",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-24T16:14:35.464000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CFG"
+    ]
+  },
+  {
     "id": "8f9a4bb80e082f015828482a03fa1b00dc439b17",
     "title": "Introducing agent tokenization on Solana from @virtuals_io Anyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain. Launch your first agent",
     "link": "https://x.com/solana/status/2091918581755793520",
@@ -22,7 +53,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -50,7 +81,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -78,7 +109,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -131,7 +162,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "MSTR",
@@ -162,7 +193,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "WLFI"
@@ -204,8 +235,11 @@
     "link": "https://www.forbes.com/sites/digital-assets/2026/08/24/youre-not-bullish-enough-bitcoin-is-suddenly-braced-for-a-1-trillion-price-game-changer",
     "score": 60,
     "snippet": "'You're Not Bullish Enough'—Bitcoin Is Suddenly Braced For A $1 Trillion Price Game-Changer",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -218,7 +252,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -249,7 +283,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "AERO"
@@ -307,68 +341,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SUI"
     ]
-  },
-  {
-    "id": "966de72f8c30dd57dd83d9de27f1a63af9f9bcd3",
-    "title": "Injective now has 🏛️ SEC Transfer Agent Registration 🇪🇺 MiCA in the EU 💡 The largest global enterprises such as LG tokenizing assets with $INJ 🪙 A unified stablecoin standard used by multiple blockchains 🤖 A novel AI SDK",
-    "link": "https://x.com/injective/status/2091639804223959216",
-    "score": 54,
-    "snippet": "Injective now has 🏛️ SEC Transfer Agent Registration 🇪🇺 MiCA in the EU 💡 The largest global enterprises such as LG tokenizing assets with $INJ 🪙 A unified stablecoin standard used by multiple blockchains 🤖 A novel AI SDK for deploying groundbreaking dApps 🥷 Motion",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:injective",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-23T21:32:44.970000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "INJ"
-    ]
-  },
-  {
-    "id": "0c96740acb02f327c845a7c66b693a2494d13147",
-    "title": "Stablecoin platform Fasset hits $1bn valuation",
-    "link": "https://www.finextra.com/newsarticle/48288/stablecoin-platform-fasset-hits-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 50,
-    "snippet": "US-based start-up Fasset, which is described as an AI-powered stablecoin neobanking platform, has reached unicorn status after its latest fund raising effort.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "finextra",
-    "source": "Google News RSS",
-    "published_at": "2026-08-24T10:24:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "ed82e4acc65eed3438ef17679dc0b93da5443059",
@@ -376,10 +353,8 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 50,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -392,7 +367,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PYTH",
@@ -450,7 +425,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('acquired')",
     "matched": "acquired",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -486,15 +461,39 @@
     ]
   },
   {
+    "id": "0c96740acb02f327c845a7c66b693a2494d13147",
+    "title": "Stablecoin platform Fasset hits $1bn valuation",
+    "link": "https://www.finextra.com/newsarticle/48288/stablecoin-platform-fasset-hits-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 44,
+    "snippet": "US-based start-up Fasset, which is described as an AI-powered stablecoin neobanking platform, has reached unicorn status after its latest fund raising effort.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-08-24T10:24:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "ace6c03ae05bba1ec1a60a05cfa973a7bd32f517",
     "title": "Spot Bitcoin ETFs Recorded $1.918 Billion in Net Inflows Last Week From Aug. 17 to Aug. 21 (ET), spot Bitcoin ETFs recorded net inflows of $1.918 billion. Spot Ethereum ETFs saw net inflows of $697 million, while spot So",
     "link": "https://x.com/WuBlockchain/status/2091732093101564286",
     "score": 44,
     "snippet": "Spot Bitcoin ETFs Recorded $1.918 Billion in Net Inflows Last Week From Aug. 17 to Aug. 21 (ET), spot Bitcoin ETFs recorded net inflows of $1.918 billion. Spot Ethereum ETFs saw net inflows of $697 million, while spot Solana ETFs recorded $28.34 million, spot XRP ETFs $39.78 million, and spot HYPE E",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -507,7 +506,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -534,12 +533,12 @@
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-08-24T11:50:28+00:00",
+    "published_at": "2026-08-24T16:39:47+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
