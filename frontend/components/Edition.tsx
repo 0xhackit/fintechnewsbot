@@ -188,7 +188,13 @@ export default function Edition({
             <nav className="bs-nav">
               <span className="bs-nav-here">Today</span>
               <a href="#wire">The Wire</a>
-              <a href="/analyze">Analyze</a>
+              <a
+                href="https://x.com/Fintech_onchain"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Follow
+              </a>
               <button
                 type="button"
                 className="btn btn-secondary bs-btn"
