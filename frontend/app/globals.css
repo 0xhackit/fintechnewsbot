@@ -1638,6 +1638,8 @@ body {
   line-height: 0.95;
   letter-spacing: -0.025em;
 }
+/* Wordmark: roman "Fintech" + cyan italic "Onchain" (logo direction 1a). */
+.broadsheet .bs-title-on { color: var(--color-accent); font-style: italic; }
 .broadsheet .bs-nav {
   display: flex;
   align-items: center;

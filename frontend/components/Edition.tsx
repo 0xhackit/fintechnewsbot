@@ -184,7 +184,9 @@ export default function Edition({
         <header>
           <div className="bs-rule-thick" />
           <div className="bs-masthead">
-            <h1 className="bs-title">Fintech Onchain</h1>
+            <h1 className="bs-title">
+              Fintech <span className="bs-title-on">Onchain</span>
+            </h1>
             <nav className="bs-nav">
               <span className="bs-nav-here">Today</span>
               <a href="#wire">The Wire</a>
