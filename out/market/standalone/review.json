@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -168,7 +168,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -207,10 +207,8 @@
     "link": "https://x.com/TheBlockCo/status/2092056537607065748",
     "score": 60,
     "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -223,7 +221,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -236,10 +234,8 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 60,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -254,7 +250,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HBAR"
@@ -280,7 +276,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -288,62 +284,29 @@
     ]
   },
   {
-    "id": "599c791386e4fd4622b2867787ef631b87251ba7",
-    "title": "Strategy launches $1.6B cash pool after $2B raise as BTC buys stay paused",
-    "link": "https://cointelegraph.com/news/strategy-2-billion-raise-strc-136-million-bitcoin-pause",
-    "score": 54,
-    "snippet": "Strategy launches $1.6B cash pool after $2B raise as BTC buys stay paused",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "id": "bd6ae6092403de8b5911884b71e5e44e62c4d1f5",
+    "title": "Pieverse staking is live! 🌱 Introducing Claw & Grow. Stake $PIEVERSE and earn XP every day from day one. ⏳ Choose your term: 90 / 180 / 365 days 🎯 Earn 1x XP with Human Staking or 1.1x XP through Purr-Fect Claw 🚀 Additio",
+    "link": "https://x.com/pieverse_io/status/2092080363552260520",
+    "score": 50,
+    "snippet": "Pieverse staking is live! 🌱 Introducing Claw & Grow. Stake $PIEVERSE and earn XP every day from day one. ⏳ Choose your term: 90 / 180 / 365 days 🎯 Earn 1x XP with Human Staking or 1.1x XP through Purr-Fect Claw 🚀 Additional boosts for longer-term staking are planned as Claw & Grow evolves 📊 See your",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:cointelegraph",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-24T12:42:37.848000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "3d6f62b20e110dacf8cbe93614e654be14cdc971",
-    "title": "'You're Not Bullish Enough'—Bitcoin Is Suddenly Braced For A $1 Trillion Price Game-Changer",
-    "link": "https://www.forbes.com/sites/digital-assets/2026/08/24/youre-not-bullish-enough-bitcoin-is-suddenly-braced-for-a-1-trillion-price-game-changer",
-    "score": 54,
-    "snippet": "'You're Not Bullish Enough'—Bitcoin Is Suddenly Braced For A $1 Trillion Price Game-Changer",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
     "matched_topics": [],
-    "feed_name": "tree:forbes",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-24T12:28:20.495000+00:00",
+    "feed_name": "tree:x:pieverse_io",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T02:43:22.844000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "PIEVERSE"
     ]
   },
   {
@@ -392,7 +355,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -476,7 +439,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -488,10 +451,8 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -504,7 +465,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PYTH",
@@ -546,10 +507,8 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEpFeGk5UHNWSF81MDhlTzBqd1IyWk5JM3dLSHlhNU9YNm5XWF9NRFA5RkREd1VSdmlrWFAyMmROR3NIMHMtSmxiUDhrR1ZrRmxVa3NaQjREZ1VKd3FlS1hMNmx4eVJHcWNFRGtIald0VkRZQ1VuNzVsSGpudlVxeFA2LVJkS1JJZVB4bmNtUWt4Y00wLThmUw?oc=5",
     "score": 35,
     "snippet": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset ledgerinsights.com",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -564,7 +523,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
