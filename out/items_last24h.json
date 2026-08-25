@@ -10,7 +10,7 @@
     "snippet": "Fasset raised $68 million in Series C funding at a $1 billion valuation, expanding its cross-border stablecoin infrastructure.",
     "published_at": "2026-08-24T07:56:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin",
       "cross-border"
@@ -58,7 +58,7 @@
     "snippet": "Tap Global Group plc (AIM: TAP), the innovative digital finance hub that brings money, payments and crypto settlement services together in a single user-friendly app, announces the adoption of a Digital Asset Income Strategy (\"DAIS\"): a yield-earning reserve of digital assets, deployed through the G",
     "published_at": "2026-08-24T12:20:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -105,7 +105,7 @@
     "snippet": "Non-profit fintech, Responsible Fintech Institute (RFI), has launched a pilot designed to examine post-quantum security for digital assets transactions",
     "published_at": "2026-08-24T09:33:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "launched",
       "pilot"
@@ -143,54 +143,6 @@
     ]
   },
   {
-    "id": "d0b6637a9cb21b22279642b2d11dd974c455b17c21dcd0c0ca52f7c061a0ebb1",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Bernstein sees new USDC growth cycle, sets $140 Circle price target",
-    "url": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target",
-    "snippet": "USDC supply increased by roughly $2 billion in seven days, with Bernstein citing higher transaction activity and several factors that could support further growth.",
-    "published_at": "2026-08-24T20:00:39+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target",
-      "guidislink": true
-    },
-    "score": 50,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "414bf474550b0dd80486419aa5f3b67846e6978f2e30e7435a4a4d76ae871cab",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -201,7 +153,7 @@
     "snippet": "Coinbase’s B20 equities bring stocks including Apple and Nvidia onchain, allowing eligible non-US users to trade them 24/7 and use them across DeFi.",
     "published_at": "2026-08-24T19:11:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -238,6 +190,54 @@
     ]
   },
   {
+    "id": "d0b6637a9cb21b22279642b2d11dd974c455b17c21dcd0c0ca52f7c061a0ebb1",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Bernstein sees new USDC growth cycle, sets $140 Circle price target",
+    "url": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target",
+    "snippet": "USDC supply increased by roughly $2 billion in seven days, with Bernstein citing higher transaction activity and several factors that could support further growth.",
+    "published_at": "2026-08-24T20:00:39+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/bernstein-circle-usdc-growth-140-price-target",
+      "guidislink": true
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c04efcb364c5b62167f5184e7576257b3cb9eb461bbb8ec13cb3710aaa800b49",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -248,7 +248,7 @@
     "snippet": "US-based start-up Fasset, which is described as an AI-powered stablecoin neobanking platform, has reached unicorn status after its latest fund raising effort.",
     "published_at": "2026-08-24T10:24:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -295,7 +295,7 @@
     "snippet": "",
     "published_at": "2026-08-24T04:45:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -342,7 +342,7 @@
     "snippet": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset ledgerinsights.com",
     "published_at": "2026-08-24T13:44:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -389,7 +389,7 @@
     "snippet": "Fasset raised $68 million in a Series C led by SBI Group as the companies plan a digital bank in Malaysia and to expand stablecoin payments.",
     "published_at": "2026-08-24T11:25:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -438,7 +438,7 @@
     "snippet": "Participating banks will test post-quantum wallets and onchain transfers while regulators from Abu Dhabi, Bhutan and Malta initially observe.",
     "published_at": "2026-08-24T05:51:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "pilot"
     ],
@@ -485,7 +485,7 @@
     "snippet": "Standard Chartered Becomes First Bank to Distribute Hong Kong-Regulated Stablecoin HKDAP bloomingbit",
     "published_at": "2026-08-24T23:11:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -522,54 +522,6 @@
     ]
   },
   {
-    "id": "a3e4fccf57c098b55f568c8c22949ac0b6b0579759445558a9f3fac69bef742b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
-    "url": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
-    "canonical_url": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
-    "snippet": "The tokens represent shares held by regulated custodian Alpaca and can be traded or used in decentralized finance applications on Base.",
-    "published_at": "2026-08-24T19:43:43+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=376393",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "0f1417558b111181be7624318911deda633c2b44172551629c00b7adb99fbe39",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -580,7 +532,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -615,6 +567,54 @@
     ]
   },
   {
+    "id": "a3e4fccf57c098b55f568c8c22949ac0b6b0579759445558a9f3fac69bef742b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Coinbase Brings Tokenized Stocks to Ethereum L2 Base",
+    "url": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
+    "canonical_url": "https://decrypt.co/376393/coinbase-tokenized-stocks-base-ethereum",
+    "snippet": "The tokens represent shares held by regulated custodian Alpaca and can be traded or used in decentralized finance applications on Base.",
+    "published_at": "2026-08-24T19:43:43+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=376393",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "ed856602ea80e35cc49c871077499b33035fb1b02234defdc9e72391074efeee",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -625,7 +625,7 @@
     "snippet": "",
     "published_at": "2026-08-24T17:12:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -672,7 +672,7 @@
     "snippet": "Bernstein says Circle can sustain growth without the Clarity Act as USDC supply rebounds and stablecoin volumes continue expanding.",
     "published_at": "2026-08-24T10:08:38+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -721,7 +721,7 @@
     "snippet": "Stablecoin Issuer Tether’s Uruguay Bitcoin Mining Venture Collapses Over Power Supply Dispute Crowdfund Insider",
     "published_at": "2026-08-25T00:32:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether",
@@ -770,7 +770,7 @@
     "snippet": "Trump-Linked World Liberty Trust Gets Stablecoin Bank Approval – Here’s What That Means for Crypto MarketWise",
     "published_at": "2026-08-24T16:44:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -817,7 +817,7 @@
     "snippet": "Germany expands its lead in EU MiCA authorizations with 79 crypto asset service providers, ahead of France and the Netherlands.",
     "published_at": "2026-08-24T10:41:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "MiCA"
     ],
@@ -862,7 +862,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -907,7 +907,7 @@
     "snippet": "Ericsson(NASDAQ: ERIC) and MTN Group Fintech have completed the Mobile Money (MoMo) Evolved Migration across key African markets, including Eswatini, Ghana, Rwanda and Uganda.",
     "published_at": "2026-08-24T11:44:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -952,7 +952,7 @@
     "snippet": "A stablecoin may pass through several wallets and intermediaries before someone tries to turn it back into dollars. Federal regulators now have to decide which of those relationships requires someone to know who’s on the other side, and when. That issue runs through comments on the proposed customer",
     "published_at": "2026-08-24T20:03:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -963,14 +963,14 @@
       "id": "https://www.pymnts.com/?p=4114260",
       "guidislink": false
     },
-    "score": -10,
+    "score": -16,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -999,7 +999,7 @@
     "snippet": "Tehran said vessels violated protocols for travelling across the waterway and could face fines or confiscation",
     "published_at": "2026-08-24T11:14:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-25T01:13:45.620605+00:00",
+    "fetched_at": "2026-08-25T02:31:14.728220+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
