@@ -11,7 +11,7 @@
     "primary_region": "US",
     "category": "other",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 50,
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -24,7 +24,7 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   },
   {
@@ -75,7 +75,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZRO"
@@ -106,7 +106,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -130,7 +130,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "TRX"
@@ -158,12 +158,45 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "COIN",
       "MSTR",
       "AMD"
+    ]
+  },
+  {
+    "id": "47b9141e45b260416255ef0a361acac0fd598856",
+    "title": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping ins",
+    "link": "https://x.com/circle/status/2092326146151174416",
+    "score": 60,
+    "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T19:00:03.504000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "USDC",
+      "ETH",
+      "ARC"
     ]
   },
   {
@@ -214,7 +247,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "KMNO"
@@ -243,7 +276,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -271,7 +304,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -297,7 +330,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -325,7 +358,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integrated')",
     "matched": "integrated",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "LTC",
@@ -339,8 +372,10 @@
     "link": "https://x.com/SynFuturesDefi/status/2092205358580408683",
     "score": 54,
     "snippet": "Interesting updates from the RWA market: 🔷 Tokenized Stocks Are Growing Fast → According to http://RWA.xyz, the number of tokenized stockholders has more than doubled in the past month, reaching around 1.31 million → Monthly onchain transfer volume also increased by 179% to around $23.1 billion, sho",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -355,7 +390,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "F",
@@ -371,8 +406,10 @@
     "link": "https://x.com/WuBlockchain/status/2092198218260164916",
     "score": 54,
     "snippet": "Kinetiq Unveils Elysium L2 for Hyperliquid, Using HYPE as Gas Hyperliquid ecosystem liquid staking protocol Kinetiq announced Elysium, a new L2 designed to improve HyperEVM performance and throughput while strengthening connectivity with HyperCore. Elysium will use HYPE as its gas token and focus on",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -387,7 +424,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveils')",
     "matched": "unveils",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -422,41 +459,15 @@
     ]
   },
   {
-    "id": "25236018a2c32d8018d41a7e09133a1e556cbc22",
-    "title": "The Corporate Bank Account Is Becoming an Event Stream",
-    "link": "https://www.pymnts.com/news/b2b-payments/2026/corporate-bank-account-is-becoming-event-stream/",
-    "score": 40,
-    "snippet": "Corporate treasury typically works in sequence. Money moves, banks record it, statements arrive, and finance teams reconcile what happened. Fast forward to today, and that sequence is starting to run in reverse. As payments become faster and transaction data becomes richer, the economically useful m",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "pymnts",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T15:55:02+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "ee88a9e67d3621e3d25aec6cc95b12b44bff569b",
     "title": "Crypto custody firm Copper has potential buyers. But offers are way below its $500 million asking price",
     "link": "https://www.coindesk.com/business/2026/08/25/crypto-custody-firm-copper-has-potential-buyers-but-offers-are-way-below-its-usd500-million-asking-price",
     "score": 40,
     "snippet": "",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "other",
     "source_tier": "B",
     "consensus": 3,
@@ -527,7 +538,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
