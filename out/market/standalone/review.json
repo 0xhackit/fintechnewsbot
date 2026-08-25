@@ -19,7 +19,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -49,7 +49,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -83,7 +83,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -111,7 +111,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -138,37 +138,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SOL"
     ]
-  },
-  {
-    "id": "c13cbe4908d1b9446d1efe5980ee9a97b4ef4879",
-    "title": "In the inaugural episode of Tokenization Talks, Louis Sykes is joined by Eric Saraniecki, Co-Founder of Digital Asset, to discuss DA's recent $355 million raise and the year ahead for the @CantonNetwork.",
-    "link": "https://x.com/digitalasset/status/2091900336076124190",
-    "score": 69,
-    "snippet": "In the inaugural episode of Tokenization Talks, Louis Sykes is joined by Eric Saraniecki, Co-Founder of Digital Asset, to discuss DA's recent $355 million raise and the year ahead for the @CantonNetwork.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:digitalasset",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T14:48:00.843000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
   },
   {
     "id": "62e7c13c70733d2102eb2dca698f4c5d506b38bb",
@@ -221,7 +195,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -234,8 +208,10 @@
     "link": "https://x.com/TheBlockCo/status/2092056537607065748",
     "score": 54,
     "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -248,7 +224,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -261,8 +237,10 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 54,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -277,7 +255,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HBAR"
@@ -303,7 +281,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -332,7 +310,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partner')",
     "matched": "partner",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -342,8 +320,10 @@
     "link": "https://x.com/zerobasezk/status/2092152568034328791",
     "score": 50,
     "snippet": "Treasury Secretary Scott Bessent’s expansion of buybacks on longer-dated U.S. bonds, funded by greater short-term Treasury bill issuance in a so-called Treasury twist, aligns closely with the administration’s digital-asset agenda. The 2025 GENIUS Act requires U.S. dollar-pegged stablecoins to hold r",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
@@ -358,7 +338,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('issuance')",
     "matched": "issuance",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZBT",
@@ -412,7 +392,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -496,7 +476,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
