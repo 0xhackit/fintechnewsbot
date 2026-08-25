@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -112,38 +112,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SOL"
-    ]
-  },
-  {
-    "id": "754069aff18972cfe4db9b56a181583f66fb1915",
-    "title": "CleanCore Exits Dogecoin Treasury Strategy With $33.4M DOGE Sale to Fund AI Pivot According to CryptoSlate, citing SEC filings, CleanCore sold substantially all of its 463 million DOGE holdings on July 20 for about $33.4",
-    "link": "https://x.com/WuBlockchain/status/2091889550893154679",
-    "score": 74,
-    "snippet": "CleanCore Exits Dogecoin Treasury Strategy With $33.4M DOGE Sale to Fund AI Pivot According to CryptoSlate, citing SEC filings, CleanCore sold substantially all of its 463 million DOGE holdings on July 20 for about $33.4 million and redirected the proceeds toward its AI infrastructure business. The ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T14:05:09.471000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "DOGE"
     ]
   },
   {
@@ -168,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -223,7 +195,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -234,10 +206,12 @@
     "id": "fc75089c8402e2301353851702bd8048303e17a8",
     "title": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over",
     "link": "https://x.com/TheBlockCo/status/2092056537607065748",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -250,7 +224,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -263,8 +237,10 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 54,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -279,7 +255,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HBAR"
@@ -305,7 +281,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -332,7 +308,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PIEVERSE"
@@ -384,7 +360,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -468,7 +444,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -480,8 +456,10 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -494,40 +472,11 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PYTH",
       "HYPE"
-    ]
-  },
-  {
-    "id": "a14b8dd2e9c1bca2e4b0c65caaf095332c13fbfd",
-    "title": "Canada has been ripping off the United States of America for years. Their ridiculously high tariffs on our Farmers and farm products has made life impossible for these great American Patriots, and has long created a 60 B",
-    "link": "https://truthsocial.com/@realDonaldTrump/117150758113256193",
-    "score": 44,
-    "snippet": "Canada has been ripping off the United States of America for years. Their ridiculously high tariffs on our Farmers and farm products has made life impossible for these great American Patriots, and has long created a 60 Billion Dollar Deficit between our two Countries. Not sustainable, and NOT ANYMOR",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:realdonaldtrump",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T13:38:28.147000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "TRUMP",
-      "NOT"
     ]
   },
   {
