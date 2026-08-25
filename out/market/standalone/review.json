@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -168,16 +168,16 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
   {
-    "id": "9736ad8759be7a31d664c24a9f9f17ffbc024ba6",
-    "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 5.85 Million Tokens, and Total Crypto and Total Cash Holdings of $14.9 Billion",
-    "link": "https://chainwire.org/2026/08/24/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-5-85-million-tokens-and-total-crypto-and-total-cash-holdings-of-14-9-billion",
-    "score": 69,
-    "snippet": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 5.85 Million Tokens, and Total Crypto and Total Cash Holdings of $14.9 Billion",
+    "id": "5cca8385a4128233b43acf4e10649303e6b8e9a0",
+    "title": "BlackRock Leads $338 Million Bitcoin ETF Inflow as Ether Funds Add $116 Million U.S. spot Bitcoin ETFs recorded $338 million in net inflows on Aug. 24, led by BlackRock’s IBIT with $209 million, while spot Ether ETFs att",
+    "link": "https://x.com/WuBlockchain/status/2092102414803632162",
+    "score": 60,
+    "snippet": "BlackRock Leads $338 Million Bitcoin ETF Inflow as Ether Funds Add $116 Million U.S. spot Bitcoin ETFs recorded $338 million in net inflows on Aug. 24, led by BlackRock’s IBIT with $209 million, while spot Ether ETFs attracted $116 million, with BlackRock’s ETHA accounting for $90.92 million. BlackR",
     "regions": [
       "US"
     ],
@@ -185,11 +185,11 @@
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 30,
     "matched_topics": [],
-    "feed_name": "tree:chainwire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-24T12:52:07.150000+00:00",
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T04:11:00.684000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -197,7 +197,7 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BMNR",
+      "BTC",
       "ETH"
     ]
   },
@@ -207,8 +207,10 @@
     "link": "https://x.com/TheBlockCo/status/2092056537607065748",
     "score": 60,
     "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -221,7 +223,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -234,8 +236,10 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 60,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -250,7 +254,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HBAR"
@@ -276,7 +280,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -303,7 +307,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PIEVERSE"
@@ -355,7 +359,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -439,7 +443,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -451,8 +455,10 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -465,7 +471,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PYTH",
