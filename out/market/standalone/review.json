@@ -168,32 +168,6 @@
     ]
   },
   {
-    "id": "9d86b82262b56985ca125a480ccf8bcbdb8597b1",
-    "title": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
-    "link": "https://cointelegraph.com/news/tron-surpasses-400-million-accounts-as-total-transfer-volume-nears-30-trillion",
-    "score": 60,
-    "snippet": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:cointelegraph",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-25T16:00:03.706000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "TRX"
-    ]
-  },
-  {
     "id": "f4a3e30dbb0365f93df625457a3259139b6af7ec",
     "title": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments - The Cryptonomist",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xY0lkNk5DQjV3ZU9DbFV4dkJ6eTg1OGRLYjQ3T0JpTVQwb2NvaC1qNGxkZ2FUNFhUYWJBdFdRZF9FbEhZTGxfSVc0Wi1aTzdGcXEtWnZkMi1SSW9SMWFWeEk5QjRIUlRLczhmbUZLM1VLcDVPOVAzNHBQWQ?oc=5",
@@ -216,7 +190,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -244,7 +218,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -279,6 +253,32 @@
     ]
   },
   {
+    "id": "9d86b82262b56985ca125a480ccf8bcbdb8597b1",
+    "title": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
+    "link": "https://cointelegraph.com/news/tron-surpasses-400-million-accounts-as-total-transfer-volume-nears-30-trillion",
+    "score": 54,
+    "snippet": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:cointelegraph",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-25T16:00:03.706000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "TRX"
+    ]
+  },
+  {
     "id": "c8b54792cbda6bbd280c31978d4439a39b6795ea",
     "title": "Introducing Kamino Fixed Rates The definitive architecture for fixed-term, fixed-rate credit on-chain. Now live in private beta. Public launch in Q3 2026 Read the light paper: https://kamino.com/fixed-rates-lightpaper",
     "link": "https://x.com/kamino/status/2092248611111227745",
@@ -304,6 +304,32 @@
     "origin": "tree",
     "coins": [
       "KMNO"
+    ]
+  },
+  {
+    "id": "0b0fcc15e50e58785060c10496cab5556b2ced8a",
+    "title": "22 billion tokens per minute is what Google's own models now process, up 120% in just six months, per the company's Q2 2026 earnings call, equal to over 1 quadrillion tokens a month. Filecoin storage is already built for",
+    "link": "https://x.com/Filecoin/status/2092371212617838803",
+    "score": 50,
+    "snippet": "22 billion tokens per minute is what Google's own models now process, up 120% in just six months, per the company's Q2 2026 earnings call, equal to over 1 quadrillion tokens a month. Filecoin storage is already built for the data behind numbers like that.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:filecoin",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T21:59:06.586000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "FIL"
     ]
   },
   {
@@ -341,6 +367,7 @@
     "score": 40,
     "snippet": "Visa Becomes First Card Network in MAS-Supervised Stablecoin Settlement Tech Times",
     "regions": [
+      "US",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -358,7 +385,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -416,7 +443,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
