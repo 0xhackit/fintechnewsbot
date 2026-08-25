@@ -75,7 +75,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZRO"
@@ -106,7 +106,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -130,7 +130,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TRX"
@@ -142,10 +142,8 @@
     "link": "https://x.com/circle/status/2092326146151174416",
     "score": 60,
     "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -160,7 +158,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -223,6 +221,34 @@
     "coins": []
   },
   {
+    "id": "0eb2893e376b3b00da8c1ab24803431fde5b2edb",
+    "title": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares - PR Newswire",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenJiZ2xGR01rVHZVUVI5MlZaTlItUlhlVEZwT2MtZ1pJd2FVbHhYTlhpVXlyLTd2dmtHUGVmeXRXbjd0ZW5PVXo0X0NyMzV3cTFhd0NWYTZlMmgtODRkc2lTSzI2cFM3ZF8xSG41elV1ZmFSRlo5aHZfeW54RGwtcENva051Q2Q0RGVRN2FqSUNvY0ctT083OXZlMkpMTTJiS0pfNF83bWhhYUh6TDRKOUpDT2tYZXhtWGduZEdwcGQxT3dmVl8taFF1RTJYOHpLMEd0c2RqYw?oc=5",
+    "score": 59,
+    "snippet": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares PR Newswire",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-08-25T10:00:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "44b826b1b09260a39a8c5b86dd014189ea0e6ccf",
     "title": "Goldman Raises Coinbase PT to $196; Canaccord Lifts Strategy to $175 CNBC reported that Goldman Sachs maintained its Buy rating on Coinbase (COIN) and raised its price target to $196 from $173, citing additional upside f",
     "link": "https://x.com/WuBlockchain/status/2092246030121332838",
@@ -244,42 +270,12 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "COIN",
       "MSTR",
       "AMD"
-    ]
-  },
-  {
-    "id": "ac1433d1a8749b14385424dac2b72e35cd303e08",
-    "title": "THE BLOCK: Galaxy has launched a crypto-backed portfolio line of credit that lets eligible GalaxyOne clients borrow cash against BTC, ETH, and SOL without selling their holdings. $GLXY The revolving credit line combines",
-    "link": "https://x.com/TheBlockCo/status/2092275773667197149",
-    "score": 55,
-    "snippet": "THE BLOCK: Galaxy has launched a crypto-backed portfolio line of credit that lets eligible GalaxyOne clients borrow cash against BTC, ETH, and SOL without selling their holdings. $GLXY The revolving credit line combines eligible assets as collateral, allowing clients to tap liquidity for expenses or",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-25T15:39:52.231000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH",
-      "SOL"
     ]
   },
   {
@@ -304,7 +300,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "KMNO"
