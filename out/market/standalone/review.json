@@ -144,40 +144,45 @@
     "coins": []
   },
   {
-    "id": "8f9a4bb80e082f015828482a03fa1b00dc439b17",
-    "title": "Introducing agent tokenization on Solana from @virtuals_io Anyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain. Launch your first agent",
-    "link": "https://x.com/solana/status/2091918581755793520",
-    "score": 74,
-    "snippet": "Introducing agent tokenization on Solana from @virtuals_io Anyone can turn an AI agent into an ownable business. Launch it, raise capital for it, fund its intelligence, and put it to work onchain. Launch your first agent on Solana https://x.com/virtuals_io/status/2091895910905299009?s=20",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
+    "id": "f735cb16c492c8e64d9c3c67996afa7818632e81",
+    "title": "Interesting updates from the RWA market: 🔷 Tokenized Stocks Are Growing Fast → According to http://RWA.xyz, the number of tokenized stockholders has more than doubled in the past month, reaching around 1.31 million → Mon",
+    "link": "https://x.com/SynFuturesDefi/status/2092205358580408683",
+    "score": 60,
+    "snippet": "Interesting updates from the RWA market: 🔷 Tokenized Stocks Are Growing Fast → According to http://RWA.xyz, the number of tokenized stockholders has more than doubled in the past month, reaching around 1.31 million → Monthly onchain transfer volume also increased by 179% to around $23.1 billion, sho",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
-    "feed_name": "tree:x:solana",
+    "feed_name": "tree:x:synfuturesdefi",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T16:00:30.973000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "published_at": "2026-08-25T11:00:04.014000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "SOL"
+      "F",
+      "AVAX",
+      "ETH",
+      "SOL",
+      "SUI"
     ]
   },
   {
-    "id": "0eb2893e376b3b00da8c1ab24803431fde5b2edb",
-    "title": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares - PR Newswire",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenJiZ2xGR01rVHZVUVI5MlZaTlItUlhlVEZwT2MtZ1pJd2FVbHhYTlhpVXlyLTd2dmtHUGVmeXRXbjd0ZW5PVXo0X0NyMzV3cTFhd0NWYTZlMmgtODRkc2lTSzI2cFM3ZF8xSG41elV1ZmFSRlo5aHZfeW54RGwtcENva051Q2Q0RGVRN2FqSUNvY0ctT083OXZlMkpMTTJiS0pfNF83bWhhYUh6TDRKOUpDT2tYZXhtWGduZEdwcGQxT3dmVl8taFF1RTJYOHpLMEd0c2RqYw?oc=5",
-    "score": 65,
-    "snippet": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares PR Newswire",
+    "id": "50ed3f23183fbd88ed4ea35ccb93e271cc8e284f",
+    "title": "Kinetiq Unveils Elysium L2 for Hyperliquid, Using HYPE as Gas Hyperliquid ecosystem liquid staking protocol Kinetiq announced Elysium, a new L2 designed to improve HyperEVM performance and throughput while strengthening",
+    "link": "https://x.com/WuBlockchain/status/2092198218260164916",
+    "score": 60,
+    "snippet": "Kinetiq Unveils Elysium L2 for Hyperliquid, Using HYPE as Gas Hyperliquid ecosystem liquid staking protocol Kinetiq announced Elysium, a new L2 designed to improve HyperEVM performance and throughput while strengthening connectivity with HyperCore. Elysium will use HYPE as its gas token and focus on",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -185,49 +190,20 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T10:00:00+00:00",
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T10:31:41.507000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "62e7c13c70733d2102eb2dca698f4c5d506b38bb",
-    "title": "Visa joins Singapore's stablecoin project, to pilot 7-day settlement with Nium - TNGlobal",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUNDbFZSTXNFNE1zSzVHQ0l5YUFTQTh1YnVWdWpIZ205WHM2eWI2cDhLX1ExSEdRbEZwZ0I4Q3l2UmJBaENtNERiN0IzSVlkbVRDcmU5SlpUcGlmRVpSV1c0akFhcFY3T3Zaeko4dDVKUDVJczFpMDlsQThudjdkeFI3V290eWYzTXRORkR1ZXJLbzlvdmdqLTFfcGszUmgtNGxCSzh6UXpOM05GTHg2dnZn?oc=5",
-    "score": 59,
-    "snippet": "Visa joins Singapore's stablecoin project, to pilot 7-day settlement with Nium TNGlobal",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T03:32:59+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HYPE"
+    ]
   },
   {
     "id": "5cca8385a4128233b43acf4e10649303e6b8e9a0",
@@ -458,35 +434,6 @@
     ]
   },
   {
-    "id": "dd18ef68ab9992c9e2d19af7d2fe580363445557",
-    "title": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money",
-    "link": "https://decrypt.co/376349",
-    "score": 44,
-    "snippet": "Bitcoin, Ethereum ETFs Grew $23 Billion Last Week—Only $2.6 Billion Was New Money",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-24T17:07:29.769000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ETH",
-      "BTC"
-    ]
-  },
-  {
     "id": "a3d07f70b16c62b7f537fbb7bb565c09201a7784",
     "title": "$102.2 billion is Duke Energy's five-year capital plan to fund 14 GW of new generation and 4.5 GW of battery storage for AI data center demand, the largest fully regulated capital program in the utility industry. Filecoi",
     "link": "https://x.com/Filecoin/status/2091933078117634300",
@@ -511,60 +458,5 @@
     "coins": [
       "FIL"
     ]
-  },
-  {
-    "id": "5d36c1c709b5c5a5cdb88d78e9365eca9b13f6c2",
-    "title": "HKDAP Stablecoin Launch Marks Banking Breakthrough in Hong Kong - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qY2dOU1dWalVGVjRBTWdSNC1uck5tcThYd1JWaW10VTRIbG1Eb1RTdHlpNXI4VW02OHRvcG1qeU1NUmdmaDk1Tk5WM0xLNU1QVW1fazhGeklmN0E1TEhacjNMOFZQUVVGdVg1NGlMZGxPeXZ4cV9scEFiQWc?oc=5",
-    "score": 35,
-    "snippet": "HKDAP Stablecoin Launch Marks Banking Breakthrough in Hong Kong The Cryptonomist",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T04:44:10+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "83eb68810e2f6ebdaf856de0a1fd6d318e797665",
-    "title": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset - ledgerinsights.com",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEpFeGk5UHNWSF81MDhlTzBqd1IyWk5JM3dLSHlhNU9YNm5XWF9NRFA5RkREd1VSdmlrWFAyMmROR3NIMHMtSmxiUDhrR1ZrRmxVa3NaQjREZ1VKd3FlS1hMNmx4eVJHcWNFRGtIald0VkRZQ1VuNzVsSGpudlVxeFA2LVJkS1JJZVB4bmNtUWt4Y00wLThmUw?oc=5",
-    "score": 35,
-    "snippet": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset ledgerinsights.com",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-08-24T11:05:55+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]
