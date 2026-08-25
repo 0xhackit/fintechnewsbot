@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -168,7 +168,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -221,11 +221,38 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "MSTR",
       "BTC"
+    ]
+  },
+  {
+    "id": "fc75089c8402e2301353851702bd8048303e17a8",
+    "title": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over",
+    "link": "https://x.com/TheBlockCo/status/2092056537607065748",
+    "score": 60,
+    "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T01:08:42.264000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "SOL"
     ]
   },
   {
@@ -234,10 +261,8 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 60,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -252,41 +277,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HBAR"
-    ]
-  },
-  {
-    "id": "9e29b8972b5a7852dfdf75f2aa65d12515a23c39",
-    "title": "Coinbase Tokenized Stocks are here. Day-one liquidity is live on Aerodrome. More here 👇 https://aero.xyz/articles/coinbase-tokenized-stocks-launch-on-aerodrome/",
-    "link": "https://x.com/AerodromeFi/status/2091959996217249872",
-    "score": 55,
-    "snippet": "Coinbase Tokenized Stocks are here. Day-one liquidity is live on Aerodrome. More here 👇 https://aero.xyz/articles/coinbase-tokenized-stocks-launch-on-aerodrome/",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:aerodromefi",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T18:45:04.958000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "AERO"
     ]
   },
   {
@@ -309,7 +303,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -373,61 +367,6 @@
     ]
   },
   {
-    "id": "00ea0e3c4c8dee9577f44344a832621cd0f25155",
-    "title": "$54.2 billion is what Amazon spent on capex in Q2 2026 alone, up from $32.1 billion a year earlier, citing higher memory costs among the drivers. Trailing free cash flow has now turned negative, a $7.6 billion outflow. N",
-    "link": "https://x.com/Filecoin/status/2091961267699237221",
-    "score": 50,
-    "snippet": "$54.2 billion is what Amazon spent on capex in Q2 2026 alone, up from $32.1 billion a year earlier, citing higher memory costs among the drivers. Trailing free cash flow has now turned negative, a $7.6 billion outflow. None of that burden lands on a Filecoin storage bill.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:filecoin",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T18:50:08.394000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "FIL",
-      "FLOW"
-    ]
-  },
-  {
-    "id": "c4afcf82f5ab1b46218a7a666e940d6f101d4174",
-    "title": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
-    "link": "https://decrypt.co/376375",
-    "score": 50,
-    "snippet": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-24T18:30:25.262000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HYPE"
-    ]
-  },
-  {
     "id": "0c96740acb02f327c845a7c66b693a2494d13147",
     "title": "Stablecoin platform Fasset hits $1bn valuation",
     "link": "https://www.finextra.com/newsarticle/48288/stablecoin-platform-fasset-hits-1bn-valuation?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -452,6 +391,61 @@
     "fulltext": true,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "00ea0e3c4c8dee9577f44344a832621cd0f25155",
+    "title": "$54.2 billion is what Amazon spent on capex in Q2 2026 alone, up from $32.1 billion a year earlier, citing higher memory costs among the drivers. Trailing free cash flow has now turned negative, a $7.6 billion outflow. N",
+    "link": "https://x.com/Filecoin/status/2091961267699237221",
+    "score": 44,
+    "snippet": "$54.2 billion is what Amazon spent on capex in Q2 2026 alone, up from $32.1 billion a year earlier, citing higher memory costs among the drivers. Trailing free cash flow has now turned negative, a $7.6 billion outflow. None of that burden lands on a Filecoin storage bill.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:filecoin",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-24T18:50:08.394000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "FIL",
+      "FLOW"
+    ]
+  },
+  {
+    "id": "c4afcf82f5ab1b46218a7a666e940d6f101d4174",
+    "title": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
+    "link": "https://decrypt.co/376375",
+    "score": 44,
+    "snippet": "Hyperliquid Hits Record High as $1.2 Billion Token Unlock Looms",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-24T18:30:25.262000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HYPE"
+    ]
   },
   {
     "id": "dd18ef68ab9992c9e2d19af7d2fe580363445557",
@@ -502,7 +496,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -514,10 +508,8 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -530,7 +522,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PYTH",
@@ -601,8 +593,10 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEpFeGk5UHNWSF81MDhlTzBqd1IyWk5JM3dLSHlhNU9YNm5XWF9NRFA5RkREd1VSdmlrWFAyMmROR3NIMHMtSmxiUDhrR1ZrRmxVa3NaQjREZ1VKd3FlS1hMNmx4eVJHcWNFRGtIald0VkRZQ1VuNzVsSGpudlVxeFA2LVJkS1JJZVB4bmNtUWt4Y00wLThmUw?oc=5",
     "score": 35,
     "snippet": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset ledgerinsights.com",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -617,7 +611,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
