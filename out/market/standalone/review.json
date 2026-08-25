@@ -47,7 +47,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -101,7 +101,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZRO"
@@ -132,7 +132,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -156,7 +156,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TRX"
@@ -184,7 +184,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "COIN",
@@ -240,7 +240,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "KMNO"
@@ -323,7 +323,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -351,7 +351,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integrated')",
     "matched": "integrated",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "LTC",
@@ -365,10 +365,8 @@
     "link": "https://x.com/SynFuturesDefi/status/2092205358580408683",
     "score": 54,
     "snippet": "Interesting updates from the RWA market: 🔷 Tokenized Stocks Are Growing Fast → According to http://RWA.xyz, the number of tokenized stockholders has more than doubled in the past month, reaching around 1.31 million → Monthly onchain transfer volume also increased by 179% to around $23.1 billion, sho",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -383,7 +381,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "F",
@@ -399,10 +397,8 @@
     "link": "https://x.com/WuBlockchain/status/2092198218260164916",
     "score": 54,
     "snippet": "Kinetiq Unveils Elysium L2 for Hyperliquid, Using HYPE as Gas Hyperliquid ecosystem liquid staking protocol Kinetiq announced Elysium, a new L2 designed to improve HyperEVM performance and throughput while strengthening connectivity with HyperCore. Elysium will use HYPE as its gas token and focus on",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -417,7 +413,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveils')",
     "matched": "unveils",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -530,35 +526,6 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "0f778eff182ddaa672783d5b3485cbbc80828585",
-    "title": "Jackson Hole could further formalise emerging Fed-Treasury accord",
-    "link": "https://www.ft.com/content/2a5ddf7f-ca14-4073-af2b-eaf79ffbabe8?syn-25a6b1a6=1",
-    "score": 40,
-    "snippet": "Stablecoins, the theme of this year’s symposium, are expected to bolster demand for short-term debt on which the Treasury is increasingly reliant",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "A",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "ft_markets",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T11:30:08+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
     "coins": []
   },
   {
