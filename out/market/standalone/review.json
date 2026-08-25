@@ -31,7 +31,7 @@
     "id": "704289d6a1cf6cbad08cd0c619fa924e7f651b22",
     "title": "THE BLOCK: BNB Chain's Pasteur hard fork is now live on BSC mainnet, introducing security upgrades for its bridge, staking, and governance systems. The upgrade also enables changes that increased throughput by 88% to 2,3",
     "link": "https://x.com/TheBlockCo/status/2092171836352258286",
-    "score": 100,
+    "score": 94,
     "snippet": "THE BLOCK: BNB Chain's Pasteur hard fork is now live on BSC mainnet, introducing security upgrades for its bridge, staking, and governance systems. The upgrade also enables changes that increased throughput by 88% to 2,324 TPS in testnet benchmarks while maintaining 450ms block times.",
     "regions": [],
     "primary_region": null,
@@ -51,6 +51,32 @@
     "origin": "tree",
     "coins": [
       "BNB"
+    ]
+  },
+  {
+    "id": "0cc2d608d9dc52da751b14018e36568a1a2c4300",
+    "title": "Bitcoin hits 3-month high amid Treasury's new Iran sanctions",
+    "link": "https://www.thestreet.com/crypto/markets/bitcoin-hits-3-month-high-amid-treasurys-new-iran-sanctions",
+    "score": 80,
+    "snippet": "Bitcoin hits 3-month high amid Treasury's new Iran sanctions",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:the street",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-25T14:47:15.920000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('sanctions')",
+    "matched": "sanctions",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
@@ -116,8 +142,12 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10bzdCZUhhbGg0THNLQ2tzYUtNMjdtcmlMZVRpUzFXNHFWa1FzdmtTcFNWUjZ5Y0JoNXo0NE9ON0dGUVhrSzNGTkprbkpLVkNoTjZlTGw1QQ?oc=5",
     "score": 65,
     "snippet": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments Cryptonews.net",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US",
+      "EU",
+      "APAC"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -133,7 +163,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -161,7 +191,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -290,6 +320,8 @@
     "score": 59,
     "snippet": "Visa joins Singapore's stablecoin project, to pilot 7-day settlement with Nium TNGlobal",
     "regions": [
+      "US",
+      "EU",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -308,9 +340,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "016d05eeb316c60b65dfc433dac9ae9bbca069e6",
+    "title": "Litecoin’s MWEB: Unlocking Privacy and Scalability for the Future MWEB, or MimbleWimble Extension Block, is an optional privacy layer integrated into Litecoin’s blockchain. It allows users to conduct confidential transac",
+    "link": "https://x.com/LTCFoundation/status/2092260560582869113",
+    "score": 55,
+    "snippet": "Litecoin’s MWEB: Unlocking Privacy and Scalability for the Future MWEB, or MimbleWimble Extension Block, is an optional privacy layer integrated into Litecoin’s blockchain. It allows users to conduct confidential transactions while maintaining the network’s hallmark speed and efficiency. Unlike othe",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:ltcfoundation",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T14:39:25.064000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integrated')",
+    "matched": "integrated",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "LTC",
+      "BTC",
+      "OKB"
+    ]
   },
   {
     "id": "5cca8385a4128233b43acf4e10649303e6b8e9a0",
@@ -366,34 +426,6 @@
     "coins": [
       "XRP",
       "SOL"
-    ]
-  },
-  {
-    "id": "ef58a6a6b5c899d21ff51cc1f2d6d59af680e326",
-    "title": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions a",
-    "link": "https://x.com/HederaCommunity/status/2092026768190283822",
-    "score": 54,
-    "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:hederacommunity",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-24T23:10:24.518000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "HBAR"
     ]
   },
   {
@@ -489,10 +521,8 @@
     "link": "https://www.coindesk.com/business/2026/08/25/crypto-custody-firm-copper-has-potential-buyers-but-offers-are-way-below-its-usd500-million-asking-price",
     "score": 40,
     "snippet": "",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "B",
     "consensus": 3,
@@ -510,9 +540,9 @@
     "coins": []
   },
   {
-    "id": "ea49f20e7d88158f54e97123eb3a5559b15c6f98",
+    "id": "0f778eff182ddaa672783d5b3485cbbc80828585",
     "title": "Jackson Hole could further formalise emerging Fed-Treasury accord",
-    "link": "https://www.ft.com/content/2a5ddf7f-ca14-4073-af2b-eaf79ffbabe8",
+    "link": "https://www.ft.com/content/2a5ddf7f-ca14-4073-af2b-eaf79ffbabe8?syn-25a6b1a6=1",
     "score": 40,
     "snippet": "Stablecoins, the theme of this year’s symposium, are expected to bolster demand for short-term debt on which the Treasury is increasingly reliant",
     "regions": [
@@ -563,7 +593,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
