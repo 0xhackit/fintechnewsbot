@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SAND",
@@ -57,7 +57,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -85,7 +85,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -112,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "DOGE"
@@ -168,7 +168,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -223,7 +223,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -236,10 +236,8 @@
     "link": "https://x.com/TheBlockCo/status/2092056537607065748",
     "score": 60,
     "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -252,7 +250,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -265,10 +263,8 @@
     "link": "https://x.com/HederaCommunity/status/2092026768190283822",
     "score": 54,
     "snippet": "HASHED NEWS The third week of August highlights mainnet protocol upgrades, open-source developer bounties, regional academic hackathon launches, digital carbon accounting tools, and enterprise innovation hub expansions across the @hedera ecosystem. 🧵",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -283,7 +279,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HBAR"
@@ -309,7 +305,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARX",
@@ -336,7 +332,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PIEVERSE"
@@ -388,7 +384,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL",
@@ -472,7 +468,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -484,10 +480,8 @@
     "link": "https://x.com/PythNetwork/status/2091894159875457467",
     "score": 44,
     "snippet": "Where Hyperliquid and Pyth Line Up US equity markets are making their biggest schedule change in a generation, moving toward 23 hours a day, five days a week. Onchain venues already run seven. More than $540 billion has traded on the real-world asset markets @HyperliquidX hosts and Pyth Network pric",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -500,7 +494,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PYTH",
@@ -537,6 +531,35 @@
     ]
   },
   {
+    "id": "5d36c1c709b5c5a5cdb88d78e9365eca9b13f6c2",
+    "title": "HKDAP Stablecoin Launch Marks Banking Breakthrough in Hong Kong - The Cryptonomist",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qY2dOU1dWalVGVjRBTWdSNC1uck5tcThYd1JWaW10VTRIbG1Eb1RTdHlpNXI4VW02OHRvcG1qeU1NUmdmaDk1Tk5WM0xLNU1QVW1fazhGeklmN0E1TEhacjNMOFZQUVVGdVg1NGlMZGxPeXZ4cV9scEFiQWc?oc=5",
+    "score": 35,
+    "snippet": "HKDAP Stablecoin Launch Marks Banking Breakthrough in Hong Kong The Cryptonomist",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-08-25T04:44:10+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "83eb68810e2f6ebdaf856de0a1fd6d318e797665",
     "title": "SBI leads $68m raise by stablecoin powered Islamic bank Fasset - ledgerinsights.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEpFeGk5UHNWSF81MDhlTzBqd1IyWk5JM3dLSHlhNU9YNm5XWF9NRFA5RkREd1VSdmlrWFAyMmROR3NIMHMtSmxiUDhrR1ZrRmxVa3NaQjREZ1VKd3FlS1hMNmx4eVJHcWNFRGtIald0VkRZQ1VuNzVsSGpudlVxeFA2LVJkS1JJZVB4bmNtUWt4Y00wLThmUw?oc=5",
@@ -559,34 +582,6 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "432f1e80d37ecb9b2d8cc0ae8ec7d47aeedc916a",
-    "title": "Banks, regulators join quantum-resistant crypto transfer pilot",
-    "link": "https://cointelegraph.com/news/banks-regulators-quantum-resistant-crypto-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 35,
-    "snippet": "Participating banks will test post-quantum wallets and onchain transfers while regulators from Abu Dhabi, Bhutan and Malta initially observe.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-08-24T05:51:29+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
