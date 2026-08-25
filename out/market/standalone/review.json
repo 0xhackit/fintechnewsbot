@@ -3,7 +3,7 @@
     "id": "363103dc8786451a2aac735430cf38b3a894821a",
     "title": "Franklin Templeton's Tokenized Treasury Fund Lands on HashKey",
     "link": "https://decrypt.co/376422/franklin-templetons-tokenized-treasury-fund-lands-on-hashkey",
-    "score": 100,
+    "score": 94,
     "snippet": "The $1.8 trillion manager is putting its onchain money market fund on the Hong Kong exchange's Earn channel.",
     "regions": [
       "US"
@@ -47,7 +47,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('now live')",
     "matched": "now live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -101,7 +101,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZRO"
@@ -132,7 +132,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -142,12 +142,8 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE10bzdCZUhhbGg0THNLQ2tzYUtNMjdtcmlMZVRpUzFXNHFWa1FzdmtTcFNWUjZ5Y0JoNXo0NE9ON0dGUVhrSzNGTkprbkpLVkNoTjZlTGw1QQ?oc=5",
     "score": 65,
     "snippet": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments Cryptonews.net",
-    "regions": [
-      "US",
-      "EU",
-      "APAC"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -163,35 +159,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "0eb2893e376b3b00da8c1ab24803431fde5b2edb",
-    "title": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares - PR Newswire",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenJiZ2xGR01rVHZVUVI5MlZaTlItUlhlVEZwT2MtZ1pJd2FVbHhYTlhpVXlyLTd2dmtHUGVmeXRXbjd0ZW5PVXo0X0NyMzV3cTFhd0NWYTZlMmgtODRkc2lTSzI2cFM3ZF8xSG41elV1ZmFSRlo5aHZfeW54RGwtcENva051Q2Q0RGVRN2FqSUNvY0ctT083OXZlMkpMTTJiS0pfNF83bWhhYUh6TDRKOUpDT2tYZXhtWGduZEdwcGQxT3dmVl8taFF1RTJYOHpLMEd0c2RqYw?oc=5",
-    "score": 65,
-    "snippet": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares PR Newswire",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T10:00:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -217,12 +185,38 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "COIN",
       "MSTR",
       "AMD"
+    ]
+  },
+  {
+    "id": "9d86b82262b56985ca125a480ccf8bcbdb8597b1",
+    "title": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
+    "link": "https://cointelegraph.com/news/tron-surpasses-400-million-accounts-as-total-transfer-volume-nears-30-trillion",
+    "score": 60,
+    "snippet": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:cointelegraph",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-25T16:00:03.706000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "TRX"
     ]
   },
   {
@@ -247,7 +241,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "KMNO"
@@ -259,8 +253,10 @@
     "link": "https://x.com/SynFuturesDefi/status/2092205358580408683",
     "score": 60,
     "snippet": "Interesting updates from the RWA market: 🔷 Tokenized Stocks Are Growing Fast → According to http://RWA.xyz, the number of tokenized stockholders has more than doubled in the past month, reaching around 1.31 million → Monthly onchain transfer volume also increased by 179% to around $23.1 billion, sho",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -275,7 +271,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "F",
@@ -291,8 +287,10 @@
     "link": "https://x.com/WuBlockchain/status/2092198218260164916",
     "score": 60,
     "snippet": "Kinetiq Unveils Elysium L2 for Hyperliquid, Using HYPE as Gas Hyperliquid ecosystem liquid staking protocol Kinetiq announced Elysium, a new L2 designed to improve HyperEVM performance and throughput while strengthening connectivity with HyperCore. Elysium will use HYPE as its gas token and focus on",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -307,42 +305,69 @@
     "axis": "market_event",
     "reason": "concrete market event ('unveils')",
     "matched": "unveils",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE"
     ]
   },
   {
-    "id": "62e7c13c70733d2102eb2dca698f4c5d506b38bb",
-    "title": "Visa joins Singapore's stablecoin project, to pilot 7-day settlement with Nium - TNGlobal",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaUNDbFZSTXNFNE1zSzVHQ0l5YUFTQTh1YnVWdWpIZ205WHM2eWI2cDhLX1ExSEdRbEZwZ0I4Q3l2UmJBaENtNERiN0IzSVlkbVRDcmU5SlpUcGlmRVpSV1c0akFhcFY3T3Zaeko4dDVKUDVJczFpMDlsQThudjdkeFI3V290eWYzTXRORkR1ZXJLbzlvdmdqLTFfcGszUmgtNGxCSzh6UXpOM05GTHg2dnZn?oc=5",
+    "id": "0eb2893e376b3b00da8c1ab24803431fde5b2edb",
+    "title": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares - PR Newswire",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQenJiZ2xGR01rVHZVUVI5MlZaTlItUlhlVEZwT2MtZ1pJd2FVbHhYTlhpVXlyLTd2dmtHUGVmeXRXbjd0ZW5PVXo0X0NyMzV3cTFhd0NWYTZlMmgtODRkc2lTSzI2cFM3ZF8xSG41elV1ZmFSRlo5aHZfeW54RGwtcENva051Q2Q0RGVRN2FqSUNvY0ctT083OXZlMkpMTTJiS0pfNF83bWhhYUh6TDRKOUpDT2tYZXhtWGduZEdwcGQxT3dmVl8taFF1RTJYOHpLMEd0c2RqYw?oc=5",
     "score": 59,
-    "snippet": "Visa joins Singapore's stablecoin project, to pilot 7-day settlement with Nium TNGlobal",
-    "regions": [
-      "US",
-      "EU",
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
+    "snippet": "Caplight facilitates Citi's launch of tokenized depositary receipts on private shares PR Newswire",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "tokenized_funds_rwa",
     "source": "Google News RSS",
-    "published_at": "2026-08-25T03:32:59+00:00",
+    "published_at": "2026-08-25T10:00:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": true,
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "ac1433d1a8749b14385424dac2b72e35cd303e08",
+    "title": "THE BLOCK: Galaxy has launched a crypto-backed portfolio line of credit that lets eligible GalaxyOne clients borrow cash against BTC, ETH, and SOL without selling their holdings. $GLXY The revolving credit line combines",
+    "link": "https://x.com/TheBlockCo/status/2092275773667197149",
+    "score": 55,
+    "snippet": "THE BLOCK: Galaxy has launched a crypto-backed portfolio line of credit that lets eligible GalaxyOne clients borrow cash against BTC, ETH, and SOL without selling their holdings. $GLXY The revolving credit line combines eligible assets as collateral, allowing clients to tap liquidity for expenses or",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T15:39:52.231000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL"
+    ]
   },
   {
     "id": "016d05eeb316c60b65dfc433dac9ae9bbca069e6",
@@ -364,7 +389,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integrated')",
     "matched": "integrated",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "LTC",
@@ -394,38 +419,11 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
       "ETH"
-    ]
-  },
-  {
-    "id": "fc75089c8402e2301353851702bd8048303e17a8",
-    "title": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over",
-    "link": "https://x.com/TheBlockCo/status/2092056537607065748",
-    "score": 54,
-    "snippet": "THE BLOCK: The Bitwise Solana Staking ETF (BSOL) recorded $108 million in trading volume on Monday — a record daily high for any $WSOL ETF — according to Bitwise President Teddy Fusaro. Bitwise's $XRP ETF generated over $80 million in volume on the same day, significantly exceeding its typical daily",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-25T01:08:42.264000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "XRP",
-      "SOL"
     ]
   },
   {
@@ -480,7 +478,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('issuance')",
     "matched": "issuance",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -513,6 +511,34 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "25236018a2c32d8018d41a7e09133a1e556cbc22",
+    "title": "The Corporate Bank Account Is Becoming an Event Stream",
+    "link": "https://www.pymnts.com/news/b2b-payments/2026/corporate-bank-account-is-becoming-event-stream/",
+    "score": 40,
+    "snippet": "Corporate treasury typically works in sequence. Money moves, banks record it, statements arrive, and finance teams reconcile what happened. Fast forward to today, and that sequence is starting to run in reverse. As payments become faster and transaction data becomes richer, the economically useful m",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "pymnts",
+    "source": "Google News RSS",
+    "published_at": "2026-08-25T15:55:02+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
     "coins": []
   },
   {
@@ -593,7 +619,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
