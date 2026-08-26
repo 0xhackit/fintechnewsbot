@@ -56,6 +56,32 @@
     ]
   },
   {
+    "id": "32202e6d565fe695a8bc97ff2c446f3dd1589eee",
+    "title": "Vanguard to acquire Altruist",
+    "link": "https://www.finextra.com/pressarticle/110735/vanguard-to-acquire-altruist?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 80,
+    "snippet": "Vanguard and Altruist, an AI-forward wealth technology and custody platform serving financial advisors, announced today that they have entered into a definitive agreement under which Vanguard will acquire Altruist.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-08-26T14:43:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "f6e30fae2d6e306e696ebe885c365923590446c2",
     "title": "THE BLOCK: State bankers' associations representing 39 U.S. states have formed the BankChain Alliance to develop a common blockchain network for banks. The network is designed to support stablecoins, tokenized deposits,",
     "link": "https://x.com/TheBlockCo/status/2092560755992506452",
@@ -197,9 +223,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "16e595329b674dab0895a0180d6faddc9a08c9f6",
+    "title": "THE BLOCK: DeFi Development Corp. has launched State of Solana, a real-time dashboard tracking the Solana network, staking, validator, yield, and ecosystem data. $DFDV The platform is designed to give investors a broader",
+    "link": "https://x.com/TheBlockCo/status/2092605526681014335",
+    "score": 55,
+    "snippet": "THE BLOCK: DeFi Development Corp. has launched State of Solana, a real-time dashboard tracking the Solana network, staking, validator, yield, and ecosystem data. $DFDV The platform is designed to give investors a broader view of Solana beyond $WSOL price, with more data and research tools planned.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-26T13:30:11.502000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SOL"
+    ]
   },
   {
     "id": "219932f5bd423935d0cb1aaf539caa3d5ab85cbc",
