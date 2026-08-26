@@ -82,6 +82,37 @@
     ]
   },
   {
+    "id": "fcd78ec8328eddbce2f9857d548a9412bd75efad",
+    "title": "Introducing the new Swarms Launchpad Competition: USDC Competition 💵👾 The new Swarms Launchpad competition is live. Launch your agent or prompt with a USDC quote currency between August 26 and September 2 UTC and compete",
+    "link": "https://x.com/swarms_corp/status/2092437462161240340",
+    "score": 70,
+    "snippet": "Introducing the new Swarms Launchpad Competition: USDC Competition 💵👾 The new Swarms Launchpad competition is live. Launch your agent or prompt with a USDC quote currency between August 26 and September 2 UTC and compete for a share of the $1,000 USDC prize pool. Rankings are based on total trading ",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:swarms_corp",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-26T02:22:21.764000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SWARMS",
+      "USDC",
+      "BASED"
+    ]
+  },
+  {
     "id": "469aba4e38a9a02027ee208a369a40b063dcb80a",
     "title": "THE BLOCK: Bitwise launches Automated Token Portfolios, allowing eligible non-U.S. users in supported jurisdictions to automatically replicate and rebalance professionally designed portfolios of Coinbase's tokenized U.S.",
     "link": "https://x.com/TheBlockCo/status/2092247396193616367",
@@ -116,8 +147,11 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xY0lkNk5DQjV3ZU9DbFV4dkJ6eTg1OGRLYjQ3T0JpTVQwb2NvaC1qNGxkZ2FUNFhUYWJBdFdRZF9FbEhZTGxfSVc0Wi1aTzdGcXEtWnZkMi1SSW9SMWFWeEk5QjRIUlRLczhmbUZLM1VLcDVPOVAzNHBQWQ?oc=5",
     "score": 59,
     "snippet": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments The Cryptonomist",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "EU",
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -133,7 +167,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -161,7 +195,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -361,34 +395,6 @@
     ]
   },
   {
-    "id": "ce00fcdb57ee66ad28402b0376ab2e43481dd652",
-    "title": "Visa Becomes First Card Network in MAS-Supervised Stablecoin Settlement - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTTZZX3ZERG1wQjB5am4zclhiVjBqcTY0dXp0Nmw1bjl2U1pFSFZZdmJpczBmS2ZHZjRMdkdQbWUtYjh2VmJXNWJlTW51Tjd0ekswSVFzYkE1dnAySmw3aGVveW96SGUxWFBKYTlCd0tlTld0ZVdOM09IVkhUeDYwd090WVNXYTRoVjI5MWMxVnppNmhSWndiSFJDOWFCcTMwam1ycTlmazg3WG96U2VEbUxmS0s0RGtqY3dVQlBuSU0?oc=5",
-    "score": 40,
-    "snippet": "Visa Becomes First Card Network in MAS-Supervised Stablecoin Settlement Tech Times",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T19:58:59+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "22c8de80b473847e115ff6b42ae2155bbbdab2bf",
     "title": "India plans first tokenized bonds using wholesale CBDC: Report",
     "link": "https://cointelegraph.com/news/india-tokenized-bonds-digital-rupee?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -442,7 +448,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
