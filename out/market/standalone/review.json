@@ -111,37 +111,6 @@
     "coins": []
   },
   {
-    "id": "47b9141e45b260416255ef0a361acac0fd598856",
-    "title": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping ins",
-    "link": "https://x.com/circle/status/2092326146151174416",
-    "score": 60,
-    "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-25T19:00:03.504000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "USDC",
-      "ETH",
-      "ARC"
-    ]
-  },
-  {
     "id": "f4a3e30dbb0365f93df625457a3259139b6af7ec",
     "title": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments - The Cryptonomist",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xY0lkNk5DQjV3ZU9DbFV4dkJ6eTg1OGRLYjQ3T0JpTVQwb2NvaC1qNGxkZ2FUNFhUYWJBdFdRZF9FbEhZTGxfSVc0Wi1aTzdGcXEtWnZkMi1SSW9SMWFWeEk5QjRIUlRLczhmbUZLM1VLcDVPOVAzNHBQWQ?oc=5",
@@ -253,6 +222,37 @@
     ]
   },
   {
+    "id": "47b9141e45b260416255ef0a361acac0fd598856",
+    "title": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping ins",
+    "link": "https://x.com/circle/status/2092326146151174416",
+    "score": 54,
+    "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-25T19:00:03.504000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "USDC",
+      "ETH",
+      "ARC"
+    ]
+  },
+  {
     "id": "9d86b82262b56985ca125a480ccf8bcbdb8597b1",
     "title": "TRON surpasses 400 million accounts as total transfer volume nears $30 trillion",
     "link": "https://cointelegraph.com/news/tron-surpasses-400-million-accounts-as-total-transfer-volume-nears-30-trillion",
@@ -342,7 +342,7 @@
       "US"
     ],
     "primary_region": "US",
-    "category": "fundraising",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
@@ -400,7 +400,7 @@
     "primary_region": "APAC",
     "category": "other",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Tokenized funds & RWA",
@@ -414,7 +414,7 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   },
   {
