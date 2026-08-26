@@ -85,7 +85,7 @@
     "id": "f6e30fae2d6e306e696ebe885c365923590446c2",
     "title": "THE BLOCK: State bankers' associations representing 39 U.S. states have formed the BankChain Alliance to develop a common blockchain network for banks. The network is designed to support stablecoins, tokenized deposits,",
     "link": "https://x.com/TheBlockCo/status/2092560755992506452",
-    "score": 75,
+    "score": 69,
     "snippet": "THE BLOCK: State bankers' associations representing 39 U.S. states have formed the BankChain Alliance to develop a common blockchain network for banks. The network is designed to support stablecoins, tokenized deposits, smart payments, and automated settlement, with a 2027 launch targeted.",
     "regions": [],
     "primary_region": null,
@@ -134,39 +134,34 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
   {
-    "id": "fcd78ec8328eddbce2f9857d548a9412bd75efad",
-    "title": "Introducing the new Swarms Launchpad Competition: USDC Competition 💵👾 The new Swarms Launchpad competition is live. Launch your agent or prompt with a USDC quote currency between August 26 and September 2 UTC and compete",
-    "link": "https://x.com/swarms_corp/status/2092437462161240340",
-    "score": 64,
-    "snippet": "Introducing the new Swarms Launchpad Competition: USDC Competition 💵👾 The new Swarms Launchpad competition is live. Launch your agent or prompt with a USDC quote currency between August 26 and September 2 UTC and compete for a share of the $1,000 USDC prize pool. Rankings are based on total trading ",
+    "id": "387ff87f594fce93701ad3cf3cd55c4b7e7b1bc2",
+    "title": "Secretary Scott Bessent Delivers Remarks at the Official Unveiling of the President Donald J. Trump Bridge along Interstate 40 in Dandridge, Tennessee: https://home.treasury.gov/news/press-releases/sb0557/",
+    "link": "https://truthsocial.com/@realDonaldTrump/117162722385526068",
+    "score": 65,
+    "snippet": "Secretary Scott Bessent Delivers Remarks at the Official Unveiling of the President Donald J. Trump Bridge along Interstate 40 in Dandridge, Tennessee: https://home.treasury.gov/news/press-releases/sb0557/",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:swarms_corp",
+    "matched_topics": [],
+    "feed_name": "tree:x:realdonaldtrump",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-26T02:22:21.764000+00:00",
+    "published_at": "2026-08-26T16:21:07.936000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
+    "reason": "concrete market event ('unveiling')",
+    "matched": "unveiling",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "SWARMS",
-      "USDC",
-      "BASED"
+      "TRUMP"
     ]
   },
   {
@@ -226,35 +221,6 @@
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "17a9c2048973607c3b34e366d59ef1c9fc5705e8",
-    "title": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTUEpBX05lX00xazlHMHUyd3RSaGI0OWItX04tZkFQX0ZnWkpudmVFSVdqU3RKQUh1ZDByVkNhZ0lKS2k4OF9ZX0dxbFlaREdyMXFIcmlIcjZYMFRyWmZVNzBPX0V6T0REMWVyVzZER2ZseExoSFRKLQ?oc=5",
-    "score": 55,
-    "snippet": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe The Cryptonomist",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-08-26T09:54:37+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "47b48050db6e5450dceccc526cdc82dc97dafae6",
@@ -344,6 +310,32 @@
     ]
   },
   {
+    "id": "f2e12c127bb90bec332e286093fb656002eb1fef",
+    "title": "Agents are no longer integrations. Introducing Clawbits, the agent native team chat where humans and AI agents work together as members of the same organization. Meet your new teammates",
+    "link": "https://x.com/SkaleNetwork/status/2092651022376140951",
+    "score": 50,
+    "snippet": "Agents are no longer integrations. Introducing Clawbits, the agent native team chat where humans and AI agents work together as members of the same organization. Meet your new teammates",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:skalenetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-26T16:30:58.357000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SKL"
+    ]
+  },
+  {
     "id": "af1382c5e490adb5c30f494c7c87c3991e94de80",
     "title": "“The growth happening on Stellar validates the direction.” With 15 SEC-registered tokenized funds across money market, equity, fixed income and alternatives, @WisdomTreePrime is showing what a diversified onchain market",
     "link": "https://x.com/StellarOrg/status/2092629246178897974",
@@ -374,11 +366,40 @@
     ]
   },
   {
-    "id": "6d40c83d3ba1f9a5b4965ce529e9b6af8cbd8c38",
-    "title": "Circle Internet stock falls after banks eye stablecoin launch - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdjhReXY0SWEwWXNTUjJqZTh6d2l3b2ZXLUllNFQyZUxuMHRMNG9xLW1ZQW1VdnA4dXV2MEtlVk1sTlBhWWJEWGk5YXg4eDcxd2dYbXdfdjdHVEFHaTFVNVRhQUJqV0hzSjJpLUd3VmZOUDF5MGVYX2g5MEozTEU1a2ZlMUF2Y2pNbjNVMGlpcXVmWDFNS1hOVl9KYmQzUEdXaDdsLURWenpjYVJmU2xlcl9vUjk5bUpyQ2c?oc=5",
+    "id": "17a9c2048973607c3b34e366d59ef1c9fc5705e8",
+    "title": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe - The Cryptonomist",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTUEpBX05lX00xazlHMHUyd3RSaGI0OWItX04tZkFQX0ZnWkpudmVFSVdqU3RKQUh1ZDByVkNhZ0lKS2k4OF9ZX0dxbFlaREdyMXFIcmlIcjZYMFRyWmZVNzBPX0V6T0REMWVyVzZER2ZseExoSFRKLQ?oc=5",
+    "score": 49,
+    "snippet": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe The Cryptonomist",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-08-26T09:54:37+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "d14bb79c3fcf6934d6a5d0b6b4be4002b64cebd8",
+    "title": "Circle Internet stock falls after banks eye stablecoin launch - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQR1FBU29vLWdRalRZcWcwY2d0NldxblhiaEF2Tnp3Wkp1S1I3LXZ5WGhjN1JtSVdINVhsVlhWUDNKNEdkY1BVZ2xzcFIwNjBiRkJGeVhlUWxSdEJQY0pZbTBsVVZPNzlmamJhRFVsNVpHZ1M1OUhYVEF1THBIeTJVOVNPLUxNS3lRaENXbWFuanU2dkJVRU9OaDF4TTFEQzA?oc=5",
     "score": 45,
-    "snippet": "Circle Internet stock falls after banks eye stablecoin launch Investing.com",
+    "snippet": "Circle Internet stock falls after banks eye stablecoin launch Yahoo Finance",
     "regions": [
       "US"
     ],
@@ -393,40 +414,14 @@
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-08-26T15:26:02+00:00",
+    "published_at": "2026-08-26T15:44:08+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "0b0fcc15e50e58785060c10496cab5556b2ced8a",
-    "title": "22 billion tokens per minute is what Google's own models now process, up 120% in just six months, per the company's Q2 2026 earnings call, equal to over 1 quadrillion tokens a month. Filecoin storage is already built for",
-    "link": "https://x.com/Filecoin/status/2092371212617838803",
-    "score": 44,
-    "snippet": "22 billion tokens per minute is what Google's own models now process, up 120% in just six months, per the company's Q2 2026 earnings call, equal to over 1 quadrillion tokens a month. Filecoin storage is already built for the data behind numbers like that.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:filecoin",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-25T21:59:06.586000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "FIL"
-    ]
   },
   {
     "id": "00d684a0054f4873a6d9fd919ac8109f213b770d",
@@ -460,8 +455,10 @@
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ZZjRaTlV2eVpxaXBfQzBJTnNRNWtyc05pSnhwT1kxdUMxMDNlUlAxSkhhT3FjdC1Za0pfWkRPTXZhQUgyM3VVWGJqZl9yN0pSWVRJM1lBRmE?oc=5",
     "score": 40,
     "snippet": "Shinhan Financial taps Visa for stablecoin payments and settlement push Cryptonews.net",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -477,7 +474,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('taps')",
     "matched": "taps",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
