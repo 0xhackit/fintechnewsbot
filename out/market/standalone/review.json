@@ -115,6 +115,64 @@
     ]
   },
   {
+    "id": "365105c35896f34037c9bebbaeef968470fdd32b",
+    "title": "$1B+ total ERC-20 volume in 7 months 🍊🍋 Since mainnet launch, Citrea has processed billions of dollars in volume across ctUSD, WcBTC, CTR, and more, via its growing Bitcoin ecosystem of lending, borrowing and earn vaults",
+    "link": "https://x.com/citrea_xyz/status/2092590403707126233",
+    "score": 60,
+    "snippet": "$1B+ total ERC-20 volume in 7 months 🍊🍋 Since mainnet launch, Citrea has processed billions of dollars in volume across ctUSD, WcBTC, CTR, and more, via its growing Bitcoin ecosystem of lending, borrowing and earn vaults. Bitcoin capital markets!",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:citrea_xyz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-26T12:30:06.147000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CTR",
+      "BILL",
+      "BTC"
+    ]
+  },
+  {
+    "id": "490de66bb0e8870d8b0aab288901f8ff940323d1",
+    "title": "THE BLOCK: Bitcoin miner Bitdeer says its 9.5 MW Malaysia AI cloud facility is fully committed under long-term deals representing over $800 million in expected revenue. $BTDR Meanwhile, its $BTC production surged 322% ye",
+    "link": "https://x.com/TheBlockCo/status/2092588866410541300",
+    "score": 60,
+    "snippet": "THE BLOCK: Bitcoin miner Bitdeer says its 9.5 MW Malaysia AI cloud facility is fully committed under long-term deals representing over $800 million in expected revenue. $BTDR Meanwhile, its $BTC production surged 322% year over year to 1,190 BTC in July as its self-mining hash rate reached 76.7 EH/s",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-26T12:23:59.336000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
     "id": "17a9c2048973607c3b34e366d59ef1c9fc5705e8",
     "title": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe - The Cryptonomist",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTUEpBX05lX00xazlHMHUyd3RSaGI0OWItX04tZkFQX0ZnWkpudmVFSVdqU3RKQUh1ZDByVkNhZ0lKS2k4OF9ZX0dxbFlaREdyMXFIcmlIcjZYMFRyWmZVNzBPX0V6T0REMWVyVzZER2ZseExoSFRKLQ?oc=5",
@@ -139,9 +197,38 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "219932f5bd423935d0cb1aaf539caa3d5ab85cbc",
+    "title": "Builder's Block #024: Robinhood Chain Commits $1M in Funding to Open House & ArbOS Elara Now Live",
+    "link": "https://blog.arbitrum.foundation/builders-block-024-robinhood-chain-commits-1m-in-funding-to-open-house-arbos-elara-now-live",
+    "score": 55,
+    "snippet": "Builder's Block #024: Robinhood Chain Commits $1M in Funding to Open House & ArbOS Elara Now Live",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:arb",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-26T13:01:46.801000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now live')",
+    "matched": "now live",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ARB"
+    ]
   },
   {
     "id": "47b9141e45b260416255ef0a361acac0fd598856",
