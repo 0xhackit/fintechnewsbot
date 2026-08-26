@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -53,7 +53,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -80,40 +80,13 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SWARMS",
       "USDC",
       "BASED"
     ]
-  },
-  {
-    "id": "f4a3e30dbb0365f93df625457a3259139b6af7ec",
-    "title": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9xY0lkNk5DQjV3ZU9DbFV4dkJ6eTg1OGRLYjQ3T0JpTVQwb2NvaC1qNGxkZ2FUNFhUYWJBdFdRZF9FbEhZTGxfSVc0Wi1aTzdGcXEtWnZkMi1SSW9SMWFWeEk5QjRIUlRLczhmbUZLM1VLcDVPOVAzNHBQWQ?oc=5",
-    "score": 59,
-    "snippet": "Visa’s stablecoin settlement pilot targets 7-day cross-border payments The Cryptonomist",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T10:47:47+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "15401879b6f1f0a6e5c8f7de3b20ea71f73db20f",
@@ -135,11 +108,40 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TRX"
     ]
+  },
+  {
+    "id": "17a9c2048973607c3b34e366d59ef1c9fc5705e8",
+    "title": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe - The Cryptonomist",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBTUEpBX05lX00xazlHMHUyd3RSaGI0OWItX04tZkFQX0ZnWkpudmVFSVdqU3RKQUh1ZDByVkNhZ0lKS2k4OF9ZX0dxbFlaREdyMXFIcmlIcjZYMFRyWmZVNzBPX0V6T0REMWVyVzZER2ZseExoSFRKLQ?oc=5",
+    "score": 55,
+    "snippet": "Revolut’s euro stablecoin launch expands as it drops USDT in Europe The Cryptonomist",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-08-26T09:54:37+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "47b9141e45b260416255ef0a361acac0fd598856",
@@ -147,10 +149,8 @@
     "link": "https://x.com/circle/status/2092326146151174416",
     "score": 54,
     "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -165,7 +165,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -220,7 +220,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
