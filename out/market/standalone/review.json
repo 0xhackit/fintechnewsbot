@@ -23,11 +23,39 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE"
     ]
+  },
+  {
+    "id": "f6e30fae2d6e306e696ebe885c365923590446c2",
+    "title": "THE BLOCK: State bankers' associations representing 39 U.S. states have formed the BankChain Alliance to develop a common blockchain network for banks. The network is designed to support stablecoins, tokenized deposits,",
+    "link": "https://x.com/TheBlockCo/status/2092560755992506452",
+    "score": 75,
+    "snippet": "THE BLOCK: State bankers' associations representing 39 U.S. states have formed the BankChain Alliance to develop a common blockchain network for banks. The network is designed to support stablecoins, tokenized deposits, smart payments, and automated settlement, with a 2027 launch targeted.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-26T10:32:17.285000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "fcd78ec8328eddbce2f9857d548a9412bd75efad",
@@ -52,7 +80,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SWARMS",
@@ -83,7 +111,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -107,7 +135,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "TRX"
@@ -119,8 +147,10 @@
     "link": "https://x.com/circle/status/2092326146151174416",
     "score": 54,
     "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -135,7 +165,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -190,7 +220,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
