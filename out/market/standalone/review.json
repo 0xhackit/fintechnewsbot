@@ -75,7 +75,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZRO"
@@ -104,7 +104,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SWARMS",
@@ -137,7 +137,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -164,7 +164,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -192,7 +192,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -216,7 +216,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TRX"
@@ -244,7 +244,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('buy')",
     "matched": "buy",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "COIN",
@@ -258,10 +258,8 @@
     "link": "https://x.com/circle/status/2092326146151174416",
     "score": 54,
     "snippet": "Bitcoin is one of the most important collateral assets in digital finance, but native BTC cannot move directly through smart contract markets. cirBTC is designed to connect BTC collateral with USDC liquidity, helping institutions access borrowing, treasury, hedging, and settlement workflows without ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -276,7 +274,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -333,7 +331,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "KMNO"
@@ -361,7 +359,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('issuance')",
     "matched": "issuance",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BASED"
@@ -371,7 +369,7 @@
     "id": "0b0fcc15e50e58785060c10496cab5556b2ced8a",
     "title": "22 billion tokens per minute is what Google's own models now process, up 120% in just six months, per the company's Q2 2026 earnings call, equal to over 1 quadrillion tokens a month. Filecoin storage is already built for",
     "link": "https://x.com/Filecoin/status/2092371212617838803",
-    "score": 50,
+    "score": 44,
     "snippet": "22 billion tokens per minute is what Google's own models now process, up 120% in just six months, per the company's Q2 2026 earnings call, equal to over 1 quadrillion tokens a month. Filecoin storage is already built for the data behind numbers like that.",
     "regions": [],
     "primary_region": null,
@@ -387,7 +385,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -447,35 +445,6 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "5d36c1c709b5c5a5cdb88d78e9365eca9b13f6c2",
-    "title": "HKDAP Stablecoin Launch Marks Banking Breakthrough in Hong Kong - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9qY2dOU1dWalVGVjRBTWdSNC1uck5tcThYd1JWaW10VTRIbG1Eb1RTdHlpNXI4VW02OHRvcG1qeU1NUmdmaDk1Tk5WM0xLNU1QVW1fazhGeklmN0E1TEhacjNMOFZQUVVGdVg1NGlMZGxPeXZ4cV9scEFiQWc?oc=5",
-    "score": 35,
-    "snippet": "HKDAP Stablecoin Launch Marks Banking Breakthrough in Hong Kong The Cryptonomist",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-08-25T04:44:10+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
