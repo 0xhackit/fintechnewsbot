@@ -79,86 +79,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* Header */
-.header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid #eff3f4;
-  padding: 0 16px;
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-brand {
-  text-decoration: none;
-  color: inherit;
-}
-
-.header h1 {
-  font-size: 20px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-}
-
-/* Nav links */
-.nav-links {
-  display: flex;
-  gap: 4px;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #536471;
-  font-size: 14px;
-  font-weight: 600;
-  padding: 6px 14px;
-  border-radius: 999px;
-  transition: background 0.15s, color 0.15s;
-}
-
-.nav-link:hover {
-  background: rgba(29, 155, 240, 0.1);
-  color: #1d9bf0;
-}
-
-/* Live badge */
-.live-badge {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 13px;
-  font-weight: 600;
-  color: #00ba7c;
-  background: rgba(0, 186, 124, 0.08);
-  border: 1px solid rgba(0, 186, 124, 0.25);
-  border-radius: 999px;
-  padding: 4px 12px 4px 10px;
-}
-
-.live-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #00ba7c;
-  animation: glow 2s ease-in-out infinite;
-}
-
-@keyframes glow {
-  0%, 100% {
-    box-shadow: 0 0 4px rgba(0, 186, 124, 0.4);
-    opacity: 1;
-  }
-  50% {
-    box-shadow: 0 0 12px rgba(0, 186, 124, 0.8), 0 0 24px rgba(0, 186, 124, 0.3);
-    opacity: 0.8;
-  }
-}
-
 /* ══════════════════════════════════════════════
    Dashboard Styles
    ══════════════════════════════════════════════ */
@@ -1372,10 +1292,6 @@ body {
 
   .controls-row {
     flex-direction: column;
-  }
-
-  .nav-links {
-    gap: 2px;
   }
 
   .feed-tabs {

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-import SiteChrome from "@/components/SiteChrome";
 
 export const metadata: Metadata = {
   title: "Fintech Onchain",
@@ -17,7 +16,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <SiteChrome />
         {children}
         <Analytics />
       </body>
