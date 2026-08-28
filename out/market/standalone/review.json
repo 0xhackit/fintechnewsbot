@@ -1,38 +1,67 @@
 [
   {
-    "id": "ecfcd365237da7e2575b35b6c5b879adb921d889",
-    "title": "Tokenized deposits could raise US credit costs: Dallas Fed economists",
-    "link": "https://cointelegraph.com/news/tokenized-deposits-us-credit-costs-dallas-fed-economists?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 84,
-    "snippet": "Dallas Fed economists said faster, programmable deposits could make bank funding less stable, potentially pushing lenders toward more expensive funding.",
+    "id": "78bac25fe4b202d93db4211a4670abcf41957439",
+    "title": "JUST IN: The SEC clears @evernorthxrp's registration to list as an $XRP treasury company on Nasdaq under ticker $XRPN. Backed by @Ripple, @PanteraCapital, @Krakenfx and SBI Group, with a shareholder vote on September 30.",
+    "link": "https://x.com/CoinDesk/status/2093254386822578575",
+    "score": 90,
+    "snippet": "JUST IN: The SEC clears @evernorthxrp's registration to list as an $XRP treasury company on Nasdaq under ticker $XRPN. Backed by @Ripple, @PanteraCapital, @Krakenfx and SBI Group, with a shareholder vote on September 30.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
+    "category": "regulation",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-08-27T06:39:02+00:00",
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-28T08:28:31.672000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('clears')",
+    "matched": "clears",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "7dcf6f55a9d3b44848714943fc4161700a7b7e9a",
+    "title": "Extending USDe backing: basis on equity perpetuals. Equity perpetuals now carry nearly >$6bn of open interest across 200 contracts on the same venues Ethena already executes, growing >10x since March. Funding rates on eq",
+    "link": "https://x.com/ethena/status/2093295130312855875",
+    "score": 75,
+    "snippet": "Extending USDe backing: basis on equity perpetuals. Equity perpetuals now carry nearly >$6bn of open interest across 200 contracts on the same venues Ethena already executes, growing >10x since March. Funding rates on equity perpetuals have paid 15-20% on average, >5x the Bitcoin funding rates in 20",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:ethena",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-28T11:10:25.802000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ENA",
+      "BTC",
+      "ACT",
+      "FLOW",
+      "SAFE"
+    ]
   },
   {
     "id": "77d82b90c9770bb64ab457b6b16c3c69b7ba62f5",
     "title": "Nvidia just announced Record Sales of 96.2 Billion Dollars, forecasting a 70% rise in Revenue in 2028. Congratulations to Jensen Huang on these incredible numbers, and the Company’s Great Success. Only in America! Presid",
     "link": "https://truthsocial.com/@realDonaldTrump/117169577666973164",
-    "score": 75,
+    "score": 69,
     "snippet": "Nvidia just announced Record Sales of 96.2 Billion Dollars, forecasting a 70% rise in Revenue in 2028. Congratulations to Jensen Huang on these incredible numbers, and the Company’s Great Success. Only in America! President DONALD J. TRUMP",
     "regions": [],
     "primary_region": null,
@@ -55,37 +84,126 @@
     ]
   },
   {
-    "id": "ee56facbcec0e750d0d3efe1aed02d0a9346ed07",
-    "title": "PURR jumps 15% as Hyperliquid Strategies updates $1.9 billion HYPE treasury and 'fortress balance sheet'",
-    "link": "https://www.theblock.co/news/business/2026-08-27-purr-jumps-hyperliquid-strategies-1-9-billion-hype-treasury-fortress-balance-sheet-412926",
-    "score": 74,
-    "snippet": "PURR jumps 15% as Hyperliquid Strategies updates $1.9 billion HYPE treasury and 'fortress balance sheet'",
+    "id": "baf20fc0c80fcd0e740bae2c404c4726cc8b4d99",
+    "title": "Capital B raises $24.5M for its Bitcoin treasury amid market uncertainty with BlockStream's Adam Back chipping in",
+    "link": "https://cointelegraph.com/news/capital-b-raises-245m-for-its-bitcoin-treasury-amid-market-uncertainty-with-blockstreams-adam-back-chipping-in",
+    "score": 65,
+    "snippet": "Capital B raises $24.5M for its Bitcoin treasury amid market uncertainty with BlockStream's Adam Back chipping in",
     "regions": [],
     "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
+    "category": "fundraising",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:the block",
+    "feed_name": "tree:cointelegraph",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-27T14:51:24.942000+00:00",
+    "published_at": "2026-08-28T11:36:50.527000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('raises $')",
+    "matched": "raises $",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "87757e616136d68030c2f2214b05f4a61e895c72",
+    "title": "THE BLOCK: Spot bitcoin ETFs reported $242 million in net inflows on Thursday, led by $277 million moving into BlackRock's $IBIT . This is the funds' 9th consecutive day of net inflows. Spot ether ETFs reported $234.5 mi",
+    "link": "https://x.com/TheBlockCo/status/2093194181430886523",
+    "score": 64,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs reported $242 million in net inflows on Thursday, led by $277 million moving into BlackRock's $IBIT . This is the funds' 9th consecutive day of net inflows. Spot ether ETFs reported $234.5 million in inflows, which is the largest amount since October 2025. $BTC $ETH",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-28T04:29:17.813000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "PURR",
-      "HYPE"
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "32c7888e60757c133dbc9ceb2c836db3d023b54e",
+    "title": "OpenFour brings community ideas and builder mechanisms into real launches. Here’s where OpenFour stands today. 👇 We’ll keep showing what gets built, what gets used, and what changes along the way. More ways to launch on",
+    "link": "https://x.com/fourdotmemezh/status/2093250751627956524",
+    "score": 60,
+    "snippet": "OpenFour brings community ideas and builder mechanisms into real launches. Here’s where OpenFour stands today. 👇 We’ll keep showing what gets built, what gets used, and what changes along the way. More ways to launch on BNB Chain, in the open.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:fourdotmemezh",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-28T08:14:04.893000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "FORM",
+      "BNB"
+    ]
+  },
+  {
+    "id": "7562ae3e5d396ef542923a457b2a6130a924047c",
+    "title": "Ethena’s USDe Surpasses $320 Million on Robinhood Chain Within 8 Weeks of Launch, Accounting for 42% of the Chain’s Stablecoin Supply According to Token Terminal data, Ethena’s USDe surpassed $320 million on Robinhood Ch",
+    "link": "https://x.com/WuBlockchain/status/2093199616699478102",
+    "score": 59,
+    "snippet": "Ethena’s USDe Surpasses $320 Million on Robinhood Chain Within 8 Weeks of Launch, Accounting for 42% of the Chain’s Stablecoin Supply According to Token Terminal data, Ethena’s USDe surpassed $320 million on Robinhood Chain within eight weeks of launch and currently accounts for 42% of the chain’s s",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-28T04:50:53.495000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ENA",
+      "MORPHO"
     ]
   },
   {
     "id": "0a720db47352a8ad7da79540f7f59d6910617956",
     "title": "A New PermawebOS BETA release is out! The wallet now supports Ethereum signing. Hold AR, AO, and Mainnet 1.0 assets on an ETH key and use them from the PermawebOS wallet. Bazar has added ETH signing too, so you can manag",
     "link": "https://x.com/aoTheComputer/status/2093113168134648182",
-    "score": 65,
+    "score": 59,
     "snippet": "A New PermawebOS BETA release is out! The wallet now supports Ethereum signing. Hold AR, AO, and Mainnet 1.0 assets on an ETH key and use them from the PermawebOS wallet. Bazar has added ETH signing too, so you can manage assets on ETH addresses! PermawebOS Download Link: https://arweave.net/QzIfocC",
     "regions": [],
     "primary_region": null,
@@ -101,7 +219,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "AR",
@@ -109,45 +227,11 @@
     ]
   },
   {
-    "id": "d9d080f94cca647d97613f565ce6ad32f24bd623",
-    "title": "SODAX Partners with Flint to Power Cross-Network Deposits for RWA Vaults Flint, has integrated SODAX to accept deposits from cross-network assets into their vaults, investing in tokenized real estate bonds and private cr",
-    "link": "https://x.com/gosodax/status/2092990279187919048",
-    "score": 64,
-    "snippet": "SODAX Partners with Flint to Power Cross-Network Deposits for RWA Vaults Flint, has integrated SODAX to accept deposits from cross-network assets into their vaults, investing in tokenized real estate bonds and private credit. Those holding capital across the 20+ networks SODAX supports can now fund ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:gosodax",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T14:59:03.461000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ICX",
-      "USDC",
-      "APR",
-      "ETH",
-      "STABLE",
-      "FLOW"
-    ]
-  },
-  {
-    "id": "a64dbaa1e2051072a05c22e884c4dbcd4e8435c3",
-    "title": "NEW: @Ripple Prime launches Delta One, enabling institutional clients to trade Total Return Swaps across U.S. equities, indices and digital assets through a single counterparty with $1B+ in regulatory capital, 24/7.",
-    "link": "https://x.com/CoinDesk/status/2092963889063325850",
-    "score": 64,
-    "snippet": "NEW: @Ripple Prime launches Delta One, enabling institutional clients to trade Total Return Swaps across U.S. equities, indices and digital assets through a single counterparty with $1B+ in regulatory capital, 24/7.",
+    "id": "7fc15887dd179edcee17c0d2c45256050e7c516e",
+    "title": "Circle 🤝 @ChelseaFC USDC is coming to global football. Circle is proud to partner with Chelsea FC, one of the most recognized football clubs in the world. Beginning with the 2026/27 season, Circle and USDC will appear on",
+    "link": "https://x.com/circle/status/2093292761415889289",
+    "score": 55,
+    "snippet": "Circle 🤝 @ChelseaFC USDC is coming to global football. Circle is proud to partner with Chelsea FC, one of the most recognized football clubs in the world. Beginning with the 2026/27 season, Circle and USDC will appear on the front of Chelsea’s Men’s, Women’s, and Academy shirts. The global game. The",
     "regions": [
       "US"
     ],
@@ -157,19 +241,19 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:coindesk",
+    "feed_name": "tree:x:circle",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T13:14:11.511000+00:00",
+    "published_at": "2026-08-28T11:01:00.933000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "XRP"
+      "USDC"
     ]
   },
   {
@@ -224,7 +308,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SNDK",
@@ -236,68 +320,39 @@
     ]
   },
   {
-    "id": "fae0409609f8d455a39c5d6b6474ff9c1552f96b",
-    "title": "Blockchain product suites are the next 1000x growth opportunity for the world’s largest institutions. Our full stack @Arbitrum, @zerodev_app and @prylabs gives enterprises the infrastructure to launch faster, reduce cost",
-    "link": "https://x.com/Offchain/status/2093019223022776668",
-    "score": 54,
-    "snippet": "Blockchain product suites are the next 1000x growth opportunity for the world’s largest institutions. Our full stack @Arbitrum, @zerodev_app and @prylabs gives enterprises the infrastructure to launch faster, reduce costs and create new revenue streams.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
+    "id": "3aa87c0f525e5291c8aab43f997dd4d39a41a236",
+    "title": "Investors at least $4.7 billion underwater across Trump crypto ventures, Public Citizen says",
+    "link": "https://www.theblock.co/news/business/2026-08-28-investors-at-least-4-7-billion-underwater-across-trump-crypto-ventures-public-citizen-says-413003",
+    "score": 50,
+    "snippet": "Investors are $4.7 billion underwater across Trump crypto ventures while Trump earned $1.4 billion, Public Citizen reported.",
+    "regions": [
+      "US"
     ],
-    "feed_name": "tree:x:offchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T16:54:04.207000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 3,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-08-28T11:26:02+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ARB"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
-    "id": "6fd704a534d8fb5e52012455625839a16ec02a0c",
-    "title": "Horizen launching Season 2 of the Builder Ecosystem Fund 🚨⚡ 100K+ ZEN builder season to ship private onchain finance Up to $150K for RFP protocols & apps, plus smaller project funding opps - Tech stack: Bring-your-own-pr",
-    "link": "https://x.com/horizenglobal/status/2093013542433959946",
-    "score": 54,
-    "snippet": "Horizen launching Season 2 of the Builder Ecosystem Fund 🚨⚡ 100K+ ZEN builder season to ship private onchain finance Up to $150K for RFP protocols & apps, plus smaller project funding opps - Tech stack: Bring-your-own-privacy integration - Vela (TEE) & zkVerify (ZK) preferred - Hands-on DevRel priva",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:horizenglobal",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T16:31:30.053000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ZEN",
-      "ZK"
-    ]
-  },
-  {
-    "id": "e77658387f3402dd37bc78bea99a562c47645da2",
-    "title": "USDT and USDC Supply Returns to Growth After Three-Month Contraction, Up $1.7 Billion in August Data compiled by WuBlockchain on USDT and USDC circulating supply show that their combined circulating supply increased by a",
-    "link": "https://x.com/WuBlockchain/status/2093011968244543776",
-    "score": 54,
-    "snippet": "USDT and USDC Supply Returns to Growth After Three-Month Contraction, Up $1.7 Billion in August Data compiled by WuBlockchain on USDT and USDC circulating supply show that their combined circulating supply increased by about $1.7 billion in August 2026, ending three consecutive months of contraction",
+    "id": "f7ba02375a35f6b49e73861ae9acfa79c40d28cc",
+    "title": "NEW: Public Citizen estimates investors are at least $4.7 billion underwater across five Trump-linked crypto products. The estimate includes $3.2 billion in $TRUMP losses, at least $1 billion tied to $WLFI, and $450 mill",
+    "link": "https://x.com/TheBlockCo/status/2093290265100386314",
+    "score": 50,
+    "snippet": "NEW: Public Citizen estimates investors are at least $4.7 billion underwater across five Trump-linked crypto products. The estimate includes $3.2 billion in $TRUMP losses, at least $1 billion tied to $WLFI, and $450 million in Trump Media bitcoin losses. $BTC",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -305,11 +360,39 @@
     "consensus": 1,
     "financial": 40,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
-    "feed_name": "tree:x:wublockchain",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T16:25:14.970000+00:00",
+    "published_at": "2026-08-28T10:51:05.761000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "TRUMP",
+      "WLFI",
+      "BTC"
+    ]
+  },
+  {
+    "id": "9d645132ac0dfb07aaaf4fda934325a165b9e009",
+    "title": "Live updates: Bitcoin options worth $6.4 billion just expired as prices hover near $80,000",
+    "link": "https://www.coindesk.com/business/2026/08/28/live-updates-bitcoin-options-worth-usd6-4-billion-just-expired-as-prices-hover-near-usd80-000",
+    "score": 50,
+    "snippet": "Live updates: Bitcoin options worth $6.4 billion just expired as prices hover near $80,000",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:coindesk",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-28T09:09:22.690000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -317,44 +400,41 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "USDC",
-      "BTC",
-      "T"
+      "BTC"
     ]
   },
   {
-    "id": "101d49259912c9b7f91eb9cbc32d3dd522d75e05",
-    "title": "🔐 @inconetwork, a full-stack blockchain privacy layer, just launched on the Celo Sepolia testnet! Inco gives users a private asset layer on a Celo-supported wallet, allowing balances to stay private",
-    "link": "https://x.com/Celo/status/2092976074305184016",
-    "score": 54,
-    "snippet": "🔐 @inconetwork, a full-stack blockchain privacy layer, just launched on the Celo Sepolia testnet! Inco gives users a private asset layer on a Celo-supported wallet, allowing balances to stay private",
+    "id": "d368e44988e36a8e60a98bccd10eddb529e18ef7",
+    "title": "Trade to Share Up to 400 BNB Token Vouchers",
+    "link": "https://www.treeofalpha.com/preview_article?id=1787907607574",
+    "score": 50,
+    "snippet": "Trade to Share Up to 400 BNB Token Vouchers",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:celo",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T14:02:36.852000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:enso trading tournament",
+    "source": "TreeOfAlpha/Binance EN",
+    "published_at": "2026-08-28T09:00:08.842000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "CELO"
+      "ENSO",
+      "BNB"
     ]
   },
   {
     "id": "ebd13640a0116ff32a7edf7231d3f67f3363a3cf",
     "title": "The Foreign Owners Behind Trump’s $4 Billion Stablecoin Bank - BeInCrypto",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oaThfTmpCRmtXVlRJeTZhS3dIajhkZzdCbE9pS1N5UzMtRlFJYU53ZURrWnV2YzJlN0ZHbHQxSW54TG9ZV3VTa3BNLVhvM0h1Z1p5eHUzRE5TOHdTLXZSU19lOW1QQ0llZEFSWkhzZw?oc=5",
-    "score": 50,
+    "score": 44,
     "snippet": "The Foreign Owners Behind Trump’s $4 Billion Stablecoin Bank BeInCrypto",
     "regions": [
       "US"
@@ -379,41 +459,15 @@
     "coins": []
   },
   {
-    "id": "0ebbff5a9280e7d577143fa3db7d4e2388730aa7",
-    "title": "THE BLOCK: XRP treasury firm Evernorth said its SEC Form S-4 related to its business combination with Armada is now effective, allowing progress toward a Nasdaq listing. \"We believe institutional finance will increasingl",
-    "link": "https://x.com/TheBlockCo/status/2093135312075853824",
-    "score": 50,
-    "snippet": "THE BLOCK: XRP treasury firm Evernorth said its SEC Form S-4 related to its business combination with Armada is now effective, allowing progress toward a Nasdaq listing. \"We believe institutional finance will increasingly be built on-chain. Evernorth is designed to accelerate XRP's role in that work",
+    "id": "c7042bbcdae7f2402bf0afdcb977c4ce475412ce",
+    "title": "Bank of England’s stablecoin goals; can stablecoins fix US debt? - CoinGeek",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONkNxNnA2SldxY2VpNmNWaGNKLUl5R3pDRElkTU5VT3dVSDhHU3A1Z2E2N2VFRUQzS3BjREpONTlKY1pMRHpaWmhUbVFpb1daZkhJLWNCRnNCMzJHQ19OelBCTTJjaUJTYUVlczdab0RPbkdrR2hFTHQ2cEtQN1dteDQ5NnBCaE9aVVE?oc=5",
+    "score": 40,
+    "snippet": "Bank of England’s stablecoin goals; can stablecoins fix US debt? CoinGeek",
     "regions": [
-      "US"
+      "EU"
     ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T00:35:22.151000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('listing')",
-    "matched": "listing",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
-  },
-  {
-    "id": "f378adf32f38c8a890fd375cd6f20cdef8704075",
-    "title": "The U.K. government plans to give its central bank a new mandate to support stablecoin innovation while keeping financial stability its top priority. Get the full picture in Crypto Daybook Americas, CoinDesk’s daily mark",
-    "link": "https://x.com/CoinDesk/status/2092997798635454550",
-    "score": 50,
-    "snippet": "The U.K. government plans to give its central bank a new mandate to support stablecoin innovation while keeping financial stability its top priority. Get the full picture in Crypto Daybook Americas, CoinDesk’s daily markets briefing presented by @realfi_co.",
-    "regions": [],
-    "primary_region": null,
+    "primary_region": "EU",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
@@ -421,102 +475,15 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-27T15:28:56.201000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "512b344cf7295365e4a742a831b0c6d717c2a506",
-    "title": "Circle Stock Price Slips as Banks Eye Stablecoin Launch Challenging USDC Dominance - CoinGape",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWNyWkRSaWRGa28yOWdZX2RwN2RtTVpwZmowclpJTHZ6eE1QRGNJSnRDb21Kd1pIckI1XzBrMDdnMzdLLWJ3cGM5eHVROGVYN3JDQXAxRUlGUm1OQXhpRDAyQkFZSTQwRFNOTmd6RjlNTFA2WmFzWjN2WDUyZjY1R25vNXJuMnFIYXh6endOd1BwWmZkWEVzUHh3SWhwSkVwM3JiaWZfdw?oc=5",
-    "score": 49,
-    "snippet": "Circle Stock Price Slips as Banks Eye Stablecoin Launch Challenging USDC Dominance CoinGape",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-08-27T09:03:33+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "50b26a1887c4e96bf97e39d9684858c5049caad4",
-    "title": "JPMorgan Explores Launching Its Own Stablecoin as Largest U.S. Bank Weighs Digital Dollar Strategy - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ma19TRDFLUUxiZXZGNmtKR0NaT1dlVkd1UzEteS1xUW9oTGROeTRRTm9zMTFjREx2OElVcWxDOUxlVW9iWGNWZkZpSUNqMExVbjdTUEROaUcwd3prcU5TVThKakN0Tk9XSHpJMEY4dUpaOU9SSGc?oc=5",
-    "score": 49,
-    "snippet": "JPMorgan Explores Launching Its Own Stablecoin as Largest U.S. Bank Weighs Digital Dollar Strategy finance.biggo.com",
-    "regions": [
-      "US",
-      "EU",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-08-27T04:35:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "bcbf70bdcc2064773e04ff7cdf56635e215073d9",
-    "title": "Litecoin Targets A Potential $30 Billion Dollar Comeback",
-    "link": "https://www.barrons.com/press-release/litecoin-targets-a-potential-30-billion-dollar-comeback-640ca425",
-    "score": 44,
-    "snippet": "Litecoin Targets A Potential $30 Billion Dollar Comeback",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:barrons",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-27T13:02:50.412000+00:00",
+    "published_at": "2026-08-28T07:00:00+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "LTC"
-    ]
+    "origin": "rss",
+    "coins": []
   }
 ]
