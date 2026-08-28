@@ -130,11 +130,20 @@ def evaluate_item(it: dict, tiers: dict, default_tier: str = "C",
         return rec
 
     # 4. Balanced higher-signal gate.
-    high_signal = (
-        rec["source_tier"] in KEEP_TIERS
-        or rec["consensus"] >= KEEP_MIN_CONSENSUS
-        or rec["financial"] >= KEEP_MIN_FINANCIAL
-    )
+    #    A material dollar figure vouches for a curated publisher on its own, but it
+    #    cannot carry an UNCORROBORATED firehose item: the Tree relay reproduces social
+    #    posts verbatim, so any post boasting a big number scores financial_bonus and
+    #    used to auto-publish to the site, Telegram and X off a single unvetted source.
+    #    For origin == "tree" the money test therefore needs a primary-tier publisher or
+    #    a second outlet behind it. Corroborated items (origin "rss+tree") are exempt —
+    #    the corroboration is the point, and they carry consensus >= 2 anyway.
+    tier_ok = rec["source_tier"] in KEEP_TIERS
+    consensus_ok = rec["consensus"] >= KEEP_MIN_CONSENSUS
+    material_ok = rec["financial"] >= KEEP_MIN_FINANCIAL
+    if it.get("origin") == "tree":
+        material_ok = material_ok and (tier_ok or consensus_ok)
+
+    high_signal = tier_ok or consensus_ok or material_ok
     rec["bucket"] = "kept" if high_signal else "review"
     return rec
 
