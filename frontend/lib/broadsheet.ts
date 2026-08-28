@@ -14,7 +14,7 @@
 import type { FeedEntry } from "./feed";
 import { resolveCategory, type Category } from "./categories";
 
-export type DeskKey = "regulation" | "fundraising" | "product";
+export type DeskKey = "regulation" | "fundraising" | "product" | "markets";
 
 export interface Story {
   id: string;
@@ -25,7 +25,7 @@ export interface Story {
   sources: number; // cluster size (>= 1). 2 when RSS + TreeOfAlpha corroborate.
   filedBy: string[]; // channels that carried it
   category: Category;
-  section: DeskKey | null; // null = "other" → wire-only, no desk column
+  section: DeskKey | null; // null only when a category has no desk
   sectionLabel: string; // kicker text, e.g. "Regulation & Policy"
   publishedAt: number; // ms epoch, for sorting
   time: string; // HH:MM, wire gutter (reader locale)
@@ -78,6 +78,7 @@ const DESK_DEFS: { key: DeskKey; category: Category; name: string }[] = [
   { key: "regulation", category: "regulation", name: "Regulation & Policy" },
   { key: "fundraising", category: "fundraising", name: "Funding & Deals" },
   { key: "product", category: "product", name: "Rails & Product" },
+  { key: "markets", category: "other", name: "Markets" },
 ];
 
 const SECTION_LABEL: Record<Category, string> = {
@@ -87,10 +88,13 @@ const SECTION_LABEL: Record<Category, string> = {
   other: "Markets",
 };
 
+// Every category now has a desk. "other" used to map to nothing, which left
+// well over half of each day's stories visible in the Wire and nowhere else.
 const DESK_OF: Partial<Record<Category, DeskKey>> = {
   regulation: "regulation",
   fundraising: "fundraising",
   product: "product",
+  other: "markets",
 };
 
 // ── Source naming (ported + extended from PostItem) ────────────────────────────
@@ -289,6 +293,27 @@ function isMarketRecap(s: Story): boolean {
 
 /** Highest-scoring story in the tightest recency window that has any — so a fresh
  *  but slightly lower-scored story wins the slot over a stale high-scorer. */
+/**
+ * How much a story's disclosed size should count toward leading the edition.
+ * The pipeline score is keyword-weighted and hands regulators a ~70-point head
+ * start (+30 institution, +40 regulator-plus-action), so policy stories took the
+ * top slot almost every day while the largest deal of the day sat in a column.
+ * A newsroom leads on what moved the most, so size gets an explicit say.
+ */
+function moneyWeight(s: Story): number {
+  const m = disclosedMillions([`${s.title} ${s.deck}`]);
+  if (m >= 1000) return 45; // $1bn+
+  if (m >= 250) return 30;
+  if (m >= 100) return 20;
+  if (m >= 50) return 10;
+  return 0;
+}
+
+/** What the lead is ranked on: pipeline score + manual boost + disclosed size. */
+export function leadRank(s: Story): number {
+  return s.score + moneyWeight(s);
+}
+
 function pickFreshTop(pool: Story[], refMs: number): Story | null {
   if (!pool.length) return null;
   for (const days of [1, 2, 4, 8, 3650]) {
@@ -296,7 +321,7 @@ function pickFreshTop(pool: Story[], refMs: number): Story | null {
     const inWin = pool.filter((s) => s.publishedAt >= cut);
     if (inWin.length) {
       return [...inWin].sort(
-        (a, b) => b.score - a.score || b.publishedAt - a.publishedAt
+        (a, b) => leadRank(b) - leadRank(a) || b.publishedAt - a.publishedAt
       )[0];
     }
   }
@@ -364,6 +389,12 @@ function deskNote(key: DeskKey, stories: Story[]): string {
       ? `${n} ${n === 1 ? "filing" : "filings"}, ${jur} jurisdictions`
       : `${n} ${n === 1 ? "filing" : "filings"}`;
   }
+  if (key === "markets") {
+    const tickers = new Set(stories.flatMap((s) => s.coins));
+    return tickers.size
+      ? `${n} on the tape · ${[...tickers].slice(0, 3).join(" ")}`
+      : `${n} ${n === 1 ? "story" : "stories"} on the tape`;
+  }
   // product
   return `${n} ${n === 1 ? "update" : "updates"} on the rails`;
 }
@@ -385,7 +416,7 @@ export function shapeEdition(entries: FeedEntry[], updatedAt: string): Edition {
   //    a new filing takes the top slot instead of a high-scoring week-old story.
   //    Price-wrap "other" dumps stay in the Wire; desk-mapped stories always count.
   const leadPool = newest.filter(
-    (s) => s.section !== null || (s.category === "other" && !isMarketRecap(s))
+    (s) => s.section !== null && !(s.category === "other" && isMarketRecap(s))
   );
   const lead = pickFreshTop(leadPool, updatedMs) ?? newest[0] ?? null;
 
