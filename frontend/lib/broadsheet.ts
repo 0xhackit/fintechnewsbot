@@ -436,9 +436,34 @@ export function shapeEdition(entries: FeedEntry[], updatedAt: string): Edition {
     .filter((s) => s.dayKey === yesterdayKey)
     .sort((a, b) => b.score - a.score || b.publishedAt - a.publishedAt);
   const hadYesterday = yesterday.length > 0;
-  const briefStories = [...yesterday];
+
+  // One slot per desk before any desk takes a second. Ranking the day purely by
+  // score let the busiest desk fill all three lines — three variations on the
+  // same story — and Markets, which carries the most volume, got crowded out
+  // entirely. Walking the desks first guarantees the brief spans the paper.
+  const briefStories: Story[] = [];
+  const taken = new Set<string>();
+  for (const { key } of DESK_DEFS) {
+    const top = yesterday.find((s) => s.section === key && !taken.has(s.id));
+    if (top) {
+      briefStories.push(top);
+      taken.add(top.id);
+    }
+  }
+  // Slots left empty by a quiet desk go to the best of what remains, whatever
+  // desk it came from (regulation included — it has no column but still counts).
+  for (const s of yesterday) {
+    if (briefStories.length >= 3) break;
+    if (!taken.has(s.id)) {
+      briefStories.push(s);
+      taken.add(s.id);
+    }
+  }
+  // Biggest story of the day still reads as 01.
+  briefStories.sort((a, b) => leadRank(b) - leadRank(a) || b.publishedAt - a.publishedAt);
+
   if (briefStories.length < 3) {
-    const chosen = new Set(briefStories.map((s) => s.id));
+    const chosen = taken;
     const backfill = briefEligible
       .filter(
         (s) => !chosen.has(s.id) && s.dayKey !== todayKey && s.publishedAt < updatedMs
