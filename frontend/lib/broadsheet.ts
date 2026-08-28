@@ -29,7 +29,8 @@ export interface Story {
   sectionLabel: string; // kicker text, e.g. "Regulation & Policy"
   publishedAt: number; // ms epoch, for sorting
   time: string; // HH:MM, wire gutter (reader locale)
-  score: number;
+  score: number;   // pipeline score + manual boost — what every ranking sorts on
+  boost: number;   // the manual component alone, for display
   origin: string; // rss | tree | rss+tree
   isConsensus: boolean; // origin === "rss+tree"
   coins: string[];
@@ -336,7 +337,8 @@ function toStory(e: FeedEntry): Story {
     time: hhmm(publishedAt),
     dayKey: utcDayKey(publishedAt),
     dayLabel: utcDayLabel(publishedAt),
-    score: e.score ?? 0,
+    score: (e.score ?? 0) + (e.boost ?? 0),
+    boost: e.boost ?? 0,
     origin: e.origin || "rss",
     isConsensus,
     coins: (e.coins || []).filter(Boolean),

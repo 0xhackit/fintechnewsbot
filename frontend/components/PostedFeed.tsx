@@ -63,6 +63,8 @@ export default function PostedFeed({ password }: { password: string }) {
   const [filter, setFilter] = useState<FilterKey>("all");
   const [busyId, setBusyId] = useState<string | null>(null);
   const [results, setResults] = useState<Record<string, RetractResult>>({});
+  const [boosting, setBoosting] = useState<string | null>(null);
+  const [boostErr, setBoostErr] = useState<Record<string, string>>({});
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -81,6 +83,32 @@ export default function PostedFeed({ password }: { password: string }) {
   useEffect(() => {
     load();
   }, [load]);
+
+  /** Set the manual boost on an entry. `delta` of 0 clears it. */
+  async function boost(entry: FeedEntry, delta: number) {
+    const next = delta === 0 ? 0 : (entry.boost || 0) + delta;
+    setBoosting(entry.id);
+    setBoostErr((e) => ({ ...e, [entry.id]: "" }));
+    try {
+      const res = await fetch("/api/boost", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${password}` },
+        body: JSON.stringify({ id: entry.id, boost: next }),
+      });
+      const json = (await res.json()) as { boost?: number; error?: string };
+      if (!res.ok) {
+        setBoostErr((e) => ({ ...e, [entry.id]: json.error || `Failed (${res.status})` }));
+        return;
+      }
+      setEntries((es) =>
+        es ? es.map((e) => (e.id === entry.id ? { ...e, boost: json.boost || 0 } : e)) : es
+      );
+    } catch {
+      setBoostErr((e) => ({ ...e, [entry.id]: "Network error" }));
+    } finally {
+      setBoosting(null);
+    }
+  }
 
   async function retract(entry: FeedEntry) {
     const surfaces = [
@@ -180,7 +208,14 @@ export default function PostedFeed({ password }: { password: string }) {
             return (
               <div key={e.id} className="pf-card">
                 <div className="pf-card-top">
-                  <span className="pf-score">{e.score ?? 0}</span>
+                  <span className={`pf-score ${e.boost ? "boosted" : ""}`}>
+                    {(e.score ?? 0) + (e.boost || 0)}
+                  </span>
+                  {e.boost ? (
+                    <span className="pf-boosttag">
+                      {e.boost > 0 ? "+" : ""}{e.boost} boost
+                    </span>
+                  ) : null}
                   <span className="pf-badge" style={{ background: c.bg, color: c.fg }}>
                     {label}
                   </span>
@@ -211,6 +246,34 @@ export default function PostedFeed({ password }: { password: string }) {
                   {e.feed_name || e.source || "—"} · posted {relativeTime(e.posted_at)}
                 </div>
                 <div className="pf-actions">
+                  <span className="pf-boost">
+                    <button
+                      className="pf-bbtn"
+                      disabled={boosting === e.id}
+                      title="Rank this higher — added to the pipeline score"
+                      onClick={() => boost(e, 25)}
+                    >
+                      ▲ Boost
+                    </button>
+                    <button
+                      className="pf-bbtn"
+                      disabled={boosting === e.id}
+                      title="Rank this lower"
+                      onClick={() => boost(e, -25)}
+                    >
+                      ▼
+                    </button>
+                    {e.boost ? (
+                      <button
+                        className="pf-bbtn pf-bclear"
+                        disabled={boosting === e.id}
+                        onClick={() => boost(e, 0)}
+                      >
+                        clear
+                      </button>
+                    ) : null}
+                    {boostErr[e.id] ? <span className="pf-err">{boostErr[e.id]}</span> : null}
+                  </span>
                   <button
                     className="pf-act"
                     disabled={busyId === e.id}
@@ -275,6 +338,13 @@ export default function PostedFeed({ password }: { password: string }) {
         .pf-lines { display:flex; flex-direction:column; gap:2px; font-size:12px; font-weight:600; }
         .pf-line-ok { color:#00875a; }
         .pf-line-bad { color:#c81e1e; }
+        .pf-score.boosted { background:#fff3d6; color:#96690a; }
+        .pf-boosttag { font-size:11px; font-weight:700; color:#96690a; background:#fff3d6; border:1px solid #f0dcae; border-radius:6px; padding:1px 7px; }
+        .pf-boost { display:flex; align-items:center; gap:4px; }
+        .pf-bbtn { border:1px solid #eff3f4; background:#fff; color:#536471; font-size:12.5px; font-weight:700; padding:6px 12px; border-radius:999px; cursor:pointer; }
+        .pf-bbtn:hover:not(:disabled) { background:rgba(29,155,240,0.08); color:#1d9bf0; border-color:#cfe4f7; }
+        .pf-bbtn:disabled { opacity:0.5; cursor:default; }
+        .pf-bclear { color:#8b98a5; }
         .pf-empty { text-align:center; color:#536471; padding:40px 20px; font-size:14px; }
       `}</style>
     </div>

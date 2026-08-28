@@ -26,7 +26,9 @@ scripts/
 run.py                  # Entry point: runs src/app.py main()
 post_alerts_now.py      # Quick Telegram posting script for GitHub Actions
 force_publish.py        # Manual override: bypass filters and post directly
-feed_writer.py          # Rolling 7-day feed.json management (upsert by ID, prune old entries)
+feed_writer.py          # feed.json management (upsert by ID, prune). NOTE: FEED_RETENTION_DAYS = 365,
+                        # but the frontend write paths (review-action, manual-post) prune to 7 days —
+                        # so the first dashboard Publish after a quiet spell trims the feed hard.
 config.json             # All configuration: RSS feeds, Telegram channels, keywords, topics, alerts settings
 blocklist.json          # Blocked URLs, keywords, sources
 state/
@@ -56,18 +58,48 @@ FETCH: Google News RSS (20+ feeds) + Telegram (12 channels)
   -> OUTPUT: out/items_last24h.json + out/digest.md
   |
   v
-python scripts/run_alerts.py --mode prepare
-  -> Load items with score >= 35
-  -> Skip: no title/link, Telegram sources, blocklisted, low score
-  -> Dedup Agent: unified check (SQLite + seen_titles + feed.json + session cache + AI tiebreaker)
-  -> Ranking Agent: Claude Haiku assigns tier (high/medium/low/reject) + post_to_x flag
-  -> Quality Review: typo fix + title cleanup (Claude Haiku)
-  -> Write out/alerts_drafts.json (includes tier, post_to_x, category)
+python scripts/prepare_alerts_v2.py        # PRODUCTION — deterministic, $0 LLM
+  -> Load items with score >= 35 (Tree-only items need >= 50)
+  -> Skip: no title/link, Telegram sources, blocklisted, already-seen
+  -> TreeOfAlpha consensus merge (config.tree.enabled)
+  -> editorial.classify -> KEEP / REVIEW / KILL  (verdict is FINAL — full text only
+     sharpens category + region, it never revisits keep/kill)
+  -> Region tag (src/regions.py) + section tag (src/categorize.py) + source tier (sources.json)
+  -> High-signal gate: KEEP and (tier A/B or consensus >= 2 or financial >= 40).
+     For origin == "tree" the financial test ALSO needs tier A/B or consensus >= 2 —
+     an uncorroborated firehose relay can't publish on a big number alone.
+  -> Dedup Agent: unified check (SQLite + seen_titles + feed.json + session cache)
+  -> KEEP   -> out/alerts_drafts.json (post_to_x set by pipeline_v2.qualifies_for_x)
+     REVIEW -> out/market/standalone/review.json (admin decides)
+     KILLED -> dropped (recorded in killed.json for audit)
+
+  scripts/run_alerts.py (Claude Haiku ranking agent) is the SUPERSEDED v1 path.
   |
   v
 python post_alerts_now.py                     # -> Telegram (all drafts)
 python scripts/publish_x.py --from-drafts     # -> X (only drafts with post_to_x=true)
 ```
+
+## Admin dashboard (frontend/, Next.js on Vercel)
+
+Three tabs at `/dashboard`, all gated by `DASHBOARD_PASSWORD`:
+
+- **Review queue** — the v2 REVIEW bucket. `Publish` posts to Telegram + adds to the
+  website feed; `Kill` registers the id in `state/seen_alerts.json` so it never resurfaces.
+- **Posted** — everything already published, with two controls per item:
+  - `Retract` (`POST /api/retract`) removes the entry from `out/feed.json`, deletes the
+    Telegram message via `telegram_message_id`, and deletes the tweet via `tweet_id`.
+    Per-surface and fail-soft — Telegram refuses posts older than 48 h, and when a remote
+    surface refuses, the card stays visible saying which surface is still live.
+  - `Boost` (`POST /api/boost`) sets `entry.boost`, added to `score` for RANKING ONLY.
+    Clamped to +/-200. This is the manual override on the deterministic score: a boosted
+    story can take the lead slot or a top-three place in the sixty-second brief.
+    `feed_writer.upsert_entries` merges with `dict.update()`, so pipeline runs preserve it.
+- **Manual post** — posting toggles, keyword editing, and the older FeedManager
+  (`DELETE /api/feed` removes the website entry ONLY; prefer Retract).
+
+The repo IS the database: every write above commits to `main` through the GitHub Contents
+API, so `GITHUB_TOKEN` must be valid or all of them fail with 401.
 
 ## Key Configuration (config.json)
 

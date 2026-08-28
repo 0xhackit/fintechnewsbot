@@ -25,6 +25,9 @@ export interface FeedEntry {
   regions?: string[];
   primary_region?: string | null;
   coins?: string[];
+  /** Manual editorial boost, added to `score` for ranking only. Set from the
+   *  admin Posted tab; the pipeline never writes it and upserts preserve it. */
+  boost?: number;
   origin?: string; // rss | tree | rss+tree (consensus)
   source_tier?: string;
 }
