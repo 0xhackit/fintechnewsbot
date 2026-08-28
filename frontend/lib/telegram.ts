@@ -91,3 +91,39 @@ export async function sendTelegramMessage(
     };
   }
 }
+
+/**
+ * Delete a previously sent message from the configured chat.
+ * Telegram only allows a bot to delete its own channel posts while it holds
+ * can_delete_messages, and refuses messages older than 48 hours — so this is
+ * best-effort: the caller reports the failure rather than aborting the retract.
+ */
+export async function deleteTelegramMessage(
+  messageId: number
+): Promise<{ success: boolean; error?: string }> {
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
+
+  if (!token || !chatId) {
+    return { success: false, error: "Missing TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID" };
+  }
+
+  try {
+    const resp = await fetch(`https://api.telegram.org/bot${token}/deleteMessage`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ chat_id: chatId, message_id: messageId }),
+    });
+
+    const data = (await resp.json()) as { ok?: boolean; description?: string };
+    if (!data.ok) {
+      return { success: false, error: data.description || `Telegram API error (${resp.status})` };
+    }
+    return { success: true };
+  } catch (err) {
+    return {
+      success: false,
+      error: err instanceof Error ? err.message : "Unknown Telegram error",
+    };
+  }
+}

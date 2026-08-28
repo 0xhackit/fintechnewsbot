@@ -90,3 +90,42 @@ export async function postTweet(text: string): Promise<TweetResult> {
     tweetText: text,
   };
 }
+
+/**
+ * Delete a tweet by id (Twitter API v2, OAuth 1.0a User Context).
+ * Used by the admin retract flow to pull a bad post off X.
+ */
+export async function deleteTweet(tweetId: string): Promise<{ deleted: boolean }> {
+  const apiKey = process.env.X_API_KEY;
+  const apiSecret = process.env.X_API_SECRET;
+  const accessToken = process.env.X_ACCESS_TOKEN;
+  const accessSecret = process.env.X_ACCESS_SECRET;
+
+  if (!apiKey || !apiSecret || !accessToken || !accessSecret) {
+    throw new Error("Missing X API credentials");
+  }
+
+  const oauth = new OAuth({
+    consumer: { key: apiKey, secret: apiSecret },
+    signature_method: "HMAC-SHA1",
+    hash_function(baseString: string, key: string) {
+      return crypto.createHmac("sha1", key).update(baseString).digest("base64");
+    },
+  });
+
+  const url = `https://api.twitter.com/2/tweets/${encodeURIComponent(tweetId)}`;
+  const requestData = { url, method: "DELETE" as const };
+  const authHeader = oauth.toHeader(
+    oauth.authorize(requestData, { key: accessToken, secret: accessSecret })
+  );
+
+  const response = await fetch(url, { method: "DELETE", headers: { ...authHeader } });
+
+  if (!response.ok) {
+    const errorText = await response.text().catch(() => "Unknown error");
+    throw new Error(`X delete failed ${response.status}: ${errorText.slice(0, 200)}`);
+  }
+
+  const result = (await response.json()) as { data?: { deleted?: boolean } };
+  return { deleted: Boolean(result?.data?.deleted) };
+}

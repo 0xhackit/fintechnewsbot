@@ -3,8 +3,9 @@
 import { useState } from "react";
 import DashboardForm from "./DashboardForm";
 import ReviewQueue from "./ReviewQueue";
+import PostedFeed from "./PostedFeed";
 
-type Tab = "review" | "post";
+type Tab = "review" | "posted" | "post";
 
 export default function AdminPanel() {
   const [authed, setAuthed] = useState(false);
@@ -62,12 +63,17 @@ export default function AdminPanel() {
         <button className={`admin-tabbtn ${tab === "review" ? "active" : ""}`} onClick={() => setTab("review")}>
           Review queue
         </button>
+        <button className={`admin-tabbtn ${tab === "posted" ? "active" : ""}`} onClick={() => setTab("posted")}>
+          Posted
+        </button>
         <button className={`admin-tabbtn ${tab === "post" ? "active" : ""}`} onClick={() => setTab("post")}>
           Manual post
         </button>
       </div>
       {tab === "review" ? (
         <ReviewQueue password={password} />
+      ) : tab === "posted" ? (
+        <PostedFeed password={password} />
       ) : (
         <DashboardForm preAuthed presetPassword={password} />
       )}
