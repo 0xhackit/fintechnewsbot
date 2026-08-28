@@ -74,11 +74,16 @@ export interface Edition {
 // clean, the Wire still shows everything), and the lead kicker just reads the
 // story's own desk label.
 
+// Three columns, by deliberate choice — a fourth crowds the grid. Markets takes
+// the slot Regulation & Policy held: "other" is the largest category most days
+// and had no desk at all, while regulation runs 2-3 stories a week. Regulation
+// keeps its DESK_OF mapping below, so those stories stay lead-eligible, keep
+// their section label, and still appear in the Wire — they just no longer hold
+// a column of their own.
 const DESK_DEFS: { key: DeskKey; category: Category; name: string }[] = [
-  { key: "regulation", category: "regulation", name: "Regulation & Policy" },
+  { key: "markets", category: "other", name: "Markets" },
   { key: "fundraising", category: "fundraising", name: "Funding & Deals" },
   { key: "product", category: "product", name: "Rails & Product" },
-  { key: "markets", category: "other", name: "Markets" },
 ];
 
 const SECTION_LABEL: Record<Category, string> = {
