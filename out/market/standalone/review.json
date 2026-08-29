@@ -1,10 +1,44 @@
 [
   {
-    "id": "95e29d77069fb103fae4285a44e6c36a5a5d4fc2",
-    "title": "THE BLOCK: Bitwise's Solana staking ETF (BSOL) has surpassed $1 billion in assets under management, becoming the first Solana ETF to reach the milestone roughly 10 months after launch. The broader $WSOL ETF category has",
-    "link": "https://x.com/TheBlockCo/status/2093355619054948547",
-    "score": 89,
-    "snippet": "THE BLOCK: Bitwise's Solana staking ETF (BSOL) has surpassed $1 billion in assets under management, becoming the first Solana ETF to reach the milestone roughly 10 months after launch. The broader $WSOL ETF category has attracted $1.7 billion in cumulative inflows, with no sustained period of outflo",
+    "id": "8244a3458152c73cb1b7763ac47d4cad6e259acc",
+    "title": "Weekly Project Updates: LayerZero to Launch Blockchain‑Based Exchange This Fall, Ethena Unveils Four Major Ecosystem Updates, Coinbase Rolls Out Tokenized Stocks on Base, Lido Revamps EarnETH Fee Structure, etc",
+    "link": "https://x.com/WuBlockchain/status/2093662371747344562",
+    "score": 90,
+    "snippet": "Weekly Project Updates: LayerZero to Launch Blockchain‑Based Exchange This Fall, Ethena Unveils Four Major Ecosystem Updates, Coinbase Rolls Out Tokenized Stocks on Base, Lido Revamps EarnETH Fee Structure, etc",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-29T11:29:42.868000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ZRO",
+      "ENA",
+      "BASED",
+      "LDO"
+    ]
+  },
+  {
+    "id": "f69e401c21f80928715097f9e57dec35e9e59a99",
+    "title": "€7.8 billion is what AWS is investing in its European Sovereign Cloud, launched in January 2026, as Europe's 90% dependency on non-EU cloud persists. AWS, Azure, Google control 60% of that market. Filecoin already spans",
+    "link": "https://x.com/Filecoin/status/2093662218059481552",
+    "score": 75,
+    "snippet": "€7.8 billion is what AWS is investing in its European Sovereign Cloud, launched in January 2026, as Europe's 90% dependency on non-EU cloud persists. AWS, Azure, Google control 60% of that market. Filecoin already spans many jurisdictions at the same price everywhere.",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -14,99 +48,110 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:filecoin",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T15:10:47.388000+00:00",
+    "published_at": "2026-08-29T11:29:06.511000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "SOL"
+      "FIL"
     ]
   },
   {
-    "id": "d2190f56cbd126a7b296f66b9162f0dbc2a559d8",
-    "title": "A welcome step from @hmtreasury this week: plans confirmed to give the @bankofengland a new secondary objective supporting #payments innovation, including #tokenisation, #DLT and digital settlement assets, alongside its",
-    "link": "https://x.com/quantnetwork/status/2093319457598816460",
-    "score": 84,
-    "snippet": "A welcome step from @hmtreasury this week: plans confirmed to give the @bankofengland a new secondary objective supporting #payments innovation, including #tokenisation, #DLT and digital settlement assets, alongside its financial stability mandate. Regulatory clarity like this is what moves #program",
-    "regions": [],
-    "primary_region": null,
+    "id": "dab3e16fb557558cb95df0fed237e974b5e4d08c",
+    "title": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Sol",
+    "link": "https://x.com/solana/status/2093673446677135865",
+    "score": 70,
+    "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
+    "regions": [
+      "US",
+      "EU",
+      "APAC",
+      "LatAm"
+    ],
+    "primary_region": "EU",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:quantnetwork",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:solana",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T12:47:05.749000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
+    "published_at": "2026-08-29T12:13:43.327000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "QNT"
+      "SOL",
+      "AVAX",
+      "LINK",
+      "SLX",
+      "ORCA"
     ]
   },
   {
-    "id": "c2f75571e004a223217c3e86f25db729e09b02fa",
-    "title": "New PermawebOS BETA release! The wallet now supports Ethereum signing. Hold AR, AO, and Mainnet 1.0 assets on an ETH key and use them from the PermawebOS wallet. Bazar has added ETH signing too, so signing is now enabled",
-    "link": "https://x.com/aoTheComputer/status/2093322717068206290",
-    "score": 69,
-    "snippet": "New PermawebOS BETA release! The wallet now supports Ethereum signing. Hold AR, AO, and Mainnet 1.0 assets on an ETH key and use them from the PermawebOS wallet. Bazar has added ETH signing too, so signing is now enabled on the marketplace. Download Link: https://arweave.net/QzIfocCNwPvjq3n0DLyedOhL",
+    "id": "bb710aef4958934ddf2b56cbdc34771b98e7efd0",
+    "title": "The US Treasury launched its Quantum-Readiness Task Force on Monday. The task force is organised into three workstreams covering the financial sector's post-quantum transition, the readiness of third-party vendors, and t",
+    "link": "https://x.com/ckba_build/status/2093685096347820061",
+    "score": 65,
+    "snippet": "The US Treasury launched its Quantum-Readiness Task Force on Monday. The task force is organised into three workstreams covering the financial sector's post-quantum transition, the readiness of third-party vendors, and the risks specific to digital assets and emerging technology. Its stated objectiv",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:aothecomputer",
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ckba_build",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T13:00:03.058000+00:00",
+    "published_at": "2026-08-29T13:00:00.784000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('enabled')",
-    "matched": "enabled",
-    "fulltext": false,
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "AR",
-      "ETH"
+      "CKB"
     ]
   },
   {
-    "id": "a0905baad79d1d49dc30f755a6f89e773e58f0fb",
-    "title": "THE BLOCK: SBI Holdings has invested $270 million in Indonesian multi-asset investment platform Ajaib Group, acquiring an approximately 20% stake. Ajaib offers crypto and stablecoins alongside traditional investments, in",
-    "link": "https://x.com/TheBlockCo/status/2093324653024719263",
-    "score": 64,
-    "snippet": "THE BLOCK: SBI Holdings has invested $270 million in Indonesian multi-asset investment platform Ajaib Group, acquiring an approximately 20% stake. Ajaib offers crypto and stablecoins alongside traditional investments, including OTC stablecoin settlement services for corporate clients.",
-    "regions": [],
-    "primary_region": null,
+    "id": "b3db148a403e42c88ff821ad1eb3aa0103429208",
+    "title": "Trump is gambling the dollar's future. His $20 billion crypto bet has fatal 'Ripple' effects",
+    "link": "https://www.washingtonexaminer.com/op-eds/4694847/strategic-bitcoin-reserve-risks-xrp-ripple",
+    "score": 60,
+    "snippet": "Trump is gambling the dollar's future. His $20 billion crypto bet has fatal 'Ripple' effects",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T13:07:44.567000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('acquiring')",
-    "matched": "acquiring",
-    "fulltext": false,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:washington examiner",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-29T11:00:44.289000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "XRP"
+    ]
   },
   {
     "id": "121d82c72acfa52d5e946cd0ca1f8d412c53b94a",
@@ -130,36 +175,36 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "US"
     ]
   },
   {
-    "id": "9ee4e354e59f061cafdf2ed72db674f82412e2eb",
-    "title": "THE BLOCK: IREN's planned $25 billion-$30 billion AI buildout may have \"spooked the market,\" according to Bernstein. $IREN The analysts said improving AI cloud economics are being overlooked, with recent three-year contr",
-    "link": "https://x.com/TheBlockCo/status/2093324128824549863",
-    "score": 54,
-    "snippet": "THE BLOCK: IREN's planned $25 billion-$30 billion AI buildout may have \"spooked the market,\" according to Bernstein. $IREN The analysts said improving AI cloud economics are being overlooked, with recent three-year contracts generating more than $20 million in annual revenue per IT megawatt.",
+    "id": "7bcd03e46a095568964b5f5b64abccde3b5a7647",
+    "title": "With HIP-4 permissionless deployments going live on mainnet, seems like a good time to repost this: Hypercall will soon let anyone combine Perps and HIP-4 into vanilla options, all in the same margining engine Options ar",
+    "link": "https://x.com/SynapseProtocol/status/2093715024711676088",
+    "score": 50,
+    "snippet": "With HIP-4 permissionless deployments going live on mainnet, seems like a good time to repost this: Hypercall will soon let anyone combine Perps and HIP-4 into vanilla options, all in the same margining engine Options are the most popular retail instrument in the world and HIP-4 + Perps are tailor m",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:synapseprotocol",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T13:05:39.729000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "published_at": "2026-08-29T14:58:56.331000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('deploy')",
+    "matched": "deploy",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "IREN"
+      "SYN"
     ]
   },
   {
@@ -189,34 +234,6 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "3aa87c0f525e5291c8aab43f997dd4d39a41a236",
-    "title": "Investors at least $4.7 billion underwater across Trump crypto ventures, Public Citizen says",
-    "link": "https://www.theblock.co/news/business/2026-08-28-investors-at-least-4-7-billion-underwater-across-trump-crypto-ventures-public-citizen-says-413003",
-    "score": 44,
-    "snippet": "Investors are $4.7 billion underwater across Trump crypto ventures while Trump earned $1.4 billion, Public Citizen reported.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "theblock",
-    "source": "Google News RSS",
-    "published_at": "2026-08-28T11:26:02+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
     "coins": []
   },
   {
