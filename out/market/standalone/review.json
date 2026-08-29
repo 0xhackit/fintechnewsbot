@@ -24,7 +24,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZRO",
@@ -55,17 +55,52 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
     ]
   },
   {
+    "id": "dab3e16fb557558cb95df0fed237e974b5e4d08c",
+    "title": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Sol",
+    "link": "https://x.com/solana/status/2093673446677135865",
+    "score": 64,
+    "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
+    "regions": [
+      "US",
+      "EU",
+      "APAC",
+      "LatAm"
+    ],
+    "primary_region": "EU",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:solana",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-29T12:13:43.327000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SOL",
+      "AVAX",
+      "LINK",
+      "SLX",
+      "ORCA"
+    ]
+  },
+  {
     "id": "bb710aef4958934ddf2b56cbdc34771b98e7efd0",
     "title": "The US Treasury launched its Quantum-Readiness Task Force on Monday. The task force is organised into three workstreams covering the financial sector's post-quantum transition, the readiness of third-party vendors, and t",
     "link": "https://x.com/ckba_build/status/2093685096347820061",
-    "score": 65,
+    "score": 59,
     "snippet": "The US Treasury launched its Quantum-Readiness Task Force on Monday. The task force is organised into three workstreams covering the financial sector's post-quantum transition, the readiness of third-party vendors, and the risks specific to digital assets and emerging technology. Its stated objectiv",
     "regions": [],
     "primary_region": null,
@@ -83,42 +118,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CKB"
-    ]
-  },
-  {
-    "id": "dab3e16fb557558cb95df0fed237e974b5e4d08c",
-    "title": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Sol",
-    "link": "https://x.com/solana/status/2093673446677135865",
-    "score": 64,
-    "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:solana",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-29T12:13:43.327000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SOL",
-      "AVAX",
-      "LINK",
-      "SLX",
-      "ORCA"
     ]
   },
   {
@@ -169,37 +172,11 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('halt')",
     "matched": "halt",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FOGO",
       "MOVE"
-    ]
-  },
-  {
-    "id": "7bcd03e46a095568964b5f5b64abccde3b5a7647",
-    "title": "With HIP-4 permissionless deployments going live on mainnet, seems like a good time to repost this: Hypercall will soon let anyone combine Perps and HIP-4 into vanilla options, all in the same margining engine Options ar",
-    "link": "https://x.com/SynapseProtocol/status/2093715024711676088",
-    "score": 50,
-    "snippet": "With HIP-4 permissionless deployments going live on mainnet, seems like a good time to repost this: Hypercall will soon let anyone combine Perps and HIP-4 into vanilla options, all in the same margining engine Options are the most popular retail instrument in the world and HIP-4 + Perps are tailor m",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:synapseprotocol",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-29T14:58:56.331000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SYN"
     ]
   }
 ]
