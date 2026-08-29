@@ -92,8 +92,10 @@ no LLM at render time. Every zone is a different filter/sort over the same array
   70-point head start (+30 institution, +40 regulator-plus-action), which made
   policy lead nearly every edition ahead of the day's largest deal.
 - **Sixty-second brief** — stories whose `published_at` falls on the UTC day before
-  `feed.updated_at`. Takes the top story from EACH desk before any desk takes a
-  second slot, fills gaps from the best of what remains, then orders by `leadRank`.
+  `feed.updated_at`. The day's three biggest by `leadRank`, with at most TWO off
+  any one desk — product alone runs over half the feed and would otherwise sweep
+  all three lines. The cap yields when the day is thin: if no other desk filed,
+  three from one desk is correct, because those genuinely were the day's biggest.
   Falls back to older stories when yesterday was quiet, and the heading changes to
   "The biggest stories you may have missed" — that heading is the tell.
 - **Desks** — three columns: Markets (`other`), Funding & Deals (`fundraising`),
