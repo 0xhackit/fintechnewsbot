@@ -3,7 +3,7 @@
     "id": "8244a3458152c73cb1b7763ac47d4cad6e259acc",
     "title": "Weekly Project Updates: LayerZero to Launch Blockchain‑Based Exchange This Fall, Ethena Unveils Four Major Ecosystem Updates, Coinbase Rolls Out Tokenized Stocks on Base, Lido Revamps EarnETH Fee Structure, etc",
     "link": "https://x.com/WuBlockchain/status/2093662371747344562",
-    "score": 90,
+    "score": 84,
     "snippet": "Weekly Project Updates: LayerZero to Launch Blockchain‑Based Exchange This Fall, Ethena Unveils Four Major Ecosystem Updates, Coinbase Rolls Out Tokenized Stocks on Base, Lido Revamps EarnETH Fee Structure, etc",
     "regions": [
       "US"
@@ -24,7 +24,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZRO",
@@ -37,7 +37,7 @@
     "id": "f69e401c21f80928715097f9e57dec35e9e59a99",
     "title": "€7.8 billion is what AWS is investing in its European Sovereign Cloud, launched in January 2026, as Europe's 90% dependency on non-EU cloud persists. AWS, Azure, Google control 60% of that market. Filecoin already spans",
     "link": "https://x.com/Filecoin/status/2093662218059481552",
-    "score": 75,
+    "score": 69,
     "snippet": "€7.8 billion is what AWS is investing in its European Sovereign Cloud, launched in January 2026, as Europe's 90% dependency on non-EU cloud persists. AWS, Azure, Google control 60% of that market. Filecoin already spans many jurisdictions at the same price everywhere.",
     "regions": [],
     "primary_region": null,
@@ -55,45 +55,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
-    ]
-  },
-  {
-    "id": "dab3e16fb557558cb95df0fed237e974b5e4d08c",
-    "title": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Sol",
-    "link": "https://x.com/solana/status/2093673446677135865",
-    "score": 70,
-    "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
-    "regions": [
-      "US",
-      "EU",
-      "APAC",
-      "LatAm"
-    ],
-    "primary_region": "EU",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:solana",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-29T12:13:43.327000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL",
-      "AVAX",
-      "LINK",
-      "SLX",
-      "ORCA"
     ]
   },
   {
@@ -118,21 +83,52 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CKB"
     ]
   },
   {
+    "id": "dab3e16fb557558cb95df0fed237e974b5e4d08c",
+    "title": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Sol",
+    "link": "https://x.com/solana/status/2093673446677135865",
+    "score": 64,
+    "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:solana",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-29T12:13:43.327000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SOL",
+      "AVAX",
+      "LINK",
+      "SLX",
+      "ORCA"
+    ]
+  },
+  {
     "id": "b3db148a403e42c88ff821ad1eb3aa0103429208",
     "title": "Trump is gambling the dollar's future. His $20 billion crypto bet has fatal 'Ripple' effects",
     "link": "https://www.washingtonexaminer.com/op-eds/4694847/strategic-bitcoin-reserve-risks-xrp-ripple",
-    "score": 60,
+    "score": 54,
     "snippet": "Trump is gambling the dollar's future. His $20 billion crypto bet has fatal 'Ripple' effects",
     "regions": [
-      "US",
-      "APAC"
+      "US"
     ],
     "primary_region": "US",
     "category": "other",
@@ -154,31 +150,30 @@
     ]
   },
   {
-    "id": "121d82c72acfa52d5e946cd0ca1f8d412c53b94a",
-    "title": "Build AI agents users can actually trust with real work. Talus Protocol v2.0 is officially live on @SuiNetwork mainnet with standardized agent packages and zero-downtime upgrades. Explore the launch 👇",
-    "link": "https://x.com/Talus_Labs/status/2093372686265364570",
-    "score": 54,
-    "snippet": "Build AI agents users can actually trust with real work. Talus Protocol v2.0 is officially live on @SuiNetwork mainnet with standardized agent packages and zero-downtime upgrades. Explore the launch 👇",
+    "id": "4211834c9f9b80ed577bf38e6ec3bcc191431a8f",
+    "title": "In the last hour the Fogo Mainnet has been temporarily halted as a precautionary measure following the detection of unauthorized activity. The halt is being initiated to prevent further movement of the affected assets. D",
+    "link": "https://x.com/fogo/status/2093737730920325153",
+    "score": 50,
+    "snippet": "In the last hour the Fogo Mainnet has been temporarily halted as a precautionary measure following the detection of unauthorized activity. The halt is being initiated to prevent further movement of the affected assets. During the halt, the network will be upgraded to restrict the addresses associate",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:talus_labs",
+    "matched_topics": [],
+    "feed_name": "tree:x:fogo",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-28T16:18:36.400000+00:00",
+    "published_at": "2026-08-29T16:29:10.654000+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('halt')",
+    "matched": "halt",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "US"
+      "FOGO",
+      "MOVE"
     ]
   },
   {
@@ -201,67 +196,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('deploy')",
     "matched": "deploy",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SYN"
-    ]
-  },
-  {
-    "id": "e338df8131ece540a3b9b9e7ff9182793cc673fb",
-    "title": "Chelsea FC gets a stablecoin sponsor after UK FCA warning to clubs",
-    "link": "https://cointelegraph.com/news/chelsea-football-circle-sponsor-fca-warning-questionable-deals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 44,
-    "snippet": "According to Circle, the USDC stablecoin name will appear on the front of club jerseys for Chelsea’s upcoming football season.",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-08-28T17:46:12+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "be3eea0a4629b9be9964c46138b6fcf0ad4d9925",
-    "title": "Bitwise fund is first Solana ETF to hit $1 billion AUM",
-    "link": "https://www.theblock.co/news/markets/2026-08-28-bitwise-fund-is-first-solana-etf-to-hit-1-billion-aum-413035",
-    "score": 44,
-    "snippet": "Bitwise fund is first Solana ETF to hit $1 billion AUM",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-28T15:48:54.955000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL"
     ]
   }
 ]
