@@ -80,6 +80,34 @@ python post_alerts_now.py                     # -> Telegram (all drafts)
 python scripts/publish_x.py --from-drafts     # -> X (only drafts with post_to_x=true)
 ```
 
+## Public edition (frontend/lib/broadsheet.ts)
+
+`shapeEdition()` is a pure function of `out/feed.json` — no CMS, no per-zone query,
+no LLM at render time. Every zone is a different filter/sort over the same array:
+
+- **Lead** — `pickFreshTop` over widening windows (1, 2, 4, 8, 3650 days); first
+  non-empty window wins, ranked by `leadRank`. `leadRank = pipeline score + manual
+  boost + disclosed size` (+45 at $1bn, +30 at $250m, +20 at $100m, +10 at $50m).
+  The size weight exists because `improved_scoring` hands regulators roughly a
+  70-point head start (+30 institution, +40 regulator-plus-action), which made
+  policy lead nearly every edition ahead of the day's largest deal.
+- **Sixty-second brief** — stories whose `published_at` falls on the UTC day before
+  `feed.updated_at`. Takes the top story from EACH desk before any desk takes a
+  second slot, fills gaps from the best of what remains, then orders by `leadRank`.
+  Falls back to older stories when yesterday was quiet, and the heading changes to
+  "The biggest stories you may have missed" — that heading is the tell.
+- **Desks** — three columns: Markets (`other`), Funding & Deals (`fundraising`),
+  Rails & Product (`product`). Five stories each, newest first, lead pulled out of
+  its own column. `regulation` keeps its `DESK_OF` mapping — lead-eligible, labelled,
+  present in the Wire — but holds no column, because it runs 2-3 stories a week
+  while `other` is the largest category most days.
+- **Wire** — every story, newest first, with date separators.
+
+Beware: the brief and the desks are supply-limited, not selection-limited. On a
+typical day the previous UTC day yields ~3 eligible stories, so the brief shows
+everything there is regardless of the selection rule. Fix starvation upstream
+(the v2 gate) before tuning the layout.
+
 ## Admin dashboard (frontend/, Next.js on Vercel)
 
 Three tabs at `/dashboard`, all gated by `DASHBOARD_PASSWORD`:
