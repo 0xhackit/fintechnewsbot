@@ -1,35 +1,9 @@
 [
   {
-    "id": "a0a16b72e8c28ef2e866979dacb002bc0143f64f",
-    "title": "THE BLOCK: Layer 1 blockchain Fogo halted its mainnet and said it would restrict addresses after an attacker received 400 million FOGO tokens, about 10% of circulating supply. The halt came roughly 15 hours after the Fog",
-    "link": "https://x.com/TheBlockCo/status/2093811525748416723",
-    "score": 79,
-    "snippet": "THE BLOCK: Layer 1 blockchain Fogo halted its mainnet and said it would restrict addresses after an attacker received 400 million FOGO tokens, about 10% of circulating supply. The halt came roughly 15 hours after the Fogo Foundation said the $3 million compromise had not affected chain operations.",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-29T21:22:24.051000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('halt')",
-    "matched": "halt",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "FOGO"
-    ]
-  },
-  {
     "id": "cdaa8fa5dc3f4ced3b7b79a28cb22733387c5a69",
     "title": "JPMorgan Considers Stablecoin Launch as Wells Fargo and Other Banks Focus on Digital Token Initiatives - Crowdfund Insider",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNY1ZsN0FNNmUya1E5TlRJMlZwRWJmM0tDMms2dDFCRk9ZX3FMMDlmX0Jkc053RzZ1VW1FU1dFZFJzWVYxTDhxZEF0UVRSZEFsOUNRTnFnNEpSa2Q4SGdZU3NsZ09fcjRmOHhyaHZUWXQ4Y0VZMzV5OUw1LVR5cFQ2WDFucXBsVlNKOWFkMkhyTVUtakVvMjNwV05tMmNaemo5T3A4U1ZleVF5Y1VkeDVFc3luTmFvUmpqN19qdjJuc1VuZ3ZjU1hIV292RktFMWtadElMQnpuMDJpV0xSTGJUcW9Iam9xdw?oc=5",
-    "score": 65,
+    "score": 59,
     "snippet": "JPMorgan Considers Stablecoin Launch as Wells Fargo and Other Banks Focus on Digital Token Initiatives Crowdfund Insider",
     "regions": [
       "US"
@@ -43,7 +17,7 @@
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "institutional_crypto_banks",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
     "published_at": "2026-08-30T15:02:23+00:00",
     "verdict": "keep",
@@ -53,6 +27,62 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "e5457291005bd2030368defae6ff54c743c118b5",
+    "title": "Strategy’s Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+    "link": "https://decrypt.co/376884/strategy-bitcoin-2-8-billion-profit-saylor-btc-buy",
+    "score": 50,
+    "snippet": "Strategy’s Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-30T19:40:02.879000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('buy')",
+    "matched": "buy",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "5ad8744a1cb4e36f29105917fc15516e2979622f",
+    "title": "Strategy's Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+    "link": "https://decrypt.co/376884",
+    "score": 50,
+    "snippet": "Strategy's Bitcoin Is $2.8 Billion in Profit—Is Saylor Teeing Up a Buy?",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-30T19:39:52.588000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('buy')",
+    "matched": "buy",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
   },
   {
     "id": "5ecda6c461e715cef770605c1bf1042797e4387d",
