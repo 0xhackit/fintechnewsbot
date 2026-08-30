@@ -19,7 +19,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('halt')",
     "matched": "halt",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FOGO"
@@ -50,7 +50,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZRO",
@@ -81,7 +81,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -94,10 +94,7 @@
     "score": 64,
     "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
     "regions": [
-      "US",
-      "EU",
-      "APAC",
-      "LatAm"
+      "EU"
     ],
     "primary_region": "EU",
     "category": "other",
@@ -112,7 +109,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SOL",
@@ -144,10 +141,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CKB"
+    ]
+  },
+  {
+    "id": "4e6ed6812b0e2df54f73f9b3eff8e51e675da259",
+    "title": "Arthur Hayes: Why US Treasury Buybacks Are Pumping Bitcoin In an August 23, 2026 video interview with Altcoin Daily, BitMEX co-founder Arthur Hayes @CryptoHayes said Treasury Secretary Bessent announced at least doubling",
+    "link": "https://x.com/WuBlockchain/status/2093851194498384126",
+    "score": 55,
+    "snippet": "Arthur Hayes: Why US Treasury Buybacks Are Pumping Bitcoin In an August 23, 2026 video interview with Altcoin Daily, BitMEX co-founder Arthur Hayes @CryptoHayes said Treasury Secretary Bessent announced at least doubling long-end bond buybacks, sending the 10-year yield to 4.75% with 5% possibly in ",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-30T00:00:01.878000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "CRV"
     ]
   },
   {
@@ -177,5 +201,32 @@
     "coins": [
       "XRP"
     ]
+  },
+  {
+    "id": "1e4fe05e0537f012710008f671d4ff1967af4bec",
+    "title": "BIS chief says stablecoins (which are backed 1-1 by short term t bills and cash equivalents) are not suitable for payments at scale. Somehow tokenized bank deposits (which are backed by fractional reserve banking and und",
+    "link": "https://x.com/ZachWitkoff/status/2093856517728440566",
+    "score": 50,
+    "snippet": "BIS chief says stablecoins (which are backed 1-1 by short term t bills and cash equivalents) are not suitable for payments at scale. Somehow tokenized bank deposits (which are backed by fractional reserve banking and under collateralized) are suitable. Make this make sense 🤣🤔 I’ll wait",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:zachwitkoff",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-30T00:21:11.404000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
   }
 ]
