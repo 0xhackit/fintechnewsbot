@@ -19,7 +19,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('halt')",
     "matched": "halt",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FOGO"
@@ -50,37 +50,34 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
   {
-    "id": "687f72730184d09baa5925de2197f09034c493ee",
-    "title": "Bittensor Ecosystem Highlights :: August 24–30, 2026 This week’s biggest stories across Bittensor came from Teutonic, Hippius, 404, Score and Synth. [ Teutonic - Subnet 3 ] Teutonic launched Teutonic-II, a permissionless",
-    "link": "https://x.com/opentensor/status/2094052179556331721",
+    "id": "5ecda6c461e715cef770605c1bf1042797e4387d",
+    "title": "$29.4 billion in PJM capacity charges, 46% of auction costs, has been passed to ratepayers by data center demand. Pennsylvania's Shapiro responded with an order requiring facilities over 25 MW to fund their own grid upgr",
+    "link": "https://x.com/Filecoin/status/2094124765954896175",
     "score": 50,
-    "snippet": "Bittensor Ecosystem Highlights :: August 24–30, 2026 This week’s biggest stories across Bittensor came from Teutonic, Hippius, 404, Score and Synth. [ Teutonic - Subnet 3 ] Teutonic launched Teutonic-II, a permissionless 110B training run, 10x larger than its previous model and 50% larger than any p",
+    "snippet": "$29.4 billion in PJM capacity charges, 46% of auction costs, has been passed to ratepayers by data center demand. Pennsylvania's Shapiro responded with an order requiring facilities over 25 MW to fund their own grid upgrades. Filecoin adds no ratepayer load at all.",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:opentensor",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:filecoin",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-30T13:18:40.237000+00:00",
+    "published_at": "2026-08-30T18:07:06.259000+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('charges')",
+    "matched": "charges",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "TAO",
-      "BTC"
+      "FIL"
     ]
   }
 ]
