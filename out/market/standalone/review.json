@@ -1,31 +1,5 @@
 [
   {
-    "id": "a0a16b72e8c28ef2e866979dacb002bc0143f64f",
-    "title": "THE BLOCK: Layer 1 blockchain Fogo halted its mainnet and said it would restrict addresses after an attacker received 400 million FOGO tokens, about 10% of circulating supply. The halt came roughly 15 hours after the Fog",
-    "link": "https://x.com/TheBlockCo/status/2093811525748416723",
-    "score": 85,
-    "snippet": "THE BLOCK: Layer 1 blockchain Fogo halted its mainnet and said it would restrict addresses after an attacker received 400 million FOGO tokens, about 10% of circulating supply. The halt came roughly 15 hours after the Fogo Foundation said the $3 million compromise had not affected chain operations.",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-29T21:22:24.051000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('halt')",
-    "matched": "halt",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "FOGO"
-    ]
-  },
-  {
     "id": "8244a3458152c73cb1b7763ac47d4cad6e259acc",
     "title": "Weekly Project Updates: LayerZero to Launch Blockchain‑Based Exchange This Fall, Ethena Unveils Four Major Ecosystem Updates, Coinbase Rolls Out Tokenized Stocks on Base, Lido Revamps EarnETH Fee Structure, etc",
     "link": "https://x.com/WuBlockchain/status/2093662371747344562",
@@ -50,13 +24,39 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZRO",
       "ENA",
       "BASED",
       "LDO"
+    ]
+  },
+  {
+    "id": "a0a16b72e8c28ef2e866979dacb002bc0143f64f",
+    "title": "THE BLOCK: Layer 1 blockchain Fogo halted its mainnet and said it would restrict addresses after an attacker received 400 million FOGO tokens, about 10% of circulating supply. The halt came roughly 15 hours after the Fog",
+    "link": "https://x.com/TheBlockCo/status/2093811525748416723",
+    "score": 79,
+    "snippet": "THE BLOCK: Layer 1 blockchain Fogo halted its mainnet and said it would restrict addresses after an attacker received 400 million FOGO tokens, about 10% of circulating supply. The halt came roughly 15 hours after the Fogo Foundation said the $3 million compromise had not affected chain operations.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-29T21:22:24.051000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('halt')",
+    "matched": "halt",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FOGO"
     ]
   },
   {
@@ -81,7 +81,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -94,7 +94,10 @@
     "score": 64,
     "snippet": "THIS WEEK IN MEDIA - 8/21-8/28 Read TheStreet: Solana brings 'Breakpoint' to London with a heavyweight speaker lineup The Block: Bitwise fund is first Solana ETF to hit $1 billion AUM The Block: Charles Schwab to add Solana, Avalanche and Chainlink to crypto trading platform SolanaFloor: Institution",
     "regions": [
-      "EU"
+      "US",
+      "EU",
+      "APAC",
+      "LatAm"
     ],
     "primary_region": "EU",
     "category": "other",
@@ -109,7 +112,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SOL",
@@ -141,37 +144,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CKB"
-    ]
-  },
-  {
-    "id": "4e6ed6812b0e2df54f73f9b3eff8e51e675da259",
-    "title": "Arthur Hayes: Why US Treasury Buybacks Are Pumping Bitcoin In an August 23, 2026 video interview with Altcoin Daily, BitMEX co-founder Arthur Hayes @CryptoHayes said Treasury Secretary Bessent announced at least doubling",
-    "link": "https://x.com/WuBlockchain/status/2093851194498384126",
-    "score": 55,
-    "snippet": "Arthur Hayes: Why US Treasury Buybacks Are Pumping Bitcoin In an August 23, 2026 video interview with Altcoin Daily, BitMEX co-founder Arthur Hayes @CryptoHayes said Treasury Secretary Bessent announced at least doubling long-end bond buybacks, sending the 10-year yield to 4.75% with 5% possibly in ",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-30T00:00:01.878000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "CRV"
     ]
   },
   {
@@ -201,32 +177,5 @@
     "coins": [
       "XRP"
     ]
-  },
-  {
-    "id": "1e4fe05e0537f012710008f671d4ff1967af4bec",
-    "title": "BIS chief says stablecoins (which are backed 1-1 by short term t bills and cash equivalents) are not suitable for payments at scale. Somehow tokenized bank deposits (which are backed by fractional reserve banking and und",
-    "link": "https://x.com/ZachWitkoff/status/2093856517728440566",
-    "score": 50,
-    "snippet": "BIS chief says stablecoins (which are backed 1-1 by short term t bills and cash equivalents) are not suitable for payments at scale. Somehow tokenized bank deposits (which are backed by fractional reserve banking and under collateralized) are suitable. Make this make sense 🤣🤔 I’ll wait",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:zachwitkoff",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-30T00:21:11.404000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
   }
 ]
