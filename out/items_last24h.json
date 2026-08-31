@@ -10,7 +10,7 @@
     "snippet": "With the Clarity Act stuck in recess limbo, the agencies are pressing ahead on crypto derivatives and custody, as former officials warn that overly burdensome rules will keep a $90 trillion perps market offshore.",
     "published_at": "2026-08-31T17:06:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -55,7 +55,7 @@
     "snippet": "MoonPay, the global financial technology company powering the movement of value across fiat and digital assets, today announced that PayBox is now live in Grok, expanding access to its payment vault built for AI.",
     "published_at": "2026-08-31T17:45:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -92,6 +92,53 @@
     ]
   },
   {
+    "id": "466c683418ee0dcbd21c4b335e365fb8a68943a1f027fa983c97e35d4d9f3e24",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Russia's Sberbank Sees $46 Billion in Crypto Trading, Plans Ethereum and USDT-Backed Loans",
+    "url": "https://decrypt.co/376971/russia-sberbank-46-billion-crypto-trading-ethereum-usdt",
+    "canonical_url": "https://decrypt.co/376971/russia-sberbank-46-billion-crypto-trading-ethereum-usdt",
+    "snippet": "Deputy Chairman Anatoly Popov told state media that trading could hit 4 trillion rubles in its first year, as the bank prepares to broaden crypto-backed lending once regulators sign off.",
+    "published_at": "2026-08-31T18:46:04+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
+    "matched_keywords": [
+      "USDT"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=376971",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 50,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "d452b2584c3f24fb5cfe7f13588fca40029b54b17201ebca3bc667f0f6163e06",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -102,7 +149,7 @@
     "snippet": "tZERO will be a design partner for ICE’s upcoming tokenized securities platform, and ICE will also invest in tZERO’s latest financing round.",
     "published_at": "2026-08-31T15:04:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "tokenized",
       "partners"
@@ -115,14 +162,14 @@
       "id": "6677574c-0e7e-5d24-90e6-f311ae3a5dea",
       "guidislink": false
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
       "institution_bonus": 0,
@@ -151,7 +198,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -196,7 +243,7 @@
     "snippet": "South Korean conglomerate Shinhan Financial Group has signed a memorandum of understanding with Visa to use the American firm's new stablecoin platform and explore AI-based payment models.",
     "published_at": "2026-08-31T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -233,54 +280,6 @@
     ]
   },
   {
-    "id": "938594f356fb520bdfdc45513258adf2065d2f786b20094bdba750c2c20b0c08",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Best Stablecoin Settlement Platforms for Financial Institutions - CoinGape",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZaUFoY1l5d09rcnhNQnh6N0dVT2tuT0R1aDVVSXRReTZ1V1BWSDVOTlBlakt6OWtmR2FId2tYdHB6WVRNV2dYb3dpTmMybUloWlZWRTRkU0pfZGZ3RnBXWWNqQzFzUzRzZEE?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5ZaUFoY1l5d09rcnhNQnh6N0dVT2tuT0R1aDVVSXRReTZ1V1BWSDVOTlBlakt6OWtmR2FId2tYdHB6WVRNV2dYb3dpTmMybUloWlZWRTRkU0pfZGZ3RnBXWWNqQzFzUzRzZEE?oc=5",
-    "snippet": "Best Stablecoin Settlement Platforms for Financial Institutions CoinGape",
-    "published_at": "2026-08-31T16:16:24+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiakFVX3lxTE5ZaUFoY1l5d09rcnhNQnh6N0dVT2tuT0R1aDVVSXRReTZ1V1BWSDVOTlBlakt6OWtmR2FId2tYdHB6WVRNV2dYb3dpTmMybUloWlZWRTRkU0pfZGZ3RnBXWWNqQzFzUzRzZEE",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "518514e91fe5b6ec0d77be0b7a43ff014d2e2b950b4d88a4da425d829d9d62fb",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -291,7 +290,7 @@
     "snippet": "",
     "published_at": "2026-08-31T14:44:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -302,14 +301,14 @@
       "id": "4b71504a-f484-42c9-b1df-35b5856fc8e2",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -338,7 +337,7 @@
     "snippet": "MSX Opens Pre-IPO Subscriptions for Neuralink and Anduril, Expanding Tokenized Private Market Access Bitcoin World",
     "published_at": "2026-08-31T13:25:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "tokenized",
       "pre-IPO"
@@ -350,14 +349,14 @@
       "id": "CBMie0FVX3lxTFBkVE9pWnF1R1hUWHBiQWxIZmpuMlhBTkxBZmhJbUFOamFtWGVvSmpzZHd4cVlpMXVaYlExRHhsR0x6ZkI4MS03RERJckpHdDlXMkc4VTgzNlptZ2Nrb1BFMGlDU0F4ZTFTRi11OG1yQXR0MHVMWXpaaWxQUQ",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -386,7 +385,7 @@
     "snippet": "Vlad Tenev’s new blockchain is soaring in all metrics as memes paired with tokenized stocks start to take off.",
     "published_at": "2026-08-31T12:37:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -397,14 +396,14 @@
       "id": "https://decrypt.co/?p=376923",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -433,7 +432,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -478,7 +477,7 @@
     "snippet": "Japan’s FSA requested to exempt trust-type stablecoins from mandatory tax filings starting in fiscal year 2027, arguing that it would improve their use as transaction tools.",
     "published_at": "2026-08-31T13:20:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -487,14 +486,14 @@
       "id": "https://cointelegraph.com/news/japanese-regulator-tax-exemption-trust-type-stablecoins-2027",
       "guidislink": true
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -523,7 +522,7 @@
     "snippet": "",
     "published_at": "2026-08-31T11:26:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "USDT"
     ],
@@ -570,7 +569,7 @@
     "snippet": "",
     "published_at": "2026-08-31T08:22:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "rollout"
     ],
@@ -617,7 +616,7 @@
     "snippet": "Malicious Browser Extensions Steal Crypto Wallets CryptoTicker",
     "published_at": "2026-08-31T06:20:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-08-31T18:19:36.427332+00:00",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -642,6 +641,53 @@
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "64bf81d125868ec01f62927787bf436ae0eb5834d4dc2eb999f46c08b6093357",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "The Stablecoin Race Could Make Bank Loans More Expensive - BeInCrypto",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3Z01NZWNfenBoeUNFdmFNN19rdXVWSWNXZFN6VldCQUxGTFNXM3dnX2RmWVlXaWZ0djdxeXUwV2hNRjRvYURnQWJ4SllHaGRIVWdZdE5xODNJemkzRDVwYlRlOXpoQVk?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3Z01NZWNfenBoeUNFdmFNN19rdXVWSWNXZFN6VldCQUxGTFNXM3dnX2RmWVlXaWZ0djdxeXUwV2hNRjRvYURnQWJ4SllHaGRIVWdZdE5xODNJemkzRDVwYlRlOXpoQVk?oc=5",
+    "snippet": "The Stablecoin Race Could Make Bank Loans More Expensive BeInCrypto",
+    "published_at": "2026-08-31T21:25:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-08-31T22:55:42.214595+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiZ0FVX3lxTFB3Z01NZWNfenBoeUNFdmFNN19rdXVWSWNXZFN6VldCQUxGTFNXM3dnX2RmWVlXaWZ0djdxeXUwV2hNRjRvYURnQWJ4SllHaGRIVWdZdE5xODNJemkzRDVwYlRlOXpoQVk",
+      "guidislink": false
+    },
+    "score": -10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
