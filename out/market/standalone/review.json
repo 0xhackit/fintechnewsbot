@@ -23,43 +23,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "OG",
       "CRO"
-    ]
-  },
-  {
-    "id": "8f71ce0400ccf38dbd794b3107d82908807dd6c2",
-    "title": "Introducing the solmF-ONE Market, curated by @SteakhouseFi. Tokenized private credit from Fasanara Capital, a London-based, FCA-regulated manager with $5B+ in AUM and a decade-long track record in SME lending, issued by",
-    "link": "https://x.com/kamino/status/2094837639346352498",
-    "score": 85,
-    "snippet": "Introducing the solmF-ONE Market, curated by @SteakhouseFi. Tokenized private credit from Fasanara Capital, a London-based, FCA-regulated manager with $5B+ in AUM and a decade-long track record in SME lending, issued by Midas. Kamino is the home of institutional credit markets.",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:kamino",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T17:19:48.555000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issued')",
-    "matched": "issued",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "KMNO",
-      "ONE",
-      "BASED"
     ]
   },
   {
@@ -96,8 +64,10 @@
     "link": "https://www.theblock.co/news/markets/2026-09-01-crypto-treasury-companies-hit-340-billion-market-cap-as-altcoin-dats-outperform-413142",
     "score": 80,
     "snippet": "Crypto treasury companies hit $340 billion market cap as altcoin DATs outperform",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "B",
     "consensus": 1,
@@ -114,6 +84,38 @@
     "origin": "tree",
     "coins": [
       "CAP"
+    ]
+  },
+  {
+    "id": "8f71ce0400ccf38dbd794b3107d82908807dd6c2",
+    "title": "Introducing the solmF-ONE Market, curated by @SteakhouseFi. Tokenized private credit from Fasanara Capital, a London-based, FCA-regulated manager with $5B+ in AUM and a decade-long track record in SME lending, issued by",
+    "link": "https://x.com/kamino/status/2094837639346352498",
+    "score": 79,
+    "snippet": "Introducing the solmF-ONE Market, curated by @SteakhouseFi. Tokenized private credit from Fasanara Capital, a London-based, FCA-regulated manager with $5B+ in AUM and a decade-long track record in SME lending, issued by Midas. Kamino is the home of institutional credit markets.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:kamino",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T17:19:48.555000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issued')",
+    "matched": "issued",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "KMNO",
+      "ONE",
+      "BASED"
     ]
   },
   {
@@ -138,7 +140,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('introduces')",
     "matched": "introduces",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CHZ"
@@ -148,7 +150,7 @@
     "id": "39172c9c07e0b208577483761133a4a827573aa5",
     "title": "We are proud to partner with @SuperstateInc to combine the best of DeFi and TradFi. Superstate brings top tokenized Treasury infra onchain. Frax extends its utility through frxUSD, FraxNet, and DeFi-native distribution.",
     "link": "https://x.com/fraxfinance/status/2094818673580224950",
-    "score": 75,
+    "score": 69,
     "snippet": "We are proud to partner with @SuperstateInc to combine the best of DeFi and TradFi. Superstate brings top tokenized Treasury infra onchain. Frax extends its utility through frxUSD, FraxNet, and DeFi-native distribution. Better financial products bringing the world onchain.",
     "regions": [],
     "primary_region": null,
@@ -166,7 +168,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partner')",
     "matched": "partner",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FRAX"
@@ -223,12 +225,41 @@
     "axis": "market_event",
     "reason": "concrete market event ('issued')",
     "matched": "issued",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "MSTR",
       "BTC"
     ]
+  },
+  {
+    "id": "2c57ab857c78c4d4f0a47d57c7cf842bc9208002",
+    "title": "Wall Street Giants to Launch Dollar Stablecoin in 2027 - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42NUJZWU5yRTcycjB2RWtMbTkzQ282di16M3ZCaEhvTEsyRmpGX3N0MnM5bWQ1ZXpYc1FfaHFaRVBwMFh6VHAtVmdVdUwxLUhEbGtwaExRc0NaWWhCT0RkNDRtbE1ENG9feGNZV0Z0SVRBaGswTkE?oc=5",
+    "score": 60,
+    "snippet": "Wall Street Giants to Launch Dollar Stablecoin in 2027 finance.biggo.com",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-01T18:07:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "832c5546b59fd1653cf9d96406158f965c92f38b",
@@ -252,64 +283,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "O"
-    ]
-  },
-  {
-    "id": "1ad96b6117e0c0abe7f4ea0d4d7eb9efa8afb2cc",
-    "title": "NEW: The United Nations Development Programme partners with @Dfinity to pilot decentralized AI and sovereign cloud infrastructure across governments and civil society organizations.",
-    "link": "https://x.com/CoinDesk/status/2094834084203614607",
-    "score": 60,
-    "snippet": "NEW: The United Nations Development Programme partners with @Dfinity to pilot decentralized AI and sovereign cloud infrastructure across governments and civil society organizations.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T17:05:40.834000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ICP"
-    ]
-  },
-  {
-    "id": "341d0d996c70e6b5fa2c17ff59878a3f464ca506",
-    "title": "Build with Katana. @profundingpro is now integrated with Katana Perps, giving traders another interface to access our liquidity. Traders are also able to employ funding rate arbitrage strategies across multiple venues. I",
-    "link": "https://x.com/katana/status/2094833113062842427",
-    "score": 60,
-    "snippet": "Build with Katana. @profundingpro is now integrated with Katana Perps, giving traders another interface to access our liquidity. Traders are also able to employ funding rate arbitrage strategies across multiple venues. If you're building in DeFi, build with Katana.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:katana",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T17:01:49.418000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('integrated')",
-    "matched": "integrated",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "KAT"
     ]
   },
   {
@@ -318,8 +295,10 @@
     "link": "https://x.com/CoinbaseInsto/status/2094814586687877292",
     "score": 59,
     "snippet": "Signs of Life → For the first time in months, crypto markets are showing signs of life. → Since the Treasury announced it was increasing the size of its long-end buybacks, bitcoin has rallied ~20%. → The government’s push to cap long-term yields appears to have been the catalyst BTC needed to break ",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -332,7 +311,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -346,7 +325,8 @@
     "score": 59,
     "snippet": "THE BLOCK: Twenty-one major financial institutions have committed to establish a new stablecoin company in the second half of 2026, moving the initiative beyond the exploratory stage announced by 10 banks last October. The group has added 13 members, including Fidelity, Wells Fargo, Capital One, Wis",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
     "category": "other",
@@ -363,7 +343,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -387,7 +367,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('to buy')",
     "matched": "to buy",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE",
@@ -402,7 +382,8 @@
     "score": 55,
     "snippet": "August brought verifiable AI trading, new Walrus Memory tutorials, and $WAL to 80M+ Revolut users. Here is everything that shipped: ⬛️ Launched the Walrus Verifiable Trading Standard with @Astros_ag to make market data machine-readable and auditable. ⬛️ Shipped three new tutorials for adding portabl",
     "regions": [
-      "EU"
+      "EU",
+      "APAC"
     ],
     "primary_region": "EU",
     "category": "product",
@@ -419,7 +400,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "WAL",
@@ -454,31 +435,57 @@
     "coins": []
   },
   {
-    "id": "bdd2a5833aab1fe678d021b180c92d457ce5fe57",
-    "title": "Prospect Markets Executes Definitive Agreement with Crypto.com, Targeting U.S. Market Exceeding $1 Trillion in Annual Trading Volume",
-    "link": "https://crypto.com/en/company-news/prospect-markets-executes-definitive-agreement-with-cryptocom-targeting-us-market-exceeding-1-trillion-in-annual-trading-volume",
+    "id": "1ad96b6117e0c0abe7f4ea0d4d7eb9efa8afb2cc",
+    "title": "NEW: The United Nations Development Programme partners with @Dfinity to pilot decentralized AI and sovereign cloud infrastructure across governments and civil society organizations.",
+    "link": "https://x.com/CoinDesk/status/2094834084203614607",
     "score": 54,
-    "snippet": "Prospect Markets Executes Definitive Agreement with Crypto.com, Targeting U.S. Market Exceeding $1 Trillion in Annual Trading Volume",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "snippet": "NEW: The United Nations Development Programme partners with @Dfinity to pilot decentralized AI and sovereign cloud infrastructure across governments and civil society organizations.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:cro",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-01T12:01:01.585000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T17:05:40.834000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "CRO"
+      "ICP"
+    ]
+  },
+  {
+    "id": "341d0d996c70e6b5fa2c17ff59878a3f464ca506",
+    "title": "Build with Katana. @profundingpro is now integrated with Katana Perps, giving traders another interface to access our liquidity. Traders are also able to employ funding rate arbitrage strategies across multiple venues. I",
+    "link": "https://x.com/katana/status/2094833113062842427",
+    "score": 54,
+    "snippet": "Build with Katana. @profundingpro is now integrated with Katana Perps, giving traders another interface to access our liquidity. Traders are also able to employ funding rate arbitrage strategies across multiple venues. If you're building in DeFi, build with Katana.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:katana",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T17:01:49.418000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integrated')",
+    "matched": "integrated",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "KAT"
     ]
   },
   {
@@ -557,7 +564,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -583,7 +590,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -618,11 +625,11 @@
     "coins": []
   },
   {
-    "id": "9058f1a744909ffadecafbb0d5e5fa9706a98385",
-    "title": "21 Banks Including Citi, Goldman and UBS Form a Global Bank Stablecoin Consortium Targeting H1 2027 - genfinity.io",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSDZoYkRyQnZ4a1k5cXlOS1BRMlRpUGJXUUdxUFNGMHQ1bTBDdkFFeHFncXdPU0JHT2ZwMkJDeFh1M3FhdG4zSHc1dWZfeVBLVkFCX3hlT0pISC1DQmdzY01LQjhoMWhJT2pEcE1yQUcta3VHakF3R2JYdHVCcUxEUkpTd2lDdUl3X3pENHhEeVpMcjVv?oc=5",
+    "id": "87ad2898f93ad0d9ab59bfbc4642a8ceeba17d56",
+    "title": "Goldman Sachs, BofA Among 21 Banks Planning Dollar-Pegged Stablecoin By 2027 - NDTV Profit",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ0lMYllsWTU3MWxJRkJWTXRhcW14b2VJUHpUYS1jeUFyTVlwaE4yTktzNVVqSDJlQU0zS0M4LU5fZXZxelAyQ19lSEpzR2JrM2hrb2c3dUlWNnFhd0s0Qkg0VGppenBSMTZtdVdLM0lYOGNyUXh0aU5aVGdvYkwwNFRHa3JKTWRJdXdUWjFZMG9uaERxMDRkUzlEY2FLNXZEYjJjX2V3LVVlcVNJb001UVJaejM0d1Q2Vkhj0gHDAUFVX3lxTE1RVG1DcWJBMzktOW40LWhjRDM5U1hzemNvaURPTFZHSnRhb2hFaVJlcndJcEJvZEZISDRINmpTNzFHQjJaUTJHTGRIa2J1b0QzR1FFV25QRERQQ0E2Q0g0cnpIUlZOenJCcG0wRENhZk54V3lpU3VURVc1MzdmY2FsT1VOWE9GaFdtVmlteWtSVGtIcDFzYjFMN0hVdnFlQU1icHBHdkVOczdPbHpqTXZjbWlLUVBfV2hFMm11UlJWYkhqNA?oc=5",
     "score": 40,
-    "snippet": "21 Banks Including Citi, Goldman and UBS Form a Global Bank Stablecoin Consortium Targeting H1 2027 genfinity.io",
+    "snippet": "Goldman Sachs, BofA Among 21 Banks Planning Dollar-Pegged Stablecoin By 2027 NDTV Profit",
     "regions": [
       "US"
     ],
@@ -634,9 +641,9 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "institutional_crypto_banks",
     "source": "Google News RSS",
-    "published_at": "2026-09-01T17:26:08+00:00",
+    "published_at": "2026-09-01T17:56:05+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -646,29 +653,28 @@
     "coins": []
   },
   {
-    "id": "34a9c23990f6dc46ab333fbe6bf7d057033ca67d",
-    "title": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN01yNnpGbk1CVXJyS00tY0swX3JKTldjOER3SlY1clItcU5Nbk1XYzZFNEJDR1BIZ2NaSXk5Z0VTRGZJdDd4cUk2YnBLWGNSVVJGS3VTbFRNUlMtcnd6Y1FiU3lfSUU1V3lhSjNfSEhjMjdubTlfOEFEWXZwZUJWVHVxNVBHT0s3TzJfLWRSYTJzNHRtVTVqZEgtcFZER3ZRV0VnRk9jTm40RURvTksyTFA1d29Fem1TMGctaXJB?oc=5",
-    "score": 40,
-    "snippet": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 Reuters",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "ea8a209341884e3f97c112b50424af8f57aa7870",
+    "title": "21 Global Banks Plan Dollar Stablecoin Launch by Mid-2027 - Northeast Times",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdElhS0ZhUWxiZldHalQ5UnAwdkZQdV8xSm9NMG1sUW82cDg4QmJlZnY2bmRLM0Ztc3hFMG1JUGlSY2lDcUVZQ1h4dnlCSlVQTV8teldteGhWWGZsdVlUTDhIY0xTX1UyUFFxYUhlRDAwY3ZNYjRuMWthNTdQNU0tczl3aWFpVXF3S1BuampVWm5JdFc0a1NPMDBZZ18?oc=5",
+    "score": 35,
+    "snippet": "21 Global Banks Plan Dollar Stablecoin Launch by Mid-2027 Northeast Times",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "institutional_crypto_banks",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-09-01T17:23:40+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-09-01T15:49:40+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "rss",
     "coins": []
