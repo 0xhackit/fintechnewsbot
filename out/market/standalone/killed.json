@@ -11,7 +11,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 50,
     "matched_topics": [],
     "feed_name": "decrypt",
@@ -22,14 +22,14 @@
     "reason": "commentary/opinion framing ('urge')",
     "matched": "urge",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   },
   {
     "id": "a119c28dc90694236bc3b79f780a8b4326745321",
     "title": "Singapore central bank proposes legislative framework for stablecoins",
     "link": "https://www.finextra.com/pressarticle/110762/singapore-central-bank-proposes-legislative-framework-for-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 90,
+    "score": 84,
     "snippet": "The Monetary Authority of Singapore (MAS) today published a consultation paper on proposed legislative amendments to the Payment Services Act 2019 (PS Act) to implement MAS’ regulatory framework for stablecoins in Singapore.",
     "regions": [
       "APAC"
@@ -54,31 +54,31 @@
     "coins": []
   },
   {
-    "id": "a9d5989e94c1284ffdcfb65d9f10a7eeb7c52589",
-    "title": "Singapore weighs recognizing some foreign-issued stablecoins",
-    "link": "https://cointelegraph.com/news/singapore-weighs-foreign-regulated-stablecoins-mas-framework?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 35,
-    "snippet": "Singapore is considering allowing jointly issued cross-border stablecoins into its regulatory regime, revisiting its earlier decision to restrict the framework to domestic issuance.",
+    "id": "c5e4f84ceed996823502042eed3a0055aff6d126",
+    "title": "Singapore Moves Closer to Adopting Stablecoin Regulatory Framework",
+    "link": "https://www.pymnts.com/cryptocurrency/2026/singapore-moves-closer-to-adopting-stablecoin-regulatory-framework/",
+    "score": 65,
+    "snippet": "Singapore’s financial regulator is closer to implementing a regulatory framework for stablecoins. The Monetary Authority of Singapore (MAS) on Tuesday (Sep. 1) published new proposed legislative amendments to the Payment Services Act, which would establish ways for stablecoin issuers to become MAS-r",
     "regions": [
       "APAC"
     ],
     "primary_region": "APAC",
-    "category": "other",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "cointelegraph",
+    "feed_name": "pymnts",
     "source": "Google News RSS",
-    "published_at": "2026-09-01T09:55:11+00:00",
+    "published_at": "2026-09-01T12:30:13+00:00",
     "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('weighs')",
-    "matched": "weighs",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('regulatory framework')",
+    "matched": "regulatory framework",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   }
 ]

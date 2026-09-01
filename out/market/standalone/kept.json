@@ -1,58 +1,88 @@
 [
   {
-    "id": "684f7a8814b549ca0d2ffff75579d9ac611b54bc",
-    "title": "LSEG collaborates with Payward on tokenised stocks project",
-    "link": "https://www.finextra.com/newsarticle/48328/lseg-collaborates-with-payward-on-tokenised-stocks-project?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 90,
-    "snippet": "The London Stock Exchange is bringing its 100 largest listed companies onto the blockchain, partnering with krakenfx owner Payward to launch them as tokenized xStocks.",
-    "regions": [],
-    "primary_region": null,
+    "id": "1126fb18a4851c06e8818fd8a552af799095e5c5",
+    "title": "Kast launches stablecoin-powered business platform after $80M raise",
+    "link": "https://cointelegraph.com/news/kast-launches-stablecoin-business-platform-80m-raise?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 60,
+    "snippet": "Kast aims to onboard between 1,000 and 5,000 active businesses to its new platform by the end of 2026.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "B",
-    "consensus": 1,
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-09-01T13:00:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "eb964c1050d00ea24e2241e540f011949eaf0719",
+    "title": "Silhouette debuts RFQ trading for xStocks on Hyperliquid",
+    "link": "https://www.theblock.co/news/business/2026-09-01-silhouette-debuts-rfq-trading-for-xstocks-on-hyperliquid-413226",
+    "score": 45,
+    "snippet": "Silhouette launched RFQ trading for xStocks on Hyperliquid, allowing market makers to compete for tokenized equity trades settled onchain.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "B",
+    "consensus": 3,
     "financial": 0,
     "matched_topics": [
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "finextra",
+    "feed_name": "theblock",
     "source": "Google News RSS",
-    "published_at": "2026-09-01T09:27:00+00:00",
+    "published_at": "2026-09-01T13:30:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": true,
-    "origin": "rss",
+    "origin": "rss+tree",
     "coins": []
   },
   {
-    "id": "57f565d1c90587293c769613b86a8f75fbb41f6a",
-    "title": "LSE prepares to launch tokenised stocks in digital markets push",
-    "link": "https://www.ft.com/content/64511a2c-34e7-4f98-be24-9e8427b65027?syn-25a6b1a6=1",
-    "score": 70,
-    "snippet": "Partnership with Kraken owner is latest sign of UK’s drive to become crypto-asset trading hub",
+    "id": "6b8deea14d110d14909b041f2fc1e70f1f339a67",
+    "title": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOanYzM3hFelVBMUZVQnNidnFKSEt6bWt0eXNEWG5vLUV4T2ZWZkZITm1ZY1BkTXNfenVlS01rSFFCVlRodGpJbnBOUkxLNjVfNHZvbkpndDJFdWJtSnE5SFdIT3VqSDk0aC1pQk00SHNmcll2bUs3Qm9QblhtRjZ5UEZmRDZwRUFuMHRQQVdsNlhXSHZrTllFVmlwQnJXQVNzM3JSYUF4LXVfTjFfM1dfZEREU21yaW12c1haSFpJR29aZlE?oc=5",
+    "score": 40,
+    "snippet": "Citi, Goldman, other global banks and asset managers team up on stablecoin venture CoinDesk",
     "regions": [
-      "EU",
-      "APAC"
+      "US"
     ],
-    "primary_region": "EU",
+    "primary_region": "US",
     "category": "product",
-    "source_tier": "A",
-    "consensus": 1,
+    "source_tier": "C",
+    "consensus": 4,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "ft_markets",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-09-01T06:30:09+00:00",
+    "published_at": "2026-09-01T15:36:27+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
+    "reason": "concrete market event ('team up')",
+    "matched": "team up",
+    "fulltext": false,
+    "origin": "rss+tree",
     "coins": []
   }
 ]

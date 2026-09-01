@@ -23,9 +23,40 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('license')",
     "matched": "license",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "abacba183c346a7922b23f4510fb69132141a859",
+    "title": "THE BLOCK: Prospect Markets has signed a definitive agreement with OG Prediction Markets and http://Crypto.com’s CFTC-registered derivatives exchange to launch a sports-focused prediction markets platform in the U.S., wi",
+    "link": "https://x.com/TheBlockCo/status/2094790049552544124",
+    "score": 100,
+    "snippet": "THE BLOCK: Prospect Markets has signed a definitive agreement with OG Prediction Markets and http://Crypto.com’s CFTC-registered derivatives exchange to launch a sports-focused prediction markets platform in the U.S., with Prospect Brokerage distributing http://Crypto.com’s event contracts. The deal",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T14:10:42.383000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "OG",
+      "CRO"
+    ]
   },
   {
     "id": "b9f4c6330c2ac03fbd96795420eb19993d53d19a",
@@ -49,93 +80,92 @@
     "axis": "market_event",
     "reason": "concrete market event ('raises $200 million in series')",
     "matched": "raises $200 million in series",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
   {
-    "id": "5922ba08ea2809e0432100a7d851663b176e8830",
-    "title": "THE BLOCK: Solana treasury firm DeFi Development Corp. has proposed a public offering of up to $20 million of Variable Rate Series C perpetual preferred stock. $DFDV plans to use the proceeds to acquire more $SOL and cry",
-    "link": "https://x.com/TheBlockCo/status/2094606609158983786",
-    "score": 94,
-    "snippet": "THE BLOCK: Solana treasury firm DeFi Development Corp. has proposed a public offering of up to $20 million of Variable Rate Series C perpetual preferred stock. $DFDV plans to use the proceeds to acquire more $SOL and crypto-related investments.",
+    "id": "6328fe60e277bffb1379955cd5cc7c17f070a4ac",
+    "title": "JUST IN: 21 major global banks including @BankofAmerica, @Citi, @GoldmanSachs, @DeutscheBank, and @UBS, just committed to launching a joint stablecoin company, targeting a USD-denominated stablecoin to go live in H1 2027",
+    "link": "https://x.com/CoinDesk/status/2094790279093973258",
+    "score": 90,
+    "snippet": "JUST IN: 21 major global banks including @BankofAmerica, @Citi, @GoldmanSachs, @DeutscheBank, and @UBS, just committed to launching a joint stablecoin company, targeting a USD-denominated stablecoin to go live in H1 2027.",
     "regions": [],
     "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T02:01:46.563000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('series c')",
-    "matched": "series c",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL"
-    ]
-  },
-  {
-    "id": "404707d4979fdb9d01526ff05b6d21d8172ff229",
-    "title": "THE BLOCK: Binance is adding physically settled options on more than 1,000 U.S. stocks and ETFs for eligible users outside the United States. The exchange said its monthly TradFi perpetual volume reached $433.4 billion i",
-    "link": "https://x.com/TheBlockCo/status/2094730925288624584",
-    "score": 80,
-    "snippet": "THE BLOCK: Binance is adding physically settled options on more than 1,000 U.S. stocks and ETFs for eligible users outside the United States. The exchange said its monthly TradFi perpetual volume reached $433.4 billion in August, roughly 15 times January's total.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T10:15:45.857000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settled')",
-    "matched": "settled",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "203011e7205044d4824a287754dd1f4de4e7f9a8",
-    "title": "NEW: The London Stock Exchange is bringing its 100 largest listed companies onto the blockchain, partnering with @krakenfx owner @Payward to launch them as tokenized xStocks.",
-    "link": "https://x.com/CoinDesk/status/2094699393748173230",
-    "score": 80,
-    "snippet": "NEW: The London Stock Exchange is bringing its 100 largest listed companies onto the blockchain, partnering with @krakenfx owner @Payward to launch them as tokenized xStocks.",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA",
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T08:10:28.068000+00:00",
+    "published_at": "2026-09-01T14:11:36.814000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "dca63d12dfbe85479f3b025b3b2a891076f807c7",
+    "title": "In this week's Chiliz Insights by @ChrisOtt: 🏟️ Socios Equity Token introduces a new asset class for sports ownership 🎮 @FanCup_ brings new FAN TOKEN® utility to Chiliz Chain 🔓 11M+ $CHZ staked through @KayenFinance liqu",
+    "link": "https://x.com/Chiliz/status/2094769787079369125",
+    "score": 85,
+    "snippet": "In this week's Chiliz Insights by @ChrisOtt: 🏟️ Socios Equity Token introduces a new asset class for sports ownership 🎮 @FanCup_ brings new FAN TOKEN® utility to Chiliz Chain 🔓 11M+ $CHZ staked through @KayenFinance liquid staking 🌶️ $PEPPER continues daily 1.15 trillion $PEPPER buybacks Read the fu",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:chiliz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T12:50:12.173000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduces')",
+    "matched": "introduces",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CHZ"
+    ]
+  },
+  {
+    "id": "39172c9c07e0b208577483761133a4a827573aa5",
+    "title": "We are proud to partner with @SuperstateInc to combine the best of DeFi and TradFi. Superstate brings top tokenized Treasury infra onchain. Frax extends its utility through frxUSD, FraxNet, and DeFi-native distribution.",
+    "link": "https://x.com/fraxfinance/status/2094818673580224950",
+    "score": 75,
+    "snippet": "We are proud to partner with @SuperstateInc to combine the best of DeFi and TradFi. Superstate brings top tokenized Treasury infra onchain. Frax extends its utility through frxUSD, FraxNet, and DeFi-native distribution. Better financial products bringing the world onchain.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:fraxfinance",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T16:04:26.808000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "FRAX"
+    ]
   },
   {
     "id": "0afb84e6f87250687da705a7bb24bef3bee4a8c8",
@@ -159,7 +189,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "THE",
@@ -167,11 +197,11 @@
     ]
   },
   {
-    "id": "e3c22ca7a91bf3408de099950d124e2901025a02",
-    "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
-    "link": "https://decrypt.co/376973",
-    "score": 69,
-    "snippet": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+    "id": "404707d4979fdb9d01526ff05b6d21d8172ff229",
+    "title": "THE BLOCK: Binance is adding physically settled options on more than 1,000 U.S. stocks and ETFs for eligible users outside the United States. The exchange said its monthly TradFi perpetual volume reached $433.4 billion i",
+    "link": "https://x.com/TheBlockCo/status/2094730925288624584",
+    "score": 74,
+    "snippet": "THE BLOCK: Binance is adding physically settled options on more than 1,000 U.S. stocks and ETFs for eligible users outside the United States. The exchange said its monthly TradFi perpetual volume reached $433.4 billion in August, roughly 15 times January's total.",
     "regions": [
       "US"
     ],
@@ -180,56 +210,140 @@
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T10:15:45.857000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settled')",
+    "matched": "settled",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "203011e7205044d4824a287754dd1f4de4e7f9a8",
+    "title": "NEW: The London Stock Exchange is bringing its 100 largest listed companies onto the blockchain, partnering with @krakenfx owner @Payward to launch them as tokenized xStocks.",
+    "link": "https://x.com/CoinDesk/status/2094699393748173230",
+    "score": 74,
+    "snippet": "NEW: The London Stock Exchange is bringing its 100 largest listed companies onto the blockchain, partnering with @krakenfx owner @Payward to launch them as tokenized xStocks.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
     "matched_topics": [
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-31T19:31:02.311000+00:00",
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T08:10:28.068000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
+    "coins": []
   },
   {
-    "id": "2def0f43df924ee6f560427572ddd2e4ec83351b",
-    "title": "THE BLOCK: Hong Kong's OSL Group said its H1 revenue grew 65.8% YoY to $7.1 billion, while its adjusted income rose 75.5% to $42.2 million. OSL also said it has become the world's largest provider of B2B stablecoin payme",
-    "link": "https://x.com/TheBlockCo/status/2094618345421394157",
-    "score": 64,
-    "snippet": "THE BLOCK: Hong Kong's OSL Group said its H1 revenue grew 65.8% YoY to $7.1 billion, while its adjusted income rose 75.5% to $42.2 million. OSL also said it has become the world's largest provider of B2B stablecoin payment infrastructure, with a volume of $12.3 billion in 2025.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
+    "id": "6a99b70b9160b4fcedd9b05db315b621b8425e5f",
+    "title": "THE BLOCK: Bitfinex Securities has listed five tokenized products offering exposure to bitcoin treasury companies, including Strategy $MSTR, Metaplanet, H100, and Capital B. The equity-backed notes are issued via a Luxem",
+    "link": "https://x.com/TheBlockCo/status/2094780724133957780",
+    "score": 70,
+    "snippet": "THE BLOCK: Bitfinex Securities has listed five tokenized products offering exposure to bitcoin treasury companies, including Strategy $MSTR, Metaplanet, H100, and Capital B. The equity-backed notes are issued via a Luxembourg securitization fund and trade against USD, USDT, and bitcoin $BTC.",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T13:33:39.220000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issued')",
+    "matched": "issued",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "MSTR",
+      "BTC"
+    ]
+  },
+  {
+    "id": "d450e0822c82ed7e5ed33aa86ae8010f3f4fdf01",
+    "title": "Signs of Life → For the first time in months, crypto markets are showing signs of life. → Since the Treasury announced it was increasing the size of its long-end buybacks, bitcoin has rallied ~20%. → The government’s pus",
+    "link": "https://x.com/CoinbaseInsto/status/2094814586687877292",
+    "score": 65,
+    "snippet": "Signs of Life → For the first time in months, crypto markets are showing signs of life. → Since the Treasury announced it was increasing the size of its long-end buybacks, bitcoin has rallied ~20%. → The government’s push to cap long-term yields appears to have been the catalyst BTC needed to break ",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coinbaseinsto",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T15:48:12.631000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "CAP"
+    ]
+  },
+  {
+    "id": "d068a5476ab858cf64fdd5965bacca94e1db154b",
+    "title": "THE BLOCK: Twenty-one major financial institutions have committed to establish a new stablecoin company in the second half of 2026, moving the initiative beyond the exploratory stage announced by 10 banks last October. T",
+    "link": "https://x.com/TheBlockCo/status/2094797850886697179",
+    "score": 65,
+    "snippet": "THE BLOCK: Twenty-one major financial institutions have committed to establish a new stablecoin company in the second half of 2026, moving the initiative beyond the exploratory stage announced by 10 banks last October. The group has added 13 members, including Fidelity, Wells Fargo, Capital One, Wis",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T02:48:24.691000+00:00",
+    "published_at": "2026-09-01T14:41:42.562000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
   {
-    "id": "4a7df552be9f37df3eeba1a0ac5f8ca75ffb5b4e",
-    "title": "Swarms Weekly Ecosystem Update [August 24 - August 31]: AgentHQ Launch, Swarms v15 Akira, USDC Competition, and More 🦾 This week, we shipped AgentHQ, announced Swarms v15 “Akira” for September 1, reached the 4th-largest",
-    "link": "https://x.com/swarms_corp/status/2094570972343111842",
-    "score": 64,
-    "snippet": "Swarms Weekly Ecosystem Update [August 24 - August 31]: AgentHQ Launch, Swarms v15 Akira, USDC Competition, and More 🦾 This week, we shipped AgentHQ, announced Swarms v15 “Akira” for September 1, reached the 4th-largest launchpad on @solana, and shipped much more across the Swarms ecosystem. Highlig",
+    "id": "3e9629f835932ba00b6e3173c6d816adbc3cd009",
+    "title": "These Banks Are Banding Together to Launch a Stablecoin - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5",
+    "score": 60,
+    "snippet": "These Banks Are Banding Together to Launch a Stablecoin WSJ",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -240,78 +354,16 @@
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:swarms_corp",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T23:40:10.180000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-01T15:25:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SWARMS",
-      "USDC",
-      "SOL"
-    ]
-  },
-  {
-    "id": "b010baf175f40d359d99fe250ba88094ca5134f4",
-    "title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
-    "link": "https://decrypt.co/376992",
-    "score": 64,
-    "snippet": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-31T21:01:02.551000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "8e3e011823027c28fb84baa64391813f98782981",
-    "title": "\"Move my USDC to the highest yield.\" \"Close all my perp positions.\" \"What's my funding rate exposure?\" Jarvis is an AI assistant inside http://defi.app. Talk to it like a person. It executes like a machine. Not a chatbot",
-    "link": "https://x.com/defiapp/status/2094498465812263411",
-    "score": 64,
-    "snippet": "\"Move my USDC to the highest yield.\" \"Close all my perp positions.\" \"What's my funding rate exposure?\" Jarvis is an AI assistant inside http://defi.app. Talk to it like a person. It executes like a machine. Not a chatbot. A co-pilot that actually does things. Coming soon.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:defiapp",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T18:52:03.525000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HOME",
-      "USDC"
-    ]
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "bdd2a5833aab1fe678d021b180c92d457ce5fe57",
@@ -348,8 +400,7 @@
     "score": 60,
     "snippet": "Binance adds options on 1,000 US stocks and ETFs as monthly TradFi perpetual volume hits $433 billion",
     "regions": [
-      "US",
-      "EU"
+      "US"
     ],
     "primary_region": "US",
     "category": "other",
@@ -371,10 +422,39 @@
     ]
   },
   {
+    "id": "c4db695eb2e08ffaa8ecc9038cc7c76b651fdac4",
+    "title": "Introducing the Binance Agent OS Mini Hackathon. $60,000 USDC Prize Pool. Just 7 days to build and submit your entry. Two ways to win: 🛠️ Track A: Build an AI agent with Agent OS (20K USDC) ⚡ Track B: Connect your MCPs a",
+    "link": "https://x.com/binance/status/2094810011557838988",
+    "score": 55,
+    "snippet": "Introducing the Binance Agent OS Mini Hackathon. $60,000 USDC Prize Pool. Just 7 days to build and submit your entry. Two ways to win: 🛠️ Track A: Build an AI agent with Agent OS (20K USDC) ⚡ Track B: Connect your MCPs and trade (40K USDC) Pick your track. Build your workflow. You’ve got until Sept ",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:binance",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-01T15:30:02.746000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "USDC",
+      "BNB"
+    ]
+  },
+  {
     "id": "7b2b5ca316ccacb3d3345cf6282b9f439e039d6b",
     "title": "Binance’s Traditional-Asset Perpetual Volume Jumps 15x to $445 Billion in July According to Bloomberg, Binance is offering users outside the US access to options tied to more than 1,000 US stocks and ETFs through its Abu",
     "link": "https://x.com/WuBlockchain/status/2094730967709786116",
-    "score": 60,
+    "score": 54,
     "snippet": "Binance’s Traditional-Asset Perpetual Volume Jumps 15x to $445 Billion in July According to Bloomberg, Binance is offering users outside the US access to options tied to more than 1,000 US stocks and ETFs through its Abu Dhabi entity, Nest Trading Limited, in partnership with US-registered broker-de",
     "regions": [],
     "primary_region": null,
@@ -392,208 +472,62 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
     ]
   },
   {
-    "id": "f86fc9f7816b08e40ec82989ae293124c22d573c",
-    "title": "L1 Blockchain Fogo Pauses Mainnet After 400 Million Tokens Leave Foundation Walletshttps",
-    "link": "https://www.crowdfundinsider.com/2026/08/303523-l1-blockchain-fogo-pauses-mainnet-after-400-million-tokens-leave-foundation-wallets",
-    "score": 59,
-    "snippet": "L1 Blockchain Fogo Pauses Mainnet After 400 Million Tokens Leave Foundation Walletshttps",
+    "id": "c2509088917d648451b62790a57fb54eefd801c4",
+    "title": "TradeXYZ Q2 Trading Volume Rises 79.2% to $202.36 Billion, Equity Perpetual Volume Jumps 377% According to the Hyperliquid Research Collective’s Q2 2026 report, TradeXYZ’s total trading volume rose 79.2% quarter-on-quart",
+    "link": "https://x.com/WuBlockchain/status/2094799044292088252",
+    "score": 50,
+    "snippet": "TradeXYZ Q2 Trading Volume Rises 79.2% to $202.36 Billion, Equity Perpetual Volume Jumps 377% According to the Hyperliquid Research Collective’s Q2 2026 report, TradeXYZ’s total trading volume rose 79.2% quarter-on-quarter to $202.36 billion. Its share of HIP-3 trading volume increased from 84.5% to",
     "regions": [],
     "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-31T22:39:41.765000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "FOGO"
-    ]
-  },
-  {
-    "id": "457e004a89d5744938dcf2fdd6aa2fec90f172ec",
-    "title": "What index funds did for everyday Americans, tokenization will do for the rest of the world. Fifty years ago today, Vanguard's John Bogle launched the first index fund, opening the market to everyday investors for the fi",
-    "link": "https://x.com/Ondo/status/2094524453803745778",
-    "score": 59,
-    "snippet": "What index funds did for everyday Americans, tokenization will do for the rest of the world. Fifty years ago today, Vanguard's John Bogle launched the first index fund, opening the market to everyday investors for the first time. Today, tokenization is opening the world's largest markets to billions",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:ondo",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T20:35:19.359000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ONDO",
-      "BILL"
-    ]
-  },
-  {
-    "id": "8ed706b96bf283d9f9a5db096f7fe2ebb7d4340f",
-    "title": "More finance. Until it's all on Binance. Introducing Binance Stock Options. Trade U.S. stock and ETF options with physical settlement.",
-    "link": "https://x.com/binance/status/2094711868606886199",
-    "score": 55,
-    "snippet": "More finance. Until it's all on Binance. Introducing Binance Stock Options. Trade U.S. stock and ETF options with physical settlement.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:binance",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T09:00:02.324000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "2f3dff8315ca4391a119044e477073a297cc0acf",
-    "title": "Binance Launches Stock Options — Trade U.S. Stocks and ETF Options with Physical Settlement",
-    "link": "https://www.treeofalpha.com/preview_article?id=1788251405871",
-    "score": 55,
-    "snippet": "Binance Launches Stock Options — Trade U.S. Stocks and ETF Options with Physical Settlement",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:binance en",
-    "source": "TreeOfAlpha/Binance EN",
-    "published_at": "2026-09-01T08:30:07.011000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "30fbee683a5a565eea152557b695b15e4b7242e7",
-    "title": "Ontology, Injective Hit by Block Halts; Suspected Injective Exploit Nets $4.9 Million Layer-1 networks Ontology and Injective both suffered block-production halts around Aug. 31 amid security concerns. Ontology, an ident",
-    "link": "https://x.com/WuBlockchain/status/2094700434099405262",
-    "score": 55,
-    "snippet": "Ontology, Injective Hit by Block Halts; Suspected Injective Exploit Nets $4.9 Million Layer-1 networks Ontology and Injective both suffered block-production halts around Aug. 31 amid security concerns. Ontology, an identity-focused public blockchain, initially paused its mainnet as a precaution and ",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T08:14:36.326000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('halts')",
-    "matched": "halts",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "INJ",
-      "ONT",
-      "BNB"
-    ]
-  },
-  {
-    "id": "97a60778ebde911ee92b334e69a64b11dbda5add",
-    "title": "U.S. spot Bitcoin ETFs recorded $217 million in net inflows on Aug. 31, led by BlackRock’s IBIT with about $206 million, while spot Ether ETFs drew $87.68 million, with BlackRock’s ETHA accounting for roughly $59.94 mill",
-    "link": "https://x.com/WuBlockchain/status/2094639240693035398",
-    "score": 54,
-    "snippet": "U.S. spot Bitcoin ETFs recorded $217 million in net inflows on Aug. 31, led by BlackRock’s IBIT with about $206 million, while spot Ether ETFs drew $87.68 million, with BlackRock’s ETHA accounting for roughly $59.94 million. BlackRock is the world’s largest asset manager, overseeing about $15.3 tril",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
+    "financial": 40,
     "matched_topics": [],
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-01T04:11:26.653000+00:00",
+    "published_at": "2026-09-01T14:46:26.871000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "ETH"
+      "HYPE"
     ]
   },
   {
-    "id": "3af6f63fc0841ee49c2b70e9e082ce396a39c619",
-    "title": "Today is Tim Cook's last day as CEO of Apple. Apple’s market cap grew from under $400 billion to over $4.7 trillion during his 15 year tenure.",
-    "link": "https://x.com/CoinbaseMarkets/status/2094492812481794451",
-    "score": 54,
-    "snippet": "Today is Tim Cook's last day as CEO of Apple. Apple’s market cap grew from under $400 billion to over $4.7 trillion during his 15 year tenure.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "id": "915664cd9ec5d64a71e897e187903f087917662c",
+    "title": "TradeXYZ Q2 Trading Volume Rises 79.2% to $202.36 Billion, Equity Perpetual Volume Jumps 377% QoQ According to the Hyperliquid Research Collective’s Q2 2026 report, TradeXYZ’s total trading volume rose 79.2% quarter-on-q",
+    "link": "https://x.com/WuBlockchain/status/2094798848543871415",
+    "score": 50,
+    "snippet": "TradeXYZ Q2 Trading Volume Rises 79.2% to $202.36 Billion, Equity Perpetual Volume Jumps 377% QoQ According to the Hyperliquid Research Collective’s Q2 2026 report, TradeXYZ’s total trading volume rose 79.2% quarter-on-quarter to $202.36 billion. Its share of HIP-3 trading volume increased from 84.5",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 50,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:coinbasemarkets",
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T18:29:35.152000+00:00",
+    "published_at": "2026-09-01T14:45:40.170000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "CAP"
+      "HYPE"
     ]
   },
   {
@@ -618,62 +552,65 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
   },
   {
-    "id": "4fe73d0849e824fcdf8f27a538b8820a3ad08e94",
-    "title": "Bitcoin and Crypto Security Losses Hit $3.63 Billion as Attacks Outrun Audits and Insurance",
-    "link": "https://www.crowdfundinsider.com/2026/08/304012-bitcoin-and-crypto-security-losses-hit-3-63-billion-as-attacks-outrun-audits-and-insurance",
-    "score": 44,
-    "snippet": "Bitcoin and Crypto Security Losses Hit $3.63 Billion as Attacks Outrun Audits and Insurance",
-    "regions": [],
-    "primary_region": null,
+    "id": "34a9c23990f6dc46ab333fbe6bf7d057033ca67d",
+    "title": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN01yNnpGbk1CVXJyS00tY0swX3JKTldjOER3SlY1clItcU5Nbk1XYzZFNEJDR1BIZ2NaSXk5Z0VTRGZJdDd4cUk2YnBLWGNSVVJGS3VTbFRNUlMtcnd6Y1FiU3lfSUU1V3lhSjNfSEhjMjdubTlfOEFEWXZwZUJWVHVxNVBHT0s3TzJfLWRSYTJzNHRtVTVqZEgtcFZER3ZRV0VnRk9jTm40RURvTksyTFA1d29Fem1TMGctaXJB?oc=5",
+    "score": 40,
+    "snippet": "Goldman Sachs, BofA and others plan to issue dollar stablecoin together in 2027 Reuters",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-31T21:36:57.510000+00:00",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-09-01T15:11:43+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "2baf394c3d64048f6fccb380c33d5b3c7ee2b1cf",
-    "title": "LATEST: Strive ($ASST) bought 1,800 BTC for $143 million at an average price of $79,431 per bitcoin. The company now holds 23,156 BTC, worth nearly $1.8 billion.",
-    "link": "https://x.com/CoinDesk/status/2094494221570801930",
-    "score": 44,
-    "snippet": "LATEST: Strive ($ASST) bought 1,800 BTC for $143 million at an average price of $79,431 per bitcoin. The company now holds 23,156 BTC, worth nearly $1.8 billion.",
+    "id": "ea8a209341884e3f97c112b50424af8f57aa7870",
+    "title": "21 Global Banks Plan Dollar Stablecoin Launch by Mid-2027 - Northeast Times",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdElhS0ZhUWxiZldHalQ5UnAwdkZQdV8xSm9NMG1sUW82cDg4QmJlZnY2bmRLM0Ztc3hFMG1JUGlSY2lDcUVZQ1h4dnlCSlVQTV8teldteGhWWGZsdVlUTDhIY0xTX1UyUFFxYUhlRDAwY3ZNYjRuMWthNTdQNU0tczl3aWFpVXF3S1BuampVWm5JdFc0a1NPMDBZZ18?oc=5",
+    "score": 35,
+    "snippet": "21 Global Banks Plan Dollar Stablecoin Launch by Mid-2027 Northeast Times",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T18:35:11.126000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-01T15:49:40+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
