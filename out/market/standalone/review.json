@@ -1,35 +1,5 @@
 [
   {
-    "id": "e3c22ca7a91bf3408de099950d124e2901025a02",
-    "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
-    "link": "https://decrypt.co/376973",
-    "score": 75,
-    "snippet": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-08-31T19:31:02.311000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
-  },
-  {
     "id": "0e9da7d0cd02014a3789d924e23cd6210376ba3e",
     "title": "THE BLOCK: Strive bought another 1,800 bitcoin for roughly $143 million last week, lifting its holdings to 23,156 BTC and making it the fifth-largest publicly traded bitcoin treasury, pushing Bullish to sixth. TD Cowen r",
     "link": "https://x.com/TheBlockCo/status/2094431936018370655",
@@ -84,6 +54,37 @@
     ]
   },
   {
+    "id": "4a7df552be9f37df3eeba1a0ac5f8ca75ffb5b4e",
+    "title": "Swarms Weekly Ecosystem Update [August 24 - August 31]: AgentHQ Launch, Swarms v15 Akira, USDC Competition, and More 🦾 This week, we shipped AgentHQ, announced Swarms v15 “Akira” for September 1, reached the 4th-largest",
+    "link": "https://x.com/swarms_corp/status/2094570972343111842",
+    "score": 70,
+    "snippet": "Swarms Weekly Ecosystem Update [August 24 - August 31]: AgentHQ Launch, Swarms v15 Akira, USDC Competition, and More 🦾 This week, we shipped AgentHQ, announced Swarms v15 “Akira” for September 1, reached the 4th-largest launchpad on @solana, and shipped much more across the Swarms ecosystem. Highlig",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:swarms_corp",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-31T23:40:10.180000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SWARMS",
+      "USDC",
+      "SOL"
+    ]
+  },
+  {
     "id": "b010baf175f40d359d99fe250ba88094ca5134f4",
     "title": "Strive Adds $143 Million in Bitcoin as Treasury Firms Pile Back In",
     "link": "https://decrypt.co/376992",
@@ -112,33 +113,33 @@
     ]
   },
   {
-    "id": "8e3e011823027c28fb84baa64391813f98782981",
-    "title": "\"Move my USDC to the highest yield.\" \"Close all my perp positions.\" \"What's my funding rate exposure?\" Jarvis is an AI assistant inside http://defi.app. Talk to it like a person. It executes like a machine. Not a chatbot",
-    "link": "https://x.com/defiapp/status/2094498465812263411",
-    "score": 70,
-    "snippet": "\"Move my USDC to the highest yield.\" \"Close all my perp positions.\" \"What's my funding rate exposure?\" Jarvis is an AI assistant inside http://defi.app. Talk to it like a person. It executes like a machine. Not a chatbot. A co-pilot that actually does things. Coming soon.",
-    "regions": [],
-    "primary_region": null,
+    "id": "e3c22ca7a91bf3408de099950d124e2901025a02",
+    "title": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+    "link": "https://decrypt.co/376973",
+    "score": 69,
+    "snippet": "XRP ETFs Extend Inflow Streak to 9 Days, Pulling In $1.6 Billion Since Launch",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:defiapp",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T18:52:03.525000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-08-31T19:31:02.311000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HOME",
-      "USDC"
+      "XRP"
     ]
   },
   {
@@ -252,6 +253,36 @@
     ]
   },
   {
+    "id": "8e3e011823027c28fb84baa64391813f98782981",
+    "title": "\"Move my USDC to the highest yield.\" \"Close all my perp positions.\" \"What's my funding rate exposure?\" Jarvis is an AI assistant inside http://defi.app. Talk to it like a person. It executes like a machine. Not a chatbot",
+    "link": "https://x.com/defiapp/status/2094498465812263411",
+    "score": 64,
+    "snippet": "\"Move my USDC to the highest yield.\" \"Close all my perp positions.\" \"What's my funding rate exposure?\" Jarvis is an AI assistant inside http://defi.app. Talk to it like a person. It executes like a machine. Not a chatbot. A co-pilot that actually does things. Coming soon.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:defiapp",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-31T18:52:03.525000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HOME",
+      "USDC"
+    ]
+  },
+  {
     "id": "e4eca0fd9ec8d9e3010c046b1cb0556c6511b8f4",
     "title": "THE BLOCK: Tom Lee's Bitmine acquired 53,501 ETH over the past week, lifting its holdings to 5.90 million tokens. The company said its crypto, cash, securities, and “moonshots” holdings totaled $15.6 billion as of Aug. 3",
     "link": "https://x.com/TheBlockCo/status/2094411936314327351",
@@ -279,60 +310,6 @@
     ]
   },
   {
-    "id": "3cc3c61f663c4607774f208b6e0f3de006def845",
-    "title": "🚨 Ontology Mainnet Emergency Pause Ontology has identified a potential security concern requiring immediate investigation. As a precautionary measure, block production has been temporarily suspended while our technical t",
-    "link": "https://x.com/OntologyNetwork/status/2094351799482556627",
-    "score": 64,
-    "snippet": "🚨 Ontology Mainnet Emergency Pause Ontology has identified a potential security concern requiring immediate investigation. As a precautionary measure, block production has been temporarily suspended while our technical team and validators conduct a comprehensive security review. ▶️ No confirmed secu",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:ontologynetwork",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T09:09:15.330000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ONT",
-      "ONG",
-      "BASED"
-    ]
-  },
-  {
-    "id": "3af6f63fc0841ee49c2b70e9e082ce396a39c619",
-    "title": "Today is Tim Cook's last day as CEO of Apple. Apple’s market cap grew from under $400 billion to over $4.7 trillion during his 15 year tenure.",
-    "link": "https://x.com/CoinbaseMarkets/status/2094492812481794451",
-    "score": 60,
-    "snippet": "Today is Tim Cook's last day as CEO of Apple. Apple’s market cap grew from under $400 billion to over $4.7 trillion during his 15 year tenure.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:x:coinbasemarkets",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-08-31T18:29:35.152000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "CAP"
-    ]
-  },
-  {
     "id": "ca4bb10e4c491255788abee2fa70b7d43320a32a",
     "title": "LATEST: Strategy announces on X it bought 4,603 BTC for $370 million, bringing its total holdings to 845,050 BTC.",
     "link": "https://x.com/CoinDesk/status/2094435037206987152",
@@ -356,6 +333,32 @@
     "origin": "tree",
     "coins": [
       "BTC"
+    ]
+  },
+  {
+    "id": "3af6f63fc0841ee49c2b70e9e082ce396a39c619",
+    "title": "Today is Tim Cook's last day as CEO of Apple. Apple’s market cap grew from under $400 billion to over $4.7 trillion during his 15 year tenure.",
+    "link": "https://x.com/CoinbaseMarkets/status/2094492812481794451",
+    "score": 54,
+    "snippet": "Today is Tim Cook's last day as CEO of Apple. Apple’s market cap grew from under $400 billion to over $4.7 trillion during his 15 year tenure.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:x:coinbasemarkets",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-08-31T18:29:35.152000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CAP"
     ]
   },
   {
@@ -476,7 +479,7 @@
     "id": "2baf394c3d64048f6fccb380c33d5b3c7ee2b1cf",
     "title": "LATEST: Strive ($ASST) bought 1,800 BTC for $143 million at an average price of $79,431 per bitcoin. The company now holds 23,156 BTC, worth nearly $1.8 billion.",
     "link": "https://x.com/CoinDesk/status/2094494221570801930",
-    "score": 50,
+    "score": 44,
     "snippet": "LATEST: Strive ($ASST) bought 1,800 BTC for $143 million at an average price of $79,431 per bitcoin. The company now holds 23,156 BTC, worth nearly $1.8 billion.",
     "regions": [],
     "primary_region": null,
