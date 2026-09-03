@@ -22,7 +22,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CHZ"
@@ -50,10 +50,41 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CHZ"
+    ]
+  },
+  {
+    "id": "08ef8749aebe3262e7376ee6f8a42734e9ba6b85",
+    "title": "Some highlights from August: • Launched the Pendle Ecosystem USDC vault on @MorphoLabs, co-curated with @wintermute_t Armigate, allocating across selected PT markets (6.11% APY total) • Released Arbitrage with CrossEx on",
+    "link": "https://x.com/pendle_fi/status/2095333511192580451",
+    "score": 70,
+    "snippet": "Some highlights from August: • Launched the Pendle Ecosystem USDC vault on @MorphoLabs, co-curated with @wintermute_t Armigate, allocating across selected PT markets (6.11% APY total) • Released Arbitrage with CrossEx on Boros, turning a full funding rate arbitrage strategy into a 2-click trade. • L",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:pendle_fi",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-03T02:10:13.655000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "PENDLE",
+      "USDC",
+      "AAVE"
     ]
   },
   {
@@ -62,10 +93,8 @@
     "link": "https://x.com/edgeX_exchange/status/2095316179338318110",
     "score": 70,
     "snippet": "edgeX Joins Arc as a Day 1 Partner: the First 24/7 FX Perpetuals on Arc Mainnet Markets have always followed money. And the money is moving onchain. We're launching new FX perpetuals when Arc mainnet goes live on September 16, 2026, alongside 150+ markets across stocks, commodities, and crypto, all ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -80,7 +109,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "EDGE",
@@ -121,11 +150,9 @@
     "link": "https://x.com/arbitrum/status/2095182987012813174",
     "score": 69,
     "snippet": "Arbitrum Foundation Reports First Half 2026 Progress Update The network processed 478 million transactions in the half, taking its lifetime total to 2.7 billion, with ecosystem GDP of $206 million for the period and $1.7 billion cumulative since launch Average monthly stablecoin transfer volume exce",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
@@ -140,7 +167,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARB",
@@ -149,11 +176,66 @@
     ]
   },
   {
-    "id": "7efc26cf558f62aec617eea09a431c9729d8c23d",
-    "title": "Global banks join forces to launch dollar stablecoin in 2027 - indiagazette.com",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQamJCWWtlb0JhcTVqLXpSelNpNEwybWRpMGlZRm1haXN6OTNtWklaSnhLZGpLem1OMUt1MzlPNlU3T002bXJVdF9XVVRaR2hyemdBYUVVcGltMk9UWk5hdWJ1bUd1SkwweTB3X2RmY0RGNHAweV9HNW83LUdZb3h5RUV6eVRmb2psQXdyZnBXUzE2ZkxTU0hGRV9qMjhKS0FqRFlXaWpDOA?oc=5",
-    "score": 64,
-    "snippet": "Global banks join forces to launch dollar stablecoin in 2027 indiagazette.com",
+    "id": "438034aa18523a7b3e54e682f5583590de9efc62",
+    "title": "SEC chair unveils push to reshore crypto innovation",
+    "link": "https://www.foxbusiness.com/video/6404489856112",
+    "score": 65,
+    "snippet": "SEC chair unveils push to reshore crypto innovation",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:fox",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-03T01:34:57.368000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "c4b28b8a77c13f2ed59547c3df8f0cb809b8eab9",
+    "title": "THE BLOCK: Spot bitcoin ETFs returned to net inflows on Wednesday, logging $101 million. Spot ether ETFs, however, shed $48 million, ending their 12-day positive streak. $BTC $ETH",
+    "link": "https://x.com/TheBlockCo/status/2095370705978400938",
+    "score": 60,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs returned to net inflows on Wednesday, logging $101 million. Spot ether ETFs, however, shed $48 million, ending their 12-day positive streak. $BTC $ETH",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-03T04:38:01.459000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "16344f9de145306fd98a9cde1fe18f688bf8d2a9",
+    "title": "Yield is now built into the launch. Introducing ListaYield on http://Four.Meme — a new OpenFour mode powered by @lista_dao. Every trade can route a share of trading tax into yield-bearing products, creating ongoing yield",
+    "link": "https://x.com/fourdotmemezh/status/2095361508700258731",
+    "score": 60,
+    "snippet": "Yield is now built into the launch. Introducing ListaYield on http://Four.Meme — a new OpenFour mode powered by @lista_dao. Every trade can route a share of trading tax into yield-bearing products, creating ongoing yield for eligible holders. And once the token graduates, liquidity moves to Lista DE",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -161,50 +243,20 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-02T10:50:00+00:00",
+    "feed_name": "tree:x:fourdotmemezh",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-03T04:01:29.063000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
     "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "feff7c109799e7d7cf697908b6c62aa99e919392",
-    "title": "Tokenization Snapshot 2026: A Market Growing on Its Own Terms For @RWASummitat Brooklyn, we took a midyear look at the tokenized asset market across growth, holders, asset classes, distribution and DeFi utility. Tokenize",
-    "link": "https://x.com/centrifuge/status/2095231533229519315",
-    "score": 60,
-    "snippet": "Tokenization Snapshot 2026: A Market Growing on Its Own Terms For @RWASummitat Brooklyn, we took a midyear look at the tokenized asset market across growth, holders, asset classes, distribution and DeFi utility. Tokenized asset value climbed from roughly $25 billion to $37 billion in the first seven",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:centrifuge",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-02T19:25:00.187000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "CFG",
-      "T",
-      "ETH",
-      "BTC",
-      "G"
+      "FORM",
+      "LISTA"
     ]
   },
   {
@@ -289,13 +341,72 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
       "ETH",
       "SOL",
       "XNO"
+    ]
+  },
+  {
+    "id": "1fcd7ae0b608ec5c119d4c348c7b2c0aec31575f",
+    "title": "Swiss banks partner to launch franc stablecoin sandbox - FStech",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaFgxcVBtWUE5d05nMVE4U0lrVnN4UUQ2YjRKX2d0Z0lRNW9MSEh2anM4c1JLZlJoQ3FHTnoyalpmTXNQemtuVWdkU0tXS09rSTV4cmFmQ25OTFZHTDM3Y0NrYXIxbG56Zk5Nc0stMTdJQ2d3QVN0ZDR5bkQ4WnBnT19Tb1JvYWdnZHVUNkY1OGU?oc=5",
+    "score": 54,
+    "snippet": "Swiss banks partner to launch franc stablecoin sandbox FStech",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-02T14:00:46+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "feff7c109799e7d7cf697908b6c62aa99e919392",
+    "title": "Tokenization Snapshot 2026: A Market Growing on Its Own Terms For @RWASummitat Brooklyn, we took a midyear look at the tokenized asset market across growth, holders, asset classes, distribution and DeFi utility. Tokenize",
+    "link": "https://x.com/centrifuge/status/2095231533229519315",
+    "score": 54,
+    "snippet": "Tokenization Snapshot 2026: A Market Growing on Its Own Terms For @RWASummitat Brooklyn, we took a midyear look at the tokenized asset market across growth, holders, asset classes, distribution and DeFi utility. Tokenized asset value climbed from roughly $25 billion to $37 billion in the first seven",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:centrifuge",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-02T19:25:00.187000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CFG",
+      "T",
+      "ETH",
+      "BTC",
+      "G"
     ]
   },
   {
@@ -318,7 +429,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('merger')",
     "matched": "merger",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -348,7 +459,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -359,9 +470,9 @@
     "score": 54,
     "snippet": "Here's what happened @ethena in August: • Launched @EthenaPay, the internet money neobank. • The Ethena Foundation announced a major ecosystem update: the buyout of certain seed investors' locked tokens, unlock of additional VC tokens to alleviate future unlock overhang, principle agreement on a Mas",
     "regions": [
-      "US"
+      "APAC"
     ],
-    "primary_region": "US",
+    "primary_region": "APAC",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -376,7 +487,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ENA",
@@ -408,33 +519,6 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "d7d39447bd080a88912bed3a25ba88f06f9f389d",
-    "title": "21 Global Institutions Launch Joint Dollar Stablecoin - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORFVtZlUzLXkwWGQyS2QxSmxyNlByWVk0SGFYVWx1cUUtVTFTWFpkclp2bXJvcF9qXzQ2NlpJYTlJRWg5c19JX3ZrSkdVM0VxTDhKc1dJNi1ZeWRvVFZWNXJaMWN3Y2s5eEJRODdCQ3NlcUk5SEhxdmlrdFlWdF81WXQzUU1pWXRxVHotUmlB?oc=5",
-    "score": 35,
-    "snippet": "21 Global Institutions Launch Joint Dollar Stablecoin 조선일보",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-02T15:39:04+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
