@@ -22,38 +22,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CHZ"
     ]
-  },
-  {
-    "id": "893a8c5a475e4494b5eb7cc0863cfb39545b6a6d",
-    "title": "Aegis Trust builds tokenised money market fund focused on social impact",
-    "link": "https://www.finextra.com/pressarticle/110792/aegis-trust-builds-tokenised-money-market-fund-focused-on-social-impact?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 75,
-    "snippet": "Aegis Trust, a SEC qualified custodian for digital assets, today announced the development of the world’s first tokenized money market fund that focuses on social impact.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "finextra",
-    "source": "Google News RSS",
-    "published_at": "2026-09-02T19:08:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "09342c0c6a0be90bbc0b618b28e0602531b0f58b",
@@ -77,11 +50,70 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CHZ"
     ]
+  },
+  {
+    "id": "9c1aa80360f1848081624289313b0e838dd2ce3c",
+    "title": "edgeX Joins Arc as a Day 1 Partner: the First 24/7 FX Perpetuals on Arc Mainnet Markets have always followed money. And the money is moving onchain. We're launching new FX perpetuals when Arc mainnet goes live on Septemb",
+    "link": "https://x.com/edgeX_exchange/status/2095316179338318110",
+    "score": 70,
+    "snippet": "edgeX Joins Arc as a Day 1 Partner: the First 24/7 FX Perpetuals on Arc Mainnet Markets have always followed money. And the money is moving onchain. We're launching new FX perpetuals when Arc mainnet goes live on September 16, 2026, alongside 150+ markets across stocks, commodities, and crypto, all ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:edgex_exchange",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-03T01:01:21.391000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "EDGE",
+      "USDC",
+      "ARC"
+    ]
+  },
+  {
+    "id": "893a8c5a475e4494b5eb7cc0863cfb39545b6a6d",
+    "title": "Aegis Trust builds tokenised money market fund focused on social impact",
+    "link": "https://www.finextra.com/pressarticle/110792/aegis-trust-builds-tokenised-money-market-fund-focused-on-social-impact?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 69,
+    "snippet": "Aegis Trust, a SEC qualified custodian for digital assets, today announced the development of the world’s first tokenized money market fund that focuses on social impact.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-09-02T19:08:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "cce3ecae4dbf044c052f85c30f9b069a54ed91f6",
@@ -89,9 +121,11 @@
     "link": "https://x.com/arbitrum/status/2095182987012813174",
     "score": 69,
     "snippet": "Arbitrum Foundation Reports First Half 2026 Progress Update The network processed 478 million transactions in the half, taking its lifetime total to 2.7 billion, with ecosystem GDP of $206 million for the period and $1.7 billion cumulative since launch Average monthly stablecoin transfer volume exce",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
@@ -106,7 +140,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ARB",
@@ -163,7 +197,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CFG",
@@ -172,6 +206,35 @@
       "BTC",
       "G"
     ]
+  },
+  {
+    "id": "dc8e4879019cdaaded471f08f7b9c95176083bfa",
+    "title": "21 Global Banks, Including BoA and Goldman Sachs, Plan USD Stablecoin Launch by 2027 - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb3ZjS3Z6Znh1cllkV3VHcGRmTlFBTzRsQVdYQUdUR215YkRQdHUyY245OHhaU0Rldi1fbU5VLXpSdEhIQ2VfU0MySS1RT2hjM09OZ1ZxeDVQWjlEWE5SNUhfWjNsOS1neG5ZMURfdVpOeTI1OGhrZl9rQjdYc1ZHcWo1Q2RKNFdhVmZQX0c3R1UxNnpPVFN0MVJFY1BNdTJDSFZGV0t5WG5OUk9sQU9WbVBBdThaWVk?oc=5",
+    "score": 59,
+    "snippet": "21 Global Banks, Including BoA and Goldman Sachs, Plan USD Stablecoin Launch by 2027 KuCoin",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-02T18:16:34+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "23789e133b2c9a5e8af34173851ee49db5eaab32",
@@ -226,7 +289,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -234,33 +297,6 @@
       "SOL",
       "XNO"
     ]
-  },
-  {
-    "id": "1fcd7ae0b608ec5c119d4c348c7b2c0aec31575f",
-    "title": "Swiss banks partner to launch franc stablecoin sandbox - FStech",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaFgxcVBtWUE5d05nMVE4U0lrVnN4UUQ2YjRKX2d0Z0lRNW9MSEh2anM4c1JLZlJoQ3FHTnoyalpmTXNQemtuVWdkU0tXS09rSTV4cmFmQ25OTFZHTDM3Y0NrYXIxbG56Zk5Nc0stMTdJQ2d3QVN0ZDR5bkQ4WnBnT19Tb1JvYWdnZHVUNkY1OGU?oc=5",
-    "score": 54,
-    "snippet": "Swiss banks partner to launch franc stablecoin sandbox FStech",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-02T14:00:46+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "a0516678689a303f19eb1f39fa58d0ee15826a60",
@@ -282,7 +318,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('merger')",
     "matched": "merger",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -312,7 +348,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -323,9 +359,9 @@
     "score": 54,
     "snippet": "Here's what happened @ethena in August: • Launched @EthenaPay, the internet money neobank. • The Ethena Foundation announced a major ecosystem update: the buyout of certain seed investors' locked tokens, unlock of additional VC tokens to alleviate future unlock overhang, principle agreement on a Mas",
     "regions": [
-      "APAC"
+      "US"
     ],
-    "primary_region": "APAC",
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -340,39 +376,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ENA",
       "GENIUS"
-    ]
-  },
-  {
-    "id": "c351aecba32b4c28e02f80fb66076d6bedffbbd5",
-    "title": "The part of this that matters most is the validation test at the end: RWA becomes a liquidity channel when tokenized balance sheets leave their wrappers and start working as collateral. Those balance sheets are held by a",
-    "link": "https://x.com/newton_xyz/status/2095209461535445015",
-    "score": 50,
-    "snippet": "The part of this that matters most is the validation test at the end: RWA becomes a liquidity channel when tokenized balance sheets leave their wrappers and start working as collateral. Those balance sheets are held by allocators, not traders. An allocator moves a Treasury fund into a lending market",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:newton_xyz",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-02T17:57:20.443000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "NEWT"
     ]
   },
   {
@@ -404,29 +412,28 @@
     "coins": []
   },
   {
-    "id": "994e661a1978c5e7443c0947839349afb9a91fb1",
-    "title": "Bank of America, Citi, Goldman Sachs join 21-firm stablecoin push for 2027 - ambcrypto.com",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV25JQTN4VXJtRWRaNExYMVJ0ODdYeUhHcmR0djNONVVUNDhLdURTWUdTaTNGUEZhMUxlUDkwR1VsVWV3RVRQZnYxbWp2OFNKekZHLWZ0c2ttcWFJS3FUQl9aWEhLNVFSc2kwTi1IbEpsN0tiaS1kZWh3Vklvd1lvY2FJS0NsSnNGSlpNTm5VVXhjNzBIS2NfZVA2dw?oc=5",
-    "score": 40,
-    "snippet": "Bank of America, Citi, Goldman Sachs join 21-firm stablecoin push for 2027 ambcrypto.com",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "d7d39447bd080a88912bed3a25ba88f06f9f389d",
+    "title": "21 Global Institutions Launch Joint Dollar Stablecoin - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORFVtZlUzLXkwWGQyS2QxSmxyNlByWVk0SGFYVWx1cUUtVTFTWFpkclp2bXJvcF9qXzQ2NlpJYTlJRWg5c19JX3ZrSkdVM0VxTDhKc1dJNi1ZeWRvVFZWNXJaMWN3Y2s5eEJRODdCQ3NlcUk5SEhxdmlrdFlWdF81WXQzUU1pWXRxVHotUmlB?oc=5",
+    "score": 35,
+    "snippet": "21 Global Institutions Launch Joint Dollar Stablecoin 조선일보",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "institutional_crypto_banks",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-09-02T18:00:37+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-09-02T15:39:04+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "rss",
     "coins": []
