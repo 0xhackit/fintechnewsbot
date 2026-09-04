@@ -1,5 +1,33 @@
 [
   {
+    "id": "c4b3eb96c25d344fa6c5fb9c2a909b7d0f816b7a",
+    "title": "THE BLOCK: The OCC has granted OpenReserve preliminary conditional approval to charter a national bank. The company said it intends to combine traditional banking with onchain settlement under federal supervision. It mus",
+    "link": "https://x.com/TheBlockCo/status/2095790184419975375",
+    "score": 100,
+    "snippet": "THE BLOCK: The OCC has granted OpenReserve preliminary conditional approval to charter a national bank. The company said it intends to combine traditional banking with onchain settlement under federal supervision. It must satisfy preopening requirements before final approval.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T08:24:52.975000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
     "id": "055d00601cd2e50a88e5ee5d77d0f4700ab679ba",
     "title": "LATEST: Revolut has received conditional approval for a U.S. national bank charter, according to the Financial Times. The fintech plans to launch its U.S. bank in the first half of 2027, with stablecoins and business ban",
     "link": "https://x.com/CoinDesk/status/2095557434937102654",
@@ -24,9 +52,39 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "2054654c3820975fec1cc207dc6df8484c205fca",
+    "title": "Nuvanté Technologies Announces Stablecoin Clearing Prototype Built on Stellar Network integrated to Bank of England RTGS",
+    "link": "https://stellar.org/press/nuvante-technologies-announces-stablecoin-clearing-prototype-built-on-stellar-network-integrated-to-bank-of-england-rtgs",
+    "score": 90,
+    "snippet": "Nuvanté Technologies Announces Stablecoin Clearing Prototype Built on Stellar Network integrated to Bank of England RTGS",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:xlm",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-04T08:03:00.324000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integrated')",
+    "matched": "integrated",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM"
+    ]
   },
   {
     "id": "772fc94eec018bc1c04482e36dd96789447e876c",
@@ -35,7 +93,6 @@
     "score": 84,
     "snippet": "THE BLOCK: Fintech company Revolut says it has received a conditional approval for its U.S. bank charter from the Office of the Comptroller of the Currency. After approvals are finalized, the company says it will be able to directly offer loans, credit cards, as well as stablecoins and cryptocurrenc",
     "regions": [
-      "US",
       "EU"
     ],
     "primary_region": "EU",
@@ -53,7 +110,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -61,7 +118,7 @@
     "id": "504745b098faae12ff56ac6ddc4aa6a0a8d61eb6",
     "title": "A botnet that hijacked crypto payments for eight years is dismantled, the CFTC asks a judge to dismiss CME's lawsuit over crypto perpetual futures, and the Justice Department seizes more than $560,000 in crypto intended",
     "link": "https://x.com/CoinDesk/status/2095658599460618553",
-    "score": 80,
+    "score": 74,
     "snippet": "A botnet that hijacked crypto payments for eight years is dismantled, the CFTC asks a judge to dismiss CME's lawsuit over crypto perpetual futures, and the Justice Department seizes more than $560,000 in crypto intended for Hamas. @jennsanasie has what you need to know.",
     "regions": [
       "US"
@@ -81,9 +138,93 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('lawsuit')",
     "matched": "lawsuit",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "41fbf7218be30a667efe027dd1ad3b416d38682d",
+    "title": "THE BLOCK: The IMF said El Salvador has documented that bitcoin accumulated since the first review of its $1.4 billion EFF (concluded June 2025) came from private donations, with no public resources used. It also said th",
+    "link": "https://x.com/TheBlockCo/status/2095772357080342749",
+    "score": 70,
+    "snippet": "THE BLOCK: The IMF said El Salvador has documented that bitcoin accumulated since the first review of its $1.4 billion EFF (concluded June 2025) came from private donations, with no public resources used. It also said the government’s role in the Chivo e-wallet has been largely wound down, with majo",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T07:14:02.733000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "5538778a9f5f3570fdd462c783a41e21f4ed9c3b",
+    "title": "THE BLOCK: Spot bitcoin $BTC ETFs logged $730.9 million in net inflows on Thursday, the largest single-day amount since Jan. 14. BlackRock's $IBIT led the funds with $454 million. Spot ether $ETH ETFs also attracted $141",
+    "link": "https://x.com/TheBlockCo/status/2095765976964886983",
+    "score": 70,
+    "snippet": "THE BLOCK: Spot bitcoin $BTC ETFs logged $730.9 million in net inflows on Thursday, the largest single-day amount since Jan. 14. BlackRock's $IBIT led the funds with $454 million. Spot ether $ETH ETFs also attracted $141.4 million in net inflows.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T06:48:42.094000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "9e26cec1b0327e88e65d2606be10050972068072",
+    "title": "October 15, 2026 is when FIL's vesting program ends, cutting gross issuance by roughly 75%, the largest supply change since mainnet launch. It lands just as Filecoin Onchain Cloud and Fil One bring paid demand onchain. R",
+    "link": "https://x.com/Filecoin/status/2095762886089945244",
+    "score": 70,
+    "snippet": "October 15, 2026 is when FIL's vesting program ends, cutting gross issuance by roughly 75%, the largest supply change since mainnet launch. It lands just as Filecoin Onchain Cloud and Fil One bring paid demand onchain. Read the full 2026 network update: https://filecointldr.io/blog/filecoin-network-",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:filecoin",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T06:36:25.148000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "FIL"
+    ]
   },
   {
     "id": "177d75b2282b5a0e539d406f8b2014aa239fbc1a",
@@ -136,73 +277,11 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ETH",
       "BTC"
-    ]
-  },
-  {
-    "id": "69b1724252242cdcf465ad0944447c5e125a4f66",
-    "title": ".@baby_fisherman on Double Down, live from Bitcoin Asia: \"The first product we are going to launch, later this year , it's native Bitcoin-backed borrowing with @aave v4.\" \"The end-to-end process only take less than 2 hou",
-    "link": "https://x.com/babylonlabs_io/status/2095693972215627822",
-    "score": 60,
-    "snippet": ".@baby_fisherman on Double Down, live from Bitcoin Asia: \"The first product we are going to launch, later this year , it's native Bitcoin-backed borrowing with @aave v4.\" \"The end-to-end process only take less than 2 hours, and one hour and half of the time is just to wait for Bitcoin and Ethereum t",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:babylonlabs_io",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T02:02:34.167000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BABY",
-      "BTC",
-      "ETH",
-      "AAVE"
-    ]
-  },
-  {
-    "id": "c6c5bc4a9070254adfcaec6998afebe2851aebfd",
-    "title": "The USDC Competition Was a $5M Success 💰🪙 We launched the USDC Competition with one goal: to educate users on how to launch tokenized agents & prompts and earn revenue directly in USDC. Highlights • Nearly $5M in trading",
-    "link": "https://x.com/swarms_corp/status/2095679229740437775",
-    "score": 60,
-    "snippet": "The USDC Competition Was a $5M Success 💰🪙 We launched the USDC Competition with one goal: to educate users on how to launch tokenized agents & prompts and earn revenue directly in USDC. Highlights • Nearly $5M in trading volume • 3,500+ traders participated • 2,000+ New Users on Swarms Marketplace A",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:swarms_corp",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T01:03:59.346000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SWARMS",
-      "USDC"
     ]
   },
   {
@@ -228,7 +307,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "STX",
@@ -236,11 +315,40 @@
     ]
   },
   {
-    "id": "d8b6a09e2f0805c44e644d4a982162f5613a7849",
-    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - StreetInsider",
+    "id": "c32613fd1869ae859f3adf2e44fbe69039e16335",
+    "title": "THE BLOCK: APX Lending launched a five-year revolving credit facility backed by Bitcoin and Ethereum, with rates from 10.49%. The company said borrowers can draw and repay credit as needed, with no origination, prepaymen",
+    "link": "https://x.com/TheBlockCo/status/2095779907339182365",
+    "score": 55,
+    "snippet": "THE BLOCK: APX Lending launched a five-year revolving credit facility backed by Bitcoin and Ethereum, with rates from 10.49%. The company said borrowers can draw and repay credit as needed, with no origination, prepayment or liquidation fees.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T07:44:02.646000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "f5f4800378995c11cbcebfa7b3383e6a92e06c91",
+    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - streetinsider.com",
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGstUEE3TGNuMngyZzFxT1VLUUxzemUySTBvQ2c2WlBDR0JtdGt0cTNjQVZFX1RxcmlaMDRUSHNBU2RLMnMwX1g3VHpFcXVWdk9JMFBvSG1GY2otbS03N0ZiRjU4TTRwaENnZGRsY09jXzZUbnVkcWNEcC1ZUmotYU1ka0VfSGdjbzVYUm9lTWQtM0M1VHN0Qk1rS3YwWktWZnZkd21HMUYzQTlwb2xRRF9HUE80UUxiRmJwUG1Pa2drWlVTendvUUpldWpud1ZMWDZNbGVrSUZJSkJHblVncjl1a0dCT1FzWVhodjJkS3BFOVM1bkE?oc=5",
     "score": 54,
-    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital StreetInsider",
+    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital streetinsider.com",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -290,6 +398,68 @@
     "coins": []
   },
   {
+    "id": "69b1724252242cdcf465ad0944447c5e125a4f66",
+    "title": ".@baby_fisherman on Double Down, live from Bitcoin Asia: \"The first product we are going to launch, later this year , it's native Bitcoin-backed borrowing with @aave v4.\" \"The end-to-end process only take less than 2 hou",
+    "link": "https://x.com/babylonlabs_io/status/2095693972215627822",
+    "score": 54,
+    "snippet": ".@baby_fisherman on Double Down, live from Bitcoin Asia: \"The first product we are going to launch, later this year , it's native Bitcoin-backed borrowing with @aave v4.\" \"The end-to-end process only take less than 2 hours, and one hour and half of the time is just to wait for Bitcoin and Ethereum t",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:babylonlabs_io",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T02:02:34.167000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BABY",
+      "BTC",
+      "ETH",
+      "AAVE"
+    ]
+  },
+  {
+    "id": "c6c5bc4a9070254adfcaec6998afebe2851aebfd",
+    "title": "The USDC Competition Was a $5M Success 💰🪙 We launched the USDC Competition with one goal: to educate users on how to launch tokenized agents & prompts and earn revenue directly in USDC. Highlights • Nearly $5M in trading",
+    "link": "https://x.com/swarms_corp/status/2095679229740437775",
+    "score": 54,
+    "snippet": "The USDC Competition Was a $5M Success 💰🪙 We launched the USDC Competition with one goal: to educate users on how to launch tokenized agents & prompts and earn revenue directly in USDC. Highlights • Nearly $5M in trading volume • 3,500+ traders participated • 2,000+ New Users on Swarms Marketplace A",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:swarms_corp",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T01:03:59.346000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SWARMS",
+      "USDC"
+    ]
+  },
+  {
     "id": "d2d8e46a29628dcbfe721f26a85b507f85cb2bfb",
     "title": "Pineapple Financial Tokenizes More Than $1 Billion in Mortgage Records on Injective",
     "link": "https://injective.com/blog/pineapple-financial-tokenizes-more-than-1-billion-in-mortgage-records-on-injective",
@@ -318,21 +488,21 @@
     ]
   },
   {
-    "id": "c5192e4cea9d82d19012c70ed1e826776a6aa211",
-    "title": "INTRODUCING THE ALL-NEW TALUS VISION 🔍 We’re officially transitioning Talus Vision from a visual builder into an agent-centric network explorer Discover our upgraded agent explorer live alongside Talus Protocol v2.0 Main",
-    "link": "https://x.com/Talus_Labs/status/2095516431186067820",
-    "score": 54,
-    "snippet": "INTRODUCING THE ALL-NEW TALUS VISION 🔍 We’re officially transitioning Talus Vision from a visual builder into an agent-centric network explorer Discover our upgraded agent explorer live alongside Talus Protocol v2.0 Mainnet 👇 https://x.com/i/article/2094819313018449920",
+    "id": "1d6304351fdcf67e85c22bfb59a07118387cd685",
+    "title": "Trade to Share Up to 400 BNB Token Vouchers",
+    "link": "https://www.treeofalpha.com/preview_article?id=1788512415673",
+    "score": 50,
+    "snippet": "Trade to Share Up to 400 BNB Token Vouchers",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:talus_labs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T14:17:05.022000+00:00",
+    "feed_name": "tree:sahara trading tournament",
+    "source": "TreeOfAlpha/Binance EN",
+    "published_at": "2026-09-04T09:00:16.924000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -340,91 +510,8 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "US",
-      "ALL"
-    ]
-  },
-  {
-    "id": "eb9eb22d26040790ed9f39866e7658060b28ed5e",
-    "title": "Introducing Flashloan Actions. Access temporary liquidity and execute complex capital strategies in a single atomic transaction. Build leveraged positions, migrate collateral, rebalance portfolios, and coordinate multi-p",
-    "link": "https://x.com/EnsoBuild/status/2095512309632582089",
-    "score": 54,
-    "snippet": "Introducing Flashloan Actions. Access temporary liquidity and execute complex capital strategies in a single atomic transaction. Build leveraged positions, migrate collateral, rebalance portfolios, and coordinate multi-protocol strategies across multiple Flashloan providers through one Enso integrat",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:ensobuild",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T14:00:42.528000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ENSO"
-    ]
-  },
-  {
-    "id": "1a892e00fc0f21552f8bc39b5791263521012995",
-    "title": "A September surprise, just for you: $10 for verified humans 🎁 @Selfxyz & @GoogleCloud launched the @USAT Mainnet Faucet on Celo, bringing real money to real people If you've already completed the claim, check your wallet",
-    "link": "https://x.com/Celo/status/2095497972478066840",
-    "score": 54,
-    "snippet": "A September surprise, just for you: $10 for verified humans 🎁 @Selfxyz & @GoogleCloud launched the @USAT Mainnet Faucet on Celo, bringing real money to real people If you've already completed the claim, check your wallet",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:celo",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T13:03:44.989000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CELO"
-    ]
-  },
-  {
-    "id": "dbb68d762f93ece0945cb6433aad45c72f0e5ec5",
-    "title": "NEW: Top-three Swift service provider, Bottomline, has entered a strategic partnership with Chainlink to unlock cross-chain, cross-border payments for its 600+ bank customers. Bottomline moves more than $16 trillion in p",
-    "link": "https://x.com/chainlink/status/2095497430473007387",
-    "score": 54,
-    "snippet": "NEW: Top-three Swift service provider, Bottomline, has entered a strategic partnership with Chainlink to unlock cross-chain, cross-border payments for its 600+ bank customers. Bottomline moves more than $16 trillion in payments annually across its platforms. Through the partnership, Chainlink is pro",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:chainlink",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T13:01:36.562000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "LINK"
+      "SAHARA",
+      "BNB"
     ]
   },
   {
@@ -457,32 +544,6 @@
     ]
   },
   {
-    "id": "b8e9aeeee419708f7eaec33b2876a3e6508c1694",
-    "title": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit Curve DAO approved funding yRisk on September 2 to oversee risk management for crvUSD and Llamalend, replacing LlamaRisk, which ende",
-    "link": "https://x.com/WuBlockchain/status/2095693241765253221",
-    "score": 50,
-    "snippet": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit Curve DAO approved funding yRisk on September 2 to oversee risk management for crvUSD and Llamalend, replacing LlamaRisk, which ended its engagement early. yRisk will receive 125,000 frxUSD and 568,181 CRV throug",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T01:59:40.146000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approved')",
-    "matched": "approved",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CRV"
-    ]
-  },
-  {
     "id": "5a565f777df22b0308da1e80c3f1cb5093828535",
     "title": "Bank of America joins 21 banks forming stablecoin venture targeting 2027 launch - The Business Journals",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPem9IalBmOGJ6NDByb183TFI4WVhCazZ4S2ZSbTlSOHlMd3hwR0ZCazJjbjFhMTBGS2ladXFKQlA5UHhIdFRhUU83UTBYRzZrYW1PWmNOdldRS0RVbFhPY0J0alk0R3hnV1N4OHUydFpZaXFyUFN4a01XX2pSSnlySTVhVzBXOENIUmZhdzVGZkZOUWpPZ2I0X0l5T3NrNDBhTy04RDNmTkxvUQ?oc=5",
@@ -510,29 +571,27 @@
     "coins": []
   },
   {
-    "id": "0fef2e3d2de587e0d9cd71d646dc7f4d78381652",
-    "title": "Korea Left Out as 21 Global Banks Including Goldman and Citi Set to Issue Stablecoins - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16SmVIaU55SG1ST1JYd2Q2S1FxR2JjWlQ0WHNRdWFJMWpvUUUza3hFb2txQ1hBMldCbjhRZXBMUkIzRzV6aVVLaWlaZVNkbzFiX0xMX0haUVpkVG9sei1IWno2b2JaWDlWN3JpSFBR?oc=5",
-    "score": 40,
-    "snippet": "Korea Left Out as 21 Global Banks Including Goldman and Citi Set to Issue Stablecoins 아시아경제",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "87dda8abc37d8aff34a701c69e77d0d9cc715d38",
+    "title": "Standard Chartered launches institutional spot crypto trading in UAE - ledgerinsights.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcG12Y2xLY1JWRlhKcUIzS2dReDBRY3FBN1pGNnFLNXF4TWJ2UjNrMmdPdFJ1LTVaOEl5dDNNOW04NFlMbjBOTnBld1VfWThYSHRrNjgwT05WcUV4ZWlTQUt2SG9TVGdsb0FucXRwcS04ZWhlTWRfYTlHMTZlZ2NMTTdpVENIdUNIR09VaEItdkJvUWRnUWZpeHhaeXI4RXh5Umc?oc=5",
+    "score": 49,
+    "snippet": "Standard Chartered launches institutional spot crypto trading in UAE ledgerinsights.com",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "feed_name": "institutional_crypto_banks",
     "source": "Google News RSS",
-    "published_at": "2026-09-03T23:48:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-09-03T10:40:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": false,
     "origin": "rss",
     "coins": []
