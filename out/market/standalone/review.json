@@ -28,35 +28,6 @@
     "coins": []
   },
   {
-    "id": "055d00601cd2e50a88e5ee5d77d0f4700ab679ba",
-    "title": "LATEST: Revolut has received conditional approval for a U.S. national bank charter, according to the Financial Times. The fintech plans to launch its U.S. bank in the first half of 2027, with stablecoins and business ban",
-    "link": "https://x.com/CoinDesk/status/2095557434937102654",
-    "score": 99,
-    "snippet": "LATEST: Revolut has received conditional approval for a U.S. national bank charter, according to the Financial Times. The fintech plans to launch its U.S. bank in the first half of 2027, with stablecoins and business banking among the products it plans to add over time.",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T17:00:01.133000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
-  },
-  {
     "id": "2054654c3820975fec1cc207dc6df8484c205fca",
     "title": "Nuvanté Technologies Announces Stablecoin Clearing Prototype Built on Stellar Network integrated to Bank of England RTGS",
     "link": "https://stellar.org/press/nuvante-technologies-announces-stablecoin-clearing-prototype-built-on-stellar-network-integrated-to-bank-of-england-rtgs",
@@ -87,29 +58,55 @@
     ]
   },
   {
-    "id": "772fc94eec018bc1c04482e36dd96789447e876c",
-    "title": "THE BLOCK: Fintech company Revolut says it has received a conditional approval for its U.S. bank charter from the Office of the Comptroller of the Currency. After approvals are finalized, the company says it will be able",
-    "link": "https://x.com/TheBlockCo/status/2095562819844669774",
-    "score": 84,
-    "snippet": "THE BLOCK: Fintech company Revolut says it has received a conditional approval for its U.S. bank charter from the Office of the Comptroller of the Currency. After approvals are finalized, the company says it will be able to directly offer loans, credit cards, as well as stablecoins and cryptocurrenc",
+    "id": "3a774eb93183f5df40fecdd3f0e2993527acd4bd",
+    "title": "UPDATE: The IMF confirms El Salvador's growing $BTC holdings came from private donations, not public funds, clearing a potential compliance issue with its $1B loan program as the country's official treasury hits 7,764 $B",
+    "link": "https://x.com/CoinDesk/status/2095844095658701243",
+    "score": 80,
+    "snippet": "UPDATE: The IMF confirms El Salvador's growing $BTC holdings came from private donations, not public funds, clearing a potential compliance issue with its $1B loan program as the country's official treasury hits 7,764 $BTC.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T11:59:06.490000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "2071b1b0c956d48df43b43921ce4da7c96f4ef1e",
+    "title": "THE BLOCK: Crypto firms are urging the SEC to speed up ETF reviews and allow confidential draft filings, with Grayscale seeking a 45-day staff response commitment. However, Jane Street and Schwab raised concerns over rus",
+    "link": "https://x.com/TheBlockCo/status/2095832697210122346",
+    "score": 75,
+    "snippet": "THE BLOCK: Crypto firms are urging the SEC to speed up ETF reviews and allow confidential draft filings, with Grayscale seeking a 45-day staff response commitment. However, Jane Street and Schwab raised concerns over rushed launches and confidential filings.",
     "regions": [
-      "EU"
+      "US"
     ],
-    "primary_region": "EU",
+    "primary_region": "US",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T17:21:25.218000+00:00",
+    "published_at": "2026-09-04T11:13:48.823000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": false,
     "origin": "tree",
     "coins": []
@@ -146,7 +143,7 @@
     "id": "41fbf7218be30a667efe027dd1ad3b416d38682d",
     "title": "THE BLOCK: The IMF said El Salvador has documented that bitcoin accumulated since the first review of its $1.4 billion EFF (concluded June 2025) came from private donations, with no public resources used. It also said th",
     "link": "https://x.com/TheBlockCo/status/2095772357080342749",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: The IMF said El Salvador has documented that bitcoin accumulated since the first review of its $1.4 billion EFF (concluded June 2025) came from private donations, with no public resources used. It also said the government’s role in the Chivo e-wallet has been largely wound down, with majo",
     "regions": [],
     "primary_region": null,
@@ -172,7 +169,7 @@
     "id": "5538778a9f5f3570fdd462c783a41e21f4ed9c3b",
     "title": "THE BLOCK: Spot bitcoin $BTC ETFs logged $730.9 million in net inflows on Thursday, the largest single-day amount since Jan. 14. BlackRock's $IBIT led the funds with $454 million. Spot ether $ETH ETFs also attracted $141",
     "link": "https://x.com/TheBlockCo/status/2095765976964886983",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Spot bitcoin $BTC ETFs logged $730.9 million in net inflows on Thursday, the largest single-day amount since Jan. 14. BlackRock's $IBIT led the funds with $454 million. Spot ether $ETH ETFs also attracted $141.4 million in net inflows.",
     "regions": [
       "US"
@@ -201,7 +198,7 @@
     "id": "9e26cec1b0327e88e65d2606be10050972068072",
     "title": "October 15, 2026 is when FIL's vesting program ends, cutting gross issuance by roughly 75%, the largest supply change since mainnet launch. It lands just as Filecoin Onchain Cloud and Fil One bring paid demand onchain. R",
     "link": "https://x.com/Filecoin/status/2095762886089945244",
-    "score": 70,
+    "score": 64,
     "snippet": "October 15, 2026 is when FIL's vesting program ends, cutting gross issuance by roughly 75%, the largest supply change since mainnet launch. It lands just as Filecoin Onchain Cloud and Fil One bring paid demand onchain. Read the full 2026 network update: https://filecointldr.io/blog/filecoin-network-",
     "regions": [],
     "primary_region": null,
@@ -256,62 +253,34 @@
     ]
   },
   {
-    "id": "a77e156e689e048f37cab07d52fda10b420e92bc",
-    "title": "Bitcoin Spot ETFs Saw Total Net Inflows of $731 Million on September 3 On September 3 (ET), Bitcoin spot ETFs recorded total net inflows of $731 million, led by BlackRock’s IBIT with $454 million. Ethereum spot ETFs saw",
-    "link": "https://x.com/WuBlockchain/status/2095727622668091437",
+    "id": "096f0fe05d1f801f7b628d80b0b06e09b26ff240",
+    "title": "FOMO IS NOW LIVE ON ROBINHOOD CHAIN. A new way to launch, trade, and back AI Model Tokens onchain. https://t.co/96wIRh6bPY",
+    "link": "https://twitter.com/flock_io/status/2095807028023468536",
     "score": 60,
-    "snippet": "Bitcoin Spot ETFs Saw Total Net Inflows of $731 Million on September 3 On September 3 (ET), Bitcoin spot ETFs recorded total net inflows of $731 million, led by BlackRock’s IBIT with $454 million. Ethereum spot ETFs saw total net inflows of $141 million, with BlackRock’s ETHA leading at $72.0685 mil",
+    "snippet": "FOMO IS NOW LIVE ON ROBINHOOD CHAIN. A new way to launch, trade, and back AI Model Tokens onchain. https://t.co/96wIRh6bPY",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T04:16:17.152000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ETH",
-      "BTC"
-    ]
-  },
-  {
-    "id": "e1826d46412197c02d1cecda60f471d59cc21ba2",
-    "title": "The issuer of the world's largest suite of crypto ETPs is joining Bitcoin Staking on Stacks. @21shares will stake its own Bitcoin treasury in the inaugural institutional cohort, the Stacks Genesis Bond, launching ~Septem",
-    "link": "https://x.com/Stacks/status/2095528714616668420",
-    "score": 59,
-    "snippet": "The issuer of the world's largest suite of crypto ETPs is joining Bitcoin Staking on Stacks. @21shares will stake its own Bitcoin treasury in the inaugural institutional cohort, the Stacks Genesis Bond, launching ~September 10. Bitcoin is becoming a productive asset on Stacks.",
-    "regions": [],
-    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:stacks",
+    "feed_name": "tree:x:flock_io",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T15:05:53.768000+00:00",
+    "published_at": "2026-09-04T09:31:54.786000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "STX",
-      "BTC"
+      "FLOCK",
+      "NOW"
     ]
   },
   {
@@ -371,31 +340,33 @@
     "coins": []
   },
   {
-    "id": "9250bd9fa9972be552231556e503a430bb4d283b",
-    "title": "21 global banks set to launch USD-pegged stablecoin JV - FinTech Futures",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ0pKS2FpNUhOWm8xamRyVjVFak5hU1RuWVpoUTE1a0hoa1E4M2FHbXhWaXFlbDFGOVhGMmVqRTZlMDJlY1kyeW51WXVOcE44Q3lPdnBPMzQyel8tTDhMb05MNkt5SkMtXzAtaFQyVzZjWW4zbklxX1BzbHJhVE93elIyczZ5Y013cnAzbE0tQUc0ckw1dWZOZENCaWJlS0c3R3AtLVFFSm5NQ1NuUk1JdkdadU9YV0tyUVE?oc=5",
+    "id": "a77e156e689e048f37cab07d52fda10b420e92bc",
+    "title": "Bitcoin Spot ETFs Saw Total Net Inflows of $731 Million on September 3 On September 3 (ET), Bitcoin spot ETFs recorded total net inflows of $731 million, led by BlackRock’s IBIT with $454 million. Ethereum spot ETFs saw",
+    "link": "https://x.com/WuBlockchain/status/2095727622668091437",
     "score": 54,
-    "snippet": "21 global banks set to launch USD-pegged stablecoin JV FinTech Futures",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "snippet": "Bitcoin Spot ETFs Saw Total Net Inflows of $731 Million on September 3 On September 3 (ET), Bitcoin spot ETFs recorded total net inflows of $731 million, led by BlackRock’s IBIT with $454 million. Ethereum spot ETFs saw total net inflows of $141 million, with BlackRock’s ETHA leading at $72.0685 mil",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-03T10:25:44+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T04:16:17.152000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "BTC"
+    ]
   },
   {
     "id": "69b1724252242cdcf465ad0944447c5e125a4f66",
@@ -460,34 +431,6 @@
     ]
   },
   {
-    "id": "d2d8e46a29628dcbfe721f26a85b507f85cb2bfb",
-    "title": "Pineapple Financial Tokenizes More Than $1 Billion in Mortgage Records on Injective",
-    "link": "https://injective.com/blog/pineapple-financial-tokenizes-more-than-1-billion-in-mortgage-records-on-injective",
-    "score": 54,
-    "snippet": "Pineapple Financial Tokenizes More Than $1 Billion in Mortgage Records on Injective",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:inj",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-03T14:32:00.026000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "INJ"
-    ]
-  },
-  {
     "id": "1d6304351fdcf67e85c22bfb59a07118387cd685",
     "title": "Trade to Share Up to 400 BNB Token Vouchers",
     "link": "https://www.treeofalpha.com/preview_article?id=1788512415673",
@@ -518,7 +461,7 @@
     "id": "6678a9cc755f93de711c84761b17bb8260299ca5",
     "title": "Hyperliquid Strategies expands equity facility to $2.5 billion from $1 billion",
     "link": "https://www.theblock.co/news/business/2026-09-01-hyperliquid-strategies-expands-equity-facility-413304",
-    "score": 50,
+    "score": 44,
     "snippet": "Hyperliquid Strategies expands equity facility to $2.5 billion from $1 billion",
     "regions": [
       "US",
@@ -542,59 +485,6 @@
     "coins": [
       "HYPE"
     ]
-  },
-  {
-    "id": "5a565f777df22b0308da1e80c3f1cb5093828535",
-    "title": "Bank of America joins 21 banks forming stablecoin venture targeting 2027 launch - The Business Journals",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPem9IalBmOGJ6NDByb183TFI4WVhCazZ4S2ZSbTlSOHlMd3hwR0ZCazJjbjFhMTBGS2ladXFKQlA5UHhIdFRhUU83UTBYRzZrYW1PWmNOdldRS0RVbFhPY0J0alk0R3hnV1N4OHUydFpZaXFyUFN4a01XX2pSSnlySTVhVzBXOENIUmZhdzVGZkZOUWpPZ2I0X0l5T3NrNDBhTy04RDNmTkxvUQ?oc=5",
-    "score": 49,
-    "snippet": "Bank of America joins 21 banks forming stablecoin venture targeting 2027 launch The Business Journals",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-03T11:04:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "87dda8abc37d8aff34a701c69e77d0d9cc715d38",
-    "title": "Standard Chartered launches institutional spot crypto trading in UAE - ledgerinsights.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcG12Y2xLY1JWRlhKcUIzS2dReDBRY3FBN1pGNnFLNXF4TWJ2UjNrMmdPdFJ1LTVaOEl5dDNNOW04NFlMbjBOTnBld1VfWThYSHRrNjgwT05WcUV4ZWlTQUt2SG9TVGdsb0FucXRwcS04ZWhlTWRfYTlHMTZlZ2NMTTdpVENIdUNIR09VaEItdkJvUWRnUWZpeHhaeXI4RXh5Umc?oc=5",
-    "score": 49,
-    "snippet": "Standard Chartered launches institutional spot crypto trading in UAE ledgerinsights.com",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-09-03T10:40:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "2eaf9b3c6bfa53f607946d107a6d8b9322e97768",
