@@ -24,7 +24,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -35,6 +35,7 @@
     "score": 84,
     "snippet": "THE BLOCK: Fintech company Revolut says it has received a conditional approval for its U.S. bank charter from the Office of the Comptroller of the Currency. After approvals are finalized, the company says it will be able to directly offer loans, credit cards, as well as stablecoins and cryptocurrenc",
     "regions": [
+      "US",
       "EU"
     ],
     "primary_region": "EU",
@@ -52,7 +53,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -80,7 +81,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('lawsuit')",
     "matched": "lawsuit",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -88,7 +89,7 @@
     "id": "177d75b2282b5a0e539d406f8b2014aa239fbc1a",
     "title": "Congrats to @conio and @EnelGroup as the Ebitts platform now moves from a successful pilot to market launch in Italy. Powered by Algorand, Ebitts lets customers buy tokenized renewable energy capacity from Italian solar",
     "link": "https://twitter.com/Algorand/status/2095588143718416832",
-    "score": 70,
+    "score": 64,
     "snippet": "Congrats to @conio and @EnelGroup as the Ebitts platform now moves from a successful pilot to market launch in Italy. Powered by Algorand, Ebitts lets customers buy tokenized renewable energy capacity from Italian solar and wind farms and benefit from the energy produced, https://t.co/gU32uWBm6O",
     "regions": [],
     "primary_region": null,
@@ -114,11 +115,40 @@
     ]
   },
   {
-    "id": "3573838e2721f85b8158a8b14baa4fddef4c2730",
-    "title": "Ethereum is for shipping. Here are 35 things the Ethereum ecosystem launched, upgraded, and announced through August. 1/ GnosisDAO approved a vote to transition @gnosischain from its own L1 to a ZK-proven Ethereum L2 rol",
-    "link": "https://x.com/ethereum/status/2095486647634645071",
-    "score": 69,
-    "snippet": "Ethereum is for shipping. Here are 35 things the Ethereum ecosystem launched, upgraded, and announced through August. 1/ GnosisDAO approved a vote to transition @gnosischain from its own L1 to a ZK-proven Ethereum L2 rollup with synchronous composability, so apps on Gnosis and Ethereum can interact ",
+    "id": "a77e156e689e048f37cab07d52fda10b420e92bc",
+    "title": "Bitcoin Spot ETFs Saw Total Net Inflows of $731 Million on September 3 On September 3 (ET), Bitcoin spot ETFs recorded total net inflows of $731 million, led by BlackRock’s IBIT with $454 million. Ethereum spot ETFs saw",
+    "link": "https://x.com/WuBlockchain/status/2095727622668091437",
+    "score": 60,
+    "snippet": "Bitcoin Spot ETFs Saw Total Net Inflows of $731 Million on September 3 On September 3 (ET), Bitcoin spot ETFs recorded total net inflows of $731 million, led by BlackRock’s IBIT with $454 million. Ethereum spot ETFs saw total net inflows of $141 million, with BlackRock’s ETHA leading at $72.0685 mil",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T04:16:17.152000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "69b1724252242cdcf465ad0944447c5e125a4f66",
+    "title": ".@baby_fisherman on Double Down, live from Bitcoin Asia: \"The first product we are going to launch, later this year , it's native Bitcoin-backed borrowing with @aave v4.\" \"The end-to-end process only take less than 2 hou",
+    "link": "https://x.com/babylonlabs_io/status/2095693972215627822",
+    "score": 60,
+    "snippet": ".@baby_fisherman on Double Down, live from Bitcoin Asia: \"The first product we are going to launch, later this year , it's native Bitcoin-backed borrowing with @aave v4.\" \"The end-to-end process only take less than 2 hours, and one hour and half of the time is just to wait for Bitcoin and Ethereum t",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -128,36 +158,28 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:ethereum",
+    "feed_name": "tree:x:babylonlabs_io",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T12:18:44.091000+00:00",
+    "published_at": "2026-09-04T02:02:34.167000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approved')",
-    "matched": "approved",
-    "fulltext": false,
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
+      "BABY",
+      "BTC",
       "ETH",
-      "ZK",
-      "OP",
-      "GNO",
-      "ARB",
-      "UNI",
-      "LIT",
-      "MORPHO",
-      "ACT",
-      "BASED",
-      "CELO",
       "AAVE"
     ]
   },
   {
-    "id": "faed8f2a6f572c27cb5524c2f8ebc25b30212fe3",
-    "title": "Ethereum is for shipping. Here are 35 things the Ethereum ecosystem launched, upgraded, and announced through August. 1/ GnosisDAO approved a vote to transition @gnosischain from its own L1 to a ZK-proven Ethereum L2 rol",
-    "link": "https://x.com/ethereum/status/2095485939657084977",
-    "score": 69,
-    "snippet": "Ethereum is for shipping. Here are 35 things the Ethereum ecosystem launched, upgraded, and announced through August. 1/ GnosisDAO approved a vote to transition @gnosischain from its own L1 to a ZK-proven Ethereum L2 rollup with synchronous composability, so apps on Gnosis and Ethereum can interact ",
+    "id": "c6c5bc4a9070254adfcaec6998afebe2851aebfd",
+    "title": "The USDC Competition Was a $5M Success 💰🪙 We launched the USDC Competition with one goal: to educate users on how to launch tokenized agents & prompts and earn revenue directly in USDC. Highlights • Nearly $5M in trading",
+    "link": "https://x.com/swarms_corp/status/2095679229740437775",
+    "score": 60,
+    "snippet": "The USDC Competition Was a $5M Success 💰🪙 We launched the USDC Competition with one goal: to educate users on how to launch tokenized agents & prompts and earn revenue directly in USDC. Highlights • Nearly $5M in trading volume • 3,500+ traders participated • 2,000+ New Users on Swarms Marketplace A",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -165,30 +187,22 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:ethereum",
+    "feed_name": "tree:x:swarms_corp",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T12:15:55.327000+00:00",
+    "published_at": "2026-09-04T01:03:59.346000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approved')",
-    "matched": "approved",
-    "fulltext": false,
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "ETH",
-      "ZK",
-      "OP",
-      "GNO",
-      "ARB",
-      "UNI",
-      "LIT",
-      "MORPHO",
-      "ACT",
-      "BASED",
-      "CELO",
-      "AAVE"
+      "SWARMS",
+      "USDC"
     ]
   },
   {
@@ -214,7 +228,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "STX",
@@ -276,33 +290,6 @@
     "coins": []
   },
   {
-    "id": "48c080c75a1b73b5ef8f3490e10b49975cbcc421",
-    "title": "21 Financial Giants Partner to Launch USD Stablecoin in 2027 - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVjZOYkJndENMQzFUNGFSTl9BOEFFT1MyUk1yTldLMXdnT1pXamlmZUpINXI5bHhSRTR0aWc2U0daQTk5dUYzcmpGdi1KYWdDNzhsQkw2cHZXdE92X0lDQXVRQS1mMVFzTmVLYkdEZkNsYXlTeTluRGE0TDcxU3hiazhFSVRmX3RHQmxsaUNCc0tEYUZiYnc3Y3hR?oc=5",
-    "score": 54,
-    "snippet": "21 Financial Giants Partner to Launch USD Stablecoin in 2027 KuCoin",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-03T04:40:33+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "d2d8e46a29628dcbfe721f26a85b507f85cb2bfb",
     "title": "Pineapple Financial Tokenizes More Than $1 Billion in Mortgage Records on Injective",
     "link": "https://injective.com/blog/pineapple-financial-tokenizes-more-than-1-billion-in-mortgage-records-on-injective",
@@ -350,7 +337,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "US",
@@ -377,7 +364,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ENSO"
@@ -405,7 +392,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CELO"
@@ -434,30 +421,31 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "LINK"
     ]
   },
   {
-    "id": "a2c85192dd4f7fbd694bfa7e61eb53844f262dbf",
-    "title": "Prospect Markets Executes Definitive Agreement with Crypto.com, Targeting U.S. Market Exceeding $1 Trillion in Annual Trading Volume",
-    "link": "https://crypto.com/en-de/company-news/prospect-markets-executes-definitive-agreement-with-cryptocom-targeting-us-market-exceeding-1-trillion-in-annual-trading-volume",
-    "score": 54,
-    "snippet": "Prospect Markets Executes Definitive Agreement with Crypto.com, Targeting U.S. Market Exceeding $1 Trillion in Annual Trading Volume",
+    "id": "6678a9cc755f93de711c84761b17bb8260299ca5",
+    "title": "Hyperliquid Strategies expands equity facility to $2.5 billion from $1 billion",
+    "link": "https://www.theblock.co/news/business/2026-09-01-hyperliquid-strategies-expands-equity-facility-413304",
+    "score": 50,
+    "snippet": "Hyperliquid Strategies expands equity facility to $2.5 billion from $1 billion",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
+    "category": "product",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 50,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:cro",
+    "feed_name": "tree:the block",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-03T12:03:31.549000+00:00",
+    "published_at": "2026-09-04T03:35:25.743000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -465,62 +453,33 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "CRO"
+      "HYPE"
     ]
   },
   {
-    "id": "32c4e6a905c34c42e658e7df3281bd5400ee3de5",
-    "title": "JUST IN: @StanChart launches institutional spot crypto trading in the UAE, covering $BTC, $ETH and 75+ assets, integrated directly into its regulated banking and FX platforms.",
-    "link": "https://x.com/CoinDesk/status/2095476464736948346",
-    "score": 54,
-    "snippet": "JUST IN: @StanChart launches institutional spot crypto trading in the UAE, covering $BTC, $ETH and 75+ assets, integrated directly into its regulated banking and FX platforms.",
+    "id": "b8e9aeeee419708f7eaec33b2876a3e6508c1694",
+    "title": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit Curve DAO approved funding yRisk on September 2 to oversee risk management for crvUSD and Llamalend, replacing LlamaRisk, which ende",
+    "link": "https://x.com/WuBlockchain/status/2095693241765253221",
+    "score": 50,
+    "snippet": "Curve DAO appoints two Resupply developers as risk provider despite prior $9.6M exploit Curve DAO approved funding yRisk on September 2 to oversee risk management for crvUSD and Llamalend, replacing LlamaRisk, which ended its engagement early. yRisk will receive 125,000 frxUSD and 568,181 CRV throug",
     "regions": [],
     "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T11:38:16.311000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH"
-    ]
-  },
-  {
-    "id": "8693558e476172cb0d39b6601c079367a46e3b16",
-    "title": "Hyperliquid to Add Optional Permissioned Market Functionality to HIP-3 Hyperliquid announced that a future network upgrade will add optional permissioned market functionality (HIP-3*) to HIP-3. Once enabled, market deplo",
-    "link": "https://x.com/WuBlockchain/status/2095475905896616328",
-    "score": 54,
-    "snippet": "Hyperliquid to Add Optional Permissioned Market Functionality to HIP-3 Hyperliquid announced that a future network upgrade will add optional permissioned market functionality (HIP-3*) to HIP-3. Once enabled, market deployers or their sub-deployers can manage onchain whitelists to restrict participan",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T11:36:03.223000+00:00",
+    "published_at": "2026-09-04T01:59:40.146000+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
-    "fulltext": false,
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approved')",
+    "matched": "approved",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HYPE"
+      "CRV"
     ]
   },
   {
@@ -549,32 +508,6 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "417a35e955c101aca50ce290f8fba6a79e80be86",
-    "title": "Sberbank Expects Russia's Legal Bitcoin and Crypto Market Reaching $46 Billion Mark in First Year",
-    "link": "https://www.crowdfundinsider.com/2026/09/303995-sberbank-expects-russias-legal-bitcoin-and-crypto-market-reaching-46-billion-mark-in-first-year",
-    "score": 44,
-    "snippet": "Sberbank Expects Russia's Legal Bitcoin and Crypto Market Reaching $46 Billion Mark in First Year",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-03T12:45:48.321000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
   },
   {
     "id": "0fef2e3d2de587e0d9cd71d646dc7f4d78381652",
