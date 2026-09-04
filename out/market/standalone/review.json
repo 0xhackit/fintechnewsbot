@@ -3,7 +3,7 @@
     "id": "055d00601cd2e50a88e5ee5d77d0f4700ab679ba",
     "title": "LATEST: Revolut has received conditional approval for a U.S. national bank charter, according to the Financial Times. The fintech plans to launch its U.S. bank in the first half of 2027, with stablecoins and business ban",
     "link": "https://x.com/CoinDesk/status/2095557434937102654",
-    "score": 105,
+    "score": 99,
     "snippet": "LATEST: Revolut has received conditional approval for a U.S. national bank charter, according to the Financial Times. The fintech plans to launch its U.S. bank in the first half of 2027, with stablecoins and business banking among the products it plans to add over time.",
     "regions": [
       "EU"
@@ -32,7 +32,7 @@
     "id": "772fc94eec018bc1c04482e36dd96789447e876c",
     "title": "THE BLOCK: Fintech company Revolut says it has received a conditional approval for its U.S. bank charter from the Office of the Comptroller of the Currency. After approvals are finalized, the company says it will be able",
     "link": "https://x.com/TheBlockCo/status/2095562819844669774",
-    "score": 90,
+    "score": 84,
     "snippet": "THE BLOCK: Fintech company Revolut says it has received a conditional approval for its U.S. bank charter from the Office of the Comptroller of the Currency. After approvals are finalized, the company says it will be able to directly offer loans, credit cards, as well as stablecoins and cryptocurrenc",
     "regions": [
       "EU"
@@ -52,6 +52,34 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "504745b098faae12ff56ac6ddc4aa6a0a8d61eb6",
+    "title": "A botnet that hijacked crypto payments for eight years is dismantled, the CFTC asks a judge to dismiss CME's lawsuit over crypto perpetual futures, and the Justice Department seizes more than $560,000 in crypto intended",
+    "link": "https://x.com/CoinDesk/status/2095658599460618553",
+    "score": 80,
+    "snippet": "A botnet that hijacked crypto payments for eight years is dismantled, the CFTC asks a judge to dismiss CME's lawsuit over crypto perpetual futures, and the Justice Department seizes more than $560,000 in crypto intended for Hamas. @jennsanasie has what you need to know.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-03T23:42:00.643000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('lawsuit')",
+    "matched": "lawsuit",
     "fulltext": false,
     "origin": "tree",
     "coins": []
@@ -194,6 +222,33 @@
     ]
   },
   {
+    "id": "d8b6a09e2f0805c44e644d4a982162f5613a7849",
+    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGstUEE3TGNuMngyZzFxT1VLUUxzemUySTBvQ2c2WlBDR0JtdGt0cTNjQVZFX1RxcmlaMDRUSHNBU2RLMnMwX1g3VHpFcXVWdk9JMFBvSG1GY2otbS03N0ZiRjU4TTRwaENnZGRsY09jXzZUbnVkcWNEcC1ZUmotYU1ka0VfSGdjbzVYUm9lTWQtM0M1VHN0Qk1rS3YwWktWZnZkd21HMUYzQTlwb2xRRF9HUE80UUxiRmJwUG1Pa2drWlVTendvUUpldWpud1ZMWDZNbGVrSUZJSkJHblVncjl1a0dCT1FzWVhodjJkS3BFOVM1bkE?oc=5",
+    "score": 54,
+    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital StreetInsider",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-09-03T17:35:28+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "9250bd9fa9972be552231556e503a430bb4d283b",
     "title": "21 global banks set to launch USD-pegged stablecoin JV - FinTech Futures",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ0pKS2FpNUhOWm8xamRyVjVFak5hU1RuWVpoUTE1a0hoa1E4M2FHbXhWaXFlbDFGOVhGMmVqRTZlMDJlY1kyeW51WXVOcE44Q3lPdnBPMzQyel8tTDhMb05MNkt5SkMtXzAtaFQyVzZjWW4zbklxX1BzbHJhVE93elIyczZ5Y013cnAzbE0tQUc0ckw1dWZOZENCaWJlS0c3R3AtLVFFSm5NQ1NuUk1JdkdadU9YV0tyUVE?oc=5",
@@ -216,7 +271,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -243,7 +298,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -491,7 +546,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -522,6 +577,34 @@
     ]
   },
   {
+    "id": "0fef2e3d2de587e0d9cd71d646dc7f4d78381652",
+    "title": "Korea Left Out as 21 Global Banks Including Goldman and Citi Set to Issue Stablecoins - 아시아경제",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16SmVIaU55SG1ST1JYd2Q2S1FxR2JjWlQ0WHNRdWFJMWpvUUUza3hFb2txQ1hBMldCbjhRZXBMUkIzRzV6aVVLaWlaZVNkbzFiX0xMX0haUVpkVG9sei1IWno2b2JaWDlWN3JpSFBR?oc=5",
+    "score": 40,
+    "snippet": "Korea Left Out as 21 Global Banks Including Goldman and Citi Set to Issue Stablecoins 아시아경제",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-09-03T23:48:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "2eaf9b3c6bfa53f607946d107a6d8b9322e97768",
     "title": "Stellar's USDT0 Stablecoin Launch Fuels XLM Price Surge - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EejBySXlud1pNUWF5OURxSnIwb0NWZGVMbDBQalRrMUtSSGdpb2pLM2pnZGFlc1kwLVd2SmIxUHNma0NwZ0Z0LWFJV0FNbnNjUUJQdlVrYmpDN25rUTd2Nm5yM2ZzVnZ1aVFoNlpDNUg?oc=5",
@@ -544,7 +627,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
