@@ -10,7 +10,7 @@
     "snippet": "OpenReserve Holdings received preliminary OCC approval for a national bank focused on onchain settlement, following a $25 million seed round.",
     "published_at": "2026-09-04T10:18:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -21,19 +21,66 @@
       "id": "865a5223-2843-5a15-8895-62dc335cf27b",
       "guidislink": false
     },
-    "score": 90,
+    "score": 84,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "fed7b5ee5fe96ad2bb9318486fe66410839ad95de085a24548bc955d76c8b90d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Revolut, OpenReserve get preliminary US bank approval with crypto plans",
+    "url": "https://cointelegraph.com/news/revolut-openreserve-occ-approval-national-bank-crypto-plan?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/revolut-openreserve-occ-approval-national-bank-crypto-plan",
+    "snippet": "Revolut and OpenReserve received preliminary OCC approval to form US national banks, with both planning cryptocurrency and stablecoin-related services.",
+    "published_at": "2026-09-04T13:34:30+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/revolut-openreserve-occ-approval-national-bank-crypto-plan",
+      "guidislink": true
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -57,7 +104,7 @@
     "snippet": "In contrast, Jane Street and Charles Schwab raised concerns over rushed ETF launches and confidential filings limiting market scrutiny.",
     "published_at": "2026-09-04T11:21:09+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -104,7 +151,7 @@
     "snippet": "South Korea’s financial regulator introduced a three-phase roadmap for the issuance of tokenized assets, as the country prepares to adopt its first tokenized securities framework in February 2027.",
     "published_at": "2026-09-04T10:42:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "issuance",
       "tokenized"
@@ -117,14 +164,14 @@
       "id": "https://cointelegraph.com/news/south-korean-regulators-tokenized-securities-roadmap",
       "guidislink": true
     },
-    "score": 65,
+    "score": 59,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 3,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 55,
       "institution_bonus": 0,
@@ -143,66 +190,17 @@
     ]
   },
   {
-    "id": "b28cfad65af42ff3a2642d2a2b35bb1a58a8a140d8949c67fad1889dbfaabc33",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Stablecoin payments infrastructure startup Diameter Pay raises $10 million",
-    "url": "https://www.theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
-    "canonical_url": "https://theblock.co/news/deals/2026-09-03-diameter-pay-funding-stablecoin-payments-infrastructure-413454",
-    "snippet": "Diameter Pay has raised $10 million in a Series A funding round co-led by CMT Digital and Lightspeed Faction.",
-    "published_at": "2026-09-03T16:00:03+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "b7fc8a4f-0267-526f-95b6-7d8eaad5fdea",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 3,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "36b8d74a83b7787f0f7a90a6833a389a1e9d150db2572e34a8f146ea3a502ba5",
+    "id": "80c6347003dbd5c2057d77732a118bdf27798d29a12f7bfc7b396a2c4fcea4e9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "tokenized_funds_rwa",
-    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - streetinsider.com",
+    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - StreetInsider",
     "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGstUEE3TGNuMngyZzFxT1VLUUxzemUySTBvQ2c2WlBDR0JtdGt0cTNjQVZFX1RxcmlaMDRUSHNBU2RLMnMwX1g3VHpFcXVWdk9JMFBvSG1GY2otbS03N0ZiRjU4TTRwaENnZGRsY09jXzZUbnVkcWNEcC1ZUmotYU1ka0VfSGdjbzVYUm9lTWQtM0M1VHN0Qk1rS3YwWktWZnZkd21HMUYzQTlwb2xRRF9HUE80UUxiRmJwUG1Pa2drWlVTendvUUpldWpud1ZMWDZNbGVrSUZJSkJHblVncjl1a0dCT1FzWVhodjJkS3BFOVM1bkE?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGstUEE3TGNuMngyZzFxT1VLUUxzemUySTBvQ2c2WlBDR0JtdGt0cTNjQVZFX1RxcmlaMDRUSHNBU2RLMnMwX1g3VHpFcXVWdk9JMFBvSG1GY2otbS03N0ZiRjU4TTRwaENnZGRsY09jXzZUbnVkcWNEcC1ZUmotYU1ka0VfSGdjbzVYUm9lTWQtM0M1VHN0Qk1rS3YwWktWZnZkd21HMUYzQTlwb2xRRF9HUE80UUxiRmJwUG1Pa2drWlVTendvUUpldWpud1ZMWDZNbGVrSUZJSkJHblVncjl1a0dCT1FzWVhodjJkS3BFOVM1bkE?oc=5",
-    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital streetinsider.com",
+    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital StreetInsider",
     "published_at": "2026-09-03T17:35:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "RWA",
       "launch"
@@ -241,103 +239,6 @@
     ]
   },
   {
-    "id": "72cdc4705410ef65dbf506c20098f3f3e1c8d4b739b5ee1572620a9eb92a7d88",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Kraken parent Payward partners with SoFi on stablecoin, 24/7 settlement",
-    "url": "https://cointelegraph.com/news/kraken-parent-payward-partners-with-sofi-stablecoin-247-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/kraken-parent-payward-partners-with-sofi-stablecoin-247-settlement",
-    "snippet": "The deal will bring SoFiUSD to Kraken, connect Payward to SoFi’s 24/7 dollar settlement network and give SoFi access to digital asset liquidity through Kraken Prime.",
-    "published_at": "2026-09-03T16:04:11+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement",
-      "partners"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/kraken-parent-payward-partners-with-sofi-stablecoin-247-settlement",
-      "guidislink": true
-    },
-    "score": 49,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "cc0da37245d234ec1ed9cdf5bab385a612cff7faab27265017d647f659215c72",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "KB Kookmin Bank leverages Kinexys by JPMorgan for import/export payments",
-    "url": "https://www.finextra.com/pressarticle/110808/kb-kookmin-bank-leverages-kinexys-by-jpmorgan-for-importexport-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110808/kb-kookmin-bank-leverages-kinexys-by-jpmorgan-for-importexport-payments",
-    "snippet": "KB Kookmin Bank will launch an import/export corporate payment service leveraging Kinexys by J.P. Morgan’s Blockchain Deposit Account (BDA) network.",
-    "published_at": "2026-09-03T15:37:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "launch"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/110808/kb-kookmin-bank-leverages-kinexys-by-jpmorgan-for-importexport-payments?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 49,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "34167e98343949b2d6f3425d76cbf188bfaa0a6ae6d4a2c2e6f606f9b37105a0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -348,7 +249,7 @@
     "snippet": "The agreement includes parallel investigations and information sharing, with US and UK authorities planning a private-sector disruption operation in London in October.",
     "published_at": "2026-09-04T04:33:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -385,6 +286,53 @@
     ]
   },
   {
+    "id": "72cafc13e0a4472899474e58522004b61667daf4e7233a2bb2f07f1aac43b25d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "institutional_crypto_banks",
+    "title": "Standard Chartered Launches Bitcoin and Ethereum Trading in UAE: Why It Matters for Institutional Crypto - MEXC",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNUV5RXI1a3h3LVhDS3QyRllwYmFjS3Zhd1BDMnRWQ3VLczJIVFhLMU9iOXlDR2V4dVAzYTVCYkQ2X0pod2xrWDlhbnRQZlE4SHZIeXZ5c1I0TC1sUzBMN25NTk91M0tuZi1wTXAycFhzVkpJald2NEpiVGRBY0RRQ3licUdlWnRUV2tHUzF4QVBqMUJ1OXcyUFhpdHl5TUZIdXIxNlBsbXlKWkxxSlgwNFdnazd3eVVKNlhjQzNPajM0Q0RtQ3ZDaDVETV8xaVZvMWFsdldn?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNUV5RXI1a3h3LVhDS3QyRllwYmFjS3Zhd1BDMnRWQ3VLczJIVFhLMU9iOXlDR2V4dVAzYTVCYkQ2X0pod2xrWDlhbnRQZlE4SHZIeXZ5c1I0TC1sUzBMN25NTk91M0tuZi1wTXAycFhzVkpJald2NEpiVGRBY0RRQ3licUdlWnRUV2tHUzF4QVBqMUJ1OXcyUFhpdHl5TUZIdXIxNlBsbXlKWkxxSlgwNFdnazd3eVVKNlhjQzNPajM0Q0RtQ3ZDaDVETV8xaVZvMWFsdldn?oc=5",
+    "snippet": "Standard Chartered Launches Bitcoin and Ethereum Trading in UAE: Why It Matters for Institutional Crypto MEXC",
+    "published_at": "2026-09-04T06:02:02+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMi1gFBVV95cUxNNUV5RXI1a3h3LVhDS3QyRllwYmFjS3Zhd1BDMnRWQ3VLczJIVFhLMU9iOXlDR2V4dVAzYTVCYkQ2X0pod2xrWDlhbnRQZlE4SHZIeXZ5c1I0TC1sUzBMN25NTk91M0tuZi1wTXAycFhzVkpJald2NEpiVGRBY0RRQ3licUdlWnRUV2tHUzF4QVBqMUJ1OXcyUFhpdHl5TUZIdXIxNlBsbXlKWkxxSlgwNFdnazd3eVVKNlhjQzNPajM0Q0RtQ3ZDaDVETV8xaVZvMWFsdldn",
+      "guidislink": false
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -10,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "b9d4db13b65e0124136da777b633fe7ce01ee0b6018428964706bb9186c3d12a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -395,7 +343,7 @@
     "snippet": "The integration lets Bybit users spend digital assets directly from their exchange balances across Mesh-powered platforms.",
     "published_at": "2026-09-03T17:13:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -432,149 +380,6 @@
     ]
   },
   {
-    "id": "ca4fc89acbe5f0db616af208151640bd6d16b07b0a0633ce139b117d7819fa33",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "AMC chief criticizes Robinhood’s tokenized stock plan",
-    "url": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock",
-    "snippet": "AMC’s CEO criticized Robinhood’s tokenized stock offerings for being unregulated in the US and said he will request an investigation from an external securities counsel.",
-    "published_at": "2026-09-04T09:56:52+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock",
-      "guidislink": true
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "40f78a6c31fa437a951b4ea0cc85a93063f8628b5cb2082689b82bb2c0fad2ed",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Memecoin App Pons Drives Record Fees on Robinhood’s New Blockchain",
-    "url": "https://www.pymnts.com/blockchain/2026/memecoin-app-pons-drives-record-fees-on-robinhoods-new-blockchain/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/memecoin-app-pons-drives-record-fees-on-robinhoods-new-blockchain/",
-    "snippet": "A third-party token-creation application has emerged as one of the digital asset industry’s largest fee generators, driven by active retail trading on Robinhood Markets’ newly launched blockchain network. According to a Thursday (Sept. 3) report by CoinDesk, users paid about $5.95 million in fees ov",
-    "published_at": "2026-09-04T00:37:13+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "launched"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4154161",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "86471d040842c3c648564c8bc4e3ba866df6f9ac276de53324033d08e58504b4",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Stellar's USDT0 Stablecoin Launch Fuels XLM Price Surge - CoinMarketCap",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EejBySXlud1pNUWF5OURxSnIwb0NWZGVMbDBQalRrMUtSSGdpb2pLM2pnZGFlc1kwLVd2SmIxUHNma0NwZ0Z0LWFJV0FNbnNjUUJQdlVrYmpDN25rUTd2Nm5yM2ZzVnZ1aVFoNlpDNUg?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EejBySXlud1pNUWF5OURxSnIwb0NWZGVMbDBQalRrMUtSSGdpb2pLM2pnZGFlc1kwLVd2SmIxUHNma0NwZ0Z0LWFJV0FNbnNjUUJQdlVrYmpDN25rUTd2Nm5yM2ZzVnZ1aVFoNlpDNUg?oc=5",
-    "snippet": "Stellar's USDT0 Stablecoin Launch Fuels XLM Price Surge CoinMarketCap",
-    "published_at": "2026-09-03T15:05:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "launch"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMicEFVX3lxTE1EejBySXlud1pNUWF5OURxSnIwb0NWZGVMbDBQalRrMUtSSGdpb2pLM2pnZGFlc1kwLVd2SmIxUHNma0NwZ0Z0LWFJV0FNbnNjUUJQdlVrYmpDN25rUTd2Nm5yM2ZzVnZ1aVFoNlpDNUg",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "5e8b6a77d12af0ee5495464cf3d99bfe08dfc556a60ad9dc50b9f4a7ed07b906",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -585,7 +390,7 @@
     "snippet": "Overhaul of bond positions suggested to Ministry of Finance aims to boost returns",
     "published_at": "2026-09-04T04:00:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -620,6 +425,53 @@
     ]
   },
   {
+    "id": "ca4fc89acbe5f0db616af208151640bd6d16b07b0a0633ce139b117d7819fa33",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "AMC chief criticizes Robinhood’s tokenized stock plan",
+    "url": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock",
+    "snippet": "AMC’s CEO criticized Robinhood’s tokenized stock offerings for being unregulated in the US and said he will request an investigation from an external securities counsel.",
+    "published_at": "2026-09-04T09:56:52+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock",
+      "guidislink": true
+    },
+    "score": 29,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "0f1417558b111181be7624318911deda633c2b44172551629c00b7adb99fbe39",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -630,7 +482,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -675,7 +527,7 @@
     "snippet": "Mantle has added Paxos-issued USDG as a natively minted stablecoin while joining the network’s reward-sharing structure.",
     "published_at": "2026-09-03T19:36:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos"
@@ -713,112 +565,17 @@
     ]
   },
   {
-    "id": "d823079ab84e509400fa3269853b2f7a4e26d1b4ea6e7aabe4512b94f74ddc18",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "SoFi Links Banking Network and Stablecoin to Kraken in New Deal",
-    "url": "https://decrypt.co/377283/sofi-banking-network-stablecoin-kraken",
-    "canonical_url": "https://decrypt.co/377283/sofi-banking-network-stablecoin-kraken",
-    "snippet": "Kraken will list SoFiUSD and gain access to SoFi’s round-the-clock dollar settlement network, while Kraken Prime will execute trades for SoFi’s crypto customers.",
-    "published_at": "2026-09-03T15:40:08+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=377283",
-      "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "37ee6eb20a6a52cda70d4a9aa9ba2c6b09c2a993111e19282bdbc58123fcc2d0",
+    "id": "64712ab8724d861706cb75f139c5cd419879ef2c1113fcfd47be9fb995618752",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "tokenized_funds_rwa",
-    "title": "Korea to Expand Tokenized Securities to Stocks, Bonds and Funds - Seoul Economic Daily",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmU1bk5wNlFSeEViY1ZYZ2hLQzNfZnRaVU44RkVsbVhUVXdPeDQtemRnMDdGUjFHWDVsc2JmTl82NHNVbktHSkU1OGo5aUdmNnE2VVpZeGRPZ1NqSGNJc0RJRVVrWnIzeWVESDZ4WkREQXhrNWk1Zk5WdDI1UzhMeEJEWHlQM0FCTjhENHlwYVZyVERRdzVxRWRpS2RBODQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmU1bk5wNlFSeEViY1ZYZ2hLQzNfZnRaVU44RkVsbVhUVXdPeDQtemRnMDdGUjFHWDVsc2JmTl82NHNVbktHSkU1OGo5aUdmNnE2VVpZeGRPZ1NqSGNJc0RJRVVrWnIzeWVESDZ4WkREQXhrNWk1Zk5WdDI1UzhMeEJEWHlQM0FCTjhENHlwYVZyVERRdzVxRWRpS2RBODQ?oc=5",
-    "snippet": "Korea to Expand Tokenized Securities to Stocks, Bonds and Funds Seoul Economic Daily",
-    "published_at": "2026-09-04T10:41:52+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "CBMinwFBVV95cUxNUmU1bk5wNlFSeEViY1ZYZ2hLQzNfZnRaVU44RkVsbVhUVXdPeDQtemRnMDdGUjFHWDVsc2JmTl82NHNVbktHSkU1OGo5aUdmNnE2VVpZeGRPZ1NqSGNJc0RJRVVrWnIzeWVESDZ4WkREQXhrNWk1Zk5WdDI1UzhMeEJEWHlQM0FCTjhENHlwYVZyVERRdzVxRWRpS2RBODQ",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "fc7bebaeeb500a0e4e25ea0fefa99a7fa258ad8ca139342d9d7f5667d1e3150f",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "South Korea Phased Rollout of Tokenized Stocks, Bonds Starts February - 조선일보",
+    "title": "Tokenized Securities to Include Stocks, Bonds in Phased Rollout - 조선일보",
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPXzFJWjYyTkpGYWVXV2ZZV1F6a19sMFZmN0I0RHJXS3pHX2pFR1NXbEFRRDhUNjBENmtjNm54OXZOSlluYTE4RzVaZ05JWVMzMWN0Yzh6aGpTSmpiOEcyUllCSlZjMGdJODVoeGphcTFNQVRYemJOdWo3ZFNHOTFRSkpPb1dtbElDRU4yMFFR?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPXzFJWjYyTkpGYWVXV2ZZV1F6a19sMFZmN0I0RHJXS3pHX2pFR1NXbEFRRDhUNjBENmtjNm54OXZOSlluYTE4RzVaZ05JWVMzMWN0Yzh6aGpTSmpiOEcyUllCSlZjMGdJODVoeGphcTFNQVRYemJOdWo3ZFNHOTFRSkpPb1dtbElDRU4yMFFR?oc=5",
-    "snippet": "South Korea Phased Rollout of Tokenized Stocks, Bonds Starts February 조선일보",
-    "published_at": "2026-09-04T10:19:23+00:00",
+    "snippet": "Tokenized Securities to Include Stocks, Bonds in Phased Rollout 조선일보",
+    "published_at": "2026-09-04T10:43:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "tokenized",
       "rollout"
@@ -829,198 +586,6 @@
     ],
     "raw": {
       "id": "CBMijgFBVV95cUxPXzFJWjYyTkpGYWVXV2ZZV1F6a19sMFZmN0I0RHJXS3pHX2pFR1NXbEFRRDhUNjBENmtjNm54OXZOSlluYTE4RzVaZ05JWVMzMWN0Yzh6aGpTSmpiOEcyUllCSlZjMGdJODVoeGphcTFNQVRYemJOdWo3ZFNHOTFRSkpPb1dtbElDRU4yMFFR",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "bf52ea689aa41efe7844880a15daf5b04e4309be3207405d0cb4b163b4f9bdf0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "South Korea to start tokenizing ‘all types’ of securities in three stages from 2027",
-    "url": "https://www.theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523",
-    "canonical_url": "https://theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523",
-    "snippet": "South Korea ultimately aims to allow participants to settle tokenized securities onchain with stablecoins, as part of a three-stage plan.",
-    "published_at": "2026-09-04T09:46:06+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "70050b58-2417-5cab-a51a-0fd90a6d5986",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "cea53e79b7bfaac3a1f0afd7ad9052c4b90dfc75a0db9e845048eb5bfa01c17c",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "South Korea targets February 2027 rollout for full tokenized securities market",
-    "url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
-    "canonical_url": "https://coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
-    "snippet": "",
-    "published_at": "2026-09-04T09:41:31+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "tokenized",
-      "rollout"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "724e8c5f-ffa0-48e1-bc96-78d7329cfdbb",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "beafbec91399301bf7ac768526d28b30c00faf5b113cd6d1c0a3134539cddac0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "AMC stock jumps 21% overnight as CEO slams Robinhood over ‘outrageous’ tokenized shares",
-    "url": "https://www.theblock.co/news/business/2026-09-04-amc-ceo-slams-robinhood-413513",
-    "canonical_url": "https://theblock.co/news/business/2026-09-04-amc-ceo-slams-robinhood-413513",
-    "snippet": "OpenAI had previously made a similar criticism of Robinhood’s tokenized equities, saying it did not approve the transfer of its shares.",
-    "published_at": "2026-09-04T07:59:34+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "652598fb-4972-5d88-b776-4de30e23848c",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "e0e7e38525102ad8d3aff277f5cb789195987153cd853daad9fbda235efec254",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Bottomline Taps Chainlink to Bring 600 Banks On-Chain",
-    "url": "https://www.pymnts.com/blockchain/2026/bottomline-partners-with-chainlink-to-connect-600-banks-to-blockchain-settlement/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/bottomline-partners-with-chainlink-to-connect-600-banks-to-blockchain-settlement/",
-    "snippet": "Bottomline, a top-three provider of Swift services, has partnered with Chainlink to give more than 600 bank customers access to blockchain-based cross-border settlement. The deal is one of the largest efforts yet to link the Swift messaging network, which banks have relied on for decades, with publi",
-    "published_at": "2026-09-04T01:45:49+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
-    "matched_keywords": [
-      "settlement",
-      "cross-border"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4154429",
       "guidislink": false
     },
     "score": 14,
@@ -1049,17 +614,208 @@
     ]
   },
   {
-    "id": "42a17115e38eef9fa2b0a9b22cd413cff91f1a92f4f784c9e915729e194916ac",
+    "id": "37ee6eb20a6a52cda70d4a9aa9ba2c6b09c2a993111e19282bdbc58123fcc2d0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "tokenized_funds_rwa",
-    "title": "South Korea to Expand Tokenized Securities to Stocks, Bonds and MMFs From Feb. 4 - bloomingbit",
+    "title": "Korea to Expand Tokenized Securities to Stocks, Bonds and Funds - Seoul Economic Daily",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmU1bk5wNlFSeEViY1ZYZ2hLQzNfZnRaVU44RkVsbVhUVXdPeDQtemRnMDdGUjFHWDVsc2JmTl82NHNVbktHSkU1OGo5aUdmNnE2VVpZeGRPZ1NqSGNJc0RJRVVrWnIzeWVESDZ4WkREQXhrNWk1Zk5WdDI1UzhMeEJEWHlQM0FCTjhENHlwYVZyVERRdzVxRWRpS2RBODQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmU1bk5wNlFSeEViY1ZYZ2hLQzNfZnRaVU44RkVsbVhUVXdPeDQtemRnMDdGUjFHWDVsc2JmTl82NHNVbktHSkU1OGo5aUdmNnE2VVpZeGRPZ1NqSGNJc0RJRVVrWnIzeWVESDZ4WkREQXhrNWk1Zk5WdDI1UzhMeEJEWHlQM0FCTjhENHlwYVZyVERRdzVxRWRpS2RBODQ?oc=5",
+    "snippet": "Korea to Expand Tokenized Securities to Stocks, Bonds and Funds Seoul Economic Daily",
+    "published_at": "2026-09-04T10:41:52+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMinwFBVV95cUxNUmU1bk5wNlFSeEViY1ZYZ2hLQzNfZnRaVU44RkVsbVhUVXdPeDQtemRnMDdGUjFHWDVsc2JmTl82NHNVbktHSkU1OGo5aUdmNnE2VVpZeGRPZ1NqSGNJc0RJRVVrWnIzeWVESDZ4WkREQXhrNWk1Zk5WdDI1UzhMeEJEWHlQM0FCTjhENHlwYVZyVERRdzVxRWRpS2RBODQ",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "bf52ea689aa41efe7844880a15daf5b04e4309be3207405d0cb4b163b4f9bdf0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "South Korea to start tokenizing ‘all types’ of securities in three stages from 2027",
+    "url": "https://www.theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523",
+    "canonical_url": "https://theblock.co/news/regulation/2026-09-04-south-korea-to-start-tokenizing-all-types-of-securities-in-three-stages-from-2027-413523",
+    "snippet": "South Korea ultimately aims to allow participants to settle tokenized securities onchain with stablecoins, as part of a three-stage plan.",
+    "published_at": "2026-09-04T09:46:06+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "70050b58-2417-5cab-a51a-0fd90a6d5986",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "cea53e79b7bfaac3a1f0afd7ad9052c4b90dfc75a0db9e845048eb5bfa01c17c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "South Korea targets February 2027 rollout for full tokenized securities market",
+    "url": "https://www.coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
+    "canonical_url": "https://coindesk.com/business/2026/09/04/south-korea-targets-february-2027-rollout-for-full-tokenized-securities-market",
+    "snippet": "",
+    "published_at": "2026-09-04T09:41:31+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "rollout"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "724e8c5f-ffa0-48e1-bc96-78d7329cfdbb",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "beafbec91399301bf7ac768526d28b30c00faf5b113cd6d1c0a3134539cddac0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "AMC stock jumps 21% overnight as CEO slams Robinhood over ‘outrageous’ tokenized shares",
+    "url": "https://www.theblock.co/news/business/2026-09-04-amc-ceo-slams-robinhood-413513",
+    "canonical_url": "https://theblock.co/news/business/2026-09-04-amc-ceo-slams-robinhood-413513",
+    "snippet": "OpenAI had previously made a similar criticism of Robinhood’s tokenized equities, saying it did not approve the transfer of its shares.",
+    "published_at": "2026-09-04T07:59:34+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "652598fb-4972-5d88-b776-4de30e23848c",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b7346e479d557d27bbaa11dbce88627d491d4b8fec594d8dc7677a5e4ad3a1cf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "South Korea to Expand Tokenized Securities to Stocks, Bonds and MMFs From Feb. 4 - en.bloomingbit.io",
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tbEw4clYwTWk1M2RaUHN3SUthd1hDX0xKLW92WTVrbzA4X0NlYzdlMEdhcjJBZjJmNWs4RjljSUxsSjhVTG1qY2lQZE9sc2JwUV91Tg?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5tbEw4clYwTWk1M2RaUHN3SUthd1hDX0xKLW92WTVrbzA4X0NlYzdlMEdhcjJBZjJmNWs4RjljSUxsSjhVTG1qY2lQZE9sc2JwUV91Tg?oc=5",
-    "snippet": "South Korea to Expand Tokenized Securities to Stocks, Bonds and MMFs From Feb. 4 bloomingbit",
+    "snippet": "South Korea to Expand Tokenized Securities to Stocks, Bonds and MMFs From Feb. 4 en.bloomingbit.io",
     "published_at": "2026-09-04T01:12:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1106,7 +862,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1141,17 +897,17 @@
     ]
   },
   {
-    "id": "b35a07e5fd6761f4283a2bb7df502bc9e6d7266e046e919d6b6f1a3cf458d4bb",
+    "id": "36b8e9d60cb87bc7b6efc460844ae4388602c6a0d7508fcd6e9af6f2aba6214a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "How Standard Bank Became the Only African Bank in a Global 21-Institution Stablecoin Alliance - techbuild.africa",
+    "title": "How Standard Bank Became the Only African Bank in a Global 21-Institution Stablecoin Alliance - Tech Build Africa",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOGRuWFVYVFlZT2xETUwweEdubEpuLWZCNTd0dHNoM2twTkFKS0ZxUXptUUFxX0pZZzc1VVJUZHVUOExIQjRCcmMxZmtNY2JHTUpPSjdGbkxMU1VaVmh1NzlDY1NpZ1phdlpnTXN5QXJMczJ5M3h5Sllrc1psMWZ6bA?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOGRuWFVYVFlZT2xETUwweEdubEpuLWZCNTd0dHNoM2twTkFKS0ZxUXptUUFxX0pZZzc1VVJUZHVUOExIQjRCcmMxZmtNY2JHTUpPSjdGbkxMU1VaVmh1NzlDY1NpZ1phdlpnTXN5QXJMczJ5M3h5Sllrc1psMWZ6bA?oc=5",
-    "snippet": "How Standard Bank Became the Only African Bank in a Global 21-Institution Stablecoin Alliance techbuild.africa",
+    "snippet": "How Standard Bank Became the Only African Bank in a Global 21-Institution Stablecoin Alliance Tech Build Africa",
     "published_at": "2026-09-04T11:30:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-04T13:42:22.395506+00:00",
+    "fetched_at": "2026-09-04T17:06:19.352998+00:00",
     "matched_keywords": [
       "stablecoin"
     ],

@@ -3,7 +3,7 @@
     "id": "c4b3eb96c25d344fa6c5fb9c2a909b7d0f816b7a",
     "title": "THE BLOCK: The OCC has granted OpenReserve preliminary conditional approval to charter a national bank. The company said it intends to combine traditional banking with onchain settlement under federal supervision. It mus",
     "link": "https://x.com/TheBlockCo/status/2095790184419975375",
-    "score": 100,
+    "score": 94,
     "snippet": "THE BLOCK: The OCC has granted OpenReserve preliminary conditional approval to charter a national bank. The company said it intends to combine traditional banking with onchain settlement under federal supervision. It must satisfy preopening requirements before final approval.",
     "regions": [
       "US"
@@ -31,7 +31,7 @@
     "id": "2054654c3820975fec1cc207dc6df8484c205fca",
     "title": "Nuvanté Technologies Announces Stablecoin Clearing Prototype Built on Stellar Network integrated to Bank of England RTGS",
     "link": "https://stellar.org/press/nuvante-technologies-announces-stablecoin-clearing-prototype-built-on-stellar-network-integrated-to-bank-of-england-rtgs",
-    "score": 90,
+    "score": 84,
     "snippet": "Nuvanté Technologies Announces Stablecoin Clearing Prototype Built on Stellar Network integrated to Bank of England RTGS",
     "regions": [
       "EU"
@@ -55,6 +55,36 @@
     "origin": "tree",
     "coins": [
       "XLM"
+    ]
+  },
+  {
+    "id": "5a4a8d763d7b3342f1bbf18e217e5cb4bbc4d978",
+    "title": "Together, these assets represent more than $10 trillion in value that will now start moving onchain through Coinbase Tokenized Stocks. Soon, Aave V4 will power the onchain credit economy behind them.",
+    "link": "https://x.com/aave/status/2095907025112932631",
+    "score": 80,
+    "snippet": "Together, these assets represent more than $10 trillion in value that will now start moving onchain through Coinbase Tokenized Stocks. Soon, Aave V4 will power the onchain credit economy behind them.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:aave",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T16:09:09.844000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "AAVE"
     ]
   },
   {
@@ -224,11 +254,42 @@
     ]
   },
   {
-    "id": "177d75b2282b5a0e539d406f8b2014aa239fbc1a",
-    "title": "Congrats to @conio and @EnelGroup as the Ebitts platform now moves from a successful pilot to market launch in Italy. Powered by Algorand, Ebitts lets customers buy tokenized renewable energy capacity from Italian solar",
-    "link": "https://twitter.com/Algorand/status/2095588143718416832",
-    "score": 64,
-    "snippet": "Congrats to @conio and @EnelGroup as the Ebitts platform now moves from a successful pilot to market launch in Italy. Powered by Algorand, Ebitts lets customers buy tokenized renewable energy capacity from Italian solar and wind farms and benefit from the energy produced, https://t.co/gU32uWBm6O",
+    "id": "4dfa24b90f80fe69e05dd5d1abc339272caed803",
+    "title": "New Coinbase Tokenized Stocks are live on @base. Day-one liquidity is launching on Aerodrome 🛫",
+    "link": "https://x.com/AerodromeFi/status/2095906205134934027",
+    "score": 55,
+    "snippet": "New Coinbase Tokenized Stocks are live on @base. Day-one liquidity is launching on Aerodrome 🛫",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:aerodromefi",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T16:05:54.311000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "AERO"
+    ]
+  },
+  {
+    "id": "d8b6a09e2f0805c44e644d4a982162f5613a7849",
+    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGstUEE3TGNuMngyZzFxT1VLUUxzemUySTBvQ2c2WlBDR0JtdGt0cTNjQVZFX1RxcmlaMDRUSHNBU2RLMnMwX1g3VHpFcXVWdk9JMFBvSG1GY2otbS03N0ZiRjU4TTRwaENnZGRsY09jXzZUbnVkcWNEcC1ZUmotYU1ka0VfSGdjbzVYUm9lTWQtM0M1VHN0Qk1rS3YwWktWZnZkd21HMUYzQTlwb2xRRF9HUE80UUxiRmJwUG1Pa2drWlVTendvUUpldWpud1ZMWDZNbGVrSUZJSkJHblVncjl1a0dCT1FzWVhodjJkS3BFOVM1bkE?oc=5",
+    "score": 54,
+    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital StreetInsider",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -239,24 +300,22 @@
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:algorand",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T19:02:03.296000+00:00",
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-09-03T17:35:28+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ALGO"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "096f0fe05d1f801f7b628d80b0b06e09b26ff240",
     "title": "FOMO IS NOW LIVE ON ROBINHOOD CHAIN. A new way to launch, trade, and back AI Model Tokens onchain. https://t.co/96wIRh6bPY",
     "link": "https://twitter.com/flock_io/status/2095807028023468536",
-    "score": 60,
+    "score": 54,
     "snippet": "FOMO IS NOW LIVE ON ROBINHOOD CHAIN. A new way to launch, trade, and back AI Model Tokens onchain. https://t.co/96wIRh6bPY",
     "regions": [
       "US"
@@ -282,62 +341,6 @@
       "FLOCK",
       "NOW"
     ]
-  },
-  {
-    "id": "c32613fd1869ae859f3adf2e44fbe69039e16335",
-    "title": "THE BLOCK: APX Lending launched a five-year revolving credit facility backed by Bitcoin and Ethereum, with rates from 10.49%. The company said borrowers can draw and repay credit as needed, with no origination, prepaymen",
-    "link": "https://x.com/TheBlockCo/status/2095779907339182365",
-    "score": 55,
-    "snippet": "THE BLOCK: APX Lending launched a five-year revolving credit facility backed by Bitcoin and Ethereum, with rates from 10.49%. The company said borrowers can draw and repay credit as needed, with no origination, prepayment or liquidation fees.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T07:44:02.646000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ETH",
-      "BTC"
-    ]
-  },
-  {
-    "id": "f5f4800378995c11cbcebfa7b3383e6a92e06c91",
-    "title": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital - streetinsider.com",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxORGstUEE3TGNuMngyZzFxT1VLUUxzemUySTBvQ2c2WlBDR0JtdGt0cTNjQVZFX1RxcmlaMDRUSHNBU2RLMnMwX1g3VHpFcXVWdk9JMFBvSG1GY2otbS03N0ZiRjU4TTRwaENnZGRsY09jXzZUbnVkcWNEcC1ZUmotYU1ka0VfSGdjbzVYUm9lTWQtM0M1VHN0Qk1rS3YwWktWZnZkd21HMUYzQTlwb2xRRF9HUE80UUxiRmJwUG1Pa2drWlVTendvUUpldWpud1ZMWDZNbGVrSUZJSkJHblVncjl1a0dCT1FzWVhodjJkS3BFOVM1bkE?oc=5",
-    "score": 54,
-    "snippet": "RWA Inc. Announces the Launch of RWA CHAIN to Connect Real-World Production Directly With Global Capital streetinsider.com",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-09-03T17:35:28+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "a77e156e689e048f37cab07d52fda10b420e92bc",
@@ -434,7 +437,7 @@
     "id": "1d6304351fdcf67e85c22bfb59a07118387cd685",
     "title": "Trade to Share Up to 400 BNB Token Vouchers",
     "link": "https://www.treeofalpha.com/preview_article?id=1788512415673",
-    "score": 50,
+    "score": 44,
     "snippet": "Trade to Share Up to 400 BNB Token Vouchers",
     "regions": [],
     "primary_region": null,
@@ -485,32 +488,5 @@
     "coins": [
       "HYPE"
     ]
-  },
-  {
-    "id": "2eaf9b3c6bfa53f607946d107a6d8b9322e97768",
-    "title": "Stellar's USDT0 Stablecoin Launch Fuels XLM Price Surge - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1EejBySXlud1pNUWF5OURxSnIwb0NWZGVMbDBQalRrMUtSSGdpb2pLM2pnZGFlc1kwLVd2SmIxUHNma0NwZ0Z0LWFJV0FNbnNjUUJQdlVrYmpDN25rUTd2Nm5yM2ZzVnZ1aVFoNlpDNUg?oc=5",
-    "score": 35,
-    "snippet": "Stellar's USDT0 Stablecoin Launch Fuels XLM Price Surge CoinMarketCap",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-03T15:05:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]

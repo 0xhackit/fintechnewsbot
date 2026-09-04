@@ -32,40 +32,32 @@
     ]
   },
   {
-    "id": "2725719e748ef0293a4efd3311d930db1672d005",
-    "title": "THE BLOCK: The crypto market cap jumped to nearly $2.82 trillion on Thursday, its highest level in more than seven months after mid-January’s plunge from $3.4 trillion to $2.3 trillion. $ZEC jumped 16.5%, $ADA gained 13%",
-    "link": "https://x.com/TheBlockCo/status/2095581489765527989",
-    "score": 84,
-    "snippet": "THE BLOCK: The crypto market cap jumped to nearly $2.82 trillion on Thursday, its highest level in more than seven months after mid-January’s plunge from $3.4 trillion to $2.3 trillion. $ZEC jumped 16.5%, $ADA gained 13%, $DOGE and $XRP climbed about 10%, while Strategy $MSTR and Circle $CRCL rallie",
+    "id": "62670b4e440ded9522cc65a812b68e8c5e7bfc8b",
+    "title": "WuBlockchain Weekly: Strategy resumed Bitcoin purchases as CEO Phong Le defended the firm’s two-way Bitcoin strategy, while SEC Chair Paul Atkins urged Congress to advance the CLARITY Act and Russia’s new crypto law took",
+    "link": "https://x.com/WuBlockchain/status/2095911393761558831",
+    "score": 80,
+    "snippet": "WuBlockchain Weekly: Strategy resumed Bitcoin purchases as CEO Phong Le defended the firm’s two-way Bitcoin strategy, while SEC Chair Paul Atkins urged Congress to advance the CLARITY Act and Russia’s new crypto law took effect. This week also saw 21 global financial institutions move to establish a",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-03T18:35:36.352000+00:00",
+    "published_at": "2026-09-04T16:26:31.763000+00:00",
     "verdict": "kill",
-    "axis": "low_signal",
-    "reason": "low-signal stat/promo ('market cap jump')",
-    "matched": "market cap jump",
+    "axis": "political",
+    "reason": "political framing ('congress')",
+    "matched": "congress",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "ZEC",
-      "ADA",
-      "DOGE",
-      "XRP",
-      "MSTR",
-      "CRCL",
-      "COIN",
-      "CAP"
+      "BTC",
+      "BNB"
     ]
   },
   {
@@ -100,7 +92,7 @@
     "id": "7e05a9b53b61d01ef7b5abce3fb2a540871266d4",
     "title": "South Korean regulators introduce tokenized securities roadmap",
     "link": "https://cointelegraph.com/news/south-korean-regulators-tokenized-securities-roadmap?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 65,
+    "score": 59,
     "snippet": "South Korea’s financial regulator introduced a three-phase roadmap for the issuance of tokenized assets, as the country prepares to adopt its first tokenized securities framework in February 2027.",
     "regions": [
       "APAC"
@@ -121,61 +113,6 @@
     "axis": "policy",
     "reason": "policy/rule-making, not a concrete action ('roadmap')",
     "matched": "roadmap",
-    "fulltext": false,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "c360ff7748106a5c08cd4a8f8ba4139652add5de",
-    "title": "Crypto market cap surges to $2.82 trillion as Zcash leads rally alongside stocks",
-    "link": "https://www.theblock.co/news/markets/2026-09-03-crypto-market-cap-surges-2-82-trillion-zcash-leads-rally-alongside-stocks-413478",
-    "score": 54,
-    "snippet": "Crypto market cap surges to $2.82 trillion as Zcash leads rally alongside stocks",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-03T20:08:33.225000+00:00",
-    "verdict": "kill",
-    "axis": "low_signal",
-    "reason": "low-signal stat/promo ('market cap surges')",
-    "matched": "market cap surges",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ZEC",
-      "CAP"
-    ]
-  },
-  {
-    "id": "b6c06c1ee0be3d4a4c3ce1f36c98de331a286bd0",
-    "title": "AMC chief criticizes Robinhood’s tokenized stock plan",
-    "link": "https://cointelegraph.com/news/amc-ceo-criticizes-robinhoods-tokenized-stock?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 35,
-    "snippet": "AMC’s CEO criticized Robinhood’s tokenized stock offerings for being unregulated in the US and said he will request an investigation from an external securities counsel.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 3,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-04T09:56:52+00:00",
-    "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('criticizes')",
-    "matched": "criticizes",
     "fulltext": false,
     "origin": "rss+tree",
     "coins": []
