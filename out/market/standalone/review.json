@@ -3,7 +3,7 @@
     "id": "d4256d2733e69d4eb777041156fbc816d99bbac6",
     "title": "Injective CEO @ericinjective was interviewed by CNBC on us becoming the first chain to be a SEC registered transfer agent and how that enables us to accelerate a new world for tokenization. This also follows Injective's",
     "link": "https://x.com/injective/status/2095965398139117818",
-    "score": 90,
+    "score": 84,
     "snippet": "Injective CEO @ericinjective was interviewed by CNBC on us becoming the first chain to be a SEC registered transfer agent and how that enables us to accelerate a new world for tokenization. This also follows Injective's announcement yesterday tokenizing over $1 Billion in RWAs.",
     "regions": [
       "US"
@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('enables')",
     "matched": "enables",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -54,7 +54,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -82,7 +82,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "AAVE"
@@ -108,18 +108,18 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
   },
   {
-    "id": "1ed89a37b3e2cb923a288409b0b237c2117a8dc5",
-    "title": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance Grayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while onl",
-    "link": "https://x.com/WuBlockchain/status/2095957894722466162",
+    "id": "93802c64a55cecac35c92d6de26ffd75447ac394",
+    "title": "Spot Bitcoin ETFs Take In $175M; Ethereum ETFs Record $26.46M Inflow According to SoSoValue, U.S. spot Bitcoin ETFs recorded $175 million in net inflows on September 4 (ET), marking their third consecutive day of inflows",
+    "link": "https://x.com/WuBlockchain/status/2096092641654132978",
     "score": 70,
-    "snippet": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance Grayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while only about 5% of the market is currently deployed in onchain finance. Robinhood Cha",
+    "snippet": "Spot Bitcoin ETFs Take In $175M; Ethereum ETFs Record $26.46M Inflow According to SoSoValue, U.S. spot Bitcoin ETFs recorded $175 million in net inflows on September 4 (ET), marking their third consecutive day of inflows. BlackRock's IBIT led with $117 million, followed by Fidelity's FBTC with $57.2",
     "regions": [
       "US"
     ],
@@ -127,24 +127,52 @@
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
+    "financial": 30,
+    "matched_topics": [],
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T19:31:18.337000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deployed')",
-    "matched": "deployed",
-    "fulltext": true,
+    "published_at": "2026-09-05T04:26:44.545000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BNB",
-      "JUP",
-      "SOL",
-      "KMNO"
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "61d87170d7a4f929c78ee66b5db4053de4caac97",
+    "title": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → C",
+    "link": "https://x.com/circle/status/2096043040234488267",
+    "score": 70,
+    "snippet": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → Chainlink Proof of Reserve → Onchain reserve data for verification A clearer rese",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-05T01:09:38.481000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "LINK",
+      "ETH",
+      "ARC"
     ]
   },
   {
@@ -171,15 +199,48 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "1ed89a37b3e2cb923a288409b0b237c2117a8dc5",
+    "title": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance Grayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while onl",
+    "link": "https://x.com/WuBlockchain/status/2095957894722466162",
+    "score": 64,
+    "snippet": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance Grayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while only about 5% of the market is currently deployed in onchain finance. Robinhood Cha",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-04T19:31:18.337000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('deployed')",
+    "matched": "deployed",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB",
+      "JUP",
+      "SOL",
+      "KMNO"
+    ]
   },
   {
     "id": "77bb41b92fa2cb24330ec6d4fe4a357b50e80bee",
     "title": "Introducing Creator Success: a new way to get funded to build in Decentraland. 🛠️ The program is designed to help you move from an early idea to a tested, funded game project. To make it even easier, the team launched ne",
     "link": "https://x.com/decentraland/status/2095956653577511386",
-    "score": 60,
+    "score": 54,
     "snippet": "Introducing Creator Success: a new way to get funded to build in Decentraland. 🛠️ The program is designed to help you move from an early idea to a tested, funded game project. To make it even easier, the team launched new AI Game Design Skills, which help turn a rough concept into a structured Game ",
     "regions": [],
     "primary_region": null,
@@ -197,48 +258,17 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "MANA"
     ]
   },
   {
-    "id": "096f0fe05d1f801f7b628d80b0b06e09b26ff240",
-    "title": "FOMO IS NOW LIVE ON ROBINHOOD CHAIN. A new way to launch, trade, and back AI Model Tokens onchain. https://t.co/96wIRh6bPY",
-    "link": "https://twitter.com/flock_io/status/2095807028023468536",
-    "score": 54,
-    "snippet": "FOMO IS NOW LIVE ON ROBINHOOD CHAIN. A new way to launch, trade, and back AI Model Tokens onchain. https://t.co/96wIRh6bPY",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:flock_io",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T09:31:54.786000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "FLOCK",
-      "NOW"
-    ]
-  },
-  {
     "id": "5036cf02f7661b1977f9bac9116a1501351bd18e",
     "title": "What an incredible summer for AMERICAN TRAVEL! Americans traveled nearly 300 BILLION MILES, our National Parks welcomed 78 MILLION VISITORS, and MILLIONS took to the skies. The FIFA World Cup alone generated more than 18",
     "link": "https://truthsocial.com/@realDonaldTrump/117215125018114096",
-    "score": 50,
+    "score": 44,
     "snippet": "What an incredible summer for AMERICAN TRAVEL! Americans traveled nearly 300 BILLION MILES, our National Parks welcomed 78 MILLION VISITORS, and MILLIONS took to the skies. The FIFA World Cup alone generated more than 18 BILLION DOLLARS for our Economy, and supported more than 160,000 JOBS! Travel a",
     "regions": [],
     "primary_region": null,
@@ -285,7 +315,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
