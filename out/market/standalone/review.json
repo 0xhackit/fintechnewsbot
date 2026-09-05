@@ -1,35 +1,5 @@
 [
   {
-    "id": "d4256d2733e69d4eb777041156fbc816d99bbac6",
-    "title": "Injective CEO @ericinjective was interviewed by CNBC on us becoming the first chain to be a SEC registered transfer agent and how that enables us to accelerate a new world for tokenization. This also follows Injective's",
-    "link": "https://x.com/injective/status/2095965398139117818",
-    "score": 84,
-    "snippet": "Injective CEO @ericinjective was interviewed by CNBC on us becoming the first chain to be a SEC registered transfer agent and how that enables us to accelerate a new world for tokenization. This also follows Injective's announcement yesterday tokenizing over $1 Billion in RWAs.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:injective",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T20:01:07.241000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('enables')",
-    "matched": "enables",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "INJ"
-    ]
-  },
-  {
     "id": "93802c64a55cecac35c92d6de26ffd75447ac394",
     "title": "Spot Bitcoin ETFs Take In $175M; Ethereum ETFs Record $26.46M Inflow According to SoSoValue, U.S. spot Bitcoin ETFs recorded $175 million in net inflows on September 4 (ET), marking their third consecutive day of inflows",
     "link": "https://x.com/WuBlockchain/status/2096092641654132978",
@@ -51,7 +21,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ETH",
@@ -64,8 +34,10 @@
     "link": "https://x.com/circle/status/2096043040234488267",
     "score": 64,
     "snippet": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → Chainlink Proof of Reserve → Onchain reserve data for verification A clearer rese",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -81,46 +53,13 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
       "LINK",
       "ETH",
       "ARC"
-    ]
-  },
-  {
-    "id": "1ed89a37b3e2cb923a288409b0b237c2117a8dc5",
-    "title": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance Grayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while onl",
-    "link": "https://x.com/WuBlockchain/status/2095957894722466162",
-    "score": 64,
-    "snippet": "Grayscale: Tokenized Equity Weekly Spot Volume Nears $3B, Only 5% Used in Onchain Finance Grayscale said tokenized equity trading reached record highs in August, with weekly spot volume peaking near $3 billion, while only about 5% of the market is currently deployed in onchain finance. Robinhood Cha",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-04T19:31:18.337000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deployed')",
-    "matched": "deployed",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BNB",
-      "JUP",
-      "SOL",
-      "KMNO"
     ]
   },
   {
