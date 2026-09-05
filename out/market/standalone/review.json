@@ -144,38 +144,6 @@
     ]
   },
   {
-    "id": "61d87170d7a4f929c78ee66b5db4053de4caac97",
-    "title": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → C",
-    "link": "https://x.com/circle/status/2096043040234488267",
-    "score": 70,
-    "snippet": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → Chainlink Proof of Reserve → Onchain reserve data for verification A clearer rese",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-05T01:09:38.481000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "LINK",
-      "ETH",
-      "ARC"
-    ]
-  },
-  {
     "id": "2071b1b0c956d48df43b43921ce4da7c96f4ef1e",
     "title": "THE BLOCK: Crypto firms are urging the SEC to speed up ETF reviews and allow confidential draft filings, with Grayscale seeking a 45-day staff response commitment. However, Jane Street and Schwab raised concerns over rus",
     "link": "https://x.com/TheBlockCo/status/2095832697210122346",
@@ -202,6 +170,38 @@
     "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "61d87170d7a4f929c78ee66b5db4053de4caac97",
+    "title": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → C",
+    "link": "https://x.com/circle/status/2096043040234488267",
+    "score": 64,
+    "snippet": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → Chainlink Proof of Reserve → Onchain reserve data for verification A clearer rese",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-05T01:09:38.481000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "LINK",
+      "ETH",
+      "ARC"
+    ]
   },
   {
     "id": "1ed89a37b3e2cb923a288409b0b237c2117a8dc5",
@@ -293,6 +293,34 @@
     ]
   },
   {
+    "id": "be49e9751bd33e138891de36b1c0ebfc0a2a0a0f",
+    "title": "South Korea Announces Timeline for Tokenizing Securities: First Batch of Tokenized Assets Includes Bonds, Funds, and Pr… - 深潮TechFlow",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tN28wbkVGN1VRdUdOYUwtMjNDdHR6bnl3YnlwSEdPVFpLMlVEVDd0Ung2Q090WEVUbWNVY2MxVjg1cGc5eWkxSlYwNzNWLUljemUwblZ6OVlBZmtx?oc=5",
+    "score": 39,
+    "snippet": "South Korea Announces Timeline for Tokenizing Securities: First Batch of Tokenized Assets Includes Bonds, Funds, and Pr… 深潮TechFlow",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-09-05T01:53:25+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "150f855db9b3a0485f605dc9a88d5473aba1bbb4",
     "title": "21 Global Financial Firms Plan USD Stablecoin Launch in 2027 - NFTevening",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2dDMVZjTklESFZacUo0bThXWHhFb1RaZ1A4MlBZb3psNllsZ0lQVEwxektTWnVkR2tMQnNhQWZOMU55LXpUU3FBd0JkXy15Z21BRXNfRzRBanpMVGtOWTBCcGFPaGlpV3RuWkRlSlNITFk4SHBYVmZOb09zbUlaWnBxckhOWkdr?oc=5",
@@ -315,7 +343,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
