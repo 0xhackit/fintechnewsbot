@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('enables')",
     "matched": "enables",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -33,7 +33,7 @@
     "id": "d18e98f51a34e2dca657fc7c10903f4121107f44",
     "title": "NEW: a16z-backed OpenReserve receives preliminary OCC approval to establish a full-service national bank, with plans for deposits, lending, tokenized deposits, digital asset custody and a stablecoin subsidiary.",
     "link": "https://x.com/CoinDesk/status/2095934924130038023",
-    "score": 90,
+    "score": 84,
     "snippet": "NEW: a16z-backed OpenReserve receives preliminary OCC approval to establish a full-service national bank, with plans for deposits, lending, tokenized deposits, digital asset custody and a stablecoin subsidiary.",
     "regions": [
       "US"
@@ -54,7 +54,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -82,7 +82,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "AAVE"
@@ -108,7 +108,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -138,7 +138,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('deployed')",
     "matched": "deployed",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BNB",
@@ -171,7 +171,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -197,7 +197,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "MANA"
@@ -263,55 +263,28 @@
     ]
   },
   {
-    "id": "1d6304351fdcf67e85c22bfb59a07118387cd685",
-    "title": "Trade to Share Up to 400 BNB Token Vouchers",
-    "link": "https://www.treeofalpha.com/preview_article?id=1788512415673",
-    "score": 44,
-    "snippet": "Trade to Share Up to 400 BNB Token Vouchers",
+    "id": "150f855db9b3a0485f605dc9a88d5473aba1bbb4",
+    "title": "21 Global Financial Firms Plan USD Stablecoin Launch in 2027 - NFTevening",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2dDMVZjTklESFZacUo0bThXWHhFb1RaZ1A4MlBZb3psNllsZ0lQVEwxektTWnVkR2tMQnNhQWZOMU55LXpUU3FBd0JkXy15Z21BRXNfRzRBanpMVGtOWTBCcGFPaGlpV3RuWkRlSlNITFk4SHBYVmZOb09zbUlaWnBxckhOWkdr?oc=5",
+    "score": 35,
+    "snippet": "21 Global Financial Firms Plan USD Stablecoin Launch in 2027 NFTevening",
     "regions": [],
     "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:sahara trading tournament",
-    "source": "TreeOfAlpha/Binance EN",
-    "published_at": "2026-09-04T09:00:16.924000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SAHARA",
-      "BNB"
-    ]
-  },
-  {
-    "id": "509c462a0efcb083cdb6c39013263b44733bd519",
-    "title": "Citi's use of Swift blockchain extends tokenized deposits' reach - American Banker",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMlh2eXVqTXk5TDZVMGdoMmJhbTBNdTNRUWpzY2RlWlhLYjVFTVloWHg5Rm1vVTI1Mmh0djR0dHl2a2VNSjFhcFh6SzFfQnJwbUJvSGxyUU83eWZKZE04bUJJcVJnQWpwNXU3eEZUaEFUSFR0eThrdDdrelRvZFNWb0R0aUlUQkJfYUxHN21Pc0JLamdRaWxyNzkydnc1dmM?oc=5",
-    "score": 40,
-    "snippet": "Citi's use of Swift blockchain extends tokenized deposits' reach American Banker",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "institutional_crypto_banks",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-09-04T17:53:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-09-04T12:09:26+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "rss",
     "coins": []
