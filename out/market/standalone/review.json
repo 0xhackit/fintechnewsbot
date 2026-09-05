@@ -23,7 +23,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('enables')",
     "matched": "enables",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "INJ"
@@ -54,7 +54,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -82,7 +82,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "AAVE"
@@ -110,7 +110,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ETH",
@@ -123,10 +123,8 @@
     "link": "https://x.com/circle/status/2096043040234488267",
     "score": 64,
     "snippet": "cirBTC is live on Ethereum as a 1:1 BTC-backed token, with native Arc support coming at mainnet launch. Designed for tokenized BTC transparency, cirBTC combines: → Segregated BTC custody → Disclosed reserve addresses → Chainlink Proof of Reserve → Onchain reserve data for verification A clearer rese",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -142,7 +140,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -175,7 +173,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('deployed')",
     "matched": "deployed",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB",
@@ -206,10 +204,38 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "MANA"
+    ]
+  },
+  {
+    "id": "c991c740732e14a97dfa6f07598eb79f6142290e",
+    "title": "Trump Issues Serious Fed Warning As Bitcoin Braces For A Huge Price Shock",
+    "link": "https://www.forbes.com/sites/digital-assets/2026/09/05/trump-issues-serious-fed-warning-as-bitcoin-braces-for-a-huge-price-shock",
+    "score": 50,
+    "snippet": "Trump Issues Serious Fed Warning As Bitcoin Braces For A Huge Price Shock",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-05T12:53:30.804000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issues')",
+    "matched": "issues",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
@@ -239,5 +265,33 @@
       "TRUMP",
       "BILL"
     ]
+  },
+  {
+    "id": "be49e9751bd33e138891de36b1c0ebfc0a2a0a0f",
+    "title": "South Korea Announces Timeline for Tokenizing Securities: First Batch of Tokenized Assets Includes Bonds, Funds, and Pr… - 深潮TechFlow",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8tN28wbkVGN1VRdUdOYUwtMjNDdHR6bnl3YnlwSEdPVFpLMlVEVDd0Ung2Q090WEVUbWNVY2MxVjg1cGc5eWkxSlYwNzNWLUljemUwblZ6OVlBZmtx?oc=5",
+    "score": 39,
+    "snippet": "South Korea Announces Timeline for Tokenizing Securities: First Batch of Tokenized Assets Includes Bonds, Funds, and Pr… 深潮TechFlow",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-09-05T01:53:25+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
