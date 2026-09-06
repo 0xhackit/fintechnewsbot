@@ -22,7 +22,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "RAY",
@@ -58,16 +58,16 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('licence')",
     "matched": "licence",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
   {
-    "id": "3e9629f835932ba00b6e3173c6d816adbc3cd009",
-    "title": "These Banks Are Banding Together to Launch a Stablecoin - WSJ",
+    "id": "3a2fd7d2488cb03939a94cb5abbab6595877473c",
+    "title": "These Banks Are Banding Together to Launch a Stablecoin - wsj.com",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5",
     "score": 60,
-    "snippet": "These Banks Are Banding Together to Launch a Stablecoin WSJ",
+    "snippet": "These Banks Are Banding Together to Launch a Stablecoin wsj.com",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -95,8 +95,10 @@
     "link": "https://x.com/injective/status/2096601008684048413",
     "score": 54,
     "snippet": "Injective Tokenizes More Than $1 Billion in Mortgage Records Onchain Pineapple Financial has now moved more than $1 billion in residential mortgage records onto Injective, turning a growing share of its historical loan book into digital records that can be inspected and verified onchain. This now ma",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -109,7 +111,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ",
