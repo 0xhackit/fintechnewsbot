@@ -1,30 +1,58 @@
 [
   {
-    "id": "1eb2d7d4df8093fe33ece5f16c8525a7f61bd009",
-    "title": "2 billion tokens in the last 7 days. Not through one model. Through 45, from OpenAI, Anthropic, Google, DeepSeek, Moonshot, Zhipu and more, routed one question at a time to whichever model is best for it. That's what a m",
-    "link": "https://x.com/iotex_io/status/2096705579641360770",
-    "score": 44,
-    "snippet": "2 billion tokens in the last 7 days. Not through one model. Through 45, from OpenAI, Anthropic, Google, DeepSeek, Moonshot, Zhipu and more, routed one question at a time to whichever model is best for it. That's what a many-model world looks like in practice. No subscriptions, no markup, one key, pa",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "5a032b1f42c4af31396029a9e234dd109e04b760",
+    "title": "JUST IN: Hunter Biden plans to launch a memecoin on September 9 via Coinbase's Base network, allocating 20% to investors who lost money on $TRUMP and up to 30% to be burned if Democrats win the 2028 presidential election",
+    "link": "https://x.com/CoinDesk/status/2096981234207305873",
+    "score": 80,
+    "snippet": "JUST IN: Hunter Biden plans to launch a memecoin on September 9 via Coinbase's Base network, allocating 20% to investors who lost money on $TRUMP and up to 30% to be burned if Democrats win the 2028 presidential election, per WSJ.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:iotex_io",
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-06T21:02:20.239000+00:00",
+    "published_at": "2026-09-07T15:17:41.329000+00:00",
     "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('question')",
-    "matched": "question",
+    "axis": "political",
+    "reason": "political framing ('election')",
+    "matched": "election",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "IOTX",
-      "USDC",
-      "WLD"
+      "TRUMP"
     ]
+  },
+  {
+    "id": "2c253f0caf68640629a89b732c1b642cc17d5897",
+    "title": "Bitcoin Starts the Week Flat, But Chainlink Is Flying—Here's Why",
+    "link": "https://decrypt.co/377566/bitcoin-starts-flat-chainlink-price-flying",
+    "score": 50,
+    "snippet": "LINK hit an eight-month high after Bottomline, a top-three SWIFT services provider moving $16 trillion a year, tapped Chainlink to connect 600-plus banks to blockchain settlement.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 50,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-09-07T15:42:34+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('here's why')",
+    "matched": "here's why",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
   }
 ]
