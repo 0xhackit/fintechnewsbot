@@ -3,7 +3,7 @@
     "id": "0731e50f7184cfaed94af4c9db602eefbcf419cb",
     "title": "THE BLOCK: Harmony announced it will sunset its mainnet and proposed migrating its native token $ONE to Ethereum, citing threats from state actors and AI agents. The platform experienced an exploit last month that involv",
     "link": "https://x.com/TheBlockCo/status/2096756240819093862",
-    "score": 135,
+    "score": 129,
     "snippet": "THE BLOCK: Harmony announced it will sunset its mainnet and proposed migrating its native token $ONE to Ethereum, citing threats from state actors and AI agents. The platform experienced an exploit last month that involved an unauthorized minting of 4 billion ONE tokens. In 2022, its Horizon cross-c",
     "regions": [],
     "primary_region": null,
@@ -60,33 +60,29 @@
     ]
   },
   {
-    "id": "8a54b3d9103c6ca87cbef0a0500265e396322bca",
-    "title": "THE BLOCK: South Korea's Hanwha Investment & Securities has developed a platform for tokenized securities on Avalanche. $AVAX Last week, the country's top financial regulator announced a three-stage plan to establish a t",
-    "link": "https://x.com/TheBlockCo/status/2096787425980985789",
-    "score": 65,
-    "snippet": "THE BLOCK: South Korea's Hanwha Investment & Securities has developed a platform for tokenized securities on Avalanche. $AVAX Last week, the country's top financial regulator announced a three-stage plan to establish a tokenization infrastructure applicable to \"all types\" of securities.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
+    "id": "2b3a0c471a634264414a769824a6977f2e33f7a3",
+    "title": "Most security stories start with someone breaking in. This one starts with someone clicking Preview. No transaction or alert or tiny onchain receipt saying \"a crime may have occurred.\" Sometimes the dangerous permission",
+    "link": "https://x.com/OasisProtocol/status/2096856010011144607",
+    "score": 70,
+    "snippet": "Most security stories start with someone breaking in. This one starts with someone clicking Preview. No transaction or alert or tiny onchain receipt saying \"a crime may have occurred.\" Sometimes the dangerous permission is not \"execute.\" It's \"show me what would happen.\"",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:theblockco",
+    "matched_topics": [],
+    "feed_name": "tree:x:oasisprotocol",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-07T02:27:34.022000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('investment')",
-    "matched": "investment",
+    "published_at": "2026-09-07T07:00:05.606000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "AVAX"
+      "ROSE"
     ]
   },
   {
@@ -171,6 +167,60 @@
     "coins": [
       "INJ",
       "CAP"
+    ]
+  },
+  {
+    "id": "434e174e90fa00c1b1ca544245c5943a3d620ac9",
+    "title": "Coinbase、個別株の永久先物でSECに通知登録──残るCFTCの承認と、米国参入を協議するHyperliquid【MCB FinTechカタログ通信】",
+    "link": "https://www.nadanews.com/367094",
+    "score": 50,
+    "snippet": "Coinbase、個別株の永久先物でSECに通知登録──残るCFTCの承認と、米国参入を協議するHyperliquid【MCB FinTechカタログ通信】",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:jp-coindesk",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-07T08:00:05.062000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HYPE"
+    ]
+  },
+  {
+    "id": "b3c7ed65da6ad2d1e45b6a520f38b6287dc72125",
+    "title": "THE BLOCK: French bitcoin treasury firm Capital B has acquired 376 BTC for €25.3 million ($29.4 million), bringing its total holdings to 3,521 $BTC. This is the company's largest bitcoin purchase since September 2025.",
+    "link": "https://x.com/TheBlockCo/status/2096849710866632725",
+    "score": 50,
+    "snippet": "THE BLOCK: French bitcoin treasury firm Capital B has acquired 376 BTC for €25.3 million ($29.4 million), bringing its total holdings to 3,521 $BTC. This is the company's largest bitcoin purchase since September 2025.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-07T06:35:03.830000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('acquired')",
+    "matched": "acquired",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   }
 ]
