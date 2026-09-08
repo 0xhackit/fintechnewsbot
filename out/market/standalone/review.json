@@ -42,7 +42,7 @@
     "primary_region": "US",
     "category": "other",
     "source_tier": "B",
-    "consensus": 3,
+    "consensus": 1,
     "financial": 40,
     "matched_topics": [
       "Stablecoin adoption"
@@ -55,14 +55,42 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "ff940192f299bc7291f70845cf9bef987db6c99d",
+    "title": "THE BLOCK: Strategy $MSTR did not buy or sell any bitcoin last week, leaving its holdings unchanged at 845,050 $BTC. The company instead spent $176.3 million repurchasing 1.81 million STRC preferred shares and doubled it",
+    "link": "https://x.com/TheBlockCo/status/2097296057776374173",
+    "score": 79,
+    "snippet": "THE BLOCK: Strategy $MSTR did not buy or sell any bitcoin last week, leaving its holdings unchanged at 845,050 $BTC. The company instead spent $176.3 million repurchasing 1.81 million STRC preferred shares and doubled its digital credit securities repurchase authorization to $2 billion.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-08T12:08:41.236000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('buy')",
+    "matched": "buy",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "MSTR",
+      "BTC",
+      "STRC"
+    ]
   },
   {
     "id": "edf5923e780aece9957fc5c3d9593eb1327f283b",
     "title": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial ap",
     "link": "https://twitter.com/circle/status/2097366721929896081",
-    "score": 80,
+    "score": 74,
     "snippet": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial applications. Register today: https://t.co/s2JzypWrTw https://t.co/V6sSx1OXMA",
     "regions": [
       "US"
@@ -93,7 +121,7 @@
     "id": "34a4bd538941695edebfd1bdd18049c5e854f7c3",
     "title": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial ap",
     "link": "https://x.com/circle/status/2097366330299326772",
-    "score": 80,
+    "score": 74,
     "snippet": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial applications. https://community.arc.io/public/events/arc-mainnet-launch-livestream",
     "regions": [
       "US"
@@ -124,7 +152,7 @@
     "id": "99d3b66b774e066be163efcca2a4aab3872526c9",
     "title": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial ap",
     "link": "https://x.com/circle/status/2097366254483120399",
-    "score": 80,
+    "score": 74,
     "snippet": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial applications. Register for the livestream: https://community.arc.io/public/events/",
     "regions": [
       "US"
@@ -149,34 +177,6 @@
     "origin": "tree",
     "coins": [
       "ARC"
-    ]
-  },
-  {
-    "id": "ff940192f299bc7291f70845cf9bef987db6c99d",
-    "title": "THE BLOCK: Strategy $MSTR did not buy or sell any bitcoin last week, leaving its holdings unchanged at 845,050 $BTC. The company instead spent $176.3 million repurchasing 1.81 million STRC preferred shares and doubled it",
-    "link": "https://x.com/TheBlockCo/status/2097296057776374173",
-    "score": 79,
-    "snippet": "THE BLOCK: Strategy $MSTR did not buy or sell any bitcoin last week, leaving its holdings unchanged at 845,050 $BTC. The company instead spent $176.3 million repurchasing 1.81 million STRC preferred shares and doubled its digital credit securities repurchase authorization to $2 billion.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T12:08:41.236000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('buy')",
-    "matched": "buy",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "MSTR",
-      "BTC",
-      "STRC"
     ]
   },
   {
@@ -341,34 +341,6 @@
     "origin": "tree",
     "coins": [
       "ZK"
-    ]
-  },
-  {
-    "id": "73d5464477df06fc393260a02111ec1ecc9e0ba1",
-    "title": "THE BLOCK: DeFi Development Corp. has closed its $11 million CHAD preferred-stock offering, launching what it calls the first SOL-backed \"Digital Credit\" instrument. The offering included participation from Fundstrat’s T",
-    "link": "https://twitter.com/TheBlockCo/status/2097349709245349989",
-    "score": 55,
-    "snippet": "THE BLOCK: DeFi Development Corp. has closed its $11 million CHAD preferred-stock offering, launching what it calls the first SOL-backed \"Digital Credit\" instrument. The offering included participation from Fundstrat’s Tom Lee. $DFDV CHAD carries a 13% initial annual dividend https://t.co/oz2m8FwtKW",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T15:41:53.453000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL"
     ]
   },
   {
@@ -705,32 +677,6 @@
       "HYPE",
       "BNB",
       "OKB"
-    ]
-  },
-  {
-    "id": "4f390581e73a0286569b8961a4d4d03584378119",
-    "title": "Bitcoin ETFs are still $1 billion shy of breaking even in 2026",
-    "link": "https://www.coindesk.com/daybook-us/2026/09/08/bitcoin-etfs-are-still-usd1-billion-shy-of-breaking-even-in-2026",
-    "score": 44,
-    "snippet": "Bitcoin ETFs are still $1 billion shy of breaking even in 2026",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:coindesk",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-08T11:26:42.596000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
     ]
   }
 ]
