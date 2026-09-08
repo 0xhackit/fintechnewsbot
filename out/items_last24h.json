@@ -1,42 +1,180 @@
 [
   {
-    "id": "9d581c7c860701e91ff55608bc4613b6e0ada36da8ae19b175beed97ee395e9e",
+    "id": "719b884bb09cdd688798642a85fa670693bebdc94c9b35d9845ca6c099b82f73",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "DBS and Citi Launch Instant Tokenized Cross-Border Payments",
-    "url": "https://www.pymnts.com/news/cross-border-payments/2026/citi-dbs-mark-1st-singapore-united-states-weekend-dollar-transaction/",
-    "canonical_url": "https://pymnts.com/news/cross-border-payments/2026/citi-dbs-mark-1st-singapore-united-states-weekend-dollar-transaction/",
-    "snippet": "Citi and DBS made the first successful Singapore-to-U.S. dollar payment conducted on a weekend, according to a Sunday (Sept. 6) press release. The Saturday (Sept. 5) transaction was executed using tokenized deposits via the Swift Digital Ledger, the release said. Companies that transact in U.S. doll",
-    "published_at": "2026-09-07T18:55:37+00:00",
+    "feed_name": "finextra",
+    "title": "Barclays switches on fast-track remortgages going from appliation to offfer within 24 hours",
+    "url": "https://www.finextra.com/pressarticle/110828/barclays-switches-on-fast-track-remortgages-going-from-appliation-to-offfer-within-24-hours?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110828/barclays-switches-on-fast-track-remortgages-going-from-appliation-to-offfer-within-24-hours",
+    "snippet": "Barclays announces new Fast-Track Remortgage service, launching 7 September 2026, designed to make remortgaging to Barclays faster and more straightforward.",
+    "published_at": "2026-09-08T11:21:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
-    "matched_keywords": [
-      "tokenized deposit",
-      "cross-border",
-      "tokenized",
-      "launch"
-    ],
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=4163597",
+      "id": "https://www.finextra.com/pressarticle/110828/barclays-switches-on-fast-track-remortgages-going-from-appliation-to-offfer-within-24-hours?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 59,
+    "score": 80,
     "score_breakdown": {
-      "tier1": 1,
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "c2cb81bd968db6c9b70fc01d9ca6ae39db05737cb3a93e8ad6cf88a7aabae8c9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Visa stablecoin settlement tops $20 billion annualized run rate, up more than 15x year over year",
+    "url": "https://www.theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
+    "canonical_url": "https://theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
+    "snippet": "Visa’s stablecoin settlement volume tops a $20 billion annualized run rate as payment volume grows nearly 200% year over year.",
+    "published_at": "2026-09-08T11:09:21+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "325d59d5-5631-55c0-884c-52fa7704fec7",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 35,
+      "launch_score": 10,
       "institution_bonus": 20,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d6f765bc92de271db71370d597eaf1b27669db5a58549f963a884480c25ddba5",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Uzbekistan begins government bond-backed stablecoin payment pilot",
+    "url": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot",
+    "snippet": "Humo Digital will test HUMO payments with more than 20 merchants under a sandbox jointly overseen by NAPP and Uzbekistan’s central bank.",
+    "published_at": "2026-09-08T10:07:10+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "pilot"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot",
+      "guidislink": true
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "71281c5a9e02552af362403a4e7efaf168d3e09410815ae78f0c0b11d9a58a68",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Hunter Biden wants to launch a LAPTOP memecoin. Crypto traders hate it already",
+    "url": "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
+    "canonical_url": "https://coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
+    "snippet": "",
+    "published_at": "2026-09-08T06:23:53+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
+    "matched_keywords": [
+      "launch"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "ed3fee4f-bcdc-49fb-8695-3060de042eb3",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -62,7 +200,7 @@
     "snippet": "LINK hit an eight-month high after Bottomline, a top-three SWIFT services provider moving $16 trillion a year, tapped Chainlink to connect 600-plus banks to blockchain settlement.",
     "published_at": "2026-09-07T15:42:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -109,7 +247,7 @@
     "snippet": "DBS and Citi completed the first weekend cross-border USD settlement between Singapore and the U.S. using tokenized deposits.",
     "published_at": "2026-09-07T13:00:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "settlement",
@@ -150,53 +288,6 @@
     ]
   },
   {
-    "id": "603ead8a00cd3eff9467d8db685a139734b71474425352420ec53cfb5b0d175d",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Crypto traders turn on Hunter Biden’s LAPTOP memecoin before it even launches",
-    "url": "https://www.coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
-    "canonical_url": "https://coindesk.com/markets/2026/09/08/crypto-traders-turn-on-hunter-biden-s-laptop-memecoin-before-it-even-launches",
-    "snippet": "",
-    "published_at": "2026-09-08T06:23:53+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
-    "matched_keywords": [
-      "launches"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "ed3fee4f-bcdc-49fb-8695-3060de042eb3",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "2380384c44c7a4cedd80db7eeeafec916bbc94492cbf0876e9bdceb8e0003558",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -207,7 +298,7 @@
     "snippet": "DBS and Citi Settle Cross-Border Dollar Payments via Tokenization IDNFinancials",
     "published_at": "2026-09-07T15:26:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "cross-border",
       "tokenization"
@@ -256,7 +347,7 @@
     "snippet": "DBS, Citi conduct weekend tokenized deposit payments using Swift Ledger ledgerinsights.com",
     "published_at": "2026-09-07T14:21:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
@@ -305,7 +396,7 @@
     "snippet": "Citi, DBS Bank Enable Tokenization-powered Instant 24/7 Cross-Border USD Payment CoinGape",
     "published_at": "2026-09-07T12:56:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "cross-border",
       "tokenization"
@@ -354,7 +445,7 @@
     "snippet": "",
     "published_at": "2026-09-07T12:05:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized"
@@ -393,43 +484,41 @@
     ]
   },
   {
-    "id": "e2afaa77cc6549d6ea69011718da7cf9a7906b7860ff518b51d749371582f221",
+    "id": "1f4a5370e157f53d28c19c0b85675e721a0584ce97e025babf22793625a9b923",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
-    "title": "Citi, DBS complete first weekend tokenized cross-border deposit on Swift",
-    "url": "https://cointelegraph.com/news/dbs-citi-first-weekend-tokenized-deposit-swift?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/dbs-citi-first-weekend-tokenized-deposit-swift",
-    "snippet": "Citi and DBS completed their first tokenized cross-border transfer over the weekend, using Swift’s blockchain-based ledger to circumvent the constraints of traditional banking hours.",
-    "published_at": "2026-09-07T10:34:47+00:00",
+    "title": "Robinhood chain to generate $160M in annual fees by 2028: Bernstein",
+    "url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein",
+    "snippet": "Growing demand for tokenized stock trading may drive the Robinhood chain’s annual fees to $160 million by 2028, predicted analysts from Bernstein.",
+    "published_at": "2026-09-08T09:54:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
-      "cross-border",
       "tokenized"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/dbs-citi-first-weekend-tokenized-deposit-swift",
+      "id": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein",
       "guidislink": true
     },
-    "score": 34,
+    "score": 30,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
-      "commentary": 0,
+      "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 30,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -452,7 +541,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -487,53 +576,6 @@
     ]
   },
   {
-    "id": "f9446633c29438216d9e459cfb61f59ec0380b6d2089d56b098396f98b3b0b39",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "A two-key breach could hand control of $91 billion in USDT to hackers, report finds",
-    "url": "https://www.coindesk.com/tech/2026/09/04/tether-receives-bluechip-rating-upgrade-but-hacken-finds-major-key-security-gaps",
-    "canonical_url": "https://coindesk.com/tech/2026/09/04/tether-receives-bluechip-rating-upgrade-but-hacken-finds-major-key-security-gaps",
-    "snippet": "",
-    "published_at": "2026-09-07T10:35:23+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
-    "matched_keywords": [
-      "USDT"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "31da71d7-4c4e-495e-8453-e9a225c752a6",
-      "guidislink": false
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "b123bbf3a0b2eb7da74295080e33d34cd73e4a3f90e5191730fd85b18b8aaa33",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -542,9 +584,9 @@
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbG85cEozcjg0S1hQSlJPTlkxdFVQcmxpT0x0NjhUc1EyeGpxMXh4eWpVWTdZMkZTU0pOXzc2YmFSSjhGMmlYT3hKWUVTUmhncmRheEFTWTVfeGJGMHhXU085ZHRtZ2xPU2Q1QlNRYWt0SkV5dmtyNGJZRzVjVklkbmdza25HTGs1bWZXSlFLUQ?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbG85cEozcjg0S1hQSlJPTlkxdFVQcmxpT0x0NjhUc1EyeGpxMXh4eWpVWTdZMkZTU0pOXzc2YmFSSjhGMmlYT3hKWUVTUmhncmRheEFTWTVfeGJGMHhXU085ZHRtZ2xPU2Q1QlNRYWt0SkV5dmtyNGJZRzVjVklkbmdza25HTGs1bWZXSlFLUQ?oc=5",
     "snippet": "Larsen & Toubro Takes Tokenized Bonds To The Private Sector Finimize",
-    "published_at": "2026-09-08T04:03:41+00:00",
+    "published_at": "2026-09-08T04:46:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -555,14 +597,14 @@
       "id": "CBMijwFBVV95cUxNbG85cEozcjg0S1hQSlJPTlkxdFVQcmxpT0x0NjhUc1EyeGpxMXh4eWpVWTdZMkZTU0pOXzc2YmFSSjhGMmlYT3hKWUVTUmhncmRheEFTWTVfeGJGMHhXU085ZHRtZ2xPU2Q1QlNRYWt0SkV5dmtyNGJZRzVjVklkbmdza25HTGs1bWZXSlFLUQ",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -581,17 +623,17 @@
     ]
   },
   {
-    "id": "fc111957b4e79b0a2d881336fb735863c58e0b614c2cb7776152a281d805389e",
+    "id": "b3249785c3c33867246a6a39c868fba0cf9add245c8e67a571674a8400afae26",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "tokenized_funds_rwa",
-    "title": "Top Private Banks Snap Up India's First Tokenized Bond From REC - Briefs Finance",
+    "title": "India's First Tokenized Bond Sold by REC - Briefs Finance",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSkZoaWFQYnBJamdZbXRvWFZYb240ZjR1Ni1BTEh4SVVJR3BnMk9GeEdpcmdsQjNBRWpCMGhTMDFhMEhPOU9YTXlnaGJKY0tnY3ZhZ2ZDMWlFTlVMV0hrd0V4SUFmNzBTeERxcEJGa0ZncHUxUzFZdFZVWE9YSVF3WXFBX3dWaGYyWG92SENXa1U?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSkZoaWFQYnBJamdZbXRvWFZYb240ZjR1Ni1BTEh4SVVJR3BnMk9GeEdpcmdsQjNBRWpCMGhTMDFhMEhPOU9YTXlnaGJKY0tnY3ZhZ2ZDMWlFTlVMV0hrd0V4SUFmNzBTeERxcEJGa0ZncHUxUzFZdFZVWE9YSVF3WXFBX3dWaGYyWG92SENXa1U?oc=5",
-    "snippet": "Top Private Banks Snap Up India's First Tokenized Bond From REC Briefs Finance",
+    "snippet": "India's First Tokenized Bond Sold by REC Briefs Finance",
     "published_at": "2026-09-07T21:32:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -638,7 +680,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -646,6 +688,102 @@
     "raw": {
       "id": "https://www.finextra.com/event-info/625/are-banks-actually-ready-for-digital-money?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "dc4c207fd7add5e6ca32558bd65e904895f8d09b2cddf1a8ec852124bba33e9e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "SIX and Twint join Swiss bank stablecoin project",
+    "url": "https://www.finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project",
+    "snippet": "Swiss exchange SIX and mobile payment service Twint have joined a CHF stablecoin initiative promoted by six of the country's leading banks.",
+    "published_at": "2026-09-08T11:28:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b91e1c830696046cd3e7da6f689231add724ba70a3462b8baac837a352cfdf08",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Swiss stablecoin sandbox enters testing phase, adds two new partners",
+    "url": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners",
+    "snippet": "Financial market operator SIX and payment app TWINT have joined numerous banks in the sandbox seeking to develop a Swiss franc-based stablecoin.",
+    "published_at": "2026-09-08T07:18:32+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "partners"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners",
+      "guidislink": true
     },
     "score": 10,
     "score_breakdown": {
@@ -683,7 +821,7 @@
     "snippet": "AUSTRAC said its yearlong sweep included canceled, suspended and unrenewed registrations, while its action against GetCoins helped disrupt organized investment scams.",
     "published_at": "2026-09-08T05:10:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "remittance"
     ],
@@ -694,14 +832,14 @@
       "id": "https://cointelegraph.com/news/australia-removes-45-crypto-remittance-registrations",
       "guidislink": true
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -730,7 +868,7 @@
     "snippet": "",
     "published_at": "2026-09-08T04:41:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -739,14 +877,14 @@
       "id": "009d01e6-a7aa-42ce-83c9-e00616a40574",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -775,7 +913,7 @@
     "snippet": "What Makes a Stablecoin Credible for Enterprise Payments? A USDGO and OSL Business Route Test TechBullion",
     "published_at": "2026-09-07T17:15:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -812,17 +950,17 @@
     ]
   },
   {
-    "id": "efea6e21c0761a527281c51376e2811a48cd0d3efbf7134c306cdf1631937b20",
+    "id": "17f540dd21a8cb3b05d1c8661f5c3d994c5689cb036fe0cdb64bcaca1121a1ab",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Industry experts divide on whether stablecoin wallets will replace traditional banks - CoinDesk",
+    "title": "Industry experts divide on whether stablecoin wallets will replace traditional banks - coindesk.com",
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTjh5dU9xbkpmYnBYTEdHbS11VTg2RnNpWEExSi11SFFqd1lZTzhqdEM3d3I0b1VLZlpFN3JYaGk5QXp3emJTZ1RfczBqdWFTUzRzS0ZlbjRleERsajhGRk1pU0hYZVZUOEczQ3Frc09tSU5tQ3k5NENZUWJ2Y1I4Z21kRHRUYXNzak9ua2diTkxSVEpqdzh0cHJ2Ni0xcUhVRFJFT2VuQVdkZmxKVnRjRjB1akhOYlRDek9TdjlxalU5NUpV?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNTjh5dU9xbkpmYnBYTEdHbS11VTg2RnNpWEExSi11SFFqd1lZTzhqdEM3d3I0b1VLZlpFN3JYaGk5QXp3emJTZ1RfczBqdWFTUzRzS0ZlbjRleERsajhGRk1pU0hYZVZUOEczQ3Frc09tSU5tQ3k5NENZUWJ2Y1I4Z21kRHRUYXNzak9ua2diTkxSVEpqdzh0cHJ2Ni0xcUhVRFJFT2VuQVdkZmxKVnRjRjB1akhOYlRDek9TdjlxalU5NUpV?oc=5",
-    "snippet": "Industry experts divide on whether stablecoin wallets will replace traditional banks CoinDesk",
+    "snippet": "Industry experts divide on whether stablecoin wallets will replace traditional banks coindesk.com",
     "published_at": "2026-09-07T14:12:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -870,7 +1008,7 @@
     "snippet": "",
     "published_at": "2026-09-07T14:12:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
+    "fetched_at": "2026-09-08T11:32:59.867937+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -896,54 +1034,6 @@
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "95dd7746618bd7b4f866d093bf75027d556ed3cdc804da4ce8b9ebb7a9bf250c",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "How to Build Enterprise-Grade Infrastructure for Real-World Asset Tokenization",
-    "url": "https://www.finextra.com/blogposting/32756/how-to-build-enterprise-grade-infrastructure-for-real-world-asset-tokenization?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/blogposting/32756/how-to-build-enterprise-grade-infrastructure-for-real-world-asset-tokenization",
-    "snippet": "Real-world asset (RWA) tokenization is transforming how traditional assets are issued, owned, manag",
-    "published_at": "2026-09-07T10:27:53+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-08T06:25:10.724874+00:00",
-    "matched_keywords": [
-      "tokenization",
-      "RWA"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/blogposting/32756/how-to-build-enterprise-grade-infrastructure-for-real-world-asset-tokenization?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 2,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 20,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
