@@ -10,7 +10,7 @@
     "snippet": "REC Limited, a state-owned lender to the power sector, has issued a ₹5 billion ($59 million) tokenized bond as part of a distributed ledger pilot and sandbox previously announced by the Securities and Exchange Board of India (SEBI). The company said the initial plan was for a ₹1 billion issuance, bu",
     "published_at": "2026-09-08T13:10:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "issuance",
       "tokenized",
@@ -51,41 +51,95 @@
     ]
   },
   {
-    "id": "b3bb958f9487fbec92c638e0291099266ad37dd6ee139395651270c8c27951c9",
+    "id": "7c28f9b94672793138fa892634f3ed570d4933325e72c2780131d202a6e60898",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Circle to acquire Tazapay to expand USDC cross-border payments",
-    "url": "https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments",
-    "snippet": "Tazapay processes $25 billion in annualized volume and offers payout rails across 100-plus markets, extending Circle’s USDC payments reach.",
-    "published_at": "2026-09-08T11:33:14+00:00",
+    "feed_name": "finextra",
+    "title": "Investre and 21X partner to bring natively tokenized funds to a regulated exchange",
+    "url": "https://www.finextra.com/pressarticle/110842/investre-and-21x-partner-to-bring-natively-tokenized-funds-to-a-regulated-exchange?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110842/investre-and-21x-partner-to-bring-natively-tokenized-funds-to-a-regulated-exchange",
+    "snippet": "21X - operator of the first exchange licensed as a DLT Trading and Settlement System under the EU's DLT Pilot Regime - and Investre S.A. - the Luxembourg fintech authorized by the CSSF as a Control Agent under Luxembourg's Blockchain IV Law - have announced a partnership to bring natively tokenized ",
+    "published_at": "2026-09-09T09:21:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
-      "USDC",
-      "Circle",
-      "cross-border"
+      "tokenized fund",
+      "settlement",
+      "tokenized",
+      "pilot"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments",
-      "guidislink": true
+      "id": "https://www.finextra.com/pressarticle/110842/investre-and-21x-partner-to-bring-natively-tokenized-funds-to-a-regulated-exchange?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
     },
-    "score": 89,
+    "score": 105,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
+      "tier1": 2,
+      "tier2": 3,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
+      "launch_score": 80,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "32af579ea70ea8ec054acdf167ee9708ec3088ec20bccc1479292d5000b36ede",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Broadridge launches DLX, an always-on digital asset tokenisation platform",
+    "url": "https://www.finextra.com/pressarticle/110841/broadridge-launches-dlx-an-always-on-digital-asset-tokenisation-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110841/broadridge-launches-dlx-an-always-on-digital-asset-tokenisation-platform",
+    "snippet": "Broadridge (NYSE: BR) today announced the launch of DLX, a fully integrated, end-to-end tokenization and digital asset infrastructure platform that enables financial institutions to operate across tokenized and traditional markets through a connected operating layer for on-chain and off-chain activi",
+    "published_at": "2026-09-09T09:19:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
+    "matched_keywords": [
+      "tokenization",
+      "tokenized",
+      "launch",
+      "launches"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110841/broadridge-launches-dlx-an-always-on-digital-asset-tokenisation-platform?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 90,
+    "score_breakdown": {
+      "tier1": 3,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 80,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -110,7 +164,7 @@
     "snippet": "Financial operations platform Ramp is in early talks with investors to raise about $1 billion in primary funding at a $60 billion valuation, Bloomberg reported Tuesday (Sept. 8), citing unnamed sources. The talks are still underway, and the details of the funding round could change, according to the",
     "published_at": "2026-09-09T01:54:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -119,114 +173,20 @@
       "id": "https://www.pymnts.com/?p=4169310",
       "guidislink": false
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 0,
       "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "719b884bb09cdd688798642a85fa670693bebdc94c9b35d9845ca6c099b82f73",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Barclays switches on fast-track remortgages going from appliation to offfer within 24 hours",
-    "url": "https://www.finextra.com/pressarticle/110828/barclays-switches-on-fast-track-remortgages-going-from-appliation-to-offfer-within-24-hours?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110828/barclays-switches-on-fast-track-remortgages-going-from-appliation-to-offfer-within-24-hours",
-    "snippet": "Barclays announces new Fast-Track Remortgage service, launching 7 September 2026, designed to make remortgaging to Barclays faster and more straightforward.",
-    "published_at": "2026-09-08T11:21:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/110828/barclays-switches-on-fast-track-remortgages-going-from-appliation-to-offfer-within-24-hours?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 74,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "c2cb81bd968db6c9b70fc01d9ca6ae39db05737cb3a93e8ad6cf88a7aabae8c9",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Visa stablecoin settlement tops $20 billion annualized run rate, up more than 15x year over year",
-    "url": "https://www.theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
-    "canonical_url": "https://theblock.co/news/business/2026-09-08-visa-stablecoin-settlement-tops-20-billion-annualized-run-rate-up-more-than-15x-year-over-year-413749",
-    "snippet": "Visa’s stablecoin settlement volume tops a $20 billion annualized run rate as payment volume grows nearly 200% year over year.",
-    "published_at": "2026-09-08T11:09:21+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "325d59d5-5631-55c0-884c-52fa7704fec7",
-      "guidislink": false
-    },
-    "score": 74,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -249,7 +209,7 @@
     "snippet": "Robinhood will also acquire equity stakes in Crypto.com and OG.com, which will be valued based on Crypto.com's recent $20 billion valuation.",
     "published_at": "2026-09-08T15:54:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -284,40 +244,88 @@
     ]
   },
   {
-    "id": "d6f765bc92de271db71370d597eaf1b27669db5a58549f963a884480c25ddba5",
+    "id": "38f2b57cd8d0cd88f351ad88833168abd61c4034916f6714a284d07922d7ebb5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Uzbekistan begins government bond-backed stablecoin payment pilot",
-    "url": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot",
-    "snippet": "Humo Digital will test HUMO payments with more than 20 merchants under a sandbox jointly overseen by NAPP and Uzbekistan’s central bank.",
-    "published_at": "2026-09-08T10:07:10+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "US Bank to Launch USBDC Stablecoin After Completing Stellar Test - bloomingbit",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PRU5pUnM5empGVnpUN1ZZNlRGVzJKMS12ZEh3SGFDV3VyUDF3djcyTDdyMThEYWpURXpJN1hhUndnMllaQ2MyMWNhMi1PQXc4OVJPdw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PRU5pUnM5empGVnpUN1ZZNlRGVzJKMS12ZEh3SGFDV3VyUDF3djcyTDdyMThEYWpURXpJN1hhUndnMllaQ2MyMWNhMi1PQXc4OVJPdw?oc=5",
+    "snippet": "US Bank to Launch USBDC Stablecoin After Completing Stellar Test bloomingbit",
+    "published_at": "2026-09-09T11:29:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "stablecoin",
-      "pilot"
+      "launch"
     ],
     "matched_topics": [
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot",
-      "guidislink": true
+      "id": "CBMiVEFVX3lxTE1PRU5pUnM5empGVnpUN1ZZNlRGVzJKMS12ZEh3SGFDV3VyUDF3djcyTDdyMThEYWpURXpJN1hhUndnMllaQ2MyMWNhMi1PQXc4OVJPdw",
+      "guidislink": false
     },
-    "score": 59,
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "73fe1f7aa99a504d7f98be1268abbe5025ec445f8b2e8514197654e2c62c6dc8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption - FinTech Futures",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTHh1ZGphbHNtY2o5VllEU1F5dDJWUjZGdTdWU3VHd2VkMDBDb01IODdDREZWemRyTzdpNEJZcHljY1NkbFhTeHF6NUttekw2Z1hfLXRGV0pzal8wLVAyM0l1bllBdTg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTHh1ZGphbHNtY2o5VllEU1F5dDJWUjZGdTdWU3VHd2VkMDBDb01IODdDREZWemRyTzdpNEJZcHljY1NkbFhTeHF6NUttekw2Z1hfLXRGV0pzal8wLVAyM0l1bllBdTg?oc=5",
+    "snippet": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption FinTech Futures",
+    "published_at": "2026-09-09T08:07:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiZ0FVX3lxTE1jTHh1ZGphbHNtY2o5VllEU1F5dDJWUjZGdTdWU3VHd2VkMDBDb01IODdDREZWemRyTzdpNEJZcHljY1NkbFhTeHF6NUttekw2Z1hfLXRGV0pzal8wLVAyM0l1bllBdTg",
+      "guidislink": false
+    },
+    "score": 55,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 25,
-      "institution_bonus": 30,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -343,7 +351,7 @@
     "snippet": "Gemini’s local entity is authorized to provide digital payment token and cross-border money transfer services without standard transaction-volume limits.",
     "published_at": "2026-09-09T05:27:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -354,70 +362,19 @@
       "id": "https://cointelegraph.com/news/gemini-singapore-mpi-license-crypto-services",
       "guidislink": true
     },
-    "score": 55,
+    "score": 49,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 2,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 20,
       "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "8e33005516d4e310767a4fa6f16c4e0b847568d7dced7b78ff8e5ad01e1861c8",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "STABLECOINS | Uzbekistan Launches Pilot for Government-Backed HUMO Stablecoin Payments - BitKE",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDMEVoakpZSVZvd2locjlKWWtvNExvRDd2NnY4NlFtMGRhN1Rldm01a2Y1aDBNMzU3ZEphMlFPVjJyYmlZaXdRbHNjQTUzdC03ak5wRDlUQ0szaXBfVGtnWWlpR3VaMWhLTkFYbDlYdFl4NE83?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDMEVoakpZSVZvd2locjlKWWtvNExvRDd2NnY4NlFtMGRhN1Rldm01a2Y1aDBNMzU3ZEphMlFPVjJyYmlZaXdRbHNjQTUzdC03ak5wRDlUQ0szaXBfVGtnWWlpR3VaMWhLTkFYbDlYdFl4NE83?oc=5",
-    "snippet": "STABLECOINS | Uzbekistan Launches Pilot for Government-Backed HUMO Stablecoin Payments BitKE",
-    "published_at": "2026-09-08T11:00:42+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "launches",
-      "pilot"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMidEFVX3lxTFBDMEVoakpZSVZvd2locjlKWWtvNExvRDd2NnY4NlFtMGRhN1Rldm01a2Y1aDBNMzU3ZEphMlFPVjJyYmlZaXdRbHNjQTUzdC03ak5wRDlUQ0szaXBfVGtnWWlpR3VaMWhLTkFYbDlYdFl4NE83",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -441,7 +398,7 @@
     "snippet": "Bybit added USDT-settled perpetuals tracking EUR/USD, GBP/USD and USD/JPY, with 24/7 trading and leverage of up to 100x.",
     "published_at": "2026-09-08T18:51:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "USDT",
       "launches"
@@ -480,6 +437,55 @@
     ]
   },
   {
+    "id": "e7054faf456f86e6e0508e35f4e08e3a68d364e580e89fbae515df263130bc88",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "U.S. Bank takes next step towards launching its stablecoin with cross-border payment test",
+    "url": "https://www.coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test",
+    "canonical_url": "https://coindesk.com/business/2026/09/08/u-s-bank-takes-next-step-towards-launching-its-stablecoin-with-cross-border-payment-test",
+    "snippet": "",
+    "published_at": "2026-09-09T11:40:44+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "cross-border"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "d8e7ec02-f509-42d9-8300-aaed6bfecefe",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e9b26810d39e54e004b37958eb3b832a427260c197d3f6ec55c3ae7d87ddd616",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -490,7 +496,7 @@
     "snippet": "Visa is combining its settlement data with blockchain lending infrastructure to help stablecoin-linked card programmes and fintechs access working capital.",
     "published_at": "2026-09-09T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -538,7 +544,7 @@
     "snippet": "The payment processor giant is pairing payment settlement data with blockchain lending tools to help fintechs and stablecoin-linked card programs access working capital.",
     "published_at": "2026-09-08T18:16:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -586,7 +592,7 @@
     "snippet": "Visa is combining VisaNet settlement data with blockchain lending as stablecoin payment volume on its network jumps nearly 200% year over year.",
     "published_at": "2026-09-08T16:11:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -634,7 +640,7 @@
     "snippet": "Visa connects settlement data to blockchain lenders for stablecoin cards qz.com",
     "published_at": "2026-09-08T14:15:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -672,75 +678,27 @@
     ]
   },
   {
-    "id": "541ae82551d047e9a7850833c1a6aa760b2b54c3f31e02e368fcb503375e0631",
+    "id": "e11aac9c01c8e589e28a9b2ecc2325bd90f1fb931e97775e010e7b90366ae83a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "US-based Circle to buy Singapore's Tazapay for $400M to expand USDC cross-border payments - TNGlobal",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWG5uS3dyREFHSEZoeHJHSGZ2UTFHdTVIeXE2REdpdGhUcGtveGtoSlNYOGYtU3VjZXN6dDdMQ2JHemhiOWNlWXhsemphdTF1LS1lU3BpbTVJVExhX2NYSlVNelpiWVpNNGFhWkdfN2U2U3R4T0hMMjhJSGpNRWNQOGpXMnVQTU1LRnJwQ01iaW9EYS1kcjRQYlRDX1BWV25heVlIN2lKSm9EVm5EbmVBVVkxRndTUXVnbXBZbkFkb2E?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWG5uS3dyREFHSEZoeHJHSGZ2UTFHdTVIeXE2REdpdGhUcGtveGtoSlNYOGYtU3VjZXN6dDdMQ2JHemhiOWNlWXhsemphdTF1LS1lU3BpbTVJVExhX2NYSlVNelpiWVpNNGFhWkdfN2U2U3R4T0hMMjhJSGpNRWNQOGpXMnVQTU1LRnJwQ01iaW9EYS1kcjRQYlRDX1BWV25heVlIN2lKSm9EVm5EbmVBVVkxRndTUXVnbXBZbkFkb2E?oc=5",
-    "snippet": "US-based Circle to buy Singapore's Tazapay for $400M to expand USDC cross-border payments TNGlobal",
-    "published_at": "2026-09-09T02:45:23+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
+    "url": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody",
+    "snippet": "The proposed Builders Bank would offer federally supervised digital asset custody but would not accept deposits or issue loans.",
+    "published_at": "2026-09-09T07:36:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
-      "USDC",
-      "Circle",
-      "cross-border"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiwAFBVV95cUxPWG5uS3dyREFHSEZoeHJHSGZ2UTFHdTVIeXE2REdpdGhUcGtveGtoSlNYOGYtU3VjZXN6dDdMQ2JHemhiOWNlWXhsemphdTF1LS1lU3BpbTVJVExhX2NYSlVNelpiWVpNNGFhWkdfN2U2U3R4T0hMMjhJSGpNRWNQOGpXMnVQTU1LRnJwQ01iaW9EYS1kcjRQYlRDX1BWV25heVlIN2lKSm9EVm5EbmVBVVkxRndTUXVnbXBZbkFkb2E",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "a2f11a2201459fb561b140323e769d09aed0ca16a0828d88bd81f6cc00baaab8",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Block Pursues National Trust Bank Charter to Custody Bitcoin and Stablecoins",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/block-pursues-national-trust-bank-charter-to-custody-bitcoin-and-stablecoins/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/block-pursues-national-trust-bank-charter-to-custody-bitcoin-and-stablecoins/",
-    "snippet": "Block aims to establish a national trust bank that would provide custody and related fiduciary services, including those for bitcoin and stablecoins, the company said in a Tuesday (Sept. 8) press release. Block said in the release that it submitted an application to the Office of the Comptroller of ",
-    "published_at": "2026-09-09T00:41:07+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [
+      "stablecoin",
       "custody"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=4169178",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody",
+      "guidislink": true
     },
     "score": 30,
     "score_breakdown": {
@@ -778,7 +736,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -813,6 +771,102 @@
     ]
   },
   {
+    "id": "541ae82551d047e9a7850833c1a6aa760b2b54c3f31e02e368fcb503375e0631",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "US-based Circle to buy Singapore's Tazapay for $400M to expand USDC cross-border payments - TNGlobal",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWG5uS3dyREFHSEZoeHJHSGZ2UTFHdTVIeXE2REdpdGhUcGtveGtoSlNYOGYtU3VjZXN6dDdMQ2JHemhiOWNlWXhsemphdTF1LS1lU3BpbTVJVExhX2NYSlVNelpiWVpNNGFhWkdfN2U2U3R4T0hMMjhJSGpNRWNQOGpXMnVQTU1LRnJwQ01iaW9EYS1kcjRQYlRDX1BWV25heVlIN2lKSm9EVm5EbmVBVVkxRndTUXVnbXBZbkFkb2E?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWG5uS3dyREFHSEZoeHJHSGZ2UTFHdTVIeXE2REdpdGhUcGtveGtoSlNYOGYtU3VjZXN6dDdMQ2JHemhiOWNlWXhsemphdTF1LS1lU3BpbTVJVExhX2NYSlVNelpiWVpNNGFhWkdfN2U2U3R4T0hMMjhJSGpNRWNQOGpXMnVQTU1LRnJwQ01iaW9EYS1kcjRQYlRDX1BWV25heVlIN2lKSm9EVm5EbmVBVVkxRndTUXVnbXBZbkFkb2E?oc=5",
+    "snippet": "US-based Circle to buy Singapore's Tazapay for $400M to expand USDC cross-border payments TNGlobal",
+    "published_at": "2026-09-09T02:52:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle",
+      "cross-border"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiwAFBVV95cUxPWG5uS3dyREFHSEZoeHJHSGZ2UTFHdTVIeXE2REdpdGhUcGtveGtoSlNYOGYtU3VjZXN6dDdMQ2JHemhiOWNlWXhsemphdTF1LS1lU3BpbTVJVExhX2NYSlVNelpiWVpNNGFhWkdfN2U2U3R4T0hMMjhJSGpNRWNQOGpXMnVQTU1LRnJwQ01iaW9EYS1kcjRQYlRDX1BWV25heVlIN2lKSm9EVm5EbmVBVVkxRndTUXVnbXBZbkFkb2E",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "a2f11a2201459fb561b140323e769d09aed0ca16a0828d88bd81f6cc00baaab8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Block Pursues National Trust Bank Charter to Custody Bitcoin and Stablecoins",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/block-pursues-national-trust-bank-charter-to-custody-bitcoin-and-stablecoins/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/block-pursues-national-trust-bank-charter-to-custody-bitcoin-and-stablecoins/",
+    "snippet": "Block aims to establish a national trust bank that would provide custody and related fiduciary services, including those for bitcoin and stablecoins, the company said in a Tuesday (Sept. 8) press release. Block said in the release that it submitted an application to the Office of the Comptroller of ",
+    "published_at": "2026-09-09T00:41:07+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=4169178",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "7779eecca280f2063c326690529f5797da9c39104479ed0e71617b87542b3e61",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -823,7 +877,7 @@
     "snippet": "Circle To Buy Singapore's Tazapay for $400M To Power USDC Payments CoinMarketCap",
     "published_at": "2026-09-08T21:58:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -871,7 +925,7 @@
     "snippet": "Circle Targets 100+ Markets and $25B Flows in Major USDC Payments Expansion Deal CryptoNinjas",
     "published_at": "2026-09-08T16:44:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "USDC",
       "Circle"
@@ -919,7 +973,7 @@
     "snippet": "",
     "published_at": "2026-09-08T14:29:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -956,85 +1010,39 @@
     ]
   },
   {
-    "id": "1f4a5370e157f53d28c19c0b85675e721a0584ce97e025babf22793625a9b923",
+    "id": "97dfaa88dd293ac0b7a8545732296835674f55bdc13c58b1145eb97d27b47305",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Robinhood chain to generate $160M in annual fees by 2028: Bernstein",
-    "url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein",
-    "snippet": "Growing demand for tokenized stock trading may drive the Robinhood chain’s annual fees to $160 million by 2028, predicted analysts from Bernstein.",
-    "published_at": "2026-09-08T09:56:00+00:00",
+    "feed_name": "finextra",
+    "title": "What Banks Should Evaluate Before Using Stablecoins for Cross-Border Settlement",
+    "url": "https://www.finextra.com/blogposting/32770/what-banks-should-evaluate-before-using-stablecoins-for-cross-border-settlement?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/blogposting/32770/what-banks-should-evaluate-before-using-stablecoins-for-cross-border-settlement",
+    "snippet": "Banks are no longer debating whether stablecoins have a role in cross-border settlement. The questio...",
+    "published_at": "2026-09-08T18:33:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
-      "tokenized"
+      "settlement",
+      "cross-border"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/robinhood-chain-160m-annual-fees-2028-bernstein",
-      "guidislink": true
+      "id": "https://www.finextra.com/blogposting/32770/what-banks-should-evaluate-before-using-stablecoins-for-cross-border-settlement?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
     },
-    "score": 24,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
-      "commentary": 1,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
-      "financial_bonus": 30,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "209a3dcaba96068d8a0ee97b4c0eb1bb6a120ecc8e1a12ab689fcc36dc01145e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Circle $400M Tazapay Deal Buys the Last Mile Stablecoins Still Need",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/two-years-ago-vs-today-crypto-partnerships-become-infrastructure-deals/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/two-years-ago-vs-today-crypto-partnerships-become-infrastructure-deals/",
-    "snippet": "In 2024, announcements pairing banks, payment companies and established financial institutions with digital asset firms frequently centered on experimentation, access or validation. A traditional institution was testing blockchain. A payments company was adding crypto capabilities. A digital asset c",
-    "published_at": "2026-09-08T22:10:05+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4168679",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -1050,26 +1058,25 @@
     ]
   },
   {
-    "id": "97dfaa88dd293ac0b7a8545732296835674f55bdc13c58b1145eb97d27b47305",
+    "id": "b123bbf3a0b2eb7da74295080e33d34cd73e4a3f90e5191730fd85b18b8aaa33",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "What Banks Should Evaluate Before Using Stablecoins for Cross-Border Settlement",
-    "url": "https://www.finextra.com/blogposting/32770/what-banks-should-evaluate-before-using-stablecoins-for-cross-border-settlement?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/blogposting/32770/what-banks-should-evaluate-before-using-stablecoins-for-cross-border-settlement",
-    "snippet": "Banks are no longer debating whether stablecoins have a role in cross-border settlement. The questio...",
-    "published_at": "2026-09-08T18:33:41+00:00",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Larsen & Toubro Takes Tokenized Bonds To The Private Sector - Finimize",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbG85cEozcjg0S1hQSlJPTlkxdFVQcmxpT0x0NjhUc1EyeGpxMXh4eWpVWTdZMkZTU0pOXzc2YmFSSjhGMmlYT3hKWUVTUmhncmRheEFTWTVfeGJGMHhXU085ZHRtZ2xPU2Q1QlNRYWt0SkV5dmtyNGJZRzVjVklkbmdza25HTGs1bWZXSlFLUQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbG85cEozcjg0S1hQSlJPTlkxdFVQcmxpT0x0NjhUc1EyeGpxMXh4eWpVWTdZMkZTU0pOXzc2YmFSSjhGMmlYT3hKWUVTUmhncmRheEFTWTVfeGJGMHhXU085ZHRtZ2xPU2Q1QlNRYWt0SkV5dmtyNGJZRzVjVklkbmdza25HTGs1bWZXSlFLUQ?oc=5",
+    "snippet": "Larsen & Toubro Takes Tokenized Bonds To The Private Sector Finimize",
+    "published_at": "2026-09-08T11:46:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
-      "settlement",
-      "cross-border"
+      "tokenized"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.finextra.com/blogposting/32770/what-banks-should-evaluate-before-using-stablecoins-for-cross-border-settlement?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "CBMijwFBVV95cUxNbG85cEozcjg0S1hQSlJPTlkxdFVQcmxpT0x0NjhUc1EyeGpxMXh4eWpVWTdZMkZTU0pOXzc2YmFSSjhGMmlYT3hKWUVTUmhncmRheEFTWTVfeGJGMHhXU085ZHRtZ2xPU2Q1QlNRYWt0SkV5dmtyNGJZRzVjVklkbmdza25HTGs1bWZXSlFLUQ",
       "guidislink": false
     },
     "score": 14,
@@ -1108,7 +1115,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1153,7 +1160,7 @@
     "snippet": "Sovereign debt ain’t what it was",
     "published_at": "2026-09-09T05:30:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1162,14 +1169,14 @@
       "id": "fe0cbcfc-b351-4dac-889f-7b8f11f79102",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -1198,7 +1205,7 @@
     "snippet": "Former Franklin Templeton digital asset executive Christopher Jensen will lead StablecoinX, the largest corporate holder of Ethena’s ENA token.",
     "published_at": "2026-09-08T20:59:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1243,7 +1250,7 @@
     "snippet": "Two suspects face a Wednesday hearing over four killings allegedly linked to a crypto wallet believed to hold millions of dollars in Bitcoin.",
     "published_at": "2026-09-08T12:41:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
+    "fetched_at": "2026-09-09T11:45:32.685509+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1252,102 +1259,6 @@
     ],
     "raw": {
       "id": "https://cointelegraph.com/news/mexico-quadruple-homicide-alleged-bitcoin-robbery",
-      "guidislink": true
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "dc4c207fd7add5e6ca32558bd65e904895f8d09b2cddf1a8ec852124bba33e9e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "SIX and Twint join Swiss bank stablecoin project",
-    "url": "https://www.finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project",
-    "snippet": "Swiss exchange SIX and mobile payment service Twint have joined a CHF stablecoin initiative promoted by six of the country's leading banks.",
-    "published_at": "2026-09-08T11:28:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/newsarticle/48360/six-and-twint-join-swiss-bank-stablecoin-project?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "b91e1c830696046cd3e7da6f689231add724ba70a3462b8baac837a352cfdf08",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Swiss stablecoin sandbox enters testing phase, adds two new partners",
-    "url": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners",
-    "snippet": "Financial market operator SIX and payment app TWINT have joined numerous banks in the sandbox seeking to develop a Swiss franc-based stablecoin.",
-    "published_at": "2026-09-08T07:18:32+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-09T06:30:01.148392+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "partners"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/swiss-stablecoin-sandbox-testing-phase-two-new-partners",
       "guidislink": true
     },
     "score": 4,

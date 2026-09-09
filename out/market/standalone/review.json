@@ -1,38 +1,41 @@
 [
   {
-    "id": "829745bbadc2199bfd5ab9259a811f7d46697c76",
-    "title": "Circle to acquire Tazapay to expand USDC cross-border payments",
-    "link": "https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 89,
-    "snippet": "Tazapay processes $25 billion in annualized volume and offers payout rails across 100-plus markets, extending Circle’s USDC payments reach.",
+    "id": "2a2fe1351ae0005e136728136d3bc8a091d6a4df",
+    "title": "Citi to Become Japan’s First Foreign Bank to Launch Tokenized Deposit-Based Cross-Border Transfers by Year-End Citi plans to launch tokenized deposit-based international transfers for Japanese companies by year-end. The",
+    "link": "https://x.com/WuBlockchain/status/2097643520865779812",
+    "score": 100,
+    "snippet": "Citi to Become Japan’s First Foreign Bank to Launch Tokenized Deposit-Based Cross-Border Transfers by Year-End Citi plans to launch tokenized deposit-based international transfers for Japanese companies by year-end. The service will enable instant, 24/7 cross-border payments across five countries, m",
     "regions": [
-      "US",
       "APAC"
     ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-08T11:33:14+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T11:09:22.920000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BASED"
+    ]
   },
   {
     "id": "ac289c002a747fc2c29727816331e5d5e4f6e7cd",
     "title": "Testnet resets to a fresh genesis on October 7. Deployed contracts, test accounts, balances, and history are cleared and must be redeployed. Node operators re-sync and reclaim storage. No effect on Mainnet. Devnet keeps",
     "link": "https://x.com/AptosLabs/status/2097505282738069717",
-    "score": 85,
+    "score": 79,
     "snippet": "Testnet resets to a fresh genesis on October 7. Deployed contracts, test accounts, balances, and history are cleared and must be redeployed. Node operators re-sync and reclaim storage. No effect on Mainnet. Devnet keeps its current schedule.",
     "regions": [],
     "primary_region": null,
@@ -55,10 +58,42 @@
     ]
   },
   {
+    "id": "d01daa2881479de903b70e101c1a0538e43b6b2e",
+    "title": "JUST IN: @Citi launches tokenized deposit-based international transfers for Japanese companies by year-end, enabling instant 24/7 cross-border payments across five countries, the first foreign bank to offer this service",
+    "link": "https://x.com/CoinDesk/status/2097639503997309164",
+    "score": 75,
+    "snippet": "JUST IN: @Citi launches tokenized deposit-based international transfers for Japanese companies by year-end, enabling instant 24/7 cross-border payments across five countries, the first foreign bank to offer this service in Japan.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T10:53:25.041000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BASED"
+    ]
+  },
+  {
     "id": "5346521c1273116119ee4cdd458b569671283848",
     "title": "FT: Using Crypto to Receive Export Payments in Iran Has Become Completely Normalized According to FT, under pressure from U.S. sanctions and financial blockades, Iran’s central bank has quietly eased foreign exchange con",
     "link": "https://x.com/WuBlockchain/status/2097558156956270788",
-    "score": 80,
+    "score": 74,
     "snippet": "FT: Using Crypto to Receive Export Payments in Iran Has Become Completely Normalized According to FT, under pressure from U.S. sanctions and financial blockades, Iran’s central bank has quietly eased foreign exchange controls in recent months, encouraging exporters to repatriate overseas funds throu",
     "regions": [],
     "primary_region": null,
@@ -84,7 +119,7 @@
     "id": "55d052706fe381cef58ca0cc9f55432d3f0ce018",
     "title": "FT: Using Crypto to Receive Export Payments in Iran Has Become Completely Normalized According to FT, under pressure from U.S. sanctions and financial blockades, Iran’s central bank has quietly eased foreign exchange con",
     "link": "https://x.com/WuBlockchain/status/2097557839766229487",
-    "score": 80,
+    "score": 74,
     "snippet": "FT: Using Crypto to Receive Export Payments in Iran Has Become Completely Normalized According to FT, under pressure from U.S. sanctions and financial blockades, Iran’s central bank has quietly eased foreign exchange controls in recent months, encouraging exporters to repatriate overseas funds throu",
     "regions": [],
     "primary_region": null,
@@ -131,7 +166,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARC"
@@ -169,15 +204,13 @@
     ]
   },
   {
-    "id": "99d3b66b774e066be163efcca2a4aab3872526c9",
-    "title": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial ap",
-    "link": "https://x.com/circle/status/2097366254483120399",
-    "score": 74,
-    "snippet": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial applications. Register for the livestream: https://community.arc.io/public/events/",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "id": "9fd7e04dea38b4c8051c18a3103470f8827d499c",
+    "title": "US Bank to Launch USBDC Stablecoin After Completing Stellar Test - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1PRU5pUnM5empGVnpUN1ZZNlRGVzJKMS12ZEh3SGFDV3VyUDF3djcyTDdyMThEYWpURXpJN1hhUndnMllaQ2MyMWNhMi1PQXc4OVJPdw?oc=5",
+    "score": 60,
+    "snippet": "US Bank to Launch USBDC Stablecoin After Completing Stellar Test bloomingbit",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -186,72 +219,75 @@
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T16:47:37.581000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-09T11:29:17+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
     "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ARC"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "15729b43db00ab1c49199bbfc74ca26e30f7a136",
-    "title": "BitMine ETH Holdings Reach 5.93M, Representing 4.9% of Total Supply BitMine, the largest Ethereum treasury company, said it held 5,929,198 ETH as of Sep. 7, worth about $14.79 billion at $2,495 per ETH and representing r",
-    "link": "https://x.com/WuBlockchain/status/2097316457067802865",
-    "score": 74,
-    "snippet": "BitMine ETH Holdings Reach 5.93M, Representing 4.9% of Total Supply BitMine, the largest Ethereum treasury company, said it held 5,929,198 ETH as of Sep. 7, worth about $14.79 billion at $2,495 per ETH and representing roughly 4.9% of Ethereum’s 122 million total supply. The company acquired an addi",
+    "id": "833e349878c039198b6720f324613af8b1b29824",
+    "title": "Instant access to USDC liquidity is a first step toward turning a tokenized fund from an allocation into a working position. It creates the conditions for better pricing, greater allocation confidence, and deeper utility",
+    "link": "https://x.com/centrifuge/status/2097625010789822517",
+    "score": 60,
+    "snippet": "Instant access to USDC liquidity is a first step toward turning a tokenized fund from an allocation into a working position. It creates the conditions for better pricing, greater allocation confidence, and deeper utility across lending, collateral and treasury strategies.",
     "regions": [],
     "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:centrifuge",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T09:55:49.719000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CFG",
+      "USDC"
+    ]
+  },
+  {
+    "id": "fcccf2115a13d4e90f2eefde6defa457bdaa2ee0",
+    "title": "According to SoSoValue, U.S. spot Bitcoin ETFs saw total net outflows of $46.6464 million on September 8 ET, marking the first net outflow after three consecutive days of net inflows. U.S. spot Ethereum ETFs saw total ne",
+    "link": "https://x.com/WuBlockchain/status/2097577828770627923",
+    "score": 60,
+    "snippet": "According to SoSoValue, U.S. spot Bitcoin ETFs saw total net outflows of $46.6464 million on September 8 ET, marking the first net outflow after three consecutive days of net inflows. U.S. spot Ethereum ETFs saw total net outflows of $24.2921 million, while Fidelity’s FETH led with net inflows of $9",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
     "matched_topics": [],
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T13:29:44.798000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('acquired')",
-    "matched": "acquired",
+    "published_at": "2026-09-09T06:48:20.762000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
       "ETH",
       "BTC"
     ]
-  },
-  {
-    "id": "ee47e2a4a02c96f7ce1fab766bb7d2ccf66afd1a",
-    "title": "Uzbekistan begins government bond-backed stablecoin payment pilot",
-    "link": "https://cointelegraph.com/news/uzbekistan-humo-stablecoin-payment-pilot?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 59,
-    "snippet": "Humo Digital will test HUMO payments with more than 20 merchants under a sandbox jointly overseen by NAPP and Uzbekistan’s central bank.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-08T10:07:10+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "16b9745e22214a71eab4e9db4dae25f409392753",
@@ -282,37 +318,96 @@
     ]
   },
   {
-    "id": "d1dd27d6b28fb29221ce6e24bc77f3e9ae3e6cb8",
-    "title": "Today we announce that Prividium's core, the permissioning engine that governs roles and access, is now open source. Run a permissioned chain from public code, in your own environment. The Bundesbank, Germany’s national",
-    "link": "https://x.com/zksync/status/2097340947625656632",
-    "score": 59,
-    "snippet": "Today we announce that Prividium's core, the permissioning engine that governs roles and access, is now open source. Run a permissioned chain from public code, in your own environment. The Bundesbank, Germany’s national central bank, is the first to deploy it self-hosted 🇩🇪",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "2e6023c6cc7621e42bff793bc88d92b26ea435cb",
+    "title": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption - FinTech Futures",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTHh1ZGphbHNtY2o5VllEU1F5dDJWUjZGdTdWU3VHd2VkMDBDb01IODdDREZWemRyTzdpNEJZcHljY1NkbFhTeHF6NUttekw2Z1hfLXRGV0pzal8wLVAyM0l1bllBdTg?oc=5",
+    "score": 55,
+    "snippet": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption FinTech Futures",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:zksync",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T15:07:03.735000+00:00",
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-09T08:07:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
+    "reason": "concrete market event ('acquisition')",
+    "matched": "acquisition",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "85a2f31fc0f96dbe38db18b747fc8d023ee599c7",
+    "title": "THE BLOCK: Aave has launched an official MCP server allowing AI agents to access live protocol data and prepare transactions across Aave V3 and V4. The server can connect to ChatGPT, Claude, and other MCP-compatible tool",
+    "link": "https://x.com/TheBlockCo/status/2097627102749278231",
+    "score": 55,
+    "snippet": "THE BLOCK: Aave has launched an official MCP server allowing AI agents to access live protocol data and prepare transactions across Aave V3 and V4. The server can connect to ChatGPT, Claude, and other MCP-compatible tools, with users retaining control over transaction signing.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T10:04:08.376000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "ZK"
+      "WLD",
+      "AAVE"
     ]
   },
   {
-    "id": "1377437db6959692a60cdfdca85cc44b027339ea",
-    "title": "THE BLOCK: StoneX Analyst Mark Palmer gave Robinhood a Buy rating and a $170 price target, implying about 45% upside from the stock's current price. The report says the launch of Robinhood Chain provides a new growth dri",
-    "link": "https://x.com/TheBlockCo/status/2097488933416566917",
+    "id": "602841d8f89fbad5ea7a62c06c53053b1a4df3e1",
+    "title": "THE BLOCK: Trezor has rolled out Ethereum's ERC-7730 \"clear signing\" standard across its hardware wallets, allowing users to verify transaction details on-device in plain language instead of blindly signing transactions.",
+    "link": "https://x.com/TheBlockCo/status/2097615809279676717",
     "score": 55,
-    "snippet": "THE BLOCK: StoneX Analyst Mark Palmer gave Robinhood a Buy rating and a $170 price target, implying about 45% upside from the stock's current price. The report says the launch of Robinhood Chain provides a new growth driver. $HOOD",
+    "snippet": "THE BLOCK: Trezor has rolled out Ethereum's ERC-7730 \"clear signing\" standard across its hardware wallets, allowing users to verify transaction details on-device in plain language instead of blindly signing transactions. Trezor is the fifth wallet to adopt the standard since its May launch, accordin",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T09:19:15.935000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('clear')",
+    "matched": "clear",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ETH"
+    ]
+  },
+  {
+    "id": "05058682714710d098e28fa5e3f9ea96290454da",
+    "title": "Visa is pushing further into the plumbing of digital money just as payments, U.S. markets, and Washington’s rulebook are shifting together. The company told CNBC it will share more data with blockchain lenders, pairing V",
+    "link": "https://x.com/zerobasezk/status/2097588294347542580",
+    "score": 55,
+    "snippet": "Visa is pushing further into the plumbing of digital money just as payments, U.S. markets, and Washington’s rulebook are shifting together. The company told CNBC it will share more data with blockchain lenders, pairing VisaNet settlement records with onchain credit infrastructure so lenders can see ",
     "regions": [
       "US"
     ],
@@ -322,47 +417,22 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:zerobasezk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-09T00:55:06.385000+00:00",
+    "published_at": "2026-09-09T07:29:55.914000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "HOOD"
+      "ZBT",
+      "GENIUS",
+      "FLOW"
     ]
-  },
-  {
-    "id": "6029c97dcfef57f2baa0a183751e7b343793d8ab",
-    "title": "STABLECOINS | Uzbekistan Launches Pilot for Government-Backed HUMO Stablecoin Payments - BitKE",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDMEVoakpZSVZvd2locjlKWWtvNExvRDd2NnY4NlFtMGRhN1Rldm01a2Y1aDBNMzU3ZEphMlFPVjJyYmlZaXdRbHNjQTUzdC03ak5wRDlUQ0szaXBfVGtnWWlpR3VaMWhLTkFYbDlYdFl4NE83?oc=5",
-    "score": 54,
-    "snippet": "STABLECOINS | Uzbekistan Launches Pilot for Government-Backed HUMO Stablecoin Payments BitKE",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-08T11:00:42+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "b2bef8a4227d12c052c5144c6891360e9996dbc9",
@@ -393,38 +463,92 @@
     ]
   },
   {
-    "id": "77235cdc602885bd92f0d71196085ef47ecb783f",
-    "title": "No need for a 50+ person team to launch and operate your own chain. Just rely on Caldera. 🫡",
-    "link": "https://x.com/Calderaxyz/status/2097340684206223755",
-    "score": 54,
-    "snippet": "No need for a 50+ person team to launch and operate your own chain. Just rely on Caldera. 🫡",
+    "id": "1350032a8a454d836d121ffa5a56ccfa968ddf3d",
+    "title": "Trade to Share Up to 400 BNB Token Vouchers",
+    "link": "https://www.treeofalpha.com/preview_article?id=1788944408172",
+    "score": 50,
+    "snippet": "Trade to Share Up to 400 BNB Token Vouchers",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:holo trading tournament",
+    "source": "TreeOfAlpha/Binance EN",
+    "published_at": "2026-09-09T09:00:09.464000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HOLO",
+      "BNB",
+      "HOT"
+    ]
+  },
+  {
+    "id": "b5f8992574935cdf7b6228475bd15eae0cf64bdf",
+    "title": "Built for the next 50 billion market data users",
+    "link": "https://www.pyth.network/blog/built-for-the-next-50-billion-market-data-users",
+    "score": 50,
+    "snippet": "Built for the next 50 billion market data users",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:pyth",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-09T08:38:24.065000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "PYTH"
+    ]
+  },
+  {
+    "id": "a7dd9d1e587fbd7183543f81545f56ed3a674f0b",
+    "title": "NEW: Iran is increasingly turning to crypto, particularly USDT and bitcoin, to settle cross-border transactions as authorities loosen restrictions on how businesses repatriate overseas earnings amid tightening U.S. sanct",
+    "link": "https://x.com/TheBlockCo/status/2097620598172406204",
+    "score": 45,
+    "snippet": "NEW: Iran is increasingly turning to crypto, particularly USDT and bitcoin, to settle cross-border transactions as authorities loosen restrictions on how businesses repatriate overseas earnings amid tightening U.S. sanctions, the Financial Times reports. Nearly $10 billion in crypto moved through Ir",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:calderaxyz",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T15:06:01.268000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "published_at": "2026-09-09T09:38:17.698000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "ERA"
+      "BTC"
     ]
   },
   {
     "id": "f18af401830f25e1e9b58176497da447d8775e92",
     "title": "Jump Trading’s Cumulative Trading Volume on Hyperliquid Has Nearly Reached $150 Billion Since Its First Deposit on December 12, 2025 Hyperdash co-founder Hanson Birringer analyzed that since Jump Trading’s first deposit",
     "link": "https://x.com/WuBlockchain/status/2097497551540989969",
-    "score": 50,
+    "score": 44,
     "snippet": "Jump Trading’s Cumulative Trading Volume on Hyperliquid Has Nearly Reached $150 Billion Since Its First Deposit on December 12, 2025 Hyperdash co-founder Hanson Birringer analyzed that since Jump Trading’s first deposit to Hyperliquid on December 12, 2025, its cumulative trading volume through 1 mai",
     "regions": [],
     "primary_region": null,
@@ -467,7 +591,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -506,7 +630,8 @@
     "score": 44,
     "snippet": "Hyperliquid open interest climbs to $14.3 billion as HYPE hits all-time high",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "other",
@@ -580,46 +705,6 @@
     "origin": "tree",
     "coins": [
       "BTC"
-    ]
-  },
-  {
-    "id": "88dd94ec753d9de4785b9096f3f3e298be7e2a9a",
-    "title": "August Yielded a Record Month in RWA Perp Volume Cash markets do not share a clock and RWA perps don’t wait for them to agree. August was another record month against the previous report’s published July baseline. The tr",
-    "link": "https://x.com/PythNetwork/status/2097324776427503907",
-    "score": 44,
-    "snippet": "August Yielded a Record Month in RWA Perp Volume Cash markets do not share a clock and RWA perps don’t wait for them to agree. August was another record month against the previous report’s published July baseline. The tracked RWA perp market generated $751.9 billion in RWA perp volume, versus $708.3",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:pythnetwork",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T14:02:48.265000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "PYTH",
-      "SNDK",
-      "SKHYNIX",
-      "SKHY",
-      "MU",
-      "SNXX",
-      "DRAM",
-      "SAMSUNG",
-      "KORU",
-      "MRNA",
-      "HYPE",
-      "BNB",
-      "OKB"
     ]
   }
 ]
