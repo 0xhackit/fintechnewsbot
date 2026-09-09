@@ -1,35 +1,5 @@
 [
   {
-    "id": "8bb9be2348782407d5c2024a031950e532e4279c",
-    "title": "THE BLOCK: Jack Dorsey's Block has applied to the OCC to establish Builders Bank & Trust, an uninsured national trust bank that would provide custody and related fiduciary services for assets including bitcoin and stable",
-    "link": "https://x.com/TheBlockCo/status/2097436263032959479",
-    "score": 90,
-    "snippet": "THE BLOCK: Jack Dorsey's Block has applied to the OCC to establish Builders Bank & Trust, an uninsured national trust bank that would provide custody and related fiduciary services for assets including bitcoin and stablecoins. If approved, Builders Bank would operate under federal supervision but wo",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T21:25:49.017000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
     "id": "829745bbadc2199bfd5ab9259a811f7d46697c76",
     "title": "Circle to acquire Tazapay to expand USDC cross-border payments",
     "link": "https://cointelegraph.com/news/circle-tazapay-usdc-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -59,34 +29,6 @@
     "coins": []
   },
   {
-    "id": "ff940192f299bc7291f70845cf9bef987db6c99d",
-    "title": "THE BLOCK: Strategy $MSTR did not buy or sell any bitcoin last week, leaving its holdings unchanged at 845,050 $BTC. The company instead spent $176.3 million repurchasing 1.81 million STRC preferred shares and doubled it",
-    "link": "https://x.com/TheBlockCo/status/2097296057776374173",
-    "score": 79,
-    "snippet": "THE BLOCK: Strategy $MSTR did not buy or sell any bitcoin last week, leaving its holdings unchanged at 845,050 $BTC. The company instead spent $176.3 million repurchasing 1.81 million STRC preferred shares and doubled its digital credit securities repurchase authorization to $2 billion.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T12:08:41.236000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('buy')",
-    "matched": "buy",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "MSTR",
-      "BTC",
-      "STRC"
-    ]
-  },
-  {
     "id": "edf5923e780aece9957fc5c3d9593eb1327f283b",
     "title": "Arc Mainnet goes live September 16. Join the launch livestream for a live look at Arc, Circle Agent Stack, and the onchain infrastructure designed to support programmable money, agentic workflows, and global financial ap",
     "link": "https://twitter.com/circle/status/2097366721929896081",
@@ -111,7 +53,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARC"
@@ -344,6 +286,36 @@
     ]
   },
   {
+    "id": "1377437db6959692a60cdfdca85cc44b027339ea",
+    "title": "THE BLOCK: StoneX Analyst Mark Palmer gave Robinhood a Buy rating and a $170 price target, implying about 45% upside from the stock's current price. The report says the launch of Robinhood Chain provides a new growth dri",
+    "link": "https://x.com/TheBlockCo/status/2097488933416566917",
+    "score": 55,
+    "snippet": "THE BLOCK: StoneX Analyst Mark Palmer gave Robinhood a Buy rating and a $170 price target, implying about 45% upside from the stock's current price. The report says the launch of Robinhood Chain provides a new growth driver. $HOOD",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T00:55:06.385000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HOOD"
+    ]
+  },
+  {
     "id": "3e9629f835932ba00b6e3173c6d816adbc3cd009",
     "title": "These Banks Are Banding Together to Launch a Stablecoin - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdkt2QXNndVZNc3gteTVNTUhYNDVxYlgyZDBaT3phd3pReUNTWEZIOVMtbzRjcDRvZmlkU1NzazJ0UndKZlJOcVBjd1otNklUelQzTVpoMUo1VXh5Um9LMTJsMW5RWS01bXMtRnk4WklwQ0pxVXJpZ0sxQktqMnJ0UUl1VFFhV2J6UWVoUVhZdlZybXVfUG5Jd0JoZ2NaWWxZdUE?oc=5",
@@ -366,7 +338,34 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "6029c97dcfef57f2baa0a183751e7b343793d8ab",
+    "title": "STABLECOINS | Uzbekistan Launches Pilot for Government-Backed HUMO Stablecoin Payments - BitKE",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBDMEVoakpZSVZvd2locjlKWWtvNExvRDd2NnY4NlFtMGRhN1Rldm01a2Y1aDBNMzU3ZEphMlFPVjJyYmlZaXdRbHNjQTUzdC03ak5wRDlUQ0szaXBfVGtnWWlpR3VaMWhLTkFYbDlYdFl4NE83?oc=5",
+    "score": 54,
+    "snippet": "STABLECOINS | Uzbekistan Launches Pilot for Government-Backed HUMO Stablecoin Payments BitKE",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-08T11:00:42+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -451,34 +450,6 @@
     ]
   },
   {
-    "id": "73f6ac2936c6a53a7eedbf2dda06ab6e54369826",
-    "title": "Transparency built DeFi. Now it's the ceiling. Public by default gave DeFi its credibility and its first $172B in TVL. It's also what's keeping the next $100T off chain. A tokenized fund cannot publish its investor regis",
-    "link": "https://x.com/iEx_ec/status/2097293990186164668",
-    "score": 54,
-    "snippet": "Transparency built DeFi. Now it's the ceiling. Public by default gave DeFi its credibility and its first $172B in TVL. It's also what's keeping the next $100T off chain. A tokenized fund cannot publish its investor registry to a block explorer. A treasury desk cannot broadcast every rebalance to cop",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:iex_ec",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-08T12:00:28.731000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "RLC"
-    ]
-  },
-  {
     "id": "15c7ae0119a55d1e47a0fe815060ca8fb2ae0fad",
     "title": "THE BLOCK: Trump envoy Steve Witkoff reported $107 million in 2025 income from a holding company that owned his stake in World Liberty Financial, up from $34 million a year earlier, according to Bloomberg. The filing doe",
     "link": "https://twitter.com/TheBlockCo/status/2097428594549301249",
@@ -498,7 +469,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "WLFI"
@@ -524,7 +495,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HYPE"
@@ -615,7 +586,7 @@
     "id": "e8c4a5b4f0c9ea2fb3b322b623d853ef361272bc",
     "title": "Strive Buys $109 Million in Bitcoin, Pushes Preferred Stock Toward $1 Billion",
     "link": "https://decrypt.co/377689",
-    "score": 50,
+    "score": 44,
     "snippet": "Strive Buys $109 Million in Bitcoin, Pushes Preferred Stock Toward $1 Billion",
     "regions": [
       "US"
