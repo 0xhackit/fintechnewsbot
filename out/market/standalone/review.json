@@ -104,7 +104,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('adopted')",
     "matched": "adopted",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ALL",
@@ -142,63 +142,6 @@
     ]
   },
   {
-    "id": "b17357ddedf75fd938c7d209d38a996f7c05cfa8",
-    "title": "We have always stated one thing... Always bet on Brett. Now you can bet on $Landwolf, brought to you by the same team who pushed $BRETT to 2 BILLION marketcap. Minted on @LaunchOnSF, paired with $PEPE. CsoANabVGizgSw55jU",
-    "link": "https://x.com/BasedBrett/status/2097761916093636768",
-    "score": 75,
-    "snippet": "We have always stated one thing... Always bet on Brett. Now you can bet on $Landwolf, brought to you by the same team who pushed $BRETT to 2 BILLION marketcap. Minted on @LaunchOnSF, paired with $PEPE. CsoANabVGizgSw55jU1jzFSmucnKjMCkB7adH5W442oH Let the midcurvers come, this launch is 3+ months in ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:basedbrett",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-09T18:59:50.519000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BRETT",
-      "PEPE"
-    ]
-  },
-  {
-    "id": "e16fb35474e9742f10e1d5c7476c4ce8f37d168a",
-    "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
-    "link": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
-    "score": 70,
-    "snippet": "SkyAI’s proposed equity plan would authorize 5.145 million shares for stock-based compensation, representing roughly 7.2% additional dilution.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 30,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "theblock",
-    "source": "Google News RSS",
-    "published_at": "2026-09-09T17:56:26+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
     "id": "7e7e3592933a22508652571c0936bed4ca23551a",
     "title": "Introducing Custom Pairs Launch Pumpfun tokens paired with tokenized stocks, majors & more on Solana. Launch with more variety, deeper liquidity & lower fees than anywhere else.",
     "link": "https://x.com/Pumpfun/status/2097785975434846285",
@@ -226,6 +169,35 @@
     "coins": [
       "PUMP",
       "SOL"
+    ]
+  },
+  {
+    "id": "b17357ddedf75fd938c7d209d38a996f7c05cfa8",
+    "title": "We have always stated one thing... Always bet on Brett. Now you can bet on $Landwolf, brought to you by the same team who pushed $BRETT to 2 BILLION marketcap. Minted on @LaunchOnSF, paired with $PEPE. CsoANabVGizgSw55jU",
+    "link": "https://x.com/BasedBrett/status/2097761916093636768",
+    "score": 69,
+    "snippet": "We have always stated one thing... Always bet on Brett. Now you can bet on $Landwolf, brought to you by the same team who pushed $BRETT to 2 BILLION marketcap. Minted on @LaunchOnSF, paired with $PEPE. CsoANabVGizgSw55jU1jzFSmucnKjMCkB7adH5W442oH Let the midcurvers come, this launch is 3+ months in ",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:basedbrett",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-09T18:59:50.519000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BRETT",
+      "PEPE"
     ]
   },
   {
@@ -326,10 +298,65 @@
     ]
   },
   {
+    "id": "e16fb35474e9742f10e1d5c7476c4ce8f37d168a",
+    "title": "Solana treasury firm SkyAI faces board challenge from would-be acquirer Forward Industries, shareholder group",
+    "link": "https://www.theblock.co/news/business/2026-09-09-solana-treasury-firm-skyai-board-challenge-would-be-acquirer-forward-industries-shareholder-group-414061",
+    "score": 64,
+    "snippet": "SkyAI’s proposed equity plan would authorize 5.145 million shares for stock-based compensation, representing roughly 7.2% additional dilution.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 30,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-09-09T17:56:26+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "f7f0908006b2121d17d68f4f3aeeba3860e2c331",
+    "title": "U.S. Bancorp To Launch Its Own Stablecoin - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVFlV3o5UU1rRmRPbFhSdnZLSS1PdHFqT25FcjV1T283alZDTDUyS3U0Y2Z1SXVCZDVrTXQ4aFRfVGRndFJmdXBaQXltdEhyOTF4dmdlRHNvZEJHcmpCQVlyM3lUZ2VPRVAyVWFTQzljbk1mWTdONUN3OWcxUXVHbDBpMEh6Sk5FbzlOd2RFMEJfbUJOdTRUUE5XVC0?oc=5",
+    "score": 54,
+    "snippet": "U.S. Bancorp To Launch Its Own Stablecoin Yahoo Finance",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-09T13:38:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "5193ad130bec8a18faeab9115658a95e08ec9c3e",
     "title": "RWAs as Collateral: The New Primitive RWA Landscape The tokenized real-world asset market has crossed $730 billion in total value, a figure that encompasses stablecoins, tokenized treasuries, private credit, commodities,",
     "link": "https://x.com/TheBlockCo/status/2097752143289577576",
-    "score": 60,
+    "score": 54,
     "snippet": "RWAs as Collateral: The New Primitive RWA Landscape The tokenized real-world asset market has crossed $730 billion in total value, a figure that encompasses stablecoins, tokenized treasuries, private credit, commodities, equities, real estate, institutional funds, and a growing list of other asset c",
     "regions": [],
     "primary_region": null,
@@ -379,60 +406,6 @@
       "FRAX",
       "SKY"
     ]
-  },
-  {
-    "id": "f3a31a61e2a2b282134a1f4f0bcf60c9d75be0a5",
-    "title": "Introducing @AnomaPay Shielded Red Envelopes with @BNBCHAIN 🧧 Now there's a fun way to gift assets privately and onboard your friends and family to crypto. Perfect timing for Mid-Autumn Festival, but great year-round for",
-    "link": "https://x.com/anoma/status/2097664611973513235",
-    "score": 59,
-    "snippet": "Introducing @AnomaPay Shielded Red Envelopes with @BNBCHAIN 🧧 Now there's a fun way to gift assets privately and onboard your friends and family to crypto. Perfect timing for Mid-Autumn Festival, but great year-round for any gifting occasion. Try it at https://anomapay.app",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:anoma",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-09T12:33:11.391000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('onboard')",
-    "matched": "onboard",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "XAN",
-      "BNB"
-    ]
-  },
-  {
-    "id": "f7f0908006b2121d17d68f4f3aeeba3860e2c331",
-    "title": "U.S. Bancorp To Launch Its Own Stablecoin - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMVFlV3o5UU1rRmRPbFhSdnZLSS1PdHFqT25FcjV1T283alZDTDUyS3U0Y2Z1SXVCZDVrTXQ4aFRfVGRndFJmdXBaQXltdEhyOTF4dmdlRHNvZEJHcmpCQVlyM3lUZ2VPRVAyVWFTQzljbk1mWTdONUN3OWcxUXVHbDBpMEh6Sk5FbzlOd2RFMEJfbUJOdTRUUE5XVC0?oc=5",
-    "score": 54,
-    "snippet": "U.S. Bancorp To Launch Its Own Stablecoin Yahoo Finance",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-09T13:38:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "b1c8fc4d895ee1cdf5bcb240194874ee87096200",
@@ -589,11 +562,11 @@
     ]
   },
   {
-    "id": "63a30ce4b839b24d3121d901b2e7b0d1af170dc7",
-    "title": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption - fintechfutures.com",
+    "id": "2e6023c6cc7621e42bff793bc88d92b26ea435cb",
+    "title": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption - FinTech Futures",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jTHh1ZGphbHNtY2o5VllEU1F5dDJWUjZGdTdWU3VHd2VkMDBDb01IODdDREZWemRyTzdpNEJZcHljY1NkbFhTeHF6NUttekw2Z1hfLXRGV0pzal8wLVAyM0l1bllBdTg?oc=5",
     "score": 49,
-    "snippet": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption fintechfutures.com",
+    "snippet": "Circle agrees $400m Tazapay acquisition to scale global USDC adoption FinTech Futures",
     "regions": [
       "US"
     ],
