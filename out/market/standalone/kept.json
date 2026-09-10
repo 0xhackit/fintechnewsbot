@@ -1,57 +1,61 @@
 [
   {
-    "id": "cb1098ad950d20595ae65695a15c19b0eb51db41",
-    "title": "Wirex goes live on Tempo for enterprise stablecoin card programmes",
-    "link": "https://www.finextra.com/pressarticle/110877/wirex-goes-live-on-tempo-for-enterprise-stablecoin-card-programmes?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 65,
-    "snippet": "Wirex, the global stablecoin infrastructure provider and a principal member of Visa and Mastercard, has added Tempo to its platform.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "id": "663f08f0560d83ae8ecce1f5e6aa1922ec78af8d",
+    "title": "Monument Bank delays retail tokenized deposits, cites regulatory issues in the UK",
+    "link": "https://www.coindesk.com/business/2026/09/10/monument-bank-delays-retail-tokenized-deposits-cites-regulatory-issues-in-the-uk",
+    "score": 45,
+    "snippet": "",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 1,
+    "consensus": 2,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
     ],
-    "feed_name": "finextra",
+    "feed_name": "coindesk",
     "source": "Google News RSS",
-    "published_at": "2026-09-10T15:22:00+00:00",
+    "published_at": "2026-09-10T15:53:24+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('goes live')",
-    "matched": "goes live",
+    "reason": "concrete market event ('issues')",
+    "matched": "issues",
     "fulltext": true,
-    "origin": "rss",
+    "origin": "rss+tree",
     "coins": []
   },
   {
-    "id": "7e9687546d0fc2163b172168983e680c8f124f45",
-    "title": "Nasdaq invests $100M in Kraken parent at $21B valuation: Report",
-    "link": "https://cointelegraph.com/news/nasdaq-invests-100m-kraken-parent-21b-valuation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 60,
-    "snippet": "Nasdaq invested $100 million in Payward as part of its push toward tokenized stock products with round-the-clock trading.",
+    "id": "fb6e034d6512e8c405a558e111906ac94d67a808",
+    "title": "Uniswap launches ‘StablePair Hook’ to help LPs capture more stablecoin trading value",
+    "link": "https://www.theblock.co/news/defi/2026-09-10-uniswap-stablepair-hook-414160",
+    "score": 45,
+    "snippet": "Uniswap Labs has launched StablePair Hook, a Uniswap v4 tool that uses dynamic fees for stablecoin pairs such as USDC/USDT.",
     "regions": [
       "US",
-      "EU"
+      "LatAm"
     ],
     "primary_region": "US",
-    "category": "fundraising",
+    "category": "product",
     "source_tier": "B",
-    "consensus": 1,
-    "financial": 30,
+    "consensus": 3,
+    "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "cointelegraph",
+    "feed_name": "theblock",
     "source": "Google News RSS",
-    "published_at": "2026-09-10T11:41:00+00:00",
+    "published_at": "2026-09-10T15:00:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('invests')",
-    "matched": "invests",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": true,
-    "origin": "rss",
+    "origin": "rss+tree",
     "coins": []
   }
 ]
