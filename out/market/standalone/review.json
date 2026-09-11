@@ -23,11 +23,41 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "XRP"
     ]
+  },
+  {
+    "id": "ee8aa6caff5adb67a8344649ee1193afc8ee4d7d",
+    "title": "THE BLOCK: Three Indian issuers raised over $100 million through tokenized corporate bond issuances under SEBI's Demat 2.0 pilot. The system connects tokenized bonds with RBI's wholesale CBDC for atomic settlement and au",
+    "link": "https://x.com/TheBlockCo/status/2098360202437566793",
+    "score": 105,
+    "snippet": "THE BLOCK: Three Indian issuers raised over $100 million through tokenized corporate bond issuances under SEBI's Demat 2.0 pilot. The system connects tokenized bonds with RBI's wholesale CBDC for atomic settlement and automated interest and redemption payments.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T10:37:13.022000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('raised over $100 million')",
+    "matched": "raised over $100 million",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "63e6f21a91403c78003383a74f3895918f180ed2",
@@ -54,7 +84,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TST"
@@ -64,7 +94,7 @@
     "id": "2e44fd528c7eb645ff97df0b339ecf455359b5db",
     "title": "Introducing FilePilot - FLock's AI copilot for regulatory filings. Turn your materials into review-ready filings: smart validation, auto-drafting, one-click submission. Built with elite law firms. Humans stay in control.",
     "link": "https://x.com/flock_io/status/2098283277572517979",
-    "score": 80,
+    "score": 74,
     "snippet": "Introducing FilePilot - FLock's AI copilot for regulatory filings. Turn your materials into review-ready filings: smart validation, auto-drafting, one-click submission. Built with elite law firms. Humans stay in control. The first release: RegCA, a module for U.S. crypto filings under the SEC’s Regu",
     "regions": [
       "US"
@@ -84,7 +114,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FLOCK"
@@ -122,7 +152,7 @@
     "id": "2507cc9fcd83711e9a522d6f06cc7f38a67b5585",
     "title": "BREAKING: @hashport_io, Japan's leading non-custodial wallet provider, has officially integrated @KaiaChain. Announced alongside an MOU with Netstars at South Korea's National Assembly, this accelerates Kaia's expansion",
     "link": "https://x.com/KaiaChain/status/2098275374220366206",
-    "score": 60,
+    "score": 54,
     "snippet": "BREAKING: @hashport_io, Japan's leading non-custodial wallet provider, has officially integrated @KaiaChain. Announced alongside an MOU with Netstars at South Korea's National Assembly, this accelerates Kaia's expansion into Japan's payment economy. 🇯🇵",
     "regions": [
       "APAC"
@@ -140,65 +170,98 @@
     "axis": "market_event",
     "reason": "concrete market event ('integrated')",
     "matched": "integrated",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "KAIA"
     ]
   },
   {
-    "id": "c8631727a2f9d2fcb1c08d5870bb13289cb50d06",
-    "title": "Onchain RWA Perpetual Trading Volume Surpasses $120 Billion, Up Approximately 120x From October 2025 Castle Labs reported that onchain RWA perpetual trading volume rose from less than $1 billion in October 2025 to more t",
-    "link": "https://x.com/WuBlockchain/status/2098281396947341703",
+    "id": "0823f48497efa25b57642c1c6ad4ad2ce08661ac",
+    "title": "ECB Hike Shock Sinks Bitcoin Below $77,000 As Fed Hike Odds Hit 66%",
+    "link": "https://www.forbes.com/sites/boazsobrado/2026/09/11/ecb-hike-shock-sinks-bitcoin-below-77000-as-fed-hike-odds-hit-66",
     "score": 50,
-    "snippet": "Onchain RWA Perpetual Trading Volume Surpasses $120 Billion, Up Approximately 120x From October 2025 Castle Labs reported that onchain RWA perpetual trading volume rose from less than $1 billion in October 2025 to more than $120 billion in August 2026, representing approximately 120x growth in under",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "snippet": "ECB Hike Shock Sinks Bitcoin Below $77,000 As Fed Hike Odds Hit 66%",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T05:24:04.712000+00:00",
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-11T13:46:10.537000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "BTC"
+    ]
   },
   {
-    "id": "9d58bbe27ad173dbe0708530acc5a5a1a7a6b5f0",
-    "title": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
-    "link": "https://www.theblock.co/news/regulation/2026-09-11-sam-bankman-fried-supreme-court-petition-414226",
+    "id": "81c741d1984909191f3206784055ce82478a73c9",
+    "title": "BREAKING NEWS FROM INJECTIVE The SEC is officially looking to clear firms in enabling regulated stock perpetuals to enter the United States. This is a major turning point for American markets and a step toward bringing f",
+    "link": "https://x.com/injective/status/2098380873221431463",
     "score": 50,
-    "snippet": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
+    "snippet": "BREAKING NEWS FROM INJECTIVE The SEC is officially looking to clear firms in enabling regulated stock perpetuals to enter the United States. This is a major turning point for American markets and a step toward bringing financial innovation back onto our shores. For most of the past decade, our innov",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
+    "category": "product",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-11T04:20:22.171000+00:00",
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T11:59:21.443000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('clear')",
+    "matched": "clear",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "INJ",
+      "BILL"
+    ]
+  },
+  {
+    "id": "aaefd67785e979eb22f1170b186bd038fa7a1e87",
+    "title": "LATEST: The UK House of Lords passes an amendment requiring the Treasury to publish a national digital asset strategy within 12 months covering crypto, stablecoins and tokenized securities, as the UK moves to catch up wi",
+    "link": "https://x.com/CoinDesk/status/2098360962780664144",
+    "score": 50,
+    "snippet": "LATEST: The UK House of Lords passes an amendment requiring the Treasury to publish a national digital asset strategy within 12 months covering crypto, stablecoins and tokenized securities, as the UK moves to catch up with MiCA and the U.S. CLARITY Act.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T10:40:14.229000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
-    "coins": [
-      "FTT"
-    ]
+    "coins": []
   },
   {
     "id": "77d664cbc9c67246d8ad43bbe4f70300922f4331",
@@ -228,6 +291,60 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "c8631727a2f9d2fcb1c08d5870bb13289cb50d06",
+    "title": "Onchain RWA Perpetual Trading Volume Surpasses $120 Billion, Up Approximately 120x From October 2025 Castle Labs reported that onchain RWA perpetual trading volume rose from less than $1 billion in October 2025 to more t",
+    "link": "https://x.com/WuBlockchain/status/2098281396947341703",
+    "score": 44,
+    "snippet": "Onchain RWA Perpetual Trading Volume Surpasses $120 Billion, Up Approximately 120x From October 2025 Castle Labs reported that onchain RWA perpetual trading volume rose from less than $1 billion in October 2025 to more than $120 billion in August 2026, representing approximately 120x growth in under",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T05:24:04.712000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "9d58bbe27ad173dbe0708530acc5a5a1a7a6b5f0",
+    "title": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
+    "link": "https://www.theblock.co/news/regulation/2026-09-11-sam-bankman-fried-supreme-court-petition-414226",
+    "score": 44,
+    "snippet": "Sam Bankman-Fried asks Supreme Court to overturn fraud conviction and $11 billion forfeiture",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the block",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-11T04:20:22.171000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FTT"
+    ]
   },
   {
     "id": "21754690094d38e94d8818c88110e586d096375f",
@@ -310,16 +427,14 @@
     "coins": []
   },
   {
-    "id": "78cb34801a26e1c83c622dcb3ba51582aa44fd27",
-    "title": "Coinbase partners with Moov to boost community bank stablecoin capabilities before Clarity vote - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxORDNzakVRZ1hUT0plclN1ckVmWmZ3TUtvMkZDTVZ6NDloNGxrcjRtR192MG9MUm1OcXF1Z2Y4c3FqeUg5RlNZUDFuUDR2X0c1T0tyZVZyb3pHU0Z2QnpJWkhscWNpVHpITEtudkt2QkctaVBiRmw1dzdXQkdBZFpYM9IBhgFBVV95cUxPdW52RndPOFB2U3liejVmTzdmVWNhLWhnandNVnNKNVVORzFUcElJRW1pX3hTRnZRUkdKTml5NmI5U3JwblpmY0pGUm0wSmNFWmNFUFF6dTBjUm1QLWhyMHpwNDhjS3Z2Um1Md0lreUctTTBaSWtJektUWjNmMmZlRzI1Ym5GZw?oc=5",
-    "score": 39,
-    "snippet": "Coinbase partners with Moov to boost community bank stablecoin capabilities before Clarity vote CNBC",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
+    "id": "30b1e83aef22bde41339c1978fa5c0f9b5f9669c",
+    "title": "UAE retailers trial dirham-pegged Stablecoin payments - ARN News Centre",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdnJwUnNENkZnRDFGZENzem9uM0xPTzczcUJNQl9GTDZVLTI5T1FyTmdydlFwbFo1ZXJFTk5GdXc2YnJudHBUWUQ5UjJwM3k3Ml9JeVVtNHBlT24wa3VsY25uUHpEZjJGTU54S2dra2NYS29PaHlrUzNEaUh6Q01QMEdPNFJYVkZsSV9PcE01aUppUjJlajJoUGEyZ0ZYRkVLS0E?oc=5",
+    "score": 35,
+    "snippet": "UAE retailers trial dirham-pegged Stablecoin payments ARN News Centre",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -327,13 +442,13 @@
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "crypto_native_fintech_launches",
     "source": "Google News RSS",
-    "published_at": "2026-09-10T12:00:01+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
+    "published_at": "2026-09-11T12:36:44+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []
