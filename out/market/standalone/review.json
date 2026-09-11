@@ -201,6 +201,35 @@
     ]
   },
   {
+    "id": "7c6d406c5846fdf57d3b24cd1cacdd18626d0fc8",
+    "title": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same te",
+    "link": "https://x.com/HederaCommunity/status/2098482760704766199",
+    "score": 75,
+    "snippet": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same tech stack as our public network. @rob_nodl @hedera",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:hederacommunity",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T18:44:13.055000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issued')",
+    "matched": "issued",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HBAR",
+      "ETH"
+    ]
+  },
+  {
     "id": "2e44fd528c7eb645ff97df0b339ecf455359b5db",
     "title": "Introducing FilePilot - FLock's AI copilot for regulatory filings. Turn your materials into review-ready filings: smart validation, auto-drafting, one-click submission. Built with elite law firms. Humans stay in control.",
     "link": "https://x.com/flock_io/status/2098283277572517979",
@@ -415,6 +444,64 @@
     ]
   },
   {
+    "id": "fc2df1d8eeb4f099e650adbbefeef52824cb730b",
+    "title": "We've published the August v4 Program Update, our third monthly report on the program's progress and priorities. August Highlights: • v4 design advanced toward technical approval in September • Institutional Market launc",
+    "link": "https://x.com/Compound_xyz/status/2098497562726814104",
+    "score": 50,
+    "snippet": "We've published the August v4 Program Update, our third monthly report on the program's progress and priorities. August Highlights: • v4 design advanced toward technical approval in September • Institutional Market launch preparations continued alongside testing of an upgraded liquidation engine and",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:compound_xyz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T19:43:02.296000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "COMP",
+      "USDC"
+    ]
+  },
+  {
+    "id": "33e766c8007d4d2789245474ebe523aeb5b9c4da",
+    "title": "THE BLOCK: Bitcoin $BTC and ether $ETH rose after today's inflation data, with analysts saying the largely in-line CPI print did little to alter expectations for the Fed's rate path and left the broader crypto rally inta",
+    "link": "https://x.com/TheBlockCo/status/2098463651044667643",
+    "score": 50,
+    "snippet": "THE BLOCK: Bitcoin $BTC and ether $ETH rose after today's inflation data, with analysts saying the largely in-line CPI print did little to alter expectations for the Fed's rate path and left the broader crypto rally intact. Bitget analyst Lewis Huang noted the divergence between headline inflation a",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T17:28:17.160000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
     "id": "64e42997db82d47f18453d1a58736907f60dc1c8",
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
@@ -440,93 +527,6 @@
       "OPENAI",
       "WLD"
     ]
-  },
-  {
-    "id": "0823f48497efa25b57642c1c6ad4ad2ce08661ac",
-    "title": "ECB Hike Shock Sinks Bitcoin Below $77,000 As Fed Hike Odds Hit 66%",
-    "link": "https://www.forbes.com/sites/boazsobrado/2026/09/11/ecb-hike-shock-sinks-bitcoin-below-77000-as-fed-hike-odds-hit-66",
-    "score": 50,
-    "snippet": "ECB Hike Shock Sinks Bitcoin Below $77,000 As Fed Hike Odds Hit 66%",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:forbes",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-11T13:46:10.537000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "81c741d1984909191f3206784055ce82478a73c9",
-    "title": "BREAKING NEWS FROM INJECTIVE The SEC is officially looking to clear firms in enabling regulated stock perpetuals to enter the United States. This is a major turning point for American markets and a step toward bringing f",
-    "link": "https://x.com/injective/status/2098380873221431463",
-    "score": 50,
-    "snippet": "BREAKING NEWS FROM INJECTIVE The SEC is officially looking to clear firms in enabling regulated stock perpetuals to enter the United States. This is a major turning point for American markets and a step toward bringing financial innovation back onto our shores. For most of the past decade, our innov",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:injective",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T11:59:21.443000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('clear')",
-    "matched": "clear",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "INJ",
-      "BILL"
-    ]
-  },
-  {
-    "id": "77d664cbc9c67246d8ad43bbe4f70300922f4331",
-    "title": "PayPal, MoonPay And M0 Take PYUSDx Live As Devs Launch PYUSD Backed Stablecoins - Crowdfund Insider",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSjVRRzl2Mk1Idm90VmozcGhybmZyeDBCN1BOYlEzM201b0FOUFctUVk3SG9RaFZjcVUxVVpYenpIQ1hMY3pUUHdyeTdqWUd4NnVqYlpxUUI4MDR5SkJRV1pqUjJKdnNhZi1MUHd2ZXFnMnBpcFhURnhYNlM3Y3JmRnRIY3lBNFVKUWc4M1NlbnpzSTdDck9DQnlNSTFTT1k3TjBoUFhnN0E1WFhia1NqZjg1bGZxTmNyWUlqUGM2WFpLM09yX1E?oc=5",
-    "score": 49,
-    "snippet": "PayPal, MoonPay And M0 Take PYUSDx Live As Devs Launch PYUSD Backed Stablecoins Crowdfund Insider",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-10T19:35:15+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "c8631727a2f9d2fcb1c08d5870bb13289cb50d06",
@@ -583,65 +583,11 @@
     ]
   },
   {
-    "id": "21754690094d38e94d8818c88110e586d096375f",
-    "title": "Valinor Launches Tokenized BDC Fund On Superstate - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaQW5JRHNKQll0UkhLekFMRGJVRE1jVml1MmViNHFINEdPalVjU0FlMklwdGxqYTNwRExWVV9ISlZiUmhNOXhyU09fMERfUXhQd09ma0QzRmE?oc=5",
-    "score": 39,
-    "snippet": "Valinor Launches Tokenized BDC Fund On Superstate Cryptonews.net",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-09-10T19:38:51+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "624bb3e09459577acd6c55b64aa4269fa4c1d13d",
-    "title": "Ex-Blackstone team launches tokenized private-credit fund on Superstate - Dealroom",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdkN3clJUUHg4QjkxUGVXSEJpcWpaZUZBa0xURmlIcjNFMmp2TXczWTZBSkhqUVRZbGNwWlZBZ0FNRzV6ZlJ6SzdMbWNVWF9MZUZxWC1sZ19CM0xJOWFWSm45M01MZTM0NGFLNVo5dENWOVRhNy1kY0FsV1JhdnZrS2ZvMlFySlJZNW5adjJaUW5FQ0ZUSVVTWE8xQndvWTFELVBhVnBlakU?oc=5",
-    "score": 39,
-    "snippet": "Ex-Blackstone team launches tokenized private-credit fund on Superstate Dealroom",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-09-10T18:59:48+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "19f71bc3395d0506578762141a1758f8472a903c",
-    "title": "UAE retailers trial dirham-pegged Stablecoin payments - ARN News Centre",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3FVRUdzWVZKT3VQbGRRLS1keExzbWRwUWRfUGh6bTZJU1p0RTlqZ29BeFY2YzFKeWhfNDgxdU9zanpMNTRtYzAxVHc5UktiYVNWcVpEZ2RERWI0Z2dqM2pGU0p5ejBhYjlrR0ZaMURqUXZ4Q3FEWkVTUjhaVHR5U25qQ0xsUlhvZ0VTZWZBSlpxblEzTUU0NmttQm5JZw?oc=5",
+    "id": "feca7e596fc3da62414f5948a57ebc2a085678c4",
+    "title": "UAE retailers trial dirham-pegged Stablecoin payments - Dubai Eye 103.8",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZW9OdDNBcG5QREFENjhUZFBBWU40b2RvamNyRnpLaXo5bnlvTW9UZHdOTUZYQmFROTVDWmRDNU1NcmxyZ21GdzRtd29GYVdYWm1Yb0dNWFU3NWpQbHk1TEUxZHF1dUcwOUNyY19DNzdoS3lDanlWbjZLUTVLcUdMZDU4ZmJmazZpYi1zZTQ1Q0gyV1lKM0hZcUVfNlJXUQ?oc=5",
     "score": 35,
-    "snippet": "UAE retailers trial dirham-pegged Stablecoin payments ARN News Centre",
+    "snippet": "UAE retailers trial dirham-pegged Stablecoin payments Dubai Eye 103.8",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -654,7 +600,7 @@
     ],
     "feed_name": "crypto_native_fintech_launches",
     "source": "Google News RSS",
-    "published_at": "2026-09-11T12:36:31+00:00",
+    "published_at": "2026-09-11T14:42:09+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
