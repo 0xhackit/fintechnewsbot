@@ -355,40 +355,6 @@
     ]
   },
   {
-    "id": "a1cff2df8c254f2c2ab672fb23edb2273eb9e0b0",
-    "title": "On Arbitrum this week: The programmable economy is becoming the epicenter of finance across revenue growth, tokenization, perps and compute markets > Arbitrum became the third biggest platform by revenue all of which goe",
-    "link": "https://x.com/arbitrum/status/2098545368879239575",
-    "score": 50,
-    "snippet": "On Arbitrum this week: The programmable economy is becoming the epicenter of finance across revenue growth, tokenization, perps and compute markets > Arbitrum became the third biggest platform by revenue all of which goes back to the token-controlled treasury with Robinhood Chain standing the second",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:arbitrum",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T22:53:00.254000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ARB",
-      "APE",
-      "UNI",
-      "DIA",
-      "CAP"
-    ]
-  },
-  {
     "id": "64e42997db82d47f18453d1a58736907f60dc1c8",
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
@@ -416,6 +382,36 @@
     ]
   },
   {
+    "id": "3f7f60a60ba685227f98106ad15c8b45fb5d004d",
+    "title": "U.S. Bank Launches Its Own Stablecoin and Beats Wall Street's Joint Venture to Market - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb3lJeDIxOGJXUFFGbEFHSXBkQzRrbXp4ckwwUndfaUhQUWtFT0Uyb2pQa2ZoMUY1THJzVjlxV2NGLUFsQ1RtbVg0bXhnRlYwUU10Z1V0Y2sybzVnTW9rSmUxQnpKRW9FTHZ4V1VETzhXRnJvaU16N1dlRU81aVhJdlBjWFZLWHpjb08zN0lzTGdGZk9JeVgtX1Rka3d4NzhoTXdzdVFKY1c4aHNNeUNB?oc=5",
+    "score": 35,
+    "snippet": "U.S. Bank Launches Its Own Stablecoin and Beats Wall Street's Joint Venture to Market Startup Fortune",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-11T20:23:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "19f71bc3395d0506578762141a1758f8472a903c",
     "title": "UAE retailers trial dirham-pegged Stablecoin payments - ARN News Centre",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3FVRUdzWVZKT3VQbGRRLS1keExzbWRwUWRfUGh6bTZJU1p0RTlqZ29BeFY2YzFKeWhfNDgxdU9zanpMNTRtYzAxVHc5UktiYVNWcVpEZ2RERWI0Z2dqM2pGU0p5ejBhYjlrR0ZaMURqUXZ4Q3FEWkVTUjhaVHR5U25qQ0xsUlhvZ0VTZWZBSlpxblEzTUU0NmttQm5JZw?oc=5",
@@ -438,7 +434,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
