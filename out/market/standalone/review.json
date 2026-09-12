@@ -3,7 +3,7 @@
     "id": "4159edc95ce7e4ce12877f94dd7be4289b88d576",
     "title": "CoinDesk reports that the US is backing a quantum hardware push with up to $300 million in funding for select companies. Meaning, Bitcoin and Ethereum are racing the quantum clock. CKB already has post-quantum signatures",
     "link": "https://x.com/ckba_build/status/2098743434320454027",
-    "score": 90,
+    "score": 84,
     "snippet": "CoinDesk reports that the US is backing a quantum hardware push with up to $300 million in funding for select companies. Meaning, Bitcoin and Ethereum are racing the quantum clock. CKB already has post-quantum signatures on mainnet—and doesn’t need a protocol fork to add the next scheme. SPHINCS+ ru",
     "regions": [],
     "primary_region": null,
@@ -25,35 +25,6 @@
       "CKB",
       "ETH",
       "BTC"
-    ]
-  },
-  {
-    "id": "7c6d406c5846fdf57d3b24cd1cacdd18626d0fc8",
-    "title": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same te",
-    "link": "https://x.com/HederaCommunity/status/2098482760704766199",
-    "score": 69,
-    "snippet": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same tech stack as our public network. @rob_nodl @hedera",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:hederacommunity",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T18:44:13.055000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issued')",
-    "matched": "issued",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "HBAR",
-      "ETH"
     ]
   },
   {
@@ -126,7 +97,8 @@
     "score": 35,
     "snippet": "U.S. Bank Launches Its Own Stablecoin and Beats Wall Street's Joint Venture to Market Startup Fortune",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
     "category": "product",
