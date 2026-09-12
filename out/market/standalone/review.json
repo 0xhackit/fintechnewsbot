@@ -23,7 +23,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP"
@@ -55,7 +55,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('raised over $100 million')",
     "matched": "raised over $100 million",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -84,7 +84,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "TST"
@@ -112,7 +112,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -140,7 +140,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ACT"
@@ -168,7 +168,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ACT"
@@ -196,7 +196,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('issued')",
     "matched": "issued",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HBAR",
@@ -223,7 +223,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('back')",
     "matched": "back",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -252,7 +252,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "COMP",
@@ -283,7 +283,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "COMP"
@@ -313,7 +313,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CC"
@@ -345,7 +345,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HOLO"
@@ -373,7 +373,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "UNI",
@@ -382,6 +382,40 @@
       "ETH",
       "STABLE",
       "BAND"
+    ]
+  },
+  {
+    "id": "a1cff2df8c254f2c2ab672fb23edb2273eb9e0b0",
+    "title": "On Arbitrum this week: The programmable economy is becoming the epicenter of finance across revenue growth, tokenization, perps and compute markets > Arbitrum became the third biggest platform by revenue all of which goe",
+    "link": "https://x.com/arbitrum/status/2098545368879239575",
+    "score": 50,
+    "snippet": "On Arbitrum this week: The programmable economy is becoming the epicenter of finance across revenue growth, tokenization, perps and compute markets > Arbitrum became the third biggest platform by revenue all of which goes back to the token-controlled treasury with Robinhood Chain standing the second",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:arbitrum",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T22:53:00.254000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('back')",
+    "matched": "back",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ARB",
+      "APE",
+      "UNI",
+      "DIA",
+      "CAP"
     ]
   },
   {
@@ -406,7 +440,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP"
@@ -434,7 +468,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP"
@@ -462,7 +496,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "COMP",
@@ -470,39 +504,10 @@
     ]
   },
   {
-    "id": "33e766c8007d4d2789245474ebe523aeb5b9c4da",
-    "title": "THE BLOCK: Bitcoin $BTC and ether $ETH rose after today's inflation data, with analysts saying the largely in-line CPI print did little to alter expectations for the Fed's rate path and left the broader crypto rally inta",
-    "link": "https://x.com/TheBlockCo/status/2098463651044667643",
-    "score": 50,
-    "snippet": "THE BLOCK: Bitcoin $BTC and ether $ETH rose after today's inflation data, with analysts saying the largely in-line CPI print did little to alter expectations for the Fed's rate path and left the broader crypto rally intact. Bitget analyst Lewis Huang noted the divergence between headline inflation a",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T17:28:17.160000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH"
-    ]
-  },
-  {
     "id": "64e42997db82d47f18453d1a58736907f60dc1c8",
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-    "score": 50,
+    "score": 44,
     "snippet": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
     "regions": [],
     "primary_region": null,
