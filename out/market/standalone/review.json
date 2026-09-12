@@ -1,35 +1,5 @@
 [
   {
-    "id": "fbd97fcb0f103ff43ffe1dd077fa0b263f20c537",
-    "title": "LATEST: @Ripple launches AI treasury agents inside its enterprise software, letting corporate finance teams monitor cash, flag risks and receive policy-cited recommendations, with human approval required before anything",
-    "link": "https://x.com/CoinDesk/status/2098324795083411920",
-    "score": 109,
-    "snippet": "LATEST: @Ripple launches AI treasury agents inside its enterprise software, letting corporate finance teams monitor cash, flag risks and receive policy-cited recommendations, with human approval required before anything executes.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T08:16:31.091000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
-  },
-  {
     "id": "ee8aa6caff5adb67a8344649ee1193afc8ee4d7d",
     "title": "THE BLOCK: Three Indian issuers raised over $100 million through tokenized corporate bond issuances under SEBI's Demat 2.0 pilot. The system connects tokenized bonds with RBI's wholesale CBDC for atomic settlement and au",
     "link": "https://x.com/TheBlockCo/status/2098360202437566793",
@@ -55,7 +25,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('raised over $100 million')",
     "matched": "raised over $100 million",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -84,7 +54,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "TST"
@@ -112,7 +82,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -140,7 +110,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ACT"
@@ -168,39 +138,10 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ACT"
-    ]
-  },
-  {
-    "id": "7c6d406c5846fdf57d3b24cd1cacdd18626d0fc8",
-    "title": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same te",
-    "link": "https://x.com/HederaCommunity/status/2098482760704766199",
-    "score": 75,
-    "snippet": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same tech stack as our public network. @rob_nodl @hedera",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:hederacommunity",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T18:44:13.055000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issued')",
-    "matched": "issued",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HBAR",
-      "ETH"
     ]
   },
   {
@@ -223,17 +164,46 @@
     "axis": "market_event",
     "reason": "concrete market event ('back')",
     "matched": "back",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
   },
   {
+    "id": "7c6d406c5846fdf57d3b24cd1cacdd18626d0fc8",
+    "title": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same te",
+    "link": "https://x.com/HederaCommunity/status/2098482760704766199",
+    "score": 69,
+    "snippet": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same tech stack as our public network. @rob_nodl @hedera",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:hederacommunity",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-11T18:44:13.055000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issued')",
+    "matched": "issued",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HBAR",
+      "ETH"
+    ]
+  },
+  {
     "id": "44f72c2ed4f0a60bbf5ec93c942b68855101717c",
     "title": "wstETH collateral in the Compound Institutional Market approached its supply cap within 48 hours of launch. The cap has been raised from 4,202 to 8,000 wstETH, a 90% increase. Borrow USDC against wstETH: https://app.comp",
     "link": "https://x.com/Compound_xyz/status/2098522470076596697",
-    "score": 70,
+    "score": 64,
     "snippet": "wstETH collateral in the Compound Institutional Market approached its supply cap within 48 hours of launch. The cap has been raised from 4,202 to 8,000 wstETH, a 90% increase. Borrow USDC against wstETH: https://app.compound.xyz/?market=usdc-institutional-mainnet",
     "regions": [],
     "primary_region": null,
@@ -252,7 +222,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "COMP",
@@ -283,7 +253,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "COMP"
@@ -313,7 +283,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "CC"
@@ -345,7 +315,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "HOLO"
@@ -373,7 +343,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "UNI",
@@ -408,7 +378,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('back')",
     "matched": "back",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ARB",
@@ -416,91 +386,6 @@
       "UNI",
       "DIA",
       "CAP"
-    ]
-  },
-  {
-    "id": "bf5c9318b2487063a10fda87e4fee17383232d93",
-    "title": "A new CLARITY Act draft lands ahead of a key Senate vote, Kalshi looks to bring 24/7 perpetual futures to stocks like Tesla and Nvidia, and Ripple brings AI agents to corporate treasury management. @JennSanasie has what",
-    "link": "https://x.com/CoinDesk/status/2098506867366653954",
-    "score": 50,
-    "snippet": "A new CLARITY Act draft lands ahead of a key Senate vote, Kalshi looks to bring 24/7 perpetual futures to stocks like Tesla and Nvidia, and Ripple brings AI agents to corporate treasury management. @JennSanasie has what you need to know.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T20:20:00.822000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
-  },
-  {
-    "id": "f191457d330ae5fff9cb02667d100cd75da78b53",
-    "title": "A new CLARITY Act draft lands ahead of a key Senate vote, Kalshi looks to bring 24/7 perpetual futures to stocks like Tesla and Nvidia, and Ripple brings AI agents to corporate treasury management. Jenn Sanasie has what",
-    "link": "https://x.com/CoinDesk/status/2098501115465568645",
-    "score": 50,
-    "snippet": "A new CLARITY Act draft lands ahead of a key Senate vote, Kalshi looks to bring 24/7 perpetual futures to stocks like Tesla and Nvidia, and Ripple brings AI agents to corporate treasury management. Jenn Sanasie has what you need to know.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T19:57:09.490000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
-  },
-  {
-    "id": "fc2df1d8eeb4f099e650adbbefeef52824cb730b",
-    "title": "We've published the August v4 Program Update, our third monthly report on the program's progress and priorities. August Highlights: • v4 design advanced toward technical approval in September • Institutional Market launc",
-    "link": "https://x.com/Compound_xyz/status/2098497562726814104",
-    "score": 50,
-    "snippet": "We've published the August v4 Program Update, our third monthly report on the program's progress and priorities. August Highlights: • v4 design advanced toward technical approval in September • Institutional Market launch preparations continued alongside testing of an upgraded liquidation engine and",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:compound_xyz",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T19:43:02.296000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "COMP",
-      "USDC"
     ]
   },
   {
@@ -531,11 +416,11 @@
     ]
   },
   {
-    "id": "feca7e596fc3da62414f5948a57ebc2a085678c4",
-    "title": "UAE retailers trial dirham-pegged Stablecoin payments - Dubai Eye 103.8",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZW9OdDNBcG5QREFENjhUZFBBWU40b2RvamNyRnpLaXo5bnlvTW9UZHdOTUZYQmFROTVDWmRDNU1NcmxyZ21GdzRtd29GYVdYWm1Yb0dNWFU3NWpQbHk1TEUxZHF1dUcwOUNyY19DNzdoS3lDanlWbjZLUTVLcUdMZDU4ZmJmazZpYi1zZTQ1Q0gyV1lKM0hZcUVfNlJXUQ?oc=5",
+    "id": "19f71bc3395d0506578762141a1758f8472a903c",
+    "title": "UAE retailers trial dirham-pegged Stablecoin payments - ARN News Centre",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3FVRUdzWVZKT3VQbGRRLS1keExzbWRwUWRfUGh6bTZJU1p0RTlqZ29BeFY2YzFKeWhfNDgxdU9zanpMNTRtYzAxVHc5UktiYVNWcVpEZ2RERWI0Z2dqM2pGU0p5ejBhYjlrR0ZaMURqUXZ4Q3FEWkVTUjhaVHR5U25qQ0xsUlhvZ0VTZWZBSlpxblEzTUU0NmttQm5JZw?oc=5",
     "score": 35,
-    "snippet": "UAE retailers trial dirham-pegged Stablecoin payments Dubai Eye 103.8",
+    "snippet": "UAE retailers trial dirham-pegged Stablecoin payments ARN News Centre",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -548,34 +433,7 @@
     ],
     "feed_name": "crypto_native_fintech_launches",
     "source": "Google News RSS",
-    "published_at": "2026-09-11T14:42:09+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "e45f262219ed52b6bc1d7e1e255833033c2e8d4e",
-    "title": "U.S. Bank Moves USBDC Stablecoin Live on Stellar in Cross-Border Pilot - genfinity.io",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV1ZYcXlfdXQteFVsZTQ0QVB6WGhQV2VhNTI1V0RyT2ctejU4MTdaTnU5RW03NXd2bEVYN2pycWNESWl2M3lkZ25CYTBjdks3WThDbEhkWlJ1N0YySUw0ckNSOTZiUVpxbWFOWm56ekpNUmpvbW0yYmdoREJTUGpzWXFB?oc=5",
-    "score": 35,
-    "snippet": "U.S. Bank Moves USBDC Stablecoin Live on Stellar in Cross-Border Pilot genfinity.io",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-11T01:12:29+00:00",
+    "published_at": "2026-09-11T14:41:48+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
