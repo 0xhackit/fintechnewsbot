@@ -28,34 +28,6 @@
     ]
   },
   {
-    "id": "33ba814f0964e2470ffa9e96c7456de51dd05cd4",
-    "title": "THE BLOCK: Smarter Web Company is considering an IPO of a new class of perpetual preferred shares, reserved under the ticker \"MORE,\" on the London Stock Exchange’s Main Market, subject to FCA approval and shareholder aut",
-    "link": "https://x.com/TheBlockCo/status/2098437848659829205",
-    "score": 84,
-    "snippet": "THE BLOCK: Smarter Web Company is considering an IPO of a new class of perpetual preferred shares, reserved under the ticker \"MORE,\" on the London Stock Exchange’s Main Market, subject to FCA approval and shareholder authorization. The company is targeting gross proceeds of £15 million to £25 millio",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-11T15:45:46.062000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
     "id": "7c6d406c5846fdf57d3b24cd1cacdd18626d0fc8",
     "title": "The Reserve Bank of Australia required CBDCs to be issued on a private network for Project Acacia. Other participants forked Ethereum to build a temporary one. We didn't have to, HashSphere was already announced, same te",
     "link": "https://x.com/HederaCommunity/status/2098482760704766199",
@@ -116,30 +88,35 @@
     ]
   },
   {
-    "id": "64e42997db82d47f18453d1a58736907f60dc1c8",
-    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
-    "link": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
-    "score": 44,
-    "snippet": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "id": "970d64d516161aa36d6c6d9227b8d22085b370c7",
+    "title": "you made your feedback clear and we shipped fast. today, we're replacing the Cashback option with Holder Rewards for new deploys. now, you can very easily launch a coin paired with all of the relevant tokenized RWAs/cryp",
+    "link": "https://x.com/a1lon9/status/2098819322936177080",
+    "score": 55,
+    "snippet": "you made your feedback clear and we shipped fast. today, we're replacing the Cashback option with Holder Rewards for new deploys. now, you can very easily launch a coin paired with all of the relevant tokenized RWAs/crypto ecosystem tokens and receive rewards for holding! alongside this change, we a",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:openai",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-11T16:59:30.579000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:a1lon9",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-12T17:01:35.842000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('clear')",
+    "matched": "clear",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "OPENAI",
-      "WLD"
+      "PUMP",
+      "USDC",
+      "FARTCOIN",
+      "SOL"
     ]
   },
   {
@@ -167,7 +144,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
