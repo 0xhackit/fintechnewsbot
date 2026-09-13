@@ -1,30 +1,31 @@
 [
   {
-    "id": "4159edc95ce7e4ce12877f94dd7be4289b88d576",
-    "title": "CoinDesk reports that the US is backing a quantum hardware push with up to $300 million in funding for select companies. Meaning, Bitcoin and Ethereum are racing the quantum clock. CKB already has post-quantum signatures",
-    "link": "https://x.com/ckba_build/status/2098743434320454027",
-    "score": 84,
-    "snippet": "CoinDesk reports that the US is backing a quantum hardware push with up to $300 million in funding for select companies. Meaning, Bitcoin and Ethereum are racing the quantum clock. CKB already has post-quantum signatures on mainnet—and doesn’t need a protocol fork to add the next scheme. SPHINCS+ ru",
+    "id": "cdb895b00582bf207d7be78dd115d724fc57b197",
+    "title": "Latin America’s Largest Digital Bank Nu Launches in U.S. and Unveils USDC/EURC Global Account Nu has launched operations in the U.S. while separately introducing Nu Global, a multi-currency digital account for cross-bord",
+    "link": "https://x.com/WuBlockchain/status/2099150931220906376",
+    "score": 80,
+    "snippet": "Latin America’s Largest Digital Bank Nu Launches in U.S. and Unveils USDC/EURC Global Account Nu has launched operations in the U.S. while separately introducing Nu Global, a multi-currency digital account for cross-border users. Its U.S. offering includes deposit accounts, credit cards and internat",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:ckba_build",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-12T12:00:02.676000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-09-13T14:59:17.549000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "CKB",
-      "ETH",
-      "BTC"
+      "USDC"
     ]
   },
   {
@@ -60,10 +61,39 @@
     ]
   },
   {
+    "id": "69bc7bb91bde214885567aa639132910e9a28c6e",
+    "title": "Happy birthday, @MiniPay! 🎈 Launched three years ago, @Opera's stablecoin wallet built on Celo now has: → 18M+ users across 66 countries → 70+ Mini Apps → 541M+ transactions → A @Visa card w/ 5% cashback at 175M+ merchan",
+    "link": "https://x.com/Celo/status/2099120974977441814",
+    "score": 55,
+    "snippet": "Happy birthday, @MiniPay! 🎈 Launched three years ago, @Opera's stablecoin wallet built on Celo now has: → 18M+ users across 66 countries → 70+ Mini Apps → 541M+ transactions → A @Visa card w/ 5% cashback at 175M+ merchants Follow @MiniPay for surprises all week long!",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:celo",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-13T13:00:15.503000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CELO"
+    ]
+  },
+  {
     "id": "8beef9d745400dfd74f71df069634375cd6b58e0",
     "title": "Uniswap Monthly Trading Volume Surpasses $70B, Exceeding the Next Three DEXs Combined Uniswap said its protocol processed more than $70 billion in trading volume over the past month, exceeding the combined volume of the",
     "link": "https://x.com/WuBlockchain/status/2099056585003671898",
-    "score": 50,
+    "score": 44,
     "snippet": "Uniswap Monthly Trading Volume Surpasses $70B, Exceeding the Next Three DEXs Combined Uniswap said its protocol processed more than $70 billion in trading volume over the past month, exceeding the combined volume of the next three largest DEXs. The figures were sourced from DeFiLlama Research. Unisw",
     "regions": [],
     "primary_region": null,
