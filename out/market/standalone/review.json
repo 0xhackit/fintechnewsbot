@@ -3,7 +3,7 @@
     "id": "3e6162f18358e8baaccf114a131e7879330d326e",
     "title": "Ripple Looks to $13 Trillion Corporate Treasury Space for Stablecoin Growth",
     "link": "https://www.pymnts.com/cryptocurrency/2026/ripple-looks-to-13-trillion-corporate-treasury-space-for-stablecoin-growth/",
-    "score": 100,
+    "score": 94,
     "snippet": "Ripple reportedly considers the corporate treasury space a $13 trillion opportunity for its stablecoin business. Jack McDonald, Ripple’s senior vice president of stablecoins, said in an interview with CoinDesk on Sunday (Sept. 13) that one of the biggest opportunities is Ripple Treasury. That’s the ",
     "regions": [
       "US"
@@ -26,6 +26,35 @@
     "fulltext": true,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "2c61080e04cb9b61638fe7b26a722609543610e9",
+    "title": "THE BLOCK: South Korean exchange Upbit reported 11.2 trillion won ($8.35 billion) in weekly trading volume last week, up 6.74% from the previous week. The most traded cryptocurrency on the exchange was XRP $XRP , followe",
+    "link": "https://x.com/TheBlockCo/status/2099310757800558882",
+    "score": 80,
+    "snippet": "THE BLOCK: South Korean exchange Upbit reported 11.2 trillion won ($8.35 billion) in weekly trading volume last week, up 6.74% from the previous week. The most traded cryptocurrency on the exchange was XRP $XRP , followed by bitcoin $BTC and USDT. $USDT",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-14T01:34:23.186000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "BTC"
+    ]
   },
   {
     "id": "684e20d4703d80886cb02cf23f57a98f560e4766",
@@ -85,10 +114,93 @@
     ]
   },
   {
+    "id": "2b69f5e8ce911513951206abf4a22e67d8771818",
+    "title": "PayPal’s New CEO Bets on Going It Alone After $50 Billion Buyout Stalls",
+    "link": "https://www.pymnts.com/consumer-payments/2026/paypals-new-ceo-bets-on-going-it-alone-after-50-billion-buyout-stalls/",
+    "score": 70,
+    "snippet": "PayPal is moving forward without a buyer, at least for now. CEO Enrique Lores is building a plan to run the payments giant as a stand-alone company after a proposed $50 billion-plus sale fell apart this summer. Many investors still doubt he can turn the business around alone. According to The Wall S",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "pymnts",
+    "source": "Google News RSS",
+    "published_at": "2026-09-14T00:52:03+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "7467d3545bdb6e84a64356939285aefaf698d93b",
+    "title": "THE BLOCK: Spot bitcoin ETFs shed $462.7 million last week, ending three consecutive weekly inflows that attracted more than $3.8 billion. On the other hand, spot ether ETFs reported $197 million in weekly net inflows la",
+    "link": "https://x.com/TheBlockCo/status/2099303734010687680",
+    "score": 70,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs shed $462.7 million last week, ending three consecutive weekly inflows that attracted more than $3.8 billion. On the other hand, spot ether ETFs reported $197 million in weekly net inflows last week. $BTC $ETH",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-14T01:06:28.677000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "52eee45a887c8f91a432839729ee9f420b2fd668",
+    "title": "One Aptos integration opens the door to 100+ regulated assets. That's what @ArchaxEx brings to the network. And Archax isn't a crypto-native experiment. It's the first FCA-regulated digital securities exchange. The signi",
+    "link": "https://x.com/Aptos/status/2099302117551042712",
+    "score": 65,
+    "snippet": "One Aptos integration opens the door to 100+ regulated assets. That's what @ArchaxEx brings to the network. And Archax isn't a crypto-native experiment. It's the first FCA-regulated digital securities exchange. The significance isn't another logo joining an ecosystem. It's what follows. One integrat",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:aptos",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-14T01:00:03.417000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "APT"
+    ]
+  },
+  {
     "id": "cf5292476e5c4d2fc7ff84f96e4c3efad4ae9cc0",
     "title": "THE BLOCK: Symbiosis says it recovered about 15 BTC after an exploit targeting its Bitcoin Bridge and offered the attacker a 20% white-hat bounty. Blockaid said the attacker minted roughly 46.1 billion syBTC but appears",
     "link": "https://x.com/TheBlockCo/status/2099256200378630361",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Symbiosis says it recovered about 15 BTC after an exploit targeting its Bitcoin Bridge and offered the attacker a 20% white-hat bounty. Blockaid said the attacker minted roughly 46.1 billion syBTC but appears to have realized only about $336,000 in proceeds.",
     "regions": [],
     "primary_region": null,
@@ -140,6 +252,37 @@
     "origin": "tree",
     "coins": [
       "BNB"
+    ]
+  },
+  {
+    "id": "5780842df1f51e5514fccb802a0ffeb5d49a8909",
+    "title": "Tokenized equities are expanding across distribution and market infrastructure. 1️⃣ Nasdaq Ventures agreed to invest $100M in Kraken parent Payward, advancing Nasdaq Equity Tokens toward a planned Q2 2027 launch 2️⃣ Alph",
+    "link": "https://x.com/BlockSt_HQ/status/2099299394290131233",
+    "score": 55,
+    "snippet": "Tokenized equities are expanding across distribution and market infrastructure. 1️⃣ Nasdaq Ventures agreed to invest $100M in Kraken parent Payward, advancing Nasdaq Equity Tokens toward a planned Q2 2027 launch 2️⃣ Alpha Ladder WealthX launched xStocks access for eligible institutional and accredit",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:blockst_hq",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-14T00:49:13.954000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BSB"
     ]
   },
   {
