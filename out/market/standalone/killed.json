@@ -1,5 +1,89 @@
 [
   {
+    "id": "24c8fa442a12e33e506dab14f011ccc66cbbb1d6",
+    "title": "NEW: The UK's FCA, Treasury and Bank of England are exploring whether to exempt tokenized gold from certain fund rules, per the FT.",
+    "link": "https://x.com/CoinDesk/status/2099442164027576811",
+    "score": 100,
+    "snippet": "NEW: The UK's FCA, Treasury and Bank of England are exploring whether to exempt tokenized gold from certain fund rules, per the FT.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-14T10:16:32.677000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('exploring')",
+    "matched": "exploring",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "14a01ab7b48b4969932e14cbf3b646604ca18932",
+    "title": "UK FCA considers bespoke rules and fund exemptions for tokenized gold",
+    "link": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft",
+    "score": 90,
+    "snippet": "UK FCA considers bespoke rules and fund exemptions for tokenized gold",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:cointelegraph",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-14T08:57:15.280000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('considers')",
+    "matched": "considers",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "e82f40468b8e7fc9bb56edb25ad564ae3e0f1465",
+    "title": "UK FCA seeks views on fund rule exemptions for tokenized gold",
+    "link": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 80,
+    "snippet": "The FCA said uncertainty over whether some tokenized gold products fall under UK fund rules could affect adoption and investor access.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-09-14T08:57:00+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rule')",
+    "matched": "rule",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "ab5063bf536ebfe8aa5fd8cf09cee4076413c637",
     "title": "Since launching our Post-Quantum roadmap in June of this year: ✅ On-chain history secured with State Proofs ✅ Native post-quantum accounts live on mainnet We're on track with Algorand's post-quantum roadmap toward broad",
     "link": "https://x.com/Algorand/status/2099212020390474002",
@@ -61,35 +145,31 @@
     ]
   },
   {
-    "id": "1b5711d44ca6598b5881a21743bff1df0b03e7ae",
-    "title": "🚨 GoPlus Security Alert: active proposal attack on #Ampleforth On Sept 12, a freshly funded EOA submitted a malicious proposal on @AmpleforthOrg. Masked as a completed-work grant for SPOT ecosystem analytics tools, it as",
-    "link": "https://x.com/GoPlusSecurity/status/2099356365613593053",
-    "score": 50,
-    "snippet": "🚨 GoPlus Security Alert: active proposal attack on #Ampleforth On Sept 12, a freshly funded EOA submitted a malicious proposal on @AmpleforthOrg. Masked as a completed-work grant for SPOT ecosystem analytics tools, it asks to send 2,500,000 USDC from the treasury to the proposer — nearly all liquid ",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
+    "id": "c1026fb8e4489719396f9c98d3eaf14655da7dbe",
+    "title": "CLARITY Act vote meets Fed rate hike: Five things to know in Bitcoin this week",
+    "link": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 40,
+    "snippet": "Bitcoin traders brace for volatility as the CLARITY Act awaits a Senate vote to move forward and the Fed is due to announce its latest rate decision.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
-    "feed_name": "tree:x:goplussecurity",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-14T04:35:37.003000+00:00",
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-09-14T10:00:17+00:00",
     "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('proposal')",
-    "matched": "proposal",
+    "axis": "low_signal",
+    "reason": "low-signal stat/promo ('things to know')",
+    "matched": "things to know",
     "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "GPS",
-      "SPOT",
-      "USDC",
-      "ETH",
-      "T"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   }
 ]
