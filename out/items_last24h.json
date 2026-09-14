@@ -10,7 +10,7 @@
     "snippet": "",
     "published_at": "2026-09-14T11:58:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -21,68 +21,19 @@
       "id": "aa382b0e-bf7e-4c0e-85af-af50d3ce4586",
       "guidislink": false
     },
-    "score": 90,
+    "score": 84,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 40,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "daf95926d6d5c60194c82b33ee1f25346e086600158e1ae8cad908efb0d7f51b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Tokenovate executes intra-day repo transaction on Canton Network",
-    "url": "https://www.finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network",
-    "snippet": "Tokenovate, the post-trade workflow automation company, today announced the successful execution and settlement of an intra-day repurchase agreement (repo) on the Canton Network using the FINOS Common Domain Model (CDM), with cash settlement conducted in USDC issued by Circle and expressed as USDCx ",
-    "published_at": "2026-09-14T13:52:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 75,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 2,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 45,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -106,7 +57,7 @@
     "snippet": "The FCA said uncertainty over whether some tokenized gold products fall under UK fund rules could affect adoption and investor access.",
     "published_at": "2026-09-14T08:57:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -143,6 +94,55 @@
     ]
   },
   {
+    "id": "daf95926d6d5c60194c82b33ee1f25346e086600158e1ae8cad908efb0d7f51b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Tokenovate executes intra-day repo transaction on Canton Network",
+    "url": "https://www.finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network",
+    "snippet": "Tokenovate, the post-trade workflow automation company, today announced the successful execution and settlement of an intra-day repurchase agreement (repo) on the Canton Network using the FINOS Common Domain Model (CDM), with cash settlement conducted in USDC issued by Circle and expressed as USDCx ",
+    "published_at": "2026-09-14T13:52:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 69,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 45,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "8003988144b258b1fcee01ee8ddc70001b4f59bbe3fe0263bf10cab29ebf1cbd",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -153,7 +153,7 @@
     "snippet": "The investment brings together major financial institutions as Kaiko expands its data infrastructure for tokenized securities and onchain financial markets.",
     "published_at": "2026-09-14T16:17:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -200,7 +200,7 @@
     "snippet": "Bitcoin traders brace for volatility as the CLARITY Act awaits a Senate vote to move forward and the Fed is due to announce its latest rate decision.",
     "published_at": "2026-09-14T10:02:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -245,7 +245,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -290,7 +290,7 @@
     "snippet": "Crypto wallet providers must submit an early vulnerability report within 24 hours and a full notification within 72 hours of exploits, or risk administrative fines of as much as $17.3 million.",
     "published_at": "2026-09-14T11:38:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -301,14 +301,14 @@
       "id": "https://cointelegraph.com/news/eu-cyber-rules-put-crypto-wallet-24-hour-reporting",
       "guidislink": true
     },
-    "score": 25,
+    "score": 19,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -337,7 +337,7 @@
     "snippet": "Robinhood CEO Vlad Tenev said issuers should be involved if tokenized products change shareholder rights or company obligations, but not when they create separate instruments backed by shares.",
     "published_at": "2026-09-14T04:55:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -385,7 +385,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -420,25 +420,25 @@
     ]
   },
   {
-    "id": "521877dbcffe81de8443630dd40cc0708a33a768c078483a54504e60885f72ab",
+    "id": "a62f188ea9e7b99a0ed7bf8144880ae1367c1688a446ef50ab09a6e4b04c1dae",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "crypto_native_fintech_launches",
-    "title": "Heleket brings crypto payments, conversion and payouts under one roof - Crypto News",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg?oc=5",
-    "snippet": "Heleket brings crypto payments, conversion and payouts under one roof Crypto News",
-    "published_at": "2026-09-14T13:30:00+00:00",
+    "feed_name": "coindesk",
+    "title": "Banks escalate stablecoin rewards fight as Senate prepares for a Clarity Act vote",
+    "url": "https://www.coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
+    "canonical_url": "https://coindesk.com/policy/2026/09/14/banks-escalate-stablecoin-rewards-fight-as-senate-prepares-for-a-clarity-act-vote",
+    "snippet": "",
+    "published_at": "2026-09-14T17:51:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
-      "crypto payments"
+      "stablecoin"
     ],
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg",
+      "id": "2d5b57ff-774f-4c59-a40b-ba59f4739d82",
       "guidislink": false
     },
     "score": 10,
@@ -477,7 +477,7 @@
     "snippet": "Republicans' \"last, best and final offer\" wins Trump's backing on stronger ethics rules and concedes on DeFi and stablecoin sticking points, but it's unclear if enough Democrats will cross over Tuesday.",
     "published_at": "2026-09-14T15:22:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -514,6 +514,100 @@
     ]
   },
   {
+    "id": "521877dbcffe81de8443630dd40cc0708a33a768c078483a54504e60885f72ab",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "crypto_native_fintech_launches",
+    "title": "Heleket brings crypto payments, conversion and payouts under one roof - Crypto News",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg?oc=5",
+    "snippet": "Heleket brings crypto payments, conversion and payouts under one roof Crypto News",
+    "published_at": "2026-09-14T13:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
+    "matched_keywords": [
+      "crypto payments"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "50d7dc95b7e037d2b5b0e19c4cbab098b8e3e121e66255aacc91d4aaa7289d7b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "U.S. Bank Completes First Live USBDC Stablecoin Transaction - Banking Exchange",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnlBVVVhdTcwZGxETkJnZ2x5TERkczhHSkVlc1dzNERyUmpxQWprZndFeXVHOEtzczFGeUY0Sjc1U21rWFBVMG9INVBLbUlpWW4ybEhPNFA0Z2VydV9KZkRnaWR5UFhOeVNmSmwxYU1EaVIwSEpScWpkZlk4WE9tWVpkZUpZRm5nRGxpQXJhTnZ4NkY3Qmg3TUNxS3pJeWhQS3dseDgyVk5WX1ljSkNadQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUnlBVVVhdTcwZGxETkJnZ2x5TERkczhHSkVlc1dzNERyUmpxQWprZndFeXVHOEtzczFGeUY0Sjc1U21rWFBVMG9INVBLbUlpWW4ybEhPNFA0Z2VydV9KZkRnaWR5UFhOeVNmSmwxYU1EaVIwSEpScWpkZlk4WE9tWVpkZUpZRm5nRGxpQXJhTnZ4NkY3Qmg3TUNxS3pJeWhQS3dseDgyVk5WX1ljSkNadQ?oc=5",
+    "snippet": "U.S. Bank Completes First Live USBDC Stablecoin Transaction Banking Exchange",
+    "published_at": "2026-09-14T12:32:18+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMisAFBVV95cUxQUnlBVVVhdTcwZGxETkJnZ2x5TERkczhHSkVlc1dzNERyUmpxQWprZndFeXVHOEtzczFGeUY0Sjc1U21rWFBVMG9INVBLbUlpWW4ybEhPNFA0Z2VydV9KZkRnaWR5UFhOeVNmSmwxYU1EaVIwSEpScWpkZlk4WE9tWVpkZUpZRm5nRGxpQXJhTnZ4NkY3Qmg3TUNxS3pJeWhQS3dseDgyVk5WX1ljSkNadQ",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "fb05d5621343fe3b68cc46a653e239e311fa9ec8d7389857a76420fb539cef6d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -524,7 +618,7 @@
     "snippet": "Stablecoins may reduce trade finance friction, fragmented regulatory regimes limit their adoption to just 3% of global payments, according to the World Trade Organization.",
     "published_at": "2026-09-14T13:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "fetched_at": "2026-09-14T20:31:47.056105+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -535,14 +629,14 @@
       "id": "https://cointelegraph.com/news/fragmented-regulations-limit-stablecoin-adoption-in-international-finance-wto-director",
       "guidislink": true
     },
-    "score": 5,
+    "score": -1,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
