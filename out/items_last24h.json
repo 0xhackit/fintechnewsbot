@@ -1,5 +1,101 @@
 [
   {
+    "id": "928538d046487b7f934227d8eebefacdd62260957d1ffab68cc8690c2d6965de",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "FCA considers exempting tokenized gold from fund rules to defend London market",
+    "url": "https://www.coindesk.com/business/2026/09/14/fca-considers-exempting-tokenized-gold-from-fund-rules-to-defend-london-market",
+    "canonical_url": "https://coindesk.com/business/2026/09/14/fca-considers-exempting-tokenized-gold-from-fund-rules-to-defend-london-market",
+    "snippet": "",
+    "published_at": "2026-09-14T11:58:28+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "aa382b0e-bf7e-4c0e-85af-af50d3ce4586",
+      "guidislink": false
+    },
+    "score": 90,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "daf95926d6d5c60194c82b33ee1f25346e086600158e1ae8cad908efb0d7f51b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Tokenovate executes intra-day repo transaction on Canton Network",
+    "url": "https://www.finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network",
+    "snippet": "Tokenovate, the post-trade workflow automation company, today announced the successful execution and settlement of an intra-day repurchase agreement (repo) on the Canton Network using the FINOS Common Domain Model (CDM), with cash settlement conducted in USDC issued by Circle and expressed as USDCx ",
+    "published_at": "2026-09-14T13:52:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/110898/tokenovate-executes-intra-day-repo-transaction-on-canton-network?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 75,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 45,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "d396373a31175c4861fc3cdfa01c6dd8e69853f0f1970b2b6e7970ea8546588a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -10,7 +106,7 @@
     "snippet": "The FCA said uncertainty over whether some tokenized gold products fall under UK fund rules could affect adoption and investor access.",
     "published_at": "2026-09-14T08:57:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -21,14 +117,14 @@
       "id": "https://cointelegraph.com/news/uk-fca-weighs-fund-rules-exemption-for-tokenized-gold-ft",
       "guidislink": true
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 30,
@@ -47,37 +143,39 @@
     ]
   },
   {
-    "id": "55adec950aeda55ebcbd86debd34c7673e11fef68acce8777e815b0dff088f6c",
+    "id": "8003988144b258b1fcee01ee8ddc70001b4f59bbe3fe0263bf10cab29ebf1cbd",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "PayPal’s New CEO Bets on Going It Alone After $50 Billion Buyout Stalls",
-    "url": "https://www.pymnts.com/consumer-payments/2026/paypals-new-ceo-bets-on-going-it-alone-after-50-billion-buyout-stalls/",
-    "canonical_url": "https://pymnts.com/consumer-payments/2026/paypals-new-ceo-bets-on-going-it-alone-after-50-billion-buyout-stalls/",
-    "snippet": "PayPal is moving forward without a buyer, at least for now. CEO Enrique Lores is building a plan to run the payments giant as a stand-alone company after a proposed $50 billion-plus sale fell apart this summer. Many investors still doubt he can turn the business around alone. According to The Wall S",
-    "published_at": "2026-09-14T00:52:03+00:00",
+    "feed_name": "cointelegraph",
+    "title": "S&P Global backs Kaiko as Series B reaches $110M",
+    "url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets",
+    "snippet": "The investment brings together major financial institutions as Kaiko expands its data infrastructure for tokenized securities and onchain financial markets.",
+    "published_at": "2026-09-14T16:17:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=4186274",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/sp-global-leads-110m-kaiko-funding-round-as-wall-street-eyes-tokenized-markets",
+      "guidislink": true
     },
-    "score": 64,
+    "score": 45,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
+      "tier1": 1,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -100,9 +198,9 @@
     "url": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "canonical_url": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week",
     "snippet": "Bitcoin traders brace for volatility as the CLARITY Act awaits a Senate vote to move forward and the Fed is due to announce its latest rate decision.",
-    "published_at": "2026-09-14T10:00:17+00:00",
+    "published_at": "2026-09-14T10:02:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -111,14 +209,14 @@
       "id": "https://cointelegraph.com/markets/clarity-act-vote-meets-fed-rate-hike-five-things-to-know-in-bitcoin-this-week",
       "guidislink": true
     },
-    "score": 40,
+    "score": 34,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 30,
@@ -147,7 +245,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -155,6 +253,53 @@
     "raw": {
       "id": "https://www.finextra.com/event-info/634/deposits-and-stablecoins-the-complete-digital-money-proposition-for-banks?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
+    },
+    "score": 25,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "f57d5432009fad51570be4b178d20c39d87048497dacd8e4e834a92862d291c0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "EU cyber rules put crypto wallet makers on 24-hour reporting clock",
+    "url": "https://cointelegraph.com/news/eu-cyber-rules-put-crypto-wallet-24-hour-reporting?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/eu-cyber-rules-put-crypto-wallet-24-hour-reporting",
+    "snippet": "Crypto wallet providers must submit an early vulnerability report within 24 hours and a full notification within 72 hours of exploits, or risk administrative fines of as much as $17.3 million.",
+    "published_at": "2026-09-14T11:38:44+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "crypto wallet"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/eu-cyber-rules-put-crypto-wallet-24-hour-reporting",
+      "guidislink": true
     },
     "score": 25,
     "score_breakdown": {
@@ -192,7 +337,7 @@
     "snippet": "Robinhood CEO Vlad Tenev said issuers should be involved if tokenized products change shareholder rights or company obligations, but not when they create separate instruments backed by shares.",
     "published_at": "2026-09-14T04:55:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -204,66 +349,19 @@
       "id": "https://cointelegraph.com/news/robinhood-ceo-issuer-veto-tokenized-stocks",
       "guidislink": true
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "7415fb03e92b22bb5b2ea0d4f41ab9d60e01a487c25e0f53f2ad9a70801043f7",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "crypto_native_fintech_launches",
-    "title": "Crypto wallet creators now have just 24 hours to alert regulators when flaws are exploited - CryptoSlate",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUWFiY1d6WUwweFhnQjA3elNjd0t4bWp6VjhKdXlCZm1sN3pfNC1nQ0RQeXFtVUQwOV9ROVJ4R2dQS29DMElScjJraGZWR0RKSHU4N05aeXVjdmt6bWFfY2h3aFFmSlh3VFl2RXRKWFUxWF91N0FCXzUzSGxwc0dLZjA3eFl0UnJFWnBqcDBYQXJBdWZkVkkzM1ZOY2dydm1zM3FVcHF6aF96aDBqcTd3amVLRWVZdw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUWFiY1d6WUwweFhnQjA3elNjd0t4bWp6VjhKdXlCZm1sN3pfNC1nQ0RQeXFtVUQwOV9ROVJ4R2dQS29DMElScjJraGZWR0RKSHU4N05aeXVjdmt6bWFfY2h3aFFmSlh3VFl2RXRKWFUxWF91N0FCXzUzSGxwc0dLZjA3eFl0UnJFWnBqcDBYQXJBdWZkVkkzM1ZOY2dydm1zM3FVcHF6aF96aDBqcTd3amVLRWVZdw?oc=5",
-    "snippet": "Crypto wallet creators now have just 24 hours to alert regulators when flaws are exploited CryptoSlate",
-    "published_at": "2026-09-13T11:45:33+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
-    "matched_keywords": [
-      "crypto wallet"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMitgFBVV95cUxPUWFiY1d6WUwweFhnQjA3elNjd0t4bWp6VjhKdXlCZm1sN3pfNC1nQ0RQeXFtVUQwOV9ROVJ4R2dQS29DMElScjJraGZWR0RKSHU4N05aeXVjdmt6bWFfY2h3aFFmSlh3VFl2RXRKWFUxWF91N0FCXzUzSGxwc0dLZjA3eFl0UnJFWnBqcDBYQXJBdWZkVkkzM1ZOY2dydm1zM3FVcHF6aF96aDBqcTd3amVLRWVZdw",
-      "guidislink": false
-    },
-    "score": 19,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -287,7 +385,7 @@
     "snippet": "Are banks betting on stablecoins, tokenised deposits, or CBDCs?",
     "published_at": "2026-09-15T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -322,30 +420,32 @@
     ]
   },
   {
-    "id": "92db0aba65f1fe2f459ce601341c885ff7ecfb50112e8c197fca4e7c8d991b58",
+    "id": "521877dbcffe81de8443630dd40cc0708a33a768c078483a54504e60885f72ab",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "77% Would Choose Their Existing Financial App for a Digital Asset Wallet",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/77-would-choose-their-existing-financial-app-for-a-digital-asset-wallet/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/77-would-choose-their-existing-financial-app-for-a-digital-asset-wallet/",
-    "snippet": "Digital assets may reach the checkout faster by asking consumers to change less about how they pay. The July 2026 Payments Innovation Tracker, “From Asset to Everyday Money: Making Digital Currencies Spendable,” says cryptocurrencies and stablecoins are moving beyond investment. Consumers want to us",
-    "published_at": "2026-09-14T08:00:07+00:00",
+    "feed_name": "crypto_native_fintech_launches",
+    "title": "Heleket brings crypto payments, conversion and payouts under one roof - Crypto News",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg?oc=5",
+    "snippet": "Heleket brings crypto payments, conversion and payouts under one roof Crypto News",
+    "published_at": "2026-09-14T13:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-14T10:44:35.874682+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "crypto payments"
+    ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=4185883",
+      "id": "CBMikwFBVV95cUxNTVpnOGZDa3F6Rmlpcm5ubWI5cHFJX1JTUVo5VnNfc0xZVVU1MlZqS0dkVVdieW1xdkFrSmZOa21GOXJGTkZnUU9jcmRXbnB0bkQ2bWw1SDY0QzFJNWtJcUZlQ2stVzhuRlRrVHNGaFhCVHUyd0ZfMWJaNEppVTFscjJobEFqNXJpTTZFNVVJRUEtUjg",
       "guidislink": false
     },
-    "score": -30,
+    "score": 10,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
-      "commentary": 2,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
@@ -354,7 +454,101 @@
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "eae90452674b917bdf7c91089f88643b8fb81a29845c938bb00014a47262c35e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Why Trump Backed Tougher Ethics Rules in Clarity Act, and Why the Crypto Industry Thinks It Can Pass",
+    "url": "https://decrypt.co/378125/clarity-act-crypto-ethics-trump-key-vote",
+    "canonical_url": "https://decrypt.co/378125/clarity-act-crypto-ethics-trump-key-vote",
+    "snippet": "Republicans' \"last, best and final offer\" wins Trump's backing on stronger ethics rules and concedes on DeFi and stablecoin sticking points, but it's unclear if enough Democrats will cross over Tuesday.",
+    "published_at": "2026-09-14T15:22:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=378125",
+      "guidislink": false
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "fb05d5621343fe3b68cc46a653e239e311fa9ec8d7389857a76420fb539cef6d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Fragmented regulations limit stablecoin adoption in international finance: WTO head",
+    "url": "https://cointelegraph.com/news/fragmented-regulations-limit-stablecoin-adoption-in-international-finance-wto-director?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/fragmented-regulations-limit-stablecoin-adoption-in-international-finance-wto-director",
+    "snippet": "Stablecoins may reduce trade finance friction, fragmented regulatory regimes limit their adoption to just 3% of global payments, according to the World Trade Organization.",
+    "published_at": "2026-09-14T13:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-14T16:37:16.692659+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/fragmented-regulations-limit-stablecoin-adoption-in-international-finance-wto-director",
+      "guidislink": true
+    },
+    "score": 5,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
