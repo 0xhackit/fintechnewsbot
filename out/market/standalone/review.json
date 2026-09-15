@@ -62,59 +62,58 @@
     ]
   },
   {
-    "id": "3b235ee9f4bd72ecd08184cec30be82bcc39f3e5",
-    "title": "U.S. spot Bitcoin ETFs recorded $160 million in net inflows on Sept. 14, according to SoSoValue, with BlackRock’s IBIT contributing $134 million and accounting for most of the day’s inflows. Spot Ether ETFs also posted $",
-    "link": "https://x.com/WuBlockchain/status/2099736339214422178",
-    "score": 60,
-    "snippet": "U.S. spot Bitcoin ETFs recorded $160 million in net inflows on Sept. 14, according to SoSoValue, with BlackRock’s IBIT contributing $134 million and accounting for most of the day’s inflows. Spot Ether ETFs also posted $121 million in net inflows, led by BlackRock’s ETHA with $80.50 million.",
+    "id": "b7af9568846cbe02563d536a675e53e2bbc5ff48",
+    "title": "Solana Treasury Firm DeFi Dev Corp Rolls Out $300M CHAD to Buy More SOL",
+    "link": "https://decrypt.co/378183",
+    "score": 65,
+    "snippet": "Solana Treasury Firm DeFi Dev Corp Rolls Out $300M CHAD to Buy More SOL",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
+    "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-15T05:45:29.771000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-15T11:01:02.243000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('rolls out')",
+    "matched": "rolls out",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "ETH"
+      "SOL"
     ]
   },
   {
-    "id": "9838972e87df1e2b0f2c5a22f1a6caee9c56ba49",
-    "title": "THE BLOCK: Spot bitcoin ETFs returned to net inflows on Monday, attracting $160 million. This came after four straight days of net outflows, during which the funds shed $463 million. Spot ether ETFs also posted $121 mill",
-    "link": "https://x.com/TheBlockCo/status/2099715319254450674",
-    "score": 60,
-    "snippet": "THE BLOCK: Spot bitcoin ETFs returned to net inflows on Monday, attracting $160 million. This came after four straight days of net outflows, during which the funds shed $463 million. Spot ether ETFs also posted $121 million in net inflows on the day. $BTC $ETH",
+    "id": "a09b9e59aa0923c66426422663982c2335268d7f",
+    "title": "THE BLOCK: Solana's new v1 transaction format is now live on mainnet, supporting transactions of up to 4,096 bytes, compared with the 1,232-byte limit for legacy and v0 transactions. The upgrade enables larger workloads,",
+    "link": "https://x.com/TheBlockCo/status/2099801910970847430",
+    "score": 65,
+    "snippet": "THE BLOCK: Solana's new v1 transaction format is now live on mainnet, supporting transactions of up to 4,096 bytes, compared with the 1,232-byte limit for legacy and v0 transactions. The upgrade enables larger workloads, including ZK proofs and large multisigs, to fit within a single transaction.",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
+    "financial": 0,
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-15T04:21:58.207000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-09-15T10:06:03.189000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now live')",
+    "matched": "now live",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "ETH"
+      "ZK",
+      "SOL"
     ]
   },
   {
@@ -144,6 +143,62 @@
     ]
   },
   {
+    "id": "3b235ee9f4bd72ecd08184cec30be82bcc39f3e5",
+    "title": "U.S. spot Bitcoin ETFs recorded $160 million in net inflows on Sept. 14, according to SoSoValue, with BlackRock’s IBIT contributing $134 million and accounting for most of the day’s inflows. Spot Ether ETFs also posted $",
+    "link": "https://x.com/WuBlockchain/status/2099736339214422178",
+    "score": 54,
+    "snippet": "U.S. spot Bitcoin ETFs recorded $160 million in net inflows on Sept. 14, according to SoSoValue, with BlackRock’s IBIT contributing $134 million and accounting for most of the day’s inflows. Spot Ether ETFs also posted $121 million in net inflows, led by BlackRock’s ETHA with $80.50 million.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-15T05:45:29.771000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "9838972e87df1e2b0f2c5a22f1a6caee9c56ba49",
+    "title": "THE BLOCK: Spot bitcoin ETFs returned to net inflows on Monday, attracting $160 million. This came after four straight days of net outflows, during which the funds shed $463 million. Spot ether ETFs also posted $121 mill",
+    "link": "https://x.com/TheBlockCo/status/2099715319254450674",
+    "score": 54,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs returned to net inflows on Monday, attracting $160 million. This came after four straight days of net outflows, during which the funds shed $463 million. Spot ether ETFs also posted $121 million in net inflows on the day. $BTC $ETH",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-15T04:21:58.207000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
     "id": "822cc039f66e388d667bf9540820338684c6d6d8",
     "title": "RUSH is now available to LP and Trade on Orca. RUSH is the protocol token for @SatRush, a novel onchain game built on Solana. Solana is the place to launch new onchain mechanics. Orca is the place to LP them.",
     "link": "https://x.com/orca_so/status/2099579690063187985",
@@ -170,6 +225,34 @@
     "coins": [
       "ORCA",
       "SOL"
+    ]
+  },
+  {
+    "id": "aaed58ed54594b2915ed4f16ea47de7195b7b3cb",
+    "title": "Gated access wearing a progress narrative. We've seen this before. Open weights mean nothing if the compute to run them is rationed by waitlists, quotas, or price. We built the marketplace so idle GPUs become clusters an",
+    "link": "https://x.com/ionet/status/2099798270126047661",
+    "score": 50,
+    "snippet": "Gated access wearing a progress narrative. We've seen this before. Open weights mean nothing if the compute to run them is rationed by waitlists, quotas, or price. We built the marketplace so idle GPUs become clusters anyone can launch. No permission slip required.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ionet",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-15T09:51:35.061000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "IO"
     ]
   },
   {
