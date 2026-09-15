@@ -120,60 +120,6 @@
     ]
   },
   {
-    "id": "e76cd429e9c78821ae70b7c88e7206608be5a12f",
-    "title": "UK based Satsuma Technology Offloads Entire Bitcoin (BTC) Treasury Holdings following Court Approval of £30.7M Shareholder Payout",
-    "link": "https://www.crowdfundinsider.com/2026/09/310125-uk-based-satsuma-technology-offloads-entire-bitcoin-btc-treasury-holdings-following-court-approval-of-30-7m-shareholder-payout",
-    "score": 74,
-    "snippet": "UK based Satsuma Technology Offloads Entire Bitcoin (BTC) Treasury Holdings following Court Approval of £30.7M Shareholder Payout",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-14T12:16:04.029000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "BASED"
-    ]
-  },
-  {
-    "id": "c9983edb5e2def2e7a93f11b25178f925e084cf2",
-    "title": "DeFi Development Corp expands Solana treasury to 2.39 million SOL, sets up $300 million CHAD ATM",
-    "link": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633",
-    "score": 70,
-    "snippet": "DeFi Development Corp expands Solana treasury to 2.39 million SOL, sets up $300 million CHAD ATM",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-14T14:40:26.388000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL",
-      "ATM"
-    ]
-  },
-  {
     "id": "4840f34c51fa2df7dac906ae073666656a335656",
     "title": "We added more ways to fund 1-click payment flows on Polygon OMS. Your customers can now use @Stripe to pay for any onchain purchase. One integration enables support from any funding source, so you can meet money where it",
     "link": "https://x.com/0xPolygon/status/2099594867638948118",
@@ -197,6 +143,35 @@
     "origin": "tree",
     "coins": [
       "POL"
+    ]
+  },
+  {
+    "id": "c9983edb5e2def2e7a93f11b25178f925e084cf2",
+    "title": "DeFi Development Corp expands Solana treasury to 2.39 million SOL, sets up $300 million CHAD ATM",
+    "link": "https://www.theblock.co/news/markets/2026-09-14-defi-development-corp-expands-solana-treasury-2-39-million-sol-sets-300-million-chad-atm-414633",
+    "score": 64,
+    "snippet": "DeFi Development Corp expands Solana treasury to 2.39 million SOL, sets up $300 million CHAD ATM",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:the block",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-14T14:40:26.388000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SOL",
+      "ATM"
     ]
   },
   {
@@ -226,37 +201,10 @@
     ]
   },
   {
-    "id": "0a0b9647eeafe0b7658e6bd2e24f68771bb2a402",
-    "title": "THE BLOCK: Tom Lee's Bitmine $BMNR acquired 27,180 $ETH over the past week, bringing its holdings to 5.96 million ETH, or 4.9% of Ethereum's supply. The company's crypto, cash, and marketable securities total $15.8 billi",
-    "link": "https://x.com/TheBlockCo/status/2099477893554270453",
-    "score": 64,
-    "snippet": "THE BLOCK: Tom Lee's Bitmine $BMNR acquired 27,180 $ETH over the past week, bringing its holdings to 5.96 million ETH, or 4.9% of Ethereum's supply. The company's crypto, cash, and marketable securities total $15.8 billion.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-14T12:38:31.643000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('acquired')",
-    "matched": "acquired",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BMNR",
-      "ETH"
-    ]
-  },
-  {
     "id": "822cc039f66e388d667bf9540820338684c6d6d8",
     "title": "RUSH is now available to LP and Trade on Orca. RUSH is the protocol token for @SatRush, a novel onchain game built on Solana. Solana is the place to launch new onchain mechanics. Orca is the place to LP them.",
     "link": "https://x.com/orca_so/status/2099579690063187985",
-    "score": 60,
+    "score": 54,
     "snippet": "RUSH is now available to LP and Trade on Orca. RUSH is the protocol token for @SatRush, a novel onchain game built on Solana. Solana is the place to launch new onchain mechanics. Orca is the place to LP them.",
     "regions": [],
     "primary_region": null,
@@ -279,32 +227,6 @@
     "coins": [
       "ORCA",
       "SOL"
-    ]
-  },
-  {
-    "id": "7ff15ed5779dcb3741d29565f4f3db4929d1ddd6",
-    "title": "Kaiko Expands Latest Funding Round to $110M Led by S&P Global as 24/7 Markets Move Closer Accroding to Bloomberg, S&P Global led an investment in crypto market-data provider Kaiko that expanded the company’s latest fundi",
-    "link": "https://x.com/WuBlockchain/status/2099465732660879676",
-    "score": 59,
-    "snippet": "Kaiko Expands Latest Funding Round to $110M Led by S&P Global as 24/7 Markets Move Closer Accroding to Bloomberg, S&P Global led an investment in crypto market-data provider Kaiko that expanded the company’s latest funding round to $110 million, as demand grows for infrastructure supporting round-th",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-14T11:50:12.050000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('funding round')",
-    "matched": "funding round",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "XLM"
     ]
   },
   {
@@ -360,5 +282,34 @@
     "coins": [
       "BERA"
     ]
+  },
+  {
+    "id": "19ad10914e173af8c3f146e75142c7969f3f5248",
+    "title": "Circle’s Arc launch ties Wall Street firms to the network without making them its safety net - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQazJSbkN4eDNlYktDRmk4MHUtSkx0VGxlUVEzbGlKbGY1UktoRXZaMnhCS3I0dnhSblpxN1dvMzNwVzI2VDhHZmlFRmZRY09NX2FPSmZPS0EtMWFJVWhuTFFMejlSdUk5akVLdVhLdWlESzdqZ29mTllTYkhFMlNIRmlHTzQteGUtRmpkRWtScFZ0UkItb1NwUE9Sb0oteG9VX1g4cGE1S0JvQTZlU1RmeVI1TkNaaFU?oc=5",
+    "score": 45,
+    "snippet": "Circle’s Arc launch ties Wall Street firms to the network without making them its safety net CryptoSlate",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-14T22:50:42+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
