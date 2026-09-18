@@ -1,5 +1,52 @@
 [
   {
+    "id": "e704b9c2faffdf1867f494eed89451606682ebb566de049fd29296591e1166a6",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Morning Minute: SEC Approves ‘Innovation Exemption’ Moving Tokenized Stocks Forward",
+    "url": "https://decrypt.co/378619/morning-minute-sec-approves-innovation-exemption-moving-tokenized-stocks-forward",
+    "canonical_url": "https://decrypt.co/378619/morning-minute-sec-approves-innovation-exemption-moving-tokenized-stocks-forward",
+    "snippet": "It came just hours after S&P Global announced its acquisition of OpenZeppelin, as everything TradFi moves onchain.",
+    "published_at": "2026-09-18T12:34:50+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=378619",
+      "guidislink": false
+    },
+    "score": 140,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "68276672b5b53050c6b18e4cd28aa7c5d3e85a9be4dedb339e00d96d9e26b9b7",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -10,7 +57,7 @@
     "snippet": "The \"innovation exemption\" lets qualifying venues trade tokenized versions of U.S. stocks on public blockchains without registering as exchanges—though it excludes price-tracking \"synthetics\" and lets companies block tokenization of their shares.",
     "published_at": "2026-09-17T14:52:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized"
@@ -58,7 +105,7 @@
     "snippet": "The US regulator’s move could make it easier for crypto wallets and other apps to offer access to regulated derivatives and prediction markets without registering as introducing brokers.",
     "published_at": "2026-09-17T19:30:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -105,7 +152,7 @@
     "snippet": "WisdomTree, Inc. (NYSE: WT), a global financial innovator, and MoonPay, the global financial technology company powering the movement of value across fiat and digital assets, have announced a strategic collaboration to make the WisdomTree Treasury Money Market Digital Fund (WTGXX), a tokenized money",
     "published_at": "2026-09-17T14:50:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -142,103 +189,6 @@
     ]
   },
   {
-    "id": "1de35cb1c2bfc00278a9733e336c4c7912075c2eca38ddf3c6c53da33a2d4620",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "SEC rolls out long-awaited 'innovation exemption' for tokenized securities venues",
-    "url": "https://www.coindesk.com/policy/2026/09/17/sec-rolls-out-long-awaited-innovation-exemption-for-tokenized-securities-venues",
-    "canonical_url": "https://coindesk.com/policy/2026/09/17/sec-rolls-out-long-awaited-innovation-exemption-for-tokenized-securities-venues",
-    "snippet": "",
-    "published_at": "2026-09-17T13:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "3dc0f960-dd3c-486a-89bb-e9c82f3c0557",
-      "guidislink": false
-    },
-    "score": 69,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "9451069c06f982455dcb2eea97e2ff99796e83d952b84a33ff98ff57297cc689",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Wavebridge Expands Korean Institutional Access to Onchain Stablecoin Settlement Infrastructure with the Mainnet Launch of Arc - PR Newswire",
-    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQN21GOUE3YWRKWkxxZzZqTlhhUkRLRWJKYUo5M05JbVJrZnZqUnhNaExHQWxVd2JpOE5UTzhuaEM1WkVxcWlGMnRxemt2RkY1ZDNSYkdkQ0VoazZrbE1tM1BjUndJZlJwQ3JqTE1Ncjk0V3pGck81ZS1zSW11VERkRWlndkNfX2YwMlBFSVJQNjJwem8zTFBEWmI3Y3Ffbzh2aFMxR1Zna3JHZlg0OVlTZXdZbXpYRVh0a2ZmLTJjVTNJZFZxTjVFNkdDbXBnN3pGVmFoaTlwZ3J0YWhnVzZBNW43c2xvaXlxeV9HXy1XcVV2NGtURlJkaXUtUzJfRndWZU92VjBfNFRBU1FPd1E?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQN21GOUE3YWRKWkxxZzZqTlhhUkRLRWJKYUo5M05JbVJrZnZqUnhNaExHQWxVd2JpOE5UTzhuaEM1WkVxcWlGMnRxemt2RkY1ZDNSYkdkQ0VoazZrbE1tM1BjUndJZlJwQ3JqTE1Ncjk0V3pGck81ZS1zSW11VERkRWlndkNfX2YwMlBFSVJQNjJwem8zTFBEWmI3Y3Ffbzh2aFMxR1Zna3JHZlg0OVlTZXdZbXpYRVh0a2ZmLTJjVTNJZFZxTjVFNkdDbXBnN3pGVmFoaTlwZ3J0YWhnVzZBNW43c2xvaXlxeV9HXy1XcVV2NGtURlJkaXUtUzJfRndWZU92VjBfNFRBU1FPd1E?oc=5",
-    "snippet": "Wavebridge Expands Korean Institutional Access to Onchain Stablecoin Settlement Infrastructure with the Mainnet Launch of Arc PR Newswire",
-    "published_at": "2026-09-17T12:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "settlement",
-      "launch"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMijgJBVV95cUxQN21GOUE3YWRKWkxxZzZqTlhhUkRLRWJKYUo5M05JbVJrZnZqUnhNaExHQWxVd2JpOE5UTzhuaEM1WkVxcWlGMnRxemt2RkY1ZDNSYkdkQ0VoazZrbE1tM1BjUndJZlJwQ3JqTE1Ncjk0V3pGck81ZS1zSW11VERkRWlndkNfX2YwMlBFSVJQNjJwem8zTFBEWmI3Y3Ffbzh2aFMxR1Zna3JHZlg0OVlTZXdZbXpYRVh0a2ZmLTJjVTNJZFZxTjVFNkdDbXBnN3pGVmFoaTlwZ3J0YWhnVzZBNW43c2xvaXlxeV9HXy1XcVV2NGtURlJkaXUtUzJfRndWZU92VjBfNFRBU1FPd1E",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "92fe621da14151d46f1c13d0721d5e6e7a4bb82f633cab31c03854531d3586eb",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -249,7 +199,7 @@
     "snippet": "MoonPay plans to use WisdomTree’s $1.2 billion WTGXX tokenized fund as part of its stablecoin reserves while helping expand access to US investors.",
     "published_at": "2026-09-17T17:31:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenized fund",
       "money market fund",
@@ -291,53 +241,6 @@
     ]
   },
   {
-    "id": "dfba9a3f63cdd554a84b349d0735f78b5e7384e66ffd6274bd92c955ae77bd04",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? - Substack",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg?oc=5",
-    "snippet": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? Substack",
-    "published_at": "2026-09-18T07:18:25+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg",
-      "guidislink": false
-    },
-    "score": 50,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "5395fa4862e85d9e088bbb820e1ac59572875efe4dd8d703d0780e8b12d368a5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -348,7 +251,7 @@
     "snippet": "The self-custody app also plugs into Stripe, Kalshi, and Morpho, with World ID verification unlocking boosted rewards.",
     "published_at": "2026-09-17T15:06:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "custody",
       "launches"
@@ -387,27 +290,27 @@
     ]
   },
   {
-    "id": "6217f93b406ac76f2bfb51e0078ec2dfcf2035940e8cee1c6246f7b6cf9897aa",
+    "id": "ecbc2fdef9b5280fe9f0928b4d2d4a146e19b065db19b40d94833a723d074323",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Stablecoin payments firm dtcpay closes $25 million Series A with SBI Group investment",
-    "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
-    "canonical_url": "https://theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
-    "snippet": "The fresh capital enables it to scale product suite and merchant network, including a revamped business portal for enterprise clients.",
-    "published_at": "2026-09-18T05:29:10+00:00",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "PINTU Introduces VIP Private and Expands Access to Tokenized Assets via Ondo Finance - VOI.ID",
+    "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBNS2xPNzdPdHBKaUoxMFBITS0zNVltYWdYOFhWa3lKdlRkYktuYW05V2xvOGtoMm5rX3NacG9aenZSV2tVbDVR0gFCQVVfeXFMUFRFeWE2MUNFaGdONHQ1Xy1RekNJcW0za3AxYjI1eEZMSGFTd1ZNUUhoMjY5N1p4SF9PUjRHaVNQQzVn?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBNS2xPNzdPdHBKaUoxMFBITS0zNVltYWdYOFhWa3lKdlRkYktuYW05V2xvOGtoMm5rX3NacG9aenZSV2tVbDVR0gFCQVVfeXFMUFRFeWE2MUNFaGdONHQ1Xy1RekNJcW0za3AxYjI1eEZMSGFTd1ZNUUhoMjY5N1p4SF9PUjRHaVNQQzVn?oc=5",
+    "snippet": "PINTU Introduces VIP Private and Expands Access to Tokenized Assets via Ondo Finance VOI.ID",
+    "published_at": "2026-09-18T10:54:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
+      "tokenized",
+      "introduces"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "6b7a7562-088b-5825-bf76-a933dff73853",
+      "id": "CBMiR0FVX3lxTFBNS2xPNzdPdHBKaUoxMFBITS0zNVltYWdYOFhWa3lKdlRkYktuYW05V2xvOGtoMm5rX3NacG9aenZSV2tVbDVR0gFCQVVfeXFMUFRFeWE2MUNFaGdONHQ1Xy1RekNJcW0za3AxYjI1eEZMSGFTd1ZNUUhoMjY5N1p4SF9PUjRHaVNQQzVn",
       "guidislink": false
     },
     "score": 45,
@@ -436,6 +339,53 @@
     ]
   },
   {
+    "id": "dfba9a3f63cdd554a84b349d0735f78b5e7384e66ffd6274bd92c955ae77bd04",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? - Substack",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg?oc=5",
+    "snippet": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? Substack",
+    "published_at": "2026-09-18T07:18:25+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg",
+      "guidislink": false
+    },
+    "score": 44,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "fb2ae75e866bfd7ce89bb10692908d7667f8fc019f42394a13e7d601de6b01c8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -446,7 +396,7 @@
     "snippet": "There’s been much speculation about the form of any potential innovation exemption that the Securities and Exchange Commission (SEC) might grant, with the mystery solved today. The order allows certain tokenized stocks, specifically exchange listed stocks (NMS stocks), to be traded via automated mar",
     "published_at": "2026-09-17T14:53:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -483,72 +433,27 @@
     ]
   },
   {
-    "id": "cc461fd0d61536ad97ae8946aff7cce2d21d5e91c9b869270cd3cbfd555fe3e0",
+    "id": "6217f93b406ac76f2bfb51e0078ec2dfcf2035940e8cee1c6246f7b6cf9897aa",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "SEC grants temporary exemption for tokenized US stock trading",
-    "url": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading",
-    "snippet": "The SEC’s Innovation Exemption allows limited tokenized US stock trading on onchain venues with trading caps and transparency requirements.",
-    "published_at": "2026-09-17T13:34:17+00:00",
+    "feed_name": "theblock",
+    "title": "Stablecoin payments firm dtcpay closes $25 million Series A with SBI Group investment",
+    "url": "https://www.theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
+    "canonical_url": "https://theblock.co/news/business/2026-09-18-dtcpay-series-a-sbi-group-415483",
+    "snippet": "The fresh capital enables it to scale product suite and merchant network, including a revamped business portal for enterprise clients.",
+    "published_at": "2026-09-18T05:29:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
-      "tokenized"
+      "stablecoin payments",
+      "stablecoin"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading",
-      "guidislink": true
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6eb5b23ef41cbc0b391a14a59ffbe4177daee783fe581256c0e7e6a5ad26292b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Ratings giant S&P Global acquires OpenZeppelin in tokenized finance risk push",
-    "url": "https://www.coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push",
-    "canonical_url": "https://coindesk.com/business/2026/09/17/ratings-giant-s-and-p-global-acquires-openzeppelin-in-tokenized-finance-risk-push",
-    "snippet": "",
-    "published_at": "2026-09-17T13:15:21+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "77656fcd-e744-4fa0-b49e-248ea0ad3a1e",
+      "id": "6b7a7562-088b-5825-bf76-a933dff73853",
       "guidislink": false
     },
     "score": 39,
@@ -577,6 +482,54 @@
     ]
   },
   {
+    "id": "bd91153c9141209794785300c8a7d879a6bc52162343e1ab4f8ae47d66212d3b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "HYPE hits record above $90 as Hyperliquid launches manual borrowing",
+    "url": "https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending",
+    "snippet": "HYPE hit a record $90.92 after Hyperliquid opened manual borrowing, letting users borrow stablecoins against HYPE and Bitcoin collateral.",
+    "published_at": "2026-09-18T11:54:24+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/markets/hype-ath-above-90-hyperliquid-manual-borrowing-lending",
+      "guidislink": true
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1a6b47959a33010ad8dbcb6ddeee470d2eff2302b5fcc386e7b10f2b658bf3dd",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -587,7 +540,7 @@
     "snippet": "Dtcpay plans to expand its merchant network and payment products after completing a $25 million Series A backed by Japan’s SBI Group.",
     "published_at": "2026-09-18T09:14:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -636,7 +589,7 @@
     "snippet": "World Money is rolling out across more than 150 countries, combining stablecoin payments, digital asset rewards and trading in a self-custodial app.",
     "published_at": "2026-09-18T03:40:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -686,7 +639,7 @@
     "snippet": "",
     "published_at": "2026-09-17T18:38:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -733,7 +686,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -768,6 +721,53 @@
     ]
   },
   {
+    "id": "cf03975bede8cccc2f04cf65a0e8e5bf7250c3e521099162a93a71375f755aab",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Ava Labs president says NYSE spent a year testing Avalanche technology for tokenization plans",
+    "url": "https://www.theblock.co/news/ecosystems/2026-09-18-ava-labs-president-says-nyse-spent-a-year-testing-avalanche-technology-tokenization-plans-415509",
+    "canonical_url": "https://theblock.co/news/ecosystems/2026-09-18-ava-labs-president-says-nyse-spent-a-year-testing-avalanche-technology-tokenization-plans-415509",
+    "snippet": "Cooper described a close working relationship with NYSE parent ICE but did not say the exchange had selected Avalanche.",
+    "published_at": "2026-09-18T13:40:15+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "91e904ef-237e-52c4-b74f-08e7ef6e41d7",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "90a2dbf019425b78c7dd65e4a93dc021ef1446e801f528e838df123eb794ab3b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -778,7 +778,7 @@
     "snippet": "Coinbase and Stablecore Bring Crypto Trading, Custody, and Stablecoin Payments to 3,000+ Community Banks and Credit Unions genfinity.io",
     "published_at": "2026-09-17T17:22:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -828,7 +828,7 @@
     "snippet": "Dragonfly's Haseeb Qureshi said the shift reflects crypto's broader maturation toward tokenized stocks, bonds, and other real-world assets.",
     "published_at": "2026-09-17T17:21:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenized",
       "RWA"
@@ -876,7 +876,7 @@
     "snippet": "S&P Global is expanding into the technology risks underpinning stablecoins, tokenized funds, and other onchain financial products.",
     "published_at": "2026-09-17T16:33:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
       "tokenized fund",
       "tokenized"
@@ -925,7 +925,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -970,7 +970,7 @@
     "snippet": "CLARITY isn’t dead after failing a key Senate vote, but with time running short and Democrats still demanding changes, its path forward is narrowing.",
     "published_at": "2026-09-17T17:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1005,28 +1005,28 @@
     ]
   },
   {
-    "id": "52000a7674b3f035e3a95eab6c6a4b2f5391624e30a63723a8cf61c2625dc2fd",
+    "id": "4a633710e830dfe81abd16896ff7662a49ef1e4ce41ee65a7ba8fb5910fc809f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "How Circle’s institutional Arc blockchain got taken over by memecoins on day one",
-    "url": "https://www.coindesk.com/business/2026/09/17/circle-launched-a-corporate-l2-backed-by-blackrock-but-traders-immediately-turned-it-into-a-memecoin-casino",
-    "canonical_url": "https://coindesk.com/business/2026/09/17/circle-launched-a-corporate-l2-backed-by-blackrock-but-traders-immediately-turned-it-into-a-memecoin-casino",
-    "snippet": "",
-    "published_at": "2026-09-17T11:42:22+00:00",
+    "feed_name": "finextra",
+    "title": "Why Crypto Payments Need More Than a Wallet",
+    "url": "https://www.finextra.com/blogposting/32895/why-crypto-payments-need-more-than-a-wallet?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/blogposting/32895/why-crypto-payments-need-more-than-a-wallet",
+    "snippet": "Author: A finextra community member",
+    "published_at": "2026-09-18T07:28:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-18T09:52:57.899819+00:00",
+    "fetched_at": "2026-09-18T13:57:11.127255+00:00",
     "matched_keywords": [
-      "Circle"
+      "crypto payments"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "82e1db4b-493f-4729-928b-ddabc9c101f8",
+      "id": "https://www.finextra.com/blogposting/32895/why-crypto-payments-need-more-than-a-wallet?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": -6,
+    "score": -16,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
@@ -1036,7 +1036,7 @@
       "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": -20,

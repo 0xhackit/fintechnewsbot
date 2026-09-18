@@ -1,5 +1,72 @@
 [
   {
+    "id": "6e5d8a64c567d7d98db90801fd2a31b7a332631a",
+    "title": "WuBlockchain Weekly：The Fed raised rates by 25 bps for the first time in three years, while the CLARITY Act failed a key Senate vote and the SEC approved a tokenized-stock trading exemption. CoinEx announced its shutdown",
+    "link": "https://x.com/WuBlockchain/status/2100911381239452078",
+    "score": 160,
+    "snippet": "WuBlockchain Weekly：The Fed raised rates by 25 bps for the first time in three years, while the CLARITY Act failed a key Senate vote and the SEC approved a tokenized-stock trading exemption. CoinEx announced its shutdown after nearly nine years, Circle launched the Arc mainnet with BlackRock and Vis",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T11:34:41.590000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approved')",
+    "matched": "approved",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB",
+      "ARC"
+    ]
+  },
+  {
+    "id": "f8e3c59058edfba84eaf215ce25dc6e41f18801a",
+    "title": "This Week in Crypto, brought to you by Holoworld The CLARITY Act fell short in the Senate. @circle launched Arc mainnet with USDC as gas and BlackRock, Visa, and Mastercard among its validators. Zcash holders also backed",
+    "link": "https://x.com/HoloworldAI/status/2100934866242318678",
+    "score": 100,
+    "snippet": "This Week in Crypto, brought to you by Holoworld The CLARITY Act fell short in the Senate. @circle launched Arc mainnet with USDC as gas and BlackRock, Visa, and Mastercard among its validators. Zcash holders also backed cutting block times from 75 seconds to 25. And the SEC opened a five-year exemp",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:holoworldai",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T13:08:00.814000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HOLO",
+      "USDC",
+      "ZEC",
+      "ARC"
+    ]
+  },
+  {
     "id": "d168b0bf48930a7b3d047602201dc0a05da1fde4",
     "title": "THE BLOCK: Zcash's NU7 upgrade targets a November 5 mainnet launch, with plans to cut block times from 75 seconds to 25 seconds. Testnet activation is scheduled for October 6, with a final mainnet decision due October 20",
     "link": "https://x.com/TheBlockCo/status/2100878869825765614",
@@ -21,7 +88,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZEC"
@@ -51,7 +118,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -75,7 +142,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('acquisition')",
     "matched": "acquisition",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "XRP"
@@ -131,7 +198,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "UNI",
@@ -159,7 +226,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('sanctioned')",
     "matched": "sanctioned",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -194,6 +261,34 @@
     ]
   },
   {
+    "id": "96e32479caad64902be40519712c7967aaa06688",
+    "title": "Tokens launched via the MYX Vault open perpetual trading immediate — no approval, no waiting. Hold the spot token and automatically receive dividends from perpetual trading (fees, funding rates, and more).",
+    "link": "https://x.com/MYX_Finance/status/2100926066042995140",
+    "score": 75,
+    "snippet": "Tokens launched via the MYX Vault open perpetual trading immediate — no approval, no waiting. Hold the spot token and automatically receive dividends from perpetual trading (fees, funding rates, and more).",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:myx_finance",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T12:33:02.791000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "MYX"
+    ]
+  },
+  {
     "id": "ecbd366bfc4fad8f7ad9052b2c5590d6d0db8c6d",
     "title": "Fed Hike Shock: BlackRock Leads $746 Million Bitcoin ETF Exodus",
     "link": "https://www.forbes.com/sites/boazsobrado/2026/09/17/fed-hike-shock-blackrock-leads-746-million-bitcoin-etf-exodus",
@@ -219,6 +314,63 @@
     "origin": "tree",
     "coins": [
       "BTC"
+    ]
+  },
+  {
+    "id": "69c034f42331443acd0a8097cc590822046af8a1",
+    "title": "'I'm Back'—Kevin O'Leary Issues Massive $15 Trillion Bitcoin Prediction As Price Soars",
+    "link": "https://www.forbes.com/sites/digital-assets/2026/09/18/im-back-kevin-oleary-issues-massive-15-trillion-bitcoin-prediction-as-price-soars",
+    "score": 70,
+    "snippet": "'I'm Back'—Kevin O'Leary Issues Massive $15 Trillion Bitcoin Prediction As Price Soars",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-18T11:48:39.242000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('back')",
+    "matched": "back",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "ebbc77a9322171eed5cad2680c6c4e2fef76c062",
+    "title": "Hyperliquid Launches Native Borrowing and Lending, With $269M Borrowed on Day One Hyperliquid announced the launch of manual borrowing and lending, allowing users to collateralize HYPE and BTC to borrow assets including",
+    "link": "https://x.com/WuBlockchain/status/2100900509058232614",
+    "score": 70,
+    "snippet": "Hyperliquid Launches Native Borrowing and Lending, With $269M Borrowed on Day One Hyperliquid announced the launch of manual borrowing and lending, allowing users to collateralize HYPE and BTC to borrow assets including USDC and USDT. Borrowers pay interest, while suppliers earn interest at rates de",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T10:51:29.460000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HYPE",
+      "BTC",
+      "USDC"
     ]
   },
   {
@@ -248,11 +400,41 @@
     "coins": []
   },
   {
-    "id": "4c6eff76b3cd5ce7a3c2413599868678bf112e1f",
-    "title": "Wavebridge Expands Korean Institutional Access to Onchain Stablecoin Settlement Infrastructure with the Mainnet Launch of Arc - PR Newswire",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQN21GOUE3YWRKWkxxZzZqTlhhUkRLRWJKYUo5M05JbVJrZnZqUnhNaExHQWxVd2JpOE5UTzhuaEM1WkVxcWlGMnRxemt2RkY1ZDNSYkdkQ0VoazZrbE1tM1BjUndJZlJwQ3JqTE1Ncjk0V3pGck81ZS1zSW11VERkRWlndkNfX2YwMlBFSVJQNjJwem8zTFBEWmI3Y3Ffbzh2aFMxR1Zna3JHZlg0OVlTZXdZbXpYRVh0a2ZmLTJjVTNJZFZxTjVFNkdDbXBnN3pGVmFoaTlwZ3J0YWhnVzZBNW43c2xvaXlxeV9HXy1XcVV2NGtURlJkaXUtUzJfRndWZU92VjBfNFRBU1FPd1E?oc=5",
-    "score": 64,
-    "snippet": "Wavebridge Expands Korean Institutional Access to Onchain Stablecoin Settlement Infrastructure with the Mainnet Launch of Arc PR Newswire",
+    "id": "d99a5b4fac874319bb29941f986471597eb177ea",
+    "title": "INSIGHT: ECB President Christine Lagarde personally intervened to block @Binance's MiCA license in Greece, citing concerns the exchange would deepen dollar stablecoin use in Europe and undermine the digital euro, per the",
+    "link": "https://x.com/CoinDesk/status/2100934774307061853",
+    "score": 60,
+    "snippet": "INSIGHT: ECB President Christine Lagarde personally intervened to block @Binance's MiCA license in Greece, citing concerns the exchange would deepen dollar stablecoin use in Europe and undermine the digital euro, per the WSJ.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T13:07:38.712000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('license')",
+    "matched": "license",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "40f94b823e7f0b2f8394b316e14c3ae72fd811c5",
+    "title": "Mindshare for @arc surged to nearly 7% following its mainnet launch. Sentiment across the timeline has remained overwhelmingly positive, reaching +250 as attention around the ecosystem accelerated.",
+    "link": "https://x.com/KaitoAI/status/2100925415477203299",
+    "score": 60,
+    "snippet": "Mindshare for @arc surged to nearly 7% following its mainnet launch. Sentiment across the timeline has remained overwhelmingly positive, reaching +250 as attention around the ecosystem accelerated.",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -260,56 +442,27 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-17T12:00:00+00:00",
+    "feed_name": "tree:x:kaitoai",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T12:30:27.513000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
     "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "5961a52787dbdab3d5a1c74345d8aa31b46c6709",
-    "title": "🚨 BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks. This is only the start. 24/7 markets, global access, faster settlement, programmable assets. The future is on",
-    "link": "https://x.com/1inch/status/2100634430133940307",
-    "score": 64,
-    "snippet": "🚨 BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks. This is only the start. 24/7 markets, global access, faster settlement, programmable assets. The future is onchain.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:1inch",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T17:14:10.947000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "1INCH"
+      "KAITO",
+      "ARC"
     ]
   },
   {
     "id": "69268e71f723117f3ca093ed8442c833cac24264",
     "title": "Spot Bitcoin ETFs Record $159 Million in Net Inflows on Sept. 17 On Sept. 17 (ET), spot Bitcoin ETFs recorded total net inflows of $159 million, with BlackRock’s IBIT being the only fund to report net inflows. Spot Ether",
     "link": "https://x.com/WuBlockchain/status/2100802409388011641",
-    "score": 60,
+    "score": 54,
     "snippet": "Spot Bitcoin ETFs Record $159 Million in Net Inflows on Sept. 17 On Sept. 17 (ET), spot Bitcoin ETFs recorded total net inflows of $159 million, with BlackRock’s IBIT being the only fund to report net inflows. Spot Ethereum ETFs saw total net outflows of $39.2445 million, extending their net outflow",
     "regions": [
       "US"
@@ -365,37 +518,11 @@
     ]
   },
   {
-    "id": "8a898b84cab5f5e7f247b980293cb18079d20949",
-    "title": "BREAKING: Bloxtel announces they’re bringing private 5G infrastructure onchain with Avalanche The newly unveiled AP 201 combines an entire private 5G stack into a single unit: 5G radio and core, edge computing, and AI-po",
-    "link": "https://x.com/avax/status/2100653677795066302",
-    "score": 54,
-    "snippet": "BREAKING: Bloxtel announces they’re bringing private 5G infrastructure onchain with Avalanche The newly unveiled AP 201 combines an entire private 5G stack into a single unit: 5G radio and core, edge computing, and AI-powered network management. Each physical AP 201 is registered on Avalanche, while",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:avax",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T18:30:40.605000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('unveiled')",
-    "matched": "unveiled",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AVAX"
-    ]
-  },
-  {
-    "id": "c1ff0a146bd765ae0012b502639808fdfbf0d4f4",
-    "title": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? - Substack",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg?oc=5",
+    "id": "4430c3a09e14e4f05d347e82033c867788747369",
+    "title": "CoinShares: Bitcoin Unlikely to Break $80K Without Inflation or Fed Shift CoinShares said Bitcoin faces two major near-term headwinds: a more hawkish Federal Reserve and the setback to the CLARITY Act. The firm said a de",
+    "link": "https://x.com/WuBlockchain/status/2100926024733372716",
     "score": 50,
-    "snippet": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? Substack",
+    "snippet": "CoinShares: Bitcoin Unlikely to Break $80K Without Inflation or Fed Shift CoinShares said Bitcoin faces two major near-term headwinds: a more hawkish Federal Reserve and the setback to the CLARITY Act. The firm said a decisive break above $80,000 is unlikely before year-end without a meaningful impr",
     "regions": [
       "US"
     ],
@@ -404,19 +531,48 @@
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-09-18T07:18:25+00:00",
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T12:32:52.813000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "4b9ac6e32e33ff0fcb878bb3b8c3b9b3953cc64e",
+    "title": "THE BLOCK: XRP treasury firm Evernorth has secured a $30 million convertible-note commitment through South Korea's NH Investment & Securities. The financing is contingent on its SPAC merger closing, with proceeds intende",
+    "link": "https://x.com/TheBlockCo/status/2100887788283449803",
+    "score": 50,
+    "snippet": "THE BLOCK: XRP treasury firm Evernorth has secured a $30 million convertible-note commitment through South Korea's NH Investment & Securities. The financing is contingent on its SPAC merger closing, with proceeds intended for general corporate purposes, including $XRP purchases.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T10:00:56.496000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('merger')",
+    "matched": "merger",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
   },
   {
     "id": "2d332caf72f1a733fb6d756a1374f77d954a4d31",
@@ -446,6 +602,61 @@
     ]
   },
   {
+    "id": "5f68227334aa148b9cef4876f8e5f821b9d2a65f",
+    "title": "PINTU Introduces VIP Private and Expands Access to Tokenized Assets via Ondo Finance - VOI.ID",
+    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBNS2xPNzdPdHBKaUoxMFBITS0zNVltYWdYOFhWa3lKdlRkYktuYW05V2xvOGtoMm5rX3NacG9aenZSV2tVbDVR0gFCQVVfeXFMUFRFeWE2MUNFaGdONHQ1Xy1RekNJcW0za3AxYjI1eEZMSGFTd1ZNUUhoMjY5N1p4SF9PUjRHaVNQQzVn?oc=5",
+    "score": 45,
+    "snippet": "PINTU Introduces VIP Private and Expands Access to Tokenized Assets via Ondo Finance VOI.ID",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-09-18T10:54:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduces')",
+    "matched": "introduces",
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "c1ff0a146bd765ae0012b502639808fdfbf0d4f4",
+    "title": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? - Substack",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYnREVUtwYllMME5yVjFVRzhnaTVHR0YtS2VkSU1OVEFSU29CaHY2UGZOWC1mN3ZjMmNqX25ZSnhtNGpMN2hiVGZBcW5tOG84c185Ym9OVkt1ZjlxVGxoaXJwM1RmVDBGd0Z3MGs2b2FacmNkR3BMX3o3SXBhdW1POC12eTJ1TTlLZE12Rg?oc=5",
+    "score": 44,
+    "snippet": "The SEC Just Opened the Door to Tokenized Stocks: Will Private Equity Be Next? Substack",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-09-18T07:18:25+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "1fdd54e2174f62b2a944b18996199c5208c4ce4d",
     "title": "SEC tokenized stock exemption hands TradFi the instrument and crypto the venue",
     "link": "https://www.ledgerinsights.com/secs-tokenized-stock-exemption-allows-third-party-tokens-but-with-full-rights/",
@@ -465,34 +676,6 @@
     "feed_name": "ledger_insights",
     "source": "Google News RSS",
     "published_at": "2026-09-17T14:53:12+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "6137b537686e61c89333476a4491e643af64a6cc",
-    "title": "SEC grants temporary exemption for tokenized US stock trading",
-    "link": "https://cointelegraph.com/news/sec-temporary-exemption-tokenized-us-stock-trading?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 44,
-    "snippet": "The SEC’s Innovation Exemption allows limited tokenized US stock trading on onchain venues with trading caps and transparency requirements.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-17T13:34:17+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
