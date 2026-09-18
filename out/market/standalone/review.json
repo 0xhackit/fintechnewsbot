@@ -1,10 +1,10 @@
 [
   {
-    "id": "0881f430bf31c97ebc477f8fcc81ec9df66fcf3d",
-    "title": "Just In: SEC Approves Innovation Exemption for Tokenized U.S. Stocks to Trade via Onchain AMMs The U.S. Securities and Exchange Commission (SEC) announced that it has officially approved a temporary, conditional exemptiv",
-    "link": "https://x.com/WuBlockchain/status/2100571855241556366",
-    "score": 144,
-    "snippet": "Just In: SEC Approves Innovation Exemption for Tokenized U.S. Stocks to Trade via Onchain AMMs The U.S. Securities and Exchange Commission (SEC) announced that it has officially approved a temporary, conditional exemptive framework (the \"Innovation Exemption\") to allow limited pilot trading of token",
+    "id": "d971b74e6e223a0dd5baaf83a5e2b242dd885469",
+    "title": "$UNI is pumping as the SEC opens the door to compliant trading on Uniswap v4. 2 newly created wallets withdrew a total of 1.07M $UNI ($8.38M) from #Binance, #Bybit, and #OKX. https://arkm.com/explorer/address/0x947Bd8C8d",
+    "link": "https://x.com/lookonchain/status/2100764321290822081",
+    "score": 90,
+    "snippet": "$UNI is pumping as the SEC opens the door to compliant trading on Uniswap v4. 2 newly created wallets withdrew a total of 1.07M $UNI ($8.38M) from #Binance, #Bybit, and #OKX. https://arkm.com/explorer/address/0x947Bd8C8dd8dFda19A07Fa54111E562a566e01F1 https://arkm.com/explorer/address/0x6bd7ce6D1258",
     "regions": [
       "US"
     ],
@@ -13,26 +13,27 @@
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
+    "matched_topics": [],
+    "feed_name": "tree:x:lookonchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T13:05:32.228000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approves')",
-    "matched": "approves",
+    "published_at": "2026-09-18T01:50:19.889000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "UNI",
+      "BNB",
+      "OKB"
+    ]
   },
   {
     "id": "7097d99d83711f656b8c23ee8b7955426e44342d",
     "title": "CFTC expands regulatory relief for passive trading software providers",
     "link": "https://cointelegraph.com/news/cftc-expands-regulatory-relief-for-passive-trading-software-providers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 95,
+    "score": 89,
     "snippet": "The US regulator’s move could make it easier for crypto wallets and other apps to offer access to regulated derivatives and prediction markets without registering as introducing brokers.",
     "regions": [
       "US"
@@ -60,7 +61,7 @@
     "id": "411e21172ac1d6a3553cbfa5b967a3401a85b0f6",
     "title": "THE BLOCK: The US Department of the Treasury sanctioned Iranian crypto exchange BitBank, alleging it helped move hundreds of millions of dollars in bitcoin to the IRGC. The action also targets the exchange’s developer an",
     "link": "https://x.com/TheBlockCo/status/2100663839931215882",
-    "score": 90,
+    "score": 84,
     "snippet": "THE BLOCK: The US Department of the Treasury sanctioned Iranian crypto exchange BitBank, alleging it helped move hundreds of millions of dollars in bitcoin to the IRGC. The action also targets the exchange’s developer and three associates of Iranian financier Babak Zanjani.",
     "regions": [],
     "primary_region": null,
@@ -83,32 +84,35 @@
     ]
   },
   {
-    "id": "f92b705ed7f6e1058028bbc0fbbb66698c003608",
-    "title": "SEC APPROVES TEMPORARY, CONDITIONAL EXEMPTION TO ALLOW LIMITED TRADING OF TOKENIZED STOCKS ONCHAIN: SEC",
-    "link": "https://x.com/TreeNewsFeed/status/2100569668188565830",
-    "score": 84,
-    "snippet": "SEC APPROVES TEMPORARY, CONDITIONAL EXEMPTION TO ALLOW LIMITED TRADING OF TOKENIZED STOCKS ONCHAIN: SEC",
+    "id": "e79a2bdfb99846a472a9e500d78a6b3f2ec0e8f9",
+    "title": "THE BLOCK: SBI Group has joined Singaporean stablecoin payments firm dtcpay's funding round, extending its Series A to $25 million. Vertex Ventures Southeast Asia & India led the initial tranche of the round. Dtcpay says",
+    "link": "https://x.com/TheBlockCo/status/2100799271348138362",
+    "score": 80,
+    "snippet": "THE BLOCK: SBI Group has joined Singaporean stablecoin payments firm dtcpay's funding round, extending its Series A to $25 million. Vertex Ventures Southeast Asia & India led the initial tranche of the round. Dtcpay says the fresh capital will enable it to scale its product suite and merchant networ",
     "regions": [
-      "US"
+      "APAC"
     ],
-    "primary_region": "US",
-    "category": "regulation",
+    "primary_region": "APAC",
+    "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:treenewsfeed",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T12:56:50.560000+00:00",
+    "published_at": "2026-09-18T04:09:12.480000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approves')",
-    "matched": "approves",
+    "axis": "market_event",
+    "reason": "concrete market event ('series a')",
+    "matched": "series a",
     "fulltext": false,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "PORTAL"
+    ]
   },
   {
     "id": "ecbd366bfc4fad8f7ad9052b2c5590d6d0db8c6d",
@@ -139,36 +143,6 @@
     ]
   },
   {
-    "id": "a9517781e82cb24406ec9938eccd7b3f4cfe78a8",
-    "title": "Circle Launches Arc Mainnet, Calling It Its Most ‘Significant Launch’ Since USDC - Fintech Singapore",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Vd1ZUMk9RVzJoMXdvcVZRcy04S3NYNUFEVWtiYVNIWVo4S1JwY19OT3BjRjRxTmNxd2VOTXpOc2hSZFk5Q3U2aE9XdzhPZmJwQmRETHB6U1dKTV8wSklyNnRFRzBteEJwak55clFHSFNSTUp1Ync?oc=5",
-    "score": 74,
-    "snippet": "Circle Launches Arc Mainnet, Calling It Its Most ‘Significant Launch’ Since USDC Fintech Singapore",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-17T03:18:13+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "1afa0067423772464858f746e2e74dc4d14bf306",
     "title": "The most bullish AMM news today is not the official statement, but the comment letter from SEC Commissioner @HesterPeirce that went along with it “Truly decentralized systems that are driven by autonomous software… do no",
     "link": "https://x.com/haydenzadams/status/2100614098853441991",
@@ -197,36 +171,6 @@
     ]
   },
   {
-    "id": "decceb32b1f1e9fadc962a60253828e02fd8e979",
-    "title": "OG.com cleared by SEC to offer single-stock futures, says Crypto.com CEO",
-    "link": "https://cointelegraph.com/news/ogcom-cleared-sec-stock-futures-cryptocom-ceo",
-    "score": 74,
-    "snippet": "OG.com cleared by SEC to offer single-stock futures, says Crypto.com CEO",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:cointelegraph",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-17T13:36:03.763000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "OG",
-      "CRO"
-    ]
-  },
-  {
     "id": "e05d95dc5c238d9b409c7a554d08979f0dbb311c",
     "title": "WisdomTree and MoonPAy expand US access to tokenised funds",
     "link": "https://www.finextra.com/pressarticle/110941/wisdomtree-and-moonpay-expand-us-access-to-tokenised-funds?utm_medium=rssfinextra&utm_source=finextrafeed",
@@ -250,35 +194,6 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "46808f191ee8b64afb0a785eea0414bc8007988f",
-    "title": "The best financial products and opportunities should be in America. Tokenized stocks now move closer than ever to launching in the US, thanks to the SEC. Clarity is still coming to crypto.",
-    "link": "https://x.com/coinbase/status/2100585046612517266",
-    "score": 69,
-    "snippet": "The best financial products and opportunities should be in America. Tokenized stocks now move closer than ever to launching in the US, thanks to the SEC. Clarity is still coming to crypto.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coinbase",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T13:57:57.026000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
-    "origin": "tree",
     "coins": []
   },
   {
@@ -337,6 +252,119 @@
     "origin": "tree",
     "coins": [
       "1INCH"
+    ]
+  },
+  {
+    "id": "69268e71f723117f3ca093ed8442c833cac24264",
+    "title": "Spot Bitcoin ETFs Record $159 Million in Net Inflows on Sept. 17 On Sept. 17 (ET), spot Bitcoin ETFs recorded total net inflows of $159 million, with BlackRock’s IBIT being the only fund to report net inflows. Spot Ether",
+    "link": "https://x.com/WuBlockchain/status/2100802409388011641",
+    "score": 60,
+    "snippet": "Spot Bitcoin ETFs Record $159 Million in Net Inflows on Sept. 17 On Sept. 17 (ET), spot Bitcoin ETFs recorded total net inflows of $159 million, with BlackRock’s IBIT being the only fund to report net inflows. Spot Ethereum ETFs saw total net outflows of $39.2445 million, extending their net outflow",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T04:21:40.610000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "IBIT",
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "e2ddd0bd8712bd936c826ff554d65a76241db28b",
+    "title": "WSJ: ECB President Lagarde Personally Intervened to Block Binance from Obtaining an EU-Wide License via Greece According to The Wall Street Journal, European Central Bank President Christine Lagarde personally intervened",
+    "link": "https://x.com/WuBlockchain/status/2100792824853860792",
+    "score": 60,
+    "snippet": "WSJ: ECB President Lagarde Personally Intervened to Block Binance from Obtaining an EU-Wide License via Greece According to The Wall Street Journal, European Central Bank President Christine Lagarde personally intervened to prevent Binance from gaining a foothold in the European Union. Binance had s",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T03:43:35.549000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('license')",
+    "matched": "license",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "6cec96c960f6ea828e835e26b42b738f1cac8518",
+    "title": "THE BLOCK: Polymarket CEO Shayne Coplan announced that former Zora CEO Jacob Horne will be joining the prediction market platform to work on DeFi. \"He will be working closely with me on product, in particular making Poly",
+    "link": "https://x.com/TheBlockCo/status/2100788355378381304",
+    "score": 55,
+    "snippet": "THE BLOCK: Polymarket CEO Shayne Coplan announced that former Zora CEO Jacob Horne will be joining the prediction market platform to work on DeFi. \"He will be working closely with me on product, in particular making Polymarket DeFi great again,\" Coplan said.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T03:25:49.772000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ZORA"
+    ]
+  },
+  {
+    "id": "e117ba5083c1cbba7433f6269ad368b1f9e0e9ca",
+    "title": "Deutsche Bank Shock: Bitcoin Custody Launch Lands With BTC At $75,500",
+    "link": "https://www.forbes.com/sites/boazsobrado/2026/09/17/deutsche-bank-shock-bitcoin-custody-launch-lands-with-btc-at-75500",
+    "score": 55,
+    "snippet": "Deutsche Bank Shock: Bitcoin Custody Launch Lands With BTC At $75,500",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-18T03:00:35.592000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
@@ -458,95 +486,32 @@
     ]
   },
   {
-    "id": "5c2e81df71b897b1efae39d31ec8ffed497d0d56",
-    "title": "Founder House Singapore: Apply Now to Launch Products on Arbitrum One & Robinhood Chain Calling all Founders We’re thrilled to open registrations for Arbitrum Founder House Singapore in collaboration with Robinhood Chain",
-    "link": "https://x.com/arbitrum/status/2100578065827144182",
-    "score": 54,
-    "snippet": "Founder House Singapore: Apply Now to Launch Products on Arbitrum One & Robinhood Chain Calling all Founders We’re thrilled to open registrations for Arbitrum Founder House Singapore in collaboration with Robinhood Chain, a dedicated three-day, in-person builder program with up to $300K USDG in priz",
+    "id": "e303756343be2a9d624efa82ce2c3fcef2bd15c5",
+    "title": "NEW: ECB leader Christine Lagarde personally intervened to prevent Binance from entering the European market, according to WSJ.",
+    "link": "https://x.com/TheBlockCo/status/2100763404306964538",
+    "score": 50,
+    "snippet": "NEW: ECB leader Christine Lagarde personally intervened to prevent Binance from entering the European market, according to WSJ.",
     "regions": [
-      "US",
-      "APAC"
+      "EU"
     ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:arbitrum",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T13:30:12.955000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ARB",
-      "USDC",
-      "BASED"
-    ]
-  },
-  {
-    "id": "d3eef483ed68f826b06acdbaad81a45853b9ad70",
-    "title": "BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks.",
-    "link": "https://x.com/solana/status/2100573227047371107",
-    "score": 54,
-    "snippet": "BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "primary_region": "EU",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:solana",
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T13:10:59.183000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issues')",
-    "matched": "issues",
+    "published_at": "2026-09-18T01:46:40.939000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "SOL"
+      "BNB"
     ]
-  },
-  {
-    "id": "be133317237032133c6e09eeb814c38b25275ff6",
-    "title": "SEC Issues \"Innovation Exemption\" to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
-    "link": "https://www.sec.gov/newsroom/press-releases/2026-90-sec-issues-innovation-exemption-facilitate-trading-tokenized-nms-stock-request-comment",
-    "score": 54,
-    "snippet": "SEC Issues \"Innovation Exemption\" to Facilitate the Trading of Tokenized NMS Stock and Request for Comment",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:sec",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-17T13:01:33.633000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issues')",
-    "matched": "issues",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": []
   },
   {
     "id": "b0b40034d0b13fe4c15b6cd3a429971ac991c238",
@@ -578,31 +543,32 @@
     ]
   },
   {
-    "id": "d120f0e0ef59b64bdc7fd514bfaed94d42d7f1a5",
-    "title": "Introducing Astra for Law",
-    "link": "https://openai.com/index/astra-for-law",
-    "score": 50,
-    "snippet": "Introducing Astra for Law",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
+    "id": "1fdd54e2174f62b2a944b18996199c5208c4ce4d",
+    "title": "SEC tokenized stock exemption hands TradFi the instrument and crypto the venue",
+    "link": "https://www.ledgerinsights.com/secs-tokenized-stock-exemption-allows-third-party-tokens-but-with-full-rights/",
+    "score": 44,
+    "snippet": "There’s been much speculation about the form of any potential innovation exemption that the Securities and Exchange Commission (SEC) might grant, with the mystery solved today. The order allows certain tokenized stocks, specifically exchange listed stocks (NMS stocks), to be traded via automated mar",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:openai",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-17T20:12:27.600000+00:00",
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "ledger_insights",
+    "source": "Google News RSS",
+    "published_at": "2026-09-17T14:53:12+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "OPENAI",
-      "WLD"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "6137b537686e61c89333476a4491e643af64a6cc",
@@ -616,7 +582,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -629,33 +595,6 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "f0885a9332b76f21f8c8bc530e93f57233899487",
-    "title": "First Abu Dhabi Bank Executes Landmark Live Tokenized Deposit Settlement with Citi via Swift Ledger - The Fintech Times",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOOFJfaTg4QXRERWoyTHlOWkE5dTN2ZThueW5zZmZGLUY4Y1RsZExPLU5GTkpxNjJCeHljaF9kZkYyUEJDSU5kRjFPb1RxZV9HY2czODlyOG81bkp2SGs0Z3VONlBsYnFBeEpKMHNnZXc3UjVFY0tlZmVmNnNJaFVGdW05aF9PYWx0c3dnQmRqa0pJYWMwZnlodUlPZzh4TVNUdHZKLTFYSWpXUVpKZjBfZXFwNjlyajA5eGlCYXFOZktZMVVQMmJv?oc=5",
-    "score": 44,
-    "snippet": "First Abu Dhabi Bank Executes Landmark Live Tokenized Deposit Settlement with Citi via Swift Ledger The Fintech Times",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-09-17T05:00:42+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
