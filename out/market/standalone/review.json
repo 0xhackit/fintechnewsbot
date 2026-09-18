@@ -111,35 +111,31 @@
     "coins": []
   },
   {
-    "id": "5d16ba721ccdce0b4e70298bc821ccf98ddb7fc6",
-    "title": "Circle’s Arc Mainnet Goes Live as Meme-Token Trading Emerges USDC issuer Circle launched Arc’s public mainnet on Sept. 16, with the Layer 1 blockchain using USDC for transaction fees. Meme-token activity has also emerged",
-    "link": "https://x.com/WuBlockchain/status/2100568186462806221",
-    "score": 84,
-    "snippet": "Circle’s Arc Mainnet Goes Live as Meme-Token Trading Emerges USDC issuer Circle launched Arc’s public mainnet on Sept. 16, with the Layer 1 blockchain using USDC for transaction fees. Meme-token activity has also emerged on the network. Argus, a popular token launchpad, reported $155.78 million in r",
+    "id": "ecbd366bfc4fad8f7ad9052b2c5590d6d0db8c6d",
+    "title": "Fed Hike Shock: BlackRock Leads $746 Million Bitcoin ETF Exodus",
+    "link": "https://www.forbes.com/sites/boazsobrado/2026/09/17/fed-hike-shock-blackrock-leads-746-million-bitcoin-etf-exodus",
+    "score": 80,
+    "snippet": "Fed Hike Shock: BlackRock Leads $746 Million Bitcoin ETF Exodus",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T12:50:57.427000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-17T23:35:08.502000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "USDC",
-      "ARC"
+      "BTC"
     ]
   },
   {
@@ -168,7 +164,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -228,37 +224,6 @@
     "coins": [
       "OG",
       "CRO"
-    ]
-  },
-  {
-    "id": "5961a52787dbdab3d5a1c74345d8aa31b46c6709",
-    "title": "🚨 BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks. This is only the start. 24/7 markets, global access, faster settlement, programmable assets. The future is on",
-    "link": "https://x.com/1inch/status/2100634430133940307",
-    "score": 70,
-    "snippet": "🚨 BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks. This is only the start. 24/7 markets, global access, faster settlement, programmable assets. The future is onchain.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:1inch",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-17T17:14:10.947000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "1INCH"
     ]
   },
   {
@@ -339,15 +304,46 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "5961a52787dbdab3d5a1c74345d8aa31b46c6709",
+    "title": "🚨 BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks. This is only the start. 24/7 markets, global access, faster settlement, programmable assets. The future is on",
+    "link": "https://x.com/1inch/status/2100634430133940307",
+    "score": 64,
+    "snippet": "🚨 BREAKING: The SEC issues a temporary, conditional exemption allowing onchain trading of tokenized US stocks. This is only the start. 24/7 markets, global access, faster settlement, programmable assets. The future is onchain.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:1inch",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-17T17:14:10.947000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "1INCH"
+    ]
   },
   {
     "id": "8a898b84cab5f5e7f247b980293cb18079d20949",
     "title": "BREAKING: Bloxtel announces they’re bringing private 5G infrastructure onchain with Avalanche The newly unveiled AP 201 combines an entire private 5G stack into a single unit: 5G radio and core, edge computing, and AI-po",
     "link": "https://x.com/avax/status/2100653677795066302",
-    "score": 60,
+    "score": 54,
     "snippet": "BREAKING: Bloxtel announces they’re bringing private 5G infrastructure onchain with Avalanche The newly unveiled AP 201 combines an entire private 5G stack into a single unit: 5G radio and core, edge computing, and AI-powered network management. Each physical AP 201 is registered on Avalanche, while",
     "regions": [],
     "primary_region": null,
@@ -553,6 +549,35 @@
     "coins": []
   },
   {
+    "id": "b0b40034d0b13fe4c15b6cd3a429971ac991c238",
+    "title": "Partners Group's Next Generation Infrastructure strategy is now live on Pendle as NGI+ (10 Dec 2026 maturity). @PartnersGroup manages $186 billion across private equity, infrastructure, private credit, real estate and ro",
+    "link": "https://x.com/pendle_fi/status/2100746672141980052",
+    "score": 50,
+    "snippet": "Partners Group's Next Generation Infrastructure strategy is now live on Pendle as NGI+ (10 Dec 2026 maturity). @PartnersGroup manages $186 billion across private equity, infrastructure, private credit, real estate and royalties for institutional and private investors worldwide. NGI+ is the onchain t",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:pendle_fi",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-18T00:40:12.070000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "PENDLE"
+    ]
+  },
+  {
     "id": "d120f0e0ef59b64bdc7fd514bfaed94d42d7f1a5",
     "title": "Introducing Astra for Law",
     "link": "https://openai.com/index/astra-for-law",
@@ -630,36 +655,8 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "043a23f48b961ff799ba98bb437a2b4b3aa3b05e",
-    "title": "SEC opens door to tokenized U.S. stock trading. Here’s who could benefit",
-    "link": "https://www.coindesk.com/business/2026/09/17/sec-opens-door-to-tokenized-u-s-stock-trading-here-s-who-could-benefit",
-    "score": 40,
-    "snippet": "",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "coindesk",
-    "source": "Google News RSS",
-    "published_at": "2026-09-17T18:38:10+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
     "coins": []
   }
 ]
