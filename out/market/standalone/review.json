@@ -264,35 +264,6 @@
     ]
   },
   {
-    "id": "f12b18c59863c63e7a656abd9d7bc8381e643ab6",
-    "title": "Weekly Project Updates: Hyperliquid Launches Lending Feature, World Rolls Out Finance App, Linera Shuts Down Operations, Polygon Burns 100M POL Permanently, etc https://t.co/KSUdf7Cnib",
-    "link": "https://twitter.com/WuBlockchain/status/2101259368016843180",
-    "score": 60,
-    "snippet": "Weekly Project Updates: Hyperliquid Launches Lending Feature, World Rolls Out Finance App, Linera Shuts Down Operations, Polygon Burns 100M POL Permanently, etc https://t.co/KSUdf7Cnib",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-19T10:37:28.454000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "POL",
-      "HYPE"
-    ]
-  },
-  {
     "id": "a21da28e0e547ac57593edf76b0015c8e6ef271e",
     "title": "Agentic payments are live on Arc. Our Facilitator Service gives x402 builders a hosted way to accept Circle-issued USDC on Arc, Base, and Polygon without running their own relayer or funding separate gas wallets. You bui",
     "link": "https://x.com/circle/status/2101068758051954982",
@@ -322,6 +293,35 @@
       "USDC",
       "POL",
       "ARC"
+    ]
+  },
+  {
+    "id": "f12b18c59863c63e7a656abd9d7bc8381e643ab6",
+    "title": "Weekly Project Updates: Hyperliquid Launches Lending Feature, World Rolls Out Finance App, Linera Shuts Down Operations, Polygon Burns 100M POL Permanently, etc https://t.co/KSUdf7Cnib",
+    "link": "https://twitter.com/WuBlockchain/status/2101259368016843180",
+    "score": 54,
+    "snippet": "Weekly Project Updates: Hyperliquid Launches Lending Feature, World Rolls Out Finance App, Linera Shuts Down Operations, Polygon Burns 100M POL Permanently, etc https://t.co/KSUdf7Cnib",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-19T10:37:28.454000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "POL",
+      "HYPE"
     ]
   },
   {
@@ -435,59 +435,6 @@
     "origin": "tree",
     "coins": [
       "BTC"
-    ]
-  },
-  {
-    "id": "62af3d5863857f6f406883b4afb18a3e992827a5",
-    "title": "1.6 billion XRP floods Binance as whale activity hits six-month high",
-    "link": "https://www.thestreet.com/crypto/markets/1-6-billion-xrp-floods-binance-as-whale-activity-hits-six-month-high",
-    "score": 54,
-    "snippet": "1.6 billion XRP floods Binance as whale activity hits six-month high",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the street",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-18T18:32:36.821000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP",
-      "BNB"
-    ]
-  },
-  {
-    "id": "38b6ac40fb60638e1f6b5f3e6f8923735faeaf92",
-    "title": "A $2bn lawsuit is a dramatic reminder of how much rides on the integrity of trade documentation. Trade fraud exploits information gaps: unverifiable documents, disputed records, counterparties who can't be held to what t",
-    "link": "https://x.com/iota/status/2100993254686666892",
-    "score": 39,
-    "snippet": "A $2bn lawsuit is a dramatic reminder of how much rides on the integrity of trade documentation. Trade fraud exploits information gaps: unverifiable documents, disputed records, counterparties who can't be held to what they claimed. Verified trade data is how IOTA answers a very expensive problem. h",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:iota",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-18T17:00:03.065000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('lawsuit')",
-    "matched": "lawsuit",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "IOTA"
     ]
   }
 ]
