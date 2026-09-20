@@ -3,7 +3,7 @@
     "id": "35aeff35072b5df4e441e29b43d1f212e710a2d8",
     "title": "Asia’s Weekly TOP10 Crypto News Hong Kong Advances Stablecoin and Tokenization Pilots, Japan Raises Rates and Promotes On-Chain Finance, Jiangsu Warns RWA Financing Is Illegal, MOEX to Launch BTC and ETH Perpetual Future",
     "link": "https://x.com/WuBlockchain/status/2101661529225716170",
-    "score": 80,
+    "score": 74,
     "snippet": "Asia’s Weekly TOP10 Crypto News Hong Kong Advances Stablecoin and Tokenization Pilots, Japan Raises Rates and Promotes On-Chain Finance, Jiangsu Warns RWA Financing Is Illegal, MOEX to Launch BTC and ETH Perpetual Futures, and Japan Reports North Korean Hackers Stole 7,000 Crypto Wallets.",
     "regions": [
       "APAC"
@@ -30,6 +30,34 @@
     "coins": [
       "BTC",
       "ETH"
+    ]
+  },
+  {
+    "id": "cd7779458e5a1038ffb4191a3f2bdb3c6cb58591",
+    "title": "ECB President Lagarde Reportedly Pressed Greece to Halt Binance's Near-Complete MiCA License",
+    "link": "https://www.crowdfundinsider.com/2026/09/311263-ecb-president-lagarde-reportedly-pressed-greece-to-halt-binances-near-complete-mica-license",
+    "score": 60,
+    "snippet": "ECB President Lagarde Reportedly Pressed Greece to Halt Binance's Near-Complete MiCA License",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-20T19:15:30.325000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('license')",
+    "matched": "license",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
     ]
   },
   {
@@ -84,7 +112,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -147,36 +175,6 @@
     "fulltext": true,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "faf9bb2a687071cd7801f46d05d516ddfc948549",
-    "title": "Binance Enters the Pre-IPO Subscription Market Binance Wallet announced the launch of Pre-Access campaigns hosted by PancakeSwap, allowing users to gain indirect tokenized exposure to companies that may go public. Partic",
-    "link": "https://x.com/WuBlockchain/status/2101593835201781950",
-    "score": 54,
-    "snippet": "Binance Enters the Pre-IPO Subscription Market Binance Wallet announced the launch of Pre-Access campaigns hosted by PancakeSwap, allowing users to gain indirect tokenized exposure to companies that may go public. Participation quotas can be increased through Alpha Points, onchain bStocks trading vo",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-20T08:46:31.174000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "CAKE",
-      "BNB"
-    ]
   },
   {
     "id": "07174ab0de6808315f860d1f88a01cace2585dd8",
