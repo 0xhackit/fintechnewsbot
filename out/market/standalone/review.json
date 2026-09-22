@@ -114,6 +114,35 @@
     ]
   },
   {
+    "id": "e769300e9d17715b7d6308a0e0c4d32cd63c4c09",
+    "title": "European Central Bank launches blockchain platform for markets",
+    "link": "https://www.techinasia.com/news/european-central-bank-launches-blockchain-platform-markets",
+    "score": 75,
+    "snippet": "European Central Bank launches blockchain platform for markets",
+    "regions": [
+      "EU",
+      "APAC"
+    ],
+    "primary_region": "EU",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:techinasia",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-22T00:24:32.811000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
     "id": "422759b048e32a98a49b85064cc179aed704cd3d",
     "title": "TreasurySpring has been approved to become a Super Validator on Canton. Its first phase brings native ownership records for its Fixed-Term Fund Shares onto the network, without changing how clients access or settle them.",
     "link": "https://x.com/CantonNetwork/status/2102124706023276549",
@@ -223,36 +252,6 @@
     ]
   },
   {
-    "id": "452bdde4fd80f1f78d51d2cdce6ae96872d87fde",
-    "title": "NEW: The ECB plans to invest in tokenized securities settled through its new Pontes platform, marking the first time a major central bank will directly participate in blockchain-based financial markets as both investor a",
-    "link": "https://x.com/CoinDesk/status/2102078715458953705",
-    "score": 60,
-    "snippet": "NEW: The ECB plans to invest in tokenized securities settled through its new Pontes platform, marking the first time a major central bank will directly participate in blockchain-based financial markets as both investor and infrastructure provider.",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-21T16:53:15.685000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settled')",
-    "matched": "settled",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BASED"
-    ]
-  },
-  {
     "id": "49c622a62c1dad898739544e939c1bfee17b191f",
     "title": "Treasury Funding Allocation - The Case for Reform https://x.com/i/broadcasts/1dKrPrZQjklJX",
     "link": "https://x.com/Cardano/status/2102020024668131701",
@@ -335,6 +334,36 @@
     "fulltext": true,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "452bdde4fd80f1f78d51d2cdce6ae96872d87fde",
+    "title": "NEW: The ECB plans to invest in tokenized securities settled through its new Pontes platform, marking the first time a major central bank will directly participate in blockchain-based financial markets as both investor a",
+    "link": "https://x.com/CoinDesk/status/2102078715458953705",
+    "score": 54,
+    "snippet": "NEW: The ECB plans to invest in tokenized securities settled through its new Pontes platform, marking the first time a major central bank will directly participate in blockchain-based financial markets as both investor and infrastructure provider.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-21T16:53:15.685000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settled')",
+    "matched": "settled",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BASED"
+    ]
   },
   {
     "id": "7680d6f5453ee6b6094fc61cb7c089c598455cdb",
@@ -499,32 +528,6 @@
     ]
   },
   {
-    "id": "579996fec21b35ce7ea58a954899c351b5350176",
-    "title": "Ondo lets institutions convert stocks directly into tokenized shares",
-    "link": "https://cointelegraph.com/news/ondo-lets-institutions-convert-stocks-directly-into-tokenized-shares?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 35,
-    "snippet": "Ondo’s new in-kind conversion system allows approved institutions to mint and redeem tokenized stocks and ETFs using the underlying securities instead of cash.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 3,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-21T18:35:43+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
     "id": "9b100297cebb06755a01b127f07a2d33df31f869",
     "title": "Morph Payments Expands to Solana and TRON, Making Stablecoin Payments Easier from Exchanges - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcmp5R1NXVGs5b3k5U1JxVzczU0lmUEp1R2ZlUkE0b2x5eDNsTmhIaVB5S1pFWVRDd1lpQXBON2I5aWpPLThGUEVMX1JvZFRhaHBZT2Y0akNBV3d4UFhQUTlGemd6a3lGR29UdUdSM0puWWxPV2lEazZIX1o1WVM0dmJqcVJ1TDZYUTIxSENPTExoQUQ5ZXRMVk1mYXZSU0Z1NkFrUnl0aVBTQzFTb1Z3Xzhib2JQZjRpR1BnTXc1N2NJWUUtUEN3?oc=5",
@@ -547,7 +550,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('expands to')",
     "matched": "expands to",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
