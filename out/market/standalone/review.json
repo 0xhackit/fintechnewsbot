@@ -32,7 +32,7 @@
     "id": "f12cce4886ee71d3680410d8d315841d5c13477b",
     "title": "NEW: $40B IT giant @Infosys partners with @Chainlink, standardizing CCIP, data feeds and compliance tools across banking infrastructure supporting 1.7 billion customer accounts worldwide.",
     "link": "https://x.com/CoinDesk/status/2102427704494547029",
-    "score": 90,
+    "score": 84,
     "snippet": "NEW: $40B IT giant @Infosys partners with @Chainlink, standardizing CCIP, data feeds and compliance tools across banking infrastructure supporting 1.7 billion customer accounts worldwide.",
     "regions": [],
     "primary_region": null,
@@ -57,67 +57,64 @@
     ]
   },
   {
-    "id": "a72949afa2165af2456dee197ab4f6f977de6587",
-    "title": "THE BLOCK: CME Group plans to launch Bitcoin Cash $BCH and Uniswap $UNI futures on Oct. 19, expanding its lineup of single-asset crypto derivatives. The exchange will offer standard and Micro contracts, covering 250 BCH",
-    "link": "https://x.com/TheBlockCo/status/2102384162540081451",
-    "score": 90,
-    "snippet": "THE BLOCK: CME Group plans to launch Bitcoin Cash $BCH and Uniswap $UNI futures on Oct. 19, expanding its lineup of single-asset crypto derivatives. The exchange will offer standard and Micro contracts, covering 250 BCH and 25 BCH, and 10,000 UNI and 1,000 UNI, respectively. CME said its crypto futu",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-22T13:06:59.973000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BCH",
-      "UNI"
-    ]
-  },
-  {
-    "id": "3d7f8da0ef713585206e542b375623b99db45925",
-    "title": "Binance Makes $100 Million Bet on Circle’s USDC Stablecoin",
-    "link": "https://www.pymnts.com/cryptocurrency/2026/binance-makes-100-million-bet-on-circles-usdc-stablecoin/",
-    "score": 85,
-    "snippet": "Binance and Circle are teaming to promote access to Circle’s stablecoin in emerging markets. With this expanded, five-year agreement, Binance is investing $100 million in Circle, issuer of the USDC stablecoin, the companies announced Tuesday (Sept. 22). “Binance has built one of the largest and most",
+    "id": "36c8c481a6e6a52d5e1b42e71d544e96a6cad960",
+    "title": "The Fed’s New SVB Report Exposes the Old-Fashioned Bank Risk Behind Digital Assets",
+    "link": "https://www.pymnts.com/cryptocurrency/2026/the-feds-new-svb-report-exposes-the-old-fashioned-bank-risk-behind-digital-assets/",
+    "score": 80,
+    "snippet": "The government never guaranteed the USDC stablecoin’s value. But when regulators protected Silicon Valley Bank’s (SVB) uninsured depositors, they rescued $3.3 billion backing the stablecoin anyway. A new review by the Federal Reserve itself, released Friday (Sept. 18), shows why the distinction matt",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 20,
-    "financial": 30,
+    "consensus": 1,
+    "financial": 40,
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "feed_name": "pymnts",
     "source": "Google News RSS",
-    "published_at": "2026-09-22T17:15:38+00:00",
+    "published_at": "2026-09-22T21:01:26+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "1f4dc0001495f3d6945b2097472130200a7b9193",
+    "title": "JD Vance Announces $2.2 Billion Recovered in Obamacare Fraud: Fraud Is ‘Definitely Making Health Care More Expensive’ https://www.breitbart.com/politics/2026/09/22/jd-vance-announces-2-2-billion-recovered-obamacare-fraud",
+    "link": "https://x.com/VP/status/2102502189268955558",
+    "score": 75,
+    "snippet": "JD Vance Announces $2.2 Billion Recovered in Obamacare Fraud: Fraud Is ‘Definitely Making Health Care More Expensive’ https://www.breitbart.com/politics/2026/09/22/jd-vance-announces-2-2-billion-recovered-obamacare-fraud-fraud-definitely-making-health-care-more-expensive/",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:vp",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-22T20:55:59.633000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "JD"
+    ]
   },
   {
     "id": "456886fdc5d2181451351f08c01116ab2044c24a",
     "title": "Introducing The Latent, The Block's sister publication covering AI. Launching today: AI news, a data portal, The Latent Score, and a daily newsletter. We're bringing our reporting and data expertise to AI. See what we're",
     "link": "https://x.com/TheBlockCo/status/2102397893894430783",
-    "score": 80,
+    "score": 74,
     "snippet": "Introducing The Latent, The Block's sister publication covering AI. Launching today: AI news, a data portal, The Latent Score, and a daily newsletter. We're bringing our reporting and data expertise to AI. See what we're building and subscribe below.",
     "regions": [],
     "primary_region": null,
@@ -145,7 +142,7 @@
     "id": "3e40003f52ece563a7fbe46b0b28c4bffa8ede41",
     "title": "ECB calls for tougher EU crypto rules and wider ban on stablecoin interest",
     "link": "https://www.euronews.com/business/2026/09/22/ecb-calls-for-tougher-eu-crypto-rules-and-wider-ban-on-stablecoin-interest",
-    "score": 80,
+    "score": 74,
     "snippet": "ECB calls for tougher EU crypto rules and wider ban on stablecoin interest",
     "regions": [
       "EU",
@@ -171,70 +168,6 @@
     "coins": []
   },
   {
-    "id": "56b46b6ca28fc80c195be8efb0af96406f68d491",
-    "title": "CME Group to Launch Bitcoin Cash and Uniswap Futures on October 19, Pending Regulatory Review CME Group announced plans to launch Bitcoin Cash (BCH) and Uniswap (UNI) futures on October 19, subject to regulatory review.",
-    "link": "https://x.com/WuBlockchain/status/2102378993169354806",
-    "score": 79,
-    "snippet": "CME Group to Launch Bitcoin Cash and Uniswap Futures on October 19, Pending Regulatory Review CME Group announced plans to launch Bitcoin Cash (BCH) and Uniswap (UNI) futures on October 19, subject to regulatory review. Both products will offer standard and micro contracts: 250 BCH and 25 BCH for Bi",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-22T12:46:27.515000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BCH",
-      "UNI",
-      "BTC",
-      "ETH",
-      "XRP",
-      "SOL",
-      "ADA",
-      "LINK",
-      "XLM",
-      "AVAX",
-      "SUI"
-    ]
-  },
-  {
-    "id": "c56cf402b557be64f3afc846c50f9d8ba95ae92e",
-    "title": "THE BLOCK: Bernstein expects annual prediction market trading volumes to reach $10 trillion by 2035. The firm forecasts $410 billion in 2026, with crypto, equities, and commodities projected to overtake sports and accoun",
-    "link": "https://x.com/TheBlockCo/status/2102318870958882836",
-    "score": 74,
-    "snippet": "THE BLOCK: Bernstein expects annual prediction market trading volumes to reach $10 trillion by 2035. The firm forecasts $410 billion in 2026, with crypto, equities, and commodities projected to overtake sports and account for 49% of volumes by 2035.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-22T08:47:33.110000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "TAKE"
-    ]
-  },
-  {
     "id": "f6905b5fee4cdf9917cd29cf0851bfc8405dd25c",
     "title": "SoFi Goes Live With Stablecoin Settlement on Mastercard - genfinity.io",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZmlCU3VOUldJdlBGcXVPTXd5VFF3T0h0cFQyN0VKVjJqVGt2X0RLb2UtdTJtV0s0Zm4zV2pUd1VvZ0ZpLUtDbmdWWXo5R250ZTJkUVN0OVZEZ0szOFNFM2x4VkVwWHg5dFktOEdkRTNPSzQxU2RhUmw0XzhsTFRIZHpKdw?oc=5",
@@ -256,9 +189,38 @@
     "axis": "market_event",
     "reason": "concrete market event ('goes live')",
     "matched": "goes live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "e37eae8d820f842557ac87722f6924547314b4bb",
+    "title": "Raydium Commits $1M of Treasury to USDv, Partners With Solomon to Expand USDv Across Markets and Eco Raydium is committing an initial $1 million of its treasury to USDv and will support USDv pairs across its markets and",
+    "link": "https://x.com/Raydium/status/2102474747590148469",
+    "score": 65,
+    "snippet": "Raydium Commits $1M of Treasury to USDv, Partners With Solomon to Expand USDv Across Markets and Eco Raydium is committing an initial $1 million of its treasury to USDv and will support USDv pairs across its markets and launchpad ecosystem. As part of the partnership, Solomon has selected Raydium as",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:raydium",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-22T19:06:57.209000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "RAYSOL",
+      "SOL"
+    ]
   },
   {
     "id": "f803f60d9d314e15970fa0e769c966a4c55a7301",
@@ -317,75 +279,32 @@
     ]
   },
   {
-    "id": "c674905ed922ce4c3bb25bcaa3ba47889065bc4f",
-    "title": "BlackRock, Binance, Bitwise and Lombard all picked the same Bitcoin yield engine LBTC is not a new way to generate income on Bitcoin. It's the same institutional strategy that BlackRock, Grayscale, and NEOS already sell",
-    "link": "https://x.com/Lombard_Finance/status/2102411425549328717",
-    "score": 65,
-    "snippet": "BlackRock, Binance, Bitwise and Lombard all picked the same Bitcoin yield engine LBTC is not a new way to generate income on Bitcoin. It's the same institutional strategy that BlackRock, Grayscale, and NEOS already sell to the public as ETFs, that Binance launched for its own users in July, and that",
+    "id": "596ae74ed09f8d01d4a15b8ec742f162e413eec9",
+    "title": "THE BLOCK: Times are changing for financial markets, said CFTC Chair Michael Selig during a U.S. Treasury Market conference at the New York Fed. \"With developments like tokenization, onchain finance, and 24/7 trading, th",
+    "link": "https://x.com/TheBlockCo/status/2102486694541111607",
+    "score": 60,
+    "snippet": "THE BLOCK: Times are changing for financial markets, said CFTC Chair Michael Selig during a U.S. Treasury Market conference at the New York Fed. \"With developments like tokenization, onchain finance, and 24/7 trading, the next decade will likely bring more change to financial markets than the previo",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "product",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
-    "feed_name": "tree:x:lombard_finance",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-22T14:55:20.361000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
+    "published_at": "2026-09-22T19:54:25.729000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
-    "coins": [
-      "BARD",
-      "BTC",
-      "IBIT",
-      "NET",
-      "BNB",
-      "MORPHO",
-      "SPK",
-      "BASED",
-      "FLOW",
-      "AAVE"
-    ]
-  },
-  {
-    "id": "dc06e7a2f6e7b22fc0e8ad7aacc80f07fb99838a",
-    "title": "See you all in Singapore 🇸🇬 Drop me a DM if you’re looking to launch Earn programs, deploy capital onchain, issue RWAs, or build with stablecoins. @luigidemeo, @alphaleaked, and I would love to meet you. https://t.co/aRj",
-    "link": "https://twitter.com/StaniKulechov/status/2102318664758514068",
-    "score": 64,
-    "snippet": "See you all in Singapore 🇸🇬 Drop me a DM if you’re looking to launch Earn programs, deploy capital onchain, issue RWAs, or build with stablecoins. @luigidemeo, @alphaleaked, and I would love to meet you. https://t.co/aRjczXDgtm",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:stanikulechov",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-22T08:46:54.357000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AAVE"
-    ]
+    "coins": []
   },
   {
     "id": "ecc3da64df066fa8559386516ea89d4cc68d233c",
@@ -465,18 +384,20 @@
     "axis": "market_event",
     "reason": "concrete market event ('go live')",
     "matched": "go live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
   {
-    "id": "95c6fd72a249a3b3aa6a252e08bad10ad915255c",
-    "title": "*CME GROUP TO LAUNCH BITCOIN CASH, UNISWAP FUTURES ON OCT. 19: BBG",
-    "link": "https://x.com/TreeNewsFeed/status/2102375033968509101",
-    "score": 54,
-    "snippet": "*CME GROUP TO LAUNCH BITCOIN CASH, UNISWAP FUTURES ON OCT. 19: BBG",
-    "regions": [],
-    "primary_region": null,
+    "id": "c674905ed922ce4c3bb25bcaa3ba47889065bc4f",
+    "title": "BlackRock, Binance, Bitwise and Lombard all picked the same Bitcoin yield engine LBTC is not a new way to generate income on Bitcoin. It's the same institutional strategy that BlackRock, Grayscale, and NEOS already sell",
+    "link": "https://x.com/Lombard_Finance/status/2102411425549328717",
+    "score": 59,
+    "snippet": "BlackRock, Binance, Bitwise and Lombard all picked the same Bitcoin yield engine LBTC is not a new way to generate income on Bitcoin. It's the same institutional strategy that BlackRock, Grayscale, and NEOS already sell to the public as ETFs, that Binance launched for its own users in July, and that",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -484,46 +405,55 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:treenewsfeed",
+    "feed_name": "tree:x:lombard_finance",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-22T12:30:43.288000+00:00",
+    "published_at": "2026-09-22T14:55:20.361000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BCH",
-      "UNI"
+      "BARD",
+      "BTC",
+      "IBIT",
+      "NET",
+      "BNB",
+      "MORPHO",
+      "SPK",
+      "BASED",
+      "FLOW",
+      "AAVE"
     ]
   },
   {
-    "id": "06fcfe3331b0b470af12ca560a4346833eaf5848",
-    "title": "Crypto market cap reclaims $3 trillion as Bitcoin, altcoins rally",
-    "link": "https://cointelegraph.com/news/crypto-market-cap-3-trillion-bitcoin-altcoins-rally",
-    "score": 54,
-    "snippet": "Crypto market cap reclaims $3 trillion as Bitcoin, altcoins rally",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:cointelegraph",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-22T09:58:37.159000+00:00",
+    "id": "911643996f0d4d58900a11e697b8df62be6a3db3",
+    "title": "CFTC Chairman Selig says markets must prepare for ‘mass tokenization’",
+    "link": "https://www.theblock.co/news/regulation/2026-09-22-cftc-selig-mass-tokenization-24-7-trading-416111",
+    "score": 50,
+    "snippet": "The Trump administration is preparing for a financial market overhaul as tokenization and 24/7 trading move into the spotlight.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-09-22T21:08:20+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "CAP"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
     "id": "6acff851fae5028229e20d00d69a4de6e41fad3c",
@@ -552,6 +482,118 @@
     "fulltext": true,
     "origin": "rss+tree",
     "coins": []
+  },
+  {
+    "id": "1a75a1d5e61bc7d3bcfa7e8c3d096f2e479261d1",
+    "title": "Jamie Selway (SEC Director, Division of Trading & Markets) on @BloombergTV \"Tokenization & crypto have been politicized recently. But it's not naturally a politicized function . . . Success of the country in terms of dev",
+    "link": "https://x.com/SECGov/status/2102509989172826343",
+    "score": 50,
+    "snippet": "Jamie Selway (SEC Director, Division of Trading & Markets) on @BloombergTV \"Tokenization & crypto have been politicized recently. But it's not naturally a politicized function . . . Success of the country in terms of developing these markets should have good bipartisan support.\"",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:secgov",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-22T21:26:59.259000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "d1e9012e6c2c26a496ba94dfa57c031a0c00c589",
+    "title": "THE BLOCK: The CFTC warned that bets on prediction markets that are based on whether someone will \"mention\" specific words or who will attend an event come with a \"heightened risk of manipulation\" in a new advisory. \"Thi",
+    "link": "https://x.com/TheBlockCo/status/2102504250937102474",
+    "score": 50,
+    "snippet": "THE BLOCK: The CFTC warned that bets on prediction markets that are based on whether someone will \"mention\" specific words or who will attend an event come with a \"heightened risk of manipulation\" in a new advisory. \"This advisory is intended to alert DCMs [designated contract markets] that Mention ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-22T21:04:11.332000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BASED"
+    ]
+  },
+  {
+    "id": "1879715378498cbd8652a71086bcada997266f39",
+    "title": "INSIGHT: @Ripple CEO @BGarlinghouse reveals in a speech at the University of Kansas that the company considered shutting down when the SEC sued in 2020.",
+    "link": "https://x.com/CoinDesk/status/2102482928206774523",
+    "score": 50,
+    "snippet": "INSIGHT: @Ripple CEO @BGarlinghouse reveals in a speech at the University of Kansas that the company considered shutting down when the SEC sued in 2020.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-22T19:39:27.393000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('sued')",
+    "matched": "sued",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "73fdc22538ba57c58f7b36679c7024677fa3235a",
+    "title": "THE STARTING BLOCK: \"Unfortunately, there's a segment on the left that doesn't like this technology because it's frankly too liberating.\" Former CFTC chairman @giancarloMKTS says politics had the final say after the Clar",
+    "link": "https://x.com/TheBlockCo/status/2102479633379987597",
+    "score": 50,
+    "snippet": "THE STARTING BLOCK: \"Unfortunately, there's a segment on the left that doesn't like this technology because it's frankly too liberating.\" Former CFTC chairman @giancarloMKTS says politics had the final say after the Clarity Act impasse last week.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-22T19:26:21.909000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ACT"
+    ]
   },
   {
     "id": "7709b785ec4a93934b6785eebe7438d0c8be4fd6",
@@ -643,8 +685,10 @@
     "link": "https://twitter.com/chainlink/status/2102382759746351423",
     "score": 44,
     "snippet": "NEW: @Infosys (NYSE: INFY), the $40B+ global IT leader, enters a strategic partnership with Chainlink to accelerate institutional onchain finance. Infosys supports critical banking and payments infrastructure for more than 1.7 billion customer accounts worldwide and is now https://t.co/xgr5xV9dKq",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -659,90 +703,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "LINK"
     ]
-  },
-  {
-    "id": "e4d39aa7ceed4352d6785fe785fdbb342dff5a4e",
-    "title": "Trade to Share Up to 400 BNB Token Vouchers",
-    "link": "https://www.treeofalpha.com/preview_article?id=1790067602322",
-    "score": 44,
-    "snippet": "Trade to Share Up to 400 BNB Token Vouchers",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:baby trading tournament",
-    "source": "TreeOfAlpha/Binance EN",
-    "published_at": "2026-09-22T09:00:03.603000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BABY",
-      "BNB"
-    ]
-  },
-  {
-    "id": "85366bf0a6b07139de401453624f86df0816a2ee",
-    "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
-    "link": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
-    "score": 40,
-    "snippet": "",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "coindesk",
-    "source": "Google News RSS",
-    "published_at": "2026-09-22T15:21:28+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "780546bfd1bc1fc9476cf99452bc8d643809be9b",
-    "title": "Mastercard and SoFi Bring Stablecoin Settlement to Cards as Step One of Broader Rollout - PYMNTS.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObFNxTkJ5aUU0dE9Jdy0xVUxVRHZyWXZnUXEwX3l4czBOaUEtU0dIOGRadmFiZGY3NGdxSFA3dmVkWHZrN1RlcDF3cTN2T0xuaDJpTFkzRGRndW5tQlUyOXhqYlljNGo0MjVXTS1STjJKZjd1SDNJRl9QSnJNa0pBekJ3eXhVVDE2RmVveVRpRVV2SkJkZFpEQUtvYU5Vd3RlSXFENjY3dkI5UHItbVJ1V21zYWhjSlVmT2c?oc=5",
-    "score": 40,
-    "snippet": "Mastercard and SoFi Bring Stablecoin Settlement to Cards as Step One of Broader Rollout PYMNTS.com",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-22T14:40:21+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
   }
 ]
