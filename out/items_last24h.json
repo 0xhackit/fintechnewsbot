@@ -1,40 +1,41 @@
 [
   {
-    "id": "d37f3bf1f28fa1aa7f3063a7c777cc5d0b05c5e6401ac61e804400ffda1a1825",
+    "id": "8823e5cf23bc63b35143753bb837c4661d1605d85537aa1c38e0fa8ababcbd44",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "ledger_insights",
-    "title": "Eurosystem’s Pontes tokenized central bank money goes live. ECB to invest in digital bonds",
-    "url": "https://www.ledgerinsights.com/eurosystems-pontes-tokenized-central-bank-money-goes-live-ecb-to-invest-in-digital-bonds/",
-    "canonical_url": "https://ledgerinsights.com/eurosystems-pontes-tokenized-central-bank-money-goes-live-ecb-to-invest-in-digital-bonds/",
-    "snippet": "Today the European Central Bank (ECB) officially launched Pontes, the Eurosystem’s solution for settling tokenized transactions in central bank money, sometimes loosely described as wholesale CBDC. Simultaneously, the ECB announced plans to invest some of its own funds in tokenized securities in ord",
-    "published_at": "2026-09-21T13:10:17+00:00",
+    "feed_name": "theblock",
+    "title": "SoFi begins stablecoin settlement on Mastercard network for program expected to exceed $25 billion in annualized volume",
+    "url": "https://www.theblock.co/news/business/2026-09-22-sofi-begins-stablecoin-settlement-on-mastercard-network-for-program-expected-to-exceed-25-billion-in-annualized-volume-416035",
+    "canonical_url": "https://theblock.co/news/business/2026-09-22-sofi-begins-stablecoin-settlement-on-mastercard-network-for-program-expected-to-exceed-25-billion-in-annualized-volume-416035",
+    "snippet": "SoFi launches live SoFiUSD stablecoin settlement on Mastercard's network, with its card program targeting $25 billion in annualized volume.",
+    "published_at": "2026-09-22T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
-      "tokenized",
-      "launched"
+      "stablecoin",
+      "settlement",
+      "launches"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA",
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://ledgerinsights.com/?p=44065",
+      "id": "a408617a-8465-559d-84bd-13f08e0e87d0",
       "guidislink": false
     },
-    "score": 114,
+    "score": 105,
     "score_breakdown": {
-      "tier1": 3,
+      "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 70,
-      "institution_bonus": 40,
-      "financial_bonus": 0,
+      "launch_score": 35,
+      "institution_bonus": 20,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -44,6 +45,56 @@
     },
     "consensus_boost": 0,
     "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "3aa5d3ed06a548114d668abdf2091b76718051a51f1d280d88191b2353b5725d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Mastercard and SoFi Bring Stablecoin Settlement to Cards as Step One of Broader Rollout",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/mastercard-sofi-bring-stablecoin-settlement-cards-step-one-broader-rollout/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/mastercard-sofi-bring-stablecoin-settlement-cards-step-one-broader-rollout/",
+    "snippet": "Mastercard and SoFi Technologies are now using stablecoin settlement across SoFi Bank, N.A.’s debit and credit card program, SoFi said in a Tuesday (Sept. 22) press release. SoFi Bank is migrating its entire $25 billion card program to stablecoin settlement of transactions, according to the release.",
+    "published_at": "2026-09-22T14:36:34+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement",
+      "rollout"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=4218906",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -59,7 +110,7 @@
     "snippet": "",
     "published_at": "2026-09-21T19:08:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -96,27 +147,221 @@
     ]
   },
   {
-    "id": "06ca90372ecc2c50ed43792ce2efcc283a9de88a13eb518879362b1ecd675c2a",
+    "id": "ceecf206fd482b2c736027696c734bceae9a771bdfa8c47ae295344b76e394c0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
-    "url": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-    "canonical_url": "https://coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-    "snippet": "",
-    "published_at": "2026-09-22T11:07:23+00:00",
+    "feed_name": "pymnts",
+    "title": "EU Central Banks Push to Eliminate Stablecoin Deposit Rule",
+    "url": "https://www.pymnts.com/cryptocurrency/2026/eu-central-banks-push-to-eliminate-stablecoin-deposit-rule/",
+    "canonical_url": "https://pymnts.com/cryptocurrency/2026/eu-central-banks-push-to-eliminate-stablecoin-deposit-rule/",
+    "snippet": "Europe’s central banks say stablecoin deposit regulations could mean less stability for lenders. The European System of Central Banks (ESCB) published a paper Tuesday (Sept. 22) in response to Europe’s Markets in Crypto-Assets (MiCA) regulation, which requires stablecoin issuers to hold 30% of their",
+    "published_at": "2026-09-22T14:25:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
-      "USDC",
-      "Circle"
+      "stablecoin",
+      "MiCA"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "8fa48bc8-dbe4-4155-a97d-22cddd9e1304",
+      "id": "https://www.pymnts.com/?p=4218760",
       "guidislink": false
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": -10,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "21d93c19e190851e175e3d2c1cfb0f464c42e8915ab4e545c34d8e54a493ab72",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "SoFi goes live with stablecoin settlement across Mastercard's payments network, shares up - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNUFJN19Najl0TU4zeU83OGxzVVU3VDk3dTBNc2dGUnhtNWlxRjZLVDd0cVczSHRrUGRFQWRaVTZwMzJGTEl1NlBxUWp6MXNJV09FM3R6MnhOamUxcXRvLXJyR2lOVEgtSUxqWTdYV3dCM2pZRUdZejZ0VkxkUXpOWlRhSWNSVUhDTXhyR0pIYUt1Y3hBcWViLUZyeDJqaDhtSnJ4X2t2Y0dmVUpWMXktQlQ4Sjg5VVZGNy1KQ1pWQ1BfQmNsSHZyTTNPWkxBREJHWUZ2TnFENl9zMlo3blBXc2xDbzZwdw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQNUFJN19Najl0TU4zeU83OGxzVVU3VDk3dTBNc2dGUnhtNWlxRjZLVDd0cVczSHRrUGRFQWRaVTZwMzJGTEl1NlBxUWp6MXNJV09FM3R6MnhOamUxcXRvLXJyR2lOVEgtSUxqWTdYV3dCM2pZRUdZejZ0VkxkUXpOWlRhSWNSVUhDTXhyR0pIYUt1Y3hBcWViLUZyeDJqaDhtSnJ4X2t2Y0dmVUpWMXktQlQ4Sjg5VVZGNy1KQ1pWQ1BfQmNsSHZyTTNPWkxBREJHWUZ2TnFENl9zMlo3blBXc2xDbzZwdw?oc=5",
+    "snippet": "SoFi goes live with stablecoin settlement across Mastercard's payments network, shares up TradingView",
+    "published_at": "2026-09-22T12:20:23+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMi5gFBVV95cUxQNUFJN19Najl0TU4zeU83OGxzVVU3VDk3dTBNc2dGUnhtNWlxRjZLVDd0cVczSHRrUGRFQWRaVTZwMzJGTEl1NlBxUWp6MXNJV09FM3R6MnhOamUxcXRvLXJyR2lOVEgtSUxqWTdYV3dCM2pZRUdZejZ0VkxkUXpOWlRhSWNSVUhDTXhyR0pIYUt1Y3hBcWViLUZyeDJqaDhtSnJ4X2t2Y0dmVUpWMXktQlQ4Sjg5VVZGNy1KQ1pWQ1BfQmNsSHZyTTNPWkxBREJHWUZ2TnFENl9zMlo3blBXc2xDbzZwdw",
+      "guidislink": false
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "caab18d06ea2b8571636bd2945e1901e65f346ee6f15b6f93470031cd8bdfad9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "SoFi Becomes First National Bank to Go Live with Stablecoin Settlement across Mastercard’s Global Payments Network - Business Wire",
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSW9nallQcHJad3p6eTRJY2oxVG1xU3htTkc2TC1WMUtUeHBhc2NWR08yeTFteEw2YklpVThPVlphSVZwakNDRk1NcV9JdmJodncwV29nVUZycDV1eVU5Wk5pQWl1V1hSakVhTkxlYlhBdUZYT2RuN1pwYU9JdTIxeFBOc25DSnpfTWxkdGZBLUZiYktYQWhldjY4cEhKUU0wblRQeWpFMlNmb0xwTWJiaW9Qc3JpYlZxNXlyUGdVNU9kR21OSnlSSHN4M1Y4ekNmUlctS1RuVnBfRHZrU3RUODZnUUhxVVpOOGt0OTZ6OWFWTVk2d2hRQ3pLNnlUbkE?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPSW9nallQcHJad3p6eTRJY2oxVG1xU3htTkc2TC1WMUtUeHBhc2NWR08yeTFteEw2YklpVThPVlphSVZwakNDRk1NcV9JdmJodncwV29nVUZycDV1eVU5Wk5pQWl1V1hSakVhTkxlYlhBdUZYT2RuN1pwYU9JdTIxeFBOc25DSnpfTWxkdGZBLUZiYktYQWhldjY4cEhKUU0wblRQeWpFMlNmb0xwTWJiaW9Qc3JpYlZxNXlyUGdVNU9kR21OSnlSSHN4M1Y4ekNmUlctS1RuVnBfRHZrU3RUODZnUUhxVVpOOGt0OTZ6OWFWTVk2d2hRQ3pLNnlUbkE?oc=5",
+    "snippet": "SoFi Becomes First National Bank to Go Live with Stablecoin Settlement across Mastercard’s Global Payments Network Business Wire",
+    "published_at": "2026-09-22T12:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMi_wFBVV95cUxPSW9nallQcHJad3p6eTRJY2oxVG1xU3htTkc2TC1WMUtUeHBhc2NWR08yeTFteEw2YklpVThPVlphSVZwakNDRk1NcV9JdmJodncwV29nVUZycDV1eVU5Wk5pQWl1V1hSakVhTkxlYlhBdUZYT2RuN1pwYU9JdTIxeFBOc25DSnpfTWxkdGZBLUZiYktYQWhldjY4cEhKUU0wblRQeWpFMlNmb0xwTWJiaW9Qc3JpYlZxNXlyUGdVNU9kR21OSnlSSHN4M1Y4ekNmUlctS1RuVnBfRHZrU3RUODZnUUhxVVpOOGt0OTZ6OWFWTVk2d2hRQ3pLNnlUbkE",
+      "guidislink": false
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d982374e21032e2061eed0798809a3954009fe8a274b7542fe4b81b830de184f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Binance takes $100 million Circle stake alongside five-year USDC deal",
+    "url": "https://www.theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042",
+    "canonical_url": "https://theblock.co/news/business/2026-09-22-binance-takes-100-million-circle-stake-alongside-five-year-usdc-deal-416042",
+    "snippet": "The exchange also expanded its USDC partnership with Circle, agreeing to promote USDC on its platform under a five-year arrangement.",
+    "published_at": "2026-09-22T12:53:52+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "192f4e1f-1ca6-5c96-be7d-485a9e5cfb96",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "7eda4e33828b51eecdd1868403c213e5258e47423669cb686a035325fa94e353",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Binance takes $100M stake in Circle under expanded USDC deal",
+    "url": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal",
+    "snippet": "Circle sold Binance $100 million in stock and agreed to pay monthly incentives under an expanded five-year partnership promoting USDC.",
+    "published_at": "2026-09-22T12:18:41+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/binance-stake-circle-expanded-usdc-deal",
+      "guidislink": true
     },
     "score": 60,
     "score_breakdown": {
@@ -144,17 +389,112 @@
     ]
   },
   {
-    "id": "e29e838d8ab65c02e9be7040ce15639e6b7207542e3be46ac1813ae0743d2aa8",
+    "id": "089ab59103158d5f0be48165f6c2aff3534aeae60a64810aa4f66421aeaf1f88",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+    "url": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+    "canonical_url": "https://coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+    "snippet": "",
+    "published_at": "2026-09-22T14:32:59+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "d5b89ab7-6fb3-4e23-a752-d0267f216814",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "fad2dde3e772348243235a4a04f5de9fd3afbc60f7fd2c9e79376b971dfdb193",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
-    "title": "Crypto Biz: CLARITY Act setback puts Coinbase in the spotlight",
-    "url": "https://cointelegraph.com/news/crypto-biz-clarity-act-coinbase-sec-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/crypto-biz-clarity-act-coinbase-sec-tokenized-stocks",
-    "snippet": "Coinbase draws scrutiny after the CLARITY Act stalls, while the SEC moves ahead with tokenized stocks and crypto firms push deeper into payments.",
-    "published_at": "2026-09-21T15:08:17+00:00",
+    "title": "ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins",
+    "url": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks",
+    "snippet": "The ECB and EU central banks want to replace MiCA’s stablecoin bank-deposit requirements with liquidity thresholds, warning that sudden withdrawals could strain lenders.",
+    "published_at": "2026-09-22T13:15:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "MiCA"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks",
+      "guidislink": true
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -10,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "e72a2c1e13fcae8676d4a5b67d9a867e5fc81b6d6a8f0c751421a4fe8553d90f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "ECB to put its own money into tokenized securities via new Pontes DLT",
+    "url": "https://cointelegraph.com/news/ecb-money-tokenized-securities-pontes?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/ecb-money-tokenized-securities-pontes",
+    "snippet": "The ECB aims to gain firsthand DLT market experience by buying tokenized public-sector securities and settling the trades through Pontes.",
+    "published_at": "2026-09-22T11:29:35+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -162,20 +502,20 @@
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/crypto-biz-clarity-act-coinbase-sec-tokenized-stocks",
+      "id": "https://cointelegraph.com/news/ecb-money-tokenized-securities-pontes",
       "guidislink": true
     },
-    "score": 54,
+    "score": 50,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 10,
-      "institution_bonus": 40,
+      "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -201,7 +541,7 @@
     "snippet": "The central bank plans to buy euro-denominated public-sector debt and settle the transactions through its new Pontes service.",
     "published_at": "2026-09-21T19:00:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -248,7 +588,7 @@
     "snippet": "Circle is bringing Bitcoin-backed borrowing to institutional clients, allowing them to tap BTC holdings for USDC liquidity without selling their Bitcoin.",
     "published_at": "2026-09-21T16:56:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -288,37 +628,35 @@
     ]
   },
   {
-    "id": "83de57c544610ffaf16410ef3c7580b039c917bf993e92a773e7bd1d7d073f32",
+    "id": "7d74834d0f554c11842e0412e1e0c1045d94e61c88f234f624594c42e929d59b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "coindesk",
-    "title": "ECB plans to buy tokenized bonds with its own funds",
-    "url": "https://www.coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
-    "canonical_url": "https://coindesk.com/policy/2026/09/21/ecb-announces-it-will-invest-in-tokenized-securities-via-new-pontes-platform",
+    "title": "Next for the U.S. SEC: Agency's chief crypto counsel illuminates path for custody",
+    "url": "https://www.coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
+    "canonical_url": "https://coindesk.com/policy/2026/09/22/next-for-the-u-s-sec-agency-s-chief-crypto-counsel-illuminates-path-for-custody",
     "snippet": "",
-    "published_at": "2026-09-21T15:00:47+00:00",
+    "published_at": "2026-09-22T15:21:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
-      "tokenized"
+      "custody"
     ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
+    "matched_topics": [],
     "raw": {
-      "id": "b2759e4f-b10a-42ac-b190-d7d4b73e833a",
+      "id": "bc7cd57a-73c4-4e72-9731-fbc477c288fb",
       "guidislink": false
     },
-    "score": 44,
+    "score": 40,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 0,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -335,128 +673,86 @@
     ]
   },
   {
-    "id": "f20afcfc7eae70319d951cb1817e8c5924024d1ac6432f6a891e77ac7b0b69c9",
+    "id": "d29e5286079c853c04596665d660b79f0e553061d95bf4fc8262be8941903784",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "theblock",
-    "title": "‘Crypto bull market is underway,’ Tom Lee says as Bitmine nears 5% Ethereum supply target with 27,562 ETH buy",
-    "url": "https://www.theblock.co/news/business/2026-09-21-crypto-bull-market-underway-tom-lee-says-bitmine-nears-5-ethereum-supply-target-with-27562-eth-buy-415923",
-    "canonical_url": "https://theblock.co/news/business/2026-09-21-crypto-bull-market-underway-tom-lee-says-bitmine-nears-5-ethereum-supply-target-with-27562-eth-buy-415923",
-    "snippet": "Bitmine's total investments currently stand at $17.1 billion, and the company owns over 4.9% of Ethereum's circulating supply.",
-    "published_at": "2026-09-21T13:14:39+00:00",
+    "title": "Coinbase adds fixed-rate bitcoin-backed loans through Morpho Midnight",
+    "url": "https://www.theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050",
+    "canonical_url": "https://theblock.co/news/defi/2026-09-22-coinbase-fixed-rate-bitcoin-loans-morpho-midnight-416050",
+    "snippet": "Coinbase has added fixed-rate loans through Morpho Midnight, letting users borrow USDC against their bitcoin.",
+    "published_at": "2026-09-22T14:13:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "3f51b3ba-8746-53b4-af34-3a2468fd758e",
-      "guidislink": false
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "609ce7b03a7ef9be6d34947bc218966b9e290adef2d1e8dcbd914575665ac0c3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "CloudTech to bring institutional-grade crypto trading to APAC investors",
-    "url": "https://www.finextra.com/pressarticle/110932/cloudtech-to-bring-institutional-grade-crypto-trading-to-apac-investors?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/110932/cloudtech-to-bring-institutional-grade-crypto-trading-to-apac-investors",
-    "snippet": "CloudTech Group, a leading blockchain financial infrastructure firm, has launched RooRooEx, a next-generation digital asset trading platform designed to give high-net-worth and individual investors access to institutional-grade trading tools, liquidity and pricing.",
-    "published_at": "2026-09-22T00:01:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
-      "launched"
+      "USDC"
     ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/110932/cloudtech-to-bring-institutional-grade-crypto-trading-to-apac-investors?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "d9fe984bc317ccec4975bd26996d59722879e89948e56fb06a0134f965b6f976",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Treasury Secretary Scott Bessent champions dollar dominance across global markets and stablecoins",
-    "url": "https://www.coindesk.com/markets/2026/09/21/scott-bessent-champions-dollar-dominance-across-global-markets-and-stablecoins",
-    "canonical_url": "https://coindesk.com/markets/2026/09/21/scott-bessent-champions-dollar-dominance-across-global-markets-and-stablecoins",
-    "snippet": "",
-    "published_at": "2026-09-21T12:44:33+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
-    "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "937f47dd-653f-4c15-92e5-cc9a2bff0525",
+      "id": "5a9f7e93-b697-53e8-91ac-6bc01a0020af",
       "guidislink": false
     },
-    "score": 34,
+    "score": 30,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 30,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ff1491feecb8b7d2a6fe8ed926d449f569211e770720d2c8286681a7360b4971",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Binance Takes $100M Stake in Circle Under Five-Year USDC Promotion Deal",
+    "url": "https://decrypt.co/378910/binance-takes-100m-stake-in-circle-under-five-year-usdc-promotion-deal",
+    "canonical_url": "https://decrypt.co/378910/binance-takes-100m-stake-in-circle-under-five-year-usdc-promotion-deal",
+    "snippet": "The two sides closed an equity placement and a five-year commercial deal on the same day, with money moving in both directions.",
+    "published_at": "2026-09-22T11:39:37+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=378910",
+      "guidislink": false
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -482,7 +778,7 @@
     "snippet": "Ondo’s new in-kind conversion system allows approved institutions to mint and redeem tokenized stocks and ETFs using the underlying securities instead of cash.",
     "published_at": "2026-09-21T18:35:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -529,7 +825,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -564,40 +860,36 @@
     ]
   },
   {
-    "id": "2bd9e74929e0af2ed5b55f62ae3409fb629562570ef715f5eb5bf2ea48e0086e",
+    "id": "c43d8fc2f940eb018acbe8348116abcddbd927d68b55880e6cdf7dd322652291",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "coindesk",
-    "title": "Google and Apple seek crypto talent as Big Tech eyes stablecoin and tokenization rails",
-    "url": "https://www.coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
-    "canonical_url": "https://coindesk.com/business/2026/09/21/google-and-apple-seek-crypto-talent-as-big-tech-eyes-stablecoin-and-tokenization-rails",
+    "title": "Elon Musk's X brings crypto and stock trading via Coinbase, Kraken and Interactive Brokers partnership",
+    "url": "https://www.coindesk.com/markets/2026/09/22/elon-musk-s-x-brings-bitcoin-and-stock-trading-closer-to-the-timeline",
+    "canonical_url": "https://coindesk.com/markets/2026/09/22/elon-musk-s-x-brings-bitcoin-and-stock-trading-closer-to-the-timeline",
     "snippet": "",
-    "published_at": "2026-09-21T12:17:48+00:00",
+    "published_at": "2026-09-22T05:26:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "tokenization"
-    ],
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "2f8a9cfd-43ba-43e8-887a-f868559fa0eb",
+      "id": "a862c9b5-b9ba-4e03-ad89-f741048cf060",
       "guidislink": false
     },
-    "score": 14,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -623,7 +915,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -668,7 +960,7 @@
     "snippet": "Kakao Pay and KakaoBank are exploring digital asset opportunities with Fireblocks, including infrastructure for stablecoins.",
     "published_at": "2026-09-22T03:13:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -715,7 +1007,7 @@
     "snippet": "The senior roles cover Apple’s consumer payment products and Google Cloud’s institutional blockchain business in Asia.",
     "published_at": "2026-09-21T16:16:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -752,39 +1044,42 @@
     ]
   },
   {
-    "id": "ce34144aaa89e89e3074a0b9df621195235f5ce5230cd6bdb4e0b6d361b60c59",
+    "id": "ac2fd60b61d3c32fc8cfb58f063f307423b57405166b621442782b06ef46bfda",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Tom Lee's Bitmine Adds $74M in Ethereum, Declares a Crypto Bull Market 'Underway'",
-    "url": "https://decrypt.co/378754/tom-lee-bitmine-adds-ethereum-crypto-bull-market",
-    "canonical_url": "https://decrypt.co/378754/tom-lee-bitmine-adds-ethereum-crypto-bull-market",
-    "snippet": "The purchase lifts Bitmine's stash to nearly 5.99 million ETH—4.9% of supply—as chairman Tom Lee argues Ethereum's outperformance signals a stronger move ahead and institutions remain underweight.",
-    "published_at": "2026-09-21T15:00:49+00:00",
+    "feed_name": "coindesk",
+    "title": "Why Payward-backed Reap is betting on non-USD stablecoins for 24/7 cross-border FX settlement",
+    "url": "https://www.coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
+    "canonical_url": "https://coindesk.com/business/2026/09/22/visa-partner-reap-eyes-local-currency-stablecoins-in-several-countries-for-24-7-onchain-fx",
+    "snippet": "",
+    "published_at": "2026-09-22T12:05:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
+    "matched_keywords": [
+      "settlement",
+      "cross-border"
+    ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=378754",
+      "id": "11d991f0-b742-4549-b835-c7e605b97552",
       "guidislink": false
     },
-    "score": 4,
+    "score": 0,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
+      "tier2": 1,
+      "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
+      "launch_score": 10,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -807,7 +1102,7 @@
     "snippet": "Author: A finextra community member",
     "published_at": "2026-09-22T10:44:49+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-09-22T11:27:11.876680+00:00",
+    "fetched_at": "2026-09-22T15:35:36.980727+00:00",
     "matched_keywords": [
       "tokenized"
     ],

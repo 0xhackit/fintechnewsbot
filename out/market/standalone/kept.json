@@ -1,56 +1,60 @@
 [
   {
-    "id": "e193c64aef2d29c8b2578bba1479fd48e43c422b",
-    "title": "Binance buys $100 million Circle stake in five-year USDC promotion deal",
-    "link": "https://www.coindesk.com/policy/2026/09/22/binance-buys-usd100-million-circle-stake-in-five-year-usdc-promotion-deal",
-    "score": 60,
-    "snippet": "",
+    "id": "748fda2c8beb2cee44fa81e3cb5a3cbff1ee9fc5",
+    "title": "SoFi begins stablecoin settlement on Mastercard network for program expected to exceed $25 billion in annualized volume",
+    "link": "https://www.theblock.co/news/business/2026-09-22-sofi-begins-stablecoin-settlement-on-mastercard-network-for-program-expected-to-exceed-25-billion-in-annualized-volume-416035",
+    "score": 105,
+    "snippet": "SoFi launches live SoFiUSD stablecoin settlement on Mastercard's network, with its card program targeting $25 billion in annualized volume.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
     "category": "other",
     "source_tier": "B",
-    "consensus": 6,
-    "financial": 30,
+    "consensus": 4,
+    "financial": 40,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "coindesk",
+    "feed_name": "theblock",
     "source": "Google News RSS",
-    "published_at": "2026-09-22T11:07:23+00:00",
+    "published_at": "2026-09-22T12:00:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('buys')",
-    "matched": "buys",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": true,
     "origin": "rss+tree",
     "coins": []
   },
   {
-    "id": "16ab9ad87e61455107593b06bf28bab056339317",
-    "title": "Bitcoin Leads Crypto Back Above $3 Trillion as Risky Bets Grow",
-    "link": "https://www.bloomberg.com/news/articles/2026-09-22/bitcoin-leads-crypto-back-above-3-trillion-as-risky-bets-grow",
-    "score": 60,
-    "snippet": "Bitcoin Leads Crypto Back Above $3 Trillion as Risky Bets Grow",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "6d1bfdc26ee958252b81981b061fefce5eb916db",
+    "title": "European central banks push to expand stablecoin yield ban to crypto lending and staking",
+    "link": "https://www.coindesk.com/policy/2026/09/22/european-central-banks-push-to-expand-stablecoin-yield-ban-to-crypto-lending-and-staking",
+    "score": 50,
+    "snippet": "",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [],
-    "feed_name": "tree:bloomberg",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-22T07:07:30.850000+00:00",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-09-22T14:32:59+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('ban')",
+    "matched": "ban",
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   }
 ]
