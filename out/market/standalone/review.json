@@ -3,7 +3,7 @@
     "id": "eddea26f63044a71cdd2a74d705ab8fb98d5fd99",
     "title": "Galaxy Adds $100 Million in sUSDS to Corporate Treasury and Acquires SKY Galaxy Digital has purchased $100 million of Sky Protocol’s yield-bearing stablecoin sUSDS using its own balance sheet and approved it as collatera",
     "link": "https://x.com/WuBlockchain/status/2102734333828366448",
-    "score": 145,
+    "score": 139,
     "snippet": "Galaxy Adds $100 Million in sUSDS to Corporate Treasury and Acquires SKY Galaxy Digital has purchased $100 million of Sky Protocol’s yield-bearing stablecoin sUSDS using its own balance sheet and approved it as collateral across its institutional trading business, which has a $1.4 billion average lo",
     "regions": [],
     "primary_region": null,
@@ -25,6 +25,37 @@
     "origin": "tree",
     "coins": [
       "SKY"
+    ]
+  },
+  {
+    "id": "7c92591f2357d0bc8fa07805b58d16a3c6f9f138",
+    "title": "Tokenized equity trading on @RobinhoodApp, @BNBCHAIN, and @solana has been on the rise, and the SEC just issued its Innovation Exemption. The order allows onchain trading of tokenized stocks in a manner consistent with U",
+    "link": "https://x.com/Grayscale/status/2102811901545877769",
+    "score": 100,
+    "snippet": "Tokenized equity trading on @RobinhoodApp, @BNBCHAIN, and @solana has been on the rise, and the SEC just issued its Innovation Exemption. The order allows onchain trading of tokenized stocks in a manner consistent with US securities laws. Grayscale Research believes it shows that blockchain infrastr",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:grayscale",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-23T17:26:40.905000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issued')",
+    "matched": "issued",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB",
+      "SOL"
     ]
   },
   {
@@ -62,11 +93,11 @@
     ]
   },
   {
-    "id": "d357c6f7e12d0fd2c217868577c0e3ad69c0b8e9",
-    "title": "THE BLOCK: Atum raises $13.5 million and launches an open payments network for global money movement. The network connects payment companies, developers, and enterprises without issuing a currency, operating a blockchain",
-    "link": "https://x.com/TheBlockCo/status/2102669148409245992",
-    "score": 74,
-    "snippet": "THE BLOCK: Atum raises $13.5 million and launches an open payments network for global money movement. The network connects payment companies, developers, and enterprises without issuing a currency, operating a blockchain, or taking custody of funds, the company said.",
+    "id": "bc9305bf5d47793b623916de5033de313181d33f",
+    "title": "THE BLOCK: Forward Industries has entered into an agreement with an institutional investor to sell 3.125M shares of common stock at $8 per share, raising approximately $25M in gross proceeds. $FWDI The Solana-focused dig",
+    "link": "https://x.com/TheBlockCo/status/2102777616209973377",
+    "score": 75,
+    "snippet": "THE BLOCK: Forward Industries has entered into an agreement with an institutional investor to sell 3.125M shares of common stock at $8 per share, raising approximately $25M in gross proceeds. $FWDI The Solana-focused digital asset treasury company plans to use the net proceeds to acquire additional ",
     "regions": [],
     "primary_region": null,
     "category": "fundraising",
@@ -74,26 +105,139 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T07:59:25.859000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
+    "published_at": "2026-09-23T15:10:26.949000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "MOVE"
+      "FWDI",
+      "SOL"
+    ]
+  },
+  {
+    "id": "116dd13a77eda63b559f8b4f7ab036ce5937732f",
+    "title": "JUST IN: @MoonPay acquires private markets platform @NorCap for $60M+ in stock, gaining SEC-registered broker-dealer and transfer agent infrastructure to support its tokenized real-world asset ambitions.",
+    "link": "https://x.com/CoinDesk/status/2102768380646236201",
+    "score": 75,
+    "snippet": "JUST IN: @MoonPay acquires private markets platform @NorCap for $60M+ in stock, gaining SEC-registered broker-dealer and transfer agent infrastructure to support its tokenized real-world asset ambitions.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-23T14:33:44.679000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('acquires')",
+    "matched": "acquires",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "f238bae96ccab40e4275db668dd6d14a97783ebb",
+    "title": "Licensed US Bank SoFi and Mastercard Launched Stablecoin Settlements for Card Transactions - incrypted",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTTA0Sm9FZ3o0WkNJZzZBdkVmVlNFVHR6RnlxR3lZUnUxLXdrUEY0bW9aNVpYLUE3T3Q1WmJoVlNCUlBObC1ubjVLVHlreDJrSGhyUnA4U2tCM0x3S2pVNlhycmNrZFFsUHM0aXQxamFVRVNNSWdLTk84Ynkwb3BOa2Z1UkFaVkFCbnNhbmhNeHl3N2dGdzQ2TDFXdWJNWlpkRXR5WFI0WnB3V2luUnFFNWJPMVZfcGs?oc=5",
+    "score": 70,
+    "snippet": "Licensed US Bank SoFi and Mastercard Launched Stablecoin Settlements for Card Transactions incrypted",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-23T13:40:36+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('licensed')",
+    "matched": "licensed",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "d50968228d0edf13b954c519afcf5543a0752f6d",
+    "title": "MGCOne Unveils Blockchain-Powered Vision for the Future of Condo/HOA Community Management, Integrating Tokenization, Stablecoins, and AI",
+    "link": "https://www.prnewswire.com/news-releases/mgcone-unveils-blockchain-powered-vision-for-the-future-of-condohoa-community-management-integrating-tokenization-stablecoins-and-ai-302887496.html",
+    "score": 70,
+    "snippet": "MGCOne Unveils Blockchain-Powered Vision for the Future of Condo/HOA Community Management, Integrating Tokenization, Stablecoins, and AI",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-23T17:30:11.417000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "e5a9b7fe3f4eaaea95f44dad08a4cc278d3acaec",
+    "title": "CCTP is expanding beyond USDC. Developers can now move more supported assets across chains, including USDC, EURC, and cirBTC. Gateway will also add support for additional assets over time, with Bridge Kit supporting expa",
+    "link": "https://x.com/circle/status/2102790097410441273",
+    "score": 70,
+    "snippet": "CCTP is expanding beyond USDC. Developers can now move more supported assets across chains, including USDC, EURC, and cirBTC. Gateway will also add support for additional assets over time, with Bridge Kit supporting expanded multi-asset workflows. https://www.arc.io/blog/introducing-interop-on-arc-c",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-23T16:00:04.359000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('add support')",
+    "matched": "add support",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "USDC",
+      "ARC"
     ]
   },
   {
     "id": "0134a30299a459a06d58c3f704de5574f45efe5e",
     "title": "EXCLUSIVE: Galaxy adds $100 million in Sky's sUSDS to treasury, buys SKY token as firms deepen lending ties https://www.theblock.co/news/business/2026-09-23-galaxy-adds-100-million-in-skys-susds-to-treasury-buys-sky-toke",
     "link": "https://x.com/TheBlockCo/status/2102729724015382894",
-    "score": 70,
+    "score": 64,
     "snippet": "EXCLUSIVE: Galaxy adds $100 million in Sky's sUSDS to treasury, buys SKY token as firms deepen lending ties https://www.theblock.co/news/business/2026-09-23-galaxy-adds-100-million-in-skys-susds-to-treasury-buys-sky-token-as-firms-deepen-lending-ties-416137?utm_source=twitter&utm_medium=social",
     "regions": [],
     "primary_region": null,
@@ -119,7 +263,7 @@
     "id": "a6822fa9c84892e7970cc7d88479455fd530038a",
     "title": "THE BLOCK: Hyperliquid open interest has reached an all-time high of $18 billion, according to the platform. The figure represents two-sided open interest, calculated as the sum of long and short positions.",
     "link": "https://x.com/TheBlockCo/status/2102683551246549181",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Hyperliquid open interest has reached an all-time high of $18 billion, according to the platform. The figure represents two-sided open interest, calculated as the sum of long and short positions.",
     "regions": [],
     "primary_region": null,
@@ -142,11 +286,11 @@
     ]
   },
   {
-    "id": "2a28106c9fd89794cea380297d59c2750e4069a3",
-    "title": "THE BLOCK: Ondo's tokenized stocks and ETFs go live on near(dot)com through NEAR Intents. Eligible users can buy and hold tokenized NVIDIA, Tesla, Apple, and QQQ using USDC, bitcoin, or other supported assets across 30+",
-    "link": "https://x.com/TheBlockCo/status/2102663251238735966",
-    "score": 69,
-    "snippet": "THE BLOCK: Ondo's tokenized stocks and ETFs go live on near(dot)com through NEAR Intents. Eligible users can buy and hold tokenized NVIDIA, Tesla, Apple, and QQQ using USDC, bitcoin, or other supported assets across 30+ networks.",
+    "id": "50b95e98c3a60f130818390830f36bbe62eed349",
+    "title": "Fund managers choosing where to launch face two different requirements: open, composable markets, or confidential, multi-party institutional workflows. Onyx, Enzyme's fund infrastructure, runs on EVM today. It's coming t",
+    "link": "https://x.com/CantonNetwork/status/2102827336152310239",
+    "score": 60,
+    "snippet": "Fund managers choosing where to launch face two different requirements: open, composable markets, or confidential, multi-party institutional workflows. Onyx, Enzyme's fund infrastructure, runs on EVM today. It's coming to Canton next. @Enzymefinance on what that choice adds.",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -154,42 +298,37 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:cantonnetwork",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T07:35:59.791000+00:00",
+    "published_at": "2026-09-23T18:28:00.637000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('go live')",
-    "matched": "go live",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "NEAR",
-      "QQQ",
-      "USDC",
-      "BTC",
-      "ONDO"
+      "CC"
     ]
   },
   {
-    "id": "4ecd1ca46d03424e393d3616b3316a9666a6bd8f",
-    "title": "THE BLOCK: Spot bitcoin ETFs saw another day of substantial net inflows on Tuesday, totaling $715 million. The funds have attracted $1.7 billion so far this week. Spot ether ETFs reported $162.3 million in net inflows. S",
-    "link": "https://x.com/TheBlockCo/status/2102625311078969720",
-    "score": 64,
-    "snippet": "THE BLOCK: Spot bitcoin ETFs saw another day of substantial net inflows on Tuesday, totaling $715 million. The funds have attracted $1.7 billion so far this week. Spot ether ETFs reported $162.3 million in net inflows. Solana and XRP spot ETFs also posted positive flows for the day. $BTC $ETH",
+    "id": "a5d1a92ef624779e7f3d8c632abb8ebbf8200cd9",
+    "title": "THE BLOCK: Hut 8 $HUT emerged as the winning bidder for Poolin’s two Texas data center sites with a $140 million offer, nearly tripling the original $52 million combined floor bid. The former mining-pool giant filed for",
+    "link": "https://x.com/TheBlockCo/status/2102810466389205030",
+    "score": 60,
+    "snippet": "THE BLOCK: Hut 8 $HUT emerged as the winning bidder for Poolin’s two Texas data center sites with a $140 million offer, nearly tripling the original $52 million combined floor bid. The former mining-pool giant filed for bankruptcy in July with around $173 million in debt, including nearly $164 milli",
     "regions": [],
     "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 30,
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T05:05:14.230000+00:00",
+    "published_at": "2026-09-23T17:20:58.717000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -197,10 +336,33 @@
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "ETH",
-      "XRP",
-      "SOL"
+      "HUT"
+    ]
+  },
+  {
+    "id": "1b7910860d53c58eea414831135fe03789f530fd",
+    "title": "#TRON announced that @privy_io is expanding its support for the TRON blockchain, giving developers and businesses more tools to build and operate financial applications at scale on the network. With the expanded integrat",
+    "link": "https://x.com/trondao/status/2102800589063356449",
+    "score": 60,
+    "snippet": "#TRON announced that @privy_io is expanding its support for the TRON blockchain, giving developers and businesses more tools to build and operate financial applications at scale on the network. With the expanded integration, developers can use Privy to build and manage wallets and financial applicat",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:trondao",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-23T16:41:44.026000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "TRX"
     ]
   },
   {
@@ -310,10 +472,37 @@
     ]
   },
   {
+    "id": "3af81698feec4dc706d2dcb2d51154d02b675d8e",
+    "title": "Stablecoin Payments Go Live: Mastercard-SoFi's $25B Move - OneSafe.io",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0VPOVJyQWVfRllDcE5GaXZ0eV9VX2VxeEZreGxMUlBtcmR6c0ZrY3BacHFFQXBqVXg2S3pvcFlvUzZKNHhWUzM3ZUpKalNWSFJndDVjbDd3eVlKb2xZRG1YelRxTUJPU20zSi1iYTMwc056V1Y3SDM3SWlmenVmcWdBZw?oc=5",
+    "score": 55,
+    "snippet": "Stablecoin Payments Go Live: Mastercard-SoFi's $25B Move OneSafe.io",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-23T17:27:04+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('go live')",
+    "matched": "go live",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "e79137823692648112a95521dc5e027900326cf8",
     "title": "It takes just 30 mins to launch a DEX with Orderly That’s still somehow longer than it took @icobeast to nuke his entire career",
     "link": "https://x.com/OrderlyNetwork/status/2102736325086482890",
-    "score": 60,
+    "score": 54,
     "snippet": "It takes just 30 mins to launch a DEX with Orderly That’s still somehow longer than it took @icobeast to nuke his entire career",
     "regions": [],
     "primary_region": null,
@@ -338,95 +527,32 @@
     ]
   },
   {
-    "id": "999d0d6727f643df7bbad2cd74b33fda1061bddb",
-    "title": "Binance Invests $100 Million in Circle, Extends USDC Deal (1)",
-    "link": "https://news.bloomberglaw.com/crypto/binance-invests-100-million-in-circle-extends-usdc-agreement",
-    "score": 54,
-    "snippet": "Binance Invests $100 Million in Circle, Extends USDC Deal (1)",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:bloomberg law",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-23T04:09:31.850000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('invests')",
-    "matched": "invests",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "USDC",
-      "BNB"
-    ]
-  },
-  {
-    "id": "578890382ea334cf526f4ad66542e614c2fc6d10",
-    "title": "Russia Says Investors Will Bear Losses From Foreign Stablecoin Freezes; Crypto Holdings Reach $44B According to TASS, Russia has around 20 million crypto users with total holdings estimated at RUB 3.7 trillion ($44 billi",
-    "link": "https://x.com/WuBlockchain/status/2102608763203342796",
-    "score": 54,
-    "snippet": "Russia Says Investors Will Bear Losses From Foreign Stablecoin Freezes; Crypto Holdings Reach $44B According to TASS, Russia has around 20 million crypto users with total holdings estimated at RUB 3.7 trillion ($44 billion), while daily crypto transaction volume stands at roughly RUB 50 billion ($59",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T03:59:28.896000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "USDC"
-    ]
-  },
-  {
-    "id": "72484cdd046b9a28bad0b9ff31323cb730bb7d25",
-    "title": "Binance invests $100 million in USDC publisher Circle",
-    "link": "https://www.nadanews.com/369153",
-    "score": 54,
-    "snippet": "Binance invests $100 million in USDC publisher Circle",
+    "id": "e75cce32f348fa35a98b688224bf518380990fd4",
+    "title": "Crypto Long & Short: Inside the chain settling $150 billion of stablecoins a week",
+    "link": "https://www.coindesk.com/coindesk-indices/2026/09/23/crypto-long-and-short-inside-the-chain-settling-usd150-billion-of-stablecoins-a-week",
+    "score": 50,
+    "snippet": "",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 40,
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:jp-coindesk",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-23T02:20:06.132000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('invests')",
-    "matched": "invests",
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-09-23T15:07:21+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "USDC",
-      "BNB"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
     "id": "01d507a3f9ba2f7b7bd01d4647bbf14d91f38a84",
@@ -457,60 +583,31 @@
     "coins": []
   },
   {
-    "id": "eb9929e3023de9a01a213221569942bfc6e9b91a",
-    "title": "CFTC chair pushes tokenization as SEC opens door to onchain stocks",
-    "link": "https://cointelegraph.com/news/cftc-selig-mass-tokenization-sec-onchain-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "id": "325e20bc0144896c9c714eb73f35cdb2f6517b68",
+    "title": "XRP briefly reclaims $100 Billion market cap as rally tops $1.66",
+    "link": "https://www.thestreet.com/crypto/markets/xrp-briefly-reclaims-100-billion-market-cap-as-rally-tops-1-66",
     "score": 50,
-    "snippet": "Michael Selig said tokenization could reshape financial markets as the CFTC and SEC continue advancing onchain initiatives despite the CLARITY Act setback.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-23T10:06:55+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "6acff851fae5028229e20d00d69a4de6e41fad3c",
-    "title": "ECB, EU cenbanks seek changes in MiCA’s minimum bank deposit for stablecoins",
-    "link": "https://cointelegraph.com/news/escb-new-stablecoin-liquidity-rules-bank-risks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 50,
-    "snippet": "The ECB and EU central banks want to replace MiCA’s stablecoin bank-deposit requirements with liquidity thresholds, warning that sudden withdrawals could strain lenders.",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "B",
+    "snippet": "XRP briefly reclaims $100 Billion market cap as rally tops $1.66",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-22T15:37:17+00:00",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the street",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-23T15:01:45.216000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "CAP"
+    ]
   },
   {
     "id": "834a71c2460c04bf138ac01ae827297749513d96",
@@ -541,30 +638,32 @@
     ]
   },
   {
-    "id": "05399b34526d359cac67bcabe71798d147b0a428",
-    "title": "Bitcoin ETF Flows Turn Positive After $4.6 Billion Rebound",
-    "link": "https://www.bloomberg.com/news/articles/2026-09-23/bitcoin-etf-flows-turn-positive-after-4-6-billion-rebound",
-    "score": 50,
-    "snippet": "Bitcoin ETF Flows Turn Positive After $4.6 Billion Rebound",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "eb9929e3023de9a01a213221569942bfc6e9b91a",
+    "title": "CFTC chair pushes tokenization as SEC opens door to onchain stocks",
+    "link": "https://cointelegraph.com/news/cftc-selig-mass-tokenization-sec-onchain-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 44,
+    "snippet": "Michael Selig said tokenization could reshape financial markets as the CFTC and SEC continue advancing onchain initiatives despite the CLARITY Act setback.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:bloomberg",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-23T09:13:55.162000+00:00",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-09-23T10:06:55+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
     "id": "911643996f0d4d58900a11e697b8df62be6a3db3",
@@ -595,49 +694,21 @@
     "coins": []
   },
   {
-    "id": "b5040b80c6b021c665e151fdb3b3ae4ba7e8cedf",
-    "title": "'Crypto Hurdle' Solved: SoFi Is First Bank Deploying Stablecoin Settlement Across Mastercard Network - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUzhMVnRmOG5iUHZHSC1aOWRCdUpueVVlYzJiWlhqcWVnbkFlOVoyc2pYNjc3al9JTzBXeUdsUkVqUGlPR0RMa3VCSUFXSk54Ni0tZkxrWlZwTk9QdmZrRlBWWENvWWVKTFMwWmVJOGNWQURjRFdhNXJPQUk1TXh4Rm9vVHIxU2VoTWMyZUJBMkFZb1gwcnNsM01UYWFSeEJJZjhsMkJKNEs5cHduZ2FfaGpYQnFHUkFLX2Z0b3djTTlMazBCT3V3c2E0dFVja0tnMFRlZFJYV0U?oc=5",
+    "id": "05399b34526d359cac67bcabe71798d147b0a428",
+    "title": "Bitcoin ETF Flows Turn Positive After $4.6 Billion Rebound",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-23/bitcoin-etf-flows-turn-positive-after-4-6-billion-rebound",
     "score": 44,
-    "snippet": "'Crypto Hurdle' Solved: SoFi Is First Bank Deploying Stablecoin Settlement Across Mastercard Network 24/7 Wall St.",
+    "snippet": "Bitcoin ETF Flows Turn Positive After $4.6 Billion Rebound",
     "regions": [],
     "primary_region": null,
     "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-22T15:20:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "06075bb4cccd29eaba8df8521e25396d8ba36cfe",
-    "title": "Subscribe to PLUME Flexible Products to Share 70 BNB in APR Boost Giveaway",
-    "link": "https://www.treeofalpha.com/preview_article?id=1790132401445",
-    "score": 44,
-    "snippet": "Subscribe to PLUME Flexible Products to Share 70 BNB in APR Boost Giveaway",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:binance earn",
-    "source": "TreeOfAlpha/Binance EN",
-    "published_at": "2026-09-23T03:00:02.717000+00:00",
+    "feed_name": "tree:bloomberg",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-23T09:13:55.162000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -645,35 +716,33 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "PLUME",
-      "BNB",
-      "APR"
+      "BTC"
     ]
   },
   {
-    "id": "331d0a166f7db42d1c0826b333d55e6b51fce534",
-    "title": "SoFi Shares Rise as Bank Goes Live With Stablecoin Card Settlement - AskTraders",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzIzcHdMVFdlVElPc281QXdJeW92dVgyS1VhMlltcVZOcFpMT3BhNHBHRkdDeUNWdm55bENpZEdma1pmN2ZwR0V2ZkdFa19wb0hkVi1qakZYMGxMZDhfd0x3TG43ZFV5dFhVWk1yMF8yaGszQlpTdWFyazF1dzJWbEp5NlloN1BYTjhrQnNnQWhxUzdqOS1ralFRMmxvVW5vTmxUaExB?oc=5",
-    "score": 39,
-    "snippet": "SoFi Shares Rise as Bank Goes Live With Stablecoin Card Settlement AskTraders",
+    "id": "aa1314693a7e037fadc7187ad59cd90bd7ee436c",
+    "title": "Blockchain.com, NYSE plan access to tokenized US stocks and ETFs",
+    "link": "https://www.theblock.co/news/web3/2026-09-23-blockchain-com-nyse-tokenized-us-stocks-etfs-416176",
+    "score": 35,
+    "snippet": "Blockchain.com and NYSE have signed an agreement to explore tokenized stocks and ETFs, subject to regulatory approvals.",
     "regions": [],
     "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "theblock",
     "source": "Google News RSS",
-    "published_at": "2026-09-22T20:42:51+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('goes live')",
-    "matched": "goes live",
-    "fulltext": false,
-    "origin": "rss",
+    "published_at": "2026-09-23T15:36:10+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
     "coins": []
   }
 ]
