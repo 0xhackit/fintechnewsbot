@@ -1,33 +1,89 @@
 [
   {
-    "id": "7c92591f2357d0bc8fa07805b58d16a3c6f9f138",
-    "title": "Tokenized equity trading on @RobinhoodApp, @BNBCHAIN, and @solana has been on the rise, and the SEC just issued its Innovation Exemption. The order allows onchain trading of tokenized stocks in a manner consistent with U",
-    "link": "https://x.com/Grayscale/status/2102811901545877769",
-    "score": 94,
-    "snippet": "Tokenized equity trading on @RobinhoodApp, @BNBCHAIN, and @solana has been on the rise, and the SEC just issued its Innovation Exemption. The order allows onchain trading of tokenized stocks in a manner consistent with US securities laws. Grayscale Research believes it shows that blockchain infrastr",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
+    "id": "730854c7087a9f3afa1bb27b86851f72f4733df7",
+    "title": "Roughly $4 trillion in receivables gets financed annually, and almost all the funding comes from large institutions. nOPAL puts a piece of that onchain, while @strata_markets turns it into a position you can customize in",
+    "link": "https://x.com/plumenetwork/status/2103112820854268093",
+    "score": 85,
+    "snippet": "Roughly $4 trillion in receivables gets financed annually, and almost all the funding comes from large institutions. nOPAL puts a piece of that onchain, while @strata_markets turns it into a position you can customize in ways that best fit your portfolio.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:x:plumenetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T13:22:25.894000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "PLUME"
+    ]
+  },
+  {
+    "id": "2ec15fd0e931932205ac9d3699469142ec48f9aa",
+    "title": "THE BLOCK AND THE HILL ANNOUNCE STRATEGIC PARTNERSHIP TO LAUNCH \"CAPITOL CRYPTO FORUM\"",
+    "link": "https://www.prnewswire.com/news-releases/the-block-and-the-hill-announce-strategic-partnership-to-launch-capitol-crypto-forum-302888351.html",
+    "score": 80,
+    "snippet": "THE BLOCK AND THE HILL ANNOUNCE STRATEGIC PARTNERSHIP TO LAUNCH \"CAPITOL CRYPTO FORUM\"",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:grayscale",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T17:26:40.905000+00:00",
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-24T11:00:37.782000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('issued')",
-    "matched": "issued",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "116878dc134fb3b502a32973f062f65d8ca11540",
+    "title": "THE BLOCK: Paxos Labs launched PAXGy, a new token backed by PAX Gold (PAXG) designed to increase in value in gold terms rather than dollars. The reserves backing PAXGy are deployed through institutional gold-lending mark",
+    "link": "https://x.com/TheBlockCo/status/2103124301004313058",
+    "score": 75,
+    "snippet": "THE BLOCK: Paxos Labs launched PAXGy, a new token backed by PAX Gold (PAXG) designed to increase in value in gold terms rather than dollars. The reserves backing PAXGy are deployed through institutional gold-lending markets, with the resulting yield increasing the amount of PAXG each token represent",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T14:08:02.724000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BNB",
-      "SOL"
+      "PAXG",
+      "UNI",
+      "ETHFI",
+      "OKB",
+      "ZRX"
     ]
   },
   {
@@ -62,34 +118,6 @@
     ]
   },
   {
-    "id": "47badd0cdda874684e263a7c7712f62df2170d4d",
-    "title": "Aave V4 powers securities finance, from debt to tokenized stocks, enabling onchain borrowing and lending as $400 trillion is coming onchain.",
-    "link": "https://x.com/StaniKulechov/status/2102845057477083493",
-    "score": 74,
-    "snippet": "Aave V4 powers securities finance, from debt to tokenized stocks, enabling onchain borrowing and lending as $400 trillion is coming onchain.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:stanikulechov",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T19:38:25.739000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('enabling')",
-    "matched": "enabling",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AAVE"
-    ]
-  },
-  {
     "id": "5a1c86bf24e03f62546a6bd7559648a41b93a0c1",
     "title": "📈 $pPOLY is now live for Multi-Token Trading on http://Four.Meme. Issued by @Paimon_Finance and launched by @PancakeSwap's Pre-Access, $pPOLY can now be used as a trading pair asset to launch and trade Memes on http://Fo",
     "link": "https://x.com/fourdotmemezh/status/2103047059284832592",
@@ -120,23 +148,142 @@
     ]
   },
   {
-    "id": "bc9305bf5d47793b623916de5033de313181d33f",
-    "title": "THE BLOCK: Forward Industries has entered into an agreement with an institutional investor to sell 3.125M shares of common stock at $8 per share, raising approximately $25M in gross proceeds. $FWDI The Solana-focused dig",
-    "link": "https://x.com/TheBlockCo/status/2102777616209973377",
-    "score": 69,
-    "snippet": "THE BLOCK: Forward Industries has entered into an agreement with an institutional investor to sell 3.125M shares of common stock at $8 per share, raising approximately $25M in gross proceeds. $FWDI The Solana-focused digital asset treasury company plans to use the net proceeds to acquire additional ",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
+    "id": "80b86d24be39638350f41f526810610959b3a858",
+    "title": "THE BLOCK: Ondo has launched onchain portfolio tokens based on investment strategies developed by BlackRock specifically for the firm. The products give eligible non-U.S. investors exposure to diversified portfolio alloc",
+    "link": "https://x.com/TheBlockCo/status/2103111360708333941",
+    "score": 65,
+    "snippet": "THE BLOCK: Ondo has launched onchain portfolio tokens based on investment strategies developed by BlackRock specifically for the firm. The products give eligible non-U.S. investors exposure to diversified portfolio allocations through single transferable tokens.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T15:10:26.949000+00:00",
+    "published_at": "2026-09-24T13:16:37.420000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BASED",
+      "ONDO"
+    ]
+  },
+  {
+    "id": "ccdbbdefb9f1e8cad312b77a191d3dc3ff26c2cb",
+    "title": "BlackRock and Ondo Launch Tokenized ETF Portfolio Strategies for Non-U.S. Investors According to WSJ, BlackRock and Ondo Finance have launched Ondo Intelligent Portfolios, bringing BlackRock’s customized ETF portfolio st",
+    "link": "https://x.com/WuBlockchain/status/2103107123551048179",
+    "score": 65,
+    "snippet": "BlackRock and Ondo Launch Tokenized ETF Portfolio Strategies for Non-U.S. Investors According to WSJ, BlackRock and Ondo Finance have launched Ondo Intelligent Portfolios, bringing BlackRock’s customized ETF portfolio strategies onchain as transferable tokens for the first time. Available to eligibl",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T12:59:47.235000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HOME",
+      "ONDO"
+    ]
+  },
+  {
+    "id": "282fee83402b9fe5b7a781d0fd1ee831a2f3c1d1",
+    "title": "DoubleZero Announces Launch of Real-Time Hyperliquid Market Data on Edge",
+    "link": "https://www.prnewswire.com/news-releases/doublezero-announces-launch-of-real-time-hyperliquid-market-data-on-edge-302889337.html",
+    "score": 60,
+    "snippet": "DoubleZero Announces Launch of Real-Time Hyperliquid Market Data on Edge",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-24T14:00:11.500000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HYPE",
+      "2Z"
+    ]
+  },
+  {
+    "id": "22577b8b3de4a0ec16f0cf18adf5a5090ac202a8",
+    "title": "2Z: DoubleZero Announces Launch of Real-Time Hyperliquid Market Data on Edge",
+    "link": "https://doublezero.xyz/journal/doublezero-announces-launch-of-real-time-hyperliquid-market-data-on-edge",
+    "score": 60,
+    "snippet": "2Z: DoubleZero Announces Launch of Real-Time Hyperliquid Market Data on Edge",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:blogs",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-24T13:47:59.521000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HYPE",
+      "2Z"
+    ]
+  },
+  {
+    "id": "4c2b6a125d5ae2912dc3c09ffd1d5ce267a23d79",
+    "title": "Quantumnet is live. Tezos’ first experimental post-quantum testnet brings the core pieces of a quantum-resistant blockchain together in one place for engineers, bakers and the wider technical community to test in the ope",
+    "link": "https://x.com/tezos/status/2103113325777207302",
+    "score": 60,
+    "snippet": "Quantumnet is live. Tezos’ first experimental post-quantum testnet brings the core pieces of a quantum-resistant blockchain together in one place for engineers, bakers and the wider technical community to test in the open. Learn more ↓ https://spotlight.tezos.com/introducing-quantumnet/",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:tezos",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T13:24:26.151000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -144,100 +291,195 @@
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "FWDI",
-      "SOL"
+      "XTZ"
     ]
   },
   {
-    "id": "116dd13a77eda63b559f8b4f7ab036ce5937732f",
-    "title": "JUST IN: @MoonPay acquires private markets platform @NorCap for $60M+ in stock, gaining SEC-registered broker-dealer and transfer agent infrastructure to support its tokenized real-world asset ambitions.",
-    "link": "https://x.com/CoinDesk/status/2102768380646236201",
-    "score": 69,
-    "snippet": "JUST IN: @MoonPay acquires private markets platform @NorCap for $60M+ in stock, gaining SEC-registered broker-dealer and transfer agent infrastructure to support its tokenized real-world asset ambitions.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
+    "id": "bdb7d646df2ce89950ab7a5f28cc9fe43b2cfb47",
+    "title": "Quantumnet is live. Tezos’ first experimental post-quantum testnet brings the core pieces of a quantum-resistant blockchain together in one place for engineers, bakers and the wider technical community to test in the ope",
+    "link": "https://x.com/tezos/status/2103110279953584371",
+    "score": 60,
+    "snippet": "Quantumnet is live. Tezos’ first experimental post-quantum testnet brings the core pieces of a quantum-resistant blockchain together in one place for engineers, bakers and the wider technical community to test in the open. Learn more ↓ https://spotlight.tezos.com/introducing-quantumnet/",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:tezos",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T13:12:19.820000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XTZ"
+    ]
+  },
+  {
+    "id": "c5176842aa681bab678736bc7024ab98858c1a17",
+    "title": "The Bitcoin Collateral Vaults mainnet demo launch is a big story. More to come.",
+    "link": "https://x.com/ZestProtocol/status/2103099665642328182",
+    "score": 60,
+    "snippet": "The Bitcoin Collateral Vaults mainnet demo launch is a big story. More to come.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:coindesk",
+    "feed_name": "tree:x:zestprotocol",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T14:33:44.679000+00:00",
+    "published_at": "2026-09-24T12:30:09.369000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('acquires')",
-    "matched": "acquires",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "ZEST",
+      "BTC"
+    ]
   },
   {
-    "id": "d50968228d0edf13b954c519afcf5543a0752f6d",
-    "title": "MGCOne Unveils Blockchain-Powered Vision for the Future of Condo/HOA Community Management, Integrating Tokenization, Stablecoins, and AI",
-    "link": "https://www.prnewswire.com/news-releases/mgcone-unveils-blockchain-powered-vision-for-the-future-of-condohoa-community-management-integrating-tokenization-stablecoins-and-ai-302887496.html",
-    "score": 64,
-    "snippet": "MGCOne Unveils Blockchain-Powered Vision for the Future of Condo/HOA Community Management, Integrating Tokenization, Stablecoins, and AI",
-    "regions": [],
-    "primary_region": null,
+    "id": "e8fc745eabe4123d398cc492d52526ef3e687bde",
+    "title": "From @avax’s Avalanche Summit to @Arc’s Mainnet launch, New York was full of great conversations and fresh ideas. Grateful to everyone who connected with us. Excited for what’s ahead. 🪁",
+    "link": "https://x.com/GoKiteAI/status/2103075863499857996",
+    "score": 60,
+    "snippet": "From @avax’s Avalanche Summit to @Arc’s Mainnet launch, New York was full of great conversations and fresh ideas. Grateful to everyone who connected with us. Excited for what’s ahead. 🪁",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:gokiteai",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T10:55:34.273000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "KITE",
+      "AVAX",
+      "ARC"
+    ]
+  },
+  {
+    "id": "175130141cea069568f481bf350bb2793fe2a8d2",
+    "title": "NEW: @PaxosLabs, has launched PAXGy, a gold-backed token built on $1.8B+ PAX Gold (PAXG) issued by @Paxos that accrues in gold terms. PAXGy is powered by CCIP as its exclusive cross-chain infra & Chainlink Price Feeds fo",
+    "link": "https://x.com/chainlink/status/2103113892712841592",
+    "score": 55,
+    "snippet": "NEW: @PaxosLabs, has launched PAXGy, a gold-backed token built on $1.8B+ PAX Gold (PAXG) issued by @Paxos that accrues in gold terms. PAXGy is powered by CCIP as its exclusive cross-chain infra & Chainlink Price Feeds for reliable onchain pricing to enable adoption across DeFi.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:prn",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-23T17:30:11.417000+00:00",
+    "feed_name": "tree:x:chainlink",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T13:26:41.224000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('unveils')",
-    "matched": "unveils",
-    "fulltext": true,
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "LINK",
+      "PAXG"
+    ]
   },
   {
-    "id": "e5a9b7fe3f4eaaea95f44dad08a4cc278d3acaec",
-    "title": "CCTP is expanding beyond USDC. Developers can now move more supported assets across chains, including USDC, EURC, and cirBTC. Gateway will also add support for additional assets over time, with Bridge Kit supporting expa",
-    "link": "https://x.com/circle/status/2102790097410441273",
-    "score": 64,
-    "snippet": "CCTP is expanding beyond USDC. Developers can now move more supported assets across chains, including USDC, EURC, and cirBTC. Gateway will also add support for additional assets over time, with Bridge Kit supporting expanded multi-asset workflows. https://www.arc.io/blog/introducing-interop-on-arc-c",
-    "regions": [],
-    "primary_region": null,
+    "id": "aebf45ddf3ad37ee8dfa860187a81d67b71dc276",
+    "title": "Ondo Launches Intelligent Portfolios, Powered by BlackRock, Bringing Portfolio Strategies Onchain",
+    "link": "https://www.prnewswire.com/news-releases/ondo-launches-intelligent-portfolios-powered-by-blackrock-bringing-portfolio-strategies-onchain-302889264.html",
+    "score": 55,
+    "snippet": "Ondo Launches Intelligent Portfolios, Powered by BlackRock, Bringing Portfolio Strategies Onchain",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T16:00:04.359000+00:00",
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-24T13:00:37.409000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('add support')",
-    "matched": "add support",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ONDO"
+    ]
+  },
+  {
+    "id": "c32428e48ca2c71c295bc9dc767345c6837ffc62",
+    "title": "Introducing Ondo Intelligent Portfolios, the first three portfolios powered by BlackRock. Ondo Intelligent Portfolios introduces a new onchain product category: curated investment portfolios delivered as single onchain t",
+    "link": "https://x.com/Ondo/status/2103106602593087575",
+    "score": 55,
+    "snippet": "Introducing Ondo Intelligent Portfolios, the first three portfolios powered by BlackRock. Ondo Intelligent Portfolios introduces a new onchain product category: curated investment portfolios delivered as single onchain transferable tokens. The first three portfolios are based on portfolio strategies",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ondo",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T12:57:43.003000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduces')",
+    "matched": "introduces",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "USDC",
-      "ARC"
+      "ONDO",
+      "HOME",
+      "BASED"
     ]
   },
   {
     "id": "bde413303bc6cfe1d96a72da845e68712e532ae7",
     "title": "THE BLOCK: Spot bitcoin ETFs saw $347 million in net inflows on Wednesday, extending their positive streak to five days. Spot ether ETFs recorded $104.6 million in net inflows. $BTC $ETH",
     "link": "https://x.com/TheBlockCo/status/2102993735483310117",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: Spot bitcoin ETFs saw $347 million in net inflows on Wednesday, extending their positive streak to five days. Spot ether ETFs recorded $104.6 million in net inflows. $BTC $ETH",
     "regions": [],
     "primary_region": null,
@@ -264,7 +506,7 @@
     "id": "6352ff168d79d2a2fea9ad863865c2957b6f346c",
     "title": "U.S. spot Bitcoin ETFs recorded $347 million in net inflows on Sept. 23, according to SoSoValue, with BlackRock’s IBIT leading the group at $166 million. Spot Ether ETFs also posted $105 million in net inflows, led by Bl",
     "link": "https://x.com/WuBlockchain/status/2102972781084184906",
-    "score": 60,
+    "score": 54,
     "snippet": "U.S. spot Bitcoin ETFs recorded $347 million in net inflows on Sept. 23, according to SoSoValue, with BlackRock’s IBIT leading the group at $166 million. Spot Ether ETFs also posted $105 million in net inflows, led by BlackRock’s ETHA with about $50.8 million. Combined inflows across the two major U",
     "regions": [
       "US"
@@ -317,49 +559,21 @@
     ]
   },
   {
-    "id": "50b95e98c3a60f130818390830f36bbe62eed349",
-    "title": "Fund managers choosing where to launch face two different requirements: open, composable markets, or confidential, multi-party institutional workflows. Onyx, Enzyme's fund infrastructure, runs on EVM today. It's coming t",
-    "link": "https://x.com/CantonNetwork/status/2102827336152310239",
-    "score": 54,
-    "snippet": "Fund managers choosing where to launch face two different requirements: open, composable markets, or confidential, multi-party institutional workflows. Onyx, Enzyme's fund infrastructure, runs on EVM today. It's coming to Canton next. @Enzymefinance on what that choice adds.",
+    "id": "17a6574cf193c21220518aee4a53064a28acbdbe",
+    "title": "NEW: Bitcoin mining services firm Luxor is expanding into AI infrastructure, extending its energy, hardware, software, and compute trading operations into the sector. Luxor's hardware brokerage desk has previously traded",
+    "link": "https://x.com/TheBlockCo/status/2103124306813440101",
+    "score": 50,
+    "snippet": "NEW: Bitcoin mining services firm Luxor is expanding into AI infrastructure, extending its energy, hardware, software, and compute trading operations into the sector. Luxor's hardware brokerage desk has previously traded more than $1 billion of bitcoin mining ASICs.",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:cantonnetwork",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T18:28:00.637000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "CC"
-    ]
-  },
-  {
-    "id": "a5d1a92ef624779e7f3d8c632abb8ebbf8200cd9",
-    "title": "THE BLOCK: Hut 8 $HUT emerged as the winning bidder for Poolin’s two Texas data center sites with a $140 million offer, nearly tripling the original $52 million combined floor bid. The former mining-pool giant filed for",
-    "link": "https://x.com/TheBlockCo/status/2102810466389205030",
-    "score": 54,
-    "snippet": "THE BLOCK: Hut 8 $HUT emerged as the winning bidder for Poolin’s two Texas data center sites with a $140 million offer, nearly tripling the original $52 million combined floor bid. The former mining-pool giant filed for bankruptcy in July with around $173 million in debt, including nearly $164 milli",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
+    "financial": 40,
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T17:20:58.717000+00:00",
+    "published_at": "2026-09-24T14:08:04.089000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -367,34 +581,145 @@
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "HUT"
+      "BTC"
     ]
   },
   {
-    "id": "1b7910860d53c58eea414831135fe03789f530fd",
-    "title": "#TRON announced that @privy_io is expanding its support for the TRON blockchain, giving developers and businesses more tools to build and operate financial applications at scale on the network. With the expanded integrat",
-    "link": "https://x.com/trondao/status/2102800589063356449",
-    "score": 54,
-    "snippet": "#TRON announced that @privy_io is expanding its support for the TRON blockchain, giving developers and businesses more tools to build and operate financial applications at scale on the network. With the expanded integration, developers can use Privy to build and manage wallets and financial applicat",
+    "id": "36ec315bd960693d3cf14fdc4b3088b15deada91",
+    "title": "Why is the Injective Meridian Mainnet Upgrade a big deal? It will bring to $INJ ▸ Regulated tokenized securities ▸ Injective CypherOS testnet alpha: Native onchain privacy ▸ Novel Onchain INJ Expansion ▸ Next-gen RFQ per",
+    "link": "https://x.com/injective/status/2103120562298220566",
+    "score": 50,
+    "snippet": "Why is the Injective Meridian Mainnet Upgrade a big deal? It will bring to $INJ ▸ Regulated tokenized securities ▸ Injective CypherOS testnet alpha: Native onchain privacy ▸ Novel Onchain INJ Expansion ▸ Next-gen RFQ perp markets ▸ Major [REDACTED] release L O A D I N G",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:trondao",
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:injective",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-23T16:41:44.026000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('integration')",
-    "matched": "integration",
+    "published_at": "2026-09-24T13:53:11.998000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "TRX"
+      "INJ"
     ]
+  },
+  {
+    "id": "66e975ade5191b1139a5cac084d6a9420c5b1643",
+    "title": "CFTC Chairman Michael Selig @ChairmanSelig: “Mass tokenization. 24/7 trading. It’s GO TIME.” At the same time, U.S. Google search interest for “tokenization” has surged to its highest level in this period. Our focus: the",
+    "link": "https://x.com/Chiliz/status/2103094217044353423",
+    "score": 50,
+    "snippet": "CFTC Chairman Michael Selig @ChairmanSelig: “Mass tokenization. 24/7 trading. It’s GO TIME.” At the same time, U.S. Google search interest for “tokenization” has surged to its highest level in this period. Our focus: the tokenization of sports equity.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:chiliz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T12:08:30.063000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CHZ"
+    ]
+  },
+  {
+    "id": "cf36173b837b388623ac3b03881c85fc711cb9d0",
+    "title": "CryptoRank: RWA Trading Volume on Perpetual DEXs Reached $365 Billion in Q3, Up 32% Quarter-on-Quarter According to CryptoRank, RWA trading volume across perpetual DEXs reached $365 billion in the third quarter of 2026,",
+    "link": "https://x.com/WuBlockchain/status/2103091081395179568",
+    "score": 50,
+    "snippet": "CryptoRank: RWA Trading Volume on Perpetual DEXs Reached $365 Billion in Q3, Up 32% Quarter-on-Quarter According to CryptoRank, RWA trading volume across perpetual DEXs reached $365 billion in the third quarter of 2026, up 32% quarter-on-quarter. Despite a monthly decline in August and September, qu",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T11:56:02.584000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "8740daf59cda1b21f3644f49d503a7c114f3b4dd",
+    "title": "NEW: Nscale is preparing to go public as crypto-linked infrastructure firms push deeper into the AI compute market. Bitcoin miners have contracted around 9 GW of power across more than 20 AI deals worth over $180 billion",
+    "link": "https://x.com/TheBlockCo/status/2103073580686983599",
+    "score": 50,
+    "snippet": "NEW: Nscale is preparing to go public as crypto-linked infrastructure firms push deeper into the AI compute market. Bitcoin miners have contracted around 9 GW of power across more than 20 AI deals worth over $180 billion over the past two years, according to Bernstein.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T10:46:30.075000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "035b1abb99b92a13dc1b45bbf99021e7937017a9",
+    "title": "NEW: Lloyds Bank, NatWest, Barclays and HSBC complete the UK's first interbank tokenized deposit transfers.",
+    "link": "https://x.com/CoinDesk/status/2103050238072164853",
+    "score": 50,
+    "snippet": "NEW: Lloyds Bank, NatWest, Barclays and HSBC complete the UK's first interbank tokenized deposit transfers.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-24T09:13:44.496000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "6542c3bc33662cecdf0b6766687c649ff946e66b",
@@ -424,59 +749,6 @@
     ]
   },
   {
-    "id": "efa502f4fd60298fcf1b7528d99ca05b3410b099",
-    "title": "NEW: UK banks have completed the world's first interbank transactions using tokenized deposits, Reuters reported. Lloyds, NatWest, and Barclays conducted two remortgage transactions, while three banks, including HSBC, te",
-    "link": "https://x.com/TheBlockCo/status/2103033121499394502",
-    "score": 50,
-    "snippet": "NEW: UK banks have completed the world's first interbank transactions using tokenized deposits, Reuters reported. Lloyds, NatWest, and Barclays conducted two remortgage transactions, while three banks, including HSBC, tested a person-to-person payment.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-24T08:05:43.722000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "92edade5b1a3f16bf643d163cb333977705d9e97",
-    "title": "Bitcoin Bulls Eye Next Leg as $15 Billion Options Expiry Nears",
-    "link": "https://www.bloomberg.com/news/articles/2026-09-24/bitcoin-bulls-eye-next-leg-as-15-billion-options-expiry-nears",
-    "score": 50,
-    "snippet": "Bitcoin Bulls Eye Next Leg as $15 Billion Options Expiry Nears",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:bloomberg",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-24T06:01:00.546000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
     "id": "3af81698feec4dc706d2dcb2d51154d02b675d8e",
     "title": "Stablecoin Payments Go Live: Mastercard-SoFi's $25B Move - OneSafe.io",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOR0VPOVJyQWVfRllDcE5GaXZ0eV9VX2VxeEZreGxMUlBtcmR6c0ZrY3BacHFFQXBqVXg2S3pvcFlvUzZKNHhWUzM3ZUpKalNWSFJndDVjbDd3eVlKb2xZRG1YelRxTUJPU20zSi1iYTMwc056V1Y3SDM3SWlmenVmcWdBZw?oc=5",
@@ -499,7 +771,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('go live')",
     "matched": "go live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -541,7 +813,7 @@
     "primary_region": "US",
     "category": "other",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 40,
     "matched_topics": [
       "Stablecoin adoption"
@@ -554,81 +826,25 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "01d507a3f9ba2f7b7bd01d4647bbf14d91f38a84",
-    "title": "ESMA to prioritize EU-wide AI and tokenization supervision in 2027",
-    "link": "https://cointelegraph.com/news/esma-to-focus-eu-wide-supervision-on-ai-and-tokenization-from-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 44,
-    "snippet": "National regulators will map client-facing uses of the technologies, check a subset of firms and develop common approaches to oversight.",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-23T13:40:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
   {
-    "id": "eb9929e3023de9a01a213221569942bfc6e9b91a",
-    "title": "CFTC chair pushes tokenization as SEC opens door to onchain stocks",
-    "link": "https://cointelegraph.com/news/cftc-selig-mass-tokenization-sec-onchain-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "id": "92edade5b1a3f16bf643d163cb333977705d9e97",
+    "title": "Bitcoin Bulls Eye Next Leg as $15 Billion Options Expiry Nears",
+    "link": "https://www.bloomberg.com/news/articles/2026-09-24/bitcoin-bulls-eye-next-leg-as-15-billion-options-expiry-nears",
     "score": 44,
-    "snippet": "Michael Selig said tokenization could reshape financial markets as the CFTC and SEC continue advancing onchain initiatives despite the CLARITY Act setback.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-09-23T10:06:55+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "325e20bc0144896c9c714eb73f35cdb2f6517b68",
-    "title": "XRP briefly reclaims $100 Billion market cap as rally tops $1.66",
-    "link": "https://www.thestreet.com/crypto/markets/xrp-briefly-reclaims-100-billion-market-cap-as-rally-tops-1-66",
-    "score": 44,
-    "snippet": "XRP briefly reclaims $100 Billion market cap as rally tops $1.66",
+    "snippet": "Bitcoin Bulls Eye Next Leg as $15 Billion Options Expiry Nears",
     "regions": [],
     "primary_region": null,
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:the street",
+    "feed_name": "tree:bloomberg",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-23T15:01:45.216000+00:00",
+    "published_at": "2026-09-24T06:01:00.546000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -636,16 +852,15 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XRP",
-      "CAP"
+      "BTC"
     ]
   },
   {
     "id": "15b2a3b456f5ddd60a4b6aab410e63e8775217ce",
-    "title": "Binance.US Launches Self-Custody Wallet to Bring Onchain Access to Users - Cryptonews.net",
+    "title": "Binance.US Launches Self-Custody Wallet to Bring Onchain Access to Users - cryptonews.net",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Q3NaeDhYWnBNZF9kYjU4M1lUdEwyZExlNFdiWVZoWTcyN0NJSmZTZlppaHMwM0xpU2V0THZPQ2UteFI5OU9qYUFUY3BpdTBPcHhHZFlJSQ?oc=5",
     "score": 39,
-    "snippet": "Binance.US Launches Self-Custody Wallet to Bring Onchain Access to Users Cryptonews.net",
+    "snippet": "Binance.US Launches Self-Custody Wallet to Bring Onchain Access to Users cryptonews.net",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -662,8 +877,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "58e0896c2aedf6eb6617ca56c63e19dd945905b8",
+    "title": "IBM opens beta Swift ledger link for 24/7 tokenized deposits",
+    "link": "https://cointelegraph.com/news/ibm-banks-swift-ledger-tokenized-deposit-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 35,
+    "snippet": "IBM’s beta link lets banks instruct tokenized deposit transfers on Swift’s ledger using existing payment messages and compliance processes.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-09-24T13:29:06+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
     "coins": []
   }
 ]
