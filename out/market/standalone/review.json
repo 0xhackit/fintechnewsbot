@@ -3,7 +3,7 @@
     "id": "2c72785341ec04117444d86e27d8ef34e28478ef",
     "title": "Ethena is partnering with @Binance as our first venue for the extension of the basis trade into equity perpetuals, one of the most exciting updates to the USDe collateral backing since launch. This expands the addressabl",
     "link": "https://x.com/ethena/status/2103439484113346986",
-    "score": 95,
+    "score": 89,
     "snippet": "Ethena is partnering with @Binance as our first venue for the extension of the basis trade into equity perpetuals, one of the most exciting updates to the USDe collateral backing since launch. This expands the addressable market of underlying collateral from $2.5 trillion of crypto to $150 trillion+",
     "regions": [],
     "primary_region": null,
@@ -21,7 +21,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ENA",
@@ -29,27 +29,24 @@
     ]
   },
   {
-    "id": "35f313ea90ba76fa90ba34cef5f3a1f143608de2",
-    "title": "WuBlockchain Weekly: Bitget suffers a $351.6 million security breach, the ECB launches blockchain-based settlement in central bank money, Binance expands into stock trading and deepens its USDC partnership with Circle, w",
-    "link": "https://x.com/WuBlockchain/status/2103442528586563910",
+    "id": "e48c8b949721f2f1d5652c5f4af33e7480b55892",
+    "title": "Injective is climbing the RWA rankings with over $1 Billion in assets tokenized on $INJ In the coming months, these numbers will continue to scale as Injective launches brand new products such as Injective Mint, designed",
+    "link": "https://twitter.com/injective/status/2103502738944311601",
     "score": 85,
-    "snippet": "WuBlockchain Weekly: Bitget suffers a $351.6 million security breach, the ECB launches blockchain-based settlement in central bank money, Binance expands into stock trading and deepens its USDC partnership with Circle, while Coinbase opens IPO access to U.S. retail users. This week also saw further ",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
+    "snippet": "Injective is climbing the RWA rankings with over $1 Billion in assets tokenized on $INJ In the coming months, these numbers will continue to scale as Injective launches brand new products such as Injective Mint, designed to accelerate institutional adoption like never before. https://t.co/P84kW0VxZ4",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:wublockchain",
+    "feed_name": "tree:x:injective",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-25T11:12:34.300000+00:00",
+    "published_at": "2026-09-25T15:11:49.854000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
@@ -57,10 +54,7 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "USDC",
-      "MMT",
-      "BNB",
-      "BASED"
+      "INJ"
     ]
   },
   {
@@ -83,7 +77,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('acquires')",
     "matched": "acquires",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -114,7 +108,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "USDC",
@@ -143,37 +137,45 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approved')",
     "matched": "approved",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "SKY"
     ]
   },
   {
-    "id": "85cebd1edb332c88bc2a923c5be40ae1841cd113",
-    "title": "THE BLOCK: U.S. spot bitcoin ETFs saw $190.7 million in net inflows on Thursday, extending their net inflow streak to six sessions and bringing cumulative net inflows to $57.4 billion. $BTC Spot ether ETFs added $66 mill",
-    "link": "https://x.com/TheBlockCo/status/2103417954511577254",
-    "score": 70,
-    "snippet": "THE BLOCK: U.S. spot bitcoin ETFs saw $190.7 million in net inflows on Thursday, extending their net inflow streak to six sessions and bringing cumulative net inflows to $57.4 billion. $BTC Spot ether ETFs added $66 million, marking a fifth straight day of net inflows. $ETH",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "35f313ea90ba76fa90ba34cef5f3a1f143608de2",
+    "title": "WuBlockchain Weekly: Bitget suffers a $351.6 million security breach, the ECB launches blockchain-based settlement in central bank money, Binance expands into stock trading and deepens its USDC partnership with Circle, w",
+    "link": "https://x.com/WuBlockchain/status/2103442528586563910",
+    "score": 79,
+    "snippet": "WuBlockchain Weekly: Bitget suffers a $351.6 million security breach, the ECB launches blockchain-based settlement in central bank money, Binance expands into stock trading and deepens its USDC partnership with Circle, while Coinbase opens IPO access to U.S. retail users. This week also saw further ",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-25T09:34:55.476000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
+    "published_at": "2026-09-25T11:12:34.300000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "ETH"
+      "USDC",
+      "MMT",
+      "BNB",
+      "BASED"
     ]
   },
   {
@@ -196,18 +198,45 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('lawsuit')",
     "matched": "lawsuit",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ZRO"
     ]
   },
   {
-    "id": "b3df76b883142b864cff148639347421ae2ca1c3",
-    "title": "Hamco to launch tokenized Pan-Asia private equity fund with Chainlink, Synthesys - Dealroom",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZWxmM1N1NjZramgxWk9qVDlSay1vSWxzckd1NWtucldIc2FmdnRzaUo5UEloOUJ2WTQ3NDlFbFFpTGxrVnFRcE1MWG9oZ2FqWWRkdm5kalZsQWMzV3d3RDRSd1RsWEJrT2duOVBCOUlHTHp0OUEyQzRFLWFsYlIzOXhOUVZBa1Vzd0FwV1hQb3I0REF4Si1sRkxBLW1UaE41WnprR1dfVjltRkZCNWtuaEtfSQ?oc=5",
+    "id": "85cebd1edb332c88bc2a923c5be40ae1841cd113",
+    "title": "THE BLOCK: U.S. spot bitcoin ETFs saw $190.7 million in net inflows on Thursday, extending their net inflow streak to six sessions and bringing cumulative net inflows to $57.4 billion. $BTC Spot ether ETFs added $66 mill",
+    "link": "https://x.com/TheBlockCo/status/2103417954511577254",
     "score": 64,
-    "snippet": "Hamco to launch tokenized Pan-Asia private equity fund with Chainlink, Synthesys Dealroom",
+    "snippet": "THE BLOCK: U.S. spot bitcoin ETFs saw $190.7 million in net inflows on Thursday, extending their net inflow streak to six sessions and bringing cumulative net inflows to $57.4 billion. $BTC Spot ether ETFs added $66 million, marking a fifth straight day of net inflows. $ETH",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-25T09:34:55.476000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "58c3a6561084383a19ea07b3bf0009dcf4ff7c9c",
+    "title": "Oct 1 | 3pm EST | Private launch session for the waitlist $5,000 in trading balance given away to people in the room! @EmanAbio and Shaan Varia (GM of Onchain Finance) go live on DeepBook App, place real trades on camera",
+    "link": "https://x.com/DeepBookonSui/status/2103544829141713078",
+    "score": 60,
+    "snippet": "Oct 1 | 3pm EST | Private launch session for the waitlist $5,000 in trading balance given away to people in the room! @EmanAbio and Shaan Varia (GM of Onchain Finance) go live on DeepBook App, place real trades on camera, and take your questions RSVP with your waitlist email to get in 📘 https://luma",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -215,19 +244,20 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-09-24T17:55:32+00:00",
+    "feed_name": "tree:x:deepbookonsui",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-25T17:59:04.830000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "DEEP"
+    ]
   },
   {
     "id": "a65634a0b58ff5ffebbfcede1b071a4db4ffc20f",
@@ -256,141 +286,103 @@
     "coins": []
   },
   {
-    "id": "e5da20c8d971b6ad6581084d4b92285a773edc76",
-    "title": "The newest episode of Foundations by Litecoin invites @LuxxfolioH's @phillyjevs, in conversation with @missteencrypto, discussing them launching the very first dedicated Litecoin Treasury to expanding their mining operat",
-    "link": "https://x.com/LTCFoundation/status/2103219199015518368",
-    "score": 59,
-    "snippet": "The newest episode of Foundations by Litecoin invites @LuxxfolioH's @phillyjevs, in conversation with @missteencrypto, discussing them launching the very first dedicated Litecoin Treasury to expanding their mining operations. There's even a mention of giving back to the Foundation through their new ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:ltcfoundation",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-24T20:25:08.122000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "LTC"
-    ]
-  },
-  {
-    "id": "f7964360a08afd50b78e560b8d7c695e12bf9bb1",
-    "title": "Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto",
-    "link": "https://news.bloomberglaw.com/crypto/fed-unveils-more-stablecoin-plans-as-regulators-embrace-crypto",
-    "score": 59,
-    "snippet": "Fed Unveils More Stablecoin Plans As Regulators Embrace Crypto",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:bloomberg law",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-24T19:10:01.628000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('unveils')",
-    "matched": "unveils",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "dbfebf424af4951e5bda0f65a39c5147aa48265b",
-    "title": "NEW: @Ethena partners with @Binance to back $USDe with tokenized stocks as spot collateral, hedged with equity perpetuals, bringing the same delta-neutral structure it uses for crypto to real-world assets.",
-    "link": "https://x.com/CoinDesk/status/2103455202951168278",
-    "score": 55,
-    "snippet": "NEW: @Ethena partners with @Binance to back $USDe with tokenized stocks as spot collateral, hedged with equity perpetuals, bringing the same delta-neutral structure it uses for crypto to real-world assets.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-25T12:02:55.814000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "USDE",
-      "BNB",
-      "ENA"
-    ]
-  },
-  {
-    "id": "ba35ed08a9b77d5e567e89ba7e36eab12df8aedd",
-    "title": "NEW: @Ethena partners with @Binance to back $USDe with tokenized stocks as spot collateral, hedged with equity perpetuals, bringing the same delta-neutral structure it uses for crypto to real-world assets.",
-    "link": "https://x.com/CoinDesk/status/2103454637718397296",
-    "score": 55,
-    "snippet": "NEW: @Ethena partners with @Binance to back $USDe with tokenized stocks as spot collateral, hedged with equity perpetuals, bringing the same delta-neutral structure it uses for crypto to real-world assets.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-25T12:00:41.078000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "USDE",
-      "BNB",
-      "ENA"
-    ]
-  },
-  {
-    "id": "767d066386e72d0f1faa2442ca1a91db1b314c28",
-    "title": "THE BLOCK: Sequans Communications has sold its remaining 314 $BTC, completing its exit from the company's Bitcoin treasury strategy. The semiconductor company said it now holds no cryptocurrency and will focus on its IoT",
-    "link": "https://x.com/TheBlockCo/status/2103419940141195691",
+    "id": "83d0af98f92767f296dd51bb3ef796e8cb8f7f24",
+    "title": "Encrypted balances. Encrypted amounts. Live on Aptos mainnet. Confidential $APT allows users to encrypt both at the protocol level. Addresses remain visible, offering a clear pathway to accountability and compliant use c",
+    "link": "https://x.com/Aptos/status/2103545093244555494",
     "score": 50,
-    "snippet": "THE BLOCK: Sequans Communications has sold its remaining 314 $BTC, completing its exit from the company's Bitcoin treasury strategy. The semiconductor company said it now holds no cryptocurrency and will focus on its IoT and software-defined radio businesses.",
+    "snippet": "Encrypted balances. Encrypted amounts. Live on Aptos mainnet. Confidential $APT allows users to encrypt both at the protocol level. Addresses remain visible, offering a clear pathway to accountability and compliant use cases. Fully opt-in. Via @TheStreet https://www.thestreet.com/crypto/innovation/a",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:aptos",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-25T18:00:07.643000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('clear')",
+    "matched": "clear",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "APT"
+    ]
+  },
+  {
+    "id": "62613f7cf117727e4ba2e1b1d168e87ff799a315",
+    "title": "$50 billion investment firm says Bitcoin is becoming a portfolio staple",
+    "link": "https://www.thestreet.com/crypto/markets/50-billion-investment-firm-says-bitcoin-is-becoming-a-portfolio-staple",
+    "score": 50,
+    "snippet": "$50 billion investment firm says Bitcoin is becoming a portfolio staple",
     "regions": [],
     "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-25T09:42:48.407000+00:00",
+    "feed_name": "tree:the street",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-25T17:05:42.661000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('investment')",
+    "matched": "investment",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "1ef1cff994481649f38d154d3e738b322d255ce5",
+    "title": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+    "link": "https://decrypt.co/379319",
+    "score": 50,
+    "snippet": "Bitcoin Rally Slows as $15.6 Billion Options Expiry Hits—XRP and Solana Keep Climbing",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-25T16:06:20.254000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "BTC",
+      "SOL"
+    ]
+  },
+  {
+    "id": "aed63bde3850924f379bb1ba9f968508883bf58e",
+    "title": "EU Quantum Shock: $504 Billion Of Bitcoin Has No Migration Plan",
+    "link": "https://www.forbes.com/sites/boazsobrado/2026/09/25/eu-quantum-shock-504-billion-of-bitcoin-has-no-migration-plan",
+    "score": 50,
+    "snippet": "EU Quantum Shock: $504 Billion Of Bitcoin Has No Migration Plan",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-25T15:31:05.071000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -402,30 +394,31 @@
     ]
   },
   {
-    "id": "b56d4f438552117990e9db6daf187b2478c916d2",
-    "title": "Bluwhale announces trading agents for tokenised stocks and real-world assets",
-    "link": "https://www.finextra.com/pressarticle/111025/bluwhale-announces-trading-agents-for-tokenised-stocks-and-real-world-assets?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 45,
-    "snippet": "Bluwhale, the AI financial operating system connecting millions of users to traditional and blockchain financial services managed by AI, today announced trading agents for tokenized stocks and real-world assets, including gold, silver and oil. The broader tokenized-stock market already includes inst",
+    "id": "59f6ed2b9015c6f3cabf16321afc843ba664c7a5",
+    "title": "Bitget Raises Confirmed Incident Amount to $387.5M, Withdrawal Resumption Plan Due by Sept. 26 Bitget CEO Gracy Chen said in a post that the security incident has been contained and that no further unauthorized asset tra",
+    "link": "https://x.com/WuBlockchain/status/2103505838979821882",
+    "score": 50,
+    "snippet": "Bitget Raises Confirmed Incident Amount to $387.5M, Withdrawal Resumption Plan Due by Sept. 26 Bitget CEO Gracy Chen said in a post that the security incident has been contained and that no further unauthorized asset transfers are possible. Bitget will announce its withdrawal resumption plan by 4:00",
     "regions": [],
     "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
+    "category": "fundraising",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "finextra",
-    "source": "Google News RSS",
-    "published_at": "2026-09-25T10:52:00+00:00",
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-25T15:24:08.633000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ZEC",
+      "TRX"
+    ]
   },
   {
     "id": "dc4811cc8feb923eac4a7d4f82af3ecbfe6f613d",
@@ -457,30 +450,32 @@
     "coins": []
   },
   {
-    "id": "db51150af76b8754b1e5c4244e83dbe0d76d683a",
-    "title": "ARK Invest brings $1.3 billion venture fund onchain through Securitize",
-    "link": "https://www.theblock.co/news/markets/2026-09-24-ark-invest-tokenizes-arkvx-venture-fund-securitize-416294",
-    "score": 44,
-    "snippet": "ARK Invest brings $1.3 billion venture fund onchain through Securitize",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "id": "4c95c097e9c3f1b0c5319e58eae8ed2ee856deac",
+    "title": "Three Regulators Give Banks Three Paths to Issue Stablecoins",
+    "link": "https://www.pymnts.com/cryptocurrency/2026/three-regulators-give-banks-paths-issue-stablecoins/",
+    "score": 40,
+    "snippet": "The Federal Reserve’s stablecoin proposals on Thursday (Sept. 24) put a third federal bank regulator’s plans on the table. Banks can now see how the Fed, the Office of the Comptroller of the Currency and the Federal Deposit Insurance Corp. propose to supervise their digital dollars. The next decisio",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "B",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-24T18:36:40.263000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "pymnts",
+    "source": "Google News RSS",
+    "published_at": "2026-09-25T15:01:23+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ARK"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "3e7774237c1e54306a47d6a41a5432eef04c45a0",
@@ -494,7 +489,7 @@
     "primary_region": "US",
     "category": "other",
     "source_tier": "B",
-    "consensus": 7,
+    "consensus": 8,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
@@ -509,6 +504,61 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "b56d4f438552117990e9db6daf187b2478c916d2",
+    "title": "Bluwhale announces trading agents for tokenised stocks and real-world assets",
+    "link": "https://www.finextra.com/pressarticle/111025/bluwhale-announces-trading-agents-for-tokenised-stocks-and-real-world-assets?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 39,
+    "snippet": "Bluwhale, the AI financial operating system connecting millions of users to traditional and blockchain financial services managed by AI, today announced trading agents for tokenized stocks and real-world assets, including gold, silver and oil. The broader tokenized-stock market already includes inst",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-09-25T10:52:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "254152eeea0915832ee78401aa095fc7bc2111f1",
+    "title": "Circle Launches Arc: How Its Payments Blockchain Compares With Rivals - Exchange Rates UK",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSTBHeG5xbkxoUDNhcVViajZDWlpzQWFBbjJWd19yWXItaTM5X2lmN09PZUx6X0xqcFMzeEVrS3k5eml2OGs3SHhhbzNMWUhhbTZTZS1PWl95VHRWN2tGa2dkMkwwTjBSWXFCa0EzSU1nUENOY0NndUNZV1cyMzBoQ20wZ3M3TVJUR2JTWC1XZFRabXZzR0lYWGE4bFZTeFR3S3lBc2FkZDI4dEhkNzU0Ng?oc=5",
+    "score": 35,
+    "snippet": "Circle Launches Arc: How Its Payments Blockchain Compares With Rivals Exchange Rates UK",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-25T10:01:03+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "rss",
     "coins": []
   },
   {
@@ -536,7 +586,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
