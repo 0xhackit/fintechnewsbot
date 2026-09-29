@@ -1,32 +1,34 @@
 [
   {
-    "id": "a6ce542d70d53218af7043e7dc67c2c6df42645d",
-    "title": "Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing",
-    "link": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing",
-    "score": 90,
-    "snippet": "",
+    "id": "73f4110d5df0cf74e93d02d7ec41b2f5e563e8f7",
+    "title": "The CFTC has approved the launch of Coinbase Clearing LLC, our own USDC-native clearinghouse. Built for 24/7 settlement with USDC collateral, Coinbase Clearing completes our full stack of regulated derivatives infrastruc",
+    "link": "https://x.com/CoinbaseMarkets/status/2104693827948720334",
+    "score": 125,
+    "snippet": "The CFTC has approved the launch of Coinbase Clearing LLC, our own USDC-native clearinghouse. Built for 24/7 settlement with USDC collateral, Coinbase Clearing completes our full stack of regulated derivatives infrastructure.",
     "regions": [
-      "US",
-      "APAC"
+      "US"
     ],
     "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
+    "category": "regulation",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "coindesk",
-    "source": "Google News RSS",
-    "published_at": "2026-09-28T18:00:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "feed_name": "tree:x:coinbasemarkets",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-28T22:04:46.870000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approved')",
+    "matched": "approved",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "USDC"
+    ]
   },
   {
     "id": "2125cdb735452d272c83d1f2e4e21548027ac8ed",
@@ -59,10 +61,68 @@
     ]
   },
   {
+    "id": "a6ce542d70d53218af7043e7dc67c2c6df42645d",
+    "title": "Goldman Sachs brings $100 billion Treasury fund into crypto’s institutional plumbing",
+    "link": "https://www.coindesk.com/markets/2026/09/28/goldman-sachs-brings-usd100-billion-treasury-fund-into-crypto-s-institutional-plumbing",
+    "score": 84,
+    "snippet": "",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-09-28T18:00:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "65d1e0f752671f2b70c31913fac3b447163afac7",
+    "title": "Alpen partners with Circle to launch USDC and C... - pluang.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYVJOMU1iX3BqbVJxMzBEbEhrNkI1dVBQTkEzN1JjdkExdF9aOUtpUUIybGx6bHBUZkpLVEpQekphQmNWb3F3ZWpTSGVCa1VfVVJLNko0Skc4d0JMUGNpN0lHMDBjX2RHRm00ZEZoTWtxZHJMTDdqZHo0V3dfVkxsRWFlQ3p1eGdFbmw0WHpRVQ?oc=5",
+    "score": 84,
+    "snippet": "Alpen partners with Circle to launch USDC and C... pluang.com",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-28T03:30:09+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "16d8d86f44259bc9b740f12998d178aaa4144841",
     "title": "Accessing the $6 trillion Treasury market directly means a TreasuryDirect account and a portal built for the dot-com era. Plume Vaults opens it globally, with AML controls built into the chain and positions that work acr",
     "link": "https://x.com/plumenetwork/status/2104598397227512271",
-    "score": 90,
+    "score": 84,
     "snippet": "Accessing the $6 trillion Treasury market directly means a TreasuryDirect account and a portal built for the dot-com era. Plume Vaults opens it globally, with AML controls built into the chain and positions that work across DeFi. Read the primer: https://www.plume.org/blog/rwa-academy-a-primer-on-tr",
     "regions": [],
     "primary_region": null,
@@ -88,39 +148,10 @@
     ]
   },
   {
-    "id": "113cbf6943522c3c487f69697dee2583f7606d1b",
-    "title": "Alpen partners with Circle to launch USDC and C... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYVJOMU1iX3BqbVJxMzBEbEhrNkI1dVBQTkEzN1JjdkExdF9aOUtpUUIybGx6bHBUZkpLVEpQekphQmNWb3F3ZWpTSGVCa1VfVVJLNko0Skc4d0JMUGNpN0lHMDBjX2RHRm00ZEZoTWtxZHJMTDdqZHo0V3dfVkxsRWFlQ3p1eGdFbmw0WHpRVQ?oc=5",
-    "score": 84,
-    "snippet": "Alpen partners with Circle to launch USDC and C... Pluang",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-28T03:30:09+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "ded38906ad528a085063d530660afa8a687d3af0",
     "title": "THE BLOCK: Chainlink has launched CCIP 2.0, an upgraded version of its cross-chain infrastructure designed to help institutions move tokenized assets across public and private blockchains. The update adds features includ",
     "link": "https://x.com/TheBlockCo/status/2104594581967008009",
-    "score": 80,
+    "score": 74,
     "snippet": "THE BLOCK: Chainlink has launched CCIP 2.0, an upgraded version of its cross-chain infrastructure designed to help institutions move tokenized assets across public and private blockchains. The update adds features including configurable transaction finality, compliance controls, and a Cross-Chain Ve",
     "regions": [],
     "primary_region": null,
@@ -170,62 +201,6 @@
     "coins": [
       "SOL",
       "ATM"
-    ]
-  },
-  {
-    "id": "56e4f7015ab77d4fea61a7ee2ff2f7f2d911f672",
-    "title": "Congrats to @chainlink on the launch of CCIP 2.0! As a CCIP 2.0 launch partner, Lombard has already integrated custom Cross-Chain Verifier (CCV)-enabled verification into LBTC and BTC.b. In this model, both the default C",
-    "link": "https://x.com/Lombard_Finance/status/2104632229053808785",
-    "score": 70,
-    "snippet": "Congrats to @chainlink on the launch of CCIP 2.0! As a CCIP 2.0 launch partner, Lombard has already integrated custom Cross-Chain Verifier (CCV)-enabled verification into LBTC and BTC.b. In this model, both the default Chainlink Committee Verifier and our independent CCV must cryptographically sign ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:lombard_finance",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-28T18:00:00.754000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BARD",
-      "BTC",
-      "LINK"
-    ]
-  },
-  {
-    "id": "acb175a44a822ec17ee6193e1ac79782730c825d",
-    "title": "Introducing the Arbitrum Security Program The Arbitrum Foundation is subsidizing smart contract audits for teams building on the Arbitrum Platform including: > apps on testnet > projects on mainnet > migrating from anoth",
-    "link": "https://x.com/arbitrum/status/2104612504819110094",
-    "score": 70,
-    "snippet": "Introducing the Arbitrum Security Program The Arbitrum Foundation is subsidizing smart contract audits for teams building on the Arbitrum Platform including: > apps on testnet > projects on mainnet > migrating from another chain > dedicated Arbitrum chains Get audited with the likes of @OpenZeppelin",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:arbitrum",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-28T16:41:38.111000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ARB"
     ]
   },
   {
@@ -285,25 +260,23 @@
     ]
   },
   {
-    "id": "f64dbcf741189e225a2ded91d1498966c89c0e50",
-    "title": "Canary Capital has filed Amendment No. 3 to its S-1 for a Staked $INJ ETF with the SEC. The ETF will hold spot INJ and target staking at least 90% of its institutional holdings in the U.S. This is likely the final amendm",
-    "link": "https://x.com/injective/status/2104614580198715624",
-    "score": 65,
-    "snippet": "Canary Capital has filed Amendment No. 3 to its S-1 for a Staked $INJ ETF with the SEC. The ETF will hold spot INJ and target staking at least 90% of its institutional holdings in the U.S. This is likely the final amendment before launch.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
+    "id": "56e4f7015ab77d4fea61a7ee2ff2f7f2d911f672",
+    "title": "Congrats to @chainlink on the launch of CCIP 2.0! As a CCIP 2.0 launch partner, Lombard has already integrated custom Cross-Chain Verifier (CCV)-enabled verification into LBTC and BTC.b. In this model, both the default C",
+    "link": "https://x.com/Lombard_Finance/status/2104632229053808785",
+    "score": 64,
+    "snippet": "Congrats to @chainlink on the launch of CCIP 2.0! As a CCIP 2.0 launch partner, Lombard has already integrated custom Cross-Chain Verifier (CCV)-enabled verification into LBTC and BTC.b. In this model, both the default Chainlink Committee Verifier and our independent CCV must cryptographically sign ",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:injective",
+    "feed_name": "tree:x:lombard_finance",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-28T16:49:52.947000+00:00",
+    "published_at": "2026-09-28T18:00:00.754000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
@@ -311,7 +284,35 @@
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "INJ"
+      "BARD",
+      "BTC",
+      "LINK"
+    ]
+  },
+  {
+    "id": "acb175a44a822ec17ee6193e1ac79782730c825d",
+    "title": "Introducing the Arbitrum Security Program The Arbitrum Foundation is subsidizing smart contract audits for teams building on the Arbitrum Platform including: > apps on testnet > projects on mainnet > migrating from anoth",
+    "link": "https://x.com/arbitrum/status/2104612504819110094",
+    "score": 64,
+    "snippet": "Introducing the Arbitrum Security Program The Arbitrum Foundation is subsidizing smart contract audits for teams building on the Arbitrum Platform including: > apps on testnet > projects on mainnet > migrating from another chain > dedicated Arbitrum chains Get audited with the likes of @OpenZeppelin",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:arbitrum",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-28T16:41:38.111000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ARB"
     ]
   },
   {
@@ -379,23 +380,25 @@
     ]
   },
   {
-    "id": "35c40f81f2e1f2ab628e80d7e710df33cc618e83",
-    "title": "Announcing our largest new asset launch since inception. 🥳 39 new assets live on Veranta and @base today, up to 25x leverage. 26 of these assets are currently untradeable on-chain. We are the first DEX to bring trading t",
-    "link": "https://x.com/verantaxyz/status/2104612935058473152",
-    "score": 60,
-    "snippet": "Announcing our largest new asset launch since inception. 🥳 39 new assets live on Veranta and @base today, up to 25x leverage. 26 of these assets are currently untradeable on-chain. We are the first DEX to bring trading to these names. Many more names coming soon... we are well on our path to 500+ RW",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "id": "f64dbcf741189e225a2ded91d1498966c89c0e50",
+    "title": "Canary Capital has filed Amendment No. 3 to its S-1 for a Staked $INJ ETF with the SEC. The ETF will hold spot INJ and target staking at least 90% of its institutional holdings in the U.S. This is likely the final amendm",
+    "link": "https://x.com/injective/status/2104614580198715624",
+    "score": 59,
+    "snippet": "Canary Capital has filed Amendment No. 3 to its S-1 for a Staked $INJ ETF with the SEC. The ETF will hold spot INJ and target staking at least 90% of its institutional holdings in the U.S. This is likely the final amendment before launch.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:verantaxyz",
+    "feed_name": "tree:x:injective",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-28T16:43:20.718000+00:00",
+    "published_at": "2026-09-28T16:49:52.947000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
@@ -403,35 +406,7 @@
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "AVNT"
-    ]
-  },
-  {
-    "id": "6274e9fda4354405c198ed1128eda17d87afccd2",
-    "title": "Remittix Announces November 24 RTX Launch Date as Bitcoin Price Forecasts Remain in Focus",
-    "link": "https://financewire.com/2026/09/28/remittix-announces-november-24-rtx-launch-date-as-bitcoin-price-forecasts-remain-in-focus",
-    "score": 60,
-    "snippet": "Remittix Announces November 24 RTX Launch Date as Bitcoin Price Forecasts Remain in Focus",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:finance wire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-28T16:07:55.867000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
+      "INJ"
     ]
   },
   {
@@ -461,6 +436,62 @@
     "fulltext": true,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "35c40f81f2e1f2ab628e80d7e710df33cc618e83",
+    "title": "Announcing our largest new asset launch since inception. 🥳 39 new assets live on Veranta and @base today, up to 25x leverage. 26 of these assets are currently untradeable on-chain. We are the first DEX to bring trading t",
+    "link": "https://x.com/verantaxyz/status/2104612935058473152",
+    "score": 54,
+    "snippet": "Announcing our largest new asset launch since inception. 🥳 39 new assets live on Veranta and @base today, up to 25x leverage. 26 of these assets are currently untradeable on-chain. We are the first DEX to bring trading to these names. Many more names coming soon... we are well on our path to 500+ RW",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:verantaxyz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-28T16:43:20.718000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "AVNT"
+    ]
+  },
+  {
+    "id": "6274e9fda4354405c198ed1128eda17d87afccd2",
+    "title": "Remittix Announces November 24 RTX Launch Date as Bitcoin Price Forecasts Remain in Focus",
+    "link": "https://financewire.com/2026/09/28/remittix-announces-november-24-rtx-launch-date-as-bitcoin-price-forecasts-remain-in-focus",
+    "score": 54,
+    "snippet": "Remittix Announces November 24 RTX Launch Date as Bitcoin Price Forecasts Remain in Focus",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:finance wire",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-28T16:07:55.867000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
   },
   {
     "id": "70c1fb356f30eff9da5d6bc4b749549e1b0ed436",
@@ -520,35 +551,29 @@
     "coins": []
   },
   {
-    "id": "7cb537e030c3a30256d1a4f241644d68d6da07e4",
-    "title": "👉 http://wooxeu.io IS OFFICIALLY LIVE FOR EUROPEAN TRADERS! 🇪🇺 WOO X has officially launched WOO X EU, a dedicated trading platform custom-built to operate in alignment with Europe’s Markets in Crypto-Assets (MiCA) regul",
-    "link": "https://x.com/_WOO_X/status/2104609663249695074",
+    "id": "2292401cc9accc6b526a7e2ddccb592b4bcb88c9",
+    "title": "Bitcoin miner's stock drops despite landing $1.07 billion credit facility",
+    "link": "https://www.thestreet.com/crypto/markets/bitcoin-miners-stock-drops-despite-landing-1-07-billion-credit-facility",
     "score": 50,
-    "snippet": "👉 http://wooxeu.io IS OFFICIALLY LIVE FOR EUROPEAN TRADERS! 🇪🇺 WOO X has officially launched WOO X EU, a dedicated trading platform custom-built to operate in alignment with Europe’s Markets in Crypto-Assets (MiCA) regulation. The rollout is supported by WOO X’s strategic collaboration with Payward ",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
+    "snippet": "Bitcoin miner's stock drops despite landing $1.07 billion credit facility",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:_woo_x",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-28T16:30:20.674000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the street",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-09-28T21:30:01.669000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "WOO",
-      "NOW",
-      "SOON"
+      "BTC"
     ]
   },
   {
@@ -580,6 +605,64 @@
     "coins": []
   },
   {
+    "id": "97660b91600e15c06f1d07b0c5045b0e30afe86f",
+    "title": "Citi links with Coinbase for stablecoin payments without direct crypto holdings - 디지털투데이",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSzZZMmlxRUNtc2JjRzYzQ25TbjlsUW95MVVGd3Bib1RKT3JjNHRYdnhoTVYyVXkwTG5DbGR3LVVHZGQzRG0wUVNXSl9OTjhqUkN5NVRlVVYzYl83OFFTcEREbFp4ZjJVQVZ5Q2JneWZQZE1LbnJWTGdqMThYVGp3MHB5Q2FiazJaNGhIdHBmOXdQQTJVb0FBVWs2cC1tTVZsS2JsT3Q4NUpYS0NCbWt5WjBLOVV6YWVkUS12c2h6cmlsZDA?oc=5",
+    "score": 40,
+    "snippet": "Citi links with Coinbase for stablecoin payments without direct crypto holdings 디지털투데이",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-28T23:25:41+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "f754db2934be1bf68091b6439148f37b61cdd1f2",
+    "title": "Citi turns to Coinbase to help clients accept stablecoin payments - thestreet.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcmxrbGJwSnZ5TUhzdE1lQkc5VU5mOW1FTW1Lck13RDRmZWp3aGJJYl9Rdm1uRmRXdnc3T2lRUmQtcmJkTGtRWk9qYnNvNU8tRTM0QnY4LS1vckZpRktaYzVqV2lpT2x6TlR6MlFuQ2J4YWI4ZGk3Y09NSEJCcjNHb0dKRFRPcWNrcEw4amdGZHgzSzk4X2lnd3AwcU9PbC10SlNlMGl5SFJDQQ?oc=5",
+    "score": 40,
+    "snippet": "Citi turns to Coinbase to help clients accept stablecoin payments thestreet.com",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-09-28T22:10:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "53ae6b96d680e84253dd9a6eee75c9ef98aeb379",
     "title": "Citi Clients Can Now Take Stablecoin Payments Through Coinbase—Without Touching Crypto - Decrypt",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVlREWjYxa3ZfdFF5SHFNT3RBWE8tbFhzRGs5QW9mWW1jZExlTWJlODFnVFdhTFRGS25rRGREbTN4M3YyZnc2cnAySkZMMmVaM3R0QW9OTVNRdnVNUG9LdjJZaDJxOFFCeG5lTjBCcmJ4eVhFRHhpZnlYNjJEaUJPQUp5UHpZT1l3WDdv?oc=5",
@@ -604,65 +687,6 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "69f67afa00578b2fc932ecf78dc8f8945421c477",
-    "title": "Citi and Coinbase Put Stablecoin Payments into Business Flow - Altcoin Buzz",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeFlMTG5TNEZKQkFiaVUxNjVHS0NSZTJjOFFhLUVjbF9LWmhwZUhPa25OajNLdWNfVjZ0NWFXS1F6RzRldXB3N3R3dnN1ckY5THItZTBLeXNnZG9fREM4d1ZJdzB2dnhOT1M0TFptTnlVR1B5VEppRDVqbTNsRnJQS3FrR1d1OHFsMGRhSmhBZ2s?oc=5",
-    "score": 40,
-    "snippet": "Citi and Coinbase Put Stablecoin Payments into Business Flow Altcoin Buzz",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-28T18:26:19+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "a5f57c364e7bbfa843939044ffcfd085c3c16de0",
-    "title": "Coinbase, Citi Team Up to Bring Stablecoin Payments to Businesses - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYnFBRjhTMncxdXg2WnUtUlhyMFNEMjNQdDl2c000czF6VzNzR2J1blJxLVIyazlJTlJsQmUtUERUTHlackstZnZXRER1Vl9TNXZEbW1wUUUzcVQ3OFdwR2lEc2ZMbGt1U0xmcjRVaERlUmI3YlhXSVMza3BUU2Rpc19BQmlPa2NaOXZwX0pjcmhoM1otTXdFakZ3eExQV1J2a3c?oc=5",
-    "score": 40,
-    "snippet": "Coinbase, Citi Team Up to Bring Stablecoin Payments to Businesses finance.yahoo.com",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-09-28T15:19:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('team up')",
-    "matched": "team up",
     "fulltext": true,
     "origin": "rss",
     "coins": []
