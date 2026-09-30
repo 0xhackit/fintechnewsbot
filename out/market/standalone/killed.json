@@ -1,20 +1,20 @@
 [
   {
-    "id": "da13fa606e3a7c4a07c8ce5fc2b41a30c858ecb3",
-    "title": "Michael Saylor calls it a Bitcoin 'gold rush,' sees $120 trillion upside",
-    "link": "https://www.thestreet.com/crypto/markets/michael-saylor-says-bitcoin-is-in-a-gold-rush-with-a-120-trillion-opportunity",
-    "score": 54,
-    "snippet": "Michael Saylor calls it a Bitcoin 'gold rush,' sees $120 trillion upside",
+    "id": "a6d4e24904e4562427a663c60f7fb51063bc5404",
+    "title": "Standard Chartered sees over 600% upside for ENA, expects USDe to hit $40 billion by 2028",
+    "link": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274",
+    "score": 70,
+    "snippet": "Standard Chartered sees over 600% upside for ENA, expects USDe to hit $40 billion by 2028",
     "regions": [],
     "primary_region": null,
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 50,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:the street",
+    "feed_name": "tree:the block",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-29T21:04:01.049000+00:00",
+    "published_at": "2026-09-30T12:00:04.946000+00:00",
     "verdict": "kill",
     "axis": "commentary",
     "reason": "commentary/opinion framing ('sees')",
@@ -22,7 +22,61 @@
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "ENA"
+    ]
+  },
+  {
+    "id": "34db23111e5fef366fb146b6d70d1121eb5d5efa",
+    "title": "US Senator Blumenthal Calls Tether's USDT a 'Superhighway' for Iranian Sanctions Evasion",
+    "link": "https://decrypt.co/379624/us-senator-blumenthal-calls-tethers-usdt-a-superhighway-for-iranian-sanctions-evasion",
+    "score": 65,
+    "snippet": "The Connecticut Senator's subcommittee released its report on Monday and referred the findings to Treasury and the Justice Department.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-09-30T10:32:01+00:00",
+    "verdict": "kill",
+    "axis": "political",
+    "reason": "political framing ('senator')",
+    "matched": "senator",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "64aa902ef0ad5fe29578029d82640cdcf7e6e8a2",
+    "title": "What does a secure agent deployment actually look like? • Firewalled server, provisioned for you • Policy check before execution via @ATBASHai • Every action recorded on Chromia • One click from your phone Fast to launch",
+    "link": "https://x.com/Chromia/status/2105206733039943938",
+    "score": 60,
+    "snippet": "What does a secure agent deployment actually look like? • Firewalled server, provisioned for you • Policy check before execution via @ATBASHai • Every action recorded on Chromia • One click from your phone Fast to launch, still inside a secure boundary $CHR",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:chromia",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-30T08:02:53.161000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('policy')",
+    "matched": "policy",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CHR"
     ]
   },
   {
@@ -49,6 +103,33 @@
     "matched": "regulation",
     "fulltext": false,
     "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "99f2abbfadce0ea65a5cb5321edb8ae17b529a25",
+    "title": "JUST IN: Illinois releases draft rules for its 0.2% Digital Asset Tax launching January 1, 2027, covering spot trading, fiat-to-crypto conversions and stablecoin settlements, with public comments open until October 30.",
+    "link": "https://x.com/CoinDesk/status/2105242549875073421",
+    "score": 50,
+    "snippet": "JUST IN: Illinois releases draft rules for its 0.2% Digital Asset Tax launching January 1, 2027, covering spot trading, fiat-to-crypto conversions and stablecoin settlements, with public comments open until October 30.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-30T10:25:12.467000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "tree",
     "coins": []
   }
 ]
