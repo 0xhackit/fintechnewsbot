@@ -35,7 +35,7 @@
     "primary_region": null,
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -48,65 +48,8 @@
     "reason": "political framing ('senator')",
     "matched": "senator",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "64aa902ef0ad5fe29578029d82640cdcf7e6e8a2",
-    "title": "What does a secure agent deployment actually look like? • Firewalled server, provisioned for you • Policy check before execution via @ATBASHai • Every action recorded on Chromia • One click from your phone Fast to launch",
-    "link": "https://x.com/Chromia/status/2105206733039943938",
-    "score": 54,
-    "snippet": "What does a secure agent deployment actually look like? • Firewalled server, provisioned for you • Policy check before execution via @ATBASHai • Every action recorded on Chromia • One click from your phone Fast to launch, still inside a secure boundary $CHR",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:chromia",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-30T08:02:53.161000+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('policy')",
-    "matched": "policy",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "CHR"
-    ]
-  },
-  {
-    "id": "073c8d658a1e6c14202bbc95fea77a1ac3615251",
-    "title": "CoinShares: Digital Asset Investment Products See $3.55B in Weekly Inflows, Largest This Year CoinShares’ digital asset biweekly report, published on September 29, showed that global digital asset investment products rec",
-    "link": "https://x.com/WuBlockchain/status/2105305659541733431",
-    "score": 50,
-    "snippet": "CoinShares: Digital Asset Investment Products See $3.55B in Weekly Inflows, Largest This Year CoinShares’ digital asset biweekly report, published on September 29, showed that global digital asset investment products recorded approximately $3.55 billion in net inflows last week, the largest weekly i",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-30T14:35:59.203000+00:00",
-    "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('see')",
-    "matched": "see",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "XRP",
-      "ETH",
-      "BTC",
-      "SOL"
-    ]
   },
   {
     "id": "20ff5844ddae7dfcd09179ff1bebfbdcd02ae893",
@@ -133,5 +76,34 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
+  },
+  {
+    "id": "073c8d658a1e6c14202bbc95fea77a1ac3615251",
+    "title": "CoinShares: Digital Asset Investment Products See $3.55B in Weekly Inflows, Largest This Year CoinShares’ digital asset biweekly report, published on September 29, showed that global digital asset investment products rec",
+    "link": "https://x.com/WuBlockchain/status/2105305659541733431",
+    "score": 44,
+    "snippet": "CoinShares: Digital Asset Investment Products See $3.55B in Weekly Inflows, Largest This Year CoinShares’ digital asset biweekly report, published on September 29, showed that global digital asset investment products recorded approximately $3.55 billion in net inflows last week, the largest weekly i",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-09-30T14:35:59.203000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('see')",
+    "matched": "see",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "ETH",
+      "BTC",
+      "SOL"
+    ]
   }
 ]
