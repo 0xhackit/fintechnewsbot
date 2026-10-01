@@ -1,9 +1,38 @@
 [
   {
+    "id": "8191772222a7a04fe9c72edb1464b04ac9897b07",
+    "title": "JUST IN: @Citi raises its 12-month $BTC price target to $113K and $ETH to $3,028, citing resuming ETF inflows, Treasury buybacks and SEC rulemaking as catalysts.",
+    "link": "https://x.com/CoinDesk/status/2105611969537638837",
+    "score": 115,
+    "snippet": "JUST IN: @Citi raises its 12-month $BTC price target to $113K and $ETH to $3,028, citing resuming ETF inflows, Treasury buybacks and SEC rulemaking as catalysts.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-01T10:53:09.675000+00:00",
+    "verdict": "kill",
+    "axis": "low_signal",
+    "reason": "low-signal stat/promo ('price target')",
+    "matched": "price target",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
     "id": "f7d08fd6f756e8b4cf472d2858a3e3b20fced8b4",
     "title": "THE BLOCK: ESMA has called for new MiCA rules on staking, lending, borrowing, and access to DeFi protocols. The regulator also wants stronger powers to tackle unauthorized crypto firms, online fraud, and non-compliant st",
     "link": "https://x.com/TheBlockCo/status/2105554419697991717",
-    "score": 90,
+    "score": 84,
     "snippet": "THE BLOCK: ESMA has called for new MiCA rules on staking, lending, borrowing, and access to DeFi protocols. The regulator also wants stronger powers to tackle unauthorized crypto firms, online fraud, and non-compliant stablecoins.",
     "regions": [
       "EU"
@@ -25,32 +54,6 @@
     "matched": "rules",
     "fulltext": false,
     "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "34db23111e5fef366fb146b6d70d1121eb5d5efa",
-    "title": "US Senator Blumenthal Calls Tether's USDT a 'Superhighway' for Iranian Sanctions Evasion",
-    "link": "https://decrypt.co/379624/us-senator-blumenthal-calls-tethers-usdt-a-superhighway-for-iranian-sanctions-evasion",
-    "score": 59,
-    "snippet": "The Connecticut Senator's subcommittee released its report on Monday and referred the findings to Treasury and the Justice Department.",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "decrypt",
-    "source": "Google News RSS",
-    "published_at": "2026-09-30T10:32:01+00:00",
-    "verdict": "kill",
-    "axis": "political",
-    "reason": "political framing ('senator')",
-    "matched": "senator",
-    "fulltext": false,
-    "origin": "rss",
     "coins": []
   }
 ]
