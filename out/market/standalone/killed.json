@@ -3,7 +3,7 @@
     "id": "8191772222a7a04fe9c72edb1464b04ac9897b07",
     "title": "JUST IN: @Citi raises its 12-month $BTC price target to $113K and $ETH to $3,028, citing resuming ETF inflows, Treasury buybacks and SEC rulemaking as catalysts.",
     "link": "https://x.com/CoinDesk/status/2105611969537638837",
-    "score": 115,
+    "score": 109,
     "snippet": "JUST IN: @Citi raises its 12-month $BTC price target to $113K and $ETH to $3,028, citing resuming ETF inflows, Treasury buybacks and SEC rulemaking as catalysts.",
     "regions": [
       "US"
@@ -29,31 +29,60 @@
     ]
   },
   {
-    "id": "f7d08fd6f756e8b4cf472d2858a3e3b20fced8b4",
-    "title": "THE BLOCK: ESMA has called for new MiCA rules on staking, lending, borrowing, and access to DeFi protocols. The regulator also wants stronger powers to tackle unauthorized crypto firms, online fraud, and non-compliant st",
-    "link": "https://x.com/TheBlockCo/status/2105554419697991717",
-    "score": 84,
-    "snippet": "THE BLOCK: ESMA has called for new MiCA rules on staking, lending, borrowing, and access to DeFi protocols. The regulator also wants stronger powers to tackle unauthorized crypto firms, online fraud, and non-compliant stablecoins.",
+    "id": "44db6bf00c3d315a51b97d6738d6a8d85cdffc99",
+    "title": "50,000 Europeans call on EU to ease stablecoin rewards restrictions in MiCA review",
+    "link": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 55,
+    "snippet": "A 50,000-letter campaign is pressing Brussels to rethink stablecoin rewards as EU central banks seek broader changes to MiCA’s stablecoin rules.",
     "regions": [
       "EU"
     ],
     "primary_region": "EU",
     "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
+    "source_tier": "B",
+    "consensus": 2,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T07:04:28.025000+00:00",
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-01T18:45:09+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('call on')",
+    "matched": "call on",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "7a0371dae3eea44a948f534920446a293ff44c41",
+    "title": "Hyperliquid Policy Center, Circle press EU on perps and stablecoin reserves in MiCA review",
+    "link": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452",
+    "score": 50,
+    "snippet": "Hyperliquid's policy group wants perps under MiFID II, while Circle targets MiCA's bank deposit floor in filings to the European Commission's MiCA review.",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 3,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-01T19:10:36+00:00",
     "verdict": "kill",
     "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('rules')",
-    "matched": "rules",
+    "reason": "policy/rule-making, not a concrete action ('policy')",
+    "matched": "policy",
     "fulltext": false,
-    "origin": "tree",
+    "origin": "rss+tree",
     "coins": []
   }
 ]
