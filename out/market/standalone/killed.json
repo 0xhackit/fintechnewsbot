@@ -1,29 +1,31 @@
 [
   {
-    "id": "a6d4e24904e4562427a663c60f7fb51063bc5404",
-    "title": "Standard Chartered sees over 600% upside for ENA, expects USDe to hit $40 billion by 2028",
-    "link": "https://www.theblock.co/news/markets/2026-09-30-standard-chartered-sees-over-600-upside-for-ena-expects-usde-to-hit-40-billion-by-2028-417274",
-    "score": 64,
-    "snippet": "Standard Chartered sees over 600% upside for ENA, expects USDe to hit $40 billion by 2028",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
+    "id": "f7d08fd6f756e8b4cf472d2858a3e3b20fced8b4",
+    "title": "THE BLOCK: ESMA has called for new MiCA rules on staking, lending, borrowing, and access to DeFi protocols. The regulator also wants stronger powers to tackle unauthorized crypto firms, online fraud, and non-compliant st",
+    "link": "https://x.com/TheBlockCo/status/2105554419697991717",
+    "score": 90,
+    "snippet": "THE BLOCK: ESMA has called for new MiCA rules on staking, lending, borrowing, and access to DeFi protocols. The regulator also wants stronger powers to tackle unauthorized crypto firms, online fraud, and non-compliant stablecoins.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-09-30T12:00:04.946000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-01T07:04:28.025000+00:00",
     "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('sees')",
-    "matched": "sees",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
     "fulltext": false,
     "origin": "tree",
-    "coins": [
-      "ENA"
-    ]
+    "coins": []
   },
   {
     "id": "34db23111e5fef366fb146b6d70d1121eb5d5efa",
@@ -50,34 +52,5 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "073c8d658a1e6c14202bbc95fea77a1ac3615251",
-    "title": "CoinShares: Digital Asset Investment Products See $3.55B in Weekly Inflows, Largest This Year CoinShares’ digital asset biweekly report, published on September 29, showed that global digital asset investment products rec",
-    "link": "https://x.com/WuBlockchain/status/2105305659541733431",
-    "score": 44,
-    "snippet": "CoinShares: Digital Asset Investment Products See $3.55B in Weekly Inflows, Largest This Year CoinShares’ digital asset biweekly report, published on September 29, showed that global digital asset investment products recorded approximately $3.55 billion in net inflows last week, the largest weekly i",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-09-30T14:35:59.203000+00:00",
-    "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('see')",
-    "matched": "see",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "XRP",
-      "ETH",
-      "BTC",
-      "SOL"
-    ]
   }
 ]
