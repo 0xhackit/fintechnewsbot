@@ -1,10 +1,10 @@
 [
   {
-    "id": "8191772222a7a04fe9c72edb1464b04ac9897b07",
-    "title": "JUST IN: @Citi raises its 12-month $BTC price target to $113K and $ETH to $3,028, citing resuming ETF inflows, Treasury buybacks and SEC rulemaking as catalysts.",
-    "link": "https://x.com/CoinDesk/status/2105611969537638837",
-    "score": 109,
-    "snippet": "JUST IN: @Citi raises its 12-month $BTC price target to $113K and $ETH to $3,028, citing resuming ETF inflows, Treasury buybacks and SEC rulemaking as catalysts.",
+    "id": "20e34963b266d90fd033775e79e45ddf091d3dbb",
+    "title": "POLICY: The U.S. Securities and Exchange Commission proposed its crypto custody rule on Thursday, adding another major piece to the agency’s digital asset agenda. https://coindesk.com/policy/2026/10/01/u-s-sec-maps-out-c",
+    "link": "https://x.com/CoinDesk/status/2105759661584441667",
+    "score": 90,
+    "snippet": "POLICY: The U.S. Securities and Exchange Commission proposed its crypto custody rule on Thursday, adding another major piece to the agency’s digital asset agenda. https://coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda",
     "regions": [
       "US"
     ],
@@ -16,17 +16,94 @@
     "matched_topics": [],
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T10:53:09.675000+00:00",
+    "published_at": "2026-10-01T20:40:01.555000+00:00",
     "verdict": "kill",
-    "axis": "low_signal",
-    "reason": "low-signal stat/promo ('price target')",
-    "matched": "price target",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rule')",
+    "matched": "rule",
     "fulltext": false,
     "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH"
-    ]
+    "coins": []
+  },
+  {
+    "id": "d56b069ca55e251d3c7dd7f995090d386e4f5dca",
+    "title": "THE BLOCK: The SEC proposed a new regulatory framework for the custody of crypto assets by investment advisers and regulated funds, Chairman Paul Atkins said, aiming to provide a \"compliant pathway\" for holding digital a",
+    "link": "https://x.com/TheBlockCo/status/2105750569851953576",
+    "score": 90,
+    "snippet": "THE BLOCK: The SEC proposed a new regulatory framework for the custody of crypto assets by investment advisers and regulated funds, Chairman Paul Atkins said, aiming to provide a \"compliant pathway\" for holding digital assets under rules that largely predate the internet. The proposal would address ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-01T20:03:54.052000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('regulatory framework')",
+    "matched": "regulatory framework",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "e0f5572847eedb5365166198352e75644bf02683",
+    "title": "SEC proposes new crypto custody rules for investment advisers and funds",
+    "link": "https://www.coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda",
+    "score": 80,
+    "snippet": "",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-10-01T20:20:04+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "53699de8d51fdacf6d36c6c44c90355d6f118d94",
+    "title": "SEC Chair Paul Atkins unveils major crypto proposal for U.S. investors",
+    "link": "https://www.thestreet.com/crypto/markets/sec-chair-paul-atkins-unveils-major-crypto-proposal-for-u-s-investors",
+    "score": 65,
+    "snippet": "SEC Chair Paul Atkins unveils major crypto proposal for U.S. investors",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:the street",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-01T21:04:20.405000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('proposal')",
+    "matched": "proposal",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "44db6bf00c3d315a51b97d6738d6a8d85cdffc99",
@@ -83,6 +160,34 @@
     "matched": "policy",
     "fulltext": false,
     "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "58c65162299a6225dc6c0fcd9c5ea5f5a7a0e174",
+    "title": "SEC proposes framework allowing investment advisers, funds to self-custody crypto",
+    "link": "https://www.theblock.co/news/regulation/2026-10-01-sec-proposes-crypto-custody-rule-investment-advisers-funds-417498",
+    "score": 40,
+    "snippet": "SEC proposed a crypto framework for investment advisers & funds, allowing self-custody in some cases & state trust companies as custodians.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-01T21:00:53+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('framework')",
+    "matched": "framework",
+    "fulltext": false,
+    "origin": "rss",
     "coins": []
   }
 ]
