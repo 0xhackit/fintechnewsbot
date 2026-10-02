@@ -10,7 +10,7 @@
     "snippet": "",
     "published_at": "2026-10-01T20:20:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -45,6 +45,105 @@
     ]
   },
   {
+    "id": "fd38a31196009d4e3c4b220f5348f0c52e7a37bba2046101291cee345db85f10",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "$4.2B crypto bank Anchorage Digital cuts 17% of workforce: Report",
+    "url": "https://cointelegraph.com/news/anchorage-digital-cuts-workforce-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/anchorage-digital-cuts-workforce-report",
+    "snippet": "The reported cuts come as Anchorage expands its institutional footprint, including stablecoin issuance and a $100 million investment from Tether.",
+    "published_at": "2026-10-02T18:41:17+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "Tether",
+      "issuance"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/anchorage-digital-cuts-workforce-report",
+      "guidislink": true
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 20,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "448674f0d1ed41d7c9482ba81cf242985325410b71e2b69c8ec8d3c251ad66d5",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Circle Pushes Back on MiCA's Bank-Deposit Mandate for Stablecoins",
+    "url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins",
+    "canonical_url": "https://decrypt.co/379984/circle-pushes-back-on-micas-bank-deposit-mandate-for-stablecoins",
+    "snippet": "The USDC issuer told the European Commission that MiCA's reserve mandates and concentration caps keep the largest global stablecoins outside Europe's perimeter—siding with the ECB in calling for more flexible rules.",
+    "published_at": "2026-10-02T19:46:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle",
+      "issuer",
+      "MiCA"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=379984",
+      "guidislink": false
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "b59c7502afa095a2e9851d82c86acb8fa7fb82e01d98915edfa939d68fc8acd0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -55,7 +154,7 @@
     "snippet": "Custody requirements have kept some investment advisers from offering certain crypto to clients, a regulatory hurdle the SEC’s proposal could remove.",
     "published_at": "2026-10-02T01:07:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -100,7 +199,7 @@
     "snippet": "The proposal would let advisers and funds use state trust companies as custodians and permit self-custody under certain conditions, aiming to replace years of ambiguity with a clear compliance path.",
     "published_at": "2026-10-01T20:46:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -137,6 +236,53 @@
     ]
   },
   {
+    "id": "7f3abc65f2f7cce65301fa80d2ad333f4a10b363437ad804a396779074e005fb",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Mastercard integrates Open USD stablecoin into BVNK platform - The Cryptonomist",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wWWdJd2IyX2l1czY1YlI5X2RBclBPdUI3VVlsc2hpYkpQcmVDNS14NEJLcTVUWXlvakhqQ1dQZ1plNkhPWDVfNUxBN0lYVFhUNVRBWngxS0pHRXVFOTJrOWVmblk4bWVJZnNudUdabllMaFNUZF9POG5neFk?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0wWWdJd2IyX2l1czY1YlI5X2RBclBPdUI3VVlsc2hpYkpQcmVDNS14NEJLcTVUWXlvakhqQ1dQZ1plNkhPWDVfNUxBN0lYVFhUNVRBWngxS0pHRXVFOTJrOWVmblk4bWVJZnNudUdabllMaFNUZF9POG5neFk?oc=5",
+    "snippet": "Mastercard integrates Open USD stablecoin into BVNK platform The Cryptonomist",
+    "published_at": "2026-10-02T16:49:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMifEFVX3lxTE0wWWdJd2IyX2l1czY1YlI5X2RBclBPdUI3VVlsc2hpYkpQcmVDNS14NEJLcTVUWXlvakhqQ1dQZ1plNkhPWDVfNUxBN0lYVFhUNVRBWngxS0pHRXVFOTJrOWVmblk4bWVJZnNudUdabllMaFNUZF9POG5neFk",
+      "guidislink": false
+    },
+    "score": 55,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "1ec82b117b53b857ad9b241a9953fd80afcead1bf59d077f953a70bad02fe57e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -147,7 +293,7 @@
     "snippet": "Tokenized stocks and ETFs on BNB Chain reached $1.1 billion as the broader market climbed to $3.7 billion, putting the network’s share at roughly 30%.",
     "published_at": "2026-10-02T11:40:21+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -158,14 +304,14 @@
       "id": "https://cointelegraph.com/markets/bnb-chain-1-billion-tokenized-assets-market-3-7-billion",
       "guidislink": true
     },
-    "score": 60,
+    "score": 54,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -194,7 +340,7 @@
     "snippet": "The ECB outlined three models for bringing central bank money onchain as financial institutions explore settlement infrastructure.",
     "published_at": "2026-10-02T10:17:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -205,14 +351,14 @@
       "id": "b6d0acfe-3b06-56dc-9d38-c1336c822622",
       "guidislink": false
     },
-    "score": 60,
+    "score": 54,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 40,
@@ -241,7 +387,7 @@
     "snippet": "Robinhood's Johann Kerbrat told The Block that Robinhood is still working through the SEC's latest innovation exemption on tokenized stocks.",
     "published_at": "2026-10-02T05:04:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -278,54 +424,6 @@
     ]
   },
   {
-    "id": "1776d8635bb7b4f95b07029ae1c96e6258088401164d3f6800b4d09f66259a1e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "50,000 Europeans call on EU to ease stablecoin rewards restrictions in MiCA review",
-    "url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review",
-    "snippet": "A 50,000-letter campaign is pressing Brussels to rethink stablecoin rewards as EU central banks seek broader changes to MiCA’s stablecoin rules.",
-    "published_at": "2026-10-01T18:45:09+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "MiCA"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review",
-      "guidislink": true
-    },
-    "score": 50,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "cece463cba9b56c17292758f576b675216ed8c909f614f174850fbb75f9a8125",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -336,7 +434,7 @@
     "snippet": "Circle wants the EU to replace mandatory bank-deposit minimums with more flexible liquidity rules and preserve cross-border stablecoin issuance.",
     "published_at": "2026-10-02T12:25:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -351,117 +449,19 @@
       "id": "https://cointelegraph.com/news/circle-eu-stablecoin-reserve-rules-mica-review",
       "guidislink": true
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "24cd3ebfa34f43fbf49295f97c1fc665290d434494272da3c35ac690d0a2f8c8",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Lloyds Uses USDC for Visa Settlement, Completing Transfers Within an Hour on Weekends - bloomingbit",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZSUIwZkdJXzVQYktESlI4RVhyZmFBcVdMSVZ0M0xLekNIUE1jczBCekpESmhScWp5MDJ4MXZ4RkFlRkJpNElUOXhWb0ZrUGozbmJNTw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZSUIwZkdJXzVQYktESlI4RVhyZmFBcVdMSVZ0M0xLekNIUE1jczBCekpESmhScWp5MDJ4MXZ4RkFlRkJpNElUOXhWb0ZrUGozbmJNTw?oc=5",
-    "snippet": "Lloyds Uses USDC for Visa Settlement, Completing Transfers Within an Hour on Weekends bloomingbit",
-    "published_at": "2026-10-02T01:03:58+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [
-      "USDC",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiVEFVX3lxTE9ZSUIwZkdJXzVQYktESlI4RVhyZmFBcVdMSVZ0M0xLekNIUE1jczBCekpESmhScWp5MDJ4MXZ4RkFlRkJpNElUOXhWb0ZrUGozbmJNTw",
-      "guidislink": false
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "e63fcfe256d5701c3e103372667ac0037232067aeef15086ba82465e3c23110a",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Hyperliquid Policy Center, Circle press EU on perps and stablecoin reserves in MiCA review",
-    "url": "https://www.theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452",
-    "canonical_url": "https://theblock.co/news/regulation/2026-10-01-hyperliquid-circle-mica-review-417452",
-    "snippet": "Hyperliquid's policy group wants perps under MiFID II, while Circle targets MiCA's bank deposit floor in filings to the European Commission's MiCA review.",
-    "published_at": "2026-10-01T19:10:36+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "Circle",
-      "reserves",
-      "MiCA"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "17418412-bc03-52a7-b4a2-863be3c25cba",
-      "guidislink": false
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 40,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -485,7 +485,7 @@
     "snippet": "Payments Giant Fiserv Launches Stablecoin Settlement on Solana Altcoin Buzz",
     "published_at": "2026-10-02T07:13:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement",
@@ -525,66 +525,19 @@
     ]
   },
   {
-    "id": "3c00ebad450e247c974420725670716d33ac410297c2a3097b01318ed9f4de62",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Fiserv Digital Asset Platform Goes Live With Bank of North Dakota Stablecoin",
-    "url": "https://www.pymnts.com/blockchain/2026/fiserv-digital-asset-platform-goes-live-with-bank-of-north-dakota-stablecoin/",
-    "canonical_url": "https://pymnts.com/blockchain/2026/fiserv-digital-asset-platform-goes-live-with-bank-of-north-dakota-stablecoin/",
-    "snippet": "Fiserv’s digital asset platform is now live with financial institution clients, the global provider of payments and financial services said in a Thursday (Oct. 1) press release. The platform’s first live use case Bank of North Dakota’s Roughrider Coin, a dollar-backed stablecoin designed to enable m",
-    "published_at": "2026-10-02T01:03:44+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4266354",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "8d04f427770a8bd2b8308d80276a9fb38266d91e464fd197714305690e5efc4b",
+    "id": "6a151901fb39c4da2ec2b2ea02e8ae31a63bd67f4ccac8b416cf3bb85cb477b8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Inside OUSD’s big stablecoin launch - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOckk3RG1MQWhhUFpXRlVabU9ybXlwa1FieDJEU3pkdHo4UkdkQ1pOQmZpSjJfWTZxT3pVWTA3US1yNHM5Y3o2ZkFsRWZnWjBqQlZ4UnhpR005QW9GYkw1ZUhYYTBaa1NnbkxCR0JTOVU4bWNrdGdDQlgwZDJqQWpveXdEelFyNnM?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOckk3RG1MQWhhUFpXRlVabU9ybXlwa1FieDJEU3pkdHo4UkdkQ1pOQmZpSjJfWTZxT3pVWTA3US1yNHM5Y3o2ZkFsRWZnWjBqQlZ4UnhpR005QW9GYkw1ZUhYYTBaa1NnbkxCR0JTOVU4bWNrdGdDQlgwZDJqQWpveXdEelFyNnM?oc=5",
-    "snippet": "Inside OUSD’s big stablecoin launch Yahoo Finance",
-    "published_at": "2026-10-01T17:00:00+00:00",
+    "title": "Utexo plans October launch of USDT on Bitcoin w... - Pluang",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRG5wX3NpcXlRbHJMdXF5ODhxQkVmUTFSOThoQ1RvSTAzSjBYaXdiNG9VbTRNNm00MVgxaWNQUmtwZ1RDR1NDVldxVkdhRHFLdmw5VENIOEU1cXk0WEZxbHFPTS1wZlB6bnBvV3dKTzRsbl9WY0YyNjh1NGlsRElzOXhqekRiNFFUQVM0Z0VtLWk1TmVYM3JxNHVB?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRG5wX3NpcXlRbHJMdXF5ODhxQkVmUTFSOThoQ1RvSTAzSjBYaXdiNG9VbTRNNm00MVgxaWNQUmtwZ1RDR1NDVldxVkdhRHFLdmw5VENIOEU1cXk0WEZxbHFPTS1wZlB6bnBvV3dKTzRsbl9WY0YyNjh1NGlsRElzOXhqekRiNFFUQVM0Z0VtLWk1TmVYM3JxNHVB?oc=5",
+    "snippet": "Utexo plans October launch of USDT on Bitcoin w... Pluang",
+    "published_at": "2026-10-02T17:29:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
-      "stablecoin",
+      "USDT",
       "launch"
     ],
     "matched_topics": [
@@ -592,7 +545,7 @@
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMihwFBVV95cUxOckk3RG1MQWhhUFpXRlVabU9ybXlwa1FieDJEU3pkdHo4UkdkQ1pOQmZpSjJfWTZxT3pVWTA3US1yNHM5Y3o2ZkFsRWZnWjBqQlZ4UnhpR005QW9GYkw1ZUhYYTBaa1NnbkxCR0JTOVU4bWNrdGdDQlgwZDJqQWpveXdEelFyNnM",
+      "id": "CBMimgFBVV95cUxPRG5wX3NpcXlRbHJMdXF5ODhxQkVmUTFSOThoQ1RvSTAzSjBYaXdiNG9VbTRNNm00MVgxaWNQUmtwZ1RDR1NDVldxVkdhRHFLdmw5VENIOEU1cXk0WEZxbHFPTS1wZlB6bnBvV3dKTzRsbl9WY0YyNjh1NGlsRElzOXhqekRiNFFUQVM0Z0VtLWk1TmVYM3JxNHVB",
       "guidislink": false
     },
     "score": 35,
@@ -602,7 +555,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -631,7 +584,7 @@
     "snippet": "SEC proposed a crypto framework for investment advisers & funds, allowing self-custody in some cases & state trust companies as custodians.",
     "published_at": "2026-10-01T21:00:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -668,6 +621,56 @@
     ]
   },
   {
+    "id": "e572fd41432132912a276e60dffda8f994b9aab8d098f55248d53e5fa36532f3",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "71% of UK finance leaders expect tokenization to reshape financial services: Lloyds",
+    "url": "https://cointelegraph.com/news/71-percent-uk-finance-leaders-expect-tokenization-reshape-financial-services-lloyds?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/71-percent-uk-finance-leaders-expect-tokenization-reshape-financial-services-lloyds",
+    "snippet": "A Lloyds survey found that faster payments and settlement are the most significant perceived benefits of tokenization, as the UK builds infrastructure for tokenized finance.",
+    "published_at": "2026-10-02T16:20:24+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
+    "matched_keywords": [
+      "settlement",
+      "tokenization",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/71-percent-uk-finance-leaders-expect-tokenization-reshape-financial-services-lloyds",
+      "guidislink": true
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "7728c3eddca613b5b47d2496f215a6d9c704441865678ca7008af7a9639d3a71",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -678,7 +681,7 @@
     "snippet": "South Korea’s financial regulator proposed detailed rules for tokenized securities, including capital requirements, OTC trading licenses and retail investment limits.",
     "published_at": "2026-10-02T05:08:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "tokenized",
       "rollout"
@@ -727,7 +730,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -772,7 +775,7 @@
     "snippet": "Visa Says Business Payments Now Drive 17% Of Stablecoin-Linked Card Volume TradingView",
     "published_at": "2026-10-02T08:41:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -819,7 +822,7 @@
     "snippet": "Visa Reports Nearly 200% Annual Growth in Stablecoin Card Payments Fintech Singapore",
     "published_at": "2026-10-02T07:10:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -864,9 +867,9 @@
     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUFhNU3dsQkliQUtxd21Ncy1FUjdXTlNOeEdaZU5JbE5oV01Sbno3OHJqSkJpdlpJZEMxUDB4UGxpOVJfMmctX3ZDUWRBTS1EYTFmVGlCcGsycGM1OWFCX2RLVEl4ZnY5TGlDX0VTN2NiTERZWnNGUTNJMnVmLThsYXpHbml1MjlydGhsVlJ3WUpURnY3aUVRUFZlNDVCeGtMa1BFbG1CZTB5dWpESkdDdVVaOXVxLXotRXAtUno0T3o2LU92OFlmZUN5a0hIMERWZmdUbWlCOTk1QW5YUkpQeDJVejHSAeoBQVVfeXFMTzRPSmN2anFGcmI0QURKWkFJWGR2eFZxSHktbkdjMERGcm1TN0dQcjVHbEh2bEtJRUZFajNPeTBRSFNrOVhYbmQwUUZPSmlUYTEtVVEybjZJalpaUlR4bjI3WDZVU3MwWXBGeXdaeWpXeGlNdXJsdldDcHI4bm91NTBDRkdjdnFiSWFnOTFPNWFDUHU3azEzajhiM0JxMUZUR1J0aXl1cEpXUFVMUnp2YlRtem9aX2FTUG04RE9wN1kzbmgxR3dRMjUzZElaNHFmYkxtdmJCLUZsclF1TjlreVRyZ0dMYkhjdk5B?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUFhNU3dsQkliQUtxd21Ncy1FUjdXTlNOeEdaZU5JbE5oV01Sbno3OHJqSkJpdlpJZEMxUDB4UGxpOVJfMmctX3ZDUWRBTS1EYTFmVGlCcGsycGM1OWFCX2RLVEl4ZnY5TGlDX0VTN2NiTERZWnNGUTNJMnVmLThsYXpHbml1MjlydGhsVlJ3WUpURnY3aUVRUFZlNDVCeGtMa1BFbG1CZTB5dWpESkdDdVVaOXVxLXotRXAtUno0T3o2LU92OFlmZUN5a0hIMERWZmdUbWlCOTk1QW5YUkpQeDJVejHSAeoBQVVfeXFMTzRPSmN2anFGcmI0QURKWkFJWGR2eFZxSHktbkdjMERGcm1TN0dQcjVHbEh2bEtJRUZFajNPeTBRSFNrOVhYbmQwUUZPSmlUYTEtVVEybjZJalpaUlR4bjI3WDZVU3MwWXBGeXdaeWpXeGlNdXJsdldDcHI4bm91NTBDRkdjdnFiSWFnOTFPNWFDUHU3azEzajhiM0JxMUZUR1J0aXl1cEpXUFVMUnp2YlRtem9aX2FTUG04RE9wN1kzbmgxR3dRMjUzZElaNHFmYkxtdmJCLUZsclF1TjlreVRyZ0dMYkhjdk5B?oc=5",
     "snippet": "Should Stablecoin Card Settlement Require Action From SoFi Stock Investors? Simply Wall Street",
-    "published_at": "2026-10-02T14:42:56+00:00",
+    "published_at": "2026-10-02T15:03:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -914,7 +917,7 @@
     "snippet": "European issuers say Europe cannot ignore demand for dollar stablecoins as businesses seek USD liquidity for global payments and settlement.",
     "published_at": "2026-10-02T14:12:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -962,7 +965,7 @@
     "snippet": "Circle urges EU to replace fixed stablecoin res... Pluang",
     "published_at": "2026-10-02T13:09:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle"
@@ -974,14 +977,14 @@
       "id": "CBMingFBVV95cUxOQ3NJaXVHS3A2NUM0c184VWREMWZvbXFfU050NWRCVjg3YnhJbmZqRUVhMEZ6a2QwZFlYbjVmTlB1VzM1S1lWUzZmT2RNY3BoWk1jVGk0Q3U4Zk42dW5NQmxMYk1OMENJVE8zaHBqcjllcHI3MFd1X0g1dkM4djN4M2Zrbmp6MnZGclo2Q2VMaERweDM5emNBV2VSVWdUZw",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 10,
@@ -1010,7 +1013,7 @@
     "snippet": "",
     "published_at": "2026-10-02T08:28:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -1058,7 +1061,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1103,7 +1106,7 @@
     "snippet": "W Group brings external crypto wallet connectivity to regulated banking with hashbank CCN.com",
     "published_at": "2026-10-02T11:13:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -1112,100 +1115,6 @@
     ],
     "raw": {
       "id": "CBMiqgFBVV95cUxNSFhhVkJiMVhuTmJyelB5MFlBZkVqVy1kMHVqcTJKdWlndFA4Z0tSZ1BqdmFrZ2hKZEJDUU5uQWVmZER6X3Z0Uk1hR2pfZ0htdC1VbUVHaFA2S0d3WWR2YlNHd0pRR21KcXFaS2JvUk9wSlBtcms4RkxzYkwzNnJxejFhcnNjaU4xampsd0hEZk9RZWFsSWgtMjdfLWV1dnpIU3lqZUg0YUZCdw",
-      "guidislink": false
-    },
-    "score": 10,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6e7a9d37570d20686cc0d6aa3fbc769154afabf339ce799af84887383c7b45c4",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "WasabiCard Hosts Stablecoin and Payments Event in Singapore on October 6, 2026 - KuCoin",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWhTajRaUFdobUJPMXpXdm1nTElXbVhCZ3V2bmVGalRaRHlQeGNGNklZTURiTDRNTTk1d3MtTlloSnVZVTM2S19aOWd2dWVHZWxIQ2dQVVd6OVJndXExSXJIOFExMFlVd2ZEbHREanU0OXlUcENkZWVWb2dCOUxSb0pCTkxjX3hVUEhxRWs1cTl0cUpySm5taTRnb1hJZG81VmhSOTVMUWZidzA?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWhTajRaUFdobUJPMXpXdm1nTElXbVhCZ3V2bmVGalRaRHlQeGNGNklZTURiTDRNTTk1d3MtTlloSnVZVTM2S19aOWd2dWVHZWxIQ2dQVVd6OVJndXExSXJIOFExMFlVd2ZEbHREanU0OXlUcENkZWVWb2dCOUxSb0pCTkxjX3hVUEhxRWs1cTl0cUpySm5taTRnb1hJZG81VmhSOTVMUWZidzA?oc=5",
-    "snippet": "WasabiCard Hosts Stablecoin and Payments Event in Singapore on October 6, 2026 KuCoin",
-    "published_at": "2026-10-02T10:38:26+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiqwFBVV95cUxPNWhTajRaUFdobUJPMXpXdm1nTElXbVhCZ3V2bmVGalRaRHlQeGNGNklZTURiTDRNTTk1d3MtTlloSnVZVTM2S19aOWd2dWVHZWxIQ2dQVVd6OVJndXExSXJIOFExMFlVd2ZEbHREanU0OXlUcENkZWVWb2dCOUxSb0pCTkxjX3hVUEhxRWs1cTl0cUpySm5taTRnb1hJZG81VmhSOTVMUWZidzA",
-      "guidislink": false
-    },
-    "score": 10,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "053a4fe1c886c2812bfcca9ba28292d26c1c160cfdcbc4deb09a18c60552f17e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Fiserv’s stablecoin system starts - Payments Dive",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUZ2M3hPUGJidzdTR1ZyMF8xUFlndVlqaEdPN0xpQXRycC1lMHg0QnE0N2YwU1lfTDlBNFhkMVh5d1hqal9UWGpYRGs1ZWt4YWhGYXhpN2w1OXRaZ2F5OTAyUl9VLW9aXzFrOGVBenBJZUVkUmdMYzRVdmRxMzNsV2NVTTl5ajFOODg3Z1Rad2RVcFIydFhudQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRUZ2M3hPUGJidzdTR1ZyMF8xUFlndVlqaEdPN0xpQXRycC1lMHg0QnE0N2YwU1lfTDlBNFhkMVh5d1hqal9UWGpYRGs1ZWt4YWhGYXhpN2w1OXRaZ2F5OTAyUl9VLW9aXzFrOGVBenBJZUVkUmdMYzRVdmRxMzNsV2NVTTl5ajFOODg3Z1Rad2RVcFIydFhudQ?oc=5",
-    "snippet": "Fiserv’s stablecoin system starts Payments Dive",
-    "published_at": "2026-10-01T15:58:58+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMimAFBVV95cUxPRUZ2M3hPUGJidzdTR1ZyMF8xUFlndVlqaEdPN0xpQXRycC1lMHg0QnE0N2YwU1lfTDlBNFhkMVh5d1hqal9UWGpYRGs1ZWt4YWhGYXhpN2w1OXRaZ2F5OTAyUl9VLW9aXzFrOGVBenBJZUVkUmdMYzRVdmRxMzNsV2NVTTl5ajFOODg3Z1Rad2RVcFIydFhudQ",
       "guidislink": false
     },
     "score": 4,
@@ -1234,79 +1143,32 @@
     ]
   },
   {
-    "id": "410e6741fe9408581861a60ac4be16bc631082360fae987b9a99dc60da1d4349",
+    "id": "6e7a9d37570d20686cc0d6aa3fbc769154afabf339ce799af84887383c7b45c4",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "BMO joins Project Agorá",
-    "url": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/111106/bmo-joins-project-agor",
-    "snippet": "BMO today announced its participation in Project Agorá, the global public-private collaboration convened by the Bank for International Settlements (BIS) and the Institute of International Finance (IIF) to explore how tokenization and programmability could enhance wholesale cross-border payments.",
-    "published_at": "2026-10-01T18:26:00+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "WasabiCard Hosts Stablecoin and Payments Event in Singapore on October 6, 2026 - KuCoin",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWhTajRaUFdobUJPMXpXdm1nTElXbVhCZ3V2bmVGalRaRHlQeGNGNklZTURiTDRNTTk1d3MtTlloSnVZVTM2S19aOWd2dWVHZWxIQ2dQVVd6OVJndXExSXJIOFExMFlVd2ZEbHREanU0OXlUcENkZWVWb2dCOUxSb0pCTkxjX3hVUEhxRWs1cTl0cUpySm5taTRnb1hJZG81VmhSOTVMUWZidzA?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNWhTajRaUFdobUJPMXpXdm1nTElXbVhCZ3V2bmVGalRaRHlQeGNGNklZTURiTDRNTTk1d3MtTlloSnVZVTM2S19aOWd2dWVHZWxIQ2dQVVd6OVJndXExSXJIOFExMFlVd2ZEbHREanU0OXlUcENkZWVWb2dCOUxSb0pCTkxjX3hVUEhxRWs1cTl0cUpySm5taTRnb1hJZG81VmhSOTVMUWZidzA?oc=5",
+    "snippet": "WasabiCard Hosts Stablecoin and Payments Event in Singapore on October 6, 2026 KuCoin",
+    "published_at": "2026-10-02T10:38:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
+    "fetched_at": "2026-10-02T19:58:23.387519+00:00",
     "matched_keywords": [
-      "cross-border",
-      "tokenization"
+      "stablecoin"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "CBMiqwFBVV95cUxPNWhTajRaUFdobUJPMXpXdm1nTElXbVhCZ3V2bmVGalRaRHlQeGNGNklZTURiTDRNTTk1d3MtTlloSnVZVTM2S19aOWd2dWVHZWxIQ2dQVVd6OVJndXExSXJIOFExMFlVd2ZEbHREanU0OXlUcENkZWVWb2dCOUxSb0pCTkxjX3hVUEhxRWs1cTl0cUpySm5taTRnb1hJZG81VmhSOTVMUWZidzA",
       "guidislink": false
     },
-    "score": -1,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 2,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -40,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "07b50d5b99b214e13608264ff66d82e5a2953da3d83940d018e85413e0d7dae3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "AI Could End Finance’s Point-and-Click Era",
-    "url": "https://www.pymnts.com/news/b2b-payments/2026/ai-could-end-finances-point-and-click-era/",
-    "canonical_url": "https://pymnts.com/news/b2b-payments/2026/ai-could-end-finances-point-and-click-era/",
-    "snippet": "Watch more: What’s Next in Payments With Billtrust’s Dave Ruda The finance technology playbook was once relatively straightforward. CFOs built out their department tech stacks by putting one piece of software after another between an employee and a cumbersome business process. For many teams today, ",
-    "published_at": "2026-10-02T08:01:30+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-02T15:15:27.768115+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4265470",
-      "guidislink": false
-    },
-    "score": -16,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
-      "commentary": 1,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
@@ -1315,7 +1177,7 @@
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -20,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
