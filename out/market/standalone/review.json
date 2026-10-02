@@ -1,9 +1,101 @@
 [
   {
+    "id": "142ced2b09fa3c917625f7e145c8ed3d373ec21c",
+    "title": "WuBlockchain Weekly: Vitalik Buterin outlines Ethereum’s evolution into a “cryptographic world computer,” El Salvador launches the Sivar national super app on Base, the SEC advances on-chain financing, tokenized securiti",
+    "link": "https://x.com/WuBlockchain/status/2106000825034461616",
+    "score": 150,
+    "snippet": "WuBlockchain Weekly: Vitalik Buterin outlines Ethereum’s evolution into a “cryptographic world computer,” El Salvador launches the Sivar national super app on Base, the SEC advances on-chain financing, tokenized securities and crypto custody rules, while HSBC unveils its Hong Kong stablecoin RedCoin",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T12:38:19.639000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "MMT"
+    ]
+  },
+  {
+    "id": "dc952305e20a7bcfd539c37d83b5e4ff9e2ed5ef",
+    "title": "THE BLOCK: The U.S. Treasury sanctioned the network behind the ruble-backed A7A5 token as a significant transnational criminal organization. Treasury said A7A5 was created to evade sanctions and transact internationally,",
+    "link": "https://x.com/TheBlockCo/status/2105954151889031224",
+    "score": 90,
+    "snippet": "THE BLOCK: The U.S. Treasury sanctioned the network behind the ruble-backed A7A5 token as a significant transnational criminal organization. Treasury said A7A5 was created to evade sanctions and transact internationally, while linking the A7 Network to Iran's Nobitex exchange and North Korean hacks ",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T09:32:51.842000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('sanctioned')",
+    "matched": "sanctioned",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ACT"
+    ]
+  },
+  {
+    "id": "1ecfd33065c169d8085e472383a62d795cb154a1",
+    "title": "As more enterprises look to launch their own chains, @ethereum gives them the flexibility to: > build as an L2 (Robinhood, Coinbase) > launch a new chain environment (Stripe, Circle) Hear from our CEO @sgoldfed on why th",
+    "link": "https://x.com/Offchain/status/2106024345449766968",
+    "score": 80,
+    "snippet": "As more enterprises look to launch their own chains, @ethereum gives them the flexibility to: > build as an L2 (Robinhood, Coinbase) > launch a new chain environment (Stripe, Circle) Hear from our CEO @sgoldfed on why this model is a clear win for Ethereum",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:offchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T14:11:47.304000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ARB",
+      "ETH"
+    ]
+  },
+  {
     "id": "8e9cd1920123155ba507820585efc95d220edf65",
     "title": "THE BLOCK: The IMF approved a $138 million disbursement to El Salvador under its $1.4 billion Extended Fund Facility. Notably, it granted a waiver for the country's breach of the program's bitcoin accumulation limits.",
     "link": "https://x.com/TheBlockCo/status/2105876853307376057",
-    "score": 85,
+    "score": 79,
     "snippet": "THE BLOCK: The IMF approved a $138 million disbursement to El Salvador under its $1.4 billion Extended Fund Facility. Notably, it granted a waiver for the country's breach of the program's bitcoin accumulation limits.",
     "regions": [],
     "primary_region": null,
@@ -23,37 +115,6 @@
     "origin": "tree",
     "coins": [
       "BTC"
-    ]
-  },
-  {
-    "id": "afbe0f6a734da5a25c5d45518a04b3850ce130af",
-    "title": "THE BLOCK: The Ethereum Foundation launched zkAPI on mainnet, based on a design co-authored by Vitalik Buterin. It lets users pay for AI and other APIs from prepaid $ETH or $USDC using zero-knowledge proofs, so providers",
-    "link": "https://x.com/TheBlockCo/status/2105762170135007440",
-    "score": 84,
-    "snippet": "THE BLOCK: The Ethereum Foundation launched zkAPI on mainnet, based on a design co-authored by Vitalik Buterin. It lets users pay for AI and other APIs from prepaid $ETH or $USDC using zero-knowledge proofs, so providers can't link requests to who paid.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T20:50:02.388000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ETH",
-      "USDC",
-      "BASED"
     ]
   },
   {
@@ -115,10 +176,44 @@
     ]
   },
   {
+    "id": "9a3c1fcc86ace5815316b3c389716f00e156cfcf",
+    "title": "This Week in Crypto, brought to you by Holoworld The GENIUS Act’s $10B stablecoin threshold is starting to take shape, as Open USD launched with $1B+ in liquidity commitments from Coinbase, Mastercard, Shopify, Stripe, a",
+    "link": "https://x.com/HoloworldAI/status/2106033965903872306",
+    "score": 65,
+    "snippet": "This Week in Crypto, brought to you by Holoworld The GENIUS Act’s $10B stablecoin threshold is starting to take shape, as Open USD launched with $1B+ in liquidity commitments from Coinbase, Mastercard, Shopify, Stripe, and Visa. @MetaMask is pulling roughly 17,000 Ethereum validators after a staking",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:holoworldai",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T14:50:01.007000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HOLO",
+      "GENIUS",
+      "T",
+      "ETH"
+    ]
+  },
+  {
     "id": "97bb376aa59e11dd5dc61f52c2f7b39e92bd6b45",
     "title": "The Midnight network is moving into its next stage. Today, permissionless smart contract deployment is live on Midnight mainnet, giving builders more freedom to deploy and enabling contracts to programmatically deploy ot",
     "link": "https://x.com/MidnightNtwrk/status/2105926258295206019",
-    "score": 70,
+    "score": 64,
     "snippet": "The Midnight network is moving into its next stage. Today, permissionless smart contract deployment is live on Midnight mainnet, giving builders more freedom to deploy and enabling contracts to programmatically deploy other contracts. And that’s not all in our latest State of the Network: 👉 @GeroWal",
     "regions": [],
     "primary_region": null,
@@ -144,7 +239,7 @@
     "id": "10985635f97c9543a8e1e725eb78b99e3b434824",
     "title": "THE BLOCK: Spot Bitcoin ETFs recorded $2.65 billion in net inflows in September, their second-largest monthly inflow since October 2025, following August's $3.52 billion inflow. Spot ether ETFs drew $832.43 million in Se",
     "link": "https://x.com/TheBlockCo/status/2105867943422918656",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Spot Bitcoin ETFs recorded $2.65 billion in net inflows in September, their second-largest monthly inflow since October 2025, following August's $3.52 billion inflow. Spot ether ETFs drew $832.43 million in September, compared with $1.85 billion in August. $BTC $ETH",
     "regions": [],
     "primary_region": null,
@@ -197,10 +292,210 @@
     ]
   },
   {
+    "id": "6e92a55783e54929857ab2765ca9ae108b500685",
+    "title": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
+    "link": "https://cointelegraph.com/markets/bnb-chain-1-billion-tokenized-assets-market-3-7-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 60,
+    "snippet": "Tokenized stocks and ETFs on BNB Chain reached $1.1 billion as the broader market climbed to $3.7 billion, putting the network’s share at roughly 30%.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-02T11:40:21+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "cafd63270393b018314f3b5b69a4669cf401adc7",
+    "title": "Digital Asset is hiring a Director of Sales, RWA in New York, working with institutions to bring tokenized funds, repo, treasury, and settlement workflows onto @CantonNetwork. The role blends enterprise sales and ecosyst",
+    "link": "https://x.com/digitalasset/status/2106039502879760488",
+    "score": 60,
+    "snippet": "Digital Asset is hiring a Director of Sales, RWA in New York, working with institutions to bring tokenized funds, repo, treasury, and settlement workflows onto @CantonNetwork. The role blends enterprise sales and ecosystem engagement. Learn more: https://job-boards.greenhouse.io/digitalassetcorp/job",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:digitalasset",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T15:12:01.062000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "9522cce6bd256c12af9127abdda39d9fdbcb2e37",
+    "title": "PLUS Mainnet Launches Layer-1 Blockchain with $945M Reserves",
+    "link": "https://financewire.com/2026/10/02/plus-mainnet-launches-layer-1-blockchain-with-945m-reserves",
+    "score": 60,
+    "snippet": "PLUS Mainnet Launches Layer-1 Blockchain with $945M Reserves",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:finance wire",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-02T15:06:22.798000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "63d107bca3a97adaf6f23c6b44c7a4114531dce3",
+    "title": "1/ Frax is helping bring Brazil’s rate onchain. @Featherlend launched @transferogroup BRZ @Morpho markets on @0xPolygon, with FX infra from @DFB_DeFi. sfrxUSD and @etherfuse TESOURO can be used to borrow BRZ. For the fir",
+    "link": "https://x.com/fraxfinance/status/2106037119877812334",
+    "score": 60,
+    "snippet": "1/ Frax is helping bring Brazil’s rate onchain. @Featherlend launched @transferogroup BRZ @Morpho markets on @0xPolygon, with FX infra from @DFB_DeFi. sfrxUSD and @etherfuse TESOURO can be used to borrow BRZ. For the first time, the Real gets an onchain funding rate.",
+    "regions": [
+      "LatAm"
+    ],
+    "primary_region": "LatAm",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:fraxfinance",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T15:02:32.962000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "FRAX",
+      "MORPHO"
+    ]
+  },
+  {
+    "id": "2928eb14d734892722af10ddef5f416ccdc89831",
+    "title": "Art on Tezos Friday Recap 🔔 → @artontezos_ announced partnership with VAULTED for Season One by @ARTANDVAULT, inviting artists to submit available or unminted still and moving-image works on Tezos for possible acquisitio",
+    "link": "https://x.com/tezos/status/2106006583729885523",
+    "score": 60,
+    "snippet": "Art on Tezos Friday Recap 🔔 → @artontezos_ announced partnership with VAULTED for Season One by @ARTANDVAULT, inviting artists to submit available or unminted still and moving-image works on Tezos for possible acquisition into the ART & VAULT collection. 🏛️✨ → @kentocards Season 01 is officially fun",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:tezos",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T13:01:12.535000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XTZ",
+      "BASED"
+    ]
+  },
+  {
+    "id": "b3f599fac702f49a86f6bb603ad29c7eb691377f",
+    "title": "bitFlyer Launches Anti-Fraud Cooldown, Triggering 48-Hour Transfer Restrictions on Deposits Within 90 Days of Verification Japan’s largest crypto exchange bitFlyer announced that it will introduce an anti-fraud measure c",
+    "link": "https://x.com/WuBlockchain/status/2105976570834010484",
+    "score": 60,
+    "snippet": "bitFlyer Launches Anti-Fraud Cooldown, Triggering 48-Hour Transfer Restrictions on Deposits Within 90 Days of Verification Japan’s largest crypto exchange bitFlyer announced that it will introduce an anti-fraud measure called “Cooldown” on October 15. Individual customers within 90 days of completin",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T11:01:56.914000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "0188273205f5fb6ad0acbb9d5ad12deb4c660e6b",
+    "title": "THE BLOCK: Copper launched institutional trading access to Hyperliquid perpetuals through its APIs and in-platform interface. The integration lets clients trade Hyperliquid perpetuals through Copper while keeping assets",
+    "link": "https://x.com/TheBlockCo/status/2105949999905546319",
+    "score": 55,
+    "snippet": "THE BLOCK: Copper launched institutional trading access to Hyperliquid perpetuals through its APIs and in-platform interface. The integration lets clients trade Hyperliquid perpetuals through Copper while keeping assets secured in its non-custodial MPC infrastructure.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T09:16:21.695000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HYPE"
+    ]
+  },
+  {
     "id": "0625a3c2e5f18fce5e3c92123b36c817e6c32626",
     "title": "SEC’s innovation exemption poses constraint on bringing stock tokens to US, Robinhood crypto chief says",
     "link": "https://www.theblock.co/news/regulation/2026-10-02-secs-innovation-exemption-robinhood-417538",
-    "score": 60,
+    "score": 54,
     "snippet": "Robinhood's Johann Kerbrat told The Block that Robinhood is still working through the SEC's latest innovation exemption on tokenized stocks.",
     "regions": [
       "US",
@@ -229,7 +524,7 @@
     "id": "10f682ef3cbdf80e7b00eca545041a4cd79b8bf8",
     "title": "THE BLOCK: The ECB outlined three models for bringing central bank money onchain, including direct issuance, bridges, and private intermediaries. The approaches could enable central bank money to settle transactions invo",
     "link": "https://x.com/TheBlockCo/status/2105936464458760493",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: The ECB outlined three models for bringing central bank money onchain, including direct issuance, bridges, and private intermediaries. The approaches could enable central bank money to settle transactions involving tokenized securities, deposits, and stablecoins on DLT networks.",
     "regions": [
       "EU"
@@ -258,7 +553,7 @@
     "id": "3cbda88a87e489efd55fb3219aecd2871d115289",
     "title": "THE BLOCK: Robinhood is still working through the SEC's innovation exemption for tokenized stocks, and its stock token volume will likely hit the SEC's limits, its crypto SVP Johann Kerbrat told The Block at Korea Blockc",
     "link": "https://x.com/TheBlockCo/status/2105872034559558106",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: Robinhood is still working through the SEC's innovation exemption for tokenized stocks, and its stock token volume will likely hit the SEC's limits, its crypto SVP Johann Kerbrat told The Block at Korea Blockchain Week 2026.",
     "regions": [
       "US"
@@ -280,195 +575,6 @@
     "matched": null,
     "fulltext": false,
     "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "40128e283b3e644798d228012f388f967a717781",
-    "title": "Lloyds, Visa settle $750,000 using USDC in live cross-border pilot",
-    "link": "https://www.theblock.co/news/business/2026-10-01-lloyds-visa-settle-750000-using-usdc-in-live-cross-border-pilot-417378",
-    "score": 59,
-    "snippet": "Lloyds used USDC to settle $750,000 of payment obligations with Visa during a seven-day live cross-border pilot.",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "theblock",
-    "source": "Google News RSS",
-    "published_at": "2026-10-01T11:13:46+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "b756f73d6a9a4ebc6552b27f911eec444ceb295f",
-    "title": "September round up ⬇️ Tokenization: → Passed $7B in total tokenized asset volume → Day 1 support of Ondo Intelligent Portfolios. Institutional strategies powered by BlackRock. New Chains: →@Monad, HyperEVM, and @CronosNe",
-    "link": "https://x.com/1inch/status/2105693650965451030",
-    "score": 59,
-    "snippet": "September round up ⬇️ Tokenization: → Passed $7B in total tokenized asset volume → Day 1 support of Ondo Intelligent Portfolios. Institutional strategies powered by BlackRock. New Chains: →@Monad, HyperEVM, and @CronosNetwork launched in two days → Live on @arc from day 1 Aqua: → Crossed $3B in volu",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:1inch",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T16:17:43.414000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "1INCH",
-      "HYPE",
-      "MON",
-      "ONDO",
-      "ARC"
-    ]
-  },
-  {
-    "id": "c3dd0541e79b337797d31cab78d68ae4d4cb0046",
-    "title": "September round up ⬇️ Tokenization: → Passed $7B in total tokenized asset volume → Day 1 support of Ondo Intelligent Portfolios. Institutional strategies powered by BlackRock. New Chains: → @Monad, HyperEVM, and @CronosN",
-    "link": "https://x.com/1inch/status/2105692214084927988",
-    "score": 59,
-    "snippet": "September round up ⬇️ Tokenization: → Passed $7B in total tokenized asset volume → Day 1 support of Ondo Intelligent Portfolios. Institutional strategies powered by BlackRock. New Chains: → @Monad, HyperEVM, and @CronosNetwork launched in two days → Live on @arc from day 1 Aqua: → Crossed $3B in vol",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:1inch",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T16:12:00.906000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "1INCH",
-      "HYPE",
-      "MON",
-      "ONDO",
-      "ARC"
-    ]
-  },
-  {
-    "id": "32cc9f3af62a6734ba49164fd86e72c270c52766",
-    "title": "1inch September Round Up. Tokenization: → Passed $7B in total tokenized asset volume → Day 1 support of Ondo Intelligent Portfolios. Institutional strategies powered by BlackRock. New Chains: → @Monad, HyperEVM, and @Cro",
-    "link": "https://x.com/1inch/status/2105691933137838389",
-    "score": 59,
-    "snippet": "1inch September Round Up. Tokenization: → Passed $7B in total tokenized asset volume → Day 1 support of Ondo Intelligent Portfolios. Institutional strategies powered by BlackRock. New Chains: → @Monad, HyperEVM, and @CronosNetwork launched in two days → Live on @arc from day 1 Aqua: → Crossed $3B in",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:1inch",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T16:10:53.869000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "1INCH",
-      "HYPE",
-      "MON",
-      "ONDO",
-      "ARC"
-    ]
-  },
-  {
-    "id": "1e70d1f7fc2c133e8c014dea2c17db4e15bd9eaa",
-    "title": "IMF Approves $139 Million for El Salvador After Waiver for Bitcoin Breach According to Bloomberg, the International Monetary Fund (IMF) approved an immediate $139 million disbursement to El Salvador after granting a waiv",
-    "link": "https://x.com/WuBlockchain/status/2105854258063294551",
-    "score": 55,
-    "snippet": "IMF Approves $139 Million for El Salvador After Waiver for Bitcoin Breach According to Bloomberg, the International Monetary Fund (IMF) approved an immediate $139 million disbursement to El Salvador after granting a waiver for the government’s breach of restrictions on further Bitcoin accumulation. ",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-02T02:55:55.353000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approves')",
-    "matched": "approves",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "53fe1b1e5a7fa823ebfe79498d910e39d30d25d3",
-    "title": "Tokenized assets don’t always mirror traditional markets, Dune finds",
-    "link": "https://cointelegraph.com/news/tokenized-assets-traditional-markets-dune-rwa-report?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 54,
-    "snippet": "Dune found that tokenized markets show different trading patterns from traditional markets, with RWA value reaching $34.5 billion.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-10-01T10:50:24+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
     "coins": []
   },
   {
@@ -529,15 +635,15 @@
     ]
   },
   {
-    "id": "4d0aaf327c72cc7a0a2304620167d9830a0a463f",
-    "title": "Lowest Fee Bitcoin ATMs Announces Launch of More Than 400 ATMs Nationwide",
-    "link": "https://decrypt.co/379888",
-    "score": 54,
-    "snippet": "Lowest Fee Bitcoin ATMs Announces Launch of More Than 400 ATMs Nationwide",
+    "id": "676447dc64a716633c5b495aa459bb662f2b43df",
+    "title": "SMBC Nikko, one of Japan's largest securities firms, is building a new trading venue on Uniswap Compliance runs inside a hook, so each pool is built to Japan's regulatory requirements for investors Launching onchain mid-",
+    "link": "https://x.com/Uniswap/status/2106028366860284193",
+    "score": 50,
+    "snippet": "SMBC Nikko, one of Japan's largest securities firms, is building a new trading venue on Uniswap Compliance runs inside a hook, so each pool is built to Japan's regulatory requirements for investors Launching onchain mid-2027",
     "regions": [
-      "US"
+      "APAC"
     ],
-    "primary_region": "US",
+    "primary_region": "APAC",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -545,29 +651,27 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-01T18:44:07.729000+00:00",
+    "feed_name": "tree:x:uniswap",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T14:27:45.945000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "UNI"
     ]
   },
   {
-    "id": "f075a73b847a34b9c11fb4ca364f51d4b6a183e8",
-    "title": "Lowest Fee Bitcoin ATMs Announces Launch of More Than 400 ATMs Nationwide",
-    "link": "https://chainwire.org/2026/10/01/lowest-fee-bitcoin-atms-announces-launch-of-more-than-400-atms-nationwide",
-    "score": 54,
-    "snippet": "Lowest Fee Bitcoin ATMs Announces Launch of More Than 400 ATMs Nationwide",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "id": "0022841700619d401d71ff93e33477496282fdae",
+    "title": "Featuring ~56% APY for early capital 🍊🍋 Two main yield streams at launch: → @noon_capital: @ClearstarLabs allocates deposits to Noon for sUSN looping strategies for baseline yield → CTR Incentives: CTR rewards are distri",
+    "link": "https://x.com/citrea_xyz/status/2106006565849588159",
+    "score": 50,
+    "snippet": "Featuring ~56% APY for early capital 🍊🍋 Two main yield streams at launch: → @noon_capital: @ClearstarLabs allocates deposits to Noon for sUSN looping strategies for baseline yield → CTR Incentives: CTR rewards are distributed to the vault participants via Merkl.",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -575,37 +679,35 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:chainwire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-01T18:40:40.956000+00:00",
+    "feed_name": "tree:x:citrea_xyz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T13:01:08.095000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "CTR"
     ]
   },
   {
-    "id": "19e411d05e37379fdd0a5ac2f66c38ed55da503c",
-    "title": "Ripple releases 1 billion XRP from escrow as October kicks off",
-    "link": "https://www.thestreet.com/crypto/markets/ripple-releases-1-billion-xrp-from-escrow-as-october-kicks-off",
-    "score": 54,
-    "snippet": "Ripple releases 1 billion XRP from escrow as October kicks off",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "5934d701bbf2d5f5b865cd8b2a580328c675a543",
+    "title": "I am thrilled to announce the Republic of Korea Deal keeps getting BETTER! 8.4 Billion Dollars for an enhanced Oil Recovery Project. Producing more Oil and Gas means American Energy Dominance and Energy Security in the W",
+    "link": "https://truthsocial.com/@realDonaldTrump/117371353802794328",
+    "score": 50,
+    "snippet": "I am thrilled to announce the Republic of Korea Deal keeps getting BETTER! 8.4 Billion Dollars for an enhanced Oil Recovery Project. Producing more Oil and Gas means American Energy Dominance and Energy Security in the World for the Future! President DONALD J. TRUMP",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:the street",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-01T17:12:26.146000+00:00",
+    "feed_name": "tree:x:realdonaldtrump",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T12:38:50.575000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -613,15 +715,42 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XRP"
+      "TRUMP"
     ]
   },
   {
-    "id": "99c12af58871c7bdfc21ab8f25c23558d2b9d407",
-    "title": "THE BLOCK: 71% of senior leaders at the UK's largest financial institutions expect tokenization to reshape financial services, according to Lloyds' 10th annual Financial Institutions Sentiment Survey. Faster payments and",
-    "link": "https://x.com/TheBlockCo/status/2105942737128411455",
+    "id": "3798661440ac596c96b90b0f710a328b248cdc66",
+    "title": "Q3 2026, report card: Bitcoin: A. Best quarter since late 2024. ETF flows: A. Erased yearly outflows in five weeks. Macro: C. First rate hike in three years. Crypto rallied anyway. Security: F. $1.26 billion lost to hack",
+    "link": "https://x.com/BandProtocol/status/2105976492819878376",
     "score": 50,
-    "snippet": "THE BLOCK: 71% of senior leaders at the UK's largest financial institutions expect tokenization to reshape financial services, according to Lloyds' 10th annual Financial Institutions Sentiment Survey. Faster payments and settlement were the most-cited benefit, followed by collateral and liquidity ma",
+    "snippet": "Q3 2026, report card: Bitcoin: A. Best quarter since late 2024. ETF flows: A. Erased yearly outflows in five weeks. Macro: C. First rate hike in three years. Crypto rallied anyway. Security: F. $1.26 billion lost to hacks. Band: A+. Zero exploits, feeds always running. Same as every year. See you in",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:bandprotocol",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T11:01:38.256000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BAND",
+      "BTC"
+    ]
+  },
+  {
+    "id": "5f52b44a6324b00032303138d20cadf1d3dbe967",
+    "title": "Lloyds Uses USDC for Visa Settlement, Completing Transfers Within an Hour on Weekends - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZSUIwZkdJXzVQYktESlI4RVhyZmFBcVdMSVZ0M0xLekNIUE1jczBCekpESmhScWp5MDJ4MXZ4RkFlRkJpNElUOXhWb0ZrUGozbmJNTw?oc=5",
+    "score": 44,
+    "snippet": "Lloyds Uses USDC for Visa Settlement, Completing Transfers Within an Hour on Weekends bloomingbit",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -629,31 +758,29 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-02T08:47:30.383000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-02T01:03:58+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
     "fulltext": false,
-    "origin": "tree",
+    "origin": "rss",
     "coins": []
   },
   {
     "id": "b92eda1b2cbdc9fc1445ab7458a450503425750d",
     "title": "Spot bitcoin ETFs log $2.7 billion in September inflows as institutional demand holds",
     "link": "https://www.theblock.co/news/markets/2026-10-02-spot-bitcoin-etfs-september-inflows-417547",
-    "score": 50,
+    "score": 44,
     "snippet": "Spot bitcoin ETFs log $2.7 billion in September inflows as institutional demand holds",
     "regions": [
-      "US",
       "EU"
     ],
-    "primary_region": "US",
+    "primary_region": "EU",
     "category": "other",
     "source_tier": "B",
     "consensus": 1,
@@ -673,11 +800,11 @@
     ]
   },
   {
-    "id": "3a736f37278006d99d083f85936ed53c86881eed",
-    "title": "Inside OUSD’s big stablecoin launch - uk.finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTU5jQWVsT1ctOGpvaS1Gel9ncEZ4d3hzbHlwRFE0VHJHUllHQml0UlJVZThJWWFfTllIYVA4R3VKVXdqRkVJcjZzdXdmNk15MkgtcmFGY0hGZ2VxREdmN1dqdWFDU2VvNDR3amV4QlZmMXZ5M0FmaEtJcWxVQnVnM2pDYTNXSWF2TVFv?oc=5",
+    "id": "11de89213f0358f20ee5d014bd3042e37670f70b",
+    "title": "Inside OUSD’s big stablecoin launch - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOckk3RG1MQWhhUFpXRlVabU9ybXlwa1FieDJEU3pkdHo4UkdkQ1pOQmZpSjJfWTZxT3pVWTA3US1yNHM5Y3o2ZkFsRWZnWjBqQlZ4UnhpR005QW9GYkw1ZUhYYTBaa1NnbkxCR0JTOVU4bWNrdGdDQlgwZDJqQWpveXdEelFyNnM?oc=5",
     "score": 35,
-    "snippet": "Inside OUSD’s big stablecoin launch uk.finance.yahoo.com",
+    "snippet": "Inside OUSD’s big stablecoin launch Yahoo Finance",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -695,32 +822,6 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "011b245175965ab6fb531938fadd5f7f03f0683a",
-    "title": "Wealth Enhancement agrees to acquire RWA - Private Banker International",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQczB0cGQ4Z2VVblV0ODZiWVBLdnl1M0tkUVdqSVRRcjlQVFBaeDlGWFFpX1ZucVA5MnJNbzkxVG1lRmFOOGJnSHhwaTFuX3E3czNMRnJsMHVoVlFfNi1Wc2Vlc1ltM2VlUEZ3MWR5enJ4c29yMUs1TWFaRHNyNW9VcERwbzZWQQ?oc=5",
-    "score": 35,
-    "snippet": "Wealth Enhancement agrees to acquire RWA Private Banker International",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-10-01T10:38:44+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []

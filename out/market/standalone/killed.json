@@ -1,57 +1,5 @@
 [
   {
-    "id": "20e34963b266d90fd033775e79e45ddf091d3dbb",
-    "title": "POLICY: The U.S. Securities and Exchange Commission proposed its crypto custody rule on Thursday, adding another major piece to the agency’s digital asset agenda. https://coindesk.com/policy/2026/10/01/u-s-sec-maps-out-c",
-    "link": "https://x.com/CoinDesk/status/2105759661584441667",
-    "score": 84,
-    "snippet": "POLICY: The U.S. Securities and Exchange Commission proposed its crypto custody rule on Thursday, adding another major piece to the agency’s digital asset agenda. https://coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T20:40:01.555000+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('rule')",
-    "matched": "rule",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "d56b069ca55e251d3c7dd7f995090d386e4f5dca",
-    "title": "THE BLOCK: The SEC proposed a new regulatory framework for the custody of crypto assets by investment advisers and regulated funds, Chairman Paul Atkins said, aiming to provide a \"compliant pathway\" for holding digital a",
-    "link": "https://x.com/TheBlockCo/status/2105750569851953576",
-    "score": 84,
-    "snippet": "THE BLOCK: The SEC proposed a new regulatory framework for the custody of crypto assets by investment advisers and regulated funds, Chairman Paul Atkins said, aiming to provide a \"compliant pathway\" for holding digital assets under rules that largely predate the internet. The proposal would address ",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-01T20:03:54.052000+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('regulatory framework')",
-    "matched": "regulatory framework",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
-  },
-  {
     "id": "e0f5572847eedb5365166198352e75644bf02683",
     "title": "SEC proposes new crypto custody rules for investment advisers and funds",
     "link": "https://www.coindesk.com/policy/2026/10/01/u-s-sec-maps-out-crypto-custody-in-new-proposal-that-furthers-its-digital-assets-agenda",
@@ -63,7 +11,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [],
     "feed_name": "coindesk",
@@ -74,7 +22,36 @@
     "reason": "policy/rule-making, not a concrete action ('rules')",
     "matched": "rules",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "3eb51b101b17ea1bf1855bcf9690b253403f49cb",
+    "title": "INSIGHT: ECB's Isabel Schnabel argues central bank money must go onchain, warning that without it, tokenized markets will rely increasingly on private or foreign-currency settlement assets.",
+    "link": "https://x.com/CoinDesk/status/2106008063601987661",
+    "score": 70,
+    "snippet": "INSIGHT: ECB's Isabel Schnabel argues central bank money must go onchain, warning that without it, tokenized markets will rely increasingly on private or foreign-currency settlement assets.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T13:07:05.328000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('argues')",
+    "matched": "argues",
+    "fulltext": false,
+    "origin": "tree",
     "coins": []
   },
   {
@@ -106,6 +83,34 @@
     "coins": []
   },
   {
+    "id": "99242a4b007bf558fa0a1ddf060c89f5c6814a4e",
+    "title": "THE BLOCK: Blast said it will wind down its Layer 2 network because operating costs exceed revenue and it sees no credible path to economic sustainability. The project is asking users to withdraw assets to Ethereum mainn",
+    "link": "https://x.com/TheBlockCo/status/2106037806795817420",
+    "score": 55,
+    "snippet": "THE BLOCK: Blast said it will wind down its Layer 2 network because operating costs exceed revenue and it sees no credible path to economic sustainability. The project is asking users to withdraw assets to Ethereum mainnet, with withdrawals expected to resume after a roughly one-week process to with",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-02T15:05:16.716000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('sees')",
+    "matched": "sees",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "BLUR",
+      "LDO"
+    ]
+  },
+  {
     "id": "44db6bf00c3d315a51b97d6738d6a8d85cdffc99",
     "title": "50,000 Europeans call on EU to ease stablecoin rewards restrictions in MiCA review",
     "link": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -117,7 +122,7 @@
     "primary_region": "EU",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -129,6 +134,35 @@
     "axis": "commentary",
     "reason": "commentary/opinion framing ('call on')",
     "matched": "call on",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "8e3ae5dfb1fc58f66a34cdd384062e9f3291eca4",
+    "title": "Circle urges EU to revise stablecoin reserve rules in MiCA review",
+    "link": "https://cointelegraph.com/news/circle-eu-stablecoin-reserve-rules-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 45,
+    "snippet": "Circle wants the EU to replace mandatory bank-deposit minimums with more flexible liquidity rules and preserve cross-border stablecoin issuance.",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-02T12:25:56+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('urges')",
+    "matched": "urges",
     "fulltext": false,
     "origin": "rss+tree",
     "coins": []
@@ -146,7 +180,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 3,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -159,36 +193,7 @@
     "reason": "policy/rule-making, not a concrete action ('policy')",
     "matched": "policy",
     "fulltext": false,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "76402bb6e43394ca9c7dcb7beb2a464b1cf0645f",
-    "title": "South Korea advances tokenized securities rules ahead of 2027 rollout",
-    "link": "https://cointelegraph.com/news/south-korea-tokenized-securities-rules-2027?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 35,
-    "snippet": "South Korea’s financial regulator proposed detailed rules for tokenized securities, including capital requirements, OTC trading licenses and retail investment limits.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-10-02T05:08:32+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('rules')",
-    "matched": "rules",
-    "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   }
 ]
