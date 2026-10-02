@@ -10,7 +10,7 @@
     "snippet": "",
     "published_at": "2026-10-01T20:20:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -19,11 +19,56 @@
       "id": "6a44c07b-4032-42eb-967d-d79f50947229",
       "guidislink": false
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "b59c7502afa095a2e9851d82c86acb8fa7fb82e01d98915edfa939d68fc8acd0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "SEC moves to clear custody hurdle for advisers offering crypto",
+    "url": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto",
+    "snippet": "Custody requirements have kept some investment advisers from offering certain crypto to clients, a regulatory hurdle the SEC’s proposal could remove.",
+    "published_at": "2026-10-02T01:07:08+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "https://cointelegraph.com/news/sec-moves-to-clear-custody-hurdle-for-advisers-offering-crypto",
+      "guidislink": true
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
@@ -32,7 +77,7 @@
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 40,
-      "commentary_penalty": 0,
+      "commentary_penalty": -10,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -55,7 +100,7 @@
     "snippet": "The proposal would let advisers and funds use state trust companies as custodians and permit self-custody under certain conditions, aiming to replace years of ambiguity with a clear compliance path.",
     "published_at": "2026-10-01T20:46:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -102,7 +147,7 @@
     "snippet": "Fiserv, Inc. (NASDAQ: FISV), a leading global provider of payments and financial services technology, today announced that its digital asset platform is live with financial institution clients, marking a significant milestone in the commercialization of stablecoin-enabled banking and payments.",
     "published_at": "2026-10-01T14:19:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -149,7 +194,7 @@
     "snippet": "Lloyds used USDC to settle $750,000 of payment obligations with Visa during a seven-day live cross-border pilot.",
     "published_at": "2026-10-01T11:13:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "USDC",
       "cross-border",
@@ -189,54 +234,6 @@
     ]
   },
   {
-    "id": "1776d8635bb7b4f95b07029ae1c96e6258088401164d3f6800b4d09f66259a1e",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "50,000 Europeans call on EU to ease stablecoin rewards restrictions in MiCA review",
-    "url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review",
-    "snippet": "A 50,000-letter campaign is pressing Brussels to rethink stablecoin rewards as EU central banks seek broader changes to MiCA’s stablecoin rules.",
-    "published_at": "2026-10-01T18:45:09+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "MiCA"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review",
-      "guidislink": true
-    },
-    "score": 55,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "8fb072422081a82f1405e426db92ae0eb06d1d4119e084b6178613ce0e992986",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -247,7 +244,7 @@
     "snippet": "Marex (NASDAQ:MRX), announced the launch of an OTC rolling spot crypto product for institutional clients, marking the latest step in the firm’s continued expansion of its digital assets offering.",
     "published_at": "2026-10-01T13:45:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -294,7 +291,7 @@
     "snippet": "Dune found that tokenized markets show different trading patterns from traditional markets, with RWA value reaching $34.5 billion.",
     "published_at": "2026-10-01T10:50:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "tokenized",
       "RWA"
@@ -332,6 +329,54 @@
     ]
   },
   {
+    "id": "1776d8635bb7b4f95b07029ae1c96e6258088401164d3f6800b4d09f66259a1e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "50,000 Europeans call on EU to ease stablecoin rewards restrictions in MiCA review",
+    "url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review",
+    "snippet": "A 50,000-letter campaign is pressing Brussels to rethink stablecoin rewards as EU central banks seek broader changes to MiCA’s stablecoin rules.",
+    "published_at": "2026-10-01T18:45:09+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "MiCA"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/50000-europeans-call-on-eu-to-ease-stablecoin-rewards-restrictions-in-mica-review",
+      "guidislink": true
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "e63fcfe256d5701c3e103372667ac0037232067aeef15086ba82465e3c23110a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -342,7 +387,7 @@
     "snippet": "Hyperliquid's policy group wants perps under MiFID II, while Circle targets MiCA's bank deposit floor in filings to the European Commission's MiCA review.",
     "published_at": "2026-10-01T19:10:36+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -356,14 +401,14 @@
       "id": "17418412-bc03-52a7-b4a2-863be3c25cba",
       "guidislink": false
     },
-    "score": 50,
+    "score": 44,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 40,
@@ -392,7 +437,7 @@
     "snippet": "SEC proposed a crypto framework for investment advisers & funds, allowing self-custody in some cases & state trust companies as custodians.",
     "published_at": "2026-10-01T21:00:53+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -439,7 +484,7 @@
     "snippet": "StraitsX today announced plans to bring XSGD and XUSD to the Monad network in early 2027. XSGD is planned to become the first SGD-denominated stablecoin natively issued on Monad, expanding the currencies available to developers, businesses and institutions across the network.",
     "published_at": "2026-10-01T13:23:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -476,17 +521,64 @@
     ]
   },
   {
-    "id": "84aad8f429beb1599f0616d6e37c26490e360210fe49b83164ca55597dbfb10e",
+    "id": "f4b8213005266f5318ce4c9bf540305f2deaa01d528c629aec6a4018629b2132",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Inside OUSD’s big stablecoin launch - Yahoo Finance UK",
+    "title": "Fiserv Digital Asset Platform Goes Live With Bank of North Dakota Stablecoin - PYMNTS.com",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR2Nnd1l1UFM5SVdVOGpjZk53SEdxRzdCd1NnczlQVjItajRqLWM1eGc4bmVZa1NiQlB0cm1JeHg2a0w5VWhpRkx2dW5tOERMLXFiTTZLWE5hSEpMc09FTFV1QXZ4SUJuZjNYcnlJOGdhaml4cVZwbjdCY1FPblJHZEdQTU41M3hVS2NsWWxfMEw4UjhaMklNTDJ4YkdzREJxcG5BU0pQbTZnbE5Rc3FxX3dWNFdxR0E?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOR2Nnd1l1UFM5SVdVOGpjZk53SEdxRzdCd1NnczlQVjItajRqLWM1eGc4bmVZa1NiQlB0cm1JeHg2a0w5VWhpRkx2dW5tOERMLXFiTTZLWE5hSEpMc09FTFV1QXZ4SUJuZjNYcnlJOGdhaml4cVZwbjdCY1FPblJHZEdQTU41M3hVS2NsWWxfMEw4UjhaMklNTDJ4YkdzREJxcG5BU0pQbTZnbE5Rc3FxX3dWNFdxR0E?oc=5",
+    "snippet": "Fiserv Digital Asset Platform Goes Live With Bank of North Dakota Stablecoin PYMNTS.com",
+    "published_at": "2026-10-02T01:08:39+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMitwFBVV95cUxOR2Nnd1l1UFM5SVdVOGpjZk53SEdxRzdCd1NnczlQVjItajRqLWM1eGc4bmVZa1NiQlB0cm1JeHg2a0w5VWhpRkx2dW5tOERMLXFiTTZLWE5hSEpMc09FTFV1QXZ4SUJuZjNYcnlJOGdhaml4cVZwbjdCY1FPblJHZEdQTU41M3hVS2NsWWxfMEw4UjhaMklNTDJ4YkdzREJxcG5BU0pQbTZnbE5Rc3FxX3dWNFdxR0E",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 2
+    },
+    "consensus_boost": 0,
+    "cluster_size": 2,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "7254173347f14fa6e02a212cda6410de87e5f9c8da9a7786061ec7f6560967dd",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Inside OUSD’s big stablecoin launch - uk.finance.yahoo.com",
     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTU5jQWVsT1ctOGpvaS1Gel9ncEZ4d3hzbHlwRFE0VHJHUllHQml0UlJVZThJWWFfTllIYVA4R3VKVXdqRkVJcjZzdXdmNk15MkgtcmFGY0hGZ2VxREdmN1dqdWFDU2VvNDR3amV4QlZmMXZ5M0FmaEtJcWxVQnVnM2pDYTNXSWF2TVFv?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTU5jQWVsT1ctOGpvaS1Gel9ncEZ4d3hzbHlwRFE0VHJHUllHQml0UlJVZThJWWFfTllIYVA4R3VKVXdqRkVJcjZzdXdmNk15MkgtcmFGY0hGZ2VxREdmN1dqdWFDU2VvNDR3amV4QlZmMXZ5M0FmaEtJcWxVQnVnM2pDYTNXSWF2TVFv?oc=5",
-    "snippet": "Inside OUSD’s big stablecoin launch Yahoo Finance UK",
+    "snippet": "Inside OUSD’s big stablecoin launch uk.finance.yahoo.com",
     "published_at": "2026-10-01T17:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -535,7 +627,7 @@
     "snippet": "Wealth Enhancement agrees to acquire RWA Private Banker International",
     "published_at": "2026-10-01T10:38:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "RWA"
     ],
@@ -572,55 +664,6 @@
     ]
   },
   {
-    "id": "c8ea0ecf626717a01585dde79640f57af1cbbe6746dfae194779e0757bbc09ea",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "Stablecoin Payments Just Got a Bank Link: Coinbase-Citi - OneSafe",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MUVdXM2FTaHBTWjdoMjM0MXlWd1N1cFhwUFBOSTJkM2tLbXdDWnJEWUtCUUlBUEFuVlg3YXF1TGdCOXRKVWMwdldtTU9LTjBxNHpseVR1SFZzUVFYQ2xPVXBTMWlRTjZN?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MUVdXM2FTaHBTWjdoMjM0MXlWd1N1cFhwUFBOSTJkM2tLbXdDWnJEWUtCUUlBUEFuVlg3YXF1TGdCOXRKVWMwdldtTU9LTjBxNHpseVR1SFZzUVFYQ2xPVXBTMWlRTjZN?oc=5",
-    "snippet": "Stablecoin Payments Just Got a Bank Link: Coinbase-Citi OneSafe",
-    "published_at": "2026-10-01T02:26:09+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiaEFVX3lxTE9MUVdXM2FTaHBTWjdoMjM0MXlWd1N1cFhwUFBOSTJkM2tLbXdDWnJEWUtCUUlBUEFuVlg3YXF1TGdCOXRKVWMwdldtTU9LTjBxNHpseVR1SFZzUVFYQ2xPVXBTMWlRTjZN",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "0f1417558b111181be7624318911deda633c2b44172551629c00b7adb99fbe39",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -631,7 +674,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -676,7 +719,7 @@
     "snippet": "Researchers in a Latin American stablecoin ecosystem report warned “fragility in the system is concentrated in its thinnest layer,” with just 16 of 494 companies focused primarily on wholesale liquidity, treasury and credit.",
     "published_at": "2026-10-01T13:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -713,17 +756,17 @@
     ]
   },
   {
-    "id": "9aabe7101ba84b82c1f9262d38259cf8eb1f57c2b9a5959e6b9ba2bc0ef7230c",
+    "id": "02311816a7d3819933617ca183913fc424eeaf71e04c39095ed5662cc044a48d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Circle, Volante Technologies Partner to Embed USDC Stablecoin Payments into Banking Infrastructure - crowdfundinsider.com",
+    "title": "Circle, Volante Technologies Partner to Embed USDC Stablecoin Payments into Banking Infrastructure - Crowdfund Insider",
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQWFVQjFVSXpzZmpZVThHeDh2ODVibmV2YnhxWldZMzlYdERHSjNjVVUxcmVLZ2lHNkpxcGcwNnhYRzdPNUoyOWdwUy1XMXQ4dnZKeW4wOHh4Qi1idmFScFlFclotUDFvdlRkSmVkOEVoWE5naElaZXNra2R3aWFxSm9VREhqYm9pM05kaW5Td1cxcDUzOGhjdUR2QktxVFVuQ0lrZTkyUlIzOE10cUliOWZQSHpqcGE0d0sxbEJEem0wRmJ3bTVEYUNnMG15aUxXM20teG9oZ3hnbG1VUjY4?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQWFVQjFVSXpzZmpZVThHeDh2ODVibmV2YnhxWldZMzlYdERHSjNjVVUxcmVLZ2lHNkpxcGcwNnhYRzdPNUoyOWdwUy1XMXQ4dnZKeW4wOHh4Qi1idmFScFlFclotUDFvdlRkSmVkOEVoWE5naElaZXNra2R3aWFxSm9VREhqYm9pM05kaW5Td1cxcDUzOGhjdUR2QktxVFVuQ0lrZTkyUlIzOE10cUliOWZQSHpqcGE0d0sxbEJEem0wRmJ3bTVEYUNnMG15aUxXM20teG9oZ3hnbG1VUjY4?oc=5",
-    "snippet": "Circle, Volante Technologies Partner to Embed USDC Stablecoin Payments into Banking Infrastructure crowdfundinsider.com",
+    "snippet": "Circle, Volante Technologies Partner to Embed USDC Stablecoin Payments into Banking Infrastructure Crowdfund Insider",
     "published_at": "2026-10-01T12:28:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -774,7 +817,7 @@
     "snippet": "HSBC names Hong Kong stablecoin RedCoin after survey CFOtech Asia",
     "published_at": "2026-10-01T04:24:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -821,7 +864,7 @@
     "snippet": "Hana Card teams with Tether for stablecoin opportunities upi.com",
     "published_at": "2026-10-01T13:55:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether"
@@ -869,7 +912,7 @@
     "snippet": "",
     "published_at": "2026-10-01T11:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -916,7 +959,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -951,55 +994,6 @@
     ]
   },
   {
-    "id": "410e6741fe9408581861a60ac4be16bc631082360fae987b9a99dc60da1d4349",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "BMO joins Project Agorá",
-    "url": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/111106/bmo-joins-project-agor",
-    "snippet": "BMO today announced its participation in Project Agorá, the global public-private collaboration convened by the Bank for International Settlements (BIS) and the Institute of International Finance (IIF) to explore how tokenization and programmability could enhance wholesale cross-border payments.",
-    "published_at": "2026-10-01T18:26:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
-    "matched_keywords": [
-      "cross-border",
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 5,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 2,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -40,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "053a4fe1c886c2812bfcca9ba28292d26c1c160cfdcbc4deb09a18c60552f17e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1010,7 +1004,7 @@
     "snippet": "Fiserv’s stablecoin system starts Payments Dive",
     "published_at": "2026-10-01T15:58:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1057,7 +1051,7 @@
     "snippet": "Highly liquid and settling 24/7, stablecoins can leave banks and countries at lightning speed. But whether stablecoins are a risk — or an opportunity — depends on your perspective.",
     "published_at": "2026-10-01T13:30:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1102,7 +1096,7 @@
     "snippet": "Wall Street’s embrace of digital assets has reached the point where saying a bank is “doing blockchain” reveals almost nothing about what it can actually do on-chain. One bank may be experimenting with tokenized securities inside an innovation lab. Another may let corporate customers move tokenized ",
     "published_at": "2026-10-01T21:02:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-01T23:33:23.558032+00:00",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1127,6 +1121,55 @@
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "410e6741fe9408581861a60ac4be16bc631082360fae987b9a99dc60da1d4349",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "BMO joins Project Agorá",
+    "url": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/111106/bmo-joins-project-agor",
+    "snippet": "BMO today announced its participation in Project Agorá, the global public-private collaboration convened by the Bank for International Settlements (BIS) and the Institute of International Finance (IIF) to explore how tokenization and programmability could enhance wholesale cross-border payments.",
+    "published_at": "2026-10-01T18:26:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-02T02:32:17.837232+00:00",
+    "matched_keywords": [
+      "cross-border",
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/111106/bmo-joins-project-agor?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": -1,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 2,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -40,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
