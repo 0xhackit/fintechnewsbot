@@ -34,29 +34,32 @@
     ]
   },
   {
-    "id": "dc952305e20a7bcfd539c37d83b5e4ff9e2ed5ef",
-    "title": "THE BLOCK: The U.S. Treasury sanctioned the network behind the ruble-backed A7A5 token as a significant transnational criminal organization. Treasury said A7A5 was created to evade sanctions and transact internationally,",
-    "link": "https://x.com/TheBlockCo/status/2105954151889031224",
-    "score": 84,
-    "snippet": "THE BLOCK: The U.S. Treasury sanctioned the network behind the ruble-backed A7A5 token as a significant transnational criminal organization. Treasury said A7A5 was created to evade sanctions and transact internationally, while linking the A7 Network to Iran's Nobitex exchange and North Korean hacks ",
-    "regions": [],
-    "primary_region": null,
+    "id": "6b14261c252390dbf5b42dd11228e411ada8ff88",
+    "title": "Bloomberg Analyst: U.S. SEC Approves 3x Leveraged Bitcoin, Ether and Other ETPs for Listing and Trading Bloomberg ETF analyst Eric Balchunas said the U.S. SEC has approved 3x leveraged Bitcoin, Ether, gold, silver, crude",
+    "link": "https://x.com/WuBlockchain/status/2106198202785656915",
+    "score": 80,
+    "snippet": "Bloomberg Analyst: U.S. SEC Approves 3x Leveraged Bitcoin, Ether and Other ETPs for Listing and Trading Bloomberg ETF analyst Eric Balchunas said the U.S. SEC has approved 3x leveraged Bitcoin, Ether, gold, silver, crude oil and natural gas ETPs under the Securities Act of 1933, calling it a major w",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-02T09:32:51.842000+00:00",
+    "published_at": "2026-10-03T01:42:38.104000+00:00",
     "verdict": "keep",
     "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('sanctioned')",
-    "matched": "sanctioned",
+    "reason": "concrete regulatory action ('approves')",
+    "matched": "approves",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "ACT"
+      "BTC",
+      "ETH"
     ]
   },
   {
@@ -232,6 +235,32 @@
     ]
   },
   {
+    "id": "ee96970ebb54d20870c9dbda905ae8fab9e8495b",
+    "title": "Tom Lee: Continued DAT Buying Could Push Crypto Prices Higher On September 30, 2026, BitMine Chairman Tom Lee @fundstrat told CoinDesk @CoinDesk at Korea Blockchain Week that digital asset treasury companies (DATs) tradi",
+    "link": "https://x.com/WuBlockchain/status/2106172378711839101",
+    "score": 55,
+    "snippet": "Tom Lee: Continued DAT Buying Could Push Crypto Prices Higher On September 30, 2026, BitMine Chairman Tom Lee @fundstrat told CoinDesk @CoinDesk at Korea Blockchain Week that digital asset treasury companies (DATs) trading above their net asset value can raise capital to buy more crypto, reducing av",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-03T00:00:02.689000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('to buy')",
+    "matched": "to buy",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "HYPE"
+    ]
+  },
+  {
     "id": "6e92a55783e54929857ab2765ca9ae108b500685",
     "title": "BNB Chain crosses $1B in tokenized stocks, ETFs as market hits $3.7B",
     "link": "https://cointelegraph.com/markets/bnb-chain-1-billion-tokenized-assets-market-3-7-billion?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -281,7 +310,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   },
@@ -435,7 +464,7 @@
     "id": "f12979312e9543c854c0bafcf475508cb3edf83b",
     "title": "LATEST: Ethereum layer-2 @Blast is shutting down after its assets plunged 98% from a $2.2 billion peak. Blast says the cost of maintaining the network now exceeds the revenue it generates.",
     "link": "https://x.com/CoinDesk/status/2106096888625688941",
-    "score": 50,
+    "score": 44,
     "snippet": "LATEST: Ethereum layer-2 @Blast is shutting down after its assets plunged 98% from a $2.2 billion peak. Blast says the cost of maintaining the network now exceeds the revenue it generates.",
     "regions": [],
     "primary_region": null,
@@ -462,7 +491,7 @@
     "id": "39f4a7ce6cc4036f8fdf13c922dfdb7397466147",
     "title": "Once a $2.3 Billion Network, Ethereum Layer-2 Blast Is Shutting Down",
     "link": "https://decrypt.co/379972",
-    "score": 50,
+    "score": 44,
     "snippet": "Once a $2.3 Billion Network, Ethereum Layer-2 Blast Is Shutting Down",
     "regions": [
       "US"
@@ -563,7 +592,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -590,7 +619,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
