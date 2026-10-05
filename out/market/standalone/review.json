@@ -1,5 +1,66 @@
 [
   {
+    "id": "9dae6de4be768389ec098b359026bb269e0c5505",
+    "title": "OKX Applies to SEC to Launch Tokenized U.S. Stock Trading Platform According to Bloomberg, OKX has filed with the U.S. Securities and Exchange Commission (SEC) to launch a tokenized stock trading platform. OKXICE LLC, a",
+    "link": "https://x.com/WuBlockchain/status/2106938323097067545",
+    "score": 110,
+    "snippet": "OKX Applies to SEC to Launch Tokenized U.S. Stock Trading Platform According to Bloomberg, OKX has filed with the U.S. Securities and Exchange Commission (SEC) to launch a tokenized stock trading platform. OKXICE LLC, a joint venture between OKX and Intercontinental Exchange (ICE), parent company of",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-05T02:43:36.334000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BASED",
+      "OKB"
+    ]
+  },
+  {
+    "id": "1dc19e24a17fa4155dd9c56197b608c2f7e92699",
+    "title": "THE BLOCK: Kraken parent Payward has partnered with Singapore Gulf Bank to offer 24/7 settlement for institutional digital asset clients. Payward said it has integrated SGB Net, the bank's real-time multi-currency cleari",
+    "link": "https://x.com/TheBlockCo/status/2106969644028621154",
+    "score": 75,
+    "snippet": "THE BLOCK: Kraken parent Payward has partnered with Singapore Gulf Bank to offer 24/7 settlement for institutional digital asset clients. Payward said it has integrated SGB Net, the bank's real-time multi-currency clearing network. The settlement service initially starts with USD transactions for a ",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-05T04:48:03.763000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partnered')",
+    "matched": "partnered",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
     "id": "f8658284d6903efb4dcc6c6606c4bc16e083f523",
     "title": "Asia's weekly TOP10 crypto news: Japan Launches New Tax System to Boost Detection of Undeclared Crypto Assets, Philippine Central Bank Restricts Coins. ph, South Korea Plans to Expand Tokenization to Stocks, Bonds and Fu",
     "link": "https://x.com/WuBlockchain/status/2106725196610883657",
@@ -27,5 +88,33 @@
     "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "7bd8a122b4b442388829f6c86c2c62cda64b47a0",
+    "title": "Zcash activates NU7 on testnet ahead of November mainnet target",
+    "link": "https://cointelegraph.com/news/zcash-nu7-testnet-activation-november-mainnet",
+    "score": 60,
+    "snippet": "Zcash activates NU7 on testnet ahead of November mainnet target",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:cointelegraph",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-05T03:47:27.229000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ZEC"
+    ]
   }
 ]
