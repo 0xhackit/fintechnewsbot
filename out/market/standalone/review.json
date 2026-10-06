@@ -60,34 +60,6 @@
     ]
   },
   {
-    "id": "3c60855618212cca3029ab9abe06ff459a348be4",
-    "title": "Starknet v0.14.4 is now live on Mainnet. The upgrade introduces the infrastructure for block-sized proofs, enabling single proven transactions of up to 1.1B L2 gas once activated. A new ceiling for what can be built on S",
-    "link": "https://x.com/StarkWareLtd/status/2107508563564515747#",
-    "score": 90,
-    "snippet": "Starknet v0.14.4 is now live on Mainnet. The upgrade introduces the infrastructure for block-sized proofs, enabling single proven transactions of up to 1.1B L2 gas once activated. A new ceiling for what can be built on Starknet.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:starkwareltd",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T16:29:32.194000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('introduces')",
-    "matched": "introduces",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "STRK"
-    ]
-  },
-  {
     "id": "fb8386c0a35ab6a2164054d4092bc62e9fc7dbee",
     "title": "Rain Files OCC Application to Launch National Trust Bank for Stablecoin Payments - FF News",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzNTLXNwTGJPMXlralg4NnpTMXd6Rml0QWJKb1R6eHJ0UVJRMUNkS051V0RMbUktYk9xT0piWjd3aVBCSUxXOFhkTnhfOU1pMl9peEEwU3NRWDFLak9VSE41ckxFaTNQRG1nT2NiWUpLckd0alQxaV9LQmpzd1pFWUx1YzB3YWNFQ0c2cWhMVkt3VzlpZE5kZ0h0VW9wSG5NTXlHM1JMUzNlUQ?oc=5",
@@ -112,34 +84,36 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
   {
-    "id": "385b2cd002313a8d6cc5d4754d569ec47deed390",
-    "title": "NEW: @Zcash's NU7 testnet activates two days ahead of schedule, cutting block times from 75 to 25 seconds with mainnet activation targeting November 5.",
-    "link": "https://x.com/CoinDesk/status/2107469814008566255",
-    "score": 80,
-    "snippet": "NEW: @Zcash's NU7 testnet activates two days ahead of schedule, cutting block times from 75 to 25 seconds with mainnet activation targeting November 5.",
+    "id": "3c60855618212cca3029ab9abe06ff459a348be4",
+    "title": "Starknet v0.14.4 is now live on Mainnet. The upgrade introduces the infrastructure for block-sized proofs, enabling single proven transactions of up to 1.1B L2 gas once activated. A new ceiling for what can be built on S",
+    "link": "https://x.com/StarkWareLtd/status/2107508563564515747#",
+    "score": 84,
+    "snippet": "Starknet v0.14.4 is now live on Mainnet. The upgrade introduces the infrastructure for block-sized proofs, enabling single proven transactions of up to 1.1B L2 gas once activated. A new ceiling for what can be built on Starknet.",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:starkwareltd",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T13:55:33.631000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-10-06T16:29:32.194000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduces')",
+    "matched": "introduces",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "ZEC"
+      "STRK"
     ]
   },
   {
@@ -170,32 +144,30 @@
     "coins": []
   },
   {
-    "id": "342c6a092b8a31862e504a207c6ba5ccaeb7671d",
-    "title": "Modern Treasury seeks US trust bank charter for digital asset custody",
-    "link": "https://cointelegraph.com/news/modern-treasury-seeks-us-trust-bank-charter-for-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "id": "385b2cd002313a8d6cc5d4754d569ec47deed390",
+    "title": "NEW: @Zcash's NU7 testnet activates two days ahead of schedule, cutting block times from 75 to 25 seconds with mainnet activation targeting November 5.",
+    "link": "https://x.com/CoinDesk/status/2107469814008566255",
     "score": 74,
-    "snippet": "The payments infrastructure company is seeking federal approval to offer stablecoin custody and related fiat services through a limited-purpose national trust bank.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
+    "snippet": "NEW: @Zcash's NU7 testnet activates two days ahead of schedule, cutting block times from 75 to 25 seconds with mainnet activation targeting November 5.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-10-05T19:53:52+00:00",
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-06T13:55:33.631000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ZEC"
+    ]
   },
   {
     "id": "2052cf674c194ed2b7445491ea697f00e1205347",
@@ -227,7 +199,7 @@
     "id": "2aac8d5ef7d685c55c60def93aba167b2c2ecd7d",
     "title": "THE BLOCK: DeFi Development Corp. authorized a program to repurchase up to all outstanding shares of its CHAD preferred stock, including shares it may issue in the future, giving the company flexibility to buy back the s",
     "link": "https://x.com/TheBlockCo/status/2107470238082060600",
-    "score": 65,
+    "score": 59,
     "snippet": "THE BLOCK: DeFi Development Corp. authorized a program to repurchase up to all outstanding shares of its CHAD preferred stock, including shares it may issue in the future, giving the company flexibility to buy back the securities if they trade below their $10 par value. $DFDV The $WSOL treasury comp",
     "regions": [],
     "primary_region": null,
@@ -247,88 +219,6 @@
     "origin": "tree",
     "coins": [
       "ATM"
-    ]
-  },
-  {
-    "id": "2b731b0256c3a28d4c0286f5efadd2bdd893f03c",
-    "title": "Aptos Labs Unveils MonoMove Upgrade With Up to 55x Faster Smart Contract Execution in Tests Aptos Labs announced MonoMove, a proposed upgrade to the Aptos execution engine. In internal tests, some smart contract workload",
-    "link": "https://x.com/WuBlockchain/status/2107481055691436502#",
-    "score": 60,
-    "snippet": "Aptos Labs Unveils MonoMove Upgrade With Up to 55x Faster Smart Contract Execution in Tests Aptos Labs announced MonoMove, a proposed upgrade to the Aptos execution engine. In internal tests, some smart contract workloads ran up to 55x faster than on the current Move VM, while separate benchmarks sh",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T14:40:13.902000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('unveils')",
-    "matched": "unveils",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "APT"
-    ]
-  },
-  {
-    "id": "ea5acaa0255f94e3cf49e3a15ede6ed6fca87206",
-    "title": "Introducing MonoMove: the rebuilt @Aptos execution engine and the largest performance upgrade since mainnet. Markets onchain need scale and safety. MonoMove is built for both. The Move code behind every order, loan, and",
-    "link": "https://x.com/AptosLabs/status/2107476176411435108#",
-    "score": 60,
-    "snippet": "Introducing MonoMove: the rebuilt @Aptos execution engine and the largest performance upgrade since mainnet. Markets onchain need scale and safety. MonoMove is built for both. The Move code behind every order, loan, and payout executes up to 55x faster. Parallelism is not even switched on yet.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:aptoslabs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T14:20:50.598000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "APT"
-    ]
-  },
-  {
-    "id": "aef19b6a73ce2ffcac0f330dbadf7c136bda1ea8",
-    "title": "Ethereum's Glamsterdam upgrade launches on Sepolia testnet",
-    "link": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet",
-    "score": 60,
-    "snippet": "Ethereum's Glamsterdam upgrade launches on Sepolia testnet",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:cointelegraph",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-06T13:56:57.230000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ETH"
     ]
   },
   {
@@ -384,63 +274,11 @@
     "coins": []
   },
   {
-    "id": "1644e285b710be8a37b938688cb687c83cb5b537",
-    "title": "In collaboration with @googlecloud we’re announcing Verifiable Agent Arbiter (VAA), an evidence layer enabling enterprises to prove their AI agents acted as authorised, using @SuiNetwork and @WalrusProtocol to anchor tha",
-    "link": "https://x.com/Mysten_Labs/status/2107473550533967904",
-    "score": 55,
-    "snippet": "In collaboration with @googlecloud we’re announcing Verifiable Agent Arbiter (VAA), an evidence layer enabling enterprises to prove their AI agents acted as authorised, using @SuiNetwork and @WalrusProtocol to anchor that proof 👇",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:mysten_labs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T14:10:24.556000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('enabling')",
-    "matched": "enabling",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SUI"
-    ]
-  },
-  {
-    "id": "752d282c43ccb007dfd8376634dc0310a1163610",
-    "title": "In collaboration with @googlecloud we’re announcing Verifiable Agent Arbiter (VAA), an evidence layer enabling enterprises to prove their AI agents acted as authorised, using @SuiNetwork and @WalrusProtocol to anchor tha",
-    "link": "https://x.com/Mysten_Labs/status/2107471760543326406#",
-    "score": 55,
-    "snippet": "In collaboration with @googlecloud we’re announcing Verifiable Agent Arbiter (VAA), an evidence layer enabling enterprises to prove their AI agents acted as authorised, using @SuiNetwork and @WalrusProtocol to anchor that proof 👇",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:mysten_labs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T14:03:17.741000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('enabling')",
-    "matched": "enabling",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SUI"
-    ]
-  },
-  {
-    "id": "28fe5031b9a92a34b72e3207005275a4b85fb6a0",
-    "title": "Bank of North Dakota announces stablecoin pilot program with local partners - North Dakota Monitor",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcDhKTEowcmJqcDBPcUlWMUNHYnFZeXhsZGp3WFJuWV9QZW4xZ0dBcHotRVdWa1NZRmJDUjRQRjEycFVoUjJHcWVkS0p5bG5IRmZjd1lxMlNYZzNDRmNwSGlGWHIyRTBkREdTNms1M190QXZCMy1NR21mV29sclBBZTFyLWJXTlUybW93ZWpuRWg5ODlYbzVEN3FzU0ZPM2p3b1RzQmlIVi00Ym8wUGNOQzJ3UzZ0a1A0NHc?oc=5",
+    "id": "2b731b0256c3a28d4c0286f5efadd2bdd893f03c",
+    "title": "Aptos Labs Unveils MonoMove Upgrade With Up to 55x Faster Smart Contract Execution in Tests Aptos Labs announced MonoMove, a proposed upgrade to the Aptos execution engine. In internal tests, some smart contract workload",
+    "link": "https://x.com/WuBlockchain/status/2107481055691436502#",
     "score": 54,
-    "snippet": "Bank of North Dakota announces stablecoin pilot program with local partners North Dakota Monitor",
+    "snippet": "Aptos Labs Unveils MonoMove Upgrade With Up to 55x Faster Smart Contract Execution in Tests Aptos Labs announced MonoMove, a proposed upgrade to the Aptos execution engine. In internal tests, some smart contract workloads ran up to 55x faster than on the current Move VM, while separate benchmarks sh",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -448,60 +286,110 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-06T01:49:45+00:00",
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-06T14:40:13.902000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "APT"
+    ]
+  },
+  {
+    "id": "ea5acaa0255f94e3cf49e3a15ede6ed6fca87206",
+    "title": "Introducing MonoMove: the rebuilt @Aptos execution engine and the largest performance upgrade since mainnet. Markets onchain need scale and safety. MonoMove is built for both. The Move code behind every order, loan, and",
+    "link": "https://x.com/AptosLabs/status/2107476176411435108#",
+    "score": 54,
+    "snippet": "Introducing MonoMove: the rebuilt @Aptos execution engine and the largest performance upgrade since mainnet. Markets onchain need scale and safety. MonoMove is built for both. The Move code behind every order, loan, and payout executes up to 55x faster. Parallelism is not even switched on yet.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:aptoslabs",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-06T14:20:50.598000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "APT"
+    ]
+  },
+  {
+    "id": "aef19b6a73ce2ffcac0f330dbadf7c136bda1ea8",
+    "title": "Ethereum's Glamsterdam upgrade launches on Sepolia testnet",
+    "link": "https://cointelegraph.com/news/ethereums-glamsterdam-upgrade-launches-on-sepolia-testnet",
+    "score": 54,
+    "snippet": "Ethereum's Glamsterdam upgrade launches on Sepolia testnet",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:cointelegraph",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-06T13:56:57.230000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ETH"
+    ]
+  },
+  {
+    "id": "ee7af7b13931fcbb065386d34145f78653412cce",
+    "title": "Ondo Finance Launches Tokenized Private Company Notes for 24/7 Trading - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeGRzWjNTakpzQlkxSEVTbC15bGZOQ3NzWjNzTmNuYjVTUHRqNDRDLWx3OEN4UGhMeXVKZlRiR016MHpyVmNWVGo5SE5QT1oySnYzQjVxY24xWHl2RFdLM1RieFAxRVlKX0s0X2dwczVReHM3SFdJSXJoOEZrNjdfT1RoVUZTTmVCQVVPVG5vWnZTRC1Qa3hkcjVOanI2cy11Zk5hVElpbw?oc=5",
+    "score": 45,
+    "snippet": "Ondo Finance Launches Tokenized Private Company Notes for 24/7 Trading KuCoin",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-06T20:43:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "8079839675511c626e181459c7b81fa360d93ca4",
-    "title": "THE BLOCK: The Winklevoss twins have filed an S-1 registration statement with the SEC, proposing a spot Zcash exchange-traded product that would list on Nasdaq under the ticker WINK. The ETF would hold $ZEC directly, wit",
-    "link": "https://x.com/TheBlockCo/status/2107502170681602483",
-    "score": 50,
-    "snippet": "THE BLOCK: The Winklevoss twins have filed an S-1 registration statement with the SEC, proposing a spot Zcash exchange-traded product that would list on Nasdaq under the ticker WINK. The ETF would hold $ZEC directly, with Gemini Trust Company serving as custodian, and would charge a 0.25% annual spo",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-06T16:04:08.072000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('list')",
-    "matched": "list",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ZEC"
-    ]
   },
   {
     "id": "7904a7f7240684d285e2d96936490b07c3e6e728",
     "title": "Ondo Launches Tokenized Pre-IPO AI Exposure for Eligible Investors - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1VQYXR0XzhwbHZoc0J5NU9adldnTFc3SlJGckdsSVJqNUlQcVByRDNSTnhoWG9OTWFyWG5BZmZKZzk2TUZXZS05bXZ3WmVhWUFrV0pwYjB3dTlpRlpiRjV0UHRjTlVSNHU3R25zNUxvcVdmNF9WeVBpclVrbXZ4Slk2emNLemVWRDNQNWZR?oc=5",
-    "score": 45,
+    "score": 39,
     "snippet": "Ondo Launches Tokenized Pre-IPO AI Exposure for Eligible Investors CoinMarketCap",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
+    "regions": [],
+    "primary_region": null,
     "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
@@ -517,7 +405,34 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "7afed523678904d067f6191a966f20bec99d32da",
+    "title": "Ondo Finance Launches Ondo Private Markets — Tokenized Pre-IPO Notes for Private Companies - Forkast News",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWHMxOU1lb0Rlc1VDZHZlT3V6TVhjTjZBLTJSZFpiVkhVNTVXay1UZ1N5ZVhwR0pnZjhHRjdhMk04enBzYnQ2US1NNzZ4ZE40azVTVmlLS0g0R0F3M0M4emRuS0s5ZjhGcDVWZnJzTEdRdkJGWEliUHJaRWl4WG10Uy1maG5aUVUxOUV3VE91cHBRUXR4LTBicFhzTC1HWnhpZHl2cXg1ZDZTbVJfbEZz?oc=5",
+    "score": 39,
+    "snippet": "Ondo Finance Launches Ondo Private Markets — Tokenized Pre-IPO Notes for Private Companies Forkast News",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-06T14:57:43+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -544,7 +459,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   },
@@ -571,65 +486,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "ca2509acbe71e7936873e3bfd4f654e06ebbb877",
-    "title": "Stablecoin Banking Launch Might Change The Case For Investing In Fiserv (FISV) - Simply Wall Street",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOam80d0RsRkNaWkpEVTcyb0c5dVFvY2w1aXg2aFBSeGR2NWxxU21UZ3ZlRGRuQ2xTbHBZLWhyc2wtalEzUVJNNWwtVTB2SkFKdWR0VDFtX2FvOGQ5RmpyMVVYRm1sNHJiQjNQMTNvUXdJbER5eG5nOHZCdTRtR0hacktyRndtbmFOTXh2MlROZVpDRldGVzZPSWtlN0FTR0VqTzdOekxkcDBDWVVIMlg1aWJBUmJkUkJDbm1qZFREZTM5YUJqTndNaFZ5ZUcwLTFuSGJJbkh30gHbAUFVX3lxTE5leVZzRkd6NXhFcG9vemt0bW4yRm14MnFDZUduX1kxNi1SZWdMM1V0RkJhdjFMYk94RjMtWDNydFM5XzV0WnBTTE1KZFY4cVdKeFJnWkZlbGh6dENrOGhFYTBRdlJxOTZxQzdwTWU4SDBUTTU2cWNTQnhKZ08tUG1XMXB4V2xuWmF5OFZqbUFwR2liLU5tSVRFdUhTWkpuV1lvcmx5QXlybGtCQ0UxX1VMWUFYODhobVFaUUJaUl84SnpScVJ5OVBTaWZmdW9GemU0QUZ6ZmR3eW1hWQ?oc=5",
-    "score": 35,
-    "snippet": "Stablecoin Banking Launch Might Change The Case For Investing In Fiserv (FISV) Simply Wall Street",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-05T23:01:34+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "5bbc415fb2f950caa04e7f236fd2238923d5773b",
-    "title": "Qivalis Names Olga Elsenga as CRCO to Drive Regulated Euro Stablecoin Launch - FF News",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUFowWms5TjhxY0xhWUdzSEQ3TmFaTS02aFhEU09qYXR2TnZtUU9UOE42THpJdmtleV9WM0JHa1g0ckFlYi1PRDhPUEtmZXJrZHc1TWpTVG9Mblh4WEdHOEJoWEhzVk1CNE5lWVp1enpjbTV4bk41RnpFMElpUEV4U05ZZmR0ZERnLV9TTDBhaHFNRkUtWG05NUtLZFNEcU5KN3pQOHFiQ2dkdllIbXZJYVhXSQ?oc=5",
-    "score": 35,
-    "snippet": "Qivalis Names Olga Elsenga as CRCO to Drive Regulated Euro Stablecoin Launch FF News",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-05T21:15:57+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
