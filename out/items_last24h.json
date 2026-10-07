@@ -10,7 +10,7 @@
     "snippet": "Spiko raised $90 million in Series B funding to scale its $2.7 billion tokenized cash fund business and expand into new markets.",
     "published_at": "2026-10-06T10:58:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -47,42 +47,40 @@
     ]
   },
   {
-    "id": "293d2afdd42c0a7b9cf46cf1924fb8f14e935ad46b140da180f850dd0006abde",
+    "id": "2d3f1234fab2d5f6c082066562f883ecdf7c183ec46efb25f9a835c10ec10f25",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Circle Welcomes DJ Khaled to 'Team USDC' and Crypto Twitter Is Furious",
-    "url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
-    "canonical_url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
-    "snippet": "Nothing in Circle's posts announces a sponsorship, but replies dug up Khaled's 2018 SEC settlement over a crypto fraud he promoted. The internet never forgets.",
-    "published_at": "2026-10-06T22:16:03+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Russia clears first crypto exchanges, custodians under new law",
+    "url": "https://cointelegraph.com/news/russia-first-crypto-platforms-register-new-law?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/russia-first-crypto-platforms-register-new-law",
+    "snippet": "Russia registered its first crypto exchanges and custodians, including its largest bank, Sberbank, which plans to launch crypto products on Dec. 1.",
+    "published_at": "2026-10-07T08:06:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
-      "USDC",
-      "Circle",
-      "settlement"
+      "launch"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=380240",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/russia-first-crypto-platforms-register-new-law",
+      "guidislink": true
     },
     "score": 85,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
+      "tier1": 3,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 40,
+      "launch_score": 60,
+      "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -106,7 +104,7 @@
     "snippet": "Rain Files OCC Application to Launch National Trust Bank for Stablecoin Payments FF News",
     "published_at": "2026-10-06T09:56:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -146,6 +144,103 @@
     ]
   },
   {
+    "id": "293d2afdd42c0a7b9cf46cf1924fb8f14e935ad46b140da180f850dd0006abde",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Circle Welcomes DJ Khaled to 'Team USDC' and Crypto Twitter Is Furious",
+    "url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
+    "canonical_url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
+    "snippet": "Nothing in Circle's posts announces a sponsorship, but replies dug up Khaled's 2018 SEC settlement over a crypto fraud he promoted. The internet never forgets.",
+    "published_at": "2026-10-06T22:16:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
+    "matched_keywords": [
+      "USDC",
+      "Circle",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=380240",
+      "guidislink": false
+    },
+    "score": 79,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "ee323246e52684550bce93c1a908f2315de8f3f472f070030fface7f16cbd2fb",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Ledger Launches Bitcoin Loans, Letting Holders Borrow Without Selling",
+    "url": "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling",
+    "canonical_url": "https://decrypt.co/380224/ledger-bitcoin-loans-holders-borrow-without-selling",
+    "snippet": "Unveiled at TOKEN2049 Singapore, the Morpho-powered Crypto Loan feature lets users borrow stablecoins against wrapped Bitcoin while keeping private keys and final approval on their hardware device.",
+    "published_at": "2026-10-07T09:01:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
+    "matched_keywords": [
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=380224",
+      "guidislink": false
+    },
+    "score": 75,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "449eaa85904a54dcadecdf70611bd919feb83fefdc69af74c2b008ac42b8deee",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -156,7 +251,7 @@
     "snippet": "Crypto exchange OKX has secured strategic investment from Circle, QRT, Ripple and SC Ventures at a $25 billion valuation.",
     "published_at": "2026-10-06T18:02:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -203,7 +298,7 @@
     "snippet": "Circle, Qube Research & Technologies (QRT), Ripple and SC Ventures by Standard Chartered have invested in crypto exchange OKX at a $25 billion pre-money valuation. The deal extends a round led by NYSE owner Intercontinental Exchange (ICE) in March. The amount raised was not disclosed. Each investor ",
     "published_at": "2026-10-06T16:46:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -250,7 +345,7 @@
     "snippet": "Rain, the enterprise-grade infrastructure for stablecoin payments, announced today that it has filed an application with the Office of the Comptroller of the Currency (OCC) to establish Rain National Trust Bank (RNTB), a proposed national trust bank headquartered in New York.",
     "published_at": "2026-10-06T18:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -299,7 +394,7 @@
     "snippet": "Paxos’ USDG stablecoin is now live on Arbitrum as the network proposes 100 million ARB in incentives to support adoption and liquidity.",
     "published_at": "2026-10-06T13:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos",
@@ -340,28 +435,29 @@
     ]
   },
   {
-    "id": "13c835cf36e5681ed2a93bc9d90da56e3e13084c2ab51a96ef63b9cc7d744b1f",
+    "id": "803c4e9f5a6ecc9050fc392ca74009ee02a45649d8f6d201e2ce1b1d035d4346",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Bank of North Dakota announces stablecoin pilot program with local partners - The Bismarck Tribune",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTJLVGt0NDhJLUY1NUhBNVd6Rzl2bXNHcm1Gbnl1ZU1zUnl6RVRyX1VoMHpUN0VjLUlENkpnTGl0NVNCdlhGaUpldGV1ZUZsRG9Nai0yRWFoZWw5ck9nU3I5TGU2aEsxemVLU2NlNjJQM0xJVFhmamNkSXJxN3NMQ2NPczlQcWU0a0lsNm5YcElZOEZCOVEzMFd3a2NEUQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTJLVGt0NDhJLUY1NUhBNVd6Rzl2bXNHcm1Gbnl1ZU1zUnl6RVRyX1VoMHpUN0VjLUlENkpnTGl0NVNCdlhGaUpldGV1ZUZsRG9Nai0yRWFoZWw5ck9nU3I5TGU2aEsxemVLU2NlNjJQM0xJVFhmamNkSXJxN3NMQ2NPczlQcWU0a0lsNm5YcElZOEZCOVEzMFd3a2NEUQ?oc=5",
-    "snippet": "Bank of North Dakota announces stablecoin pilot program with local partners The Bismarck Tribune",
-    "published_at": "2026-10-06T22:23:00+00:00",
+    "title": "North Dakota’s State-Owned Bank Just Launched a Stablecoin Pilot Inside the GENIUS Act Implementation Window - forkast.news",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQVRDZ0VQS2NrQVJkSWtKeG1UTm1pcWw1c0ZISC1wREpZdzFfejRLcXJiWHhsSm96QnNweDAwcFhiSjVYRE5nVlM2NkVwb01RNElVQWVqNFl0UEh4MXBHejdfVU5RSDk5TV9mbU45WjB3QWlza1o3VmdHdG5Lb0ZwUlotc21McVhfNnJta1Uyc2dmcU1oUkdTUk04dExxTktrVkF2M014b0xKMTN1R2RPWk5MMWhEVGJxSVcwd3VUdHpSSVdIU2JSRg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQVRDZ0VQS2NrQVJkSWtKeG1UTm1pcWw1c0ZISC1wREpZdzFfejRLcXJiWHhsSm96QnNweDAwcFhiSjVYRE5nVlM2NkVwb01RNElVQWVqNFl0UEh4MXBHejdfVU5RSDk5TV9mbU45WjB3QWlza1o3VmdHdG5Lb0ZwUlotc21McVhfNnJta1Uyc2dmcU1oUkdTUk04dExxTktrVkF2M014b0xKMTN1R2RPWk5MMWhEVGJxSVcwd3VUdHpSSVdIU2JSRg?oc=5",
+    "snippet": "North Dakota’s State-Owned Bank Just Launched a Stablecoin Pilot Inside the GENIUS Act Implementation Window forkast.news",
+    "published_at": "2026-10-07T06:23:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin",
+      "launched",
       "pilot",
-      "partners"
+      "Genius"
     ],
     "matched_topics": [
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMingFBVV95cUxQdTJLVGt0NDhJLUY1NUhBNVd6Rzl2bXNHcm1Gbnl1ZU1zUnl6RVRyX1VoMHpUN0VjLUlENkpnTGl0NVNCdlhGaUpldGV1ZUZsRG9Nai0yRWFoZWw5ck9nU3I5TGU2aEsxemVLU2NlNjJQM0xJVFhmamNkSXJxN3NMQ2NPczlQcWU0a0lsNm5YcElZOEZCOVEzMFd3a2NEUQ",
+      "id": "CBMiyAFBVV95cUxQQVRDZ0VQS2NrQVJkSWtKeG1UTm1pcWw1c0ZISC1wREpZdzFfejRLcXJiWHhsSm96QnNweDAwcFhiSjVYRE5nVlM2NkVwb01RNElVQWVqNFl0UEh4MXBHejdfVU5RSDk5TV9mbU45WjB3QWlza1o3VmdHdG5Lb0ZwUlotc21McVhfNnJta1Uyc2dmcU1oUkdTUk04dExxTktrVkF2M014b0xKMTN1R2RPWk5MMWhEVGJxSVcwd3VUdHpSSVdIU2JSRg",
       "guidislink": false
     },
     "score": 60,
@@ -390,56 +486,6 @@
     ]
   },
   {
-    "id": "45ab981c24185bf0e795fe8ebd24be6b9b843d87f15c2869b4b5297e0383c7b7",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Conduit sues Tether over allegedly freezing $2.8M without explanation",
-    "url": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze",
-    "snippet": "The lawsuit alleged that Tether froze USDt funds in a Conduit wallet tied to an investigation launched by Brazilian authorities in 2024.",
-    "published_at": "2026-10-06T21:00:44+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
-    "matched_keywords": [
-      "USDT",
-      "Tether",
-      "launched"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze",
-      "guidislink": true
-    },
-    "score": 60,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "e257fbdfb0ae9607387ae78d99b869c9caa0a91c4edefff283c44a07d68dbcb9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -450,7 +496,7 @@
     "snippet": "The payments firm alleges Tether froze its treasury wallet on its own initiative over a Brazilian investigation it has no connection to—and has profited from the reserves while refusing to release the funds for more than a year.",
     "published_at": "2026-10-06T19:46:04+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether",
@@ -489,6 +535,106 @@
     ]
   },
   {
+    "id": "13c835cf36e5681ed2a93bc9d90da56e3e13084c2ab51a96ef63b9cc7d744b1f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Bank of North Dakota announces stablecoin pilot program with local partners - The Bismarck Tribune",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTJLVGt0NDhJLUY1NUhBNVd6Rzl2bXNHcm1Gbnl1ZU1zUnl6RVRyX1VoMHpUN0VjLUlENkpnTGl0NVNCdlhGaUpldGV1ZUZsRG9Nai0yRWFoZWw5ck9nU3I5TGU2aEsxemVLU2NlNjJQM0xJVFhmamNkSXJxN3NMQ2NPczlQcWU0a0lsNm5YcElZOEZCOVEzMFd3a2NEUQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdTJLVGt0NDhJLUY1NUhBNVd6Rzl2bXNHcm1Gbnl1ZU1zUnl6RVRyX1VoMHpUN0VjLUlENkpnTGl0NVNCdlhGaUpldGV1ZUZsRG9Nai0yRWFoZWw5ck9nU3I5TGU2aEsxemVLU2NlNjJQM0xJVFhmamNkSXJxN3NMQ2NPczlQcWU0a0lsNm5YcElZOEZCOVEzMFd3a2NEUQ?oc=5",
+    "snippet": "Bank of North Dakota announces stablecoin pilot program with local partners The Bismarck Tribune",
+    "published_at": "2026-10-06T22:23:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "pilot",
+      "partners"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMingFBVV95cUxQdTJLVGt0NDhJLUY1NUhBNVd6Rzl2bXNHcm1Gbnl1ZU1zUnl6RVRyX1VoMHpUN0VjLUlENkpnTGl0NVNCdlhGaUpldGV1ZUZsRG9Nai0yRWFoZWw5ck9nU3I5TGU2aEsxemVLU2NlNjJQM0xJVFhmamNkSXJxN3NMQ2NPczlQcWU0a0lsNm5YcElZOEZCOVEzMFd3a2NEUQ",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "45ab981c24185bf0e795fe8ebd24be6b9b843d87f15c2869b4b5297e0383c7b7",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Conduit sues Tether over allegedly freezing $2.8M without explanation",
+    "url": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze",
+    "snippet": "The lawsuit alleged that Tether froze USDt funds in a Conduit wallet tied to an investigation launched by Brazilian authorities in 2024.",
+    "published_at": "2026-10-06T21:00:44+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
+    "matched_keywords": [
+      "USDT",
+      "Tether",
+      "launched"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/conduit-lawsuit-tether-usdt-freeze",
+      "guidislink": true
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "93ed185a58b692904dd2f9d9680fc8ced85f9781f0470cf264a2f4e4bb8a2221",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -499,7 +645,7 @@
     "snippet": "The DIGIT pilot will test distributed ledger technology and onchain settlement for UK sovereign debt, with issuance expected by the first quarter of 2027.",
     "published_at": "2026-10-06T19:19:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "issuance",
       "settlement",
@@ -549,7 +695,7 @@
     "snippet": "Ondo launches onchain private-company exposure, starting with AI The Block",
     "published_at": "2026-10-06T09:38:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "launches"
     ],
@@ -596,7 +742,7 @@
     "snippet": "Ondo Finance Launches Tokenized Private Company Notes for 24/7 Trading KuCoin",
     "published_at": "2026-10-06T20:43:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized",
       "launches"
@@ -609,14 +755,14 @@
       "id": "CBMipwFBVV95cUxPeGRzWjNTakpzQlkxSEVTbC15bGZOQ3NzWjNzTmNuYjVTUHRqNDRDLWx3OEN4UGhMeXVKZlRiR016MHpyVmNWVGo5SE5QT1oySnYzQjVxY24xWHl2RFdLM1RieFAxRVlKX0s0X2dwczVReHM3SFdJSXJoOEZrNjdfT1RoVUZTTmVCQVVPVG5vWnZTRC1Qa3hkcjVOanI2cy11Zk5hVElpbw",
       "guidislink": false
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
       "institution_bonus": 0,
@@ -645,7 +791,7 @@
     "snippet": "Ondo Launches Tokenized Pre-IPO AI Exposure for Eligible Investors CoinMarketCap",
     "published_at": "2026-10-06T17:09:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized",
       "launches",
@@ -695,7 +841,7 @@
     "snippet": "Ripple, a leading provider of blockchain solutions across traditional and digital finance, and Brevan Howard, a leading global alternative investment manager specializing in global macro and digital assets, today announced that they are deepening their relationship.",
     "published_at": "2026-10-06T15:20:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -740,7 +886,7 @@
     "snippet": "Ondo Finance Launches Ondo Private Markets — Tokenized Pre-IPO Notes for Private Companies Forkast News",
     "published_at": "2026-10-06T14:57:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized",
       "launches",
@@ -790,7 +936,7 @@
     "snippet": "Ondo Finance Launches Ondo Private Markets With Tokenized Pre-IPO AI Exposure: 11 outlets compared NewsCord",
     "published_at": "2026-10-06T13:41:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized",
       "launches",
@@ -840,7 +986,7 @@
     "snippet": "Ondo launches tokenized notes for private AI fi... Pluang",
     "published_at": "2026-10-06T11:08:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized",
       "launches"
@@ -879,56 +1025,6 @@
     ]
   },
   {
-    "id": "8710532eedf7f652797975305b1672bb7b58690a8fc738c59408dc5ca5601a87",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "Ondo Finance launches tokenized private equity products targeting pre-IPO AI company exposure. - Pluang",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdHlkYzZPWmN0UEZfY1pUczZIYUE1aWFVbWpaS3BNaElFdGVTd2pZNUNrWm0xS1c5V2h3S3A3ZVU5cFNQN0NVX0FFd1BzV1c5eFZmWkstZGwxMUZNNHF1WVJkNVhyN092alZBZVU0dWhyWkp6Qm9Vdk54X0tyU2ZCX2EwQnJYbjFQMURmU0dFUHo?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdHlkYzZPWmN0UEZfY1pUczZIYUE1aWFVbWpaS3BNaElFdGVTd2pZNUNrWm0xS1c5V2h3S3A3ZVU5cFNQN0NVX0FFd1BzV1c5eFZmWkstZGwxMUZNNHF1WVJkNVhyN092alZBZVU0dWhyWkp6Qm9Vdk54X0tyU2ZCX2EwQnJYbjFQMURmU0dFUHo?oc=5",
-    "snippet": "Ondo Finance launches tokenized private equity products targeting pre-IPO AI company exposure. Pluang",
-    "published_at": "2026-10-06T06:45:58+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
-    "matched_keywords": [
-      "tokenized",
-      "launches",
-      "pre-IPO"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMikAFBVV95cUxPdHlkYzZPWmN0UEZfY1pUczZIYUE1aWFVbWpaS3BNaElFdGVTd2pZNUNrWm0xS1c5V2h3S3A3ZVU5cFNQN0NVX0FFd1BzV1c5eFZmWkstZGwxMUZNNHF1WVJkNVhyN092alZBZVU0dWhyWkp6Qm9Vdk54X0tyU2ZCX2EwQnJYbjFQMURmU0dFUHo",
-      "guidislink": false
-    },
-    "score": 39,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "ac740f6e3ebec7c185e3e58499e96e279c5fbda5b7c084661aa608f5db9f6643",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -939,7 +1035,7 @@
     "snippet": "The LG CNS partnership gives Securitize a foothold as the Seoul prepares new rules for tokenized stocks, bonds and funds beginning in February 2027.",
     "published_at": "2026-10-06T17:04:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized"
@@ -988,7 +1084,7 @@
     "snippet": "What does programmable money solve for clients, and what remains a matter of regulation and capital controls?",
     "published_at": "2026-10-08T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1033,7 +1129,7 @@
     "snippet": "",
     "published_at": "2026-10-06T15:20:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -1080,7 +1176,7 @@
     "snippet": "DBS Bank and JPMorgan Discuss Stablecoins’ Impact on Banking Cryptonews.net",
     "published_at": "2026-10-06T13:19:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1115,6 +1211,55 @@
     ]
   },
   {
+    "id": "817f19326cc11f87ddb16b39dcb6f771eb54418eac6f105eabe08fde3ded37c5",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "DAXA Report Urges New License for Won Stablecoin Payments - Seoul Economic Daily",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0k0V1llejU0RUdKb3V2QWp2R2hwcHJfMXFESDlVZS1FaHk3QmRscjZaMTlPU2g3R3J4dndPOFRELU90WXQyUVRLSzBXZHJndTVra0lycnhUMlE3RnM4ZlRtWWJacnFDMy1yRkRCNU9PczBBNUdVd1ZyekVLRk1pei03WlV5cEN4WGl4ZVZlTzhCa1ZvTF9yd25KZmpMWE8y?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT0k0V1llejU0RUdKb3V2QWp2R2hwcHJfMXFESDlVZS1FaHk3QmRscjZaMTlPU2g3R3J4dndPOFRELU90WXQyUVRLSzBXZHJndTVra0lycnhUMlE3RnM4ZlRtWWJacnFDMy1yRkRCNU9PczBBNUdVd1ZyekVLRk1pei03WlV5cEN4WGl4ZVZlTzhCa1ZvTF9yd25KZmpMWE8y?oc=5",
+    "snippet": "DAXA Report Urges New License for Won Stablecoin Payments Seoul Economic Daily",
+    "published_at": "2026-10-07T06:32:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMioAFBVV95cUxQT0k0V1llejU0RUdKb3V2QWp2R2hwcHJfMXFESDlVZS1FaHk3QmRscjZaMTlPU2g3R3J4dndPOFRELU90WXQyUVRLSzBXZHJndTVra0lycnhUMlE3RnM4ZlRtWWJacnFDMy1yRkRCNU9PczBBNUdVd1ZyekVLRk1pei03WlV5cEN4WGl4ZVZlTzhCa1ZvTF9yd25KZmpMWE8y",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "3f5b2499e307f4171100f814d5b7f936e574d2df3372ccb2fe2132b35763bef0",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1125,7 +1270,7 @@
     "snippet": "Hong Kong regulators plan to establish a licensing regime for four categories, including digital asset trading, custody, advisory and management services.",
     "published_at": "2026-10-06T10:16:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -1170,7 +1315,7 @@
     "snippet": "Conduit is suing Tether in NY federal court, alleging the USDT issuer froze $2.76 million of its funds for over a year without explanation.",
     "published_at": "2026-10-06T17:54:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "USDT",
       "Tether",
@@ -1219,7 +1364,7 @@
     "snippet": "",
     "published_at": "2026-10-06T13:02:33+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin",
       "Paxos",
@@ -1268,7 +1413,7 @@
     "snippet": "Ondo opens private markets with tokenized pre-IPO AI exposure Cryptonews.net",
     "published_at": "2026-10-06T12:23:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "tokenized",
       "pre-IPO"
@@ -1316,7 +1461,7 @@
     "snippet": "Binance BTC reserves fell by nearly 40,000 coins since Sept. 20 as whales returned stablecoin capital to their exchange wallets.",
     "published_at": "2026-10-06T09:59:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [
       "stablecoin",
       "reserves"
@@ -1354,53 +1499,6 @@
     ]
   },
   {
-    "id": "293ef5f3cfad0e2c9e5f849a1a825cff10090227079268800b16e9ffe8d6a6b9",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "OKX looks to abstract blockchain mechanics to bring stablecoin balances to everyday consumers",
-    "url": "https://www.coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app",
-    "canonical_url": "https://coindesk.com/business/2026/10/06/okx-money-lets-users-save-earn-10-yield-and-spend-dollar-stablecoins-in-one-app",
-    "snippet": "",
-    "published_at": "2026-10-06T09:02:01+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "f6e7f2cd-1606-4b91-996a-645a9c6ec1bd",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "92c86ce002ffe6244de2ab7ced0fa6bcc9107ec01c0334e36ba7e973b59d33b5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1411,7 +1509,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1456,7 +1554,7 @@
     "snippet": "Salaries and bonuses spiral for seafarers willing to risk perilous trip through waterway in face of Iranian attacks",
     "published_at": "2026-10-06T20:00:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1501,7 +1599,7 @@
     "snippet": "Norway's biggest bank, DNB, is set to lay off 400 staff in its technology teams while it increases its investment in AI agents.",
     "published_at": "2026-10-06T11:13:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -1546,60 +1644,13 @@
     "snippet": "Adam Iza used off-duty LA deputies to pull warrants and personal data on his rivals, then moved the proceeds through crypto custodians.",
     "published_at": "2026-10-06T10:36:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
+    "fetched_at": "2026-10-07T09:09:12.526336+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
     "raw": {
       "id": "https://decrypt.co/?p=380138",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "df3781d0c28b4bfe642d025fe82b61c81ef13b9759f13a9cd0606ef155ea984b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "crypto_native_fintech_launches",
-    "title": "Samsung Electronics Files US Patent Application for Smart-Contract Crypto Wallet - bloomingbit",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EUGxpSDV0Tmwxb014OFRPa3B6WHU5TER1N3NUZ244M2w2WDFuLUt3SHFmYktHc1pJN2gyZ2M3UkREdURBNUFweXdwa2k3b2lMNTJqMw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5EUGxpSDV0Tmwxb014OFRPa3B6WHU5TER1N3NUZ244M2w2WDFuLUt3SHFmYktHc1pJN2gyZ2M3UkREdURBNUFweXdwa2k3b2lMNTJqMw?oc=5",
-    "snippet": "Samsung Electronics Files US Patent Application for Smart-Contract Crypto Wallet bloomingbit",
-    "published_at": "2026-10-06T08:30:25+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-07T02:29:45.358873+00:00",
-    "matched_keywords": [
-      "crypto wallet"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMiVEFVX3lxTE5EUGxpSDV0Tmwxb014OFRPa3B6WHU5TER1N3NUZ244M2w2WDFuLUt3SHFmYktHc1pJN2gyZ2M3UkREdURBNUFweXdwa2k3b2lMNTJqMw",
       "guidislink": false
     },
     "score": 4,
