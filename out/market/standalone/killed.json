@@ -9,7 +9,7 @@
     "primary_region": null,
     "category": "regulation",
     "source_tier": "C",
-    "consensus": 6,
+    "consensus": 5,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
@@ -27,16 +27,43 @@
     "coins": []
   },
   {
+    "id": "35e7a2d67678bdf166d32625ab0e559edda06e49",
+    "title": "Tether tapped by Kazakhstan’s central bank to explore stablecoin and tokenization",
+    "link": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
+    "score": 54,
+    "snippet": "",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 3,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-10-07T14:27:37+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('explore')",
+    "matched": "explore",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
     "id": "511922cade689386bb20282e0bc8ec245e33c5d9",
     "title": "Tether, Kazakhstan cenbank mull tenge stablecoin and asset tokenization",
     "link": "https://cointelegraph.com/news/tether-kazakhstan-central-bank-to-explore-tenge-stablecoin-and-asset-tokenization?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 55,
+    "score": 49,
     "snippet": "The agreement will explore a tenge-backed stablecoin pilot and a framework for tokenizing real-world assets as Kazakhstan expands its digital asset industry.",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "B",
-    "consensus": 3,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
@@ -51,62 +78,8 @@
     "reason": "commentary/opinion framing ('mull')",
     "matched": "mull",
     "fulltext": false,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "35e7a2d67678bdf166d32625ab0e559edda06e49",
-    "title": "Tether tapped by Kazakhstan’s central bank to explore stablecoin and tokenization",
-    "link": "https://www.coindesk.com/business/2026/10/07/tether-tapped-by-kazakhstan-s-central-bank-to-explore-stablecoin-and-tokenization",
-    "score": 54,
-    "snippet": "",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "coindesk",
-    "source": "Google News RSS",
-    "published_at": "2026-10-07T14:27:37+00:00",
-    "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('explore')",
-    "matched": "explore",
-    "fulltext": false,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "2b78fc691fe85d994277fd8cf7ae54e3cdd446c8",
-    "title": "In July, we announced Encrypted Markets In August, we laid out a 7 phased roadmap to get us there Yesterday, Dusk went live on Ethereum mainnet, bringing Covenants onchain Now we’re building towards Darkfall, taking Cove",
-    "link": "https://x.com/nillion/status/2107803407914528866#",
-    "score": 54,
-    "snippet": "In July, we announced Encrypted Markets In August, we laid out a 7 phased roadmap to get us there Yesterday, Dusk went live on Ethereum mainnet, bringing Covenants onchain Now we’re building towards Darkfall, taking Covenants across the wider EVM ecosystem Encrypted Markets have just begun",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:nillion",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-07T12:01:08.643000+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('roadmap')",
-    "matched": "roadmap",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "NIL",
-      "ETH"
-    ]
   },
   {
     "id": "ffef67a0c30771845f851e44a451844191e18bef",
@@ -120,7 +93,7 @@
     "primary_region": "US",
     "category": "fundraising",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -133,7 +106,7 @@
     "reason": "low-signal stat/promo ('morning minute')",
     "matched": "morning minute",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   }
 ]
