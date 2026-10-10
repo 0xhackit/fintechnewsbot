@@ -12,7 +12,7 @@
     "primary_region": "EU",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -25,42 +25,14 @@
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "56836d3836a82e3a6329beae808a74015351b808",
-    "title": "Gate Partners with Visa to Launch Crypto-linked Card Across 40+ Countries and Territories",
-    "link": "https://chainwire.org/2026/10/09/gate-partners-with-visa-to-launch-crypto-linked-card-across-40-countries-and-territories",
-    "score": 84,
-    "snippet": "Gate Partners with Visa to Launch Crypto-linked Card Across 40+ Countries and Territories",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:chainwire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-09T10:11:33.613000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
+    "origin": "rss",
     "coins": []
   },
   {
     "id": "0a9a1573ff20a52524ea7c83de1c64b9adbfddc5",
     "title": "THE BLOCK: Evernorth has completed its SPAC merger with Armada II, bringing approximately 473 million XRP and $300 million in gross cash proceeds into the public markets. The $XRP treasury company expects to begin tradin",
     "link": "https://x.com/TheBlockCo/status/2108654286267908170",
-    "score": 80,
+    "score": 74,
     "snippet": "THE BLOCK: Evernorth has completed its SPAC merger with Armada II, bringing approximately 473 million XRP and $300 million in gross cash proceeds into the public markets. The $XRP treasury company expects to begin trading on Nasdaq on Monday under XRPN.",
     "regions": [],
     "primary_region": null,
@@ -80,36 +52,6 @@
     "origin": "tree",
     "coins": [
       "XRP"
-    ]
-  },
-  {
-    "id": "970e085358e82d3d2bb3f80b01e6b7fdb9acfe22",
-    "title": "LATEST: Thailand’s SEC approves domestic $BTC and $ETH ETFs, taking effect October 16 on the Stock Exchange of Thailand.",
-    "link": "https://x.com/CoinDesk/status/2108516834974802137#",
-    "score": 74,
-    "snippet": "LATEST: Thailand’s SEC approves domestic $BTC and $ETH ETFs, taking effect October 16 on the Stock Exchange of Thailand.",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T11:16:02.880000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approves')",
-    "matched": "approves",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH"
     ]
   },
   {
@@ -186,6 +128,34 @@
       "AAVE",
       "KAVA",
       "HUMA"
+    ]
+  },
+  {
+    "id": "728b3e4050af3dd3b83c6e87d29b318b363b9ff2",
+    "title": "$OM FAN TOKEN® digital asset to launch on Wednesday 14th October via Socios.com platform",
+    "link": "https://www.chiliz.com/om-fan-token-digital-asset-launch",
+    "score": 60,
+    "snippet": "$OM FAN TOKEN® digital asset to launch on Wednesday 14th October via Socios.com platform",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:chz",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-10T06:32:32.091000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CHZ"
     ]
   },
   {
@@ -306,61 +276,29 @@
     ]
   },
   {
-    "id": "47e6abcf288661b54f40e6cc6d590f552108c170",
-    "title": "Crypto News: Pepeto Announces Its DeFi Suite in Final Launch Steps While Ethereum Price Prediction Review Reaches $62,000",
-    "link": "https://view.tree.news/stories/9m7KmxxxS2-pJFb48-IpGg",
-    "score": 54,
-    "snippet": "Crypto News: Pepeto Announces Its DeFi Suite in Final Launch Steps While Ethereum Price Prediction Review Reaches $62,000",
+    "id": "b81394b172da2c6c8a5769de1ebe18048a6edb6f",
+    "title": "Hyperliquid's Cumulative Protocol Revenue Exceeds $1.4 Billion, With Over $1.26 Billion Spent on Open-Market HYPE Buybacks According to an onchain perpetuals market research report by Castle Labs, Hyperliquid's cumulativ",
+    "link": "https://x.com/WuBlockchain/status/2108769985510126027",
+    "score": 50,
+    "snippet": "Hyperliquid's Cumulative Protocol Revenue Exceeds $1.4 Billion, With Over $1.26 Billion Spent on Open-Market HYPE Buybacks According to an onchain perpetuals market research report by Castle Labs, Hyperliquid's cumulative protocol revenue has exceeded $1.4 billion, with more than $1.26 billion spent",
     "regions": [],
     "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:gnw",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-09T10:18:45.306000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ETH"
-    ]
-  },
-  {
-    "id": "503f2161373360f0bab68964fd35a300e2b476f2",
-    "title": "When does a standard actually become a standard? Deborah Barta, CEO of Innovative Edge and Hedera Council board member: when it’s adopted. Visa, Mastercard, Google, AWS, Circle, Stripe and Shopify are founding members of",
-    "link": "https://x.com/HederaCommunity/status/2108740317830680671#",
-    "score": 50,
-    "snippet": "When does a standard actually become a standard? Deborah Barta, CEO of Innovative Edge and Hedera Council board member: when it’s adopted. Visa, Mastercard, Google, AWS, Circle, Stripe and Shopify are founding members of the x402 Foundation. @hedera",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:hederacommunity",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-10T02:04:05.436000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('adopted')",
-    "matched": "adopted",
+    "published_at": "2026-10-10T04:01:59.016000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "HBAR"
+      "HYPE"
     ]
   },
   {
@@ -388,34 +326,6 @@
     "coins": [
       "KERNEL",
       "HBAR"
-    ]
-  },
-  {
-    "id": "1c45fb9b0943b2184d47bf2259afa75a15f477e6",
-    "title": "NEW: Bitcoin miner Bitdeer has signed a 10-year agreement for a new 67MW AI data center campus in Malaysia, bringing its secured AI cloud capacity to 273.5MW. The company said its active AI cloud business pipeline now ex",
-    "link": "https://x.com/TheBlockCo/status/2108533919377461282",
-    "score": 44,
-    "snippet": "NEW: Bitcoin miner Bitdeer has signed a 10-year agreement for a new 67MW AI data center campus in Malaysia, bringing its secured AI cloud capacity to 273.5MW. The company said its active AI cloud business pipeline now exceeds $10 billion.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T12:23:56.089000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
     ]
   }
 ]
