@@ -1,9 +1,37 @@
 [
   {
+    "id": "e2f04f6858ab21c0c5f04240e2992033b2bf88d7",
+    "title": "Blockchain.com Seeks CFTC Approval to Launch US Prediction Markets and Crypto Derivatives",
+    "link": "https://www.crowdfundinsider.com/2026/10/317124-blockchain-com-seeks-cftc-approval-to-launch-us-prediction-markets-and-crypto-derivatives",
+    "score": 130,
+    "snippet": "Blockchain.com Seeks CFTC Approval to Launch US Prediction Markets and Crypto Derivatives",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-10T16:28:55.219000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
     "id": "06e241bcaa8a22a9bee3e65201ec62022153853a",
     "title": "THIS WEEK IN MEDIA - 10/2-10/8 Read CoinDesk: Samsung integrates USDC to overhaul cross-border remittances for 82 million Galaxy users The Block: Samsung to launch USDC transfers on Solana for US Galaxy users Decrypt: Sa",
     "link": "https://x.com/solana/status/2108890556957065542#",
-    "score": 100,
+    "score": 94,
     "snippet": "THIS WEEK IN MEDIA - 10/2-10/8 Read CoinDesk: Samsung integrates USDC to overhaul cross-border remittances for 82 million Galaxy users The Block: Samsung to launch USDC transfers on Solana for US Galaxy users Decrypt: Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices Decrypt: So",
     "regions": [],
     "primary_region": null,
@@ -31,31 +59,37 @@
     ]
   },
   {
-    "id": "47107341eca3a13081c32723622be7fb8dbffe58",
-    "title": "Treasury announced larger bond buybacks on August 19, and the 10-year yield dipped to 4.65%. Within two days it was back above where it started, and it kept climbing through the Fed's September hike to a 24-year high thi",
-    "link": "https://x.com/Nexo/status/2108844745661264374#",
-    "score": 75,
-    "snippet": "Treasury announced larger bond buybacks on August 19, and the 10-year yield dipped to 4.65%. Within two days it was back above where it started, and it kept climbing through the Fed's September hike to a 24-year high this week. Solid auction demand has since eased it back toward 5.2%. Buybacks help ",
+    "id": "920064821809a88e7d2970c1cba7e60647a15510",
+    "title": "This Week in Crypto, brought to you by Holoworld Samsung is bringing USDC transfers on @solana to 82M Galaxy devices in the U.S., while @Securitize launched 1:1-backed tokenized U.S. stocks with dividends and shareholder",
+    "link": "https://x.com/HoloworldAI/status/2108943638353138087",
+    "score": 85,
+    "snippet": "This Week in Crypto, brought to you by Holoworld Samsung is bringing USDC transfers on @solana to 82M Galaxy devices in the U.S., while @Securitize launched 1:1-backed tokenized U.S. stocks with dividends and shareholder rights. In Europe, ESMA gave platforms three months to remove non-MiCA stableco",
     "regions": [
-      "US"
+      "EU"
     ],
-    "primary_region": "US",
-    "category": "regulation",
+    "primary_region": "EU",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:nexo",
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:holoworldai",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-10T08:59:03.111000+00:00",
+    "published_at": "2026-10-10T15:32:00.762000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "NEXO"
+      "HOLO",
+      "USDC",
+      "SOL"
     ]
   },
   {
@@ -85,33 +119,60 @@
     ]
   },
   {
-    "id": "7ac7d0396acf1d625127d42e599b58b30b622d78",
-    "title": "Standard Chartered just launched institutional custody for crypto, stablecoins, and tokenized real-world assets. A 160-year-old bank now safeguards tokenized assets as a core service. The red days come and go. The infras",
-    "link": "https://x.com/defiapp/status/2108581266853408981",
-    "score": 59,
-    "snippet": "Standard Chartered just launched institutional custody for crypto, stablecoins, and tokenized real-world assets. A 160-year-old bank now safeguards tokenized assets as a core service. The red days come and go. The infrastructure being built doesn’t care about this week’s candle.",
+    "id": "47107341eca3a13081c32723622be7fb8dbffe58",
+    "title": "Treasury announced larger bond buybacks on August 19, and the 10-year yield dipped to 4.65%. Within two days it was back above where it started, and it kept climbing through the Fed's September hike to a 24-year high thi",
+    "link": "https://x.com/Nexo/status/2108844745661264374#",
+    "score": 69,
+    "snippet": "Treasury announced larger bond buybacks on August 19, and the 10-year yield dipped to 4.65%. Within two days it was back above where it started, and it kept climbing through the Fed's September hike to a 24-year high this week. Solid auction demand has since eased it back toward 5.2%. Buybacks help ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:nexo",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-10T08:59:03.111000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('back')",
+    "matched": "back",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "NEXO"
+    ]
+  },
+  {
+    "id": "d3dd3015e481683c12475dc57931e3f6c56c307c",
+    "title": "THE BLOCK: US spot ether ETFs posted $542.1 million in net outflows last week, their worst week since January, extending their outflow streak to nine days. Solana ETFs lost $24.8 million, ending a record 14-week inflow s",
+    "link": "https://x.com/TheBlockCo/status/2108938453010543057#",
+    "score": 55,
+    "snippet": "THE BLOCK: US spot ether ETFs posted $542.1 million in net outflows last week, their worst week since January, extending their outflow streak to nine days. Solana ETFs lost $24.8 million, ending a record 14-week inflow streak with their largest weekly outflow since launch.",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:defiapp",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T15:32:04.510000+00:00",
+    "published_at": "2026-10-10T15:11:24.364000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "HOME"
+      "SOL",
+      "ETH"
     ]
   },
   {
@@ -143,93 +204,6 @@
     ]
   },
   {
-    "id": "5f5534c212eec7978368c5811e7c725e7374f409",
-    "title": "Today we are launching the Injective Ecosystem Page! Explore 270+ apps, projects and partners integrated with Injective. The page will serve as a starting point for all users and builders who want to pariticpate onchain",
-    "link": "https://x.com/injective/status/2108628528514428963#",
-    "score": 54,
-    "snippet": "Today we are launching the Injective Ecosystem Page! Explore 270+ apps, projects and partners integrated with Injective. The page will serve as a starting point for all users and builders who want to pariticpate onchain with $INJ https://injhub.com/ecosystem/",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:injective",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T18:39:52.804000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "INJ"
-    ]
-  },
-  {
-    "id": "a64d085fbe16dfc44f04a019b0d2dfb933783f3d",
-    "title": "BAM Changelog — Sept 23-Oct 9 Action Required: Alpenglow Is Coming — Run Jito-Solana v4.3.0-jito.0 during transition period Alpenglow mainnet activation is approaching in mid-October (per latest Solana Foundation / Anza",
-    "link": "https://x.com/jito/status/2108579634233098476",
-    "score": 54,
-    "snippet": "BAM Changelog — Sept 23-Oct 9 Action Required: Alpenglow Is Coming — Run Jito-Solana v4.3.0-jito.0 during transition period Alpenglow mainnet activation is approaching in mid-October (per latest Solana Foundation / Anza information). BAM has been tested on Testnet and on the dedicated Alpenglow test",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:jito",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T15:25:35.341000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "JTO",
-      "SOL",
-      "KERNEL",
-      "USUAL",
-      "BASED"
-    ]
-  },
-  {
-    "id": "0d4799cd0bb66bceeb84d48fb7a4b9709da69a40",
-    "title": "Introducing the Grass Contents API Yesterday, we launched the Grass Contents API, an API that turns any public URL into clean, model-ready HTML, Markdown, or text. The Contents API is built using the Grass Network and de",
-    "link": "https://x.com/grass/status/2108571521744801972#",
-    "score": 54,
-    "snippet": "Introducing the Grass Contents API Yesterday, we launched the Grass Contents API, an API that turns any public URL into clean, model-ready HTML, Markdown, or text. The Contents API is built using the Grass Network and designed to retrieve pages that conventional web infrastructure struggles to acces",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:grass",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T14:53:21.308000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "GRASS",
-      "RENDER"
-    ]
-  },
-  {
     "id": "b81394b172da2c6c8a5769de1ebe18048a6edb6f",
     "title": "Hyperliquid's Cumulative Protocol Revenue Exceeds $1.4 Billion, With Over $1.26 Billion Spent on Open-Market HYPE Buybacks According to an onchain perpetuals market research report by Castle Labs, Hyperliquid's cumulativ",
     "link": "https://x.com/WuBlockchain/status/2108769985510126027",
@@ -253,33 +227,6 @@
     "origin": "tree",
     "coins": [
       "HYPE"
-    ]
-  },
-  {
-    "id": "83e3f27f2dbd43b0103794360f5cbd1bb29c436d",
-    "title": "Staking on Hedera works differently from staking on most proof-of-stake networks. Staked HBAR never leaves the account, and there is no bonding, no lock-up and no slashing. About 12.96 billion HBAR is staked today, rough",
-    "link": "https://x.com/KelpDAO/status/2108602629962207376#",
-    "score": 44,
-    "snippet": "Staking on Hedera works differently from staking on most proof-of-stake networks. Staked HBAR never leaves the account, and there is no bonding, no lock-up and no slashing. About 12.96 billion HBAR is staked today, roughly 29% of the released supply.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:kelpdao",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T16:56:57.920000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "KERNEL",
-      "HBAR"
     ]
   }
 ]
