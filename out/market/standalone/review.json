@@ -1,32 +1,62 @@
 [
   {
-    "id": "b171828d29e73e0b98f2e3541872cb4873946264",
-    "title": "ESMA seeks evidence tokenized collateral can be cashed out in crisis",
-    "link": "https://cointelegraph.com/news/esma-tokenized-collateral-eu-clearinghouses?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 84,
-    "snippet": "ESMA is seeking industry feedback on the legal, liquidity and operational risks of tokenized collateral before deciding whether additional EU regulatory measures are necessary.",
-    "regions": [
-      "US",
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "B",
+    "id": "06e241bcaa8a22a9bee3e65201ec62022153853a",
+    "title": "THIS WEEK IN MEDIA - 10/2-10/8 Read CoinDesk: Samsung integrates USDC to overhaul cross-border remittances for 82 million Galaxy users The Block: Samsung to launch USDC transfers on Solana for US Galaxy users Decrypt: Sa",
+    "link": "https://x.com/solana/status/2108890556957065542#",
+    "score": 100,
+    "snippet": "THIS WEEK IN MEDIA - 10/2-10/8 Read CoinDesk: Samsung integrates USDC to overhaul cross-border remittances for 82 million Galaxy users The Block: Samsung to launch USDC transfers on Solana for US Galaxy users Decrypt: Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices Decrypt: So",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-10-09T10:49:24+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "feed_name": "tree:x:solana",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-10T12:01:05.069000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "SOL",
+      "USDC",
+      "ORCA"
+    ]
+  },
+  {
+    "id": "47107341eca3a13081c32723622be7fb8dbffe58",
+    "title": "Treasury announced larger bond buybacks on August 19, and the 10-year yield dipped to 4.65%. Within two days it was back above where it started, and it kept climbing through the Fed's September hike to a 24-year high thi",
+    "link": "https://x.com/Nexo/status/2108844745661264374#",
+    "score": 75,
+    "snippet": "Treasury announced larger bond buybacks on August 19, and the 10-year yield dipped to 4.65%. Within two days it was back above where it started, and it kept climbing through the Fed's September hike to a 24-year high this week. Solid auction demand has since eased it back toward 5.2%. Buybacks help ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:nexo",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-10T08:59:03.111000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('back')",
+    "matched": "back",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "NEXO"
+    ]
   },
   {
     "id": "0a9a1573ff20a52524ea7c83de1c64b9adbfddc5",
@@ -52,110 +82,6 @@
     "origin": "tree",
     "coins": [
       "XRP"
-    ]
-  },
-  {
-    "id": "40cd6786230ec585ea89ee8c00848f842251bfc5",
-    "title": "Introducing CCIP Vault Adapters: Enabling 1-Click Deposits From Any Chain TL;DR: Chainlink has launched a new solution enabling DeFi vaults to directly accept deposits from users across 80+ blockchains without having to",
-    "link": "https://x.com/chainlink/status/2108546866119930299#",
-    "score": 64,
-    "snippet": "Introducing CCIP Vault Adapters: Enabling 1-Click Deposits From Any Chain TL;DR: Chainlink has launched a new solution enabling DeFi vaults to directly accept deposits from users across 80+ blockchains without having to recreate vaults on each chain, significantly expanding access to capital, users,",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:chainlink",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T13:15:22.856000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "LINK",
-      "BTC",
-      "AVAX",
-      "ETH",
-      "BILL",
-      "BARD",
-      "BASED",
-      "AAVE"
-    ]
-  },
-  {
-    "id": "a0e1ef15362c17d066c618f3ba497b2b865a5324",
-    "title": "Introducing CCIP Vault Adapters: Enabling 1-Click Deposits From Any Chain TL;DR: Chainlink has launched a new solution enabling DeFi vaults to directly accept deposits from users across 80+ blockchains without having to",
-    "link": "https://x.com/chainlink/status/2108540758928064650#",
-    "score": 64,
-    "snippet": "Introducing CCIP Vault Adapters: Enabling 1-Click Deposits From Any Chain TL;DR: Chainlink has launched a new solution enabling DeFi vaults to directly accept deposits from users across 80+ blockchains without having to recreate vaults on each chain, significantly expanding access to capital, users,",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:chainlink",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-09T12:51:06.742000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "LINK",
-      "BTC",
-      "WLFI",
-      "AVAX",
-      "TREE",
-      "ETH",
-      "BILL",
-      "BARD",
-      "TURTLE",
-      "XVS",
-      "BASED",
-      "AAVE",
-      "KAVA",
-      "HUMA"
-    ]
-  },
-  {
-    "id": "728b3e4050af3dd3b83c6e87d29b318b363b9ff2",
-    "title": "$OM FAN TOKEN® digital asset to launch on Wednesday 14th October via Socios.com platform",
-    "link": "https://www.chiliz.com/om-fan-token-digital-asset-launch",
-    "score": 60,
-    "snippet": "$OM FAN TOKEN® digital asset to launch on Wednesday 14th October via Socios.com platform",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:chz",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-10T06:32:32.091000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CHZ"
     ]
   },
   {
@@ -186,6 +112,34 @@
     "origin": "tree",
     "coins": [
       "HOME"
+    ]
+  },
+  {
+    "id": "728b3e4050af3dd3b83c6e87d29b318b363b9ff2",
+    "title": "$OM FAN TOKEN® digital asset to launch on Wednesday 14th October via Socios.com platform",
+    "link": "https://www.chiliz.com/om-fan-token-digital-asset-launch",
+    "score": 54,
+    "snippet": "$OM FAN TOKEN® digital asset to launch on Wednesday 14th October via Socios.com platform",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:chz",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-10T06:32:32.091000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CHZ"
     ]
   },
   {
@@ -279,7 +233,7 @@
     "id": "b81394b172da2c6c8a5769de1ebe18048a6edb6f",
     "title": "Hyperliquid's Cumulative Protocol Revenue Exceeds $1.4 Billion, With Over $1.26 Billion Spent on Open-Market HYPE Buybacks According to an onchain perpetuals market research report by Castle Labs, Hyperliquid's cumulativ",
     "link": "https://x.com/WuBlockchain/status/2108769985510126027",
-    "score": 50,
+    "score": 44,
     "snippet": "Hyperliquid's Cumulative Protocol Revenue Exceeds $1.4 Billion, With Over $1.26 Billion Spent on Open-Market HYPE Buybacks According to an onchain perpetuals market research report by Castle Labs, Hyperliquid's cumulative protocol revenue has exceeded $1.4 billion, with more than $1.26 billion spent",
     "regions": [],
     "primary_region": null,
