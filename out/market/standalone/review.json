@@ -1,64 +1,57 @@
 [
   {
-    "id": "e2f04f6858ab21c0c5f04240e2992033b2bf88d7",
-    "title": "Blockchain.com Seeks CFTC Approval to Launch US Prediction Markets and Crypto Derivatives",
-    "link": "https://www.crowdfundinsider.com/2026/10/317124-blockchain-com-seeks-cftc-approval-to-launch-us-prediction-markets-and-crypto-derivatives",
-    "score": 124,
-    "snippet": "Blockchain.com Seeks CFTC Approval to Launch US Prediction Markets and Crypto Derivatives",
+    "id": "af95f8295ad3c38fde550d038d5f11ddfb33b74c",
+    "title": "THE BLOCK: XRP Ledger developers disclosed a decade-old payment engine bug that could have minted trillion of XRP, far beyond its 100 billion supply. An AI agent from Veria Labs found the vulnerability, and the fix shipp",
+    "link": "https://x.com/TheBlockCo/status/2109345699238396353#",
+    "score": 60,
+    "snippet": "THE BLOCK: XRP Ledger developers disclosed a decade-old payment engine bug that could have minted trillion of XRP, far beyond its 100 billion supply. An AI agent from Veria Labs found the vulnerability, and the fix shipped Sept. 25 without the usual validator vote.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-11T18:09:39.435000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('minted')",
+    "matched": "minted",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "USUAL"
+    ]
+  },
+  {
+    "id": "f0aadac9f76b33277688c79b8a70d14a9ae1b2db",
+    "title": "Ripple takes on Wall Street banks with a $35 billion client",
+    "link": "https://www.thestreet.com/crypto/markets/ripple-takes-on-wall-street-banks-with-a-35-billion-client",
+    "score": 60,
+    "snippet": "Ripple takes on Wall Street banks with a $35 billion client",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:crowdfundinsider",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the street",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-10T16:28:55.219000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
+    "published_at": "2026-10-11T16:00:02.228000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "920064821809a88e7d2970c1cba7e60647a15510",
-    "title": "This Week in Crypto, brought to you by Holoworld Samsung is bringing USDC transfers on @solana to 82M Galaxy devices in the U.S., while @Securitize launched 1:1-backed tokenized U.S. stocks with dividends and shareholder",
-    "link": "https://x.com/HoloworldAI/status/2108943638353138087",
-    "score": 79,
-    "snippet": "This Week in Crypto, brought to you by Holoworld Samsung is bringing USDC transfers on @solana to 82M Galaxy devices in the U.S., while @Securitize launched 1:1-backed tokenized U.S. stocks with dividends and shareholder rights. In Europe, ESMA gave platforms three months to remove non-MiCA stableco",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:holoworldai",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-10T15:32:00.762000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
     "coins": [
-      "HOLO",
-      "USDC",
-      "SOL"
+      "XRP"
     ]
   },
   {
@@ -88,5 +81,33 @@
     "coins": [
       "AERO"
     ]
+  },
+  {
+    "id": "e41a443cb4d0b80087bb838b0df75491c138ecbd",
+    "title": "Tokenized Stocks Show Real Demand But Remain Volatile and Illiquid, IMF Finds",
+    "link": "https://decrypt.co/380653/tokenized-stocks-show-real-demand-but-remain-volatile-and-illiquid-imf-finds",
+    "score": 40,
+    "snippet": "An IMF analysis found that more than half of tokenized stock trading happens outside U.S. market hours, though the roughly $2.3 billion market remains more volatile and less liquid than traditional equities.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 3,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-10-11T17:11:03+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
   }
 ]
