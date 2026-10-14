@@ -1,5 +1,33 @@
 [
   {
+    "id": "bb9cb541d59b255860ee961a7562839b84e11d96",
+    "title": "I was just in Alaska launching the largest Energy Infrastructure Project in Alaska History— The Alaska LNG Project. This 50 Billion Dollar Infrastructure Investment from The Republic of Korea is part of their Trade and I",
+    "link": "https://truthsocial.com/@realDonaldTrump/117440207836405365",
+    "score": 100,
+    "snippet": "I was just in Alaska launching the largest Energy Infrastructure Project in Alaska History— The Alaska LNG Project. This 50 Billion Dollar Infrastructure Investment from The Republic of Korea is part of their Trade and Investment Deal with me. I am also announcing today that my Commerce Secretary, H",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:realdonaldtrump",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T16:29:19.398000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "TRUMP"
+    ]
+  },
+  {
     "id": "42fdee2ecb6b715e907b75ae483a775eac2b3c17",
     "title": "Evernorth to Begin Deploying from 473 Million XRP Treasury with Ripple, Kraken, Coinbase and BitGo",
     "link": "https://view.tree.news/stories/oRGeScReTzCFkLa3qRDVUg",
@@ -56,61 +84,86 @@
     "coins": []
   },
   {
-    "id": "baef661787fc4d4a6eac21b96d72ebcec460356a",
-    "title": "THE BLOCK: Solana's upcoming consensus upgrade, Alpenglow, is scheduled to launch on mainnet on Oct. 21. It aims to slash the network's block finality from 12.8 seconds to 150 milliseconds. $WSOL",
-    "link": "https://x.com/TheBlockCo/status/2110230534223982896",
-    "score": 84,
-    "snippet": "THE BLOCK: Solana's upcoming consensus upgrade, Alpenglow, is scheduled to launch on mainnet on Oct. 21. It aims to slash the network's block finality from 12.8 seconds to 150 milliseconds. $WSOL",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T04:45:40.545000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL"
-    ]
-  },
-  {
-    "id": "1d12799ea081d5b2604dddf77d77aa0feccd8e9b",
-    "title": "Introducing: BAM’s Direct Bundle Ingest Today we’re announcing two major upgrades to BAM’s bundle infrastructure: BAM Direct Bundle Ingest (DBI), which has been live on mainnet for an early cohort of searchers over the p",
-    "link": "https://x.com/jito/status/2110103370526872014",
-    "score": 84,
-    "snippet": "Introducing: BAM’s Direct Bundle Ingest Today we’re announcing two major upgrades to BAM’s bundle infrastructure: BAM Direct Bundle Ingest (DBI), which has been live on mainnet for an early cohort of searchers over the past month, and a rebuilt path for Block Engine flow into BAM. With DBI, searcher",
+    "id": "9f5dd7be151f53f2649c7621ca48b3298be382bf",
+    "title": "According to Bastion Trading, Solana treasury company SkyAI sold approximately 70% of its SOL holdings in less than a month, leaving around 600,000 SOL, without adequately disclosing the timing, prices or approval proces",
+    "link": "https://x.com/WuBlockchain/status/2110367138208964808#",
+    "score": 80,
+    "snippet": "According to Bastion Trading, Solana treasury company SkyAI sold approximately 70% of its SOL holdings in less than a month, leaving around 600,000 SOL, without adequately disclosing the timing, prices or approval process. Bastion and its affiliates, which hold approximately 9.99% of SkyAI, are call",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:jito",
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-13T20:20:22.472000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-10-14T13:48:29.474000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "JTO",
       "SOL",
-      "FLOW"
+      "SKYAI"
+    ]
+  },
+  {
+    "id": "7ae2205e517baca3f2b08f35a9f8432b2faff4da",
+    "title": "Qivalis receives EMI authorization from Dutch central bank for euro stablecoin",
+    "link": "https://cointelegraph.com/news/qivalis-authorization-dutch-central-bank-euro-stablecoin",
+    "score": 80,
+    "snippet": "Qivalis receives EMI authorization from Dutch central bank for euro stablecoin",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:cointelegraph",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-14T12:53:46.430000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('authorization')",
+    "matched": "authorization",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "cb4bf01b01b5694fd9436b5ee7a0b52af4dd6e6e",
+    "title": "THE BLOCK: Bitcoin treasury firm Strive $ASST acquired an additional 2,822 $BTC for approximately $235 million at an average price of $83,266 per bitcoin, bringing its total holdings to 35,595 BTC.",
+    "link": "https://x.com/TheBlockCo/status/2110348026720203010",
+    "score": 80,
+    "snippet": "THE BLOCK: Bitcoin treasury firm Strive $ASST acquired an additional 2,822 $BTC for approximately $235 million at an average price of $83,266 per bitcoin, bringing its total holdings to 35,595 BTC.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T12:32:32.954000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('acquired')",
+    "matched": "acquired",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
@@ -142,13 +195,14 @@
     ]
   },
   {
-    "id": "cf84b76cb2ff8bfa6af95ed3e967582970424b50",
-    "title": "Bain Capital and Tillman Global Holdings Complete $1.5 Billion Investment in Eaton Fiber and Acquisition of Ripple Fiber",
-    "link": "https://www.businesswire.com/news/home/20261013504369/en",
-    "score": 79,
-    "snippet": "Bain Capital and Tillman Global Holdings Complete $1.5 Billion Investment in Eaton Fiber and Acquisition of Ripple Fiber",
+    "id": "33a2fe652d0d75a344046801a911065b6667d5c4",
+    "title": "ANOTHER MASSIVE 21 BILLION DOLLAR INVESTMENT FOR AMERICA! Today, under my leadership, GlobalFoundries and my Department of Commerce led by Secretary Howard Lutnick announced a MASSIVE 21 BILLION INVESTMENT to build 2 gia",
+    "link": "https://truthsocial.com/@realDonaldTrump/117440248541514637",
+    "score": 75,
+    "snippet": "ANOTHER MASSIVE 21 BILLION DOLLAR INVESTMENT FOR AMERICA! Today, under my leadership, GlobalFoundries and my Department of Commerce led by Secretary Howard Lutnick announced a MASSIVE 21 BILLION INVESTMENT to build 2 giant new Semiconductor Manufacturing Facilities in Malta, New York. This DEAL will",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
     "category": "other",
@@ -156,79 +210,111 @@
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:businesswire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-13T20:45:03.308000+00:00",
+    "feed_name": "tree:x:realdonaldtrump",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T16:39:42.090000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('acquisition')",
-    "matched": "acquisition",
+    "reason": "concrete market event ('investment')",
+    "matched": "investment",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XRP"
+      "WIN",
+      "ALL",
+      "TRUMP"
     ]
   },
   {
-    "id": "a4402ad252c9b55cefc3380e912a9dbc1dd916a4",
-    "title": "The Zanzibar Hard Fork is getting full ecosystem backing. 🏗️ @binance has officially announced their support for the IoTeX network upgrade on Oct 19. A brief pause on $IOTX deposits/withdrawals will occur at 01:00 UTC fo",
-    "link": "https://x.com/iotex_io/status/2110202531083411574#",
-    "score": 69,
-    "snippet": "The Zanzibar Hard Fork is getting full ecosystem backing. 🏗️ @binance has officially announced their support for the IoTeX network upgrade on Oct 19. A brief pause on $IOTX deposits/withdrawals will occur at 01:00 UTC for a safe and smooth upgrade. Details below: https://www.binance.com/en/support/a",
+    "id": "94cdb71718880a5deb1f888dfc7f8b8ef0bdc6ac",
+    "title": "Standard Chartered pushes $2 trillion stablecoin market forecast to 2030 as supply growth stalls",
+    "link": "https://www.theblock.co/news/web3/2026-10-14-standard-chartered-stablecoin-market-report-418578",
+    "score": 70,
+    "snippet": "Standard Chartered Bank has pushed its $2 trillion stablecoin market forecast to 2030 from 2028 because supply growth has stalled this year.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 4,
+    "financial": 50,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T15:47:18+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "b2621984ba00a8d0d9d631acae101a97c2102e9d",
+    "title": "New Crypto: Remittix Announces November 24 RTX Launch as Interactive Brokers Opens Ethereum Staking and ETH and Cardano Price Predictions Target $12,000 and $3",
+    "link": "https://view.tree.news/stories/omLVWSGBQQ-9LAelL9nUww",
+    "score": 60,
+    "snippet": "New Crypto: Remittix Announces November 24 RTX Launch as Interactive Brokers Opens Ethereum Staking and ETH and Cardano Price Predictions Target $12,000 and $3",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:iotex_io",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T02:54:24.196000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:gnw",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-14T17:00:02.127000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "IOTX",
-      "BNB",
-      "SAFE"
+      "ETH",
+      "ADA"
     ]
   },
   {
-    "id": "e636bfd223482d921f8a54d5cfbc8f74d1c38154",
-    "title": "THE BLOCK: BNY said a tokenized two-year U.S. Treasury note settled within minutes on its private digital ledger before Citadel Securities used it as collateral in an overnight repo. The transaction settled faster than t",
-    "link": "https://x.com/TheBlockCo/status/2110308662573244602#",
+    "id": "2f166b142f026475dde3df11931f15ecaed14614",
+    "title": "Avalanche’s presence in UAE public infrastructure keeps growing. Last month, the UAE’s national digital identity system infrastructure launched on Avalanche, serving more than 12 million people. Now, the Dubai Internatio",
+    "link": "https://x.com/AvalancheFDN/status/2110401165456224600",
     "score": 60,
-    "snippet": "THE BLOCK: BNY said a tokenized two-year U.S. Treasury note settled within minutes on its private digital ledger before Citadel Securities used it as collateral in an overnight repo. The transaction settled faster than the standard T+1 cycle and marked the first use of tokenized assets on a major tr",
+    "snippet": "Avalanche’s presence in UAE public infrastructure keeps growing. Last month, the UAE’s national digital identity system infrastructure launched on Avalanche, serving more than 12 million people. Now, the Dubai International Financial Centre (DIFC) Courts have introduced a blockchain-based verificati",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:avalanchefdn",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T09:56:07.890000+00:00",
+    "published_at": "2026-10-14T16:03:42.239000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('settled')",
-    "matched": "settled",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": true,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "AVAX",
+      "BASED"
+    ]
   },
   {
-    "id": "8c8ea4ccc4fae2ea85c47e019f9db8519601259f",
-    "title": "Wells Fargo Joins 20-Bank Stablecoin Consortium Targeting 2027 Launch - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOHZZellpVmotYXNSN1pqQmdBRVlxY2pPZ1hsTjJYTEJhSmtEWE9KT1F0WE1VLVYzZUxVeDNxZ3pIY05OTzZLeGQ3R1lOY1V2TDVPUU1PSnZhNEE2UVJDLVo0NFEzNU1xLTBwMjl4TXNIUk5GM1ZTUXdwWWdMNXhZNW84YmxneERDNFBPZFpsRnFodGZxQlE4RmJuRkJRZklnNkRlRXpn?oc=5",
-    "score": 55,
-    "snippet": "Wells Fargo Joins 20-Bank Stablecoin Consortium Targeting 2027 Launch KuCoin",
+    "id": "e2893b059f69957a26f34671220cba69ad258535",
+    "title": "NEW: @StanChart launches $BTC and $ETH trading for affluent clients in the UAE through their existing bank accounts, handling custody and settlement in-house under VARA licensing.",
+    "link": "https://x.com/CoinDesk/status/2110400511459377601",
+    "score": 60,
+    "snippet": "NEW: @StanChart launches $BTC and $ETH trading for affluent clients in the UAE through their existing bank accounts, handling custody and settlement in-house under VARA licensing.",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -239,23 +325,26 @@
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-14T07:05:00+00:00",
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T16:01:06.222000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
   },
   {
-    "id": "f11435f49bebc6df9967b47b025ede02f48df80d",
-    "title": "Standard Chartered launches Bitcoin and Ether trading for wealthy UAE clients - Crypto News",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVHBWY3l1ZjJ1ZklDeHVrRW5hTkZDdk9JQmRlWEs2dDF2UnB2eXdaQjgxLWVrZGszN3hvdG44WklET1JVUEp5WTd2TkM2Q194Y0ZpbW1xUkFDNXpabjNsRjNweDd3ajVfQjFfOFJCcXZhY2FtME53NHRTNkpDb3BRbDhkdVFIOWpUa1ZLMmdnOWZZX1E0YlJGN1lfSVliUWs?oc=5",
-    "score": 55,
-    "snippet": "Standard Chartered launches Bitcoin and Ether trading for wealthy UAE clients Crypto News",
+    "id": "bbb4c81bb5cf0c54b2693bb43415d9364df5dc35",
+    "title": "Signatures by @osinachiart goes live today at 12 PM ET. The collection features 1,111 individually created and animated works inspired by Uli, the visual language of the Igbo people of Nigeria. Before the launch, join us",
+    "link": "https://x.com/SuperRare/status/2110371191764427257",
+    "score": 60,
+    "snippet": "Signatures by @osinachiart goes live today at 12 PM ET. The collection features 1,111 individually created and animated works inspired by Uli, the visual language of the Igbo people of Nigeria. Before the launch, join us live with Osinachi at 11 AM ET. ↓↓↓",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -265,16 +354,80 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-10-14T06:50:00+00:00",
+    "feed_name": "tree:x:superrare",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T14:04:35.896000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "RARE"
+    ]
+  },
+  {
+    "id": "5cdf3baccf2dd95473b15f4b5f10baa465106b90",
+    "title": "NEW: @Nasdaq listed @evernorthxrp names @Ripple, @Krakenfx, @Coinbase and @BitGo as inaugural institutional partners to deploy its 473M $XRP treasury.",
+    "link": "https://x.com/CoinDesk/status/2110355199814508727",
+    "score": 60,
+    "snippet": "NEW: @Nasdaq listed @evernorthxrp names @Ripple, @Krakenfx, @Coinbase and @BitGo as inaugural institutional partners to deploy its 473M $XRP treasury.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T13:01:03.131000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "b2b189571d16a903f71962083070ff6ed87cc6ad",
+    "title": "CKB has been crypto-agile by design since its mainnet launch in 2019. On many blockchains, a new signature scheme needs a protocol upgrade, and getting a whole network to agree is slow and contentious. On CKB, signature",
+    "link": "https://x.com/ckba_build/status/2110354950693757262",
+    "score": 60,
+    "snippet": "CKB has been crypto-agile by design since its mainnet launch in 2019. On many blockchains, a new signature scheme needs a protocol upgrade, and getting a whole network to agree is slow and contentious. On CKB, signature checks run as lock scripts rather than as part of the protocol, so a post-quantu",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ckba_build",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T13:00:03.807000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CKB",
+      "ETH",
+      "BTC",
+      "FF",
+      "BASED"
+    ]
   },
   {
     "id": "ab6cf4aabdd4173e46c5d776bacd3bb51a87a4c1",
@@ -305,64 +458,30 @@
     "coins": []
   },
   {
-    "id": "fe352abc86d144b86cef83cbdd17b47987d99828",
-    "title": "JUST IN: @Ripple partners with South Korea’s Meritz Securities to explore digital asset custody and tokenization for Korean capital markets, its fourth institutional partnership in South Korea in 2026.",
-    "link": "https://x.com/CoinDesk/status/2110325001102520791",
-    "score": 55,
-    "snippet": "JUST IN: @Ripple partners with South Korea’s Meritz Securities to explore digital asset custody and tokenization for Korean capital markets, its fourth institutional partnership in South Korea in 2026.",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T11:01:03.132000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
-  },
-  {
-    "id": "d66cae5ef81ee6153706f2a575ab13cf250c08d0",
-    "title": "THE BLOCK: StarkWare launches Shadow Accounts on Starknet, a new feature that lets apps offer a public-to-private mode. The STRK20 privacy feature gives users a persistent pseudonymous identity for each app, without publ",
-    "link": "https://x.com/TheBlockCo/status/2110276981489320001#",
-    "score": 55,
-    "snippet": "THE BLOCK: StarkWare launches Shadow Accounts on Starknet, a new feature that lets apps offer a public-to-private mode. The STRK20 privacy feature gives users a persistent pseudonymous identity for each app, without publicly linking their activity to their main wallet.",
+    "id": "e636bfd223482d921f8a54d5cfbc8f74d1c38154",
+    "title": "THE BLOCK: BNY said a tokenized two-year U.S. Treasury note settled within minutes on its private digital ledger before Citadel Securities used it as collateral in an overnight repo. The transaction settled faster than t",
+    "link": "https://x.com/TheBlockCo/status/2110308662573244602#",
+    "score": 54,
+    "snippet": "THE BLOCK: BNY said a tokenized two-year U.S. Treasury note settled within minutes on its private digital ledger before Citadel Securities used it as collateral in an overnight repo. The transaction settled faster than the standard T+1 cycle and marked the first use of tokenized assets on a major tr",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T07:50:14.509000+00:00",
+    "published_at": "2026-10-14T09:56:07.890000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
+    "reason": "concrete market event ('settled')",
+    "matched": "settled",
     "fulltext": true,
     "origin": "tree",
-    "coins": [
-      "STRK"
-    ]
+    "coins": []
   },
   {
     "id": "01a9e0b4532e1c7c12006715c8ad1fb06433f966",
@@ -394,21 +513,106 @@
     ]
   },
   {
-    "id": "1dbeffb7079a70fca80130c1184216004e51a57a",
-    "title": "Spot Trading Tournament Season 5: Trade to Share Up to 400 BNB Token Vouchers",
-    "link": "https://www.treeofalpha.com/preview_article?id=1791968403112",
+    "id": "47bf1cee41ed523b5b217be91edc36241cdb6686",
+    "title": "Former FTX Europe chief targets U.S. tokenized stock trading with new SEC exemption",
+    "link": "https://www.coindesk.com/business/2026/10/14/former-ftx-europe-chief-targets-u-s-stock-tokenization-with-new-sec-exemption",
     "score": 50,
-    "snippet": "Spot Trading Tournament Season 5: Trade to Share Up to 400 BNB Token Vouchers",
+    "snippet": "",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T14:08:43+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "97aaa1bc27f784ef488a8f596b92fb87fa367e85",
+    "title": "BNY, Citadel Securities complete Treasury repo in first use of tokenized assets on major triparty platform",
+    "link": "https://www.theblock.co/news/business/2026-10-14-bny-citadel-securities-complete-treasury-repo-in-first-use-of-tokenized-assets-on-major-triparty-platform-418534",
+    "score": 50,
+    "snippet": "BNY and Citadel Securities completed the first tokenized U.S. Treasury repo workflow on a major triparty platform.",
     "regions": [],
     "primary_region": null,
     "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T13:21:37+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "83b6fcdfe3ce9524572beb6efd319d80519c6070",
+    "title": "Canada crypto remittances to Asian countries surge 141% to $2.36B: Chainalysis",
+    "link": "https://cointelegraph.com/news/canada-crypto-remittances-asia-surge-chainalysis?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 50,
+    "snippet": "Remittance-sized crypto transfers from Canada to three Asian countries reached $2.36 billion, while transfers to the Philippines alone rose 28% to $61 million.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T13:00:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "e11d8644d51c2ed700af1378c872af35500c1fc0",
+    "title": "In September, the U.S. Federal Reserve raised rates for the first time since July 2023. The FOMC lifted the federal funds target by 25 basis points to 3.75% to 4%, in a 12-0 vote. The statement's reasoning was brief: inf",
+    "link": "https://x.com/centrifuge/status/2110416101784064287#",
+    "score": 50,
+    "snippet": "In September, the U.S. Federal Reserve raised rates for the first time since July 2023. The FOMC lifted the federal funds target by 25 basis points to 3.75% to 4%, in a 12-0 vote. The statement's reasoning was brief: inflation remains elevated. Long rates moved further. The 10-year Treasury yield we",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:binance en",
-    "source": "TreeOfAlpha/Binance EN",
-    "published_at": "2026-10-14T09:00:04.390000+00:00",
+    "feed_name": "tree:x:centrifuge",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T17:03:03.464000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -416,7 +620,35 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BNB"
+      "CFG"
+    ]
+  },
+  {
+    "id": "0abe9062e051d4b09fba8ba6cc1781956f7aed99",
+    "title": "Today we are excited to announce our private-market tokenization platform, targeting $500 million in tokenized holdings, with @l2iterative joining as founding partner!! 🎉 Read more ↓",
+    "link": "https://x.com/NewtonLabs/status/2110369166066901293#",
+    "score": 50,
+    "snippet": "Today we are excited to announce our private-market tokenization platform, targeting $500 million in tokenized holdings, with @l2iterative joining as founding partner!! 🎉 Read more ↓",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:newtonlabs",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T13:56:33.003000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "NEWT"
     ]
   },
   {
@@ -448,6 +680,33 @@
     "coins": []
   },
   {
+    "id": "8c8ea4ccc4fae2ea85c47e019f9db8519601259f",
+    "title": "Wells Fargo Joins 20-Bank Stablecoin Consortium Targeting 2027 Launch - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOHZZellpVmotYXNSN1pqQmdBRVlxY2pPZ1hsTjJYTEJhSmtEWE9KT1F0WE1VLVYzZUxVeDNxZ3pIY05OTzZLeGQ3R1lOY1V2TDVPUU1PSnZhNEE2UVJDLVo0NFEzNU1xLTBwMjl4TXNIUk5GM1ZTUXdwWWdMNXhZNW84YmxneERDNFBPZFpsRnFodGZxQlE4RmJuRkJRZklnNkRlRXpn?oc=5",
+    "score": 49,
+    "snippet": "Wells Fargo Joins 20-Bank Stablecoin Consortium Targeting 2027 Launch KuCoin",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T07:05:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "568d2bafcb26804a62a6ef2d5637526929b5516e",
     "title": "Standard Chartered unveils first-of-its-kind cryptocurrency trading solution for affluent clients - www.sc.com",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNWw2VEo1cjBUOXBtM3hfWHVYc2xPR0ZTejlRdkdraml6dFpVMzFHcHdCNXpDTEE2QWZkendPT1RsY2VTTVJhX0x3RlJNeGMyd2dKYzZmWnFJeVc5LWM3ZVNWR3RNR0RoOTJTZENsRHBEMWJKSnJYSWNsZlJJS1RlY0dLcmstWHJxcGt4MEszTFYzT0lKczV5aDdvNm1USFdRN2xabW1RemdZRENKeWlab2hxZUhmazNpSE0yQnFEQ0VTUW92ZWdmOWxTeGhmNms?oc=5",
@@ -474,23 +733,48 @@
     "coins": []
   },
   {
-    "id": "e3b6727c6cbcc8adc2cea487bfb417785220823a",
-    "title": "https://t.co/8QHHVS2BNQ",
-    "link": "https://x.com/realDonaldTrump/status/2110243256998985775",
-    "score": 44,
-    "snippet": "https://t.co/8QHHVS2BNQ",
-    "regions": [
-      "US"
+    "id": "1201e6bca68332366855f4d7142cbe55335603ad",
+    "title": "Hecto Launches Private Markets on Canton with $NEOPRIME, the First Tokenized Pre-IPO Exposure Token - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZ1haTTZrbXJ6VTBoYWhIRU1WdmZIOTkzTGFkbWNMLTQ4M2hYNmM5WGg0d2p5NGIyam5qdXhpTUxZcnlSS3YzbERTRnZ6N1dPcEQwc3NtNkNlRXRsR2VSNWhIQzdxek1pZktfRmtHQVIwazAzVS1ZZE52N0dvX0hNRXk2UldmZUJKd3FzUkljMTBDdTFMRTlIYVFYUlVvQUdrWHE4N0dOZ2JpNzJ2QkdoUUJFdzhia3ZVSi1waTNfb0NXcFFXSFJKOFFaVHJkS29GNzBNd2tOdmVWUVFUZDJ2TWdQQUVMdGVOaTVPSnBwcEpMLWNIWnc?oc=5",
+    "score": 45,
+    "snippet": "Hecto Launches Private Markets on Canton with $NEOPRIME, the First Tokenized Pre-IPO Exposure Token StreetInsider",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
-    "primary_region": "US",
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T15:27:55+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "1dbeffb7079a70fca80130c1184216004e51a57a",
+    "title": "Spot Trading Tournament Season 5: Trade to Share Up to 400 BNB Token Vouchers",
+    "link": "https://www.treeofalpha.com/preview_article?id=1791968403112",
+    "score": 44,
+    "snippet": "Spot Trading Tournament Season 5: Trade to Share Up to 400 BNB Token Vouchers",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:realdonaldtrump",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T05:36:13.728000+00:00",
+    "feed_name": "tree:binance en",
+    "source": "TreeOfAlpha/Binance EN",
+    "published_at": "2026-10-14T09:00:04.390000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -498,34 +782,62 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "TRUMP"
+      "BNB"
     ]
   },
   {
-    "id": "cb5e0ce56be7756c863d688a483f322a51fb39be",
-    "title": "Rain Launches a Wallet Strategy, And Thredd Looks to Stablecoin Card Settlement - Digital Transactions",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxON3R5Ui1ieXZ4aE9fN2FKY1R2QXI2aFBZdnI3enczY0dBT2l0MlB5QmVsZDVaV3BCQVF3WlV5ZmhZZXlFM3BjWWpaX2ZWeVlpUnFnM0w2TUxPLW11dFRibFBMMlBGdGVQcXpvbW5qQktVQmhvTTZJN2d5c2p2R0pjNzMyRlRsZkNPQjd1RmZxRHp2NmFyTllkYWM4UHN2eG0zaU13Q0dEVFlDMWJqWkpjNjAxTXN2UQ?oc=5",
-    "score": 39,
-    "snippet": "Rain Launches a Wallet Strategy, And Thredd Looks to Stablecoin Card Settlement Digital Transactions",
-    "regions": [],
-    "primary_region": null,
+    "id": "bca914ddb3f5b8f8930d614fd93c217a1486536c",
+    "title": "'It Can Take Years': Coinbase Presses for Bitcoin Quantum Migration to Start Now",
+    "link": "https://decrypt.co/380963/coinbase-bitcoin-quantum-migration-start-now",
+    "score": 40,
+    "snippet": "In a detailed technical post, the exchange argued Bitcoin’s multi-year migration to quantum-resistant cryptography must begin before any “Q-Day,” laying out requirements spanning block space, custody and dormant coins.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
+    "source_tier": "B",
+    "consensus": 3,
     "financial": 0,
+    "matched_topics": [],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T16:15:19+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "4541c88cc8369c16203aae79e89beb6506a4a09c",
+    "title": "AI agents make 138 million crypto payments as U.S. dominates spending on AI models",
+    "link": "https://www.coindesk.com/business/2026/10/14/ai-agents-make-138-million-crypto-payments-as-u-s-dominates-spending-on-ai-models",
+    "score": 40,
+    "snippet": "",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 30,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "coindesk",
     "source": "Google News RSS",
-    "published_at": "2026-10-13T14:59:03+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
+    "published_at": "2026-10-14T15:35:36+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
     "coins": []
   }
 ]
