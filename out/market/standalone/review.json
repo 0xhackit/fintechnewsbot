@@ -1,9 +1,65 @@
 [
   {
+    "id": "42fdee2ecb6b715e907b75ae483a775eac2b3c17",
+    "title": "Evernorth to Begin Deploying from 473 Million XRP Treasury with Ripple, Kraken, Coinbase and BitGo",
+    "link": "https://view.tree.news/stories/oRGeScReTzCFkLa3qRDVUg",
+    "score": 90,
+    "snippet": "Evernorth to Begin Deploying from 473 Million XRP Treasury with Ripple, Kraken, Coinbase and BitGo",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:gnw",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-14T12:00:42.613000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('deploy')",
+    "matched": "deploy",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "747bb6b5e847968ad68b89c7c8764a8c487afea1",
+    "title": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
+    "link": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 84,
+    "snippet": "Tokenized equities have reached nearly $3.3 billion in value as investors embrace round-the-clock access beyond Wall Street hours.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-13T19:48:06+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "baef661787fc4d4a6eac21b96d72ebcec460356a",
     "title": "THE BLOCK: Solana's upcoming consensus upgrade, Alpenglow, is scheduled to launch on mainnet on Oct. 21. It aims to slash the network's block finality from 12.8 seconds to 150 milliseconds. $WSOL",
     "link": "https://x.com/TheBlockCo/status/2110230534223982896",
-    "score": 90,
+    "score": 84,
     "snippet": "THE BLOCK: Solana's upcoming consensus upgrade, Alpenglow, is scheduled to launch on mainnet on Oct. 21. It aims to slash the network's block finality from 12.8 seconds to 150 milliseconds. $WSOL",
     "regions": [
       "US"
@@ -28,34 +84,6 @@
     "coins": [
       "SOL"
     ]
-  },
-  {
-    "id": "747bb6b5e847968ad68b89c7c8764a8c487afea1",
-    "title": "Most tokenized stock trading on Solana, BNB Chain occurs outside US market hours",
-    "link": "https://cointelegraph.com/news/tokenized-stocks-after-hours-trading-solana-bnb-chain?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 84,
-    "snippet": "Tokenized equities have reached nearly $3.3 billion in value as investors embrace round-the-clock access beyond Wall Street hours.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-10-13T19:48:06+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
   },
   {
     "id": "1d12799ea081d5b2604dddf77d77aa0feccd8e9b",
@@ -83,6 +111,34 @@
       "JTO",
       "SOL",
       "FLOW"
+    ]
+  },
+  {
+    "id": "b7f0c0aa873bda09b920283727ba8dabfc1aea54",
+    "title": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503?utm_source=twi",
+    "link": "https://x.com/TheBlockCo/status/2110339877816434982#",
+    "score": 80,
+    "snippet": "Evernorth taps Ripple, Kraken, Coinbase and BitGo to put $648 million XRP treasury to work https://www.theblock.co/news/deals/2026-10-14-evernorth-taps-ripple-kraken-coinbase-bitgo-xrp-treasury-work-418503?utm_source=twitter&utm_medium=social",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T12:00:10.099000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('taps')",
+    "matched": "taps",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP"
     ]
   },
   {
@@ -114,40 +170,10 @@
     ]
   },
   {
-    "id": "7a7146f0a234baa5086d7039cf94d0bd9166cab0",
-    "title": "THE BLOCK: Standard Chartered has launched a crypto trading solution for affluent clients in the UAE. This lets them buy and sell bitcoin $BTC and ether $ETH directly through existing bank accounts. The bank said it will",
-    "link": "https://x.com/TheBlockCo/status/2110250402255937649",
-    "score": 75,
-    "snippet": "THE BLOCK: Standard Chartered has launched a crypto trading solution for affluent clients in the UAE. This lets them buy and sell bitcoin $BTC and ether $ETH directly through existing bank accounts. The bank said it will handle end-to-end custody and settlement in a closed-loop model, reducing expos",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-14T06:04:37.642000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH"
-    ]
-  },
-  {
     "id": "a4402ad252c9b55cefc3380e912a9dbc1dd916a4",
     "title": "The Zanzibar Hard Fork is getting full ecosystem backing. 🏗️ @binance has officially announced their support for the IoTeX network upgrade on Oct 19. A brief pause on $IOTX deposits/withdrawals will occur at 01:00 UTC fo",
     "link": "https://x.com/iotex_io/status/2110202531083411574#",
-    "score": 75,
+    "score": 69,
     "snippet": "The Zanzibar Hard Fork is getting full ecosystem backing. 🏗️ @binance has officially announced their support for the IoTeX network upgrade on Oct 19. A brief pause on $IOTX deposits/withdrawals will occur at 01:00 UTC for a safe and smooth upgrade. Details below: https://www.binance.com/en/support/a",
     "regions": [],
     "primary_region": null,
@@ -172,62 +198,177 @@
     ]
   },
   {
-    "id": "00347696ce466d53b185f15bc0f968e2577ce082",
-    "title": "EU Council wants only significant crypto firms supervised by ESMA",
-    "link": "https://www.ledgerinsights.com/eu-council-wants-only-significant-crypto-firms-supervised-by-esma/",
-    "score": 74,
-    "snippet": "Under a regulatory package released last December, the European Commission proposed that all MiCA regulated crypto asset service providers (CASPs) be supervised directly by ESMA, the EU securities regulator, rather than national authorities. EU finance ministers have watered down that proposal and i",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "B",
+    "id": "e636bfd223482d921f8a54d5cfbc8f74d1c38154",
+    "title": "THE BLOCK: BNY said a tokenized two-year U.S. Treasury note settled within minutes on its private digital ledger before Citadel Securities used it as collateral in an overnight repo. The transaction settled faster than t",
+    "link": "https://x.com/TheBlockCo/status/2110308662573244602#",
+    "score": 60,
+    "snippet": "THE BLOCK: BNY said a tokenized two-year U.S. Treasury note settled within minutes on its private digital ledger before Citadel Securities used it as collateral in an overnight repo. The transaction settled faster than the standard T+1 cycle and marked the first use of tokenized assets on a major tr",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "ledger_insights",
-    "source": "Google News RSS",
-    "published_at": "2026-10-13T10:57:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T09:56:07.890000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settled')",
+    "matched": "settled",
     "fulltext": true,
-    "origin": "rss",
+    "origin": "tree",
     "coins": []
   },
   {
-    "id": "1857711f013d214c026f98fbe7bde63f08b3046d",
-    "title": "Solana’s Alpenglow Upgrade Scheduled for October 21, Targets Finality Cut from 12.8 Seconds to 150ms Solana core developer Anza announced that the Alpenglow consensus upgrade is scheduled to go live on Solana mainnet-bet",
-    "link": "https://x.com/WuBlockchain/status/2110069200610042338#",
-    "score": 64,
-    "snippet": "Solana’s Alpenglow Upgrade Scheduled for October 21, Targets Finality Cut from 12.8 Seconds to 150ms Solana core developer Anza announced that the Alpenglow consensus upgrade is scheduled to go live on Solana mainnet-beta on October 21 at approximately 14:50 UTC. The upgrade will replace the existin",
+    "id": "8c8ea4ccc4fae2ea85c47e019f9db8519601259f",
+    "title": "Wells Fargo Joins 20-Bank Stablecoin Consortium Targeting 2027 Launch - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOHZZellpVmotYXNSN1pqQmdBRVlxY2pPZ1hsTjJYTEJhSmtEWE9KT1F0WE1VLVYzZUxVeDNxZ3pIY05OTzZLeGQ3R1lOY1V2TDVPUU1PSnZhNEE2UVJDLVo0NFEzNU1xLTBwMjl4TXNIUk5GM1ZTUXdwWWdMNXhZNW84YmxneERDNFBPZFpsRnFodGZxQlE4RmJuRkJRZklnNkRlRXpn?oc=5",
+    "score": 55,
+    "snippet": "Wells Fargo Joins 20-Bank Stablecoin Consortium Targeting 2027 Launch KuCoin",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-13T18:04:35.838000+00:00",
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T07:05:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('go live')",
-    "matched": "go live",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "f11435f49bebc6df9967b47b025ede02f48df80d",
+    "title": "Standard Chartered launches Bitcoin and Ether trading for wealthy UAE clients - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVHBWY3l1ZjJ1ZklDeHVrRW5hTkZDdk9JQmRlWEs2dDF2UnB2eXdaQjgxLWVrZGszN3hvdG44WklET1JVUEp5WTd2TkM2Q194Y0ZpbW1xUkFDNXpabjNsRjNweDd3ajVfQjFfOFJCcXZhY2FtME53NHRTNkpDb3BRbDhkdVFIOWpUa1ZLMmdnOWZZX1E0YlJGN1lfSVliUWs?oc=5",
+    "score": 55,
+    "snippet": "Standard Chartered launches Bitcoin and Ether trading for wealthy UAE clients Crypto News",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-10-14T06:50:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "ab6cf4aabdd4173e46c5d776bacd3bb51a87a4c1",
+    "title": "LATEST: @Krakenfx parent @Payward agrees to acquire Saldo Bank in Lithuania, set to become the first digital asset company to buy a bank in Europe, with plans to combine cash, crypto, tokenized stocks and credit in a sin",
+    "link": "https://x.com/CoinDesk/status/2110340038944846202#",
+    "score": 55,
+    "snippet": "LATEST: @Krakenfx parent @Payward agrees to acquire Saldo Bank in Lithuania, set to become the first digital asset company to buy a bank in Europe, with plans to combine cash, crypto, tokenized stocks and credit in a single platform, per the FT.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T12:00:48.568000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('to buy')",
+    "matched": "to buy",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "fe352abc86d144b86cef83cbdd17b47987d99828",
+    "title": "JUST IN: @Ripple partners with South Korea’s Meritz Securities to explore digital asset custody and tokenization for Korean capital markets, its fourth institutional partnership in South Korea in 2026.",
+    "link": "https://x.com/CoinDesk/status/2110325001102520791",
+    "score": 55,
+    "snippet": "JUST IN: @Ripple partners with South Korea’s Meritz Securities to explore digital asset custody and tokenization for Korean capital markets, its fourth institutional partnership in South Korea in 2026.",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T11:01:03.132000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "SOL"
+      "XRP"
+    ]
+  },
+  {
+    "id": "d66cae5ef81ee6153706f2a575ab13cf250c08d0",
+    "title": "THE BLOCK: StarkWare launches Shadow Accounts on Starknet, a new feature that lets apps offer a public-to-private mode. The STRK20 privacy feature gives users a persistent pseudonymous identity for each app, without publ",
+    "link": "https://x.com/TheBlockCo/status/2110276981489320001#",
+    "score": 55,
+    "snippet": "THE BLOCK: StarkWare launches Shadow Accounts on Starknet, a new feature that lets apps offer a public-to-private mode. The STRK20 privacy feature gives users a persistent pseudonymous identity for each app, without publicly linking their activity to their main wallet.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T07:50:14.509000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "STRK"
     ]
   },
   {
     "id": "01a9e0b4532e1c7c12006715c8ad1fb06433f966",
     "title": "U.S. Bitcoin ETFs Draw $176 Million, Ether ETFs Add $24.8 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $176 million in net inflows on October 13, led by Fidelity's FBTC with $103 million. Spot Ethereum",
     "link": "https://x.com/WuBlockchain/status/2110247352384757972#",
-    "score": 60,
+    "score": 54,
     "snippet": "U.S. Bitcoin ETFs Draw $176 Million, Ether ETFs Add $24.8 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $176 million in net inflows on October 13, led by Fidelity's FBTC with $103 million. Spot Ethereum ETFs attracted $24.84 million, with Grayscale's Ethereum Mini Trust (ETH) leadi",
     "regions": [
       "US"
@@ -253,24 +394,21 @@
     ]
   },
   {
-    "id": "e31e49a2fad5c7963e3ec4bf11924f3bc5500c4f",
-    "title": "Ruling boosts chances of UK keeping $5 bn bitcoin haul",
-    "link": "https://view.tree.news/stories/peWrmTtJQ8ue3qCid1PWww",
-    "score": 59,
-    "snippet": "Ruling boosts chances of UK keeping $5 bn bitcoin haul",
-    "regions": [
-      "EU",
-      "APAC"
-    ],
-    "primary_region": "EU",
-    "category": "regulation",
+    "id": "1dbeffb7079a70fca80130c1184216004e51a57a",
+    "title": "Spot Trading Tournament Season 5: Trade to Share Up to 400 BNB Token Vouchers",
+    "link": "https://www.treeofalpha.com/preview_article?id=1791968403112",
+    "score": 50,
+    "snippet": "Spot Trading Tournament Season 5: Trade to Share Up to 400 BNB Token Vouchers",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:afp",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-13T17:56:43.167000+00:00",
+    "feed_name": "tree:binance en",
+    "source": "TreeOfAlpha/Binance EN",
+    "published_at": "2026-10-14T09:00:04.390000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -278,14 +416,42 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "BNB"
     ]
+  },
+  {
+    "id": "e1a799b455f89d734e538c8b36d233a2d53e85e9",
+    "title": "SCOOP: The Philippines’ largest crypto exchange @coinsph faces potential license revocation from the central bank over alleged ties to offshore gambling firms, putting its 18M customers and 75-80% of peso-to-stablecoin l",
+    "link": "https://x.com/CoinDesk/status/2110279480753147999",
+    "score": 50,
+    "snippet": "SCOOP: The Philippines’ largest crypto exchange @coinsph faces potential license revocation from the central bank over alleged ties to offshore gambling firms, putting its 18M customers and 75-80% of peso-to-stablecoin liquidity at risk. @ianallison123 reports.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-14T08:00:10.134000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('license')",
+    "matched": "license",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "568d2bafcb26804a62a6ef2d5637526929b5516e",
     "title": "Standard Chartered unveils first-of-its-kind cryptocurrency trading solution for affluent clients - www.sc.com",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNWw2VEo1cjBUOXBtM3hfWHVYc2xPR0ZTejlRdkdraml6dFpVMzFHcHdCNXpDTEE2QWZkendPT1RsY2VTTVJhX0x3RlJNeGMyd2dKYzZmWnFJeVc5LWM3ZVNWR3RNR0RoOTJTZENsRHBEMWJKSnJYSWNsZlJJS1RlY0dLcmstWHJxcGt4MEszTFYzT0lKczV5aDdvNm1USFdRN2xabW1RemdZRENKeWlab2hxZUhmazNpSE0yQnFEQ0VTUW92ZWdmOWxTeGhmNms?oc=5",
-    "score": 55,
+    "score": 49,
     "snippet": "Standard Chartered unveils first-of-its-kind cryptocurrency trading solution for affluent clients www.sc.com",
     "regions": [],
     "primary_region": null,
@@ -308,73 +474,10 @@
     "coins": []
   },
   {
-    "id": "50fa5b41eb9e1892c7ba128bc108d3d294cd4fe3",
-    "title": "Introducing: Shadow Accounts. Shadow Accounts let you interact with public DeFi through a separate address you control, while the link to your main wallet stays confidential. The first integration launches tomorrow.",
-    "link": "https://x.com/Starknet/status/2110049330430411198",
-    "score": 54,
-    "snippet": "Introducing: Shadow Accounts. Shadow Accounts let you interact with public DeFi through a separate address you control, while the link to your main wallet stays confidential. The first integration launches tomorrow.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:starknet",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-13T16:45:38.185000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "STRK"
-    ]
-  },
-  {
-    "id": "77fa36bae4e306595d88f971243aa208380acc55",
-    "title": "Injective's enterprise adoption is accelerating ike never before. Gulf Labs, part of Thailand's $27 billion GULF Group, is now live as an institutional validator on Injective. Over time, Gulf Labs and Injective will work",
-    "link": "https://x.com/injective/status/2110035001127440812#",
-    "score": 54,
-    "snippet": "Injective's enterprise adoption is accelerating ike never before. Gulf Labs, part of Thailand's $27 billion GULF Group, is now live as an institutional validator on Injective. Over time, Gulf Labs and Injective will work together across tokenization, stablecoins, enterprise distribution, education a",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:injective",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-13T15:48:41.863000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('now live')",
-    "matched": "now live",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "INJ",
-      "MMT",
-      "BNB",
-      "CAP"
-    ]
-  },
-  {
     "id": "e3b6727c6cbcc8adc2cea487bfb417785220823a",
     "title": "https://t.co/8QHHVS2BNQ",
     "link": "https://x.com/realDonaldTrump/status/2110243256998985775",
-    "score": 50,
+    "score": 44,
     "snippet": "https://t.co/8QHHVS2BNQ",
     "regions": [
       "US"
