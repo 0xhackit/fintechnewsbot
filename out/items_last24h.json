@@ -1,5 +1,53 @@
 [
   {
+    "id": "25379e599fdf88582eb3d0b8da9799ccb19208c4ea21000b9e33707b4839e987",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Mastercard and BVNK Launch 'Global Money Platform' to Merge Fiat and Stablecoins",
+    "url": "https://decrypt.co/381057/mastercard-bvnk-global-money-platform-fiat-stablecoins",
+    "canonical_url": "https://decrypt.co/381057/mastercard-bvnk-global-money-platform-fiat-stablecoins",
+    "snippet": "The first major integration since Mastercard’s $1.8 billion BVNK acquisition lets banks, fintechs and enterprises hold, convert, and spend fiat and stablecoins through a single API, with agentic commerce support planned.",
+    "published_at": "2026-10-15T16:28:50+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
+    "matched_keywords": [
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=381057",
+      "guidislink": false
+    },
+    "score": 120,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 20,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "374a75dfb60bb27a904ccddd5779fb4e629bfe40de353fd4c2603caeb16596df",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -10,7 +58,7 @@
     "snippet": "The launch of Global Money Platform marks Mastercard’s first major integration with BVNK since its August acquisition, with Nuvei and Marqeta among the first companies to adopt the platform.",
     "published_at": "2026-10-15T15:46:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -49,40 +97,85 @@
     ]
   },
   {
-    "id": "9da39b416e023a6cff77bcb0d42f960230efe7382f396e42487b7d29f259be7a",
+    "id": "b9639eef704d0468f260524b573dd8fcdd6f3cc0f6df24169e3937123abbe00f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Ripple adds support for institutions to access RWA perpetual swaps",
-    "url": "https://www.finextra.com/pressarticle/111292/ripple-adds-support-for-institutions-to-access-rwa-perpetual-swaps?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/111292/ripple-adds-support-for-institutions-to-access-rwa-perpetual-swaps",
-    "snippet": "Ripple, a leading provider of blockchain solutions across traditional and digital finance, today announced that Ripple Prime has launched support for real-world asset (RWA) perpetual swaps. Institutional clients including Virtu are now trading RWA swaps with respect to more than 100 reference market",
-    "published_at": "2026-10-15T14:36:00+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Sweden revisits digital krona as ECB advances digital euro plans",
+    "url": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation",
+    "snippet": "Sweden’s Riksbank has recommended that lawmakers prepare for a possible digital krona, citing concerns over foreign-currency stablecoins and the future of domestic payments.",
+    "published_at": "2026-10-15T16:49:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "RWA",
-      "launched"
-    ],
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.finextra.com/pressarticle/111292/ripple-adds-support-for-institutions-to-access-rwa-perpetual-swaps?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation",
+      "guidislink": true
     },
     "score": 80,
     "score_breakdown": {
-      "tier1": 3,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 10,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "66fb754e45763f96854eaedb98ad1cf6095e8aca9539a7555001e6eba23fc25c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Visa takes stablecoin-powered money movement from pilots to production",
+    "url": "https://www.finextra.com/pressarticle/111303/visa-takes-stablecoin-powered-money-movement-from-pilots-to-production?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/111303/visa-takes-stablecoin-powered-money-movement-from-pilots-to-production",
+    "snippet": "Today, Visa (NYSE: V) announced the next phase of its stablecoin strategy as Visa Direct stablecoin capabilities advance from pilot stage to commercial deployment.",
+    "published_at": "2026-10-15T16:30:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "pilot"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/111303/visa-takes-stablecoin-powered-money-movement-from-pilots-to-production?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 50,
+      "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -108,7 +201,7 @@
     "snippet": "Multiliquid has raised $8 million across its pre-seed and seed rounds, with Polychain leading the seed round.",
     "published_at": "2026-10-15T16:00:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "settlement",
       "tokenized"
@@ -157,7 +250,7 @@
     "snippet": "Mastercard has launched a platform that brings together its global payments capabilities with the stablecoin infrastructure of its recently acquired BVNK unit through a single API.",
     "published_at": "2026-10-15T15:17:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -205,9 +298,9 @@
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJkY25YRkJKbnRTR2VFck1zVk10NUFZdl8tODBvRDloUmI5OEpheDRlRnViT3NfWGlkOTI4akt2RVd3NXhPYl90Rlh0LUtLQVVxQlhxWnlXWVlnM3FIZVVFZktVam5xR01vb000TDYxTlR5S01VM0hPZWVpMlZFSHhmc1ZDNngtUHh3WmhJQURwYmJZQ3p4X1l5YXU2Tmw1cGVPQ3hZd1FScUxSWVY1YkhYNA?oc=5",
     "canonical_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJkY25YRkJKbnRTR2VFck1zVk10NUFZdl8tODBvRDloUmI5OEpheDRlRnViT3NfWGlkOTI4akt2RVd3NXhPYl90Rlh0LUtLQVVxQlhxWnlXWVlnM3FIZVVFZktVam5xR01vb000TDYxTlR5S01VM0hPZWVpMlZFSHhmc1ZDNngtUHh3WmhJQURwYmJZQ3p4X1l5YXU2Tmw1cGVPQ3hZd1FScUxSWVY1YkhYNA?oc=5",
     "snippet": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform CU Today",
-    "published_at": "2026-10-15T12:23:16+00:00",
+    "published_at": "2026-10-15T12:42:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -220,14 +313,14 @@
       "id": "CBMiswFBVV95cUxNUFJkY25YRkJKbnRTR2VFck1zVk10NUFZdl8tODBvRDloUmI5OEpheDRlRnViT3NfWGlkOTI4akt2RVd3NXhPYl90Rlh0LUtLQVVxQlhxWnlXWVlnM3FIZVVFZktVam5xR01vb000TDYxTlR5S01VM0hPZWVpMlZFSHhmc1ZDNngtUHh3WmhJQURwYmJZQ3p4X1l5YXU2Tmw1cGVPQ3hZd1FScUxSWVY1YkhYNA",
       "guidislink": false
     },
-    "score": 55,
+    "score": 49,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 20,
@@ -256,7 +349,7 @@
     "snippet": "Mastercard, BVNK launch Global Money Platform bringing together fiat and stablecoin capabilities FX News Group",
     "published_at": "2026-10-15T10:09:16+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -295,54 +388,6 @@
     ]
   },
   {
-    "id": "476bca8655ad228313971b868890e4216b4a31f597db9486382f5cb796943ab4",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Russia's Biggest Bank Sberbank Wins Approval to Trade Bitcoin",
-    "url": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin",
-    "canonical_url": "https://decrypt.co/380981/sberbank-russia-bank-trade-crypto-bitcoin",
-    "snippet": "Sberbank now holds both custody and exchange status under Russia's new crypto law, and plans to bring Bitcoin, Ethereum and USDT to apps used by 110 million retail clients.",
-    "published_at": "2026-10-14T19:46:03+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "USDT",
-      "custody"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=380981",
-      "guidislink": false
-    },
-    "score": 49,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 30,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "2a9074d0f4562a249fb16604112318b1965d2b155504b9571deffcb5f341b28c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -353,7 +398,7 @@
     "snippet": "Cross River Bank (“Cross River”), a leading technology infrastructure platform powering embedded financial solutions serving as the trust anchor for global banking and money movement, today announced it is partnering with Ripple, the leading provider of blockchain solutions across traditional and di",
     "published_at": "2026-10-15T15:57:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -400,7 +445,7 @@
     "snippet": "A new Chainalysis report found payments through Coinbase’s x402 protocol surged from about 1,500 in mid-2025 to more than 138 million by Q3 2026, with U.S. wallets dominating spending on AI models.",
     "published_at": "2026-10-14T20:16:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "crypto payments"
     ],
@@ -437,6 +482,54 @@
     ]
   },
   {
+    "id": "4c9fecedd0a32cb126cb2f09493baf0c06d0d57ef2dc28e82628e128b4e61086",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Pantera Capital-backed startup Fission raises $10 million to help investors cash out of tokenized funds faster - Fortune",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFBuNVFwWGxsZUQxY25FbUpjMzNFSkNEc2xRcEJsWnBfQ1Z2bzVHQUptLTBwYnU0b2gwSEdSTUd1TlFycFRxVkNFcUtZUmVKakI1Zy10bjRCXzdMVWlweE9yaUROZ0hiRVpOMXBEN0J1X0tHSi0wZUZxUnRLWXlvWjE3Q2gyLUxXbGJZakRWbTJUMEFQYVZFWl9HazJjbEplb1lKbzlxR050dmRzbkE1TDR3Rl9OckZK?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFBuNVFwWGxsZUQxY25FbUpjMzNFSkNEc2xRcEJsWnBfQ1Z2bzVHQUptLTBwYnU0b2gwSEdSTUd1TlFycFRxVkNFcUtZUmVKakI1Zy10bjRCXzdMVWlweE9yaUROZ0hiRVpOMXBEN0J1X0tHSi0wZUZxUnRLWXlvWjE3Q2gyLUxXbGJZakRWbTJUMEFQYVZFWl9HazJjbEplb1lKbzlxR050dmRzbkE1TDR3Rl9OckZK?oc=5",
+    "snippet": "Pantera Capital-backed startup Fission raises $10 million to help investors cash out of tokenized funds faster Fortune",
+    "published_at": "2026-10-15T11:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
+    "matched_keywords": [
+      "tokenized fund",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMiuAFBVV95cUxQNFBuNVFwWGxsZUQxY25FbUpjMzNFSkNEc2xRcEJsWnBfQ1Z2bzVHQUptLTBwYnU0b2gwSEdSTUd1TlFycFRxVkNFcUtZUmVKakI1Zy10bjRCXzdMVWlweE9yaUROZ0hiRVpOMXBEN0J1X0tHSi0wZUZxUnRLWXlvWjE3Q2gyLUxXbGJZakRWbTJUMEFQYVZFWl9HazJjbEplb1lKbzlxR050dmRzbkE1TDR3Rl9OckZK",
+      "guidislink": false
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "b9e56eb70ddee29c426bacb4e3137a781bc6630e6463245ed677dfc0d7643c70",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -447,7 +540,7 @@
     "snippet": "Hecto Launches Private Markets on Canton with $NEOPRIME, the First Tokenized Pre-IPO Exposure Token Benzinga",
     "published_at": "2026-10-14T20:14:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "tokenized",
       "launches",
@@ -497,7 +590,7 @@
     "snippet": "Cliq, an innovator in financial technologies that provides merchant services, ACH and alternative payment processing, crypto and stablecoin solutions, and debit and prepaid card solutions for businesses, today announced a multi-year agreement to become a third-party payment processor (TPPP) for Vast",
     "published_at": "2026-10-15T15:55:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -545,7 +638,7 @@
     "snippet": "",
     "published_at": "2026-10-15T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "unveils"
     ],
@@ -563,7 +656,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -592,7 +685,7 @@
     "snippet": "Qivalis inches closer to stablecoin launch with EMI authorisation FinTech Futures",
     "published_at": "2026-10-15T08:38:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -641,7 +734,7 @@
     "snippet": "Ripple Prime has added RWA perpetual swaps tied to equities, ETFs, metals, energy and currencies, with 24/7 trading and settlement.",
     "published_at": "2026-10-15T14:43:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "settlement",
       "RWA"
@@ -680,54 +773,6 @@
     ]
   },
   {
-    "id": "f5b61f8c95cfe7587c31cb8fc7ccb8892abc3dd824d0e4fc3955c30d53f4401d",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "EBA designates Circle’s USDC as the EU’s first ‘significant’ e-money token",
-    "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
-    "canonical_url": "https://theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
-    "snippet": "The EBA classified Circle’s USDC as the EU’s first \"significant\" e-money token, with new supervisory responsibilities beginning Nov. 12.",
-    "published_at": "2026-10-15T11:10:07+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "8f850906-83f4-55ef-a494-c558bb2a0b00",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "f3d66ac28eacfcb6cfcb2e48b4a570572ec5812f72dbb16331449ce3cf5a03b5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -738,7 +783,7 @@
     "snippet": "Russia plans to ban direct P2P crypto trades from July 1, 2027, while separate rules already prohibit transfers from digital accounts to self-custody wallets.",
     "published_at": "2026-10-15T14:22:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -773,40 +818,41 @@
     ]
   },
   {
-    "id": "6119864dd933f6465cab449623f1eed4043b21f88fc3db9d85d592dcbfc3c4ef",
+    "id": "f5b61f8c95cfe7587c31cb8fc7ccb8892abc3dd824d0e4fc3955c30d53f4401d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Ledger’s answer to wallet tampering costs $849 and ships next year",
-    "url": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering",
-    "snippet": "Ledger’s new Atom combines crypto wallet security with everyday apps and is expected to ship in summer 2027 as the company investigates tampered wallets sold in Asia.",
-    "published_at": "2026-10-15T12:00:00+00:00",
+    "feed_name": "theblock",
+    "title": "EBA designates Circle’s USDC as the EU’s first ‘significant’ e-money token",
+    "url": "https://www.theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
+    "canonical_url": "https://theblock.co/news/regulation/2026-10-15-eba-designates-circles-usdc-as-the-eus-first-significant-e-money-token-418637",
+    "snippet": "The EBA classified Circle’s USDC as the EU’s first \"significant\" e-money token, with new supervisory responsibilities beginning Nov. 12.",
+    "published_at": "2026-10-15T11:10:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
-      "crypto wallet"
+      "USDC",
+      "Circle"
     ],
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering",
-      "guidislink": true
+      "id": "8f850906-83f4-55ef-a494-c558bb2a0b00",
+      "guidislink": false
     },
-    "score": 25,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -830,7 +876,7 @@
     "snippet": "EBA to supervise Circle's EU USDC issuer from N... Pluang",
     "published_at": "2026-10-15T07:05:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -879,7 +925,7 @@
     "snippet": "JPMorgan’s Stablecoin Push Shakes Up Stablecoin Payments OneSafe",
     "published_at": "2026-10-15T04:28:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -918,151 +964,6 @@
     ]
   },
   {
-    "id": "2e8e9ca154f236dbd0df90b6919ca0bb5b02e56dc2e451a1252770a6b4e25af3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "EU authority classifies Circle’s USDC as ‘significant’ under MiCA",
-    "url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica",
-    "snippet": "The second-largest stablecoin by market cap will be overseen by French and EU authorities under its classification as a “significant e-money token.“",
-    "published_at": "2026-10-14T19:03:52+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "USDC",
-      "Circle",
-      "MiCA"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/eba-circle-usdc-stablecoin-significant-token-mica",
-      "guidislink": true
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "c2b6a67ac1efb2cf14f6e669e06bf1e768b9f5ad43c7a5a8fa94197d984cb993",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Standard Chartered pushes $2T stablecoin forecast to 2030 as transaction volumes grow",
-    "url": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth",
-    "snippet": "The bank identified four distinct stablecoin markets, with USDC leading payments and AI transactions as competition intensifies over reserve yields.",
-    "published_at": "2026-10-14T16:26:31+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "USDC"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/standard-chartered-stablecoin-forecast-2030-market-growth",
-      "guidislink": true
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -10,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "901bb9c88cbf12ecc81275d9de070646c14347854d7fa3f9a4965653408a5cf3",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Cross River Adds Ripple USD Stablecoin to Power 24/7 Global Money Transfers",
-    "url": "https://www.pymnts.com/news/banking/2026/cross-river-adds-ripple-usd-stablecoin-to-power-24-7-global-money-transfers/",
-    "canonical_url": "https://pymnts.com/news/banking/2026/cross-river-adds-ripple-usd-stablecoin-to-power-24-7-global-money-transfers/",
-    "snippet": "Cross River Bank now offers Ripple’s U.S. dollar-backed stablecoin, Ripple USD (RLUSD), through its Core Operating System, Cross River said in a Thursday (Oct. 15) press release. This integration establishes RLUSD as an additional payment rail on Cross River’s platform, in the same environment as tr",
-    "published_at": "2026-10-15T16:06:36+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4315880",
-      "guidislink": false
-    },
-    "score": 20,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "f6a3acefdb75054b58cb18f68205611330c362c666df1687d1012b39b23ffbab",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1073,7 +974,7 @@
     "snippet": "Samsung Wallet Makes USDC the Default Stablecoin for 82 Million Phones Startup Fortune",
     "published_at": "2026-10-15T15:02:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC"
@@ -1111,6 +1012,53 @@
     ]
   },
   {
+    "id": "6119864dd933f6465cab449623f1eed4043b21f88fc3db9d85d592dcbfc3c4ef",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Ledger’s answer to wallet tampering costs $849 and ships next year",
+    "url": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering",
+    "snippet": "Ledger’s new Atom combines crypto wallet security with everyday apps and is expected to ship in summer 2027 as the company investigates tampered wallets sold in Asia.",
+    "published_at": "2026-10-15T12:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
+    "matched_keywords": [
+      "crypto wallet"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/ledger-new-hardware-device-asia-wallet-tampering",
+      "guidislink": true
+    },
+    "score": 19,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "25187dcd742269dbc4699823b6795425b5b296f593d67ce692106955c0584a62",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1121,7 +1069,7 @@
     "snippet": "The consultation follows Parliament’s passage of digital asset legislation in April, with Australia’s securities regulator now proposing capital, custody and trading standards for crypto platforms.",
     "published_at": "2026-10-15T05:00:40+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "custody",
       "rollout"
@@ -1159,55 +1107,6 @@
     ]
   },
   {
-    "id": "fdeff23cba171fbc65e08558f9a58748817972a3d003a48bce6cd9259188d58b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "What Banks Need to Know Before Choosing Tokenized Deposit Infrastructure",
-    "url": "https://www.finextra.com/blogposting/33171/what-banks-need-to-know-before-choosing-tokenized-deposit-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/blogposting/33171/what-banks-need-to-know-before-choosing-tokenized-deposit-infrastructure",
-    "snippet": "Author: A finextra community member",
-    "published_at": "2026-10-15T08:46:22+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
-    "matched_keywords": [
-      "tokenized deposit",
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/blogposting/33171/what-banks-need-to-know-before-choosing-tokenized-deposit-infrastructure?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "9e5b3d89eb0896f7002e7669a81f16f338987646c88556701c901e8cbc867d36",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1218,7 +1117,7 @@
     "snippet": "Building Safe Settlement for the Stablecoin Era Traders Magazine",
     "published_at": "2026-10-15T06:04:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [
       "stablecoin",
       "settlement"
@@ -1266,7 +1165,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-15T16:16:12.799452+00:00",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1274,6 +1173,55 @@
     "raw": {
       "id": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9a444270352a7fdfff8bfb05f85abded18c77ca13223d3f7a6bf8599cf574547",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Ex-Trump crypto adviser profited after helping pass stablecoin bill: WSJ",
+    "url": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict",
+    "snippet": "The Wall Street Journal reported that a company co-founded by Bo Hines benefited from the passage of the GENIUS stablecoin bill.",
+    "published_at": "2026-10-15T17:14:45+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-15T19:55:03.419783+00:00",
+    "matched_keywords": [
+      "stablecoin bill",
+      "stablecoin",
+      "Genius"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/bo-hines-donald-trump-crypto-advisor-nxum-tether-conflict",
+      "guidislink": true
     },
     "score": 10,
     "score_breakdown": {

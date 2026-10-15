@@ -1,9 +1,36 @@
 [
   {
+    "id": "8e35257dc31f1c2bcfaf6ce99f3cb28f771d3498",
+    "title": "Binance US Seeks Up to $100M at $1B Valuation to Expand US Business, Considers Tapping Binance Global Liquidity Bloomberg reported that Binance US is seeking to raise up to $100 million in a private funding round at a ta",
+    "link": "https://x.com/WuBlockchain/status/2110771933105275235#",
+    "score": 110,
+    "snippet": "Binance US Seeks Up to $100M at $1B Valuation to Expand US Business, Considers Tapping Binance Global Liquidity Bloomberg reported that Binance US is seeking to raise up to $100 million in a private funding round at a target valuation of approximately $1 billion to expand its US operations. World Li",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-15T16:37:00.220000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('funding round')",
+    "matched": "funding round",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "WLFI",
+      "BNB"
+    ]
+  },
+  {
     "id": "fc2b57d87f06b69aa900eee92255e4cf870f4a25",
     "title": "THE BLOCK: Binance said its bStocks tokenized equities have surpassed $1 billion in assets under management roughly four months after launching in June. The exchange reported more than $40 billion in cumulative trading v",
     "link": "https://x.com/TheBlockCo/status/2110705288919859227#",
-    "score": 115,
+    "score": 109,
     "snippet": "THE BLOCK: Binance said its bStocks tokenized equities have surpassed $1 billion in assets under management roughly four months after launching in June. The exchange reported more than $40 billion in cumulative trading volume and $6 billion in conversions between stocks and bStocks, with nearly 100 ",
     "regions": [],
     "primary_region": null,
@@ -22,7 +49,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -53,7 +80,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integration')",
     "matched": "integration",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "RLUSD",
@@ -63,33 +90,85 @@
     ]
   },
   {
-    "id": "337e69e0ae624ab48edd36d3f78f6f5760ec9e39",
-    "title": "NEW: The SEC approves binary options on company KPIs for @Coinbase, @MARA and @RobinhoodApp, letting investors bet on metrics like trading volume, $BTC mined and revenue rather than stock prices.",
-    "link": "https://x.com/CoinDesk/status/2110645297009279484",
-    "score": 84,
-    "snippet": "NEW: The SEC approves binary options on company KPIs for @Coinbase, @MARA and @RobinhoodApp, letting investors bet on metrics like trading volume, $BTC mined and revenue rather than stock prices.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "7d39b42b9e9259dc598f381eccb11fed09d6ccba",
+    "title": "NEW: Binance․US is reportedly seeking to raise $100 million to expand its U.S. crypto business, according to Bloomberg. The exchange is targeting a valuation of approximately $1 billion, down from $4.5 billion in 2022.",
+    "link": "https://x.com/CoinDesk/status/2110791447943471529",
+    "score": 85,
+    "snippet": "NEW: Binance․US is reportedly seeking to raise $100 million to expand its U.S. crypto business, according to Bloomberg. The exchange is targeting a valuation of approximately $1 billion, down from $4.5 billion in 2022.",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [],
     "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T08:13:47.684000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approves')",
-    "matched": "approves",
-    "fulltext": true,
+    "published_at": "2026-10-15T17:54:32.864000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "MARA"
+      "BNB"
     ]
+  },
+  {
+    "id": "b7619b29a04be53f743251f5ca38dda2e84507df",
+    "title": "NEW: Binance US is seeking to raise as much as $100 million at a valuation of about $1 billion, Bloomberg reported, citing a person familiar with the matter. World Liberty Financial was made aware of the fundraise but is",
+    "link": "https://x.com/TheBlockCo/status/2110771470641320380#",
+    "score": 85,
+    "snippet": "NEW: Binance US is seeking to raise as much as $100 million at a valuation of about $1 billion, Bloomberg reported, citing a person familiar with the matter. World Liberty Financial was made aware of the fundraise but is not participating, according to the report. Binance US previously raised more t",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-15T16:35:09.930000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "WLFI",
+      "BNB"
+    ]
+  },
+  {
+    "id": "6a1e135eec45d775d8c4129afcfa4d5612c515a8",
+    "title": "Sweden revisits digital krona as ECB advances digital euro plans",
+    "link": "https://cointelegraph.com/news/sweden-riksbank-digital-krona-cbdc-legislation?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 80,
+    "snippet": "Sweden’s Riksbank has recommended that lawmakers prepare for a possible digital krona, citing concerns over foreign-currency stablecoins and the future of domestic payments.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-15T16:49:59+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "f1e6bf44f563701c7d898a6b2b2906919fac7625",
@@ -114,7 +193,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('raises $8 million')",
     "matched": "raises $8 million",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
   },
@@ -138,7 +217,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('go live')",
     "matched": "go live",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -168,68 +247,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "OG"
     ]
   },
   {
-    "id": "aaeb8364475fb6d76e0f98c59fb6a75dbe95281b",
-    "title": "Just In: Former Binance Futures Head's Perp DEX StandX to Shut Down, Scrap Token Launch StandX, a decentralized perpetual futures exchange founded by former Binance Futures head Aaron Gong and other industry veterans, an",
-    "link": "https://x.com/WuBlockchain/status/2110626355230425276",
-    "score": 74,
-    "snippet": "Just In: Former Binance Futures Head's Perp DEX StandX to Shut Down, Scrap Token Launch StandX, a decentralized perpetual futures exchange founded by former Binance Futures head Aaron Gong and other industry veterans, announced it will shut down operations and abandon plans to launch a platform toke",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T06:58:31.712000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "10cd0946ca3e2a163034b583b67584517df75573",
-    "title": "Binance's bStocks Become the Fastest Tokenized Equity Product to Surpass $1 Billion in Assets Under Management",
-    "link": "https://www.prnewswire.com/news-releases/binances-bstocks-become-the-fastest-tokenized-equity-product-to-surpass-1-billion-in-assets-under-management-302909925.html",
+    "id": "fa94e54624edf72f0d2644f62cd8ee5681364f0e",
+    "title": "Tokenization Briefing: 10 Trillion Dollar Tokenization Market?",
+    "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-10-15-10-trillion-dollar-tokenization-market-418491",
     "score": 70,
-    "snippet": "Binance's bStocks Become the Fastest Tokenized Equity Product to Surpass $1 Billion in Assets Under Management",
+    "snippet": "Tokenization Briefing: 10 Trillion Dollar Tokenization Market?",
     "regions": [],
     "primary_region": null,
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 40,
+    "financial": 50,
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
-    "feed_name": "tree:prn",
+    "feed_name": "tree:the block",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-15T11:15:03.242000+00:00",
+    "published_at": "2026-10-15T17:15:50.457000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
     "origin": "tree",
-    "coins": [
-      "TST",
-      "BNB"
-    ]
+    "coins": []
   },
   {
     "id": "5684b3b98f3336c45d713bde50fb971cdc7a0540",
@@ -255,92 +303,30 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "KAVA"
     ]
   },
   {
-    "id": "8105e397dbbfe727d14371e41386448e7b8ccdac",
-    "title": "http://Four.Meme Product Update | TapeFour Officially Launched Another way to launch Memes: Mining ⛏️ TapeFour is http://Four.Meme's first mining-token launch model, jointly introduced with TapeOut Protocol (@TapeOutWorl",
-    "link": "https://x.com/fourdotmemezh/status/2110643294002933831#",
+    "id": "10cd0946ca3e2a163034b583b67584517df75573",
+    "title": "Binance's bStocks Become the Fastest Tokenized Equity Product to Surpass $1 Billion in Assets Under Management",
+    "link": "https://www.prnewswire.com/news-releases/binances-bstocks-become-the-fastest-tokenized-equity-product-to-surpass-1-billion-in-assets-under-management-302909925.html",
     "score": 64,
-    "snippet": "http://Four.Meme Product Update | TapeFour Officially Launched Another way to launch Memes: Mining ⛏️ TapeFour is http://Four.Meme's first mining-token launch model, jointly introduced with TapeOut Protocol (@TapeOutWorld) on @BNBChain. It combines TapeOut’s tapeout mining with http://Four.Meme’s bo",
+    "snippet": "Binance's bStocks Become the Fastest Tokenized Equity Product to Surpass $1 Billion in Assets Under Management",
     "regions": [],
     "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:fourdotmemezh",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T08:05:50.330000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "FORM",
-      "BNB",
-      "CAKE",
-      "CRV",
-      "ARC"
-    ]
-  },
-  {
-    "id": "bf8ff1e510ffdcc3fed83708eb339ed05b7ac0a4",
-    "title": "TBV Testnet housekeeping 🧹 New Babylon testnet is going live on Tuesday, October 20, with support from our mainnet partners. Current testnet is shutting down so please move your signet BTC and Sepolia ETH out before then",
-    "link": "https://x.com/babylonlabs_io/status/2110707007451758936",
-    "score": 60,
-    "snippet": "TBV Testnet housekeeping 🧹 New Babylon testnet is going live on Tuesday, October 20, with support from our mainnet partners. Current testnet is shutting down so please move your signet BTC and Sepolia ETH out before then.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:babylonlabs_io",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T12:19:00.659000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BABY",
-      "BTC",
-      "ETH"
-    ]
-  },
-  {
-    "id": "83dd5b983103d292ea1e8138a0a47b71333fa966",
-    "title": "Ripple Opens $9 Billion Perp-Trading Boom to Wall Street Clients",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-15/ripple-opens-9-billion-perp-trading-boom-to-wall-street-clients",
-    "score": 60,
-    "snippet": "Ripple Opens $9 Billion Perp-Trading Boom to Wall Street Clients",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
     "category": "other",
-    "source_tier": "B",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:bloomberg",
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:prn",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-15T12:05:41.797000+00:00",
+    "published_at": "2026-10-15T11:15:03.242000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -348,7 +334,8 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XRP"
+      "TST",
+      "BNB"
     ]
   },
   {
@@ -371,38 +358,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('teams up')",
     "matched": "teams up",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "1INCH"
     ]
-  },
-  {
-    "id": "3b5eb8df9e9309f95867d0641ce155cb2ff2460d",
-    "title": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform - CU Today",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJkY25YRkJKbnRTR2VFck1zVk10NUFZdl8tODBvRDloUmI5OEpheDRlRnViT3NfWGlkOTI4akt2RVd3NXhPYl90Rlh0LUtLQVVxQlhxWnlXWVlnM3FIZVVFZktVam5xR01vb000TDYxTlR5S01VM0hPZWVpMlZFSHhmc1ZDNngtUHh3WmhJQURwYmJZQ3p4X1l5YXU2Tmw1cGVPQ3hZd1FScUxSWVY1YkhYNA?oc=5",
-    "score": 55,
-    "snippet": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform CU Today",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-15T12:23:16+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "951ae4e8bda417bd8aba927ddc32d9d8216a0b55",
@@ -427,7 +387,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "EUR",
@@ -454,22 +414,20 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BASED"
     ]
   },
   {
-    "id": "fdbdeaff5fcc14844886f3fa989a46ff61b957dd",
-    "title": ".@KR1plc becomes the first publicly listed company to launch dedicated Ethereum validators on Lido stVaults, with @P2Pvalidator running the validators. Read more at: https://blog.lido.fi/lido-v3-kr1-x-p2p-org-london-stoc",
-    "link": "https://x.com/LidoFinance/status/2110614614606286962#",
+    "id": "bf8ff1e510ffdcc3fed83708eb339ed05b7ac0a4",
+    "title": "TBV Testnet housekeeping 🧹 New Babylon testnet is going live on Tuesday, October 20, with support from our mainnet partners. Current testnet is shutting down so please move your signet BTC and Sepolia ETH out before then",
+    "link": "https://x.com/babylonlabs_io/status/2110707007451758936",
     "score": 54,
-    "snippet": ".@KR1plc becomes the first publicly listed company to launch dedicated Ethereum validators on Lido stVaults, with @P2Pvalidator running the validators. Read more at: https://blog.lido.fi/lido-v3-kr1-x-p2p-org-london-stock-exchange-listed-company-launches-dedicated-ethereum-validators-on-stvaults/",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "snippet": "TBV Testnet housekeeping 🧹 New Babylon testnet is going live on Tuesday, October 20, with support from our mainnet partners. Current testnet is shutting down so please move your signet BTC and Sepolia ETH out before then.",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -477,38 +435,39 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:lidofinance",
+    "feed_name": "tree:x:babylonlabs_io",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T06:11:52.451000+00:00",
+    "published_at": "2026-10-15T12:19:00.659000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "LDO",
+      "BABY",
+      "BTC",
       "ETH"
     ]
   },
   {
-    "id": "97900bc2f409e27a13fd86c240cbb6d0e0ff3618",
-    "title": "According to SoSoValue, U.S. spot Bitcoin ETFs recorded $261 million in net outflows on October 14, with Bitwise's BITB posting the largest inflow at $2.22 million. Spot Ethereum ETFs saw $130 million in net outflows, le",
-    "link": "https://x.com/WuBlockchain/status/2110604549568540893",
+    "id": "83dd5b983103d292ea1e8138a0a47b71333fa966",
+    "title": "Ripple Opens $9 Billion Perp-Trading Boom to Wall Street Clients",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-15/ripple-opens-9-billion-perp-trading-boom-to-wall-street-clients",
     "score": 54,
-    "snippet": "According to SoSoValue, U.S. spot Bitcoin ETFs recorded $261 million in net outflows on October 14, with Bitwise's BITB posting the largest inflow at $2.22 million. Spot Ethereum ETFs saw $130 million in net outflows, led by BlackRock's ETHA with $110 million.",
+    "snippet": "Ripple Opens $9 Billion Perp-Trading Boom to Wall Street Clients",
     "regions": [
       "US"
     ],
     "primary_region": "US",
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 30,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T05:31:52.781000+00:00",
+    "feed_name": "tree:bloomberg",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-15T12:05:41.797000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -516,8 +475,59 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "ETH",
-      "BTC"
+      "XRP"
+    ]
+  },
+  {
+    "id": "4b4fc07a0cec21ae703fbfbb7c27fbc5d702a7e2",
+    "title": "MEDIA-Binance.US seeks $100 million to expand its crypto business - Bloomberg News",
+    "link": "https://view.tree.news/stories/kQ_fCKZJSTGUird5IiDFTw",
+    "score": 50,
+    "snippet": "MEDIA-Binance.US seeks $100 million to expand its crypto business - Bloomberg News",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:reuters",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-15T16:28:36.190000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "1b52dd81b5e6f8a14ce44252fbda2ecef93868e0",
+    "title": "Binance.US Seeks $100 Million to Expand Its Crypto Business",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-15/binance-us-seeks-100-million-to-expand-its-crypto-business",
+    "score": 50,
+    "snippet": "Binance.US Seeks $100 Million to Expand Its Crypto Business",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:bloomberg",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-15T16:19:59.169000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
     ]
   },
   {
@@ -540,7 +550,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -575,33 +585,31 @@
     ]
   },
   {
-    "id": "cf593cfb38ea0027a05d1b756900c8b24099f3db",
-    "title": "Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets https://www.theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644?utm_",
-    "link": "https://x.com/TheBlockCo/status/2110702268169289937#",
-    "score": 50,
-    "snippet": "Ledger unveils Atom Android device with Solana Mobile integration and new tamper protections amid investigation into modified wallets https://www.theblock.co/news/business/2026-10-15-ledger-atom-solana-mobile-418644?utm_source=twitter&utm_medium=social",
+    "id": "3b5eb8df9e9309f95867d0641ce155cb2ff2460d",
+    "title": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform - CU Today",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJkY25YRkJKbnRTR2VFck1zVk10NUFZdl8tODBvRDloUmI5OEpheDRlRnViT3NfWGlkOTI4akt2RVd3NXhPYl90Rlh0LUtLQVVxQlhxWnlXWVlnM3FIZVVFZktVam5xR01vb000TDYxTlR5S01VM0hPZWVpMlZFSHhmc1ZDNngtUHh3WmhJQURwYmJZQ3p4X1l5YXU2Tmw1cGVPQ3hZd1FScUxSWVY1YkhYNA?oc=5",
+    "score": 49,
+    "snippet": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform CU Today",
     "regions": [],
     "primary_region": null,
-    "category": "regulation",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T12:00:10.679000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-15T12:42:39+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('unveils')",
-    "matched": "unveils",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SKR",
-      "SOL"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "a9ea87acdbcb3d056115873afa83bb65b1a960d9",
@@ -632,15 +640,39 @@
     "coins": []
   },
   {
+    "id": "8adb590bde4b0cbe9b7f7b72b9d0014d5c684cc2",
+    "title": "Pantera Capital-backed startup Fission raises $10 million to help investors cash out of tokenized funds faster - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFBuNVFwWGxsZUQxY25FbUpjMzNFSkNEc2xRcEJsWnBfQ1Z2bzVHQUptLTBwYnU0b2gwSEdSTUd1TlFycFRxVkNFcUtZUmVKakI1Zy10bjRCXzdMVWlweE9yaUROZ0hiRVpOMXBEN0J1X0tHSi0wZUZxUnRLWXlvWjE3Q2gyLUxXbGJZakRWbTJUMEFQYVZFWl9HazJjbEplb1lKbzlxR050dmRzbkE1TDR3Rl9OckZK?oc=5",
+    "score": 39,
+    "snippet": "Pantera Capital-backed startup Fission raises $10 million to help investors cash out of tokenized funds faster Fortune",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-15T11:00:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('raises $10 million')",
+    "matched": "raises $10 million",
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "66111e639d9fd29d3f6f47180ebcc65f8fb8a56a",
     "title": "Hecto Launches Private Markets on Canton with $NEOPRIME, the First Tokenized Pre-IPO Exposure Token - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPMlpKamRIY1JFTm5mNUNtaEQzV3I3M3J2aUQyM0VpMDk3V3NMcVhlRkMtSTJiaG9JdkVpb0tMWGV0MHlLbXYtVVRZdjdIcXNvaGRnQ1BGSjBjRDMxWDV0U0hIaEo2S0lUMmRqbm1mdjJpbGExcjdqTG1TVS1Mb3c2VE5DcUd0VGIzanp3TEU3cENDWmI5aFdLdkZod2NIS3hRWi02WXhYRk5HQjZaVzFKQXAyWDVwaVphQ05VZ3FrOUNtWEhuRXc?oc=5",
     "score": 39,
     "snippet": "Hecto Launches Private Markets on Canton with $NEOPRIME, the First Tokenized Pre-IPO Exposure Token Benzinga",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
@@ -666,10 +698,8 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDVWYmdpdFptTWNBTVFpRWtLblV6V3BzLS1CZTladTBlNDNlYjZ4bnh5dWdLdkY4QlFWdWtxQ2ZUM0NaYlRqdmZsWTlkVzI1RjFxV1VOXzE0NzhDT2lUOVQyYk9JNFRDaHliRnVMY21ib3Z0LTlpVjJSYXJ0TzZCdFN5WHJVSGgyRlcwTnFhMkZVTVlGWGJENw?oc=5",
     "score": 35,
     "snippet": "Qivalis inches closer to stablecoin launch with EMI authorisation FinTech Futures",
-    "regions": [
-      "EU"
-    ],
-    "primary_region": "EU",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -685,7 +715,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "rss",
     "coins": []
   }
