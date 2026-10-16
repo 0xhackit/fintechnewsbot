@@ -1,58 +1,32 @@
 [
   {
-    "id": "d600842541c9fc4bda3e8e44e32a028fea7d40bf",
-    "title": "New ways for fintechs to move money and expand globally",
-    "link": "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally",
-    "score": 74,
-    "snippet": "We’re introducing three updates to help fintechs launch products and grow internationally more easily: simpler payout management with Stripe Global Payouts, support for stablecoin cards in more countries, and unified APIs for building global financial products.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "A",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stripe_blog",
-    "source": "Google News RSS",
-    "published_at": "2026-10-16T00:00:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "09dfa77e3e3f4a454be3b84a30872816bf819bf6",
-    "title": "Circle details USDC revenue split, says $819 million went to partners and costs in H1 2026",
-    "link": "https://www.theblock.co/news/business/2026-10-16-circle-usdc-revenue-split-partners-418826",
-    "score": 70,
-    "snippet": "Circle breaks down its USDC revenue: about $1.4 billion in H1 2026, $819 million to partners and transaction costs, $473 million reinvested.",
+    "id": "46734f5e2ac5f30c138cd5be7ac86395c4f1f618",
+    "title": "Federal Judge Denies Gemini and CFTC Bid to Erase 2025 Settlement",
+    "link": "https://www.pymnts.com/cryptocurrency/2026/federal-judge-denies-gemini-cftc-bid-erase-2025-settlement/",
+    "score": 60,
+    "snippet": "A federal judge refused to overturn a $5 million settlement that cryptocurrency exchange Gemini reached with the Commodity Futures Trading Commission in January 2025 and has already paid, CoinDesk reported Friday (Oct. 16). The CFTC has since said that it never should have brought the case against G",
     "regions": [
-      "US"
+      "US",
+      "EU",
+      "APAC"
     ],
     "primary_region": "US",
-    "category": "product",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
+    "consensus": 2,
+    "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "theblock",
+    "feed_name": "pymnts",
     "source": "Google News RSS",
-    "published_at": "2026-10-16T14:58:29+00:00",
+    "published_at": "2026-10-16T20:47:13+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('denies')",
+    "matched": "denies",
     "fulltext": true,
-    "origin": "rss",
+    "origin": "rss+tree",
     "coins": []
   }
 ]
