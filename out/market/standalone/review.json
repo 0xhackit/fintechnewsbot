@@ -1,10 +1,10 @@
 [
   {
-    "id": "f1f9fd8f7f795a1b1c20c909864f2f7f56cbce3a",
-    "title": "THE BLOCK: Cross River Bank is integrating Ripple's $RLUSD stablecoin on the XRP Ledger into its core banking infrastructure, enabling fintech clients to access stablecoin payments through a single API connection. The in",
-    "link": "https://x.com/TheBlockCo/status/2110755080874115540#",
-    "score": 89,
-    "snippet": "THE BLOCK: Cross River Bank is integrating Ripple's $RLUSD stablecoin on the XRP Ledger into its core banking infrastructure, enabling fintech clients to access stablecoin payments through a single API connection. The integration will support 24/7 settlement, cross-border payments and treasury trans",
+    "id": "ae67ef4df17e5da1b52ef4a3696342217d3f961c",
+    "title": "THE BLOCK: Circle $CRCL generated approximately $1.4 billion in revenue in the first half of 2026, paying $819 million to USDC distribution partners and transaction costs while reinvesting about $473 million in infrastru",
+    "link": "https://x.com/TheBlockCo/status/2111094609535197372",
+    "score": 95,
+    "snippet": "THE BLOCK: Circle $CRCL generated approximately $1.4 billion in revenue in the first half of 2026, paying $819 million to USDC distribution partners and transaction costs while reinvesting about $473 million in infrastructure, compliance and product development. Circle said it retained roughly 7 cen",
     "regions": [
       "US"
     ],
@@ -12,25 +12,55 @@
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T15:30:02.291000+00:00",
+    "published_at": "2026-10-16T13:59:12.346000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('integration')",
-    "matched": "integration",
-    "fulltext": false,
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "RLUSD",
-      "XRP",
-      "ACH",
-      "RIVER"
+      "CRCL",
+      "USDC"
+    ]
+  },
+  {
+    "id": "cf75e14347dbd77d91c618cc37d620975627cc1e",
+    "title": "THE BLOCK: Circle $CRCL generated approximately $1.4 billion in revenue in the first half of 2026, paying $819 million to USDC distribution partners and transaction costs while reinvesting about $473 million in infrastru",
+    "link": "https://x.com/TheBlockCo/status/2111094406866686428#",
+    "score": 95,
+    "snippet": "THE BLOCK: Circle $CRCL generated approximately $1.4 billion in revenue in the first half of 2026, paying $819 million to USDC distribution partners and transaction costs while reinvesting about $473 million in infrastructure, compliance and product development. Circle said it retained roughly 7 cen",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T13:58:24.306000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CRCL",
+      "USDC"
     ]
   },
   {
@@ -53,7 +83,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -84,7 +114,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BSB",
@@ -92,56 +122,30 @@
     ]
   },
   {
-    "id": "7d39b42b9e9259dc598f381eccb11fed09d6ccba",
-    "title": "NEW: Binance․US is reportedly seeking to raise $100 million to expand its U.S. crypto business, according to Bloomberg. The exchange is targeting a valuation of approximately $1 billion, down from $4.5 billion in 2022.",
-    "link": "https://x.com/CoinDesk/status/2110791447943471529",
-    "score": 79,
-    "snippet": "NEW: Binance․US is reportedly seeking to raise $100 million to expand its U.S. crypto business, according to Bloomberg. The exchange is targeting a valuation of approximately $1 billion, down from $4.5 billion in 2022.",
+    "id": "7aa9ce286ec8ca8cf8d44e70a810b8c76a0db05d",
+    "title": "THE BLOCK: Solana postponed its Shanghai event after registrations \"quadrupled overnight,\" exceeding the occupancy cap registered with local authorities, Solana Foundation President Lily Liu said. No new date has been an",
+    "link": "https://x.com/TheBlockCo/status/2111086015209455892#",
+    "score": 75,
+    "snippet": "THE BLOCK: Solana postponed its Shanghai event after registrations \"quadrupled overnight,\" exceeding the occupancy cap registered with local authorities, Solana Foundation President Lily Liu said. No new date has been announced.",
     "regions": [],
     "primary_region": null,
-    "category": "fundraising",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T17:54:32.864000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "b7619b29a04be53f743251f5ca38dda2e84507df",
-    "title": "NEW: Binance US is seeking to raise as much as $100 million at a valuation of about $1 billion, Bloomberg reported, citing a person familiar with the matter. World Liberty Financial was made aware of the fundraise but is",
-    "link": "https://x.com/TheBlockCo/status/2110771470641320380#",
-    "score": 79,
-    "snippet": "NEW: Binance US is seeking to raise as much as $100 million at a valuation of about $1 billion, Bloomberg reported, citing a person familiar with the matter. World Liberty Financial was made aware of the fundraise but is not participating, according to the report. Binance US previously raised more t",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T16:35:09.930000+00:00",
+    "published_at": "2026-10-16T13:25:03.095000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "WLFI",
-      "BNB"
+      "SOL",
+      "CAP"
     ]
   },
   {
@@ -200,38 +204,192 @@
     "coins": []
   },
   {
-    "id": "f1e6bf44f563701c7d898a6b2b2906919fac7625",
-    "title": "EXCLUSIVE: Multiliquid, a settlement platform for tokenized assets, raises $8 million https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693?utm_source=twitter&utm_medium=social",
-    "link": "https://x.com/TheBlockCo/status/2110762665614229591#",
-    "score": 74,
-    "snippet": "EXCLUSIVE: Multiliquid, a settlement platform for tokenized assets, raises $8 million https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693?utm_source=twitter&utm_medium=social",
+    "id": "964bdf996f65b67cf228ac5d4d9aa09b71696bd8",
+    "title": "We’re excited to announce that Gravity has integrated industry-standard @chainlink CCIP as its canonical cross-chain infrastructure, alongside Chainlink Data Streams, on Gravity L1 Mainnet 🌀 WETH and USDC can now move be",
+    "link": "https://x.com/GravityChain/status/2111094983444844714#",
+    "score": 70,
+    "snippet": "We’re excited to announce that Gravity has integrated industry-standard @chainlink CCIP as its canonical cross-chain infrastructure, alongside Chainlink Data Streams, on Gravity L1 Mainnet 🌀 WETH and USDC can now move between Ethereum Mainnet and Gravity L1 in both directions via Chainlink CCIP, wit",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:gravitychain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T14:00:41.423000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integrated')",
+    "matched": "integrated",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "G",
+      "USDC",
+      "LINK",
+      "ETH"
+    ]
+  },
+  {
+    "id": "4cc4bd4c4deb307ee60d730a8d4bd254a754746b",
+    "title": "Circle Reports $1.4 Billion in H1 2026 Revenue, With 59% Going to USDC Partners and Transaction Costs Circle disclosed that it generated approximately $1.4 billion in revenue in the first half of 2026, of which $819 mill",
+    "link": "https://x.com/WuBlockchain/status/2111086129760162089#",
+    "score": 70,
+    "snippet": "Circle Reports $1.4 Billion in H1 2026 Revenue, With 59% Going to USDC Partners and Transaction Costs Circle disclosed that it generated approximately $1.4 billion in revenue in the first half of 2026, of which $819 million (59%) went to USDC distribution partners and transaction costs. Another $473",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T13:25:30.553000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "USDC"
+    ]
+  },
+  {
+    "id": "e6b233406ebe2febabd87bbbb056d2697a75d84e",
+    "title": "⛏️ What’s Changing for Token Launches on BNB Chain? With http://Four.Meme × @TapeOutWorld introducing TapeFour, mining-based token launches, we’re opening up new possibilities for the @BNBCHAIN ecosystem. 🔸 More ways to",
+    "link": "https://x.com/fourdotmemezh/status/2111079404986388853",
+    "score": 70,
+    "snippet": "⛏️ What’s Changing for Token Launches on BNB Chain? With http://Four.Meme × @TapeOutWorld introducing TapeFour, mining-based token launches, we’re opening up new possibilities for the @BNBCHAIN ecosystem. 🔸 More ways to launch: Moving beyond conventional bonding curves with mining-based token distri",
     "regions": [],
     "primary_region": null,
-    "category": "fundraising",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:fourdotmemezh",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T12:58:47.184000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FORM",
+      "BNB",
+      "BASED"
+    ]
+  },
+  {
+    "id": "4a9ca0aede04e78af2c8260b8b8814c687060671",
+    "title": "Europe wants bigger onchain markets. On 9 October, the EU Council backed changes that would allow more financial activity under the DLT Pilot Regime. Currently, the DLT Pilot Regime lets authorised operators test blockch",
+    "link": "https://x.com/DuskFoundation/status/2111064619532083562#",
+    "score": 70,
+    "snippet": "Europe wants bigger onchain markets. On 9 October, the EU Council backed changes that would allow more financial activity under the DLT Pilot Regime. Currently, the DLT Pilot Regime lets authorised operators test blockchain-based trading and settlement under regulatory supervision. Expanding it is p",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:duskfoundation",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T12:00:02.119000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "DUSK",
+      "BASED"
+    ]
+  },
+  {
+    "id": "9c74f8939720008fd6eb10a861529653ca27dfe9",
+    "title": "NEW: Global digital asset investment products have seen $434 million in outflows so far this week, according to CoinShares. The firm's research head James Butterfill pointed to hotter U.S. inflation and increasingly hawk",
+    "link": "https://x.com/TheBlockCo/status/2111064142341669244",
+    "score": 70,
+    "snippet": "NEW: Global digital asset investment products have seen $434 million in outflows so far this week, according to CoinShares. The firm's research head James Butterfill pointed to hotter U.S. inflation and increasingly hawkish Federal Reserve expectations as pressures on bitcoin $BTC and broader crypto",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T11:58:08.358000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('investment')",
+    "matched": "investment",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "85cdbba7985caac2625dbce0d1488e535b9ec8c8",
+    "title": "THE BLOCK: Mizuho, MUFG, and SMBC have completed a joint yen stablecoin pilot with Mitsubishi UFJ Trust and TISI. The test verified issuance, transfer, and redemption processes in a cross-border payment scenario involvin",
+    "link": "https://x.com/TheBlockCo/status/2111059936541311213#",
+    "score": 65,
+    "snippet": "THE BLOCK: Mizuho, MUFG, and SMBC have completed a joint yen stablecoin pilot with Mitsubishi UFJ Trust and TISI. The test verified issuance, transfer, and redemption processes in a cross-border payment scenario involving Mitsubishi Corporation's Japanese and overseas locations, the companies said.",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T16:00:10.480000+00:00",
+    "published_at": "2026-10-16T11:41:25.654000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('raises $8 million')",
-    "matched": "raises $8 million",
-    "fulltext": false,
+    "reason": "concrete market event ('issuance')",
+    "matched": "issuance",
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
   {
-    "id": "6fadc40c31a8d3b602d01d7dfaee909245960caf",
-    "title": "THE BLOCK: Crypto. com has launched Predict Pro, a prediction markets platform for U.S. users on its exchange that offers advanced trading tools through connectivity to OG .com Markets, a CFTC-registered exchange and cle",
-    "link": "https://x.com/TheBlockCo/status/2110747045808255464#",
-    "score": 69,
-    "snippet": "THE BLOCK: Crypto. com has launched Predict Pro, a prediction markets platform for U.S. users on its exchange that offers advanced trading tools through connectivity to OG .com Markets, a CFTC-registered exchange and clearinghouse. The platform supports real-time order book depth and probability cha",
+    "id": "72c342dff141172c36163251821314ad6519570e",
+    "title": "Kite is the exclusive Premium Partner of The Blockchain 100 2026 on Binance Square. To celebrate, we're launching the Kite Creator Spotlight: $10,000 in rewards for original posts on Binance Square about Kite and the age",
+    "link": "https://x.com/GoKiteAI/status/2111044319935439346#",
+    "score": 65,
+    "snippet": "Kite is the exclusive Premium Partner of The Blockchain 100 2026 on Binance Square. To celebrate, we're launching the Kite Creator Spotlight: $10,000 in rewards for original posts on Binance Square about Kite and the agent economy. ▷ Runs Oct 16 to Nov 1 ▷ 20 standout creators rewarded, plus a lucky",
     "regions": [
       "US"
     ],
@@ -243,27 +401,30 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:gokiteai",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T14:58:06.649000+00:00",
+    "published_at": "2026-10-16T10:39:22.338000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "OG"
+      "KITE",
+      "BNB"
     ]
   },
   {
-    "id": "b05202ee707c17f9341449aca4a3a53f1f805599",
-    "title": "THE BLOCK: Visa Direct's stablecoin-powered prefunding capability has moved from pilot to commercial production, with Inyo Global as its first enabler. The integration allows eligible businesses to fund cross-border payo",
-    "link": "https://x.com/TheBlockCo/status/2111017415979229437",
-    "score": 65,
-    "snippet": "THE BLOCK: Visa Direct's stablecoin-powered prefunding capability has moved from pilot to commercial production, with Inyo Global as its first enabler. The integration allows eligible businesses to fund cross-border payouts in near real time using USDC.",
-    "regions": [],
-    "primary_region": null,
+    "id": "27f0c635ec5da3fa7d918420fb2901d3a927e02f",
+    "title": "THE BLOCK: Coinbase and Marqeta are expanding their existing partnership to enable stablecoin-backed payment cards for enterprise customers. Coinbase will provide custody and fiat conversion, with Base handling onchain s",
+    "link": "https://x.com/TheBlockCo/status/2111082213685211478",
+    "score": 60,
+    "snippet": "THE BLOCK: Coinbase and Marqeta are expanding their existing partnership to enable stablecoin-backed payment cards for enterprise customers. Coinbase will provide custody and fiat conversion, with Base handling onchain settlement, while Marqeta manages card issuance and processing.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -274,48 +435,159 @@
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-16T08:52:27.746000+00:00",
+    "published_at": "2026-10-16T13:09:56.917000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('integration')",
-    "matched": "integration",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "USDC"
-    ]
-  },
-  {
-    "id": "fa94e54624edf72f0d2644f62cd8ee5681364f0e",
-    "title": "Tokenization Briefing: 10 Trillion Dollar Tokenization Market?",
-    "link": "https://www.theblock.co/newsletters/tokenization-briefing/2026-10-15-10-trillion-dollar-tokenization-market-418491",
-    "score": 64,
-    "snippet": "Tokenization Briefing: 10 Trillion Dollar Tokenization Market?",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-15T17:15:50.457000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
     "fulltext": true,
     "origin": "tree",
     "coins": []
   },
   {
+    "id": "daa5c3b9c8e820fbf7dce929a5e607fac168f6ed",
+    "title": "Vitalik Buterin Unveils Privacy-Focused AI Agent Setup Combining zkAPI, Tor, and Local LLMs Ethereum co-founder Vitalik Buterin showcased his personal privacy-focused AI agent setup, integrating zkAPI, Tor, random cover",
+    "link": "https://x.com/WuBlockchain/status/2111069620375626080#",
+    "score": 60,
+    "snippet": "Vitalik Buterin Unveils Privacy-Focused AI Agent Setup Combining zkAPI, Tor, and Local LLMs Ethereum co-founder Vitalik Buterin showcased his personal privacy-focused AI agent setup, integrating zkAPI, Tor, random cover traffic, and local LLM prompt rewriting into the pi agent harness. The system as",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T12:19:54.438000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ETH"
+    ]
+  },
+  {
+    "id": "247453e4d33fcdd428ad1f1e7cb8599a69380981",
+    "title": "Almost two weeks since Dusk launched on Ethereum mainnet. Developers are already building with Covenants. Here are some apps you can try 👇",
+    "link": "https://x.com/nillion/status/2111067006036488583",
+    "score": 60,
+    "snippet": "Almost two weeks since Dusk launched on Ethereum mainnet. Developers are already building with Covenants. Here are some apps you can try 👇",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:nillion",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T12:09:30.978000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "NIL",
+      "ETH"
+    ]
+  },
+  {
+    "id": "8440709115b7562e185a7a1d208c56727320770d",
+    "title": "Almost two weeks since Dusk launched on Ethereum mainnet. Developers are already building with Covenants. Here are some apps you can try 👇",
+    "link": "https://x.com/nillion/status/2111065185205326062",
+    "score": 60,
+    "snippet": "Almost two weeks since Dusk launched on Ethereum mainnet. Developers are already building with Covenants. Here are some apps you can try 👇",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:nillion",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T12:02:16.877000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "NIL",
+      "ETH"
+    ]
+  },
+  {
+    "id": "c22e85e0b70b621b48a1330386c6ef2b299f9978",
+    "title": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform - CU Today",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONFpkVXVlSDFKZ0N3aGEwY1p1MjRqT1RjNXJYSEYxc0pyRFhBWGFMNFRUaGRHalFkekNvcGN0Y0ZEUjlScHlKcjJtb2FuYlQ0RXZzNkN4MUdhREVZV1o3WXFuamxsWlF5RTBiLXJGUmdwU19QRGU0MEZtNGZ5SHlUZW94NzRZWTVXa2VVT25mQXdvNFdjc3pTeTV3U1RPdlFJX0FYUkZKSm5CWV85RzZENFVn?oc=5",
+    "score": 55,
+    "snippet": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform CU Today",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-16T13:35:11+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "795964fd4ac73d094b9dfa96105eb72456c43419",
+    "title": "THE BLOCK: Lightning Labs introduced LayerTree, a proposed Bitcoin $BTC scaling solution designed to let up to 1 million users share a single UTXO. The non-custodial design connects to Lightning but requires Bitcoin prot",
+    "link": "https://x.com/TheBlockCo/status/2111024358244376970",
+    "score": 55,
+    "snippet": "THE BLOCK: Lightning Labs introduced LayerTree, a proposed Bitcoin $BTC scaling solution designed to let up to 1 million users share a single UTXO. The non-custodial design connects to Lightning but requires Bitcoin protocol changes before deployment.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T09:20:02.931000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduced')",
+    "matched": "introduced",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
     "id": "3f29c8cfe800df6ea20252f324dcac6505ee3b2f",
     "title": "$PMO FAN TOKEN® digital asset to launch on Tuesday 20th October via Socios.com platform",
     "link": "https://www.chiliz.com/palermo-fc-fan-token-offering",
-    "score": 60,
+    "score": 54,
     "snippet": "$PMO FAN TOKEN® digital asset to launch on Tuesday 20th October via Socios.com platform",
     "regions": [],
     "primary_region": null,
@@ -343,7 +615,7 @@
     "id": "00304ba66a7f940f1bcdd069486ba01928c9f28b",
     "title": "Travala Q3 2026 Business Update Q3 was one of the biggest quarters in our history. 🔹 Launched the AI Travel Agent on @BNBCHAIN 🔹 Established the $AVA Strategic Reserve 🔹 Announced next @AVAFoundation Smart Program phase",
     "link": "https://x.com/travalacom/status/2110989120071721059#",
-    "score": 60,
+    "score": 54,
     "snippet": "Travala Q3 2026 Business Update Q3 was one of the biggest quarters in our history. 🔹 Launched the AI Travel Agent on @BNBCHAIN 🔹 Established the $AVA Strategic Reserve 🔹 Announced next @AVAFoundation Smart Program phase Full report & stats 👇 https://bit.ly/4jqEmEv",
     "regions": [],
     "primary_region": null,
@@ -361,7 +633,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "AVA",
@@ -372,7 +644,7 @@
     "id": "a69e966e0a9a0e5fade0a2c1da7dfb56fb725641",
     "title": "We’re excited to partner with @verio_network to unlock new distribution for our verifiable computing network. OpenGradient hosts 4000+ models and the network has processed millions of inference requests. Integrating with",
     "link": "https://x.com/OpenGradient/status/2110983630063587415",
-    "score": 60,
+    "score": 54,
     "snippet": "We’re excited to partner with @verio_network to unlock new distribution for our verifiable computing network. OpenGradient hosts 4000+ models and the network has processed millions of inference requests. Integrating with verio makes every receipt more auditable and secure.",
     "regions": [],
     "primary_region": null,
@@ -388,66 +660,37 @@
     "axis": "market_event",
     "reason": "concrete market event ('partner')",
     "matched": "partner",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "OPG"
     ]
   },
   {
-    "id": "5684b3b98f3336c45d713bde50fb971cdc7a0540",
-    "title": "Let's be real. For years crypto was told: \"Real institutions will never touch this.\" Now BlackRock has a $2.8B tokenized fund. Nasdaq is integrating tokenized securities. The DTCC is involved. The skeptics didn't disappe",
-    "link": "https://x.com/KAVA_CHAIN/status/2110762881079762948#",
-    "score": 59,
-    "snippet": "Let's be real. For years crypto was told: \"Real institutions will never touch this.\" Now BlackRock has a $2.8B tokenized fund. Nasdaq is integrating tokenized securities. The DTCC is involved. The skeptics didn't disappear. They just got very quiet 🤫",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:kava_chain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T16:01:01.944000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "KAVA"
-    ]
-  },
-  {
-    "id": "795964fd4ac73d094b9dfa96105eb72456c43419",
-    "title": "THE BLOCK: Lightning Labs introduced LayerTree, a proposed Bitcoin $BTC scaling solution designed to let up to 1 million users share a single UTXO. The non-custodial design connects to Lightning but requires Bitcoin prot",
-    "link": "https://x.com/TheBlockCo/status/2111024358244376970",
-    "score": 55,
-    "snippet": "THE BLOCK: Lightning Labs introduced LayerTree, a proposed Bitcoin $BTC scaling solution designed to let up to 1 million users share a single UTXO. The non-custodial design connects to Lightning but requires Bitcoin protocol changes before deployment.",
+    "id": "0d3861956c4bbd53dd474e033a8dbf9bc2dd62ee",
+    "title": "OpenAI Research Model Used Public Seed Phrase to Spend from Unauthorized Wallet on Ethereum Sepolia Testnet",
+    "link": "https://www.crowdfundinsider.com/2026/10/318814-openai-research-model-used-public-seed-phrase-to-spend-from-unauthorized-wallet-on-ethereum-sepolia-testnet",
+    "score": 50,
+    "snippet": "OpenAI Research Model Used Public Seed Phrase to Spend from Unauthorized Wallet on Ethereum Sepolia Testnet",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-16T09:20:02.931000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('introduced')",
-    "matched": "introduced",
-    "fulltext": false,
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-16T12:24:53.394000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "ETH",
+      "WLD"
     ]
   },
   {
@@ -475,7 +718,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('raised $2 million')",
     "matched": "raised $2 million",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "USDC",
@@ -506,99 +749,45 @@
     "axis": "market_event",
     "reason": "concrete market event ('partner')",
     "matched": "partner",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "OKB"
     ]
   },
   {
-    "id": "a4f53a28ce02d408ee33e38a821a6e5ef2cae669",
-    "title": "DAPPOS BUILD | Dev Update October 2026 Key System & Product Upgrades Bubble Action: DAPPOS develops and tests a new product feature that can carry out multi-step online tasks on users’ behalf, including registering accou",
-    "link": "https://x.com/dappOS_com/status/2111003988590006477#",
-    "score": 50,
-    "snippet": "DAPPOS BUILD | Dev Update October 2026 Key System & Product Upgrades Bubble Action: DAPPOS develops and tests a new product feature that can carry out multi-step online tasks on users’ behalf, including registering accounts on eligible exchanges and launch platforms using compliant, user-provided ma",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
+    "id": "17098c8309df6c4b60386d541ba406d8c4f2b223",
+    "title": "Visa Direct moves USDC prefunding into commercial production with Inyo Global",
+    "link": "https://www.theblock.co/news/business/2026-10-16-visa-direct-moves-usdc-prefunding-into-commercial-production-with-inyo-global-418802",
+    "score": 40,
+    "snippet": "Visa Direct has brought USDC prefunding into commercial production with Inyo Global as its first commercial enabler.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 4,
     "financial": 0,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:dappos_com",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-16T07:59:06.582000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "DOS"
-    ]
-  },
-  {
-    "id": "3b5eb8df9e9309f95867d0641ce155cb2ff2460d",
-    "title": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform - CU Today",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUFJkY25YRkJKbnRTR2VFck1zVk10NUFZdl8tODBvRDloUmI5OEpheDRlRnViT3NfWGlkOTI4akt2RVd3NXhPYl90Rlh0LUtLQVVxQlhxWnlXWVlnM3FIZVVFZktVam5xR01vb000TDYxTlR5S01VM0hPZWVpMlZFSHhmc1ZDNngtUHh3WmhJQURwYmJZQ3p4X1l5YXU2Tmw1cGVPQ3hZd1FScUxSWVY1YkhYNA?oc=5",
-    "score": 49,
-    "snippet": "Mastercard Makes Bigger Stablecoin Push With Launch of Global Money Platform CU Today",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "theblock",
     "source": "Google News RSS",
-    "published_at": "2026-10-15T12:42:39+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "4f7304b2f9afe798f232d8f5db2ca59f496607ec",
-    "title": "Mastercard, BVNK launch Global Money Platform bringing together fiat and stablecoin capabilities - FX News Group",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeVcxLTVLckFwY1lHT280bVQ4TWNnQ0doWTBnaHM3THZrUnh0aVBENnNwVjQ1bDRQaWUzTnhVT3BaVTFyTGhMUkcyc1MtdDZSWGRzM2xvSkxOWmdaZFprWE9UWG1PaUFZS2F3aGNqTll0SWM3RGRYY2tZU0RicGVmMkNTNzlVSmlFNHhFNDcxdmpBdG13WkNpRXg3LW1fMlY5VlhNd2ZpLXUtSDBiYU1oQW5pejR0Yl9jYzhOMnVuR2VTOTREOGJYUzE5eVlHd3hDLTZtT2h5QQ?oc=5",
-    "score": 49,
-    "snippet": "Mastercard, BVNK launch Global Money Platform bringing together fiat and stablecoin capabilities FX News Group",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-15T10:09:16+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
+    "published_at": "2026-10-16T11:25:12+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
     "coins": []
   },
   {
     "id": "f3d7d5931d17393f07fa240ba607b42d6c4ec5f4",
     "title": "How Stablecoin Payout Launch Will Impact Visa (V) Investors - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGJUTmpHLVR0anVqMURvS1ExTUNFTFFpbjV6T0JVeEpaVWJRdlBDQVNER081MzlzUXBwZG9iMEZxLUNjNnNtcklBd2NNa2N1LWZualUtQUp1WS1XVkxsR2JOV1lsbzdCNDlDX3JmeXFjOHBGT2QwcW1xempJTE5nQXdzR3hlUldyTzdMSlF3QUl0cHJaT3ZaQ3Q4OUxkM1pYVTV3?oc=5",
-    "score": 45,
+    "score": 39,
     "snippet": "How Stablecoin Payout Launch Will Impact Visa (V) Investors Yahoo Finance",
     "regions": [],
     "primary_region": null,
@@ -617,59 +806,6 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "dd5424911d475c8bc043d79bd35ff238b81b100e",
-    "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
-    "link": "https://decrypt.co/381044",
-    "score": 44,
-    "snippet": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-15T15:20:38.925000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "1303e49daa144e4d57fa42f954cd4c8c5bbd2cc8",
-    "title": "Stablecoin Payments Hit Gaming: GetPicks’ $3M Raise - OneSafe",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TTG5aMVphMEQ0THJZU3pEUERGZ2pRLXpiVEdfa1lHYjRydEZaWF9TNGpFWGQtaWJHaGx3TjdJQWhmRU5hM3czQlI3YlNxdGoyeXFzRGd6NjUxRDdZd2ZnZlRDTU5ZeFZMNGpJUnNQcENMbHlWZ3FSbGprTGl2bEk?oc=5",
-    "score": 35,
-    "snippet": "Stablecoin Payments Hit Gaming: GetPicks’ $3M Raise OneSafe",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-16T02:45:42+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []
