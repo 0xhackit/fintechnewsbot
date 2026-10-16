@@ -24,7 +24,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('integration')",
     "matched": "integration",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "RLUSD",
@@ -34,10 +34,37 @@
     ]
   },
   {
+    "id": "47690dbe8aff5305a4afaebc2338dda072750984",
+    "title": "THE BLOCK: Strive $ASST upsized its SATS preferred stock offering by 2 million shares to 7 million, targeting $630 million in gross proceeds. The shares are priced at $90 each and carry a 15% annual dividend rate, the bi",
+    "link": "https://x.com/TheBlockCo/status/2111021590280306790",
+    "score": 80,
+    "snippet": "THE BLOCK: Strive $ASST upsized its SATS preferred stock offering by 2 million shares to 7 million, targeting $630 million in gross proceeds. The shares are priced at $90 each and carry a 15% annual dividend rate, the bitcoin $BTC treasury company said.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T09:09:03.044000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "SATS"
+    ]
+  },
+  {
     "id": "a20ecefcc5be14c43229e3e7fa8d7730b10ea1fd",
     "title": "Recent developments in tokenization: 1️⃣ Binance added four more bStocks tokens as margin collateral 2️⃣ Franklin Templeton and Animoca Brands announced a collaboration to bring tokenized RWAs to NUVA 3️⃣ IMF research fo",
     "link": "https://x.com/BlockSt_HQ/status/2110935788125036672#",
-    "score": 85,
+    "score": 79,
     "snippet": "Recent developments in tokenization: 1️⃣ Binance added four more bStocks tokens as margin collateral 2️⃣ Franklin Templeton and Animoca Brands announced a collaboration to bring tokenized RWAs to NUVA 3️⃣ IMF research found over half of sampled tokenized-equity trading occurs outside regular U.S. ma",
     "regions": [
       "APAC"
@@ -57,7 +84,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BSB",
@@ -84,7 +111,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -110,12 +137,39 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "WLFI",
       "BNB"
     ]
+  },
+  {
+    "id": "9930c17c3d1aaeac17449d8a199a8899f5cc8082",
+    "title": "Mastercard and BVNK Launch Stablecoin Global Funding Platform - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUThTVDBVNlZIVDhfS3pNbUtzeWJxVDZoYjZYZFdXN2hJQkd3Tkw1WEYwbkRkdUw2R083My0wekZVZTFVQnN1bHhHeHktLWJpcGxaY05HTWZhdW40VjEwRkFzVEpRQWhuZlIzam82UHdVc2l5MXVCOUMzMDBManBpbGdYN0wzXzVydzNweTlwZmQ4R1ZoVWJnRTBsMA?oc=5",
+    "score": 74,
+    "snippet": "Mastercard and BVNK Launch Stablecoin Global Funding Platform KuCoin",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-15T19:24:03+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "6a1e135eec45d775d8c4129afcfa4d5612c515a8",
@@ -151,10 +205,8 @@
     "link": "https://x.com/TheBlockCo/status/2110762665614229591#",
     "score": 74,
     "snippet": "EXCLUSIVE: Multiliquid, a settlement platform for tokenized assets, raises $8 million https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693?utm_source=twitter&utm_medium=social",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
@@ -170,35 +222,9 @@
     "axis": "market_event",
     "reason": "concrete market event ('raises $8 million')",
     "matched": "raises $8 million",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
-  },
-  {
-    "id": "608534e2013a90cdeb103ffa8af18f50aac0d975",
-    "title": "Major developments to Filecoin tokenomics and strategy that go live this month 💫 1. Rewarding customer acquisition & retention with new network reward mechanics 2. End of vesting built into the genesis block completes, r",
-    "link": "https://x.com/Filecoin/status/2110744898571817026#",
-    "score": 74,
-    "snippet": "Major developments to Filecoin tokenomics and strategy that go live this month 💫 1. Rewarding customer acquisition & retention with new network reward mechanics 2. End of vesting built into the genesis block completes, reducing daily token supply growth 3. New products for enterprises and AI agents ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:filecoin",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T14:49:35.060000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('go live')",
-    "matched": "go live",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "FIL"
-    ]
   },
   {
     "id": "6fadc40c31a8d3b602d01d7dfaee909245960caf",
@@ -224,10 +250,39 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "OG"
+    ]
+  },
+  {
+    "id": "b05202ee707c17f9341449aca4a3a53f1f805599",
+    "title": "THE BLOCK: Visa Direct's stablecoin-powered prefunding capability has moved from pilot to commercial production, with Inyo Global as its first enabler. The integration allows eligible businesses to fund cross-border payo",
+    "link": "https://x.com/TheBlockCo/status/2111017415979229437",
+    "score": 65,
+    "snippet": "THE BLOCK: Visa Direct's stablecoin-powered prefunding capability has moved from pilot to commercial production, with Inyo Global as its first enabler. The integration allows eligible businesses to fund cross-border payouts in near real time using USDC.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T08:52:27.746000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "USDC"
     ]
   },
   {
@@ -257,6 +312,89 @@
     "coins": []
   },
   {
+    "id": "3f29c8cfe800df6ea20252f324dcac6505ee3b2f",
+    "title": "$PMO FAN TOKEN® digital asset to launch on Tuesday 20th October via Socios.com platform",
+    "link": "https://www.chiliz.com/palermo-fc-fan-token-offering",
+    "score": 60,
+    "snippet": "$PMO FAN TOKEN® digital asset to launch on Tuesday 20th October via Socios.com platform",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:chz",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-16T08:00:16.585000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CHZ"
+    ]
+  },
+  {
+    "id": "00304ba66a7f940f1bcdd069486ba01928c9f28b",
+    "title": "Travala Q3 2026 Business Update Q3 was one of the biggest quarters in our history. 🔹 Launched the AI Travel Agent on @BNBCHAIN 🔹 Established the $AVA Strategic Reserve 🔹 Announced next @AVAFoundation Smart Program phase",
+    "link": "https://x.com/travalacom/status/2110989120071721059#",
+    "score": 60,
+    "snippet": "Travala Q3 2026 Business Update Q3 was one of the biggest quarters in our history. 🔹 Launched the AI Travel Agent on @BNBCHAIN 🔹 Established the $AVA Strategic Reserve 🔹 Announced next @AVAFoundation Smart Program phase Full report & stats 👇 https://bit.ly/4jqEmEv",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:travalacom",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T07:00:01.853000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "AVA",
+      "BNB"
+    ]
+  },
+  {
+    "id": "a69e966e0a9a0e5fade0a2c1da7dfb56fb725641",
+    "title": "We’re excited to partner with @verio_network to unlock new distribution for our verifiable computing network. OpenGradient hosts 4000+ models and the network has processed millions of inference requests. Integrating with",
+    "link": "https://x.com/OpenGradient/status/2110983630063587415",
+    "score": 60,
+    "snippet": "We’re excited to partner with @verio_network to unlock new distribution for our verifiable computing network. OpenGradient hosts 4000+ models and the network has processed millions of inference requests. Integrating with verio makes every receipt more auditable and secure.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:opengradient",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T06:38:12.597000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "OPG"
+    ]
+  },
+  {
     "id": "5684b3b98f3336c45d713bde50fb971cdc7a0540",
     "title": "Let's be real. For years crypto was told: \"Real institutions will never touch this.\" Now BlackRock has a $2.8B tokenized fund. Nasdaq is integrating tokenized securities. The DTCC is involved. The skeptics didn't disappe",
     "link": "https://x.com/KAVA_CHAIN/status/2110762881079762948#",
@@ -280,64 +418,126 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "KAVA"
     ]
   },
   {
-    "id": "63376ea64d22cc9211e507b0b5672d25079d9cb9",
-    "title": "THE BLOCK: French bitcoin treasury firm Capital B reported a €69.5 million ($77.9 million) net loss for the first half of 2026, while its revenue rose 3.5% to €5.8 million ($6.5 million). Its strategic bitcoin reserve gr",
-    "link": "https://x.com/TheBlockCo/status/2110912320209854804#",
-    "score": 50,
-    "snippet": "THE BLOCK: French bitcoin treasury firm Capital B reported a €69.5 million ($77.9 million) net loss for the first half of 2026, while its revenue rose 3.5% to €5.8 million ($6.5 million). Its strategic bitcoin reserve grew to 3,538 $BTC as of Sept. 30, purchased at €87,805 ($98,460) per bitcoin.",
+    "id": "795964fd4ac73d094b9dfa96105eb72456c43419",
+    "title": "THE BLOCK: Lightning Labs introduced LayerTree, a proposed Bitcoin $BTC scaling solution designed to let up to 1 million users share a single UTXO. The non-custodial design connects to Lightning but requires Bitcoin prot",
+    "link": "https://x.com/TheBlockCo/status/2111024358244376970",
+    "score": 55,
+    "snippet": "THE BLOCK: Lightning Labs introduced LayerTree, a proposed Bitcoin $BTC scaling solution designed to let up to 1 million users share a single UTXO. The non-custodial design connects to Lightning but requires Bitcoin protocol changes before deployment.",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-16T01:54:51.273000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
+    "published_at": "2026-10-16T09:20:02.931000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduced')",
+    "matched": "introduced",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
   },
   {
-    "id": "a66082459311035b42eb269f5987f32f664ffc91",
-    "title": "THE BLOCK: A US federal judge denied a joint CFTC-Gemini motion to vacate a January 2025 consent order imposing a $5 million penalty and permanent injunction on Gemini Trust for false or misleading statements during the",
-    "link": "https://x.com/TheBlockCo/status/2110906504593408172#",
+    "id": "d3aa381f9d72cb74a0ebc0b131475bb220c6c661",
+    "title": "THE BLOCK: Spout Finance raised $2 million from Draper Dragon, Anchorage Digital, Flow Traders, and other investors to develop its tokenized equity lending platform. The Solana-based protocol lets users borrow USDC again",
+    "link": "https://x.com/TheBlockCo/status/2111028375452323857#",
     "score": 50,
-    "snippet": "THE BLOCK: A US federal judge denied a joint CFTC-Gemini motion to vacate a January 2025 consent order imposing a $5 million penalty and permanent injunction on Gemini Trust for false or misleading statements during the 2017 Bitcoin futures review. The court noted that Gemini voluntarily settled thr",
+    "snippet": "THE BLOCK: Spout Finance raised $2 million from Draper Dragon, Anchorage Digital, Flow Traders, and other investors to develop its tokenized equity lending platform. The Solana-based protocol lets users borrow USDC against tokenized stocks at a flat 50% loan-to-value ratio, with 0% interest, accordi",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
+    "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-16T01:31:44.585000+00:00",
+    "published_at": "2026-10-16T09:36:00.863000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('penalty')",
-    "matched": "penalty",
-    "fulltext": true,
+    "axis": "market_event",
+    "reason": "concrete market event ('raised $2 million')",
+    "matched": "raised $2 million",
+    "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "USDC",
+      "SOL",
+      "BASED",
+      "FLOW"
+    ]
+  },
+  {
+    "id": "604b7bab1ef84fa91f294328f06d19fb440cb5d0",
+    "title": "NEW: OKX Global Managing Partner and Chief Marketing Officer Haider Rafique is set to leave the crypto exchange by the end of 2026, Bloomberg reported. Rafique helped secure ICE's $200 million strategic investment in OKX",
+    "link": "https://x.com/TheBlockCo/status/2111020078884098484#",
+    "score": 50,
+    "snippet": "NEW: OKX Global Managing Partner and Chief Marketing Officer Haider Rafique is set to leave the crypto exchange by the end of 2026, Bloomberg reported. Rafique helped secure ICE's $200 million strategic investment in OKX and partnerships with McLaren and Tribeca.",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T09:03:02.643000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "OKB"
+    ]
+  },
+  {
+    "id": "a4f53a28ce02d408ee33e38a821a6e5ef2cae669",
+    "title": "DAPPOS BUILD | Dev Update October 2026 Key System & Product Upgrades Bubble Action: DAPPOS develops and tests a new product feature that can carry out multi-step online tasks on users’ behalf, including registering accou",
+    "link": "https://x.com/dappOS_com/status/2111003988590006477#",
+    "score": 50,
+    "snippet": "DAPPOS BUILD | Dev Update October 2026 Key System & Product Upgrades Bubble Action: DAPPOS develops and tests a new product feature that can carry out multi-step online tasks on users’ behalf, including registering accounts on eligible exchanges and launch platforms using compliant, user-provided ma",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:dappos_com",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T07:59:06.582000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "DOS"
     ]
   },
   {
@@ -368,15 +568,67 @@
     "coins": []
   },
   {
+    "id": "4f7304b2f9afe798f232d8f5db2ca59f496607ec",
+    "title": "Mastercard, BVNK launch Global Money Platform bringing together fiat and stablecoin capabilities - FX News Group",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeVcxLTVLckFwY1lHT280bVQ4TWNnQ0doWTBnaHM3THZrUnh0aVBENnNwVjQ1bDRQaWUzTnhVT3BaVTFyTGhMUkcyc1MtdDZSWGRzM2xvSkxOWmdaZFprWE9UWG1PaUFZS2F3aGNqTll0SWM3RGRYY2tZU0RicGVmMkNTNzlVSmlFNHhFNDcxdmpBdG13WkNpRXg3LW1fMlY5VlhNd2ZpLXUtSDBiYU1oQW5pejR0Yl9jYzhOMnVuR2VTOTREOGJYUzE5eVlHd3hDLTZtT2h5QQ?oc=5",
+    "score": 49,
+    "snippet": "Mastercard, BVNK launch Global Money Platform bringing together fiat and stablecoin capabilities FX News Group",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-15T10:09:16+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "f3d7d5931d17393f07fa240ba607b42d6c4ec5f4",
+    "title": "How Stablecoin Payout Launch Will Impact Visa (V) Investors - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGJUTmpHLVR0anVqMURvS1ExTUNFTFFpbjV6T0JVeEpaVWJRdlBDQVNER081MzlzUXBwZG9iMEZxLUNjNnNtcklBd2NNa2N1LWZualUtQUp1WS1XVkxsR2JOV1lsbzdCNDlDX3JmeXFjOHBGT2QwcW1xempJTE5nQXdzR3hlUldyTzdMSlF3QUl0cHJaT3ZaQ3Q4OUxkM1pYVTV3?oc=5",
+    "score": 45,
+    "snippet": "How Stablecoin Payout Launch Will Impact Visa (V) Investors Yahoo Finance",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-16T08:16:21+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "dd5424911d475c8bc043d79bd35ff238b81b100e",
     "title": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
     "link": "https://decrypt.co/381044",
     "score": 44,
     "snippet": "Bitcoin Whipsaws as Crypto Liquidations Near $1 Billion",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -389,37 +641,11 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "8adb590bde4b0cbe9b7f7b72b9d0014d5c684cc2",
-    "title": "Pantera Capital-backed startup Fission raises $10 million to help investors cash out of tokenized funds faster - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNFBuNVFwWGxsZUQxY25FbUpjMzNFSkNEc2xRcEJsWnBfQ1Z2bzVHQUptLTBwYnU0b2gwSEdSTUd1TlFycFRxVkNFcUtZUmVKakI1Zy10bjRCXzdMVWlweE9yaUROZ0hiRVpOMXBEN0J1X0tHSi0wZUZxUnRLWXlvWjE3Q2gyLUxXbGJZakRWbTJUMEFQYVZFWl9HazJjbEplb1lKbzlxR050dmRzbkE1TDR3Rl9OckZK?oc=5",
-    "score": 39,
-    "snippet": "Pantera Capital-backed startup Fission raises $10 million to help investors cash out of tokenized funds faster Fortune",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-10-15T11:00:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('raises $10 million')",
-    "matched": "raises $10 million",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "1303e49daa144e4d57fa42f954cd4c8c5bbd2cc8",
@@ -439,38 +665,11 @@
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-10-16T02:26:13+00:00",
+    "published_at": "2026-10-16T02:45:42+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "01c969c554b74a16dd59fe978a03865652f827cf",
-    "title": "Qivalis inches closer to stablecoin launch with EMI authorisation - FinTech Futures",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeDVWYmdpdFptTWNBTVFpRWtLblV6V3BzLS1CZTladTBlNDNlYjZ4bnh5dWdLdkY4QlFWdWtxQ2ZUM0NaYlRqdmZsWTlkVzI1RjFxV1VOXzE0NzhDT2lUOVQyYk9JNFRDaHliRnVMY21ib3Z0LTlpVjJSYXJ0TzZCdFN5WHJVSGgyRlcwTnFhMkZVTVlGWGJENw?oc=5",
-    "score": 35,
-    "snippet": "Qivalis inches closer to stablecoin launch with EMI authorisation FinTech Futures",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-15T08:38:10+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
     "fulltext": false,
     "origin": "rss",
     "coins": []
