@@ -1,34 +1,5 @@
 [
   {
-    "id": "fc2b57d87f06b69aa900eee92255e4cf870f4a25",
-    "title": "THE BLOCK: Binance said its bStocks tokenized equities have surpassed $1 billion in assets under management roughly four months after launching in June. The exchange reported more than $40 billion in cumulative trading v",
-    "link": "https://x.com/TheBlockCo/status/2110705288919859227#",
-    "score": 109,
-    "snippet": "THE BLOCK: Binance said its bStocks tokenized equities have surpassed $1 billion in assets under management roughly four months after launching in June. The exchange reported more than $40 billion in cumulative trading volume and $6 billion in conversions between stocks and bStocks, with nearly 100 ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T12:12:11.004000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
     "id": "f1f9fd8f7f795a1b1c20c909864f2f7f56cbce3a",
     "title": "THE BLOCK: Cross River Bank is integrating Ripple's $RLUSD stablecoin on the XRP Ledger into its core banking infrastructure, enabling fintech clients to access stablecoin payments through a single API connection. The in",
     "link": "https://x.com/TheBlockCo/status/2110755080874115540#",
@@ -53,13 +24,44 @@
     "axis": "market_event",
     "reason": "concrete market event ('integration')",
     "matched": "integration",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "RLUSD",
       "XRP",
       "ACH",
       "RIVER"
+    ]
+  },
+  {
+    "id": "a20ecefcc5be14c43229e3e7fa8d7730b10ea1fd",
+    "title": "Recent developments in tokenization: 1️⃣ Binance added four more bStocks tokens as margin collateral 2️⃣ Franklin Templeton and Animoca Brands announced a collaboration to bring tokenized RWAs to NUVA 3️⃣ IMF research fo",
+    "link": "https://x.com/BlockSt_HQ/status/2110935788125036672#",
+    "score": 85,
+    "snippet": "Recent developments in tokenization: 1️⃣ Binance added four more bStocks tokens as margin collateral 2️⃣ Franklin Templeton and Animoca Brands announced a collaboration to bring tokenized RWAs to NUVA 3️⃣ IMF research found over half of sampled tokenized-equity trading occurs outside regular U.S. ma",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:blockst_hq",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T03:28:06.181000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BSB",
+      "BNB"
     ]
   },
   {
@@ -82,7 +84,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BNB"
@@ -108,7 +110,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "WLFI",
@@ -149,8 +151,10 @@
     "link": "https://x.com/TheBlockCo/status/2110762665614229591#",
     "score": 74,
     "snippet": "EXCLUSIVE: Multiliquid, a settlement platform for tokenized assets, raises $8 million https://www.theblock.co/news/deals/2026-10-15-multiliquid-tokenized-assets-funding-418693?utm_source=twitter&utm_medium=social",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
@@ -166,7 +170,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('raises $8 million')",
     "matched": "raises $8 million",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
@@ -190,7 +194,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('go live')",
     "matched": "go live",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "FIL"
@@ -220,7 +224,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "OG"
@@ -276,66 +280,64 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "KAVA"
     ]
   },
   {
-    "id": "bf8ff1e510ffdcc3fed83708eb339ed05b7ac0a4",
-    "title": "TBV Testnet housekeeping 🧹 New Babylon testnet is going live on Tuesday, October 20, with support from our mainnet partners. Current testnet is shutting down so please move your signet BTC and Sepolia ETH out before then",
-    "link": "https://x.com/babylonlabs_io/status/2110707007451758936",
-    "score": 54,
-    "snippet": "TBV Testnet housekeeping 🧹 New Babylon testnet is going live on Tuesday, October 20, with support from our mainnet partners. Current testnet is shutting down so please move your signet BTC and Sepolia ETH out before then.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:babylonlabs_io",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T12:19:00.659000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BABY",
-      "BTC",
-      "ETH"
-    ]
-  },
-  {
-    "id": "183c3c0e26c1994725486cdcb0a7000d9b29c9c8",
-    "title": "NEAR’s MPC network now runs with 17 live mainnet operators, funded by the Protocol. The MPC network is a decentralized network composed of highly reputable, independent operators that power Chain Signatures, the signing",
-    "link": "https://x.com/NEARProtocol/status/2110825732146713061#",
+    "id": "63376ea64d22cc9211e507b0b5672d25079d9cb9",
+    "title": "THE BLOCK: French bitcoin treasury firm Capital B reported a €69.5 million ($77.9 million) net loss for the first half of 2026, while its revenue rose 3.5% to €5.8 million ($6.5 million). Its strategic bitcoin reserve gr",
+    "link": "https://x.com/TheBlockCo/status/2110912320209854804#",
     "score": 50,
-    "snippet": "NEAR’s MPC network now runs with 17 live mainnet operators, funded by the Protocol. The MPC network is a decentralized network composed of highly reputable, independent operators that power Chain Signatures, the signing layer behind NEAR Intents. HSP-007, approved by House of Stake, moves MPC node o",
+    "snippet": "THE BLOCK: French bitcoin treasury firm Capital B reported a €69.5 million ($77.9 million) net loss for the first half of 2026, while its revenue rose 3.5% to €5.8 million ($6.5 million). Its strategic bitcoin reserve grew to 3,538 $BTC as of Sept. 30, purchased at €87,805 ($98,460) per bitcoin.",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:nearprotocol",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-15T20:10:46.849000+00:00",
+    "published_at": "2026-10-16T01:54:51.273000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "NEAR"
+      "BTC"
+    ]
+  },
+  {
+    "id": "a66082459311035b42eb269f5987f32f664ffc91",
+    "title": "THE BLOCK: A US federal judge denied a joint CFTC-Gemini motion to vacate a January 2025 consent order imposing a $5 million penalty and permanent injunction on Gemini Trust for false or misleading statements during the",
+    "link": "https://x.com/TheBlockCo/status/2110906504593408172#",
+    "score": 50,
+    "snippet": "THE BLOCK: A US federal judge denied a joint CFTC-Gemini motion to vacate a January 2025 consent order imposing a $5 million penalty and permanent injunction on Gemini Trust for false or misleading statements during the 2017 Bitcoin futures review. The court noted that Gemini voluntarily settled thr",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-16T01:31:44.585000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('penalty')",
+    "matched": "penalty",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
@@ -415,6 +417,33 @@
     "axis": "market_event",
     "reason": "concrete market event ('raises $10 million')",
     "matched": "raises $10 million",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "1303e49daa144e4d57fa42f954cd4c8c5bbd2cc8",
+    "title": "Stablecoin Payments Hit Gaming: GetPicks’ $3M Raise - OneSafe",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TTG5aMVphMEQ0THJZU3pEUERGZ2pRLXpiVEdfa1lHYjRydEZaWF9TNGpFWGQtaWJHaGx3TjdJQWhmRU5hM3czQlI3YlNxdGoyeXFzRGd6NjUxRDdZd2ZnZlRDTU5ZeFZMNGpJUnNQcENMbHlWZ3FSbGprTGl2bEk?oc=5",
+    "score": 35,
+    "snippet": "Stablecoin Payments Hit Gaming: GetPicks’ $3M Raise OneSafe",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-16T02:26:13+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []
