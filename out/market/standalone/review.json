@@ -21,7 +21,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PENDLE"
@@ -50,10 +50,38 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "WOO"
+    ]
+  },
+  {
+    "id": "5411a1bb4de036ed96b8cc0a432438f09d37f5c5",
+    "title": "Binance.US Eyes $1B Valuation in New Funding Round to Compete with Coinbase and Kraken in US Markets",
+    "link": "https://www.crowdfundinsider.com/2026/10/318787-binance-us-eyes-1b-valuation-in-new-funding-round-to-compete-with-coinbase-and-kraken-in-us-markets",
+    "score": 55,
+    "snippet": "Binance.US Eyes $1B Valuation in New Funding Round to Compete with Coinbase and Kraken in US Markets",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-17T20:18:55.505000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('funding round')",
+    "matched": "funding round",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
     ]
   },
   {
