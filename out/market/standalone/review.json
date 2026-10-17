@@ -21,7 +21,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PENDLE"
@@ -50,69 +50,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "WOO"
-    ]
-  },
-  {
-    "id": "97d48ad4ef08f65d3393f0679d17adcb721cf5ee",
-    "title": "Ripple Teams Up with Stripe Owned Privy for Embedded Wallets on XRP Ledger",
-    "link": "https://www.crowdfundinsider.com/2026/10/318175-ripple-teams-up-with-stripe-owned-privy-for-embedded-wallets-on-xrp-ledger",
-    "score": 59,
-    "snippet": "Ripple Teams Up with Stripe Owned Privy for Embedded Wallets on XRP Ledger",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-16T18:42:24.741000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('teams up')",
-    "matched": "teams up",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XRP"
-    ]
-  },
-  {
-    "id": "8c7c7a17258d8ad94e967f1b76e350e811f1bcb1",
-    "title": "Ethereum held 50% of tokenized equities at the start of the year. It holds 22% now. Two chains gained the most share: 1) @BNBCHAIN 9% to 32% 2) @avax 0% to 9% Binance’s bStocks launched on BNB Chain in June. 3/10 largest",
-    "link": "https://x.com/DWFLabs/status/2111435063439372339#",
-    "score": 55,
-    "snippet": "Ethereum held 50% of tokenized equities at the start of the year. It holds 22% now. Two chains gained the most share: 1) @BNBCHAIN 9% to 32% 2) @avax 0% to 9% Binance’s bStocks launched on BNB Chain in June. 3/10 largest tokenized equities now sit there: CRCLb, SPCXb and MSTRb. @Securitize put a por",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:dwflabs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-17T12:32:03.111000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BNB",
-      "AVAX",
-      "ETH"
+      "WOO"
     ]
   },
   {
