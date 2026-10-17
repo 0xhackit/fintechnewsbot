@@ -21,39 +21,10 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "PENDLE"
-    ]
-  },
-  {
-    "id": "9526be3ea22ad23b9ea201e86b34a398a60561a9",
-    "title": "🧩 GIVEAWAY SUBMISSIONS LOCKED & UNDER REVIEW! Submissions for the 300 USDT WOO X EU Launch Giveaway are officially locked! Winners will be announced next week! ⏳",
-    "link": "https://x.com/_WOO_X/status/2111487401348776432#",
-    "score": 60,
-    "snippet": "🧩 GIVEAWAY SUBMISSIONS LOCKED & UNDER REVIEW! Submissions for the 300 USDT WOO X EU Launch Giveaway are officially locked! Winners will be announced next week! ⏳",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:_woo_x",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-17T16:00:01.092000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "WOO"
     ]
   },
   {
@@ -85,6 +56,61 @@
     ]
   },
   {
+    "id": "9526be3ea22ad23b9ea201e86b34a398a60561a9",
+    "title": "🧩 GIVEAWAY SUBMISSIONS LOCKED & UNDER REVIEW! Submissions for the 300 USDT WOO X EU Launch Giveaway are officially locked! Winners will be announced next week! ⏳",
+    "link": "https://x.com/_WOO_X/status/2111487401348776432#",
+    "score": 54,
+    "snippet": "🧩 GIVEAWAY SUBMISSIONS LOCKED & UNDER REVIEW! Submissions for the 300 USDT WOO X EU Launch Giveaway are officially locked! Winners will be announced next week! ⏳",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:_woo_x",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-17T16:00:01.092000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "WOO"
+    ]
+  },
+  {
+    "id": "6922663d069cef4576e99c7375279c176c45eb07",
+    "title": "Pantera Leads $10 Million Fission Funding Round To Solve Tokenized Fund Liquidity Problem - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQlpWMXZMdzJKdGRKaGZnU1VzWjh5N3BJUUxyYzgtaHUxeUY4Zk9TSS1iRVBxSmxKUFNvSk4wMWYtb25kRERmVVhBTk5BVERZbmlGNmR0YnJRRmh0cl9zWUxMUTBaT2haRmZJLVdldEhTdF9OcVZoR3R4NUctRjJ1THczR1VEcjg1NXF3dHNTU1JXMG1uQlh5czBTRFVMdDFkbVJibTVISVY0S1R5bGZaZ0g4NG5EbXRVc1E2TzlGZWppTTc5SGNIWnBxMG12M0RDLUl5M1o3SVF5bGFzSWdZ?oc=5",
+    "score": 45,
+    "snippet": "Pantera Leads $10 Million Fission Funding Round To Solve Tokenized Fund Liquidity Problem TradingView",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-17T22:13:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('funding round')",
+    "matched": "funding round",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "d7a310cd7181310df5d7ea7dc3424bd97fc0bffe",
     "title": "SBI and Startale Join Open Standard to Pilot Yen-Dollar Stablecoin Settlement - Cryptonews.net",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QRGRhRlNGOGd3OFBWbWN6YzBjRUI3NXZQUG9LaGNoRnV2QkwwR3VMOFRwVWdSWTV5UElmcTFnY2N4OFJRc2ptVngwMm1FN050cTRaTzFIOGI?oc=5",
@@ -107,32 +133,6 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "6bb8d37716ebe9732ae5b80660294064a4d3cb57",
-    "title": "Fission Raised $10 Million Series A Led by Pantera Capital for Tokenized Private-Fund Liquidity - HedgeCo.Net",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMk5QZDZhTG5nWnJTT0NPSlZvOUNNWUl5bExrQ1BublYzejBUUkk1ZGJkUHk1Z1JGUDZNcjRuTWh2RmdIa0l0YW5CMThxeFJmWlk0U3kyZVkzZ3U5ZzFLekg3aVdHMGhucnpOZlFJRlZYc3ZYdW1tNjV0ajV2azVBbGFMcGl1OXZUNFRsRlRsV2c3TF95TzRNU3NLTElQYktQLVVZdWJYU2wzSU14ckVaX3RjUmhxWHpSd29CN2t6eTJkYVVZNkdWOVdKdk0?oc=5",
-    "score": 39,
-    "snippet": "Fission Raised $10 Million Series A Led by Pantera Capital for Tokenized Private-Fund Liquidity HedgeCo.Net",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-10-16T21:45:16+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('raised $10 million series')",
-    "matched": "raised $10 million series",
     "fulltext": false,
     "origin": "rss",
     "coins": []
