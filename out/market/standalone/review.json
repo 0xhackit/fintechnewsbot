@@ -25,37 +25,75 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('ban')",
     "matched": "ban",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": []
   },
   {
-    "id": "9526be3ea22ad23b9ea201e86b34a398a60561a9",
-    "title": "🧩 GIVEAWAY SUBMISSIONS LOCKED & UNDER REVIEW! Submissions for the 300 USDT WOO X EU Launch Giveaway are officially locked! Winners will be announced next week! ⏳",
-    "link": "https://x.com/_WOO_X/status/2111487401348776432#",
-    "score": 54,
-    "snippet": "🧩 GIVEAWAY SUBMISSIONS LOCKED & UNDER REVIEW! Submissions for the 300 USDT WOO X EU Launch Giveaway are officially locked! Winners will be announced next week! ⏳",
-    "regions": [],
-    "primary_region": null,
+    "id": "de7c09b34a5b2abb45b091cc77a4d1462f683458",
+    "title": "This Week in Virtuals: Memory and Permissionless Markets for Agents Lighthouse launched via Virtuals so agents share one memory across Claude and ChatGPT. VEX, Warden and Otto let them trade perps and tokenized stocks. P",
+    "link": "https://x.com/virtuals_io/status/2111829416146027008",
+    "score": 60,
+    "snippet": "This Week in Virtuals: Memory and Permissionless Markets for Agents Lighthouse launched via Virtuals so agents share one memory across Claude and ChatGPT. VEX, Warden and Otto let them trade perps and tokenized stocks. Plus 2 major Virtuals App updates. Here's what shipped: VIRTUALS APP 🟩 See a port",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:_woo_x",
+    "feed_name": "tree:x:virtuals_io",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-17T16:00:01.092000+00:00",
+    "published_at": "2026-10-18T14:39:03.841000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "WOO"
+      "VIRTUAL",
+      "APP",
+      "USDC",
+      "ETH",
+      "WLD",
+      "MORPHO",
+      "QNT",
+      "AAVE",
+      "AGLD"
+    ]
+  },
+  {
+    "id": "08b53eabba82c2880889544638b98be096829cef",
+    "title": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
+    "link": "https://decrypt.co/381246",
+    "score": 50,
+    "snippet": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-18T15:01:01.911000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
@@ -110,6 +148,32 @@
     "matched": "go live",
     "fulltext": false,
     "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "3fb50d4c7a55319e0dca34b2b9e43a00a9adb4f8",
+    "title": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNOGRrNmtCaXZpcm80RXBXcmNUQ3ZHcTVxaXNTLVRVUVJyNzJHVHdrRXc3bHZxX281YmRwdVZVa1lUanl3SWxqSFdSenN2SXNTMjB1SDdoSVhuZVdET1NhQ0c1bGMyWXR6V2VDOXhlTHdSYWIzZ2lDM2dDRUxrbWNjYkMzMkdfZXdfZUtrQ1E4MHJBM3VNZUFMdk95T3AyNElfaU42aVJDQzRfLUpmelVYaTJic0N5VDVjbFkxdmE3aWpYVDF5bUNQbk5UUlRQRndUWjV0RXRadk84ek0?oc=5",
+    "score": 40,
+    "snippet": "Stablecoin supply stalls, but payments jump 45% as Visa, Mastercard and Stripe connect crypto to cash CoinDesk",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 3,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-18T14:00:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss+tree",
     "coins": []
   },
   {
