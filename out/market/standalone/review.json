@@ -33,7 +33,7 @@
     "id": "00ad897b7a07d970f40683c4ec2fed07b9c51442",
     "title": "Wall Street is embracing tokenization. From trading and settlement to bank deposits, leading institutions are bringing more of their business onchain. Latest tokenization news ↓ 1️⃣ Ondo surpasses $4B in TVL Ondo crossed",
     "link": "https://x.com/Ondo/status/2111862462739833190#",
-    "score": 70,
+    "score": 64,
     "snippet": "Wall Street is embracing tokenization. From trading and settlement to bank deposits, leading institutions are bringing more of their business onchain. Latest tokenization news ↓ 1️⃣ Ondo surpasses $4B in TVL Ondo crossed $4 billion in total value locked, including $1.3B+ in tokenized stocks and ETFs",
     "regions": [
       "US"
@@ -161,8 +161,10 @@
     "link": "https://decrypt.co/381246",
     "score": 44,
     "snippet": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -175,36 +177,10 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "6922663d069cef4576e99c7375279c176c45eb07",
-    "title": "Pantera Leads $10 Million Fission Funding Round To Solve Tokenized Fund Liquidity Problem - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQQlpWMXZMdzJKdGRKaGZnU1VzWjh5N3BJUUxyYzgtaHUxeUY4Zk9TSS1iRVBxSmxKUFNvSk4wMWYtb25kRERmVVhBTk5BVERZbmlGNmR0YnJRRmh0cl9zWUxMUTBaT2haRmZJLVdldEhTdF9OcVZoR3R4NUctRjJ1THczR1VEcjg1NXF3dHNTU1JXMG1uQlh5czBTRFVMdDFkbVJibTVISVY0S1R5bGZaZ0g4NG5EbXRVc1E2TzlGZWppTTc5SGNIWnBxMG12M0RDLUl5M1o3SVF5bGFzSWdZ?oc=5",
-    "score": 39,
-    "snippet": "Pantera Leads $10 Million Fission Funding Round To Solve Tokenized Fund Liquidity Problem TradingView",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tokenized_funds_rwa",
-    "source": "Google News RSS",
-    "published_at": "2026-10-17T22:13:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('funding round')",
-    "matched": "funding round",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]
