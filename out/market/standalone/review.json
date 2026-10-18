@@ -3,7 +3,7 @@
     "id": "3723bce5fcb67c28a26cabde1eadade3b5efcba8",
     "title": "Asia’s Weekly TOP10 Crypto News: Russia to Ban Individual P2P Crypto Transactions, Taiwan Blocks Coinbase and Kalshi, South Korea Prepares 2027 Crypto Tax Rules, Standard Chartered Launches UAE Crypto Trading, and Kakao",
     "link": "https://x.com/WuBlockchain/status/2111799821472543070",
-    "score": 80,
+    "score": 74,
     "snippet": "Asia’s Weekly TOP10 Crypto News: Russia to Ban Individual P2P Crypto Transactions, Taiwan Blocks Coinbase and Kalshi, South Korea Prepares 2027 Crypto Tax Rules, Standard Chartered Launches UAE Crypto Trading, and Kakao Moves Toward KRW Stablecoin Payments.",
     "regions": [
       "US",
@@ -28,6 +28,39 @@
     "fulltext": true,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "00ad897b7a07d970f40683c4ec2fed07b9c51442",
+    "title": "Wall Street is embracing tokenization. From trading and settlement to bank deposits, leading institutions are bringing more of their business onchain. Latest tokenization news ↓ 1️⃣ Ondo surpasses $4B in TVL Ondo crossed",
+    "link": "https://x.com/Ondo/status/2111862462739833190#",
+    "score": 70,
+    "snippet": "Wall Street is embracing tokenization. From trading and settlement to bank deposits, leading institutions are bringing more of their business onchain. Latest tokenization news ↓ 1️⃣ Ondo surpasses $4B in TVL Ondo crossed $4 billion in total value locked, including $1.3B+ in tokenized stocks and ETFs",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:ondo",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-18T16:50:22.840000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ONDO",
+      "TST",
+      "BASED"
+    ]
   },
   {
     "id": "de7c09b34a5b2abb45b091cc77a4d1462f683458",
@@ -74,10 +107,8 @@
     "link": "https://decrypt.co/381246",
     "score": 50,
     "snippet": "Bitcoin ETFs Shed Nearly $1 Billion in Two Weeks as Uptober Stays Red",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -90,7 +121,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -198,33 +229,6 @@
     "axis": "market_event",
     "reason": "concrete market event ('funding round')",
     "matched": "funding round",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "c46dd86db996cdd550c28dca7cd37471f6cf7b7a",
-    "title": "Mastercard Launches Stablecoin Platform: How Crypto Turns into Card Swipes and Bank Payouts - HackerNoon",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbzR5WXozcE9wbzZPWmdfbFVIQlotaTVaNTQ5a3Q0ZzZWTjk0NHNvQ2RtS21hVFNmaC00dFZNbjc0U2F1SVl2LU1aLVlmREx6R0lLeDVGRXFmZUVsNE5WdnVKOUYtZ256WDFPZGJDVE1UcVh6UWcxdXRMNGJ3allhbjhvenBhUjVOX0JoTVNBTVREWmtuMVpZWlJZaEdFanozSnd5aUJIR3pIbXN5TmVjd094WQ?oc=5",
-    "score": 39,
-    "snippet": "Mastercard Launches Stablecoin Platform: How Crypto Turns into Card Swipes and Bank Payouts HackerNoon",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-17T17:55:14+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
     "fulltext": false,
     "origin": "rss",
     "coins": []
