@@ -21,11 +21,38 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PENDLE"
     ]
+  },
+  {
+    "id": "32acd2ab1f77dc7d6aabc6958bc17ed25f2d9105",
+    "title": "Stablecoin Payments Go Live: Visa’s Production Leap and What’s Next - OneSafe",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5VTzViUDF1bWxjS2VVbmUwaHFUQVVlZzIyM1RKdC1HYmdPNlI3R21POGpWUlY0YVltUUlBeEwtaEhBRHhNM1Y3d0VuTTgxMG44NDFFeHVUdUd0bTZlU1RGbUszcWI3T19sMGhWdTNTNWhweWtuT29UbnllVTBDSVE?oc=5",
+    "score": 55,
+    "snippet": "Stablecoin Payments Go Live: Visa’s Production Leap and What’s Next OneSafe",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-18T00:23:08+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('go live')",
+    "matched": "go live",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "5411a1bb4de036ed96b8cc0a432438f09d37f5c5",
@@ -78,7 +105,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "WOO"
