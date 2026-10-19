@@ -1,12 +1,94 @@
 [
   {
+    "id": "cd91b0cd288e0aa9a9d426c4532e0fa3240d1138",
+    "title": "THE BLOCK: Nasdaq-listed OpenWorld has agreed to acquire Blocksight, whose AI agents are expected to handle deal structuring, asset verification, and daily reporting for over $1.1 billion in OpenWorld's tokenized financi",
+    "link": "https://x.com/TheBlockCo/status/2112013752682107012",
+    "score": 105,
+    "snippet": "THE BLOCK: Nasdaq-listed OpenWorld has agreed to acquire Blocksight, whose AI agents are expected to handle deal structuring, asset verification, and daily reporting for over $1.1 billion in OpenWorld's tokenized financing programs.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-19T02:51:33.161000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "fa31287d140b037b92ee7b5135cc0c7dd54d517f",
+    "title": "NEW: South Korea's Mirae Asset Securities plans to launch tokenized products in Q1 2027, local news outlet Digital Asset reported. Its first line of products will reportedly include tokenized MMFs and private bonds. Earl",
+    "link": "https://x.com/TheBlockCo/status/2112061899168956754#",
+    "score": 80,
+    "snippet": "NEW: South Korea's Mirae Asset Securities plans to launch tokenized products in Q1 2027, local news outlet Digital Asset reported. Its first line of products will reportedly include tokenized MMFs and private bonds. Earlier this year, Mirae Asset acquired local crypto exchange Korbit. It renamed its",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-19T06:02:52.117000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "8ccfb142468298617197867b71383c4c965b0e0e",
+    "title": "SEC Commissioner Hester Peirce says KYC builds \"ever bigger data haystacks\". Her alternative: verify facts like age or sanctions status without collecting the documents. That is zero-knowledge KYC, and it needs an identi",
+    "link": "https://x.com/OntologyNetwork/status/2112061372997792215#",
+    "score": 80,
+    "snippet": "SEC Commissioner Hester Peirce says KYC builds \"ever bigger data haystacks\". Her alternative: verify facts like age or sanctions status without collecting the documents. That is zero-knowledge KYC, and it needs an identity layer underneath 👇 https://ont.io/news/zero-knowledge-kyc-sec-peirce/",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:ontologynetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-19T06:00:46.684000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('sanctions')",
+    "matched": "sanctions",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ONT"
+    ]
+  },
+  {
     "id": "821c18100f70d82fd28c83ff38954149cf660af9",
     "title": "THE BLOCK: South Korea's Upbit crypto exchange reported a 15.5% drop in weekly trading volume to 8.35 trillion won ($6.28 billion) for the week ending Oct. 18. The most traded cryptocurrency on the platform was XRP, foll",
     "link": "https://x.com/TheBlockCo/status/2111982331812773959",
     "score": 80,
     "snippet": "THE BLOCK: South Korea's Upbit crypto exchange reported a 15.5% drop in weekly trading volume to 8.35 trillion won ($6.28 billion) for the week ending Oct. 18. The most traded cryptocurrency on the platform was XRP, followed by bitcoin and USDT. $XRP $BTC",
     "regions": [
-      "US",
       "APAC"
     ],
     "primary_region": "APAC",
@@ -24,7 +106,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -57,9 +139,39 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('ban')",
     "matched": "ban",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "43dfe0804d7a8c408b3442affd6aac782e27ff4c",
+    "title": "THE BLOCK: Spot bitcoin ETFs shed $228.6 million last week, driven by $165.5 million net outflow from BlackRock's IBIT. Spot ether ETFs saw a larger weekly outflow of $320 million. $BTC $ETH",
+    "link": "https://x.com/TheBlockCo/status/2112020695886844013",
+    "score": 70,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs shed $228.6 million last week, driven by $165.5 million net outflow from BlackRock's IBIT. Spot ether ETFs saw a larger weekly outflow of $320 million. $BTC $ETH",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-19T03:19:08.406000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH",
+      "IBIT"
+    ]
   },
   {
     "id": "00ad897b7a07d970f40683c4ec2fed07b9c51442",
@@ -86,7 +198,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ONDO",
@@ -95,15 +207,43 @@
     ]
   },
   {
+    "id": "31396601f199c248a2156165ee87132b54b909e5",
+    "title": "Spot Bitcoin ETFs Saw $229 Million in Net Outflows Last Week, While Spot Ethereum ETFs Recorded $320 Million From October 12 to 16 (ET), spot Bitcoin ETFs recorded net outflows of $229 million, led by BlackRock’s IBIT wi",
+    "link": "https://x.com/WuBlockchain/status/2112058344965857692",
+    "score": 60,
+    "snippet": "Spot Bitcoin ETFs Saw $229 Million in Net Outflows Last Week, While Spot Ethereum ETFs Recorded $320 Million From October 12 to 16 (ET), spot Bitcoin ETFs recorded net outflows of $229 million, led by BlackRock’s IBIT with $165 million. Spot Ethereum ETFs recorded net outflows of $320 million, marki",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-19T05:48:44.769000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "IBIT",
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
     "id": "de7c09b34a5b2abb45b091cc77a4d1462f683458",
     "title": "This Week in Virtuals: Memory and Permissionless Markets for Agents Lighthouse launched via Virtuals so agents share one memory across Claude and ChatGPT. VEX, Warden and Otto let them trade perps and tokenized stocks. P",
     "link": "https://x.com/virtuals_io/status/2111829416146027008",
     "score": 54,
     "snippet": "This Week in Virtuals: Memory and Permissionless Markets for Agents Lighthouse launched via Virtuals so agents share one memory across Claude and ChatGPT. VEX, Warden and Otto let them trade perps and tokenized stocks. Plus 2 major Virtuals App updates. Here's what shipped: VIRTUALS APP 🟩 See a port",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -119,7 +259,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "VIRTUAL",
@@ -132,6 +272,33 @@
       "AAVE",
       "AGLD"
     ]
+  },
+  {
+    "id": "4b4c085422cd0d8d176b24c43c747841e352aaaa",
+    "title": "Mirae Asset Securities Eyes First-Quarter 2027 Launch of Tokenized Products, Reviews Private MMFs and Bonds - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EVzVtZFlDYnZnYkRlVkNlUWVTd3lGYmhGc2VtQkFXMms5Y0ZuNjQzXzlVRVBHa1FKZWRBRjdCUG9RRWk3SHl3c0NrVENLMVJ1bDlFMg?oc=5",
+    "score": 45,
+    "snippet": "Mirae Asset Securities Eyes First-Quarter 2027 Launch of Tokenized Products, Reviews Private MMFs and Bonds bloomingbit",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-19T05:49:49+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "08b53eabba82c2880889544638b98be096829cef",
@@ -160,31 +327,5 @@
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "942fcb1ec48adc4a7074531cfc4b9ef0d42b68f6",
-    "title": "USDC faces bank-rate pressure – Can Visa’s payments push offset it? - AMBCrypto",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPeG9iS0lFUm9WSXZhY25xTlFyUGhXN1diZGtRVUxsWGVhLWlOOUFLcWRjVmcyWG5hQUF2b1JGTXIxenJwcFhzYjhFRmFwOTBSSWN6SlhrQ3BJb0p4cFgxdWRYaDBZQWljTnFsdGVZNjY0NmJ5SldJSnVJV20xR3p1aHhzbUVuOVlHOVBzeE1tZw?oc=5",
-    "score": 40,
-    "snippet": "USDC faces bank-rate pressure – Can Visa’s payments push offset it? AMBCrypto",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-19T00:00:03+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]
