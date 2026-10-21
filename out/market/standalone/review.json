@@ -21,7 +21,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approved')",
     "matched": "approved",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "NEAR"
@@ -49,7 +49,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('clear')",
     "matched": "clear",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "XRP",
@@ -90,8 +90,10 @@
     "link": "https://x.com/NEARProtocol/status/2112544505891070286#",
     "score": 84,
     "snippet": "Introducing NEAR Business: The Confidential Multisig Treasury for Crypto-Native Teams Today we’re launching NEAR Business, a confidential multisig treasury for crypto-native teams. Pay employees and vendors, swap assets, and allocate capital across 35+ chains from one dashboard, with every move appr",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -106,7 +108,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launching')",
     "matched": "launching",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "NEAR",
@@ -134,62 +136,6 @@
     ]
   },
   {
-    "id": "eacd0755970c4ef2d41bc8b858954f37ce4ac3b9",
-    "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 6.04 Million Tokens, and Total Crypto and Total Cash & Marketable Securities Holdings of $15.1 Billion",
-    "link": "https://chainwire.org/2026/10/19/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-6-04-million-tokens-and-total-crypto-and-total-cash-marketable-securities-holdings-of-15-1-billion",
-    "score": 69,
-    "snippet": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 6.04 Million Tokens, and Total Crypto and Total Cash & Marketable Securities Holdings of $15.1 Billion",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:chainwire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-20T12:31:05.463000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BMNR",
-      "ETH"
-    ]
-  },
-  {
-    "id": "dbf6d03a3fa1f7a49a804b3cbd0cd9738160de2f",
-    "title": "Euronet and Fireblocks Partner to Launch Stablecoin-Backed Card Issuing for Banks and Fintechs - FF News",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWFJTDU3eTJOUVpJYTZ5NVFNbHlYYW9FdnBBSElkWHlIZzRzaUFSQVBHdEtteHUwaDNXVzNCb3ZWV0wxdnE3QTNkbUlhc0VtNGh0bEZvaHVFSlB2TlJ3ODJwVHdQQnNJT0RSeVNiN0xsbzhhMkdIc3ZZQVlxblN0LUNMWlA1eEtzWm52U01QNm5lRlB0V0FNMHlicGZ3eFdEVDBQODZCX01yZUs0N25ZZWs5MA?oc=5",
-    "score": 60,
-    "snippet": "Euronet and Fireblocks Partner to Launch Stablecoin-Backed Card Issuing for Banks and Fintechs FF News",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-20T17:36:45+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "a31c378359995240c4444043150111397b6ed33a",
     "title": "Injective's work to launch the very first Korean Won stablecoin markets for RWAs was just covered by @TheBlockCo and @Cointelegraph. Powered by $INJ",
     "link": "https://x.com/injective/status/2112644130811920671#",
@@ -213,40 +159,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "INJ"
-    ]
-  },
-  {
-    "id": "427867c8cb108d4c0d2dc4a239fc7d8d0505041f",
-    "title": "Hear from @Offchain’s CSO, @ajwarner90 on the strong demand across tokenized asset issuance and new DeFi primitives on Arbitrum. And why it's credible neutral platform gives teams the right environment to launch and grow",
-    "link": "https://x.com/arbitrum/status/2112603155750162719#",
-    "score": 60,
-    "snippet": "Hear from @Offchain’s CSO, @ajwarner90 on the strong demand across tokenized asset issuance and new DeFi primitives on Arbitrum. And why it's credible neutral platform gives teams the right environment to launch and grow into major businesses.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:arbitrum",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-20T17:53:37.617000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ARB"
     ]
   },
   {
@@ -271,7 +187,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "NEAR"
@@ -299,7 +215,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "OKB"
@@ -328,7 +244,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -342,31 +258,64 @@
     ]
   },
   {
-    "id": "7d293ad1ca9ae5fbcc44cde44a7caf7ff893c52e",
-    "title": "Visa And Mesh Let Crypto Wallet Users Spend Stablecoin Balances At 175 Million Merchants: 16 outlets compared - NewsCord",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPc01IWlVjSlFHWkpzMXdpSkk3V3ZETEI1a3VkaGNmenhOLWZuZHBZY2FhMDFZMDF3U0F1aXZwOUdnNGI4N2REU3BpTGpIYnM3SDZWR3hrQkdzZU9xSGJoRUlhcU9IZE9hdHI0b0s2ZFFsT2RaVHBGclA3R2YxZEdKSmhUeHRTR1JacjBsamRETnRBcFVjbjVOZWdHdml0MWFvamZxZFQyaWdBMzgtRXJpV2NfaWowOURsejR5MmpqMnpXUU94c2pVelFKU1ZwMi1FdXRZRm9venN6M1FfbGEwSGVtRTdWbS13aGc?oc=5",
-    "score": 54,
-    "snippet": "Visa And Mesh Let Crypto Wallet Users Spend Stablecoin Balances At 175 Million Merchants: 16 outlets compared NewsCord",
-    "regions": [],
-    "primary_region": null,
+    "id": "d71a4ae843816a8ef054cb02033c053c6cf47a06",
+    "title": "THE BLOCK: Kazakhstan has barred Coinbase, BingX, HTX, BitMart, Bitcoin[dot]com, and WEEX from offering unlicensed digital asset services within the Astana International Financial Centre (AIFC). The restriction is limite",
+    "link": "https://x.com/TheBlockCo/status/2112719484960354587#",
+    "score": 55,
+    "snippet": "THE BLOCK: Kazakhstan has barred Coinbase, BingX, HTX, BitMart, Bitcoin[dot]com, and WEEX from offering unlicensed digital asset services within the Astana International Financial Centre (AIFC). The restriction is limited to the AIFC and does not extend to the rest of the country, according to a cou",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "crypto_native_fintech_launches",
-    "source": "Google News RSS",
-    "published_at": "2026-10-19T23:51:20+00:00",
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-21T01:35:52.921000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "427867c8cb108d4c0d2dc4a239fc7d8d0505041f",
+    "title": "Hear from @Offchain’s CSO, @ajwarner90 on the strong demand across tokenized asset issuance and new DeFi primitives on Arbitrum. And why it's credible neutral platform gives teams the right environment to launch and grow",
+    "link": "https://x.com/arbitrum/status/2112603155750162719#",
+    "score": 54,
+    "snippet": "Hear from @Offchain’s CSO, @ajwarner90 on the strong demand across tokenized asset issuance and new DeFi primitives on Arbitrum. And why it's credible neutral platform gives teams the right environment to launch and grow into major businesses.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:arbitrum",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-20T17:53:37.617000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ARB"
+    ]
   },
   {
     "id": "c5ae648f026e0d96a0af9660f4f74aed6cfed19a",
@@ -388,7 +337,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('raises $5 million at $30 million')",
     "matched": "raises $5 million at $30 million",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -416,7 +365,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZEN"
@@ -472,7 +421,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "TIA"
@@ -505,6 +454,60 @@
     ]
   },
   {
+    "id": "ce5f23d35e4ab33c5a3908e0a7bc2182b1940637",
+    "title": "BlackRock Submits SEC Filing for Bitcoin ETF Designed for Partial Downside Buffer Alongside Capped Upside",
+    "link": "https://www.crowdfundinsider.com/2026/10/319573-blackrock-submits-sec-filing-for-bitcoin-etf-designed-for-partial-downside-buffer-alongside-capped-upside",
+    "score": 50,
+    "snippet": "BlackRock Submits SEC Filing for Bitcoin ETF Designed for Partial Downside Buffer Alongside Capped Upside",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-21T01:20:10.771000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "d17e0aac2f3a0d9c709ed0de06f66000ffe72ed8",
+    "title": "Revealed: Fixer for the Chinese 'Bitcoin Queen' who ran UK's biggest money laundering scheme worth £5.5billion pays back £5.6million to British government",
+    "link": "https://www.dailymail.com/news/article-16222823/Fixer-Chinese-Bitcoin-Queen-ran-UKs-biggest-money-laundering-scheme-worth-5-5billion-pays-5-6million-British-government.html?ito=1490",
+    "score": 50,
+    "snippet": "Revealed: Fixer for the Chinese 'Bitcoin Queen' who ran UK's biggest money laundering scheme worth £5.5billion pays back £5.6million to British government",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:daily mail",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-21T00:29:25.604000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('back')",
+    "matched": "back",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
     "id": "eb1104e11f5929373e91ae8cac7e473d66d9545b",
     "title": "EARNINGS: SpaceX ($SPCX) reports $14.6 billion in third-quarter revenue, up 161% year-over-year, driven by growth in its AI and Starlink businesses. The company also reported $4.4 billion in net income, compared with a $",
     "link": "https://x.com/CoinDesk/status/2112636803232522737#",
@@ -524,11 +527,38 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "SPCX"
     ]
+  },
+  {
+    "id": "0a42ea4de8f9735c2ed319c42891452f547faf2c",
+    "title": "Mastercard unveils Stablecoin Security to screen on-chain payments - Cryptopolitan",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMXRMUk1ieVc2ZUVnRGRGN2V5YXJTOXpMWkZxbmQ0eWVmeEZ2NGJneDhXSm4xRm12WmwtV2JfRUMwZURseWNSYkFFVlN2WVVsVE90dHNEUTNuRXI5azNjQzVJYUtBNXVsenpBR3N5M1VHM19GMkFjOF9sSWJ5NHdHRDg4T29vN2RQSUlXWjlIYXZFb1VtZmhYeENycHNSdw?oc=5",
+    "score": 49,
+    "snippet": "Mastercard unveils Stablecoin Security to screen on-chain payments Cryptopolitan",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-20T04:26:01+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "8be4897216d077ff3f37f2399c9e3f8bb39b3ff6",
