@@ -1,10 +1,10 @@
 [
   {
-    "id": "0a054d7ca904a942887b7d373106d5c459c7b55f",
-    "title": "OCC Finalizes Stablecoin Framework as January Compliance Date Approaches",
-    "link": "https://www.pymnts.com/legal/2026/occ-finalizes-stablecoin-framework-as-january-compliance-date-approaches/",
-    "score": 100,
-    "snippet": "The Office of the Comptroller of the Currency (OCC) has finalized rules governing stablecoin issuers under its jurisdiction, establishing standards for reserves, redemption, custody and risk management ahead of a January deadline. The rule, issued Wednesday (Oct. 21), translates the GENIUS Act’s req",
+    "id": "0cd958107fd0cf610f32514a4dcbc698f5b65018",
+    "title": "OCC sets out final rule to implement Genius Act",
+    "link": "https://www.finextra.com/pressarticle/111394/occ-sets-out-final-rule-to-implement-genius-act?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 115,
+    "snippet": "The Office of the Comptroller of the Currency (OCC) today announced a final rule to implement the Guiding and Establishing National Innovation for U.S. Stablecoins (GENIUS) Act.",
     "regions": [
       "US"
     ],
@@ -16,13 +16,13 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "pymnts",
+    "feed_name": "finextra",
     "source": "Google News RSS",
-    "published_at": "2026-10-21T17:03:33+00:00",
+    "published_at": "2026-10-21T18:15:00+00:00",
     "verdict": "kill",
     "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('framework')",
-    "matched": "framework",
+    "reason": "policy/rule-making, not a concrete action ('rule')",
+    "matched": "rule",
     "fulltext": false,
     "origin": "rss+tree",
     "coins": []
@@ -31,7 +31,7 @@
     "id": "fb10e159ff2e7fe8c2bedfa2502a68e2994d5a9c",
     "title": "OCC finalizes GENIUS Act rules for stablecoin issuers and custody",
     "link": "https://cointelegraph.com/news/occ-finalizes-genius-act-rules-stablecoin-issuers-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 100,
+    "score": 94,
     "snippet": "The Office of the Comptroller of the Currency’s final rule covers payment stablecoin issuance and some custody activities, with the GENIUS Act framework taking effect in mid-January.",
     "regions": [
       "US"
@@ -39,7 +39,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 5,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -52,35 +52,35 @@
     "reason": "policy/rule-making, not a concrete action ('rules')",
     "matched": "rules",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   },
   {
-    "id": "746dd88b04c2f94909e3d0da32b89ce1afa48f52",
-    "title": "OCC Finalizes GENIUS Act Stablecoin Rules Ahead of January Deadline",
-    "link": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
+    "id": "00fbf8672fe7b1d843f0370c6839c7905dda35fd",
+    "title": "American Bankers Association accuses OCC of undermining Congress with final stablecoin rewards rule",
+    "link": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
     "score": 80,
-    "snippet": "The rule sets reserve, redemption and risk standards for issuers, but the OCC has yet to say when it will begin accepting applications.",
+    "snippet": "The fight between banks and crypto has reignited after a top banking regulator declined to weigh in on third-party stablecoin rewards.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 1,
+    "consensus": 2,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "decrypt",
+    "feed_name": "theblock",
     "source": "Google News RSS",
-    "published_at": "2026-10-21T11:52:23+00:00",
+    "published_at": "2026-10-21T17:59:36+00:00",
     "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('rules')",
-    "matched": "rules",
+    "axis": "political",
+    "reason": "political framing ('congress')",
+    "matched": "congress",
     "fulltext": false,
-    "origin": "rss",
+    "origin": "rss+tree",
     "coins": []
   },
   {
@@ -143,10 +143,66 @@
     ]
   },
   {
+    "id": "746dd88b04c2f94909e3d0da32b89ce1afa48f52",
+    "title": "OCC Finalizes GENIUS Act Stablecoin Rules Ahead of January Deadline",
+    "link": "https://decrypt.co/381502/occ-finalizes-genius-act-stablecoin-rules-ahead-of-january-deadline",
+    "score": 74,
+    "snippet": "The rule sets reserve, redemption and risk standards for issuers, but the OCC has yet to say when it will begin accepting applications.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-10-21T11:52:23+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "f3c461eb0de9d549925371c4d52ace920eb95da4",
+    "title": "First out the gate: OCC debuts final rule implementing Trump-signed GENIUS Act",
+    "link": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
+    "score": 74,
+    "snippet": "OCC published its final GENIUS Act stablecoin rule, effective Jan. 18, dropping a proposed presumption on third-party rewards arrangements.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-21T11:01:02+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rule')",
+    "matched": "rule",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "8fbef7c023983536a81ae1d0d7d29dbcac98ebf9",
     "title": "Zcash verifies transactions without revealing the sender, recipient, or amount. In comments to the SEC, @pgpzcash urges regulators to ensure proposed crypto fundraising rules don't require public transaction histories, v",
     "link": "https://x.com/zodl_co/status/2112914601147064324#",
-    "score": 80,
+    "score": 74,
     "snippet": "Zcash verifies transactions without revealing the sender, recipient, or amount. In comments to the SEC, @pgpzcash urges regulators to ensure proposed crypto fundraising rules don't require public transaction histories, viewing keys, or disabling shielded transfers.",
     "regions": [
       "US"
@@ -171,31 +227,90 @@
     ]
   },
   {
-    "id": "f3c461eb0de9d549925371c4d52ace920eb95da4",
-    "title": "First out the gate: OCC debuts final rule implementing Trump-signed GENIUS Act",
-    "link": "https://www.theblock.co/news/regulation/2026-10-21-occ-final-rule-implementing-trump-signed-genius-act-421470",
-    "score": 74,
-    "snippet": "OCC published its final GENIUS Act stablecoin rule, effective Jan. 18, dropping a proposed presumption on third-party rewards arrangements.",
+    "id": "9592b5fc38a1dce696373012ebd911d76997eb06",
+    "title": "Elon Musk says SpaceX and Tesla are exploring a merger that would combine more than 30,000 bitcoin, the OCC tightens rules on stablecoin rewards, and Zcash prepares for an upgrade that could triple transaction speed. @je",
+    "link": "https://x.com/CoinDesk/status/2112991359724556744#",
+    "score": 70,
+    "snippet": "Elon Musk says SpaceX and Tesla are exploring a merger that would combine more than 30,000 bitcoin, the OCC tightens rules on stablecoin rewards, and Zcash prepares for an upgrade that could triple transaction speed. @jennsanasie has what you need to know.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
     "category": "regulation",
-    "source_tier": "B",
-    "consensus": 3,
+    "source_tier": "C",
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "theblock",
-    "source": "Google News RSS",
-    "published_at": "2026-10-21T11:01:02+00:00",
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-21T19:36:12.712000+00:00",
     "verdict": "kill",
     "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('rule')",
-    "matched": "rule",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ZEC"
+    ]
+  },
+  {
+    "id": "bda6d2a7817fecdf9983428670b59695aca0386b",
+    "title": "THE BLOCK: The fight between banks and crypto platforms has reignited after the OCC declined to weigh in on third-party stablecoin rewards, drawing accusations from the banking lobby that regulators are undermining Congr",
+    "link": "https://x.com/TheBlockCo/status/2112961228373156122#",
+    "score": 50,
+    "snippet": "THE BLOCK: The fight between banks and crypto platforms has reignited after the OCC declined to weigh in on third-party stablecoin rewards, drawing accusations from the banking lobby that regulators are undermining Congress. \"Those gaps risk undermining the distinction Congress drew between payment ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-21T17:36:28.957000+00:00",
+    "verdict": "kill",
+    "axis": "political",
+    "reason": "political framing ('lobby')",
+    "matched": "lobby",
+    "fulltext": false,
+    "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "1eb3d80ac5097cebc1e156b64112c3c81c31378b",
+    "title": "Introducing Prividium Commander: your digital assets control plane. Institutions can now take digital assets from pilots to revenue with one product that runs under their own rules and connects to the systems they alread",
+    "link": "https://x.com/zksync/status/2112957770937033119#",
+    "score": 50,
+    "snippet": "Introducing Prividium Commander: your digital assets control plane. Institutions can now take digital assets from pilots to revenue with one product that runs under their own rules and connects to the systems they already use.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:zksync",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-21T17:22:44.462000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ZK"
+    ]
   }
 ]
