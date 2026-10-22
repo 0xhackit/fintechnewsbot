@@ -10,7 +10,7 @@
     "snippet": "Fireblocks denied an Axios report that Visa is in talks to acquire the crypto custody firm for around $2.5 billion.",
     "published_at": "2026-10-22T13:27:54+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -19,14 +19,14 @@
       "id": "811f3799-94c6-5fee-a07c-2d3e82de93fa",
       "guidislink": false
     },
-    "score": 120,
+    "score": 114,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 50,
       "institution_bonus": 20,
@@ -55,7 +55,7 @@
     "snippet": "SoFi Bank launched SoFi Earn, a tokenized deposit paying 4.40% APY with FDIC coverage, allowing users to convert funds to stablecoins 24/7.",
     "published_at": "2026-10-22T13:13:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "tokenized deposit",
       "tokenized",
@@ -71,16 +71,68 @@
       "id": "https://cointelegraph.com/news/sofi-bank-issued-tokenized-deposit-yield-bearing-crypto-funds",
       "guidislink": true
     },
-    "score": 110,
+    "score": 104,
     "score_breakdown": {
       "tier1": 2,
       "tier2": 2,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 70,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "3f7c4cb2d884184a37f3b391bc95126bb95243e3fcd1f68ddcfa7ffa870b7b5f",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "ledger_insights",
+    "title": "SoFi launches retail tokenized deposits paying 4.4%",
+    "url": "https://www.ledgerinsights.com/sofi-launches-retail-tokenized-deposits-paying-4-4/",
+    "canonical_url": "https://ledgerinsights.com/sofi-launches-retail-tokenized-deposits-paying-4-4/",
+    "snippet": "Today SoFi Technologies unveiled SoFi Earn (SOFIE), a tokenized deposit at SoFi Bank with FDIC coverage that pays a variable 4.4%. When a customer wants to spend the money or move it on chain, they convert it into the bank’s stablecoin, SoFi USD. It is rolling out to SoFi Crypto members through Nove",
+    "published_at": "2026-10-22T17:49:21+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "tokenized deposit",
+      "stablecoin",
+      "tokenized",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://ledgerinsights.com/?p=44383",
+      "guidislink": false
+    },
+    "score": 100,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -107,7 +159,7 @@
     "snippet": "Digital asset and stablecoin infrastructure provider Fireblocks says that reports that it is in talks to be acquired by Visa for $2.5 billion are \"news to us\".",
     "published_at": "2026-10-22T15:46:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -154,7 +206,7 @@
     "snippet": "CMCC Global Partners with Tether and Bitfinex Securities to Launch the First Tokenised Fund-of-Funds Under El Salvador's Digital Asset Framework PR Newswire",
     "published_at": "2026-10-22T10:33:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "Tether",
       "launch",
@@ -194,21 +246,21 @@
     ]
   },
   {
-    "id": "f83b44a37aae7c8e3b65efe2bbb62c4c51d484db747eceb6d0411ac8695c1927",
+    "id": "950fb0d5dd595d504e85ba2f4c7477ca6a6ce086a5f2d2959e1d9c5efb13d8b2",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "SoFi Launches Tokenized Deposit That Earns 4.4% and Converts to a Stablecoin",
-    "url": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
-    "canonical_url": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
-    "snippet": "Each SOFIE token represents $1 on deposit at SoFi Bank, earning 4.40% APY with FDIC insurance—a yield-and-protection combination ordinary stablecoins lack.",
-    "published_at": "2026-10-22T12:01:03+00:00",
+    "feed_name": "finextra",
+    "title": "SoFi launches tokenised deposits",
+    "url": "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits",
+    "snippet": "SoFi Technologies, Inc. (NASDAQ: SOFI), the everything app for digital financial services, today announced the launch of SoFi Earn (SOFIE), the first and only national bank-issued tokenized deposit for consumers.",
+    "published_at": "2026-10-22T19:19:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "tokenized deposit",
-      "stablecoin",
       "tokenized",
+      "launch",
       "launches"
     ],
     "matched_topics": [
@@ -217,20 +269,20 @@
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=381174",
+      "id": "https://www.finextra.com/pressarticle/111421/sofi-launches-tokenised-deposits?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 75,
+    "score": 80,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
+      "tier1": 2,
+      "tier2": 2,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 30,
+      "launch_score": 70,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -246,45 +298,38 @@
     ]
   },
   {
-    "id": "9d211e0f47015de648b9b2d7a57a1f6f0067e9170c87ee645519241a4e103e72",
+    "id": "db02aee73b3877424cea1d176e6456f3c8b14e40c0d160cc0a1293f301e939a9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
-    "url": "https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
-    "canonical_url": "https://theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
-    "snippet": "SoFi has launched SOFIE, a tokenized deposit offering 4.4% APY and FDIC insurance, with the option to convert to SoFiUSD.",
-    "published_at": "2026-10-22T12:00:00+00:00",
+    "feed_name": "pymnts",
+    "title": "FinTechs Face Tough Licensing Choices as They Outgrow Early Setups",
+    "url": "https://www.pymnts.com/legal/2026/fintechs-face-tough-licensing-choices-outgrow-early-setups/",
+    "canonical_url": "https://pymnts.com/legal/2026/fintechs-face-tough-licensing-choices-outgrow-early-setups/",
+    "snippet": "Launching a FinTech often starts with a simple plan. Get the right state licenses, team up with a bank and start moving money. But success brings a new problem. Once a company adds overseas customers, large business clients or cryptocurrency services, that early setup can start to feel too small. Th",
+    "published_at": "2026-10-22T18:55:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
-    "matched_keywords": [
-      "tokenized deposit",
-      "tokenized",
-      "launches",
-      "launched"
-    ],
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "3964eeac-cc20-5ad6-8b42-57ab3e1ed8b9",
+      "id": "https://www.pymnts.com/?p=4329331",
       "guidislink": false
     },
     "score": 75,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
+      "tier1": 2,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 30,
+      "launch_score": 50,
+      "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 0,
+      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -308,7 +353,7 @@
     "snippet": "Banking advocacy organizations are pushing back against the OCC’s finalized rules on a stablecoin law, arguing against changes to provisions on yield.",
     "published_at": "2026-10-21T21:53:48+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "stablecoin",
       "Genius"
@@ -346,40 +391,191 @@
     ]
   },
   {
-    "id": "68bd491447bf74ec369213dabfd3afdbcfff93ae6fe2cfc5181c6677796830f2",
+    "id": "95dee8639753068e48510d5ce93c45ae807131efc16e4d677e0654e4a39609a5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "American Bankers Association accuses OCC of undermining Congress with final stablecoin rewards rule",
-    "url": "https://www.theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
-    "canonical_url": "https://theblock.co/news/regulation/2026-10-21-american-bankers-association-accuses-occ-undermining-congress-stablecoin-rewards-rule-421629",
-    "snippet": "The fight between banks and crypto has reignited after a top banking regulator declined to weigh in on third-party stablecoin rewards.",
-    "published_at": "2026-10-21T17:59:36+00:00",
+    "feed_name": "finextra",
+    "title": "Kalshi and BitGo allow customers to unlock crypto liquidity for margin",
+    "url": "https://www.finextra.com/pressarticle/111420/kalshi-and-bitgo-allow-customers-to-unlock-crypto-liquidity-for-margin?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/111420/kalshi-and-bitgo-allow-customers-to-unlock-crypto-liquidity-for-margin",
+    "snippet": "BitGo Holdings, Inc. (NYSE: BTGO) (“BitGo”), the digital asset infrastructure company, and Kalshi Prime, today announced the launch of HODL Margining, a Kalshi Prime network that enables eligible customers to fund fiat margin obligations with crypto holdings, without first selling any crypto assets.",
+    "published_at": "2026-10-22T19:16:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "launch"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "2844a58e-d7c2-55e3-a03e-84cc711cfa2e",
+      "id": "https://www.finextra.com/pressarticle/111420/kalshi-and-bitgo-allow-customers-to-unlock-crypto-liquidity-for-margin?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 74,
+    "score": 70,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "0333509826ee9c85815b4720cf5dda619a4061a6c1e5a9113c6397a8642218e2",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Underdog taps zerohash to bring crypto deposits to prediction markets",
+    "url": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets",
+    "snippet": "The new funding option, expected to launch later this year, will allow eligible Underdog users to deposit digital assets around the clock.",
+    "published_at": "2026-10-22T17:24:49+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "launch"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/underdog-taps-zerohash-to-bring-crypto-deposits-to-prediction-markets",
+      "guidislink": true
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 3,
       "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 60,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "f83b44a37aae7c8e3b65efe2bbb62c4c51d484db747eceb6d0411ac8695c1927",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "SoFi Launches Tokenized Deposit That Earns 4.4% and Converts to a Stablecoin",
+    "url": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
+    "canonical_url": "https://decrypt.co/381174/sofi-launches-tokenized-deposit-that-earns-4-4-and-moves-like-a-stablecoin",
+    "snippet": "Each SOFIE token represents $1 on deposit at SoFi Bank, earning 4.40% APY with FDIC insurance—a yield-and-protection combination ordinary stablecoins lack.",
+    "published_at": "2026-10-22T12:01:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "tokenized deposit",
+      "stablecoin",
+      "tokenized",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=381174",
+      "guidislink": false
+    },
+    "score": 69,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 0,
+      "launch_score": 35,
       "institution_bonus": 30,
       "financial_bonus": 0,
-      "regulatory_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9d211e0f47015de648b9b2d7a57a1f6f0067e9170c87ee645519241a4e103e72",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "SoFi launches interest-bearing, FDIC-insured tokenized deposit for crypto users",
+    "url": "https://www.theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
+    "canonical_url": "https://theblock.co/news/business/2026-10-22-sofi-fdic-insured-tokenized-deposit-421916",
+    "snippet": "SoFi has launched SOFIE, a tokenized deposit offering 4.4% APY and FDIC insurance, with the option to convert to SoFiUSD.",
+    "published_at": "2026-10-22T12:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "tokenized deposit",
+      "tokenized",
+      "launches",
+      "launched"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "3964eeac-cc20-5ad6-8b42-57ab3e1ed8b9",
+      "guidislink": false
+    },
+    "score": 69,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -403,7 +599,7 @@
     "snippet": "Bloomberg today announced that its Crypto Exposure Analytics now supports customers in assessing their compliance with the Basel Committee on Banking Supervision’s (BCBS) prudential standards for banks’ exposure to crypto assets and tokenized real-world assets.",
     "published_at": "2026-10-22T14:21:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -414,66 +610,19 @@
       "id": "https://www.finextra.com/pressarticle/111416/bloomberg-enables-scalable-crypto-asset-exposure-classification-under-base-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 70,
+    "score": 64,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 2,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 45,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "5964fcd3d288d2a8c42514dbff0c16b291413ffb4f4d7b5d17e17b74f2f7306c",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Thailand SEC says several companies eye crypto ETFs, none has applied",
-    "url": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications",
-    "snippet": "Thailand’s SEC says several asset managers have sought consultations on spot crypto ETFs, but it cannot confirm whether the first funds will launch in 2026.",
-    "published_at": "2026-10-22T13:20:57+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
-    "matched_keywords": [
-      "launch"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications",
-      "guidislink": true
-    },
-    "score": 65,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -497,7 +646,7 @@
     "snippet": "Aerodrome and Velodrome have merged to launch Aero across Ethereum mainnet, Base, Robinhood Chain, Ink, OP Mainnet, Arc, and Arbitrum.",
     "published_at": "2026-10-22T00:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "launch",
       "Arbitrum"
@@ -535,28 +684,28 @@
     ]
   },
   {
-    "id": "677c2d5fd86c4e9a585ebcedc7d2c326028f837b639c404c809a9435f56d9eab",
+    "id": "5964fcd3d288d2a8c42514dbff0c16b291413ffb4f4d7b5d17e17b74f2f7306c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "institutional_crypto_banks",
-    "title": "Standard Chartered Signs Agreement To Acquire Crypto Custodian Zodia Custody - Bitcoin Magazine",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NlFlUWtZNlE1SnA2dEV2TGdnUWJOZjcyVHhXUUkwWVhGcmY0NW1NeDctUWtvM3B2YXF5UGxBSEJHRzhuUVdkYTV3LVJJUWZQRkY1eXFteUJsR2V1MjNWS2RFNFY2U191QU1PUW1zMGxycDlIY0J4QTB2dkRHMzQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NlFlUWtZNlE1SnA2dEV2TGdnUWJOZjcyVHhXUUkwWVhGcmY0NW1NeDctUWtvM3B2YXF5UGxBSEJHRzhuUVdkYTV3LVJJUWZQRkY1eXFteUJsR2V1MjNWS2RFNFY2U191QU1PUW1zMGxycDlIY0J4QTB2dkRHMzQ?oc=5",
-    "snippet": "Standard Chartered Signs Agreement To Acquire Crypto Custodian Zodia Custody Bitcoin Magazine",
-    "published_at": "2026-10-21T17:30:28+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Thailand SEC says several companies eye crypto ETFs, none has applied",
+    "url": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications",
+    "snippet": "Thailand’s SEC says several asset managers have sought consultations on spot crypto ETFs, but it cannot confirm whether the first funds will launch in 2026.",
+    "published_at": "2026-10-22T13:20:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
-      "custody"
+      "launch"
     ],
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMif0FVX3lxTFB2NlFlUWtZNlE1SnA2dEV2TGdnUWJOZjcyVHhXUUkwWVhGcmY0NW1NeDctUWtvM3B2YXF5UGxBSEJHRzhuUVdkYTV3LVJJUWZQRkY1eXFteUJsR2V1MjNWS2RFNFY2U191QU1PUW1zMGxycDlIY0J4QTB2dkRHMzQ",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/thailand-sec-crypto-etf-applications",
+      "guidislink": true
     },
-    "score": 49,
+    "score": 59,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
@@ -566,7 +715,103 @@
       "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
-      "institution_bonus": 20,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9e03eb777e1b068e0e3f59367d0280ed104ac4fd3dd15e0462acebac818d2741",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Dune launches real-time data feeds covering 200 onchain trading venues",
+    "url": "https://cointelegraph.com/news/dune-launches-real-time-data-feeds-covering-200-onchain-trading-venues?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/dune-launches-real-time-data-feeds-covering-200-onchain-trading-venues",
+    "snippet": "The new service aims to bring onchain trading data into institutional financial systems as tokenized stock markets expand and face growing scrutiny.",
+    "published_at": "2026-10-22T20:36:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "tokenized",
+      "launches"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/dune-launches-real-time-data-feeds-covering-200-onchain-trading-venues",
+      "guidislink": true
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "014ce08bd82fd98cc68e1f48546721a1160c6fa41ffd39a4df294c33a6e610fc",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Winklevoss PAC moves into Texas Senate race with $81K ad buy",
+    "url": "https://cointelegraph.com/news/winklevoss-pac-texas-senate-race-media-paxton-talarico?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/winklevoss-pac-texas-senate-race-media-paxton-talarico",
+    "snippet": "While crypto-aligned PACs have stepped up spending in Ohio, a committee launched by the co-founders of crypto exchange Gemini made one of its first forays into the Lone Star State.",
+    "published_at": "2026-10-22T19:29:53+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "launched"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/winklevoss-pac-texas-senate-race-media-paxton-talarico",
+      "guidislink": true
+    },
+    "score": 45,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -592,7 +837,7 @@
     "snippet": "The new real-time market feeds will cover trade data from over 200 onchain venues across 12 blockchain networks.",
     "published_at": "2026-10-22T12:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "tokenized",
       "launches"
@@ -605,14 +850,14 @@
       "id": "b3d96612-0d8b-5eb6-a10f-d30344c082c9",
       "guidislink": false
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
       "institution_bonus": 0,
@@ -641,7 +886,7 @@
     "snippet": "JPM Coin Ethereum Launch 2026: Not a Stablecoin, and Why Memeburn",
     "published_at": "2026-10-22T14:10:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -661,7 +906,7 @@
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -690,7 +935,7 @@
     "snippet": "GCEX has launched options on Bitcoin (BTC) and Ethereum (ETH) for eligible professional and institutional clients.",
     "published_at": "2026-10-22T14:07:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "launches",
       "launched"
@@ -709,7 +954,7 @@
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 0,
@@ -738,7 +983,7 @@
     "snippet": "Cross-border payments remain slow and expensive but fintech outfits such as Wise and Remitly have substantially cut costs relative to traditional retail bank wires while stabelcoins still suffer from issues with friction, according to BIS research.",
     "published_at": "2026-10-22T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "cross-border"
     ],
@@ -775,51 +1020,6 @@
     ]
   },
   {
-    "id": "be56c34779db0ff855e384db10538bb1fca2f286eb7a30be653a57233ed81045",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
-    "url": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
-    "canonical_url": "https://coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
-    "snippet": "",
-    "published_at": "2026-10-22T14:37:12+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
-    "matched_keywords": [
-      "custody"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "a02a4fb4-ad07-4c1a-ab58-ac89a879d717",
-      "guidislink": false
-    },
-    "score": 30,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "02af3e87c7b80b030c7f0b3199a96ae73eed408fbc75af4cbee625283edfa152",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -830,7 +1030,7 @@
     "snippet": "The bill seeks to establish a framework for digital assets, including licensing regimes for exchanges and rules for stablecoin issuance.",
     "published_at": "2026-10-22T09:11:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuance"
@@ -868,6 +1068,100 @@
     ]
   },
   {
+    "id": "be56c34779db0ff855e384db10538bb1fca2f286eb7a30be653a57233ed81045",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa",
+    "url": "https://www.coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
+    "canonical_url": "https://coindesk.com/business/2026/10/22/crypto-custody-specialist-fireblocks-denies-its-in-talks-to-be-acquired-by-visa",
+    "snippet": "",
+    "published_at": "2026-10-22T14:37:12+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "a02a4fb4-ad07-4c1a-ab58-ac89a879d717",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "0dfb139f2b5d7f7ef58ea4bfaf121574af21ca5bf4ff11e72d2ea509e748041b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Square Tech and GOAT Network Sign MOU to Advance AI Agent-Powered Stablecoin Payments in South Korea - Bitcoin Magazine",
+    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQekxJaVExQ1NjZmlvV1lqZng4RFVienFXTG9kdmFQLTNNbnJSNTNMVmFfMTgyNU9FM1E4UzFOTFlXQjFjcFRicjFldjVONjVFZHlGazZPWFVKb01QUUdvT0x2dzdVSzlSWUU0R3JqR29yeHBfTk9vMDVjbS1qYzRXeTMtaTI3QTZiaUdTajJQRDA1UHhqTmxXRFZVN2E4YnNNRk9zakhUNHROX09pWFpHcC0tSndhNGtVOXo0RkpPekV5bTU4SndubGRlR00yT1dVbjdqWU9Pd3RqRms?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQekxJaVExQ1NjZmlvV1lqZng4RFVienFXTG9kdmFQLTNNbnJSNTNMVmFfMTgyNU9FM1E4UzFOTFlXQjFjcFRicjFldjVONjVFZHlGazZPWFVKb01QUUdvT0x2dzdVSzlSWUU0R3JqR29yeHBfTk9vMDVjbS1qYzRXeTMtaTI3QTZiaUdTajJQRDA1UHhqTmxXRFZVN2E4YnNNRk9zakhUNHROX09pWFpHcC0tSndhNGtVOXo0RkpPekV5bTU4SndubGRlR00yT1dVbjdqWU9Pd3RqRms?oc=5",
+    "snippet": "Square Tech and GOAT Network Sign MOU to Advance AI Agent-Powered Stablecoin Payments in South Korea Bitcoin Magazine",
+    "published_at": "2026-10-22T13:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMi2wFBVV95cUxQekxJaVExQ1NjZmlvV1lqZng4RFVienFXTG9kdmFQLTNNbnJSNTNMVmFfMTgyNU9FM1E4UzFOTFlXQjFjcFRicjFldjVONjVFZHlGazZPWFVKb01QUUdvT0x2dzdVSzlSWUU0R3JqR29yeHBfTk9vMDVjbS1qYzRXeTMtaTI3QTZiaUdTajJQRDA1UHhqTmxXRFZVN2E4YnNNRk9zakhUNHROX09pWFpHcC0tSndhNGtVOXo0RkpPekV5bTU4SndubGRlR00yT1dVbjdqWU9Pd3RqRms",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "6a443bba36606a11ea78e77bf21a8433acfce1a87a38232d6ad09c1c4b8b2387",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -878,7 +1172,7 @@
     "snippet": "Stablecoins can ease Vietnam cross-border settlement, but domestic payments stay on local rails: Circle TNGlobal",
     "published_at": "2026-10-22T09:50:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "Circle",
       "settlement",
@@ -927,7 +1221,7 @@
     "snippet": "Binance Co-Founder CZ Says No Crypto Wallet or Software Is 100% Safe bloomingbit",
     "published_at": "2026-10-22T15:05:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -974,7 +1268,7 @@
     "snippet": "Circle CEO Shrugs Off Bitcoin's Slump and Pitches Digital Dollars for the AI Era BeInCrypto",
     "published_at": "2026-10-22T03:13:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -1021,7 +1315,7 @@
     "snippet": "Tether Leads Pre-Seed Round in Bolivian Fintech Peso to Spread USDT Payments Across Latin America BigGo Finance",
     "published_at": "2026-10-21T21:35:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -1059,54 +1353,6 @@
     ]
   },
   {
-    "id": "d187424b18668a426ed419dff4ca32142f8f441de824b7f64a994d3619a6f4da",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcE5PUDRieHlwRFZRQjUtVEJoZGVnbTF5TEtmbEFyTHZKaWVXTUpsTXJMZk5POFNzT21CdWpJeXVaZzBsR0dPc21kOWZyUEc4bkZPVTRDVjhlOUpzU0ttUHBGYTVvM0UxNWx0WE1pQjdFNG93YmJWaVNXbUV4RnVvdlRlQmYySUtLOGFVWV9NUEc3QmNfWkFLYkgtSDJPWlV1QjA5b29NQkwzejF6MUcybFNlQnBkeVc0MFgzcG9RdGIxME5vdWZSSlF4MVdtbkFWSE5UQWV4Mmh2cnVCSVE?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPcE5PUDRieHlwRFZRQjUtVEJoZGVnbTF5TEtmbEFyTHZKaWVXTUpsTXJMZk5POFNzT21CdWpJeXVaZzBsR0dPc21kOWZyUEc4bkZPVTRDVjhlOUpzU0ttUHBGYTVvM0UxNWx0WE1pQjdFNG93YmJWaVNXbUV4RnVvdlRlQmYySUtLOGFVWV9NUEc3QmNfWkFLYkgtSDJPWlV1QjA5b29NQkwzejF6MUcybFNlQnBkeVc0MFgzcG9RdGIxME5vdWZSSlF4MVdtbkFWSE5UQWV4Mmh2cnVCSVE?oc=5",
-    "snippet": "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking TradingView",
-    "published_at": "2026-10-21T20:26:07+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
-    "matched_keywords": [
-      "USDT",
-      "Tether"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMi3gFBVV95cUxPcE5PUDRieHlwRFZRQjUtVEJoZGVnbTF5TEtmbEFyTHZKaWVXTUpsTXJMZk5POFNzT21CdWpJeXVaZzBsR0dPc21kOWZyUEc4bkZPVTRDVjhlOUpzU0ttUHBGYTVvM0UxNWx0WE1pQjdFNG93YmJWaVNXbUV4RnVvdlRlQmYySUtLOGFVWV9NUEc3QmNfWkFLYkgtSDJPWlV1QjA5b29NQkwzejF6MUcybFNlQnBkeVc0MFgzcG9RdGIxME5vdWZSSlF4MVdtbkFWSE5UQWV4Mmh2cnVCSVE",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "92c86ce002ffe6244de2ab7ced0fa6bcc9107ec01c0334e36ba7e973b59d33b5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1117,7 +1363,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1162,7 +1408,7 @@
     "snippet": "",
     "published_at": "2026-10-22T14:58:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1207,7 +1453,7 @@
     "snippet": "At Sibos 2026, Hashgraph’s CIO Gregg Bell discusses how to replace risky blockchain bridges to make Web3 settlements faster, safer, and fully private for global finance.",
     "published_at": "2026-10-22T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1242,53 +1488,6 @@
     ]
   },
   {
-    "id": "1b40c23824392e88615527a198a55cd217dce1ac314512443a0063cc4e734ddd",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "The Stablecoin Highway Is Open. The Accountability Gap Remains.",
-    "url": "https://www.finextra.com/blogposting/33253/the-stablecoin-highway-is-open-the-accountability-gap-remains?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/blogposting/33253/the-stablecoin-highway-is-open-the-accountability-gap-remains",
-    "snippet": "Author: A finextra community member",
-    "published_at": "2026-10-22T07:44:04+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/blogposting/33253/the-stablecoin-highway-is-open-the-accountability-gap-remains?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "7f22f8d996ca2e580d9e396da33de75340b230b41ded70153bfd0f0358d71b2f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1299,7 +1498,7 @@
     "snippet": "",
     "published_at": "2026-10-22T12:14:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [
       "settlement"
     ],
@@ -1310,64 +1509,19 @@
       "id": "c0c3cb1b-1c48-4937-8aea-4ac17b0f9b57",
       "guidislink": false
     },
-    "score": 0,
+    "score": -6,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "04184ebb3919713fd51ae1299289beca588b6314faaea9e4f60ceb3491e6a847",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Cardano Foundation urges EU against expanding MiCA rules to DeFi and staking",
-    "url": "https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking",
-    "snippet": "The foundation called for regulation based on financial risks rather than technology, warning that overlapping rules could create uncertainty for crypto businesses across the EU.",
-    "published_at": "2026-10-21T17:57:39+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
-    "matched_keywords": [
-      "MiCA"
-    ],
-    "matched_topics": [],
-    "raw": {
-      "id": "https://cointelegraph.com/news/cardano-foundation-urges-eu-against-expanding-mica-rules-to-defi-and-staking",
-      "guidislink": true
-    },
-    "score": -1,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
       "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -1391,7 +1545,7 @@
     "snippet": "As fintech products become increasingly capable, the infrastructure behind them fades into the background. Three trends from Money20/20 show how stablecoins, agents, and always-on money are changing financial services.",
     "published_at": "2026-10-22T00:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-22T17:27:46.414507+00:00",
+    "fetched_at": "2026-10-22T20:42:54.066731+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
