@@ -3,7 +3,7 @@
     "id": "bccb7b989fae5a1cbf4be69272b81a92aeb3b218",
     "title": "LATEST: The UK’s FCA publishes two consultations on DeFi regulation and crypto perimeter guidance, clarifying which activities require FCA authorization ahead of the full regime launching October 2027 with responses due",
     "link": "https://x.com/CoinDesk/status/2112967150981796072#",
-    "score": 105,
+    "score": 99,
     "snippet": "LATEST: The UK’s FCA publishes two consultations on DeFi regulation and crypto perimeter guidance, clarifying which activities require FCA authorization ahead of the full regime launching October 2027 with responses due November 18.",
     "regions": [
       "EU"
@@ -56,34 +56,60 @@
     "coins": []
   },
   {
-    "id": "b651f9526e530b74032f8e7c9b9c9b02ddbe89a9",
-    "title": "THE BLOCK: A Colombia-based crypto broker has been sentenced to 160 months in prison for helping launder drug trafficking proceeds through Tether's USDT and participating in a scheme to import cocaine into the U.S., the",
-    "link": "https://x.com/TheBlockCo/status/2112976635423232023#",
-    "score": 65,
-    "snippet": "THE BLOCK: A Colombia-based crypto broker has been sentenced to 160 months in prison for helping launder drug trafficking proceeds through Tether's USDT and participating in a scheme to import cocaine into the U.S., the Department of Justice announced Wednesday. Leonardo de Jesus Zuluaga Duque, alon",
+    "id": "710b24cf3587006d7993dbd70dc30f5f91d2236e",
+    "title": "HASHED NEWS This week: the @hedera Network MCP goes live on testnet, Hedera mainnet completes its upgrade to v0.78.1, Mirror Node v0.165.0 ships, Hedera names the Scaffold-HBAR template winners, and Hashgraph takes part",
+    "link": "https://x.com/HederaCommunity/status/2113057097474543847#",
+    "score": 70,
+    "snippet": "HASHED NEWS This week: the @hedera Network MCP goes live on testnet, Hedera mainnet completes its upgrade to v0.78.1, Mirror Node v0.165.0 ships, Hedera names the Scaffold-HBAR template winners, and Hashgraph takes part in LF Decentralized Trust's Privacy Workshop in New York. 🧵",
     "regions": [
-      "LatAm"
+      "US"
     ],
-    "primary_region": "LatAm",
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:hederacommunity",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-21T23:57:25.928000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('goes live')",
+    "matched": "goes live",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HBAR"
+    ]
+  },
+  {
+    "id": "ab8facc452bfaaca360a49ad2ffae0fed97e15ee",
+    "title": "THE BLOCK: SEC lists three firms that have filed notices to operate tokenized securities venues under its Innovation Exemption: TSV LLC, OKXICE TSV, and Perpetuals[dot]com (Kephas Corporation). \"Inclusion on the list doe",
+    "link": "https://x.com/TheBlockCo/status/2113068902502871471#",
+    "score": 60,
+    "snippet": "THE BLOCK: SEC lists three firms that have filed notices to operate tokenized securities venues under its Innovation Exemption: TSV LLC, OKXICE TSV, and Perpetuals[dot]com (Kephas Corporation). \"Inclusion on the list does not mean that the person meets the definition of 'Tokenized Securities Venue' ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-21T18:37:42.261000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-10-22T00:44:20.731000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('lists')",
+    "matched": "lists",
     "fulltext": true,
     "origin": "tree",
-    "coins": [
-      "BASED"
-    ]
+    "coins": []
   },
   {
     "id": "44e83e6c618fff9de2cb3c3a1db3942035c8146a",
@@ -111,6 +137,36 @@
     "origin": "tree",
     "coins": [
       "SKL"
+    ]
+  },
+  {
+    "id": "b651f9526e530b74032f8e7c9b9c9b02ddbe89a9",
+    "title": "THE BLOCK: A Colombia-based crypto broker has been sentenced to 160 months in prison for helping launder drug trafficking proceeds through Tether's USDT and participating in a scheme to import cocaine into the U.S., the",
+    "link": "https://x.com/TheBlockCo/status/2112976635423232023#",
+    "score": 59,
+    "snippet": "THE BLOCK: A Colombia-based crypto broker has been sentenced to 160 months in prison for helping launder drug trafficking proceeds through Tether's USDT and participating in a scheme to import cocaine into the U.S., the Department of Justice announced Wednesday. Leonardo de Jesus Zuluaga Duque, alon",
+    "regions": [
+      "LatAm"
+    ],
+    "primary_region": "LatAm",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-21T18:37:42.261000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BASED"
     ]
   },
   {
