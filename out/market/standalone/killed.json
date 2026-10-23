@@ -1,9 +1,47 @@
 [
   {
+    "id": "90cabcb20446feb36c19f05bb2fcd86af2adf8b2",
+    "title": "Crypto News - 23 October 2026 The Office of the Comptroller of the Currency issued final regulations on October 21 implementing the GENIUS Act for payment stablecoins under its supervision. The rules cover reserve backin",
+    "link": "https://x.com/metalpaysme/status/2113756822075293941#",
+    "score": 90,
+    "snippet": "Crypto News - 23 October 2026 The Office of the Comptroller of the Currency issued final regulations on October 21 implementing the GENIUS Act for payment stablecoins under its supervision. The rules cover reserve backing, redemptions, custody, risk management, audits and the approval process for el",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:metalpaysme",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-23T22:17:53.334000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "MTL",
+      "GENIUS",
+      "IBIT",
+      "ETH",
+      "XRP",
+      "LTC",
+      "DOGE",
+      "MMT",
+      "BTC",
+      "XLM",
+      "SOL"
+    ]
+  },
+  {
     "id": "ddab0bd03660b6a06282006045539c3fb420521d",
     "title": "WuBlockchain Weekly: a16z plans to drop “Crypto” from its flagship fund name, CZ warns of critical PHP vulnerabilities under active exploitation, and the OCC issues its first rule under the GENIUS Act. Solana activates i",
     "link": "https://x.com/WuBlockchain/status/2113638961239482766#",
-    "score": 90,
+    "score": 84,
     "snippet": "WuBlockchain Weekly: a16z plans to drop “Crypto” from its flagship fund name, CZ warns of critical PHP vulnerabilities under active exploitation, and the OCC issues its first rule under the GENIUS Act. Solana activates its Alpenglow upgrade targeting 150ms finality, while Switzerland approves its fi",
     "regions": [
       "US"
@@ -35,7 +73,7 @@
     "id": "33aa8d27cc58e06d81559923aa1affd2bf8f5b88",
     "title": "Too many everyday Americans are losing money to new offerings. That has to change. Investors deserve to know what’s promised before they buy and who’s accountable. The SEC’s proposed rule delivers that baseline, and prot",
     "link": "https://x.com/s_alderoty/status/2113661518189568099#",
-    "score": 80,
+    "score": 74,
     "snippet": "Too many everyday Americans are losing money to new offerings. That has to change. Investors deserve to know what’s promised before they buy and who’s accountable. The SEC’s proposed rule delivers that baseline, and protects issuers who play by the rules. Those who try to evade the rules will be eas",
     "regions": [
       "US"
@@ -103,7 +141,7 @@
     "primary_region": "EU",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -116,7 +154,35 @@
     "reason": "policy/rule-making, not a concrete action ('debate')",
     "matched": "debate",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "660e3b9ad885401862582c8bd45b833e677a2176",
+    "title": "SEC's Tokenization Exemption Sparks Questions Over Which Blockchains Qualify",
+    "link": "https://www.cryptoinamerica.com/p/secs-tokenization-exemption-sparks",
+    "score": 50,
+    "snippet": "SEC's Tokenization Exemption Sparks Questions Over Which Blockchains Qualify",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:crypto in america",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-23T21:22:33.802000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('questions')",
+    "matched": "questions",
+    "fulltext": false,
+    "origin": "tree",
     "coins": []
   },
   {
@@ -171,32 +237,6 @@
     "matched": "senator",
     "fulltext": false,
     "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "a03d656e2d487e149643c7ca3c9554dd21649d91",
-    "title": "Is the Internet Safe Again After the PHP Nightmare? What You Need to Know",
-    "link": "https://decrypt.co/381662/internet-safe-again-after-php-nightmare-what-you-need-know",
-    "score": 35,
-    "snippet": "PHP shipped its fix, attackers launched millions of attempts, and governments say no one has broken in yet. Here's what that means for your passwords, your crypto, and your browsing.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "decrypt",
-    "source": "Google News RSS",
-    "published_at": "2026-10-22T22:21:46+00:00",
-    "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('need to')",
-    "matched": "need to",
-    "fulltext": false,
-    "origin": "rss",
     "coins": []
   }
 ]
