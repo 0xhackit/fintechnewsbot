@@ -28,30 +28,96 @@
     "coins": []
   },
   {
-    "id": "63eda3e1b86e202085c04c188acf8b530928ea2e",
-    "title": "Bloomberg enables scalable crypto asset exposure classification under Base framework",
-    "link": "https://www.finextra.com/pressarticle/111416/bloomberg-enables-scalable-crypto-asset-exposure-classification-under-base-framework?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 64,
-    "snippet": "Bloomberg today announced that its Crypto Exposure Analytics now supports customers in assessing their compliance with the Basel Committee on Banking Supervision’s (BCBS) prudential standards for banks’ exposure to crypto assets and tokenized real-world assets.",
-    "regions": [],
-    "primary_region": null,
+    "id": "ddab0bd03660b6a06282006045539c3fb420521d",
+    "title": "WuBlockchain Weekly: a16z plans to drop “Crypto” from its flagship fund name, CZ warns of critical PHP vulnerabilities under active exploitation, and the OCC issues its first rule under the GENIUS Act. Solana activates i",
+    "link": "https://x.com/WuBlockchain/status/2113638961239482766#",
+    "score": 90,
+    "snippet": "WuBlockchain Weekly: a16z plans to drop “Crypto” from its flagship fund name, CZ warns of critical PHP vulnerabilities under active exploitation, and the OCC issues its first rule under the GENIUS Act. Solana activates its Alpenglow upgrade targeting 150ms finality, while Switzerland approves its fi",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "regulation",
-    "source_tier": "B",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-23T14:29:33.022000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('warns')",
+    "matched": "warns",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "GENIUS",
+      "ETH",
+      "BTC",
+      "SOL",
+      "BNB"
+    ]
+  },
+  {
+    "id": "33aa8d27cc58e06d81559923aa1affd2bf8f5b88",
+    "title": "Too many everyday Americans are losing money to new offerings. That has to change. Investors deserve to know what’s promised before they buy and who’s accountable. The SEC’s proposed rule delivers that baseline, and prot",
+    "link": "https://x.com/s_alderoty/status/2113661518189568099#",
+    "score": 80,
+    "snippet": "Too many everyday Americans are losing money to new offerings. That has to change. Investors deserve to know what’s promised before they buy and who’s accountable. The SEC’s proposed rule delivers that baseline, and protects issuers who play by the rules. Those who try to evade the rules will be eas",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
-    "feed_name": "finextra",
-    "source": "Google News RSS",
-    "published_at": "2026-10-22T14:21:00+00:00",
+    "feed_name": "tree:x:s_alderoty",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-23T15:59:10.980000+00:00",
     "verdict": "kill",
     "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('framework')",
-    "matched": "framework",
+    "reason": "policy/rule-making, not a concrete action ('rule')",
+    "matched": "rule",
     "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "333a8c42308dee6b520db01b2380bb99f2070197",
+    "title": "The OCC's Final GENIUS Act Rules: What Stablecoin Issuers Need to Know",
+    "link": "https://www.certik.com/blog/the-occs-final-genius-act-rules-what-stablecoin-issuers-need-to-know",
+    "score": 80,
+    "snippet": "The OCC's Final GENIUS Act Rules: What Stablecoin Issuers Need to Know",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:ctk",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-23T12:35:34.752000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('need to')",
+    "matched": "need to",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "GENIUS"
+    ]
   },
   {
     "id": "9cc230bd9e1ac63123787337ad93260738552dd9",
@@ -119,7 +185,7 @@
     "primary_region": null,
     "category": "product",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -132,7 +198,7 @@
     "reason": "commentary/opinion framing ('need to')",
     "matched": "need to",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   }
 ]
