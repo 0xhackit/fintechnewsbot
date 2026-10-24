@@ -19,7 +19,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorization')",
     "matched": "authorization",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE",
@@ -30,7 +30,7 @@
     "id": "0eef86d06eed4a26ac76bd6ac9a40cbd685d7895",
     "title": "This Week in Crypto, brought to you by Holoworld @SoFi launched a tokenized deposit paying 4.4% APY, with funds convertible into SoFiUSD for crypto purchases and transfers. @solana activated Alpenglow on mainnet, targeti",
     "link": "https://x.com/HoloworldAI/status/2113847249201660066#",
-    "score": 95,
+    "score": 89,
     "snippet": "This Week in Crypto, brought to you by Holoworld @SoFi launched a tokenized deposit paying 4.4% APY, with funds convertible into SoFiUSD for crypto purchases and transfers. @solana activated Alpenglow on mainnet, targeting ~150ms finality, while @bitgetglobal announced plans to acquire a licensed Th",
     "regions": [],
     "primary_region": null,
@@ -50,10 +50,41 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HOLO",
+      "SOL"
+    ]
+  },
+  {
+    "id": "c538f165ccf144cdd7409ffa452403a80d8ca14d",
+    "title": "This is what tokenized equities on Solana look like right now “We’ve done over 100 listings on Solana. Over $300 billion in volume, and that’s rising. When SpaceX launched, we launched that within minutes of the IPO.” @s",
+    "link": "https://x.com/solana/status/2113884444180586533#",
+    "score": 85,
+    "snippet": "This is what tokenized equities on Solana look like right now “We’ve done over 100 listings on Solana. Over $300 billion in volume, and that’s rising. When SpaceX launched, we launched that within minutes of the IPO.” @shadddowfax @sunrise @scottmelker",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:solana",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-24T06:45:00.592000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
       "SOL"
     ]
   },
@@ -81,39 +112,10 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('ban')",
     "matched": "ban",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "QNT"
-    ]
-  },
-  {
-    "id": "ce4d9ebb4f3a4b5f26272eedb522e8ba618710d7",
-    "title": "This is a massive leap forward for our ecosystem! @Crypto_Potato just highlighted our Buyback Multiplier launch. We're tying up to 4x matched buybacks directly to member travel rewards and locking them in the reserve onc",
-    "link": "https://x.com/travalacom/status/2113812735297261798#",
-    "score": 60,
-    "snippet": "This is a massive leap forward for our ecosystem! @Crypto_Potato just highlighted our Buyback Multiplier launch. We're tying up to 4x matched buybacks directly to member travel rewards and locking them in the reserve onchain 🔒 Read the full coverage: https://cryptopotato.com/travala-introduces-ava-b",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:travalacom",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-24T02:00:03.827000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AVA"
     ]
   },
   {
@@ -167,40 +169,10 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ONDO",
-      "BASED"
-    ]
-  },
-  {
-    "id": "8076c75dcc53e0c6e1f5bc64598936fb6e525fa2",
-    "title": "📢Announcement: Upgrade to the JST Buyback & Burn Mechanism The JST Buyback & Burn Program is entering a new phase. The upgraded mechanism introduces unified governance under JUST DAO, a minimum $50 million treasury reser",
-    "link": "https://x.com/DeFi_JUST/status/2113627754025357574#",
-    "score": 59,
-    "snippet": "📢Announcement: Upgrade to the JST Buyback & Burn Mechanism The JST Buyback & Burn Program is entering a new phase. The upgraded mechanism introduces unified governance under JUST DAO, a minimum $50 million treasury reserve for risk mitigation, emergency redemptions, and liquidity support, and a buyb",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:defi_just",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-23T13:45:00.930000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('introduces')",
-    "matched": "introduces",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "JST",
-      "T",
       "BASED"
     ]
   },
@@ -233,6 +205,35 @@
     "coins": []
   },
   {
+    "id": "ce4d9ebb4f3a4b5f26272eedb522e8ba618710d7",
+    "title": "This is a massive leap forward for our ecosystem! @Crypto_Potato just highlighted our Buyback Multiplier launch. We're tying up to 4x matched buybacks directly to member travel rewards and locking them in the reserve onc",
+    "link": "https://x.com/travalacom/status/2113812735297261798#",
+    "score": 54,
+    "snippet": "This is a massive leap forward for our ecosystem! @Crypto_Potato just highlighted our Buyback Multiplier launch. We're tying up to 4x matched buybacks directly to member travel rewards and locking them in the reserve onchain 🔒 Read the full coverage: https://cryptopotato.com/travala-introduces-ava-b",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:travalacom",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-24T02:00:03.827000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "AVA"
+    ]
+  },
+  {
     "id": "ebb9ab6a38951f908be97ccffb685b72696668e3",
     "title": "BAM Changelog — October 9–23, 2026 Two big network changes landed in the last two weeks. Solana moved to 200ms slots, and Alpenglow went live on mainnet. BAM came through both on schedule. We also launched Direct Bundle",
     "link": "https://x.com/jito/status/2113779994849869993#",
@@ -254,7 +255,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "JTO",
@@ -268,8 +269,10 @@
     "link": "https://x.com/BoundlessHQ/status/2113664452151136323#",
     "score": 54,
     "snippet": "Introducing Boundless Defensive Access. The security industry is facing an unprecedented volume of attacks. It’s time to arm defenders. Access abliterated models for authorized security testing, starting with DeepSeek V4.1 Flash 1017. Apply: https://boundless.network/defensive-access",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -282,92 +285,10 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('authorized')",
     "matched": "authorized",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZKC"
-    ]
-  },
-  {
-    "id": "b6a90b3d3cb85093ef0cc613e30fd229e6128548",
-    "title": "From Players to Creators: Introducing Tiktikluck Today Adventure Layer is launching Tiktikluck, a new home for AI Playables, built around a simple idea: anyone should be able to turn their imagination into something othe",
-    "link": "https://x.com/AdventureLayer/status/2113618451915022847#",
-    "score": 54,
-    "snippet": "From Players to Creators: Introducing Tiktikluck Today Adventure Layer is launching Tiktikluck, a new home for AI Playables, built around a simple idea: anyone should be able to turn their imagination into something others can play. Every player has had a moment like this: A game introduces an inter",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:adventurelayer",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-23T13:08:03.146000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AGLD"
-    ]
-  },
-  {
-    "id": "0b617126cd5ff97c0685c7d1ca8c6e8da162c7eb",
-    "title": "From Players to Creators: Introducing Tiktikluck Today AGLD is launching Tiktikluck, a new home for AI Playables, built around a simple idea: anyone should be able to turn their imagination into something others can play",
-    "link": "https://x.com/AdventureLayer/status/2113601679274975408#",
-    "score": 54,
-    "snippet": "From Players to Creators: Introducing Tiktikluck Today AGLD is launching Tiktikluck, a new home for AI Playables, built around a simple idea: anyone should be able to turn their imagination into something others can play. Every player has had a moment like this: A game introduces an interesting mech",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:adventurelayer",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-23T12:01:24.237000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AGLD"
-    ]
-  },
-  {
-    "id": "6fabafc1ec03cea5c511d28962805863d846f936",
-    "title": "Bitcoin Price Bets Help Push Weekly Crypto Volume on Kalshi and Polymarket to Record $2.7B Bloomberg, citing data compiled by a Dune Analytics user, reported that weekly notional volume in crypto-related contracts on Kal",
-    "link": "https://x.com/WuBlockchain/status/2113857204277379174#",
-    "score": 50,
-    "snippet": "Bitcoin Price Bets Help Push Weekly Crypto Volume on Kalshi and Polymarket to Record $2.7B Bloomberg, citing data compiled by a Dune Analytics user, reported that weekly notional volume in crypto-related contracts on Kalshi and Polymarket hit a record $2.7 billion last week, driven mainly by bets on",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-24T04:56:46.196000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
     ]
   },
   {
@@ -509,6 +430,34 @@
     "coins": []
   },
   {
+    "id": "6fabafc1ec03cea5c511d28962805863d846f936",
+    "title": "Bitcoin Price Bets Help Push Weekly Crypto Volume on Kalshi and Polymarket to Record $2.7B Bloomberg, citing data compiled by a Dune Analytics user, reported that weekly notional volume in crypto-related contracts on Kal",
+    "link": "https://x.com/WuBlockchain/status/2113857204277379174#",
+    "score": 44,
+    "snippet": "Bitcoin Price Bets Help Push Weekly Crypto Volume on Kalshi and Polymarket to Record $2.7B Bloomberg, citing data compiled by a Dune Analytics user, reported that weekly notional volume in crypto-related contracts on Kalshi and Polymarket hit a record $2.7 billion last week, driven mainly by bets on",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-24T04:56:46.196000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
     "id": "da96cf3f927bc3cacc5014a4a46bcc3b33529655",
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
@@ -540,8 +489,10 @@
     "link": "https://x.com/Ondo/status/2113651841720344800#",
     "score": 44,
     "snippet": "“If the technology's better, it will prevail.” Ondo's John Hoffman on why the advantages of tokenization are becoming impossible to ignore. “We're seeing the early signs that this technology is truly disruptive and innovative. I think this market is over $100 trillion in time.” The opportunity goes ",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -556,7 +507,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ONDO"
@@ -582,7 +533,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ETH",
