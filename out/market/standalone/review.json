@@ -1,36 +1,5 @@
 [
   {
-    "id": "0eef86d06eed4a26ac76bd6ac9a40cbd685d7895",
-    "title": "This Week in Crypto, brought to you by Holoworld @SoFi launched a tokenized deposit paying 4.4% APY, with funds convertible into SoFiUSD for crypto purchases and transfers. @solana activated Alpenglow on mainnet, targeti",
-    "link": "https://x.com/HoloworldAI/status/2113847249201660066#",
-    "score": 89,
-    "snippet": "This Week in Crypto, brought to you by Holoworld @SoFi launched a tokenized deposit paying 4.4% APY, with funds convertible into SoFiUSD for crypto purchases and transfers. @solana activated Alpenglow on mainnet, targeting ~150ms finality, while @bitgetglobal announced plans to acquire a licensed Th",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:holoworldai",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-24T04:17:12.730000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HOLO",
-      "SOL"
-    ]
-  },
-  {
     "id": "c538f165ccf144cdd7409ffa452403a80d8ca14d",
     "title": "This is what tokenized equities on Solana look like right now “We’ve done over 100 listings on Solana. Over $300 billion in volume, and that’s rising. When SpaceX launched, we launched that within minutes of the IPO.” @s",
     "link": "https://x.com/solana/status/2113884444180586533#",
@@ -62,10 +31,66 @@
     ]
   },
   {
+    "id": "625f895b44865c6168ce7cb49fc026db0910b1da",
+    "title": "@renato_mariotti breaks down how the OCC's final stablecoin rule leaves exchange rewards programs to be decided case by case, while a January 18 deadline puts pressure on issuers to secure federal approval. Thank you to",
+    "link": "https://x.com/CoinDesk/status/2114205312727302338#",
+    "score": 70,
+    "snippet": "@renato_mariotti breaks down how the OCC's final stablecoin rule leaves exchange rewards programs to be decided case by case, while a January 18 deadline puts pressure on issuers to secure federal approval. Thank you to @SPGlobalRatings 👋 for being a sponsor of the CoinDesk Media Network.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-25T04:00:01.693000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "9a38f1363913b3658d234d9d96740cce821e9e64",
+    "title": "$15K in @hedera bounties at @ETHGlobal Mumbai, starting November 5. With the Network MCP on testnet and Agent Accounts announced this week, agent-native apps feel like the obvious track to build for. Builders in India: w",
+    "link": "https://x.com/HederaCommunity/status/2114165300346376375#",
+    "score": 60,
+    "snippet": "$15K in @hedera bounties at @ETHGlobal Mumbai, starting November 5. With the Network MCP on testnet and Agent Accounts announced this week, agent-native apps feel like the obvious track to build for. Builders in India: who's going?",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:hederacommunity",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-25T01:21:01.928000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HBAR"
+    ]
+  },
+  {
     "id": "40bf370f62325cb9a1f3e19aa35883dd991abc9a",
     "title": "What's coming in Swarms v17? Launching November 1st, Swarms v17 introduces Communication Channels, letting you choose between files, message queues, and databases like SQLite for more flexible multi-agent systems. Plus,",
     "link": "https://x.com/KyeGomezB/status/2114056416730423412#",
-    "score": 60,
+    "score": 54,
     "snippet": "What's coming in Swarms v17? Launching November 1st, Swarms v17 introduces Communication Channels, letting you choose between files, message queues, and databases like SQLite for more flexible multi-agent systems. Plus, package imports will be up to 100x faster for a smoother developer experience. C",
     "regions": [],
     "primary_region": null,
@@ -203,35 +228,6 @@
       "DOGE",
       "STRK",
       "AAVE"
-    ]
-  },
-  {
-    "id": "ce4d9ebb4f3a4b5f26272eedb522e8ba618710d7",
-    "title": "This is a massive leap forward for our ecosystem! @Crypto_Potato just highlighted our Buyback Multiplier launch. We're tying up to 4x matched buybacks directly to member travel rewards and locking them in the reserve onc",
-    "link": "https://x.com/travalacom/status/2113812735297261798#",
-    "score": 54,
-    "snippet": "This is a massive leap forward for our ecosystem! @Crypto_Potato just highlighted our Buyback Multiplier launch. We're tying up to 4x matched buybacks directly to member travel rewards and locking them in the reserve onchain 🔒 Read the full coverage: https://cryptopotato.com/travala-introduces-ava-b",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:travalacom",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-24T02:00:03.827000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "AVA"
     ]
   },
   {
