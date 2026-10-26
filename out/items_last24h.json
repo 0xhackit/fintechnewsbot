@@ -1,40 +1,90 @@
 [
   {
-    "id": "7b4350b235505ff0ee5e790b1819c653aa5305ea847ed7900940f1bc6ecd1ba4",
+    "id": "ee74003029aba47bec258285d4627bcdc2dff0aef22227b4253779fa712fcd10",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Mastercard praises Ripple's RLUSD stablecoin at XRPL Commons Hackathon, but no new product launch announced. - Pluang",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGRhb2czR0UyS0V6MERNY1MzM2ctNWJMRTNCVGRlejYxcUJZZVhRY19fYld5RDktZ1hnWkhWSXpZeXo4b0tOUU5FOUJZZTlmX3hKb09JS2NIMVYzeE5wdjA5b2czYnpOZWdqQjZGVl9KR0F6ZndLTFZuUC0yelF3NVhjZm8?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVGRhb2czR0UyS0V6MERNY1MzM2ctNWJMRTNCVGRlejYxcUJZZVhRY19fYld5RDktZ1hnWkhWSXpZeXo4b0tOUU5FOUJZZTlmX3hKb09JS2NIMVYzeE5wdjA5b2czYnpOZWdqQjZGVl9KR0F6ZndLTFZuUC0yelF3NVhjZm8?oc=5",
-    "snippet": "Mastercard praises Ripple's RLUSD stablecoin at XRPL Commons Hackathon, but no new product launch announced. Pluang",
-    "published_at": "2026-10-25T18:13:37+00:00",
+    "feed_name": "theblock",
+    "title": "Aviva Investors, Ripple launch tokenized share class of $29 billion sterling fund on XRP Ledger",
+    "url": "https://www.theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712",
+    "canonical_url": "https://theblock.co/news/business/2026-10-26-aviva-investors-ripple-tokenized-share-class-sterling-fund-xrp-ledger-431712",
+    "snippet": "Aviva Investors has launched a tokenized share class of its Sterling Liquidity Fund on the Ripple-backed XRP Ledger.",
+    "published_at": "2026-10-26T11:34:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "launch"
+      "tokenized",
+      "launch",
+      "launched"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMihAFBVV95cUxQVGRhb2czR0UyS0V6MERNY1MzM2ctNWJMRTNCVGRlejYxcUJZZVhRY19fYld5RDktZ1hnWkhWSXpZeXo4b0tOUU5FOUJZZTlmX3hKb09JS2NIMVYzeE5wdjA5b2czYnpOZWdqQjZGVl9KR0F6ZndLTFZuUC0yelF3NVhjZm8",
+      "id": "00a978be-b28d-5376-9b4b-c7a2aa3ddad4",
       "guidislink": false
     },
-    "score": 84,
+    "score": 95,
     "score_breakdown": {
-      "tier1": 2,
-      "tier2": 0,
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "8e1d3fc32584940c99fc84f16901be759f4900fa519dabc323a8dfca24582efd",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Securitize’s tokenized stock value halves as Circle widens lead",
+    "url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead",
+    "snippet": "SECZ’s onchain market cap fell to $208.6 million as Circle-linked tokens reached a combined $383.6 million across several issuers in the $3.3 billion tokenized equities market.",
+    "published_at": "2026-10-26T10:25:01+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "Circle",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/markets/securitizes-tokenized-stock-circle-lead",
+      "guidislink": true
+    },
+    "score": 64,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 50,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -59,7 +109,7 @@
     "snippet": "With cash usage down, a digital euro on the horizon and stablecoins gathering momentum, Sweden's central bank has reignited a debate on whether the country should roll out its own e-krona.",
     "published_at": "2026-10-26T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -94,41 +144,37 @@
     ]
   },
   {
-    "id": "70a9abd28753eeabede5d7037005e795f2379bced8bc73bb367c79f4843c3341",
+    "id": "4c5d8ec12e180bd15d05ab4c7051f80df8968efbf057fdeed40cddafaaadb70e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "XT.com announces launch of PREDICTUSDT USDT-M Perpetual Futures on October 25, 2026 - Traders Union",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN05yTXVjQktwTmtuaVgzQ1hxbTZNRnRNVjdUQ0FKMFNudEhpeE53S182Um9hUHVZd2V5RHdFOUhBdk5rdGpWU0VFZnVkNGxIcW1ydGprQlBYSTZIeDhBNUt5QnMxeDBpVkJoLXFHaEROMF9nTjl4NUoteG80Q2dwdEdfbWJxWlFFM2lJdjhWRHNTVWN1ZVpOUnJXMXBOdFVo?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQN05yTXVjQktwTmtuaVgzQ1hxbTZNRnRNVjdUQ0FKMFNudEhpeE53S182Um9hUHVZd2V5RHdFOUhBdk5rdGpWU0VFZnVkNGxIcW1ydGprQlBYSTZIeDhBNUt5QnMxeDBpVkJoLXFHaEROMF9nTjl4NUoteG80Q2dwdEdfbWJxWlFFM2lJdjhWRHNTVWN1ZVpOUnJXMXBOdFVo?oc=5",
-    "snippet": "XT.com announces launch of PREDICTUSDT USDT-M Perpetual Futures on October 25, 2026 Traders Union",
-    "published_at": "2026-10-26T02:12:15+00:00",
+    "feed_name": "theblock",
+    "title": "Tom Lee insists ‘crypto bull market is underway’ as Bitmine adds 10,452 ETH",
+    "url": "https://www.theblock.co/news/business/2026-10-26-tom-lee-insists-crypto-bull-market-is-underway-as-bitmine-adds-10452-eth-431743",
+    "canonical_url": "https://theblock.co/news/business/2026-10-26-tom-lee-insists-crypto-bull-market-is-underway-as-bitmine-adds-10452-eth-431743",
+    "snippet": "The company's combined crypto, cash, marketable securities, and other investments totaled $15 billion as of Oct. 25.",
+    "published_at": "2026-10-26T14:12:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
-    "matched_keywords": [
-      "USDT",
-      "launch"
-    ],
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "CBMioAFBVV95cUxQN05yTXVjQktwTmtuaVgzQ1hxbTZNRnRNVjdUQ0FKMFNudEhpeE53S182Um9hUHVZd2V5RHdFOUhBdk5rdGpWU0VFZnVkNGxIcW1ydGprQlBYSTZIeDhBNUt5QnMxeDBpVkJoLXFHaEROMF9nTjl4NUoteG80Q2dwdEdfbWJxWlFFM2lJdjhWRHNTVWN1ZVpOUnJXMXBOdFVo",
+      "id": "cc2b827c-5800-51e2-b7c6-deccbef7f251",
       "guidislink": false
     },
-    "score": 54,
+    "score": 50,
     "score_breakdown": {
-      "tier1": 2,
+      "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 50,
+      "launch_score": 0,
       "institution_bonus": 0,
-      "financial_bonus": 0,
+      "financial_bonus": 40,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -153,7 +199,7 @@
     "snippet": "Standard Chartered-Backed Anchorpoint Won’t Rush Retail Launch of Hong Kong Dollar Stablecoin bloomingbit",
     "published_at": "2026-10-26T02:48:43+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [
       "stablecoin",
       "launch"
@@ -192,37 +238,89 @@
     ]
   },
   {
-    "id": "757319d3b9f79c20f2fb2484c9c32c4110a38c33ef82b8cb177759fc14a0091d",
+    "id": "7b38418b28e1816a87ea2bbbd9744b5f440caf5fefec25ad2e20d2ad3f22204e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Wells Fargo, Cisco, Intuit Among 6 More Companies Objecting to Tokenized Stocks",
-    "url": "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks",
-    "canonical_url": "https://decrypt.co/381784/wells-fargo-cisco-intuit-more-companies-object-tokenized-stocks",
-    "snippet": "Twenty-two companies have now objected to having their shares traded on the planned OKX-ICE tokenized stock venue, after Wells Fargo, Cisco, Marvell, Arm, Moderna. and Intuit joined the list.",
-    "published_at": "2026-10-25T16:01:03+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger",
+    "url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger",
+    "snippet": "The move marks Aviva’s second fund to list tokenized shares, part of a broader collaboration to bring more tokenized funds to the XRP Ledger.",
+    "published_at": "2026-10-26T11:39:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [
-      "tokenized"
+      "tokenized fund",
+      "tokenized",
+      "launches"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=381784",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/aviva-investors-launches-tokenized-share-class-of-sterling-fund-on-xrp-ledger",
+      "guidislink": true
     },
-    "score": 44,
+    "score": 45,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "12381586449e155b8b0d3d14ede463375a460857f33ee0a85d69abe529f7331e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "OCC calls on community banks to enter the stablecoin payments market",
+    "url": "https://www.coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+    "canonical_url": "https://coindesk.com/policy/2026/10/26/occ-calls-on-community-banks-to-enter-the-stablecoin-payments-market",
+    "snippet": "",
+    "published_at": "2026-10-26T15:45:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "f5f0953a-9754-4d4a-8407-129a767c17c7",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -249,7 +347,7 @@
     "snippet": "Virtuals Protocol Launches New Features for USDC Payments Cryptonews.net",
     "published_at": "2026-10-25T19:32:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [
       "USDC",
       "launches"
@@ -288,37 +386,186 @@
     ]
   },
   {
-    "id": "b774eadd995cb67fa4a0c3d957dc785c1a54122b00eb706a6ff64a09cb7a6d7d",
+    "id": "82ce38292ba341c656be7e8e624220dd55e40592e79430712449e31631ea7536",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Latvia targets tokenization rules in 2027 with commercial property in focus",
-    "url": "https://www.coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
-    "canonical_url": "https://coindesk.com/business/2026/10/25/latvia-targets-tokenization-rules-in-2027-with-commercial-property-in-focus",
-    "snippet": "",
-    "published_at": "2026-10-25T15:00:00+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "MAJORITY Launches Cross-Border Stablecoin Payments, Powered by zerohash - The Manila Times",
+    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUkw5ZXFmSzVMMzJRSVozazdZYXpDM3dnMThaalZlVnhsNURJck81Nk9ERWpXVllwaWpfWVdWcGJCMGhkdFM3MVYwdFk2Uy1KMkJGY1c2YXMxUngwQWd5cDlCU0FmVVNQbzBtaHBTeG05aGxfNUtoV0hBRXlmOHliejFZNEctek1USkdLNE5JSzlWUmRLQ00xUnVUYVhya1hqYnJzN3A2U2ptaGRqOF9aMW84RkZJRGpYWnhEYVh5c0RNZUlIYnpXWTh2ZkdOaWpvN2ZyeWhYeVlNVF9Q0gHiAUFVX3lxTE5hZnBwZWpDSzM5SWxJRXR6SDdHQVgwdERPc2dLZkhTSkx2WEJMMUxmbHRLRjRuTExidXB2dDdJem9hVnVidlU0Ry1GNmhweGpMaTNNWk5Jb2FRT0ltTlJYZFVqeHctX1dHbVhxZzZUUFZ0MkY1VjJ5cTBMVTdhUENiZGlKenVHYW5iUzFKbkl4S1BSUU5LSTJ2QklHUnJVc2dYb25nb1Flb2lvQ0lrVmpydF9XT0ZYTTU3TzU3cHIwTVpUUHpYSEI4TF93RGpHMUVJMkNUX2hxbDVXSUc5ZjlHdFE?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUkw5ZXFmSzVMMzJRSVozazdZYXpDM3dnMThaalZlVnhsNURJck81Nk9ERWpXVllwaWpfWVdWcGJCMGhkdFM3MVYwdFk2Uy1KMkJGY1c2YXMxUngwQWd5cDlCU0FmVVNQbzBtaHBTeG05aGxfNUtoV0hBRXlmOHliejFZNEctek1USkdLNE5JSzlWUmRLQ00xUnVUYVhya1hqYnJzN3A2U2ptaGRqOF9aMW84RkZJRGpYWnhEYVh5c0RNZUlIYnpXWTh2ZkdOaWpvN2ZyeWhYeVlNVF9Q0gHiAUFVX3lxTE5hZnBwZWpDSzM5SWxJRXR6SDdHQVgwdERPc2dLZkhTSkx2WEJMMUxmbHRLRjRuTExidXB2dDdJem9hVnVidlU0Ry1GNmhweGpMaTNNWk5Jb2FRT0ltTlJYZFVqeHctX1dHbVhxZzZUUFZ0MkY1VjJ5cTBMVTdhUENiZGlKenVHYW5iUzFKbkl4S1BSUU5LSTJ2QklHUnJVc2dYb25nb1Flb2lvQ0lrVmpydF9XT0ZYTTU3TzU3cHIwTVpUUHpYSEI4TF93RGpHMUVJMkNUX2hxbDVXSUc5ZjlHdFE?oc=5",
+    "snippet": "MAJORITY Launches Cross-Border Stablecoin Payments, Powered by zerohash The Manila Times",
+    "published_at": "2026-10-26T13:04:46+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [
-      "tokenization"
+      "stablecoin payments",
+      "stablecoin",
+      "cross-border",
+      "launches"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "b01e607f-b51e-4cf9-802c-193744b02e8c",
+      "id": "CBMi3AFBVV95cUxOUkw5ZXFmSzVMMzJRSVozazdZYXpDM3dnMThaalZlVnhsNURJck81Nk9ERWpXVllwaWpfWVdWcGJCMGhkdFM3MVYwdFk2Uy1KMkJGY1c2YXMxUngwQWd5cDlCU0FmVVNQbzBtaHBTeG05aGxfNUtoV0hBRXlmOHliejFZNEctek1USkdLNE5JSzlWUmRLQ00xUnVUYVhya1hqYnJzN3A2U2ptaGRqOF9aMW84RkZJRGpYWnhEYVh5c0RNZUlIYnpXWTh2ZkdOaWpvN2ZyeWhYeVlNVF9Q0gHiAUFVX3lxTE5hZnBwZWpDSzM5SWxJRXR6SDdHQVgwdERPc2dLZkhTSkx2WEJMMUxmbHRLRjRuTExidXB2dDdJem9hVnVidlU0Ry1GNmhweGpMaTNNWk5Jb2FRT0ltTlJYZFVqeHctX1dHbVhxZzZUUFZ0MkY1VjJ5cTBMVTdhUENiZGlKenVHYW5iUzFKbkl4S1BSUU5LSTJ2QklHUnJVc2dYb25nb1Flb2lvQ0lrVmpydF9XT0ZYTTU3TzU3cHIwTVpUUHpYSEI4TF93RGpHMUVJMkNUX2hxbDVXSUc5ZjlHdFE",
       "guidislink": false
     },
-    "score": 29,
+    "score": 35,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "a1429999b105bf172bda8b8d41d48feca1460943fa721eecc8028d6bdf12b870",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Anchorpoint Confirms Hong Kong Dollar Stablecoin Retail Launch Before Year-End: 9 outlets compared - NewsCord",
+    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTGViaUhnbElJOG1ZZ3ljNHV2U2N4NHFPQl94d3hjaUNiTmtHYlhZVnhfZ19LS1hNdWdOR3RkVFh1TDltOE8zZ3MxcjY1a2JESmhLVml0YXpCYUhDWnc3ZlBfWHQtNWZ3eXJDN2hSWjdOYTAxeWU4SjNESUgzX1B0QS1vWFQzekZ6OGptREVEMnoxaUNTU3FmNTJhNjllQjM0bmhZVVdDYVdNS2J5TkRYMm56RU5MZTZJQW8tVzJCNk9OZzBjX1g2ejVVTmt4V0pWRW0zRVI3aUhhMG82cGZGV3ZDRkJyeDg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTGViaUhnbElJOG1ZZ3ljNHV2U2N4NHFPQl94d3hjaUNiTmtHYlhZVnhfZ19LS1hNdWdOR3RkVFh1TDltOE8zZ3MxcjY1a2JESmhLVml0YXpCYUhDWnc3ZlBfWHQtNWZ3eXJDN2hSWjdOYTAxeWU4SjNESUgzX1B0QS1vWFQzekZ6OGptREVEMnoxaUNTU3FmNTJhNjllQjM0bmhZVVdDYVdNS2J5TkRYMm56RU5MZTZJQW8tVzJCNk9OZzBjX1g2ejVVTmt4V0pWRW0zRVI3aUhhMG82cGZGV3ZDRkJyeDg?oc=5",
+    "snippet": "Anchorpoint Confirms Hong Kong Dollar Stablecoin Retail Launch Before Year-End: 9 outlets compared NewsCord",
+    "published_at": "2026-10-26T11:21:38+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMi5wFBVV95cUxOTGViaUhnbElJOG1ZZ3ljNHV2U2N4NHFPQl94d3hjaUNiTmtHYlhZVnhfZ19LS1hNdWdOR3RkVFh1TDltOE8zZ3MxcjY1a2JESmhLVml0YXpCYUhDWnc3ZlBfWHQtNWZ3eXJDN2hSWjdOYTAxeWU4SjNESUgzX1B0QS1vWFQzekZ6OGptREVEMnoxaUNTU3FmNTJhNjllQjM0bmhZVVdDYVdNS2J5TkRYMm56RU5MZTZJQW8tVzJCNk9OZzBjX1g2ejVVTmt4V0pWRW0zRVI3aUhhMG82cGZGV3ZDRkJyeDg",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "cba687157be822e2ce4bd345323886048c6dede88062b4a2530e66cea6f2a366",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Anchorpoint leaves retail stablecoin launch date open - grafa.com",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbmFBTG96U2JnRWZ5amU1eng0SUFnRjZYanoyN2wtSUhMT1BXTVlhdmU3azlzeGI5Q2VvYXE2N2JRaEJJR0RDQmpHVmJiNm5XOXVadEVqSkt0VndUNW5IaXI3ZDZCdzBOSmNFV1BQLTV1TTRmNXpsRlNGTVVhOEM4OXh1eXZseE12ZDdn?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbmFBTG96U2JnRWZ5amU1eng0SUFnRjZYanoyN2wtSUhMT1BXTVlhdmU3azlzeGI5Q2VvYXE2N2JRaEJJR0RDQmpHVmJiNm5XOXVadEVqSkt0VndUNW5IaXI3ZDZCdzBOSmNFV1BQLTV1TTRmNXpsRlNGTVVhOEM4OXh1eXZseE12ZDdn?oc=5",
+    "snippet": "Anchorpoint leaves retail stablecoin launch date open grafa.com",
+    "published_at": "2026-10-26T06:05:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "launch"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMiiwFBVV95cUxNbmFBTG96U2JnRWZ5amU1eng0SUFnRjZYanoyN2wtSUhMT1BXTVlhdmU3azlzeGI5Q2VvYXE2N2JRaEJJR0RDQmpHVmJiNm5XOXVadEVqSkt0VndUNW5IaXI3ZDZCdzBOSmNFV1BQLTV1TTRmNXpsRlNGTVVhOEM4OXh1eXZseE12ZDdn",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "a02ad64c7ce23f826f9ccb0b124646a61459635ab081a3aed56127fc9711864c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Canada opens consultation on draft stablecoin rules, maintains ban on yields",
+    "url": "https://www.coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+    "canonical_url": "https://coindesk.com/policy/2026/10/26/canada-opens-consultation-on-draft-stablecoin-rules-maintains-ban-on-yields",
+    "snippet": "",
+    "published_at": "2026-10-26T14:23:41+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "3fbf3199-214c-4b0f-b66a-3e86f2195349",
+      "guidislink": false
+    },
+    "score": 25,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 15,
@@ -345,7 +592,7 @@
     "snippet": "The Standard Chartered and Animoca Brands joint venture previously targeted retail access as early as the end of 2026, but its CEO declined to reaffirm that timeline.",
     "published_at": "2026-10-26T00:13:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -392,13 +639,107 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-26T10:31:49.481200+00:00",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
       "id": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d9c1fc953350edd1aad061f41ccdcb4235d70bea57b7bcfece1bd891e020edc4",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Prediction markets and derivatives drive Bernstein’s crypto stock outlook for Coinbase, Robinhood and Circle",
+    "url": "https://www.theblock.co/news/markets/2026-10-26-prediction-markets-derivatives-drive-bernstein-crypto-stock-outlook-coinbase-robinhood-circle-431750",
+    "canonical_url": "https://theblock.co/news/markets/2026-10-26-prediction-markets-derivatives-drive-bernstein-crypto-stock-outlook-coinbase-robinhood-circle-431750",
+    "snippet": "Bernstein cuts Coinbase’s target while raising Circle’s as new products shift their earnings outlook.",
+    "published_at": "2026-10-26T16:36:43+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "c56f6c03-ad5a-5e70-a5da-57e2f1ad4f58",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "dd38eafeb5795781156f261bed2a91a0577b4c8a66bdca9011903da47e4078dd",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "India’s CoinDCX Confirms $16 Million Loss Days After CEO Called It a ‘False Alarm’",
+    "url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm",
+    "canonical_url": "https://decrypt.co/381834/india-coindcx-confirms-16-million-loss-ceo-called-false-alarm",
+    "snippet": "The Mumbai-based exchange says 15.99 million USDT was drained from wallets it retired after last year’s $44 million hack, bringing its combined losses to nearly $60 million—and it’s absorbing the hit.",
+    "published_at": "2026-10-26T16:36:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-26T16:55:44.889586+00:00",
+    "matched_keywords": [
+      "USDT"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=381834",
       "guidislink": false
     },
     "score": 10,
