@@ -29,33 +29,6 @@
     ]
   },
   {
-    "id": "e4eb8313686bf21ff28db97ff120688fccf53df9",
-    "title": "THE BLOCK: Hyperliquid Strategies more than tripled its $PURR share buyback authorization, raising it from $30 million to $100 million. The hyperliquid:native treasury company has roughly $72 million left to spend under",
-    "link": "https://x.com/TheBlockCo/status/2114718929943699755#",
-    "score": 114,
-    "snippet": "THE BLOCK: Hyperliquid Strategies more than tripled its $PURR share buyback authorization, raising it from $30 million to $100 million. The hyperliquid:native treasury company has roughly $72 million left to spend under the program, now extended through October 2027.",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T14:00:58.055000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('authorization')",
-    "matched": "authorization",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "PURR",
-      "HYPE"
-    ]
-  },
-  {
     "id": "ddf0b5fbfdaee645cb710135a44c4c1365e20237",
     "title": "Final OCC approval for Ripple National Trust Bank is the result of a simple choice we made years ago: build within the regulatory perimeter, not around it. Clear rules + rigorous oversight create trust. And trust is what",
     "link": "https://x.com/s_alderoty/status/2114862653260841179#",
@@ -109,6 +82,36 @@
     "origin": "tree",
     "coins": [
       "HYPE"
+    ]
+  },
+  {
+    "id": "7c452ae89f1e6613ffb4bfed1d12c8f3891044a3",
+    "title": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumula",
+    "link": "https://x.com/WuBlockchain/status/2114943891615232371#",
+    "score": 70,
+    "snippet": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumulative net inflows to $66.24 billion. Spot Ethereum ETFs saw $88.58 million in net",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T04:54:52.653000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "IBIT",
+      "ETH",
+      "BTC"
     ]
   },
   {
@@ -171,32 +174,34 @@
     ]
   },
   {
-    "id": "b8f2def9468c7f238eb694b3c1a598a1cdc1d2c2",
-    "title": "THE BLOCK: Ripple has introduced new capabilities for Ripple Treasury, its corporate cash management platform, including AI-powered tools to automate cash positioning, forecasting, reconciliation, liquidity management an",
-    "link": "https://x.com/TheBlockCo/status/2114716542390947947#",
-    "score": 69,
-    "snippet": "THE BLOCK: Ripple has introduced new capabilities for Ripple Treasury, its corporate cash management platform, including AI-powered tools to automate cash positioning, forecasting, reconciliation, liquidity management and payments. The platform also adds 24/7 Returns, which allows eligible corporate",
+    "id": "32b0c07c2679a1fe010e087f5da4cb434b38ed85",
+    "title": "🚨 DAILY ALPHA DROP: October 27, 2026 New AI-compute markets, Polygon-linked privacy infrastructure, and the Fed’s rate decision set today’s watchlist. 👇 🧠 $INJ : An onchain GPU-rental index is now live. 🔒 $POL : Miden pa",
+    "link": "https://x.com/_WOO_X/status/2114933112287478018#",
+    "score": 65,
+    "snippet": "🚨 DAILY ALPHA DROP: October 27, 2026 New AI-compute markets, Polygon-linked privacy infrastructure, and the Fed’s rate decision set today’s watchlist. 👇 🧠 $INJ : An onchain GPU-rental index is now live. 🔒 $POL : Miden partner mainnet opens through Agglayer. 🏦 $BTC : The Fed meeting begins; the decis",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:_woo_x",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T13:51:28.304000+00:00",
+    "published_at": "2026-10-27T04:12:02.833000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('introduced')",
-    "matched": "introduced",
+    "reason": "concrete market event ('partner')",
+    "matched": "partner",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "RLUSD",
-      "XRP"
+      "WOO",
+      "INJ",
+      "POL",
+      "BTC"
     ]
   },
   {
@@ -259,11 +264,44 @@
     ]
   },
   {
-    "id": "fc130491935143e0f4e793ba0264db7c0db5bba1",
-    "title": "Introducing T-Minus 90, a program that takes three dApps from idea to mainnet on Dusk in 90 days. Our CTO @HeinDauven, creator of Dusk Domains, and @tminus_dusk, creator of @sozu_dusk, launched it and mentor each team fr",
-    "link": "https://x.com/DuskFoundation/status/2114718692445720816#",
-    "score": 64,
-    "snippet": "Introducing T-Minus 90, a program that takes three dApps from idea to mainnet on Dusk in 90 days. Our CTO @HeinDauven, creator of Dusk Domains, and @tminus_dusk, creator of @sozu_dusk, launched it and mentor each team from the first contract onward. Selected builders get: → Help with deployment cost",
+    "id": "802b7a7f96ca71762ceac47f8570c77eafcb52be",
+    "title": "THE BLOCK: Four new companies — IBM, Oracle, Intel, and IonQ — have objected to OKXICE tokenizing their stocks under the SEC's innovation exemption. The number of opposing issuers has now reached 26. $IBM $INTC $ORCL OKX",
+    "link": "https://x.com/TheBlockCo/status/2114942137645093116#",
+    "score": 60,
+    "snippet": "THE BLOCK: Four new companies — IBM, Oracle, Intel, and IonQ — have objected to OKXICE tokenizing their stocks under the SEC's innovation exemption. The number of opposing issuers has now reached 26. $IBM $INTC $ORCL OKXICE, the joint venture between OKX and NYSE parent Intercontinental Exchange, no",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T04:47:54.635000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "IBM",
+      "INTC",
+      "ORCL",
+      "OKB"
+    ]
+  },
+  {
+    "id": "72bd938ebb5ea2656af2feb0dabd44c2eb4b5e7a",
+    "title": "Ethereum (ETH) Devs Postpone Glamsterdam Hoodi Testnet Launch Over Gas Accounting Security Risks",
+    "link": "https://www.crowdfundinsider.com/2026/10/320147-ethereum-eth-devs-postpone-glamsterdam-hoodi-testnet-launch-over-gas-accounting-security-risks",
+    "score": 60,
+    "snippet": "Ethereum (ETH) Devs Postpone Glamsterdam Hoodi Testnet Launch Over Gas Accounting Security Risks",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -273,65 +311,35 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:duskfoundation",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T14:00:00.898000+00:00",
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-27T02:15:04.229000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "DUSK",
-      "ZK"
+      "ETH"
     ]
   },
   {
-    "id": "c8be4778f22d6cf45bd05dc96f67fe3a4c740820",
-    "title": "THE BLOCK: Ondo Finance opens subscriptions next week for tokenized pre-IPO exposure to OpenAI, letting its Private Clients subscribe directly to notes already trading on secondary markets. OpenAI's stock market debut is",
-    "link": "https://x.com/TheBlockCo/status/2114724179945951605#",
-    "score": 59,
-    "snippet": "THE BLOCK: Ondo Finance opens subscriptions next week for tokenized pre-IPO exposure to OpenAI, letting its Private Clients subscribe directly to notes already trading on secondary markets. OpenAI's stock market debut is now expected in 2027 after CEO Sam Altman ruled out a 2026 IPO last month, citi",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T14:21:49.222000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('debut')",
-    "matched": "debut",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "WLD",
-      "ONDO"
-    ]
-  },
-  {
-    "id": "3a2c122851c7f2c0f2dcc2d7ad22a595abc6eb2b",
-    "title": "HASHED NEWS This week: @hedera publishes its ETHGlobal Mumbai bounty tracks, Hiero ships Block Node v0.44.3 and Mirror Node v0.165.1, @hashpack marks five years with PACK THE MIC, and Hedera schedules the mainnet upgrade",
-    "link": "https://x.com/HederaCommunity/status/2114841926012993610#",
+    "id": "c333e330f7c262b64d8bcc6653b37eeccbeace8b",
+    "title": "Grayscale Says Zcash's 20% Developer Funding Has Fueled a Decade of Innovation Grayscale, a leading digital asset manager, highlighted Zcash's (ZEC) continued innovation ahead of its 10th anniversary on October 28, attri",
+    "link": "https://x.com/WuBlockchain/status/2114905618003951749#",
     "score": 55,
-    "snippet": "HASHED NEWS This week: @hedera publishes its ETHGlobal Mumbai bounty tracks, Hiero ships Block Node v0.44.3 and Mirror Node v0.165.1, @hashpack marks five years with PACK THE MIC, and Hedera schedules the mainnet upgrade to v0.78.2. 🧵",
+    "snippet": "Grayscale Says Zcash's 20% Developer Funding Has Fueled a Decade of Innovation Grayscale, a leading digital asset manager, highlighted Zcash's (ZEC) continued innovation ahead of its 10th anniversary on October 28, attributing part of its progress to the allocation of 20% of block rewards to develop",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:hederacommunity",
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T22:09:42.149000+00:00",
+    "published_at": "2026-10-27T02:22:48.439000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -339,7 +347,7 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HBAR"
+      "ZEC"
     ]
   },
   {
@@ -461,27 +469,28 @@
     ]
   },
   {
-    "id": "60ea9b33ca2cab5e2116df9e7105d3a3b5fb8998",
-    "title": "🚨🗞️NEW: CFTC Turns to AI Trading as SEC Faces Pressure to Fill Clarity Act Gaps @Ripple & @coinbase are among the crypto firms pressing for clarity on token trading, investment contracts and more. Plus, AI takes center s",
-    "link": "https://x.com/EleanorTerrett/status/2114839062607769978#",
+    "id": "11e532e3e394186d6f629b26d633a9e988ba1fd2",
+    "title": "Ripple expands corporate treasury platform with AI tools",
+    "link": "https://www.techinasia.com/news/ripple-expands-corporate-treasury-platform-ai-tools",
     "score": 50,
-    "snippet": "🚨🗞️NEW: CFTC Turns to AI Trading as SEC Faces Pressure to Fill Clarity Act Gaps @Ripple & @coinbase are among the crypto firms pressing for clarity on token trading, investment contracts and more. Plus, AI takes center stage at the @CFTC this week. https://www.cryptoinamerica.com/p/cftc-turns-to-ai-",
+    "snippet": "Ripple expands corporate treasury platform with AI tools",
     "regions": [
-      "US"
+      "US",
+      "APAC"
     ],
     "primary_region": "US",
-    "category": "regulation",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:eleanorterrett",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T21:58:19.325000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('investment')",
-    "matched": "investment",
+    "feed_name": "tree:techinasia",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-27T03:11:33.975000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
@@ -489,15 +498,102 @@
     ]
   },
   {
-    "id": "0f2eea38179f5048fa8939ad6613ff4856184353",
-    "title": "Standard Chartered-Backed Anchorpoint Won’t Rush Retail Launch of Hong Kong Dollar Stablecoin - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBuY09taGRyZHBneFp0cGxmWWdIYWRhdktIMXdibzE1djh1bWlSWFU5V01XUklKR2xxWW95Si1vbm05MHJMWXNyT3J1OWRxckVFMkowWA?oc=5",
-    "score": 49,
-    "snippet": "Standard Chartered-Backed Anchorpoint Won’t Rush Retail Launch of Hong Kong Dollar Stablecoin bloomingbit",
+    "id": "cd8e8f02d0b4a49721e08b7902c122f20f604871",
+    "title": "$INJ futures trade on @Bitnomial, the CFTC-regulated DCM and DCO owned by Payward, the parent company of Kraken. They went live April 15 and have now traded on a US regulated market for more than six months. What comes n",
+    "link": "https://x.com/injective/status/2114916225507619208#",
+    "score": 50,
+    "snippet": "$INJ futures trade on @Bitnomial, the CFTC-regulated DCM and DCO owned by Payward, the parent company of Kraken. They went live April 15 and have now traded on a US regulated market for more than six months. What comes next? Six months of futures on a CFTC-regulated DCM is one of the conditions the ",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T03:04:56.401000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('went live')",
+    "matched": "went live",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "INJ",
+      "ACT",
+      "BASED"
+    ]
+  },
+  {
+    "id": "cb19492bf5406a292c3135553ed592939e6a90d5",
+    "title": "NEW: Hong Kong-based crypto payments firm Redotpay is considering a confidential US IPO filing by the end of this year, according to Bloomberg. The company is also in talks with investors for a potential pre-IPO financin",
+    "link": "https://x.com/TheBlockCo/status/2114883997243474410#",
+    "score": 50,
+    "snippet": "NEW: Hong Kong-based crypto payments firm Redotpay is considering a confidential US IPO filing by the end of this year, according to Bloomberg. The company is also in talks with investors for a potential pre-IPO financing round that would value it at $4 billion to $5 billion, the report said.",
     "regions": [
       "APAC"
     ],
     "primary_region": "APAC",
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T00:56:52.920000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('ipo')",
+    "matched": "ipo",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BASED"
+    ]
+  },
+  {
+    "id": "b3b04e98cea2db4dba1d57be5a6f8a03aab9d99a",
+    "title": "BlackRock joins SBI and Startale to link tokenized MMFs with Japanese yen stablecoins",
+    "link": "https://www.theblock.co/news/business/2026-10-26-blackrock-sbi-startale-mou-431642",
+    "score": 40,
+    "snippet": "BlackRock, SBI Holdings, and Startale will explore connecting tokenized money market funds with SBI's Japanese yen-pegged stablecoin JPYSC.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 5,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-27T01:00:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "f01f4f5974b79554a4b97b890b5039ffb51947f6",
+    "title": "Swiss Stablecoin Launch Shifts Crypto Banking for Business - OneSafe.io",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xWkVSM2Z2WEpDczN4dFpGdl85Rk45RVZNYzNVWGk1TWVmSFZhRmNBRldKbHpVek5IdGRoNTA2V21GemJaTmRVcDZEZ2xQU09ScC1zMUpVNGFmTVFoZkUzNW42c1NJRFJ2blI5cUVBVkRTLWs?oc=5",
+    "score": 35,
+    "snippet": "Swiss Stablecoin Launch Shifts Crypto Banking for Business OneSafe.io",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -508,7 +604,7 @@
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-10-26T02:48:43+00:00",
+    "published_at": "2026-10-27T04:39:41+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
@@ -565,6 +661,33 @@
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
     "published_at": "2026-10-26T11:21:38+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "4ed9cb269c4526189dc5ad8b93bc260a4d12d820",
+    "title": "Biconomy expands futures offering with launch of five new USDT-margined contracts - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQb19tLUl1LWcydW1Va19YRjdXNEpkN2R2V29RbVNSSUdZSkJmWEVKd2JMVjlXWWtGdzE4emRab3l4bDlOTElleUVQcXFWVVpmTkRHQ1N4X0ZQTXdpNnFWRlNDWko1dlo0UU5qaWpkN0dJZUpoYkpVc0Q2MGhQWjJvUVNVRk9jUlAyM0RjUTdtRXMwLUl5U3U0eXZB?oc=5",
+    "score": 35,
+    "snippet": "Biconomy expands futures offering with launch of five new USDT-margined contracts Traders Union",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-26T07:53:21+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
