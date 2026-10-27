@@ -1,61 +1,5 @@
 [
   {
-    "id": "0f7f630692bf48df1ca404831bb107d1526e5556",
-    "title": "THE BLOCK: Zcash co-founder Sean Bowe proposes ending automatic community grants funding as ZCG assets reach $125 million. His draft redirects the program's remaining 8% block subsidy allocation to the Network Sustainabi",
-    "link": "https://x.com/TheBlockCo/status/2114996529857708507#",
-    "score": 99,
-    "snippet": "THE BLOCK: Zcash co-founder Sean Bowe proposes ending automatic community grants funding as ZCG assets reach $125 million. His draft redirects the program's remaining 8% block subsidy allocation to the Network Sustainability Mechanism while leaving its existing treasury untouched.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T08:24:02.596000+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('proposes')",
-    "matched": "proposes",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ZEC"
-    ]
-  },
-  {
-    "id": "4bf75b92cc75b6b406e3a894f1b800d6308be4ca",
-    "title": "THE BLOCK: The OCC is encouraging U.S. community banks to consider becoming permitted stablecoin issuers under the GENIUS Act, as the regulator looks to expand their role in digital payments.",
-    "link": "https://x.com/TheBlockCo/status/2115036107855511587#",
-    "score": 90,
-    "snippet": "THE BLOCK: The OCC is encouraging U.S. community banks to consider becoming permitted stablecoin issuers under the GENIUS Act, as the regulator looks to expand their role in digital payments.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T11:01:18.636000+00:00",
-    "verdict": "kill",
-    "axis": "commentary",
-    "reason": "commentary/opinion framing ('consider')",
-    "matched": "consider",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "GENIUS"
-    ]
-  },
-  {
     "id": "3aec7032f6cdef67c327b38b25cddb5da5673ecb",
     "title": "US OCC calls on community banks to become payment stablecoin issuers",
     "link": "https://cointelegraph.com/news/occ-community-banks-stablecoin-issuers-genius-act?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
@@ -84,10 +28,36 @@
     "coins": []
   },
   {
+    "id": "ca4fcd592328b54a3dada4e5cf887a86d1abbcc2",
+    "title": "NEW: $ZEC co-founder proposes ending automatic funding for the Zcash Community Grants program, arguing its $125M+ in holdings far exceed its $1.53M quarterly expenses, with the 8% block subsidy redirected to the Network",
+    "link": "https://x.com/CoinDesk/status/2115117821147672758#",
+    "score": 70,
+    "snippet": "NEW: $ZEC co-founder proposes ending automatic funding for the Zcash Community Grants program, arguing its $125M+ in holdings far exceed its $1.53M quarterly expenses, with the 8% block subsidy redirected to the Network Sustainability Mechanism if approved.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T16:26:00.547000+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('proposes')",
+    "matched": "proposes",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "ZEC"
+    ]
+  },
+  {
     "id": "32aa0da3ee873d297a25436e8315270083535dc5",
     "title": "Zcash co-founder proposes ending grants subsidy, citing $125 million treasury",
     "link": "https://www.theblock.co/news/ecosystems/2026-10-27-zcash-co-founder-proposes-ending-grants-subsidy-citing-125-million-treasury-431847",
-    "score": 70,
+    "score": 64,
     "snippet": "Zcash co-founder proposes ending grants subsidy, citing $125 million treasury",
     "regions": [],
     "primary_region": null,
@@ -108,5 +78,33 @@
     "coins": [
       "ZEC"
     ]
+  },
+  {
+    "id": "b9dcd248b79972114de3802a71393aaf65bda78d",
+    "title": "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko",
+    "link": "https://cointelegraph.com/news/usdc-overtakes-usdt-euro-stablecoin-trading-mica-kaiko?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 35,
+    "snippet": "USDC’s share of euro stablecoin trading has climbed to 56% since January 2024, with deeper liquidity as exchanges restrict USDT under MiCA.",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-10-27T15:59:58+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
   }
 ]
