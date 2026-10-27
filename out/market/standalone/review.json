@@ -1,39 +1,38 @@
 [
   {
-    "id": "c2f66b76a78df557684e72c0f2b22d95bdddc659",
-    "title": "Payward, the parent company of Kraken, announced its intention to be the first CFTC-regulated deployer on HIP-3* markets. Payward will use Hyperliquid as the infrastructure layer to deploy perpetual futures markets for U",
-    "link": "https://x.com/HyperliquidX/status/2114772826435866711#",
-    "score": 119,
-    "snippet": "Payward, the parent company of Kraken, announced its intention to be the first CFTC-regulated deployer on HIP-3* markets. Payward will use Hyperliquid as the infrastructure layer to deploy perpetual futures markets for US clients. Subject to regulatory approval, Bitnomial, Payward’s CFTC-regulated D",
+    "id": "95d72af994d3eadf607418d26814576cc0c4446f",
+    "title": "LATEST: @Binance files for regulatory authorization in Brazil ahead of the October 30 deadline, while restricting eight services and delisting 22 tokens for Brazilian users to comply with new Central Bank rules.",
+    "link": "https://x.com/CoinDesk/status/2115087095010304355#",
+    "score": 90,
+    "snippet": "LATEST: @Binance files for regulatory authorization in Brazil ahead of the October 30 deadline, while restricting eight services and delisting 22 tokens for Brazilian users to comply with new Central Bank rules.",
     "regions": [
-      "US"
+      "LatAm"
     ],
-    "primary_region": "US",
+    "primary_region": "LatAm",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:hyperliquidx",
+    "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T17:35:07.549000+00:00",
+    "published_at": "2026-10-27T14:23:54.924000+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('authorization')",
+    "matched": "authorization",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HYPE",
-      "BASED"
+      "BNB"
     ]
   },
   {
-    "id": "ddf0b5fbfdaee645cb710135a44c4c1365e20237",
-    "title": "Final OCC approval for Ripple National Trust Bank is the result of a simple choice we made years ago: build within the regulatory perimeter, not around it. Clear rules + rigorous oversight create trust. And trust is what",
-    "link": "https://x.com/s_alderoty/status/2114862653260841179#",
+    "id": "5da8d771f1b776b7ad6063063c4182ded03976f8",
+    "title": "Ripple National Trust Bank receives final OCC approval for crypto custody - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sb0JDVGZKMUFmRHVjWkFsQmplVzF6VkxhcEdtSmxHeWNaQVBDeGZfcmxGLXpaMnVkX2JQa0FnRzA0QU4xdkFqQkRGNGNZbVpTOGVDWk1MalRvOUlkS1lBSlZabDI3VkpBMldUWmJaYTdHUlV4eVp4MmlGZWZqUQ?oc=5",
     "score": 84,
-    "snippet": "Final OCC approval for Ripple National Trust Bank is the result of a simple choice we made years ago: build within the regulatory perimeter, not around it. Clear rules + rigorous oversight create trust. And trust is what allows new financial infrastructure to scale.",
+    "snippet": "Ripple National Trust Bank receives final OCC approval for crypto custody Crypto Briefing",
     "regions": [
       "US"
     ],
@@ -43,103 +42,202 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:s_alderoty",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T23:32:03.841000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-27T00:31:53+00:00",
     "verdict": "keep",
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approval')",
     "matched": "approval",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "XRP"
-    ]
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "8209a8619c264edcd840adcdc6ac8b1faf914ac0",
-    "title": "THE BLOCK: Hyperliquid is developing optional permissioned-market functionality that could allow Kraken parent Payward to deploy perpetual futures markets for U.S. clients through its CFTC-regulated subsidiary Bitnomial.",
-    "link": "https://x.com/TheBlockCo/status/2114777023466057764#",
-    "score": 84,
-    "snippet": "THE BLOCK: Hyperliquid is developing optional permissioned-market functionality that could allow Kraken parent Payward to deploy perpetual futures markets for U.S. clients through its CFTC-regulated subsidiary Bitnomial. The HIP-3 upgrade would let deployers restrict market access through onchain al",
+    "id": "03590c931bddd29aa9fe3a61e74a2ed2cd127d26",
+    "title": "Sei in five dates: Aug 2023: Sei mainnet goes live May 2024: the EVM arrives Jul 2025: Circle, Chainlink and Ondo Oct 2025: BlackRock, Brevan Howard and Hamilton Lane funds Oct 2026: Saphyre perps live, Monaco building s",
+    "link": "https://x.com/SeiNetwork/status/2115077310680637946#",
+    "score": 80,
+    "snippet": "Sei in five dates: Aug 2023: Sei mainnet goes live May 2024: the EVM arrives Jul 2025: Circle, Chainlink and Ondo Oct 2025: BlackRock, Brevan Howard and Hamilton Lane funds Oct 2026: Saphyre perps live, Monaco building shared liquidity layer Sei is the blockchain for trading.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:seinetwork",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T17:51:48.191000+00:00",
+    "published_at": "2026-10-27T13:45:02.084000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
+    "reason": "concrete market event ('goes live')",
+    "matched": "goes live",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HYPE"
+      "SEI",
+      "LINK",
+      "ONDO"
     ]
   },
   {
-    "id": "7c452ae89f1e6613ffb4bfed1d12c8f3891044a3",
-    "title": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumula",
-    "link": "https://x.com/WuBlockchain/status/2114943891615232371#",
-    "score": 70,
-    "snippet": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumulative net inflows to $66.24 billion. Spot Ethereum ETFs saw $88.58 million in net",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "9502e586b30122ca35ddc7f08384660abd950b54",
+    "title": "THE BLOCK: Janus Henderson is launching the first licensed tokenized fund tracking the Nasdaq-100 Index, using Centrifuge's technology on the Stellar blockchain. The JQQQ fund will initially be available to eligible non-",
+    "link": "https://x.com/TheBlockCo/status/2115069109024993580#",
+    "score": 80,
+    "snippet": "THE BLOCK: Janus Henderson is launching the first licensed tokenized fund tracking the Nasdaq-100 Index, using Centrifuge's technology on the Stellar blockchain. The JQQQ fund will initially be available to eligible non-U.S. professional investors, with a $100,000 minimum investment, according to th",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T04:54:52.653000+00:00",
+    "published_at": "2026-10-27T13:12:26.789000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('licensed')",
+    "matched": "licensed",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CFG",
+      "XLM"
+    ]
+  },
+  {
+    "id": "5af94cbde8daa83623e82ad42d513cbb6bbde2a5",
+    "title": "A new era of options infrastructure is coming to Injective. Just one day after launching the Super Intelligence Compute Index ($SICI), Injective is officially unveiling Injective Options, introducing an entirely new fina",
+    "link": "https://x.com/injective/status/2115080634754310172#",
+    "score": 70,
+    "snippet": "A new era of options infrastructure is coming to Injective. Just one day after launching the Super Intelligence Compute Index ($SICI), Injective is officially unveiling Injective Options, introducing an entirely new financial primitive for developers, institutions and users. Now LIVE on testnet. The",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:58:14.594000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launching')",
+    "matched": "launching",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "INJ",
+      "USDC"
+    ]
+  },
+  {
+    "id": "f5a3bcb0b9ac16d51bbd0d9d016a39db2b35dcc4",
+    "title": "BitGo to integrate WisdomTree tokenised money market fund",
+    "link": "https://www.finextra.com/pressarticle/111471/bitgo-to-integrate-wisdomtree-tokenised-money-market-fund?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 65,
+    "snippet": "BitGo Bank & Trust, National Association (“BitGo Bank & Trust”), an OCC-regulated digital asset trust bank and a subsidiary of BitGo Holdings, Inc. (NYSE: BTGO) (“BitGo”), the digital asset infrastructure company, today announced that eligible institutional clients will be able to access the WisdomT",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-10-27T15:10:00+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "IBIT",
-      "ETH",
-      "BTC"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "9fc0b4fc029bbc610af31ce7e5b2b7c66e63c1e7",
-    "title": "Hyperliquid: Kraken Parent Payward Plans to Become First CFTC-Regulated HIP-3* Deployer Hyperliquid announced that Kraken parent Payward plans to become the first CFTC-regulated HIP-3* deployer, using Hyperliquid infrast",
-    "link": "https://x.com/WuBlockchain/status/2114785614415720571#",
-    "score": 69,
-    "snippet": "Hyperliquid: Kraken Parent Payward Plans to Become First CFTC-Regulated HIP-3* Deployer Hyperliquid announced that Kraken parent Payward plans to become the first CFTC-regulated HIP-3* deployer, using Hyperliquid infrastructure to offer perpetual futures markets to U.S. clients. Subject to regulator",
+    "id": "464cbdc0d3f0706e3d54822b0c475ae83d4d49e0",
+    "title": "JUST IN: Regulated perps for $SEI are live on @cryptocom. One of six assets at launch, next to $BTC, $ETH, $SOL, $HYPE and $ZEC. Up to 5x leverage, 24/7, 0% fees for 30 days, through a CFTC-registered FCM. More regulated",
+    "link": "https://x.com/SeiNetwork/status/2115109987198566759#",
+    "score": 65,
+    "snippet": "JUST IN: Regulated perps for $SEI are live on @cryptocom. One of six assets at launch, next to $BTC, $ETH, $SOL, $HYPE and $ZEC. Up to 5x leverage, 24/7, 0% fees for 30 days, through a CFTC-registered FCM. More regulated access to $SEI.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:seinetwork",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T18:25:56.433000+00:00",
+    "published_at": "2026-10-27T15:54:52.815000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HYPE"
+      "SEI",
+      "BTC",
+      "ETH",
+      "SOL",
+      "HYPE",
+      "ZEC"
+    ]
+  },
+  {
+    "id": "45f2f35670259078ff417db81f84fd9842ed1223",
+    "title": "JUST IN: Regulated perps for $SEI are live on @cryptocom One of six assets at launch,, next to $BTC, $ETH, $SOL, $HYPE and $ZEC. Up to 5x leverage, 24/7, 0% fees for 30 days, through a CFTC-registered FCM. More regulated",
+    "link": "https://x.com/SeiNetwork/status/2115109472003850277#",
+    "score": 65,
+    "snippet": "JUST IN: Regulated perps for $SEI are live on @cryptocom One of six assets at launch,, next to $BTC, $ETH, $SOL, $HYPE and $ZEC. Up to 5x leverage, 24/7, 0% fees for 30 days, through a CFTC-registered FCM. More regulated access to $SEI.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:seinetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T15:52:50.059000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SEI",
+      "BTC",
+      "ETH",
+      "SOL",
+      "HYPE",
+      "ZEC"
     ]
   },
   {
@@ -169,6 +267,214 @@
     "origin": "tree",
     "coins": [
       "ASTR"
+    ]
+  },
+  {
+    "id": "7c452ae89f1e6613ffb4bfed1d12c8f3891044a3",
+    "title": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumula",
+    "link": "https://x.com/WuBlockchain/status/2114943891615232371#",
+    "score": 64,
+    "snippet": "Bitcoin ETFs Draw $110 Million as Ether Funds Shed $88.6 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $110 million in net inflows on October 26, entirely driven by BlackRock's IBIT, bringing its cumulative net inflows to $66.24 billion. Spot Ethereum ETFs saw $88.58 million in net",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T04:54:52.653000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "IBIT",
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "5935349600890681d5d76b78df1b4728b116a490",
+    "title": "Pre-IPO Crypto Futures Are Valuing Anthropic At $1.88 Trillion",
+    "link": "https://www.forbes.com/sites/ninabambysheva/2026/10/27/pre-ipo-crypto-futures-are-valuing-anthropic-at-188-trillion",
+    "score": 60,
+    "snippet": "Pre-IPO Crypto Futures Are Valuing Anthropic At $1.88 Trillion",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-27T15:28:14.366000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('ipo')",
+    "matched": "ipo",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "251fd6f2bd0d91dde2f73bdca607b4cc51c2ebf8",
+    "title": "Coinbase to Automatically Convert 14 Restricted Crypto Assets for EEA Users on October 30 Under Coinbase's previously announced MiCA compliance measures, retail users in the European Economic Area (EEA) must withdraw 14",
+    "link": "https://x.com/WuBlockchain/status/2115101238668988844#",
+    "score": 60,
+    "snippet": "Coinbase to Automatically Convert 14 Restricted Crypto Assets for EEA Users on October 30 Under Coinbase's previously announced MiCA compliance measures, retail users in the European Economic Area (EEA) must withdraw 14 restricted crypto assets, including USDT, PYUSD, USD1, DAI, and PAXG, before Oct",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T15:20:07.044000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "PAXG",
+      "USDC",
+      "WLFI"
+    ]
+  },
+  {
+    "id": "1cfde1f439d7014dfeab6b80b0cb6a2b7328b91b",
+    "title": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain Onchain trading platform Genius has launched its mobile app on Apple's App Store and Google Play. Built on BNB Chain, it co",
+    "link": "https://x.com/WuBlockchain/status/2115085176413757842#",
+    "score": 60,
+    "snippet": "Genius Launches Mobile App Integrating Token Trading, Creation, and Social Features on BNB Chain Onchain trading platform Genius has launched its mobile app on Apple's App Store and Google Play. Built on BNB Chain, it combines token trading, social features, and token creation. Users can trade crypt",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T14:16:17.539000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB",
+      "GENIUS"
+    ]
+  },
+  {
+    "id": "b7d970657c85d8ad3ad6dbaed05930831b583e4e",
+    "title": "Ahead of #Meridian2026, @JHIAdvisors and @centrifuge announced the launch of the first blockchain native fund offering exposure to the @Nasdaq-100 Index through an issuer-sponsored investment strategy. This is TradFi onc",
+    "link": "https://x.com/StellarOrg/status/2115068552428286238#",
+    "score": 60,
+    "snippet": "Ahead of #Meridian2026, @JHIAdvisors and @centrifuge announced the launch of the first blockchain native fund offering exposure to the @Nasdaq-100 Index through an issuer-sponsored investment strategy. This is TradFi onchain. Built on Stellar. https://stellar.org/press/janus-henderson-and-centrifuge",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:stellarorg",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:10:13.950000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM",
+      "CFG"
+    ]
+  },
+  {
+    "id": "e0bd967138887d18188f12aa54bc2ef76b2d4683",
+    "title": "NEW: Janus Henderson is launching the first licensed tokenized fund tracking the Nasdaq-100 Index, using Centrifuge's technology on the Stellar blockchain, according to the WSJ. The JQQQ fund will initially be available",
+    "link": "https://x.com/TheBlockCo/status/2115068507750867428#",
+    "score": 60,
+    "snippet": "NEW: Janus Henderson is launching the first licensed tokenized fund tracking the Nasdaq-100 Index, using Centrifuge's technology on the Stellar blockchain, according to the WSJ. The JQQQ fund will initially be available to eligible non-U.S. professional investors, with a $100,000 minimum investment.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:10:03.410000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('licensed')",
+    "matched": "licensed",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CFG",
+      "XLM"
+    ]
+  },
+  {
+    "id": "e31400f39c26e405ea1226a37b11431f7e5b553c",
+    "title": "Ahead of #Meridian2026, @centrifuge and @JanusHenderson announced the launch of the first blockchain native fund offering exposure to the @Nasdaq-100 Index through an issuer-sponsored investment strategy. This is TradFi",
+    "link": "https://x.com/StellarOrg/status/2115068180250923057#",
+    "score": 60,
+    "snippet": "Ahead of #Meridian2026, @centrifuge and @JanusHenderson announced the launch of the first blockchain native fund offering exposure to the @Nasdaq-100 Index through an issuer-sponsored investment strategy. This is TradFi onchain. Built on Stellar. https://stellar.org/press/janus-henderson-and-centrif",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:stellarorg",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:08:45.203000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM",
+      "CFG"
     ]
   },
   {
@@ -239,35 +545,6 @@
     ]
   },
   {
-    "id": "3454c17df7573b532659562c2787670f3560f8fc",
-    "title": "Every launch mode on Four started as someone‘s idea. Now OpenFour and @GoPlusSecurity are putting $500K behind the next ones. Bring yours, get it listed, and the whole https://Four.Meme community gets to launch with it.",
-    "link": "https://x.com/fourdotmemezh/status/2115004893690003877#",
-    "score": 60,
-    "snippet": "Every launch mode on Four started as someone‘s idea. Now OpenFour and @GoPlusSecurity are putting $500K behind the next ones. Bring yours, get it listed, and the whole https://Four.Meme community gets to launch with it. Submit a proposal NOW: https://forms.gle/y7MkHHdj7yGVwS5m7",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:fourdotmemezh",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T08:57:16.633000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "FORM",
-      "NOW"
-    ]
-  },
-  {
     "id": "32b0c07c2679a1fe010e087f5da4cb434b38ed85",
     "title": "🚨 DAILY ALPHA DROP: October 27, 2026 New AI-compute markets, Polygon-linked privacy infrastructure, and the Fed’s rate decision set today’s watchlist. 👇 🧠 $INJ : An onchain GPU-rental index is now live. 🔒 $POL : Miden pa",
     "link": "https://x.com/_WOO_X/status/2114933112287478018#",
@@ -296,6 +573,116 @@
       "INJ",
       "POL",
       "BTC"
+    ]
+  },
+  {
+    "id": "731c7e636db7cd135b5b979dff22da846804f75a",
+    "title": "Mastercard (MA) After Stablecoin Platform Launch And Earnings Hype, Buy Or Fully Valued? - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbTB1SVg4WTE1QlJXTUtnRWE4Ry13cmtyMzBxSHlBZ2tUSXBMLUN2R3ViM2xJQlZrNkFOQWpZaXRfVUZCNEhpQWNOQ1F0RElxalhSelVBTjZUT3hjSWRNdDBYUDJ6bTJMelk4VGNFX01ZLTZhN3NxRjZnOTlzZlU1bVExQVEwcFJyUW5IWUVNSVpKWVU?oc=5",
+    "score": 55,
+    "snippet": "Mastercard (MA) After Stablecoin Platform Launch And Earnings Hype, Buy Or Fully Valued? Yahoo Finance Singapore",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-27T15:08:50+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "b6e7596788a1c1181d56b4947423fe15917de395",
+    "title": "THE BLOCK: Bitcoin mining and AI compute infrastructure company Luxor Technology has raised $16 million in a strategic funding round led by CMT Digital. Canaan, MicroBT, Halo, Steelhead, and undisclosed angel investors a",
+    "link": "https://x.com/TheBlockCo/status/2115068489379811711#",
+    "score": 55,
+    "snippet": "THE BLOCK: Bitcoin mining and AI compute infrastructure company Luxor Technology has raised $16 million in a strategic funding round led by CMT Digital. Canaan, MicroBT, Halo, Steelhead, and undisclosed angel investors also participated. The round included primary and secondary capital. Luxor said i",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:09:58.989000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('raised $16 million')",
+    "matched": "raised $16 million",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "af71b95f6b7670a035540fee812e4249d0deebdc",
+    "title": "Block Reign Unveils MusIQ, a Music Participation Network Built Natively on the Gnodi Blockchain",
+    "link": "https://www.prnewswire.com/news-releases/block-reign-unveils-musiq-a-music-participation-network-built-natively-on-the-gnodi-blockchain-302920164.html",
+    "score": 55,
+    "snippet": "Block Reign Unveils MusIQ, a Music Participation Network Built Natively on the Gnodi Blockchain",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-27T13:01:12.523000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('unveils')",
+    "matched": "unveils",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "3454c17df7573b532659562c2787670f3560f8fc",
+    "title": "Every launch mode on Four started as someone‘s idea. Now OpenFour and @GoPlusSecurity are putting $500K behind the next ones. Bring yours, get it listed, and the whole https://Four.Meme community gets to launch with it.",
+    "link": "https://x.com/fourdotmemezh/status/2115004893690003877#",
+    "score": 54,
+    "snippet": "Every launch mode on Four started as someone‘s idea. Now OpenFour and @GoPlusSecurity are putting $500K behind the next ones. Bring yours, get it listed, and the whole https://Four.Meme community gets to launch with it. Submit a proposal NOW: https://forms.gle/y7MkHHdj7yGVwS5m7",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:fourdotmemezh",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T08:57:16.633000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FORM",
+      "NOW"
     ]
   },
   {
@@ -360,73 +747,11 @@
     ]
   },
   {
-    "id": "44b764b9ef53f0a1cb806a63e5faf8c1598a4514",
-    "title": "Last week in Bitcoin: → Bitcoin fell to roughly $79,978, its weakest level since September 18, as markets de-risked ahead of Wednesday's FOMC decision. → US spot Bitcoin ETFs logged roughly $301 million of net inflows fo",
-    "link": "https://x.com/Lombard_Finance/status/2114782909743911212#",
-    "score": 54,
-    "snippet": "Last week in Bitcoin: → Bitcoin fell to roughly $79,978, its weakest level since September 18, as markets de-risked ahead of Wednesday's FOMC decision. → US spot Bitcoin ETFs logged roughly $301 million of net inflows for the week then shed about $773 million across October 23 and 24. → JPMorgan Ass",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:lombard_finance",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-26T18:15:11.567000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BARD",
-      "STRC",
-      "BTC",
-      "STX",
-      "BASED"
-    ]
-  },
-  {
-    "id": "cb19492bf5406a292c3135553ed592939e6a90d5",
-    "title": "NEW: Hong Kong-based crypto payments firm Redotpay is considering a confidential US IPO filing by the end of this year, according to Bloomberg. The company is also in talks with investors for a potential pre-IPO financin",
-    "link": "https://x.com/TheBlockCo/status/2114883997243474410#",
-    "score": 44,
-    "snippet": "NEW: Hong Kong-based crypto payments firm Redotpay is considering a confidential US IPO filing by the end of this year, according to Bloomberg. The company is also in talks with investors for a potential pre-IPO financing round that would value it at $4 billion to $5 billion, the report said.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "fundraising",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T00:56:52.920000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('ipo')",
-    "matched": "ipo",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BASED"
-    ]
-  },
-  {
-    "id": "c273b6ad75104e8579defbd943262ab9a0dfb480",
-    "title": "ACI Worldwide and Circle Collaborate to Bring USDC Settlement to Existing Payments Infrastructure in Latin America - Business Wire",
-    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbGJRNktya09qLTAydXJ5SzdzN1dhUDVQWjVLcjVBWjZSeG1rU2ExN3RMNkJmcl9XRk1ReTAzY3MzVjhFOFVWTGpLZUYwTmd6NmpHamVNYklNVEVzZnk1Mlh1UWdlMWNGamNfZ05FUkdyc1NFbUJFQzlIajVGWGtZVzdoNVgxcWdCMTBVSTVUY0tLV2czM3FVYkV3aWR0cjZPNXpkOU5NNWllZTk5NkNrNXlqTDBCdzRrbFhNeVRpU2NVbWpSVHF6aUhYalJ1b1d6LXJUOHNrRHdKNm5hVkN3Y2M4NmwwNDgwVjI3QVJlcFdLbW5kR2UxNGNHQjJWM3Jf?oc=5",
-    "score": 40,
-    "snippet": "ACI Worldwide and Circle Collaborate to Bring USDC Settlement to Existing Payments Infrastructure in Latin America Business Wire",
+    "id": "90b3ab3aabb1cae6d315d386402089c04e2360d5",
+    "title": "Ripple is officially going under the hood. 👀 We're expanding our partnership with @RobinhoodApp across $RLUSD, Ripple Prime and Ripple Treasury, bringing together stablecoins, prime brokerage and treasury management to s",
+    "link": "https://x.com/Ripple/status/2115074012250296682#",
+    "score": 50,
+    "snippet": "Ripple is officially going under the hood. 👀 We're expanding our partnership with @RobinhoodApp across $RLUSD, Ripple Prime and Ripple Treasury, bringing together stablecoins, prime brokerage and treasury management to support both customer-facing services and core financial operations. Together, we",
     "regions": [
       "US"
     ],
@@ -436,15 +761,78 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ripple",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:31:55.659000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "RLUSD"
+    ]
+  },
+  {
+    "id": "b2e1f102a80a7ad7df7ece4a037c0a92ecf87725",
+    "title": "THE BLOCK: Ripple expands BNY partnership to add $XRP and $RLUSD to its institutional custody platform. The companies said they are also exploring tokenized trade finance on the XRP Ledger, including a supply chain finan",
+    "link": "https://x.com/TheBlockCo/status/2115070326031958021#",
+    "score": 50,
+    "snippet": "THE BLOCK: Ripple expands BNY partnership to add $XRP and $RLUSD to its institutional custody platform. The companies said they are also exploring tokenized trade finance on the XRP Ledger, including a supply chain finance initiative with C2FO.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-27T13:17:16.760000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP",
+      "RLUSD"
+    ]
+  },
+  {
+    "id": "02e345f9385cddf4c7c7206b9fc3e9b470cf4811",
+    "title": "Solana Faces Demand Test as Samsung USDC Wallet Launch Nears - Analytics Insight",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelRFLWcxYmkxQmRQNDNOOUhWRlpvcWdabGY3dVUtX2gxVTJxNzgwbVZQY01JbEtMM0wyRkZrempnX0xiOWdoTjY5SXJlNXVVOE5XTy1DY0M5dmNGd0EtVHQ2M2xFdGZRWjRkbXE1UGxmejR3UFVZXzdQZUZfb0J4UXZTWjlMWHZsRmI2bmdWejBEaHlEeXJRZEgyRE9QX2PSAawBQVVfeXFMTVBtU1hUZEgwQ2swX21NNG4tOUo2dlZIT2hfTElzS0FKeWxuSjJDWmlDZUIyeXFjcDdERTNTZnZvZTZXNk9nSi02NGZGOXVXcGFjYmpjSWNqUVh4YnNEbklzSHVfam96bGxqbU5wSmtWbFBYRUtqd0JhSUhSOHNjQ09rd29BUjNlVkN3eU1lZl9VVmNjRVlOMVRabzVhbXZ2S1czY0ZOM0owaElVVQ?oc=5",
+    "score": 45,
+    "snippet": "Solana Faces Demand Test as Samsung USDC Wallet Launch Nears Analytics Insight",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-10-27T10:00:00+00:00",
+    "published_at": "2026-10-27T15:45:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "rss",
     "coins": []
@@ -468,62 +856,6 @@
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
     "published_at": "2026-10-27T04:39:41+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "3bae81255a59d67337b9be83fd8bb2fc1171769c",
-    "title": "MAJORITY Launches Cross-Border Stablecoin Payments, Powered by zerohash - The Manila Times",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUkw5ZXFmSzVMMzJRSVozazdZYXpDM3dnMThaalZlVnhsNURJck81Nk9ERWpXVllwaWpfWVdWcGJCMGhkdFM3MVYwdFk2Uy1KMkJGY1c2YXMxUngwQWd5cDlCU0FmVVNQbzBtaHBTeG05aGxfNUtoV0hBRXlmOHliejFZNEctek1USkdLNE5JSzlWUmRLQ00xUnVUYVhya1hqYnJzN3A2U2ptaGRqOF9aMW84RkZJRGpYWnhEYVh5c0RNZUlIYnpXWTh2ZkdOaWpvN2ZyeWhYeVlNVF9Q0gHiAUFVX3lxTE5hZnBwZWpDSzM5SWxJRXR6SDdHQVgwdERPc2dLZkhTSkx2WEJMMUxmbHRLRjRuTExidXB2dDdJem9hVnVidlU0Ry1GNmhweGpMaTNNWk5Jb2FRT0ltTlJYZFVqeHctX1dHbVhxZzZUUFZ0MkY1VjJ5cTBMVTdhUENiZGlKenVHYW5iUzFKbkl4S1BSUU5LSTJ2QklHUnJVc2dYb25nb1Flb2lvQ0lrVmpydF9XT0ZYTTU3TzU3cHIwTVpUUHpYSEI4TF93RGpHMUVJMkNUX2hxbDVXSUc5ZjlHdFE?oc=5",
-    "score": 35,
-    "snippet": "MAJORITY Launches Cross-Border Stablecoin Payments, Powered by zerohash The Manila Times",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-26T13:04:46+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "0be4db1e65deb913c6d772dc4d94ea4de3a05892",
-    "title": "Anchorpoint Confirms Hong Kong Dollar Stablecoin Retail Launch Before Year-End: 9 outlets compared - NewsCord",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOTGViaUhnbElJOG1ZZ3ljNHV2U2N4NHFPQl94d3hjaUNiTmtHYlhZVnhfZ19LS1hNdWdOR3RkVFh1TDltOE8zZ3MxcjY1a2JESmhLVml0YXpCYUhDWnc3ZlBfWHQtNWZ3eXJDN2hSWjdOYTAxeWU4SjNESUgzX1B0QS1vWFQzekZ6OGptREVEMnoxaUNTU3FmNTJhNjllQjM0bmhZVVdDYVdNS2J5TkRYMm56RU5MZTZJQW8tVzJCNk9OZzBjX1g2ejVVTmt4V0pWRW0zRVI3aUhhMG82cGZGV3ZDRkJyeDg?oc=5",
-    "score": 35,
-    "snippet": "Anchorpoint Confirms Hong Kong Dollar Stablecoin Retail Launch Before Year-End: 9 outlets compared NewsCord",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-26T11:21:38+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
