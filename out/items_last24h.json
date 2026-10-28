@@ -1,41 +1,90 @@
 [
   {
-    "id": "b6cd0d15aea71a1e24912906d2ef93967fa83cea05e9c3a20a5edbf140caa658",
+    "id": "e18197a3a6c878edd742741531302ad9d6f1d2d954c5fdf5d8a79fda177db757",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Ripple Wins Final OCC Approval for Trust Bank Behind $2.6B RLUSD Stablecoin",
-    "url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin",
-    "canonical_url": "https://decrypt.co/381899/ripple-wins-final-occ-approval-for-trust-bank-behind-2-6b-rlusd-stablecoin",
-    "snippet": "The federally supervised bank will manage RLUSD's reserves and offer custody, as banking groups fight crypto charters in court.",
-    "published_at": "2026-10-27T10:16:46+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Circle and ACI Launch USDC Pilot in Colombia's Real-Time Banking System - KuCoin",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkpXMXgzRGN4a3pGNVdzWFZDVTNhbVM2Q3BnRlhSb3JDdGVwREJhZDFCUG8tdHBvT0E1cmtTTUtPMkx0UEQ3djNTYVk5LXR4b2tmbzJwb2FmcWpEWFNBNUplNmIwOTJWYUxqd09HTnBwZTRmTmVJclZTLUt0dVBCVUNIZExwNWJKQkdPUWdoa1QyS2tTODlfUXctczFmZkl5OUhidGdqaXg?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUkpXMXgzRGN4a3pGNVdzWFZDVTNhbVM2Q3BnRlhSb3JDdGVwREJhZDFCUG8tdHBvT0E1cmtTTUtPMkx0UEQ3djNTYVk5LXR4b2tmbzJwb2FmcWpEWFNBNUplNmIwOTJWYUxqd09HTnBwZTRmTmVJclZTLUt0dVBCVUNIZExwNWJKQkdPUWdoa1QyS2tTODlfUXctczFmZkl5OUhidGdqaXg?oc=5",
+    "snippet": "Circle and ACI Launch USDC Pilot in Colombia's Real-Time Banking System KuCoin",
+    "published_at": "2026-10-27T19:05:56+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "reserves",
-      "custody"
+      "USDC",
+      "Circle",
+      "launch",
+      "pilot"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=381899",
+      "id": "CBMiqAFBVV95cUxNUkpXMXgzRGN4a3pGNVdzWFZDVTNhbVM2Q3BnRlhSb3JDdGVwREJhZDFCUG8tdHBvT0E1cmtTTUtPMkx0UEQ3djNTYVk5LXR4b2tmbzJwb2FmcWpEWFNBNUplNmIwOTJWYUxqd09HTnBwZTRmTmVJclZTLUt0dVBCVUNIZExwNWJKQkdPUWdoa1QyS2tTODlfUXctczFmZkl5OUhidGdqaXg",
       "guidislink": false
     },
-    "score": 84,
+    "score": 74,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 2,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 40,
+      "launch_score": 50,
+      "institution_bonus": 20,
       "financial_bonus": 0,
-      "regulatory_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "2a387331917d60312cf18ea0ffbea66327617e89a83a87bccbfe444db8d9bb02",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Mirae Asset Securities issues tokenized notes on Solana",
+    "url": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana",
+    "snippet": "The company’s Hong Kong unit issued six-month notes under its $3 billion program, extending blockchain-based distribution to institutional investors.",
+    "published_at": "2026-10-28T11:05:33+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/mirae-asset-securities-tokenized-notes-solana",
+      "guidislink": true
+    },
+    "score": 70,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 0,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -59,7 +108,7 @@
     "snippet": "A collaboration with payments-tech firm ACI Worldwide will pilot folding USDC settlement into Colombia’s instant-payments network.",
     "published_at": "2026-10-27T17:45:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -110,7 +159,7 @@
     "snippet": "BitGo Bank & Trust, National Association (“BitGo Bank & Trust”), an OCC-regulated digital asset trust bank and a subsidiary of BitGo Holdings, Inc. (NYSE: BTGO) (“BitGo”), the digital asset infrastructure company, today announced that eligible institutional clients will be able to access the WisdomT",
     "published_at": "2026-10-27T15:10:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "money market fund"
     ],
@@ -157,7 +206,7 @@
     "snippet": "",
     "published_at": "2026-10-27T16:35:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -204,7 +253,7 @@
     "snippet": "The Securities and Futures Commission (SFC) of Hong Kong approved the first 24/7 trading of a retail tokenized money market fund (MMF). Trading of the ChinaAMC Digital Money Market Fund in USD and HKD has commenced on PantherTrade, a crypto exchange owned by Nasdaq listed digital broker Futu Holding",
     "published_at": "2026-10-27T12:10:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "money market fund",
       "tokenized",
@@ -254,7 +303,7 @@
     "snippet": "Robinhood CEO Vlad Tenev says tokenized equities need more than a temporary SEC exemption to flourish in the US.",
     "published_at": "2026-10-28T03:55:57+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized"
@@ -266,14 +315,14 @@
       "id": "https://cointelegraph.com/news/robinhoods-tenev-warns-us-tokenization-uncertainty-deters-serious-assets",
       "guidislink": true
     },
-    "score": 50,
+    "score": 44,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 30,
@@ -302,7 +351,7 @@
     "snippet": "Ripple's RLUSD stablecoin is live on Robinhood Chain and Bitstamp, and heads to the Robinhood app later this year as the companies deepen ties in treasury and institutional trading.",
     "published_at": "2026-10-27T20:16:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -349,7 +398,7 @@
     "snippet": "",
     "published_at": "2026-10-27T14:21:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -396,7 +445,7 @@
     "snippet": "The blockchain-based fund offers eligible non-US investors exposure to the Nasdaq-100 as Janus Henderson expands its institutional tokenization business.",
     "published_at": "2026-10-27T16:37:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized",
@@ -446,7 +495,7 @@
     "snippet": "Solana Faces Demand Test as Samsung USDC Wallet Launch Nears Analytics Insight",
     "published_at": "2026-10-27T15:45:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "USDC",
       "launch"
@@ -495,7 +544,7 @@
     "snippet": "The contracts have no expiration date and allow traders to bet on crypto prices rising or falling.",
     "published_at": "2026-10-27T17:07:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "launch"
     ],
@@ -542,7 +591,7 @@
     "snippet": "Circle, ACI Explore USDC Settlement in Colombia’s Payment Network The Crypto Times",
     "published_at": "2026-10-27T20:03:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "USDC",
       "Circle",
@@ -581,55 +630,6 @@
     ]
   },
   {
-    "id": "88432be7bd36de9a71635867fa8977ec6b1273e70092697e0b78e3350cfac4ea",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "ACI Worldwide and Circle Collaborate to Bring USDC Settlement to Existing Payments Infrastructure in Latin America - Business Wire",
-    "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbGJRNktya09qLTAydXJ5SzdzN1dhUDVQWjVLcjVBWjZSeG1rU2ExN3RMNkJmcl9XRk1ReTAzY3MzVjhFOFVWTGpLZUYwTmd6NmpHamVNYklNVEVzZnk1Mlh1UWdlMWNGamNfZ05FUkdyc1NFbUJFQzlIajVGWGtZVzdoNVgxcWdCMTBVSTVUY0tLV2czM3FVYkV3aWR0cjZPNXpkOU5NNWllZTk5NkNrNXlqTDBCdzRrbFhNeVRpU2NVbWpSVHF6aUhYalJ1b1d6LXJUOHNrRHdKNm5hVkN3Y2M4NmwwNDgwVjI3QVJlcFdLbW5kR2UxNGNHQjJWM3Jf?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNbGJRNktya09qLTAydXJ5SzdzN1dhUDVQWjVLcjVBWjZSeG1rU2ExN3RMNkJmcl9XRk1ReTAzY3MzVjhFOFVWTGpLZUYwTmd6NmpHamVNYklNVEVzZnk1Mlh1UWdlMWNGamNfZ05FUkdyc1NFbUJFQzlIajVGWGtZVzdoNVgxcWdCMTBVSTVUY0tLV2czM3FVYkV3aWR0cjZPNXpkOU5NNWllZTk5NkNrNXlqTDBCdzRrbFhNeVRpU2NVbWpSVHF6aUhYalJ1b1d6LXJUOHNrRHdKNm5hVkN3Y2M4NmwwNDgwVjI3QVJlcFdLbW5kR2UxNGNHQjJWM3Jf?oc=5",
-    "snippet": "ACI Worldwide and Circle Collaborate to Bring USDC Settlement to Existing Payments Infrastructure in Latin America Business Wire",
-    "published_at": "2026-10-27T10:00:43+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
-    "matched_keywords": [
-      "USDC",
-      "Circle",
-      "settlement"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMigAJBVV95cUxNbGJRNktya09qLTAydXJ5SzdzN1dhUDVQWjVLcjVBWjZSeG1rU2ExN3RMNkJmcl9XRk1ReTAzY3MzVjhFOFVWTGpLZUYwTmd6NmpHamVNYklNVEVzZnk1Mlh1UWdlMWNGamNfZ05FUkdyc1NFbUJFQzlIajVGWGtZVzdoNVgxcWdCMTBVSTVUY0tLV2czM3FVYkV3aWR0cjZPNXpkOU5NNWllZTk5NkNrNXlqTDBCdzRrbFhNeVRpU2NVbWpSVHF6aUhYalJ1b1d6LXJUOHNrRHdKNm5hVkN3Y2M4NmwwNDgwVjI3QVJlcFdLbW5kR2UxNGNHQjJWM3Jf",
-      "guidislink": false
-    },
-    "score": 34,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "7ab9b2a15c5ce75280cefceadb4f4180e3f269bfccfdb0d732b2406452c4b438",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -640,7 +640,7 @@
     "snippet": "USDC’s share of euro stablecoin trading has climbed to 56% since January 2024, with deeper liquidity as exchanges restrict USDT under MiCA.",
     "published_at": "2026-10-27T15:59:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin",
       "USDC",
@@ -690,7 +690,7 @@
     "snippet": "Digital asset infrastructure firm Ripple has been granted approval to establish a national trust bank and struck separate partnerships agreements with BNY and Robinhood.",
     "published_at": "2026-10-27T15:16:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Crypto-native fintech launches"
@@ -735,7 +735,7 @@
     "snippet": "More than 40% of the companies initially proposed to have their stocks listed in tokenized form have asked to opt-out.",
     "published_at": "2026-10-27T21:26:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -782,7 +782,7 @@
     "snippet": "Mastercard Says Stablecoin Payments Need Better Infrastructure to Deliver on Speed Promise Tekedia",
     "published_at": "2026-10-27T21:23:30+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -831,7 +831,7 @@
     "snippet": "Ripple also expanded its collaboration with BNY on digital asset custody and partnered with C2FO to bring trade finance settlement onto the XRP Ledger.",
     "published_at": "2026-10-27T19:54:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "settlement",
       "custody"
@@ -880,7 +880,7 @@
     "snippet": "Intel, Oracle, IBM, and IonQ became the latest companies to object to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 26.",
     "published_at": "2026-10-27T18:46:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -927,7 +927,7 @@
     "snippet": "",
     "published_at": "2026-10-27T18:13:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -964,39 +964,38 @@
     ]
   },
   {
-    "id": "d964ffe974c77294b83b53c68fc196759cd7d2eb1a9e998b41d088cfd2d24bb0",
+    "id": "9ffad6ca53ab80abf8d07adc2f2c1d72542a4d11bd9ebd8c979df9027eec9778",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Circle faces up to 20% revenue risk from AI agents, Mizuho says",
-    "url": "https://www.theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826",
-    "canonical_url": "https://theblock.co/news/business/2026-10-27-mizuho-cuts-circle-price-target-431826",
-    "snippet": "Mizuho cited 10-20% medium-term reserve revenue downside risk as AI agents steer USDC holders toward higher-yielding fiat alternatives.",
-    "published_at": "2026-10-27T06:28:34+00:00",
+    "feed_name": "coindesk",
+    "title": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS",
+    "url": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
+    "canonical_url": "https://coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs",
+    "snippet": "",
+    "published_at": "2026-10-28T10:41:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
-      "USDC",
-      "Circle"
+      "tokenized"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "8553af78-b16f-57c6-94e6-c49c41917e97",
+      "id": "6aedbf75-420f-4de5-8376-186af18167a7",
       "guidislink": false
     },
-    "score": 24,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
+      "launch_score": 10,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -1012,23 +1011,25 @@
     ]
   },
   {
-    "id": "dd84e7006b7f29cc5559d4d7b224b4bd9c56f3822135a05d87972e1b7c0dec08",
+    "id": "e91aea16b0a369b24908fa9a45e68724ddced6271056200da560ac81cf518dc5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "crypto_native_fintech_launches",
-    "title": "Coinbase and Thunes Tie Stablecoins to Local Bank and Wallet Payouts - TradingView",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTRBaF95YVJialBnZUN5V3FBS0RCZ1hhNHZKb2dzZUtYeE9PTG84dndmbHkzb0wxcXJXSTBGV0lPZFBIR2FNT1REaUhxZFdBV0FVank5NWFkRGhCR2NCSzlQQW1jNVZqYVB6RC1WeVNuS2xHOEFVcG5yNzBDbThxS3MyYVh4NTNqaDZxZTVjd2JQNVVucHZBZ0JtOGhEUldRRGRxVGNpNTVTXzFnM0xVTWU5RjU0RnlSNERCc29wX0NMM0RB?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTRBaF95YVJialBnZUN5V3FBS0RCZ1hhNHZKb2dzZUtYeE9PTG84dndmbHkzb0wxcXJXSTBGV0lPZFBIR2FNT1REaUhxZFdBV0FVank5NWFkRGhCR2NCSzlQQW1jNVZqYVB6RC1WeVNuS2xHOEFVcG5yNzBDbThxS3MyYVh4NTNqaDZxZTVjd2JQNVVucHZBZ0JtOGhEUldRRGRxVGNpNTVTXzFnM0xVTWU5RjU0RnlSNERCc29wX0NMM0RB?oc=5",
-    "snippet": "Coinbase and Thunes Tie Stablecoins to Local Bank and Wallet Payouts TradingView",
-    "published_at": "2026-10-28T04:00:00+00:00",
+    "feed_name": "theblock",
+    "title": "Moody’s assigns investment-grade ratings to Ripple’s RLUSD stablecoin",
+    "url": "https://www.theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
+    "canonical_url": "https://theblock.co/news/web3/2026-10-28-moodys-ripple-rlusd-stablecoin-431969",
+    "snippet": "Moody's Ratings assigned the RLUSD A2 long-term and P-1 short-term ratings, citing credit quality and market value of its reserve assets.",
+    "published_at": "2026-10-28T09:15:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMixAFBVV95cUxNNTRBaF95YVJialBnZUN5V3FBS0RCZ1hhNHZKb2dzZUtYeE9PTG84dndmbHkzb0wxcXJXSTBGV0lPZFBIR2FNT1REaUhxZFdBV0FVank5NWFkRGhCR2NCSzlQQW1jNVZqYVB6RC1WeVNuS2xHOEFVcG5yNzBDbThxS3MyYVh4NTNqaDZxZTVjd2JQNVVucHZBZ0JtOGhEUldRRGRxVGNpNTVTXzFnM0xVTWU5RjU0RnlSNERCc29wX0NMM0RB",
+      "id": "bfcbd15e-3156-5a17-a9f1-caf85ecd46a8",
       "guidislink": false
     },
     "score": 20,
@@ -1057,6 +1058,146 @@
     ]
   },
   {
+    "id": "69f5dcfda2409a666269acda6d670bd82eb05477af03b4e1613e4cbc4f921241",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Securitize adds Stellar blockchain as institutional tokenization gathers steam",
+    "url": "https://www.coindesk.com/business/2026/10/28/securitize-adds-stellar-blockchain-as-institutional-tokenization-gathers-steam",
+    "canonical_url": "https://coindesk.com/business/2026/10/28/securitize-adds-stellar-blockchain-as-institutional-tokenization-gathers-steam",
+    "snippet": "",
+    "published_at": "2026-10-28T09:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "68520f4b-b16d-49fa-bf38-da10d60604e0",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "dd84e7006b7f29cc5559d4d7b224b4bd9c56f3822135a05d87972e1b7c0dec08",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "crypto_native_fintech_launches",
+    "title": "Coinbase and Thunes Tie Stablecoins to Local Bank and Wallet Payouts - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTRBaF95YVJialBnZUN5V3FBS0RCZ1hhNHZKb2dzZUtYeE9PTG84dndmbHkzb0wxcXJXSTBGV0lPZFBIR2FNT1REaUhxZFdBV0FVank5NWFkRGhCR2NCSzlQQW1jNVZqYVB6RC1WeVNuS2xHOEFVcG5yNzBDbThxS3MyYVh4NTNqaDZxZTVjd2JQNVVucHZBZ0JtOGhEUldRRGRxVGNpNTVTXzFnM0xVTWU5RjU0RnlSNERCc29wX0NMM0RB?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNNTRBaF95YVJialBnZUN5V3FBS0RCZ1hhNHZKb2dzZUtYeE9PTG84dndmbHkzb0wxcXJXSTBGV0lPZFBIR2FNT1REaUhxZFdBV0FVank5NWFkRGhCR2NCSzlQQW1jNVZqYVB6RC1WeVNuS2xHOEFVcG5yNzBDbThxS3MyYVh4NTNqaDZxZTVjd2JQNVVucHZBZ0JtOGhEUldRRGRxVGNpNTVTXzFnM0xVTWU5RjU0RnlSNERCc29wX0NMM0RB?oc=5",
+    "snippet": "Coinbase and Thunes Tie Stablecoins to Local Bank and Wallet Payouts TradingView",
+    "published_at": "2026-10-28T04:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMixAFBVV95cUxNNTRBaF95YVJialBnZUN5V3FBS0RCZ1hhNHZKb2dzZUtYeE9PTG84dndmbHkzb0wxcXJXSTBGV0lPZFBIR2FNT1REaUhxZFdBV0FVank5NWFkRGhCR2NCSzlQQW1jNVZqYVB6RC1WeVNuS2xHOEFVcG5yNzBDbThxS3MyYVh4NTNqaDZxZTVjd2JQNVVucHZBZ0JtOGhEUldRRGRxVGNpNTVTXzFnM0xVTWU5RjU0RnlSNERCc29wX0NMM0RB",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "057d7390b512b4f8a64129baa26dbd1b8da2d55fdecce6eb359a829850a8896b",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Janus Henderson takes Nasdaq-100 onchain as tokenization reaches private credit - Alternatives Watch",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZzdFZjRaWmJ4andpSjZ6NEdnUFV4Y21CU3dYR2NOMDdUSVRyWkdnMVF0Tks1M0hScEg0YlNBQjV4dzVaS0E2QnZDSHFnX3lQdE9jblFVaXR4azdkTWVadFh1SVVkSkowN01nQVFTaFRsd0t3N25TUHRTVHpwQUxCUWQ5b3c5LUxtZGh4U1psLTNOMjJxYThEOEd4dW9FT1hQdEtvM3BoTDBmeEFJY2RtcDRGc050ODVZRUFpbVh6ZW42RFE?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZzdFZjRaWmJ4andpSjZ6NEdnUFV4Y21CU3dYR2NOMDdUSVRyWkdnMVF0Tks1M0hScEg0YlNBQjV4dzVaS0E2QnZDSHFnX3lQdE9jblFVaXR4azdkTWVadFh1SVVkSkowN01nQVFTaFRsd0t3N25TUHRTVHpwQUxCUWQ5b3c5LUxtZGh4U1psLTNOMjJxYThEOEd4dW9FT1hQdEtvM3BoTDBmeEFJY2RtcDRGc050ODVZRUFpbVh6ZW42RFE?oc=5",
+    "snippet": "Janus Henderson takes Nasdaq-100 onchain as tokenization reaches private credit Alternatives Watch",
+    "published_at": "2026-10-28T01:10:10+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
+    "matched_keywords": [
+      "private credit",
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMiwwFBVV95cUxNZzdFZjRaWmJ4andpSjZ6NEdnUFV4Y21CU3dYR2NOMDdUSVRyWkdnMVF0Tks1M0hScEg0YlNBQjV4dzVaS0E2QnZDSHFnX3lQdE9jblFVaXR4azdkTWVadFh1SVVkSkowN01nQVFTaFRsd0t3N25TUHRTVHpwQUxCUWQ5b3c5LUxtZGh4U1psLTNOMjJxYThEOEd4dW9FT1hQdEtvM3BoTDBmeEFJY2RtcDRGc050ODVZRUFpbVh6ZW42RFE",
+      "guidislink": false
+    },
+    "score": 14,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "c44700e8fd7a1e03f3cd892ff9c14b9597b04357caa5cff5dd98a6d075d4cb29",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -1067,7 +1208,7 @@
     "snippet": "An expanded deal with Bitso puts Anchorage Digital Bank’s custody beneath both sides of the US-Mexico remittance route.",
     "published_at": "2026-10-27T19:46:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin",
       "remittance",
@@ -1116,7 +1257,7 @@
     "snippet": "AI Warning for USDC’s Issuer: Analysts’ Target Is 46% Below Koin Bülteni",
     "published_at": "2026-10-27T14:13:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "USDC",
       "issuer"
@@ -1164,7 +1305,7 @@
     "snippet": "One of crypto’s primary growth sectors for this upcoming cycle is under attack. Will Vlad Tenev speak up on today’s Robinhood earnings call?",
     "published_at": "2026-10-27T12:59:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -1211,13 +1352,58 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
       "id": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "689217694d9d5acfefa2d89b8e8c46ea725f7c3b4bb02ca77dad2fd2cc87c437",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Google to preview crypto custody security system as AI threats grow",
+    "url": "https://www.coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+    "canonical_url": "https://coindesk.com/tech/2026/10/28/google-to-preview-crypto-custody-security-system-as-ai-threats-grow",
+    "snippet": "",
+    "published_at": "2026-10-28T11:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [],
+    "raw": {
+      "id": "4eb9df0c-3a52-4a26-a0ff-02efe4711b90",
       "guidislink": false
     },
     "score": 10,
@@ -1256,7 +1442,7 @@
     "snippet": "",
     "published_at": "2026-10-27T16:59:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -1301,7 +1487,7 @@
     "snippet": "",
     "published_at": "2026-10-27T11:37:52+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1348,7 +1534,7 @@
     "snippet": "Lydian survey maps stablecoin payment appetite The Paypers",
     "published_at": "2026-10-27T11:23:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
+    "fetched_at": "2026-10-28T11:19:03.944255+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -1357,53 +1543,6 @@
     ],
     "raw": {
       "id": "CBMiuwFBVV95cUxPeWNHdVpETkVmMjBCQ3FzNjJkWWdaRUxacGQtTEsteUpCRWphMmtXMEM0Y3p2R0JxaVYxZDFtbEoyd3JTUWlfQkRWanZ3Q0hLajNUZHliS2YzRzJSdWc0QkFicUhWSUtGRUdFR1dTbDV1Y1pleUw5ZWN5YUpvUnNqanRKbVpKbU9pZVBhanpoamszdmpkelRGbExpQ0E5aDBKTXd2b2FZR09ZdzRkck5xa0lwTmdzbGNaSHA4",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "10d3f1331eec57d88e7d78db02f61791ad1d9112846293857aed11920a889310",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach",
-    "url": "https://www.coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
-    "canonical_url": "https://coindesk.com/business/2026/10/27/crypto-wallet-maker-keystone-to-destroy-almost-19-000-devices-after-security-breach",
-    "snippet": "",
-    "published_at": "2026-10-27T11:13:54+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-28T05:10:08.370230+00:00",
-    "matched_keywords": [
-      "crypto wallet"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "637afb0f-a5dc-47ca-8880-3a6078bba2d5",
       "guidislink": false
     },
     "score": 4,
