@@ -1,30 +1,149 @@
 [
   {
-    "id": "a0385d5be7e66083735a79c3c4a396f33e82c293",
-    "title": "The future financial system looks like 10 billion people and billions of agents transacting on their behalf. It can’t run on rationed compute. Enter Stellar Project Thruput: a tech preview of blockchain compute, unration",
-    "link": "https://x.com/StellarOrg/status/2115393990350840320#",
-    "score": 75,
-    "snippet": "The future financial system looks like 10 billion people and billions of agents transacting on their behalf. It can’t run on rationed compute. Enter Stellar Project Thruput: a tech preview of blockchain compute, unrationed. #Meridian2026 https://stellar.org/blog/foundation-news/introducing-stellar-p",
+    "id": "410543bcc119f027951013c87c088bdcecea61dd",
+    "title": "Congrats to @The_DTCC on the launch of its Tokenization Service. We’re proud to be among the firms collaborating with DTCC. @the_matter_labs is providing privacy features with Prividium. DTCC provides custody and asset s",
+    "link": "https://x.com/zksync/status/2115477787217895549#",
+    "score": 120,
+    "snippet": "Congrats to @The_DTCC on the launch of its Tokenization Service. We’re proud to be among the firms collaborating with DTCC. @the_matter_labs is providing privacy features with Prividium. DTCC provides custody and asset servicing for more than $114 trillion in securities.",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:stellarorg",
+    "financial": 50,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:zksync",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-28T10:43:24.340000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-10-28T16:16:23.137000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XLM",
-      "BILL"
+      "ZK"
     ]
+  },
+  {
+    "id": "597da9938de69dbf3bc80b727811c78fa51e12a9",
+    "title": "Citi, JPMorgan among major banks joining DTCC’s tokenization service launch - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNV3hfTDMtcHI2WVgyYkJtUHgyY21FY1REWDdTa29XQ2Z0RjBZQTNwMnliYUpOaHdRUmhfZTFoWkdkV3pOd2dlZGdoZEU1MVRDYUN4V2M3SXFBWmJKM251bzE5dlZwTWV0cUU1X21VNEpCUWtC?oc=5",
+    "score": 75,
+    "snippet": "Citi, JPMorgan among major banks joining DTCC’s tokenization service launch Crypto Briefing",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-10-28T13:21:40+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "c3c703375872cbadacaae6f203a703237f66a41b",
+    "title": "THE BLOCK: Securitize $SECZ plans to bring its tokenization platform to Stellar $XLM, giving institutional asset managers another avenue onchain. The integration will support the \"issuance and management of tokenized fin",
+    "link": "https://x.com/TheBlockCo/status/2115453878183313574#",
+    "score": 75,
+    "snippet": "THE BLOCK: Securitize $SECZ plans to bring its tokenization platform to Stellar $XLM, giving institutional asset managers another avenue onchain. The integration will support the \"issuance and management of tokenized financial assets,\" but specific products are yet to be announced.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T14:41:23.186000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SECZ",
+      "XLM"
+    ]
+  },
+  {
+    "id": "d386504f64f812e120fb6c9d5ff9f9ccd807af5b",
+    "title": "The DTCC Tokenization Service is live on @CantonNetwork. Today’s launch caps a path that started with a December 2025 No-Action Letter from the SEC, authorizing DTC to tokenize Russell 1000 constituents, major-index ETFs",
+    "link": "https://x.com/digitalasset/status/2115427323671355740#",
+    "score": 75,
+    "snippet": "The DTCC Tokenization Service is live on @CantonNetwork. Today’s launch caps a path that started with a December 2025 No-Action Letter from the SEC, authorizing DTC to tokenize Russell 1000 constituents, major-index ETFs, and U.S. Treasuries. In July, more than 30 TradFi and digital-asset firms vali",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:digitalasset",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T12:55:51.884000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CC"
+    ]
+  },
+  {
+    "id": "76bce3b6b3bf200d49b91880972de71e892fc4db",
+    "title": "THE BLOCK: DTCC's tokenization service is now live, with 34 securities available to tokenize at launch. The service enables 24/7 peer-to-peer transfers between DTC-registered wallets on the same blockchain, with tokens b",
+    "link": "https://x.com/TheBlockCo/status/2115413444166135918#",
+    "score": 75,
+    "snippet": "THE BLOCK: DTCC's tokenization service is now live, with 34 securities available to tokenize at launch. The service enables 24/7 peer-to-peer transfers between DTC-registered wallets on the same blockchain, with tokens backed 1:1 by securities held at DTC, according to DTCC's website.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T12:00:42.721000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "3e8eb7eb16d812f1a4d894765dee24054391dbc9",
@@ -57,10 +176,209 @@
     "coins": []
   },
   {
+    "id": "44a9a6425e3acc99113481e62df8e9cc67bccaa9",
+    "title": "Cross-border flows from the U.S. to El Salvador: ✅ At #Meridian2026, Movantis announced an integration with the Stellar network into its cross-border payments infrastructure, accelerating the digital settlement leg. http",
+    "link": "https://x.com/StellarOrg/status/2115447458348273749#",
+    "score": 70,
+    "snippet": "Cross-border flows from the U.S. to El Salvador: ✅ At #Meridian2026, Movantis announced an integration with the Stellar network into its cross-border payments infrastructure, accelerating the digital settlement leg. https://stellar.org/press/movantis-integrates-with-the-stellar-network-to-expand-its",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:stellarorg",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T14:15:52.124000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('integration')",
+    "matched": "integration",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM"
+    ]
+  },
+  {
+    "id": "f2f9bc6a9dcb5cfa82500f1a977cdc8a38c3f285",
+    "title": "We’re excited to be a part of the broader ecosystem of the DTCC Tokenization Service, which launched today. Ondo Finance joins ecosystem collaborators that include Broadridge, DRW, Fireblocks, and more, advancing connect",
+    "link": "https://x.com/Ondo/status/2115429019269070895#",
+    "score": 70,
+    "snippet": "We’re excited to be a part of the broader ecosystem of the DTCC Tokenization Service, which launched today. Ondo Finance joins ecosystem collaborators that include Broadridge, DRW, Fireblocks, and more, advancing connectivity between traditional and tokenized markets. In July, Ondo announced the fir",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ondo",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T13:02:36.197000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ONDO",
+      "CRCL",
+      "SPY"
+    ]
+  },
+  {
+    "id": "a0385d5be7e66083735a79c3c4a396f33e82c293",
+    "title": "The future financial system looks like 10 billion people and billions of agents transacting on their behalf. It can’t run on rationed compute. Enter Stellar Project Thruput: a tech preview of blockchain compute, unration",
+    "link": "https://x.com/StellarOrg/status/2115393990350840320#",
+    "score": 69,
+    "snippet": "The future financial system looks like 10 billion people and billions of agents transacting on their behalf. It can’t run on rationed compute. Enter Stellar Project Thruput: a tech preview of blockchain compute, unrationed. #Meridian2026 https://stellar.org/blog/foundation-news/introducing-stellar-p",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:stellarorg",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T10:43:24.340000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM",
+      "BILL"
+    ]
+  },
+  {
+    "id": "a2cb4011f0337571b6f374d03efa58aec22d4f6e",
+    "title": "Crypto moves fast. Your inbox can keep up. The Block newsletters: 📰 The Daily: every major story 📊 Data & Insights: the charts that matter 🏦 Tokenization Briefing: RWAs onchain 💸 The Funding: VC & M&A Pick yours 👇 https:",
+    "link": "https://x.com/TheBlockCo/status/2115474925079187746#",
+    "score": 65,
+    "snippet": "Crypto moves fast. Your inbox can keep up. The Block newsletters: 📰 The Daily: every major story 📊 Data & Insights: the charts that matter 🏦 Tokenization Briefing: RWAs onchain 💸 The Funding: VC & M&A Pick yours 👇 https://theblock.co/newsletters",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T16:05:00.614000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "d41f83e642052e526b577bb3c21d7c70989db707",
+    "title": "Your meme could power the next launch. 🖖 http://Four.Meme is introducing meme tokens as base assets for new launches. Creators will be able to select an eligible meme token to raise funds and use as the trading pair for",
+    "link": "https://x.com/fourdotmemezh/status/2115473693245890976#",
+    "score": 65,
+    "snippet": "Your meme could power the next launch. 🖖 http://Four.Meme is introducing meme tokens as base assets for new launches. Creators will be able to select an eligible meme token to raise funds and use as the trading pair for their newly launched token. Eligibility Rules • Meme tokens automatically become",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:fourdotmemezh",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T16:00:07.238000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FORM",
+      "CAP"
+    ]
+  },
+  {
+    "id": "95eb6a87be248c3829e07d63b0ff1ee63cbc337c",
+    "title": "Arbitrum’s path to bring ZK settlement to the programmable economy - Today: Mainnet block proofs - Next: ZK settlement and faster withdrawals Read more on the 2026 ZK Industry report by [@SuccinctLabs](https://x.com/Succ",
+    "link": "https://discord.com/channels/585084330037084172/1011661546289627207/1565030711507816608",
+    "score": 65,
+    "snippet": "Arbitrum’s path to bring ZK settlement to the programmable economy - Today: Mainnet block proofs - Next: ZK settlement and faster withdrawals Read more on the 2026 ZK Industry report by [@SuccinctLabs](https://x.com/SuccinctLabs) and [@zeroknowledgefm](https://x.com/zeroknowledgefm) below 👇 Inside t",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:arbitrum",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T15:57:38.602000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ARB",
+      "ZK",
+      "PROVE"
+    ]
+  },
+  {
+    "id": "71b343aa97243d9e78c303480d6eed1897a0627e",
+    "title": "Stellar Project Thruput: a technology preview of a new blockchain execution model, built to expand capacity for the Stellar ecosystem for decades. “When you have $100 trillion worth of assets onchain, how do you make thi",
+    "link": "https://x.com/StellarOrg/status/2115466287165882368#",
+    "score": 65,
+    "snippet": "Stellar Project Thruput: a technology preview of a new blockchain execution model, built to expand capacity for the Stellar ecosystem for decades. “When you have $100 trillion worth of assets onchain, how do you make this happen?” — @DenelleDixon https://thedefiant.io/news/blockchains/stellar-unveil",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:x:stellarorg",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T15:30:41.289000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('unveil')",
+    "matched": "unveil",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM"
+    ]
+  },
+  {
     "id": "4f0d7578460174a8adf9830f8487c48ef97399a0",
     "title": "THE BLOCK: Spot bitcoin ETFs recorded $176 million in net inflows on Tuesday, with BlackRock's $IBIT attracting $151.5 million. Spot ether ETFs shed $60.2 million. $BTC $ETH",
     "link": "https://x.com/TheBlockCo/status/2115342932572254226#",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Spot bitcoin ETFs recorded $176 million in net inflows on Tuesday, with BlackRock's $IBIT attracting $151.5 million. Spot ether ETFs shed $60.2 million. $BTC $ETH",
     "regions": [
       "US"
@@ -87,37 +405,187 @@
     ]
   },
   {
-    "id": "c63904ca3ac18d215b3c400fe30c12a6da7e6918",
-    "title": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B According to BeInCrypto, Anthropic’s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares fo",
-    "link": "https://x.com/WuBlockchain/status/2115317159081738357#",
-    "score": 65,
-    "snippet": "US Government Cashes Out Seized FTX Anthropic Shares for $627M, Now Worth $3.94B According to BeInCrypto, Anthropic’s Form S-1 IPO filing revealed that the US government sold 4,453,900 seized Series B Anthropic shares for $627 million to reimburse FTX creditors. Anthropic repurchased the shares from",
+    "id": "3c962b979a1f9ea662c1eddbacbb0017ba827608",
+    "title": "We're excited to announce partnership with @BitGo to launch a validator built for institutions. BitGo's institutional clients can now stake SOL with Jupiter, directly from their existing custody accounts. Solana's leadin",
+    "link": "https://x.com/JupiterExchange/status/2115462300501266447#",
+    "score": 60,
+    "snippet": "We're excited to announce partnership with @BitGo to launch a validator built for institutions. BitGo's institutional clients can now stake SOL with Jupiter, directly from their existing custody accounts. Solana's leading DeFi platform, meet the custodian institutions trust.",
     "regions": [],
     "primary_region": null,
-    "category": "fundraising",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:jupiterexchange",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-28T05:38:06.441000+00:00",
+    "published_at": "2026-10-28T15:14:50.933000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('series b')",
-    "matched": "series b",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BASED",
-      "FTT"
+      "JUP",
+      "SOL"
+    ]
+  },
+  {
+    "id": "d58874125fd0e9e71bdebe4f3f717c2f73f50d6b",
+    "title": "We're excited to announce partnership with BitGo to launch a validator built for institutions. BitGo's institutional clients can now stake SOL with Jupiter, directly from their existing custody accounts. Solana's leading",
+    "link": "https://x.com/JupiterExchange/status/2115461226465796422#",
+    "score": 60,
+    "snippet": "We're excited to announce partnership with BitGo to launch a validator built for institutions. BitGo's institutional clients can now stake SOL with Jupiter, directly from their existing custody accounts. Solana's leading DeFi platform, meet the custodian institutions trust.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:jupiterexchange",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T15:10:34.764000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "JUP",
+      "SOL"
+    ]
+  },
+  {
+    "id": "58a65cb4c0f16545854ecaff99674c14c3242aba",
+    "title": "$MSTR shareholders have approved the Daily Dividends amendment. Preliminary results show 99.3% of votes cast were in favor. The amendment enables $STRF, $STRC, $STRK and $STRD to accrue dividends every calendar day. Than",
+    "link": "https://x.com/saylor/status/2115451822915928244#",
+    "score": 60,
+    "snippet": "$MSTR shareholders have approved the Daily Dividends amendment. Preliminary results show 99.3% of votes cast were in favor. The amendment enables $STRF, $STRC, $STRK and $STRD to accrue dividends every calendar day. Thank you to all who voted. https://www.strategy.com/press/strategy-announces-approv",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:saylor",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T14:33:12.707000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approved')",
+    "matched": "approved",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "MSTR",
+      "STRC",
+      "STRK"
+    ]
+  },
+  {
+    "id": "f55f7834fc686f90e9fd3c1d26a8b93333fffed0",
+    "title": "BREAKING: Alphabet is securing its own digital assets on Solana. Google unveils Google Multi-Party Compute today, an institutional custody system now in private preview with major financial institutions. Commercial launc",
+    "link": "https://x.com/solana/status/2115432312343318628#",
+    "score": 60,
+    "snippet": "BREAKING: Alphabet is securing its own digital assets on Solana. Google unveils Google Multi-Party Compute today, an institutional custody system now in private preview with major financial institutions. Commercial launch early 2027.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:solana",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T13:15:41.137000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SOL"
+    ]
+  },
+  {
+    "id": "8467303da7d59b58aa76b6bde88729ca14fe57ad",
+    "title": "Stablecoins are moving deeper into the products customers already use. Kraken partnered with Circle to expand USDC and EURC utility across funding, trading, wallet infrastructure, and onchain access. The results: → 30% U",
+    "link": "https://x.com/circle/status/2115474924727095364#",
+    "score": 55,
+    "snippet": "Stablecoins are moving deeper into the products customers already use. Kraken partnered with Circle to expand USDC and EURC utility across funding, trading, wallet infrastructure, and onchain access. The results: → 30% USDC AUC growth on Kraken since its September 2025 partnership with Circle → Near",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T16:05:00.672000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partnered')",
+    "matched": "partnered",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "USDC"
+    ]
+  },
+  {
+    "id": "fb59ed4e0bd62526ff1120ef7e8a2aba4b7d9110",
+    "title": "Elisym Labs launched the Flux Gateway, an agent that other agents hire to deploy apps on Flux Cloud. It quotes, takes payment in USDC on Solana, and returns a live public URL, with no human involved.",
+    "link": "https://x.com/RunOnFlux/status/2115455619339837575#",
+    "score": 55,
+    "snippet": "Elisym Labs launched the Flux Gateway, an agent that other agents hire to deploy apps on Flux Cloud. It quotes, takes payment in USDC on Solana, and returns a live public URL, with no human involved.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:runonflux",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-28T14:48:17.822000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FLUX",
+      "USDC",
+      "SOL"
     ]
   },
   {
     "id": "e2ee5fed9ce2cedf576da406cffc796bcbabf1db",
     "title": "THE BLOCK: Nasdaq-listed SkyAI has expanded its cash tender offer to approximately $214.3 million after reaching a settlement with major shareholder Bastion Trading. The company previously sold its entire treasury of rou",
     "link": "https://x.com/TheBlockCo/status/2115373534151356485#",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: Nasdaq-listed SkyAI has expanded its cash tender offer to approximately $214.3 million after reaching a settlement with major shareholder Bastion Trading. The company previously sold its entire treasury of roughly 2 million $SOL and said it would not repurchase the cryptocurrency.",
     "regions": [],
     "primary_region": null,
@@ -146,7 +614,7 @@
     "id": "5e7d19bcb7e78e7df78b138e5662a1b9cf19b831",
     "title": "According to SoSoValue data, US Bitcoin spot ETFs recorded a total net inflow of $176 million on October 27 Eastern Time, with BlackRock's IBIT leading at $151 million in net inflows. Ethereum spot ETFs saw a total net o",
     "link": "https://x.com/WuBlockchain/status/2115348789360042364#",
-    "score": 60,
+    "score": 54,
     "snippet": "According to SoSoValue data, US Bitcoin spot ETFs recorded a total net inflow of $176 million on October 27 Eastern Time, with BlackRock's IBIT leading at $151 million in net inflows. Ethereum spot ETFs saw a total net outflow of $60.22 million, with BlackRock's ETHA being the sole fund recording ne",
     "regions": [
       "US"
@@ -176,7 +644,7 @@
     "id": "803dff78720d5914870f0addd23d13a089d85b29",
     "title": "Initia Foundation has approved funding to fully restore the 1:1 backing for affected Noble USDC, WETH, and AUSD0 held as iUSD collateral. Funding will cover verified shortfalls up to 1.08M USDC, 105 ETH, and 1.4M AUSD0 f",
     "link": "https://x.com/initiaFDN/status/2115345150369038598#",
-    "score": 60,
+    "score": 54,
     "snippet": "Initia Foundation has approved funding to fully restore the 1:1 backing for affected Noble USDC, WETH, and AUSD0 held as iUSD collateral. Funding will cover verified shortfalls up to 1.08M USDC, 105 ETH, and 1.4M AUSD0 following reconciliation and final transfer approval.",
     "regions": [],
     "primary_region": null,
@@ -206,7 +674,7 @@
     "id": "76b1191b01054ddaef899b05e4742214f92ef0c9",
     "title": "Stable Mainnet is upgrading to v1.9.0 on October 31. This upgrade introduces additional safeguards for transaction execution, strengthens network reliability, and improves fund safety during staking operations. Focused o",
     "link": "https://x.com/Stable/status/2115329597554508194#",
-    "score": 60,
+    "score": 54,
     "snippet": "Stable Mainnet is upgrading to v1.9.0 on October 31. This upgrade introduces additional safeguards for transaction execution, strengthens network reliability, and improves fund safety during staking operations. Focused on improving the network as Stable ecosystem grows.",
     "regions": [
       "US"
@@ -233,13 +701,44 @@
     ]
   },
   {
-    "id": "f5a3bcb0b9ac16d51bbd0d9d016a39db2b35dcc4",
-    "title": "BitGo to integrate WisdomTree tokenised money market fund",
-    "link": "https://www.finextra.com/pressarticle/111471/bitgo-to-integrate-wisdomtree-tokenised-money-market-fund?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "score": 59,
-    "snippet": "BitGo Bank & Trust, National Association (“BitGo Bank & Trust”), an OCC-regulated digital asset trust bank and a subsidiary of BitGo Holdings, Inc. (NYSE: BTGO) (“BitGo”), the digital asset infrastructure company, today announced that eligible institutional clients will be able to access the WisdomT",
-    "regions": [],
-    "primary_region": null,
+    "id": "d400a10d0d173ed2f4a5e1cd5fd400e9b1a7779f",
+    "title": "JPMorgan, Coca-Cola Among 7 More Companies Objecting to OKX-ICE Tokenized Stocks",
+    "link": "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks",
+    "score": 50,
+    "snippet": "Seven more companies, including JPMorgan Chase, Coca-Cola and Dell, have objected to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 33.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 3,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-10-28T15:05:03+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "a663e1e498f6af48f712d3ea692b041797dec8a6",
+    "title": "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan",
+    "link": "https://www.coindesk.com/business/2026/10/28/jpmorgan-coca-cola-dell-also-say-no-to-okx-ice-tokenized-tock-trading-plan",
+    "score": 50,
+    "snippet": "",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "B",
     "consensus": 1,
@@ -247,9 +746,9 @@
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
-    "feed_name": "finextra",
+    "feed_name": "coindesk",
     "source": "Google News RSS",
-    "published_at": "2026-10-27T15:10:00+00:00",
+    "published_at": "2026-10-28T12:59:36+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -259,23 +758,23 @@
     "coins": []
   },
   {
-    "id": "f54c7635290ac37b18b88c9fd48371fcb0f80b3b",
-    "title": "RSGP is set to launch on Oct 29 at 11 AM EST. Incentives are already scheduled to stream on Aero to support the TGE. sAERO holders will be able to allocate to the pool to earn a share of incentives.",
-    "link": "https://x.com/aeroxyz/status/2115218845338382801#",
-    "score": 54,
-    "snippet": "RSGP is set to launch on Oct 29 at 11 AM EST. Incentives are already scheduled to stream on Aero to support the TGE. sAERO holders will be able to allocate to the pool to earn a share of incentives.",
+    "id": "aaeab4da2acf9a246587db4a8fce7ab8e6d25b33",
+    "title": "\"We have put up our parameters of what we need in a chain. Stellar went through them with flying colors.\" @nchakar joined @DenelleDixon at #Meridian2026 to discuss why @The_DTCC is building on an open network. DTCC plans",
+    "link": "https://x.com/StellarOrg/status/2115446084793426061#",
+    "score": 50,
+    "snippet": "\"We have put up our parameters of what we need in a chain. Stellar went through them with flying colors.\" @nchakar joined @DenelleDixon at #Meridian2026 to discuss why @The_DTCC is building on an open network. DTCC plans to launch on Stellar first.",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:aeroxyz",
+    "feed_name": "tree:x:stellarorg",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T23:07:26.793000+00:00",
+    "published_at": "2026-10-28T14:10:24.770000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
@@ -283,15 +782,15 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "AERO"
+      "XLM"
     ]
   },
   {
-    "id": "d82b1ae46b5c70da6c414095a50a1f8a00138621",
-    "title": "THE BLOCK: Robinhood's crypto revenue rose 20% from Q2 to $120 million, boosted by $26 million from Robinhood Chain. $HOOD Excluding the blockchain's contribution, crypto trading revenue fell 6% despite a rebound in trad",
-    "link": "https://x.com/TheBlockCo/status/2115176361812001144#",
-    "score": 54,
-    "snippet": "THE BLOCK: Robinhood's crypto revenue rose 20% from Q2 to $120 million, boosted by $26 million from Robinhood Chain. $HOOD Excluding the blockchain's contribution, crypto trading revenue fell 6% despite a rebound in trading volumes.",
+    "id": "b171eab62dee832cc1a18225a1a96322570db2b1",
+    "title": "Ripple expects $900 million annualized product revenue run rate as institutional business expands https://www.theblock.co/news/business/2026-10-28-ripple-900-million-revenue-run-rate-rlusd-431920?utm_source=twitter&utm_m",
+    "link": "https://x.com/TheBlockCo/status/2115428414601470081#",
+    "score": 50,
+    "snippet": "Ripple expects $900 million annualized product revenue run rate as institutional business expands https://www.theblock.co/news/business/2026-10-28-ripple-900-million-revenue-run-rate-rlusd-431920?utm_source=twitter&utm_medium=social",
     "regions": [
       "US"
     ],
@@ -303,7 +802,7 @@
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T20:18:37.902000+00:00",
+    "published_at": "2026-10-28T13:00:11.704000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -311,45 +810,98 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HOOD"
+      "XRP"
     ]
   },
   {
-    "id": "42450244af9bb6db4affb5575af3260719621b43",
-    "title": "\"At some point all the financial services will move onchain.\" Nick Cherney, Head of Innovation at @JHIAdvisors, in The Wall Street Journal's story on $JQQQ: the first licensed tokenized fund tracking the Nasdaq-100 Index",
-    "link": "https://x.com/centrifuge/status/2115137456064680273#",
-    "score": 54,
-    "snippet": "\"At some point all the financial services will move onchain.\" Nick Cherney, Head of Innovation at @JHIAdvisors, in The Wall Street Journal's story on $JQQQ: the first licensed tokenized fund tracking the Nasdaq-100 Index®, powered by Centrifuge. https://www.wsj.com/finance/investing/janus-launches-f",
+    "id": "9505d3fc7af69f2efe95be5be765cc95138b752a",
+    "title": "Ripple expects $900 million annualized product revenue run rate as institutional business expands",
+    "link": "https://www.theblock.co/news/business/2026-10-28-ripple-900-million-revenue-run-rate-rlusd-431920",
+    "score": 50,
+    "snippet": "Ripple expects $900 million annualized product revenue run rate as institutional business expands",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:the block",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-28T13:00:07.803000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "cb9d281165e5ae4b699878121e4395948e0597c2",
+    "title": "Hyperliquid Strategies Raises Share Buyback Authorization to $100M as $PURR Stock Falls 33%",
+    "link": "https://www.crowdfundinsider.com/2026/10/320423-hyperliquid-strategies-raises-share-buyback-authorization-to-100m-as-purr-stock-falls-33",
+    "score": 50,
+    "snippet": "Hyperliquid Strategies Raises Share Buyback Authorization to $100M as $PURR Stock Falls 33%",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-28T11:54:37.786000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('authorization')",
+    "matched": "authorization",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "PURR",
+      "HYPE"
+    ]
+  },
+  {
+    "id": "9f4026d467676e6136a431888bd4b1da4a7845ed",
+    "title": "Circle, Tether, and Ripple: Three Scrambles for Africa’s Stablecoin Plumbing - Launch Base Africa",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPemZFVzRaZUlDOVloUDVDUmZNcFhRemQ0c2d0MnpXdkR6b2Q2RkJVRnpjNFdwNUhrWGFvZWo1MWhXWkpORXR0bU16TGw5SE1nMjc0YXo4eWxLdHpyckR4UGVDWlhNOFRDNF80UGtwWnNGMVJXSkZ2Umw5Vmp4ZjNESHhNbUV3YThLUlNBb3o4RHBETEpXSFlaaDlNM3JZOUQwLWlPRHA3YU5uTmtnTVc5Rm5lZw?oc=5",
+    "score": 49,
+    "snippet": "Circle, Tether, and Ripple: Three Scrambles for Africa’s Stablecoin Plumbing Launch Base Africa",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA",
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:centrifuge",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T17:44:01.969000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-10-28T05:20:00+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('licensed')",
-    "matched": "licensed",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CFG"
-    ]
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "da5fec6afc4fc953eca4a2f8591d02b703bb81d7",
     "title": "Spot Trading Tournament Season 9: Trade to Share Up to 400 BNB Token Vouchers",
     "link": "https://www.treeofalpha.com/preview_article?id=1793178003435",
-    "score": 50,
+    "score": 44,
     "snippet": "Spot Trading Tournament Season 9: Trade to Share Up to 400 BNB Token Vouchers",
     "regions": [],
     "primary_region": null,
@@ -370,86 +922,5 @@
     "coins": [
       "BNB"
     ]
-  },
-  {
-    "id": "962fa5d9a6d15599d4e406c9c9c8d5dbb7dba0d8",
-    "title": "Spanish Investigators Trace Over $1.1 Billion in Bitcoin Movements Linked to Arbistar After Its 2020 Collapse",
-    "link": "https://www.crowdfundinsider.com/2026/10/320658-spanish-investigators-trace-over-1-1-billion-in-bitcoin-movements-linked-to-arbistar-after-its-2020-collapse",
-    "score": 44,
-    "snippet": "Spanish Investigators Trace Over $1.1 Billion in Bitcoin Movements Linked to Arbistar After Its 2020 Collapse",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:crowdfundinsider",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-28T03:16:12.971000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "e0402c53711f649b6756a4c1cb60a521bcefae0a",
-    "title": "Robinhood Q3 Revenue Meets Estimates as Prediction Market Revenue Surges and Crypto Revenue Falls 55% Robinhood reported Q3 2026 revenue of $1.424 billion, up 12% year-over-year and roughly in line with the $1.42 billion",
-    "link": "https://x.com/WuBlockchain/status/2115185708629725346#",
-    "score": 44,
-    "snippet": "Robinhood Q3 Revenue Meets Estimates as Prediction Market Revenue Surges and Crypto Revenue Falls 55% Robinhood reported Q3 2026 revenue of $1.424 billion, up 12% year-over-year and roughly in line with the $1.42 billion estimate. Net income fell 14% to $476 million, while diluted EPS of $0.51 misse",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-27T20:55:46.457000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BASED"
-    ]
-  },
-  {
-    "id": "02e345f9385cddf4c7c7206b9fc3e9b470cf4811",
-    "title": "Solana Faces Demand Test as Samsung USDC Wallet Launch Nears - Analytics Insight",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOelRFLWcxYmkxQmRQNDNOOUhWRlpvcWdabGY3dVUtX2gxVTJxNzgwbVZQY01JbEtMM0wyRkZrempnX0xiOWdoTjY5SXJlNXVVOE5XTy1DY0M5dmNGd0EtVHQ2M2xFdGZRWjRkbXE1UGxmejR3UFVZXzdQZUZfb0J4UXZTWjlMWHZsRmI2bmdWejBEaHlEeXJRZEgyRE9QX2PSAawBQVVfeXFMTVBtU1hUZEgwQ2swX21NNG4tOUo2dlZIT2hfTElzS0FKeWxuSjJDWmlDZUIyeXFjcDdERTNTZnZvZTZXNk9nSi02NGZGOXVXcGFjYmpjSWNqUVh4YnNEbklzSHVfam96bGxqbU5wSmtWbFBYRUtqd0JhSUhSOHNjQ09rd29BUjNlVkN3eU1lZl9VVmNjRVlOMVRabzVhbXZ2S1czY0ZOM0owaElVVQ?oc=5",
-    "score": 39,
-    "snippet": "Solana Faces Demand Test as Samsung USDC Wallet Launch Nears Analytics Insight",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-27T15:45:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]
