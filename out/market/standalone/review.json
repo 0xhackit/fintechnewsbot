@@ -1,20 +1,79 @@
 [
   {
-    "id": "794f39c2f83b0f51ad815268d29ead15a8d7a58f",
-    "title": "@OlawaleSik1288 🔎 Pyth mention — Olawale Sikiru (886 followers) Pyth Pro just added the US Treasury curve. There are 14 new indices: a par yield and a discount factor for each of the 2, 3, 5, 7, 10, 20 and 30-year maturi",
-    "link": "https://discord.com/channels/826115122799837205/1527557044821950544/1565236956021923902",
-    "score": 74,
-    "snippet": "@OlawaleSik1288 🔎 Pyth mention — Olawale Sikiru (886 followers) Pyth Pro just added the US Treasury curve. There are 14 new indices: a par yield and a discount factor for each of the 2, 3, 5, 7, 10, 20 and 30-year maturities (7 maturities × 2 = 14). The same update also brought wider commodity futur",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "id": "5f9f3a9f9298e77ed27efe0be46e717c083ae923",
+    "title": "Ripple Receives Final OCC Authorization to Establish National Trust Bank",
+    "link": "https://www.crowdfundinsider.com/2026/10/320649-ripple-receives-final-occ-authorization-to-establish-national-trust-bank",
+    "score": 90,
+    "snippet": "Ripple Receives Final OCC Authorization to Establish National Trust Bank",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:pythnetwork",
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-29T15:52:29.460000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('authorization')",
+    "matched": "authorization",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XRP"
+    ]
+  },
+  {
+    "id": "7ea8f2c50ab2fc013ba0c503aae70b86485549ee",
+    "title": "Since launch, Ethena has generated over $800 million in rewards deployed throughout the Ethena USDe ecosystem.",
+    "link": "https://x.com/ethena/status/2115834310213451937#",
+    "score": 75,
+    "snippet": "Since launch, Ethena has generated over $800 million in rewards deployed throughout the Ethena USDe ecosystem.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ethena",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T05:32:55.282000+00:00",
+    "published_at": "2026-10-29T15:53:05.070000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ENA"
+    ]
+  },
+  {
+    "id": "5f5eed9e19623f4491fa6f2cadbcba2d4dbd4430",
+    "title": "SEC Alleges $200 Million Crypto-Based Commodities Ponzi Scheme",
+    "link": "https://news.bloomberglaw.com/securities-law/sec-alleges-200-million-crypto-based-commodities-ponzi-scheme",
+    "score": 70,
+    "snippet": "SEC Alleges $200 Million Crypto-Based Commodities Ponzi Scheme",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:bloomberg law",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-29T15:59:04.111000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -22,16 +81,45 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "PYTH",
-      "CRV"
+      "BASED"
     ]
   },
   {
-    "id": "0424e1f91fb828248d4927d555d582de9ec35e9c",
-    "title": "NYSE Parent ICE Plans to Partner With Trade xyz to Launch Perpetual Futures Market in the US According to Bloomberg, Intercontinental Exchange (ICE), parent company of the New York Stock Exchange, is partnering with Trad",
-    "link": "https://x.com/WuBlockchain/status/2115760462856171756#",
+    "id": "34e9be3eb12e02d8e1470c07a36a17d060b2514e",
+    "title": "LATEST: @CurveFinance launches on @StellarOrg mainnet, its first native deployment outside the EVM ecosystem, bringing StableSwap pools to Stellar’s growing tokenized asset and stablecoin infrastructure.",
+    "link": "https://x.com/CoinDesk/status/2115819178808500493#",
     "score": 70,
-    "snippet": "NYSE Parent ICE Plans to Partner With Trade xyz to Launch Perpetual Futures Market in the US According to Bloomberg, Intercontinental Exchange (ICE), parent company of the New York Stock Exchange, is partnering with Trade xyz to launch regulated perpetual futures contracts in the United States. The ",
+    "snippet": "LATEST: @CurveFinance launches on @StellarOrg mainnet, its first native deployment outside the EVM ecosystem, bringing StableSwap pools to Stellar’s growing tokenized asset and stablecoin infrastructure.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-29T14:52:57.270000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "XLM"
+    ]
+  },
+  {
+    "id": "7f111b3e853e8f9143bd772db1d5db3c34b92a9b",
+    "title": "The Injective Trench Treasury has officially acquired 5% of the @runupdotfun $RUNNER supply. RunUp is building a new model for token launches on Injective, leveraging native perpetual markets to create unique value accru",
+    "link": "https://x.com/injective/status/2115809184268603459#",
+    "score": 65,
+    "snippet": "The Injective Trench Treasury has officially acquired 5% of the @runupdotfun $RUNNER supply. RunUp is building a new model for token launches on Injective, leveraging native perpetual markets to create unique value accrual mechanisms. Trading fees fund onchain treasury strategies, with profits suppo",
     "regions": [
       "US"
     ],
@@ -43,28 +131,29 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:wublockchain",
+    "feed_name": "tree:x:injective",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T10:59:38.372000+00:00",
+    "published_at": "2026-10-29T14:13:14.534000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HYPE"
+      "INJ",
+      "SOL"
     ]
   },
   {
-    "id": "b03f7f90f6210c98ca98eb0274099ffbf51c6cd1",
-    "title": "At #Meridian2026, @Spiko_finance announced that the Spiko Amundi Overnight Swap Fund (SAFO), marketed as Smart Cash, has become the world’s largest tokenized fund by assets under management. https://stellar.org/press/saf",
-    "link": "https://x.com/StellarOrg/status/2115737737709978071#",
-    "score": 70,
-    "snippet": "At #Meridian2026, @Spiko_finance announced that the Spiko Amundi Overnight Swap Fund (SAFO), marketed as Smart Cash, has become the world’s largest tokenized fund by assets under management. https://stellar.org/press/safo-becomes-the-world-s-largest-tokenized-fund-seven-months-after-launch",
+    "id": "1ba924f59c2f4423122fa1b2d6446fb9e0224069",
+    "title": "A new DeFi SuperApp is coming to Sonic. @NummoHQ is building across perps, dated futures, RWAs, and community-owned liquidity. Follow along for product updates, educational content, and the road to launch. 👇",
+    "link": "https://x.com/SonicLabs/status/2115861426036408741#",
+    "score": 60,
+    "snippet": "A new DeFi SuperApp is coming to Sonic. @NummoHQ is building across perps, dated futures, RWAs, and community-owned liquidity. Follow along for product updates, educational content, and the road to launch. 👇",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
@@ -72,9 +161,9 @@
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:stellarorg",
+    "feed_name": "tree:x:soniclabs",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T09:29:20.145000+00:00",
+    "published_at": "2026-10-29T17:40:49.801000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
@@ -82,103 +171,15 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XLM"
+      "S"
     ]
   },
   {
-    "id": "f1fd93179bb4427b8e0a6fb38499f7248a5b2c6f",
-    "title": "THE BLOCK: Alipay denied supporting crypto trading after the Peer protocol announced a beta integration designed to let users buy and sell USDC via CNY transfers on the app. The Chinese payments giant said claims that Al",
-    "link": "https://x.com/TheBlockCo/status/2115635571062345836#",
-    "score": 69,
-    "snippet": "THE BLOCK: Alipay denied supporting crypto trading after the Peer protocol announced a beta integration designed to let users buy and sell USDC via CNY transfers on the app. The Chinese payments giant said claims that Alipay enables crypto purchases on third-party platforms are \"false and unauthoriz",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T02:43:21.885000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('buy')",
-    "matched": "buy",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "USDC"
-    ]
-  },
-  {
-    "id": "3e0aa4d9fe943e72866c878f2eaef48a68b27da6",
-    "title": "U.S. Bitcoin ETFs Draw $137 Million as Ether Funds Shed $21.4 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $137 million in net inflows on October 28, led by BlackRock's IBIT with $136 million. Spot Eth",
-    "link": "https://x.com/WuBlockchain/status/2115687471992521040#",
-    "score": 64,
-    "snippet": "U.S. Bitcoin ETFs Draw $137 Million as Ether Funds Shed $21.4 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $137 million in net inflows on October 28, led by BlackRock's IBIT with $136 million. Spot Ethereum ETFs saw $21.41 million in net outflows, although Fidelity's FETH posted t",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T06:09:36.151000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "IBIT",
-      "ETH",
-      "BTC"
-    ]
-  },
-  {
-    "id": "0d2be19f12efb33845c9f6908e1b6647781bf7a3",
-    "title": "Intercontinental Exchange (ICE) and trade[XYZ] have announced their plan to use Hyperliquid as the infrastructure layer to deploy perpetual futures markets for US traders across crypto, equities, commodities, foreign exc",
-    "link": "https://x.com/HyperliquidX/status/2115782848192118861#",
+    "id": "a6df6103ad3a42357a8fc4e394921a3b7308d117",
+    "title": "Eureka Labs Launches 'BEX' Execution Engine on Ethereum Mainnet",
+    "link": "https://chainwire.org/2026/10/29/eureka-labs-launches-bex-execution-engine-on-ethereum-mainnet",
     "score": 60,
-    "snippet": "Intercontinental Exchange (ICE) and trade[XYZ] have announced their plan to use Hyperliquid as the infrastructure layer to deploy perpetual futures markets for US traders across crypto, equities, commodities, foreign exchange, and other real-world assets, subject to regulatory approvals. ICE operate",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:hyperliquidx",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T12:28:35.441000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('deploy')",
-    "matched": "deploy",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HYPE"
-    ]
-  },
-  {
-    "id": "ad6ad0202eaa492fe174b9e525da0532b456c128",
-    "title": "BREAKING: WalletConnect is expanding support for @StellarOrg. Apps and wallets across Stellar can now connect to 900M end users, thousands of institutions, 700+ wallets, exchanges across WalletConnect. Proud to launch al",
-    "link": "https://x.com/WalletConnect/status/2115760590086107363#",
-    "score": 60,
-    "snippet": "BREAKING: WalletConnect is expanding support for @StellarOrg. Apps and wallets across Stellar can now connect to 900M end users, thousands of institutions, 700+ wallets, exchanges across WalletConnect. Proud to launch alongside @FireblocksHQ, @utila_io, @thisisarculus, @lobstr.",
+    "snippet": "Eureka Labs Launches 'BEX' Execution Engine on Ethereum Mainnet",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -188,46 +189,155 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:walletconnect",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T11:00:08.631000+00:00",
+    "feed_name": "tree:chainwire",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-29T16:55:45.913000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "WCT",
-      "XLM"
+      "ETH"
     ]
   },
   {
-    "id": "ae326c31e680daefe9ba7f6607852d478bf102f2",
-    "title": "THE BLOCK: PhotonPay raised $40 million in a Series C led by Blockchain Capital, with participation from new investor SBI Group and follow-on investments from IDG Capital, GL Ventures, and Lightspeed Faction. The Hong Ko",
-    "link": "https://x.com/TheBlockCo/status/2115799191406653595#",
+    "id": "d9033d17fa6206016b23af64bfe6a5155ebdbcd0",
+    "title": "@Mon_Cumulo (Mon) Introducing Fibre Network API: Open, Verifiable Data on Celestia Fibre [Node Operators/Validators] Hi @Anzus_GemWallet, as promised, Fibre readiness is now on the validator pages of our explorer, for bo",
+    "link": "https://discord.com/channels/638338779505229824/1042776409854193725/1565402028480405505",
+    "score": 60,
+    "snippet": "@Mon_Cumulo (Mon) Introducing Fibre Network API: Open, Verifiable Data on Celestia Fibre [Node Operators/Validators] Hi @Anzus_GemWallet, as promised, Fibre readiness is now on the validator pages of our explorer, for both mainnet and Mocha: The validator list has a sortable Fibre column (Ready, Par",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:celestiaorg",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-29T16:28:49.982000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('list')",
+    "matched": "list",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "TIA"
+    ]
+  },
+  {
+    "id": "c5e25917b9f59883023a54f6ad5d9e2a72f41589",
+    "title": "Introducing Tipping on Swarms Marketplace 🫴🪙 You can now tip builders for sharing free agents, prompts, and MCPs on Swarms Marketplace, with payments via Stripe or crypto. Reward the builders who make useful agents, prom",
+    "link": "https://x.com/swarms_corp/status/2115888201349140567#",
     "score": 55,
-    "snippet": "THE BLOCK: PhotonPay raised $40 million in a Series C led by Blockchain Capital, with participation from new investor SBI Group and follow-on investments from IDG Capital, GL Ventures, and Lightspeed Faction. The Hong Kong-based company plans to expand multi-asset wallets, global card issuing and lo",
-    "regions": [
-      "APAC"
+    "snippet": "Introducing Tipping on Swarms Marketplace 🫴🪙 You can now tip builders for sharing free agents, prompts, and MCPs on Swarms Marketplace, with payments via Stripe or crypto. Reward the builders who make useful agents, prompts, and MCPs accessible to everyone. Learn more ⬇️🧵 ht",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:swarms_corp",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-29T19:27:13.567000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SWARMS"
+    ]
+  },
+  {
+    "id": "ecac9a92b15604423fbf7ccbbdb3a784a87c4b0e",
+    "title": "THE BLOCK: Franklin Templeton launched two ETFs combining U.S. equities and bitcoin exposure, with dividends from the underlying stocks systematically reinvested into bitcoin, the asset manager said Thursday. The Frankli",
+    "link": "https://x.com/TheBlockCo/status/2115822348746297571#",
+    "score": 55,
+    "snippet": "THE BLOCK: Franklin Templeton launched two ETFs combining U.S. equities and bitcoin exposure, with dividends from the underlying stocks systematically reinvested into bitcoin, the asset manager said Thursday. The Franklin U.S. Equity Bitcoin DRIP Index ETF (FBEQ) tracks an index of about 500 large-c",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
     ],
-    "primary_region": "APAC",
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-29T15:05:33.147000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "CAP"
+    ]
+  },
+  {
+    "id": "8a4b29c496c7699d090244adfa0a5bda7b48533c",
+    "title": "SDF announced a strategic investment in @Marketnode, Asia-Pacific’s trusted digital market infrastructure (DMI) operator backed by @Euroclear, @HSBC, @SGXGroup, and @Temasek. #Meridian2026 https://stellar.org/press/stell",
+    "link": "https://x.com/StellarOrg/status/2115816309111832633#",
+    "score": 55,
+    "snippet": "SDF announced a strategic investment in @Marketnode, Asia-Pacific’s trusted digital market infrastructure (DMI) operator backed by @Euroclear, @HSBC, @SGXGroup, and @Temasek. #Meridian2026 https://stellar.org/press/stellar-development-foundation-makes-strategic-investment-in-marketnode-to-expand-ins",
+    "regions": [],
+    "primary_region": null,
     "category": "fundraising",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:stellarorg",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T13:33:32.136000+00:00",
+    "published_at": "2026-10-29T14:41:33.168000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('raised $40 million in a series')",
-    "matched": "raised $40 million in a series",
-    "fulltext": false,
+    "reason": "concrete market event ('investment')",
+    "matched": "investment",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BASED"
+      "XLM"
+    ]
+  },
+  {
+    "id": "428660e17ca1f401c249399d27e0c78b735c66b1",
+    "title": "THE BLOCK: Uniswap Labs has launched TJAR, an open-source fee-conversion tool, with Robinhood as its first integration partner. $UNI $HOOD TJAR lets apps convert the tokens they collect as fees into a token of their choi",
+    "link": "https://x.com/TheBlockCo/status/2115813457912021247#",
+    "score": 55,
+    "snippet": "THE BLOCK: Uniswap Labs has launched TJAR, an open-source fee-conversion tool, with Robinhood as its first integration partner. $UNI $HOOD TJAR lets apps convert the tokens they collect as fees into a token of their choice. Originally built as Token Jar for Uniswap's protocol fees, the tool is now a",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-29T14:30:13.416000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "UNI",
+      "HOOD"
     ]
   },
   {
@@ -257,11 +367,39 @@
     "coins": []
   },
   {
-    "id": "ffffff1c30bb1174c4da011a578203ef33427cb0",
-    "title": "Thank you, @BD_GemX, for helping put Metis Rise in front of more builders. The program counts an agent by what it does: real users transacting with it on Andromeda Mainnet, not just a launch. Applications are rolling.",
-    "link": "https://x.com/MetisL2/status/2115667595613667478#",
-    "score": 54,
-    "snippet": "Thank you, @BD_GemX, for helping put Metis Rise in front of more builders. The program counts an agent by what it does: real users transacting with it on Andromeda Mainnet, not just a launch. Applications are rolling.",
+    "id": "acd8efecf285c539544ec5de454051e5ca2be0a7",
+    "title": "Tokenized Stocks Flow into DeFi Surpasses $300 Million : Research",
+    "link": "https://www.crowdfundinsider.com/2026/10/320608-tokenized-stocks-flow-into-defi-surpasses-300-million-research",
+    "score": 50,
+    "snippet": "Tokenized Stocks Flow into DeFi Surpasses $300 Million : Research",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:crowdfundinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-29T14:46:27.459000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "FLOW"
+    ]
+  },
+  {
+    "id": "cb4e7a03f5f26cdd5290e7e81648f843aa31f253",
+    "title": "Optimism Foundation seeks approval to rebate OP Mainnet sequencer fees to select partners, with buybacks calculated net of rebates",
+    "link": "https://gov.optimism.io/t/10940",
+    "score": 50,
+    "snippet": "Optimism Foundation seeks approval to rebate OP Mainnet sequencer fees to select partners, with buybacks calculated net of rebates",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -271,17 +409,17 @@
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:metisl2",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T04:50:37.045000+00:00",
+    "feed_name": "tree:op",
+    "source": "TreeOfAlpha/Proposals",
+    "published_at": "2026-10-29T14:44:47.439000+00:00",
     "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": true,
     "origin": "tree",
     "coins": [
-      "METIS"
+      "OP"
     ]
   },
   {
@@ -306,121 +444,10 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approved')",
     "matched": "approved",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HBAR"
-    ]
-  },
-  {
-    "id": "283b281b5bec91f1ff587bd72e9a1d0ffdadeab6",
-    "title": ".@LoonFinance has selected LayerZero's OFT standard to power cross-chain interoperability for its Canadian dollar-backed stablecoin $CADC. Migrating from a legacy solution, Loon collaborated with LayerZero to design a be",
-    "link": "https://x.com/LayerZero_Core/status/2115799117872222497#",
-    "score": 50,
-    "snippet": ".@LoonFinance has selected LayerZero's OFT standard to power cross-chain interoperability for its Canadian dollar-backed stablecoin $CADC. Migrating from a legacy solution, Loon collaborated with LayerZero to design a bespoke solution that satisfied the unique regulatory, compliance, security, and g",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:layerzero_core",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T13:33:14.919000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('selected')",
-    "matched": "selected",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "ZRO"
-    ]
-  },
-  {
-    "id": "41fa3d0c3575aa960fede39141219b9e18768763",
-    "title": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
-    "link": "https://www.coindesk.com/daybook-us/2026/10/29/as-usd10-billion-in-bitcoin-options-near-expiry-the-tell-is-in-the-pricing",
-    "score": 50,
-    "snippet": "As $10 billion in bitcoin options near expiry, the tell is in the pricing",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:coindesk",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-29T12:05:07.252000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "d400a10d0d173ed2f4a5e1cd5fd400e9b1a7779f",
-    "title": "JPMorgan, Coca-Cola Among 7 More Companies Objecting to OKX-ICE Tokenized Stocks",
-    "link": "https://decrypt.co/382043/jpmorgan-coca-cola-7-more-companies-objecting-okx-ice-tokenized-stocks",
-    "score": 44,
-    "snippet": "Seven more companies, including JPMorgan Chase, Coca-Cola and Dell, have objected to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 33.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "decrypt",
-    "source": "Google News RSS",
-    "published_at": "2026-10-28T15:05:03+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "f0ae3206d9b0fd79bb42e0cb3e31f4825870ba1f",
-    "title": "Hyperliquid's HYPE Token Burns Near 5% of Maximum Supply, Worth $3.89 Billion Hyperliquid has cumulatively bought back and burned approximately 49.87 million HYPE tokens, equivalent to 4.99% of its 1 billion maximum supp",
-    "link": "https://x.com/WuBlockchain/status/2115652735811141879#",
-    "score": 44,
-    "snippet": "Hyperliquid's HYPE Token Burns Near 5% of Maximum Supply, Worth $3.89 Billion Hyperliquid has cumulatively bought back and burned approximately 49.87 million HYPE tokens, equivalent to 4.99% of its 1 billion maximum supply and valued at roughly $3.89 billion at current prices. Over the past 24 hours",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T03:51:34.610000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "HYPE"
     ]
   },
   {
@@ -442,6 +469,33 @@
     "feed_name": "tokenized_funds_rwa",
     "source": "Google News RSS",
     "published_at": "2026-10-29T05:49:31+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "8424750f4a1bdd394e136bb41ab27bab7a40615d",
+    "title": "DTCC Launches Tokenization Service on Canton Network and Private Besu Blockchain: how 11 outlets framed it - NewsCord",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNSVVudlY3WVpIT2lqYzNnYnlFZ21MeWFwS3JqRXNzaU43QlZhSlFKcTdFd2JTMmVZVkRZcXFzbHR5Nkp1UERNdkFPN01CYnFBQzR5SUpMdzFpQ0RNOG1paFRsU1J4SkVVWVNVd0xyVnVDMU9xbmNSRVp0bmhVS1hnZnBoNC1wQ2ptUFJucm11eXJpdmVFU2VER3JrU0F3c0VmbHdsNm4zSk9SWGFEQ1FiLV9LdDJlM0hXdW5qaENpemVENFNUOXk5Xy05bzlEMXc4T0NFX0VBZ3R4ekZSZGlpMG4tX3RWY1o4dWc?oc=5",
+    "score": 35,
+    "snippet": "DTCC Launches Tokenization Service on Canton Network and Private Besu Blockchain: how 11 outlets framed it NewsCord",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tokenized_funds_rwa",
+    "source": "Google News RSS",
+    "published_at": "2026-10-29T17:24:52+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
