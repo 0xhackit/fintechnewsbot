@@ -10,7 +10,7 @@
     "snippet": "The stablecoin issuer’s US Treasury holdings are comparable to those of major foreign holders, while its Bitcoin reserves were valued at $8.37 billion at the end of September.",
     "published_at": "2026-10-30T19:01:58+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "stablecoin",
       "Tether",
@@ -60,7 +60,7 @@
     "snippet": "Circle, Strategy and other crypto-linked stocks fell sharply Friday, a day after Binance disclosed a $6.3 billion security breach.",
     "published_at": "2026-10-30T17:48:27+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -71,14 +71,14 @@
       "id": "https://cointelegraph.com/markets/coinbase-leads-crypto-stock-selloff-shares-tumble",
       "guidislink": true
     },
-    "score": 70,
+    "score": 64,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 20,
@@ -107,7 +107,7 @@
     "snippet": "Stablecoin-centric financial operating system PhotonPay has raised $40 million in a Series C funding round led by Blockchain Capital.",
     "published_at": "2026-10-30T00:01:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -144,104 +144,6 @@
     ]
   },
   {
-    "id": "fde4e44129e404378f1b9475c189c2c29463dfa7b34dd4981ff2c58c22a6c8b4",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
-    "url": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-    "canonical_url": "https://theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-    "snippet": "Tether and Circle froze $1.79 billion in USDT and USDC after billions moved out of Binance hot wallets. Binance says it is investigating.",
-    "published_at": "2026-10-29T21:49:16+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
-    "matched_keywords": [
-      "USDC",
-      "USDT",
-      "Tether",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "ed91aa7a-fed0-5ad5-bb76-ff171fbfd2a4",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "34a93c38bda64fd9b85158c9ba1132d605b31e902f2966c9e215fcecea006b49",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion",
-    "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-    "canonical_url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-    "snippet": "An on-chain tally puts the suspected Binance drain at $5.57 billion across three blockchains, as Tether and Circle froze $1.8 billion.",
-    "published_at": "2026-10-29T21:36:24+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
-    "matched_keywords": [
-      "Tether",
-      "Circle"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=382191",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "04d6fab1a6bee8b839ccb0d46234625d11abd351abe79e23d36572fa0ce1e237",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -252,7 +154,7 @@
     "snippet": "Circle and ACI plan USDC settlement pilot alongside Colombia’s payment rails CryptoSlate",
     "published_at": "2026-10-30T08:00:23+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "payment rails",
       "USDC",
@@ -304,7 +206,7 @@
     "snippet": "OKX, a leading global cryptocurrency exchange and onchain technology company, today marked four years of its Proof of Reserves (PoR) program, with $36.36 billion in on-chain assets across 22 major cryptocurrencies.",
     "published_at": "2026-10-30T10:09:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "reserves"
     ],
@@ -314,53 +216,6 @@
     "raw": {
       "id": "https://www.finextra.com/pressarticle/111516/okx-reaches-36bn-in-onchain-assets?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "a752c3291efe01580947549938d94e533e9a6bcb109750cd4c6757d22988dfb5",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Binance hit by $6.3B hack, the largest in cryptocurrency history",
-    "url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns",
-    "snippet": "Binance pledged to cover all losses after a $6.3 billion hack, with about $3 billion in assets frozen by the exchange and its partners.",
-    "published_at": "2026-10-29T21:24:36+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
-    "matched_keywords": [
-      "partners"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns",
-      "guidislink": true
     },
     "score": 54,
     "score_breakdown": {
@@ -398,7 +253,7 @@
     "snippet": "ACI Worldwide (NASDAQ: ACIW), an original innovator in global payments technology, and Circle Internet Group (NYSE: CRCL), one of the world's leading internet financial platform companies and the issuer of USDC1 through its regulated entities, today announced a collaboration to show how stablecoin s",
     "published_at": "2026-10-30T11:14:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "stablecoin",
       "Circle",
@@ -447,7 +302,7 @@
     "snippet": "Bitcoin faces mounting quantum security concerns as Ripple secures a US banking charter, USDC gains ground in Europe and VanEck adds BTC to a new ETF.",
     "published_at": "2026-10-30T17:09:31+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -458,14 +313,14 @@
       "id": "https://cointelegraph.com/news/bitcoin-quantum-threat-ripple-bank-usdc-vaneck-crypto-biz",
       "guidislink": true
     },
-    "score": 30,
+    "score": 24,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 20,
@@ -494,7 +349,7 @@
     "snippet": "Bitcoin circled $77,000 as crypto markets navigated US stock-market downside, while the gold price fell to its lowest in a year.",
     "published_at": "2026-10-30T16:06:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -503,14 +358,14 @@
       "id": "https://cointelegraph.com/markets/bitcoin-risks-worst-october-in-12-years-as-tech-sell-off-spreads-to-gold",
       "guidislink": true
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 10,
@@ -539,7 +394,7 @@
     "snippet": "Shopify brings USDC payments to checkout with a Base-built protocol eGamers.io",
     "published_at": "2026-10-30T06:48:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -548,51 +403,6 @@
     ],
     "raw": {
       "id": "CBMikAFBVV95cUxOM0xmYzJTNnhsNWo2aW43M1IzamxCeGtqaVY1Tmk1Y3ZZR1A5dnJCbFNacWwyS1RzQkNEZ0tTWFpiSFQ0SjU5RmUyNzRUQmNUQXY5dVZpS1ZHRVU5c2h6Q0ZXb0JvNm5oeThEM1NtU3FhOTdSQjBEbXpBZ0g4clNfWFNIVThtaVdJOXVNbTRpWVY",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "766fb23b86c0f6f83f66c5c050c5c8315d128e339a2e7a3495f5d634a96c979b",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Binance Hacker Hunts for Exit Ramps as DeFi Exchanges Pause Markets",
-    "url": "https://decrypt.co/382194/binance-hack-exit-ramps-defi-exchange-ethereum",
-    "canonical_url": "https://decrypt.co/382194/binance-hack-exit-ramps-defi-exchange-ethereum",
-    "snippet": "Etherscan records show wallets tied to the suspected Binance hack swapping freezable stablecoins for Ethereum on decentralized exchanges.",
-    "published_at": "2026-10-29T22:57:48+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=382194",
       "guidislink": false
     },
     "score": 14,
@@ -631,7 +441,7 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -666,6 +476,54 @@
     ]
   },
   {
+    "id": "0ff4eeb1d82c7daf23bb0fe7856132ef54278d9712231db5bc022dddddf6dd4e",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Binance hackers raced to move billions before it could be frozen",
+    "url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen",
+    "snippet": "Attackers raced to convert stolen stablecoins into crypto that issuers could not freeze as industry players like Tether and Circle moved to immobilize billions of dollars in assets.",
+    "published_at": "2026-10-30T22:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
+    "matched_keywords": [
+      "Tether",
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/magazine/binance-hackers-raced-to-move-billions-before-could-be-frozen",
+      "guidislink": true
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "70e27545aa27d6acd7f979f7089f6b7e7f5557f2969abb1e101182c4d7060851",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -676,7 +534,7 @@
     "snippet": "Digital assets and data infrastructure company Galaxy Digital aims to create a national trust bank that would provide fiduciary investment advisory services along with Galaxy’s custody, trading and staking services, the company said in a Thursday (Oct. 29) press release. To further this goal, Galaxy",
     "published_at": "2026-10-30T18:42:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "custody"
     ],
@@ -711,53 +569,6 @@
     ]
   },
   {
-    "id": "a2a1799f32e0bb25c923890fa685ce44d5ffb125ca2a2249a44d1539b2fe3dcf",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Taiwan's First Bank Turns Reward Points Into USDT in First-of-Its-Kind Deal With HOYA BIT, 1,000 Redemptions in First Wave - BigGo Finance",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13TEx0bDFoeDNUenlhRUp6MWxmNFRUVHFBV0dFOUhnNFZoLUNDRW5rZzVvTWx6ZVRjZGpLT093RGxfZHN2cmVlc1pEdkZZWnF1T1RXV0dMV1puSllveGQycU41N0E0YnptYVM3ZlVRb3M1c05zc1E?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE13TEx0bDFoeDNUenlhRUp6MWxmNFRUVHFBV0dFOUhnNFZoLUNDRW5rZzVvTWx6ZVRjZGpLT093RGxfZHN2cmVlc1pEdkZZWnF1T1RXV0dMV1puSllveGQycU41N0E0YnptYVM3ZlVRb3M1c05zc1E?oc=5",
-    "snippet": "Taiwan's First Bank Turns Reward Points Into USDT in First-of-Its-Kind Deal With HOYA BIT, 1,000 Redemptions in First Wave BigGo Finance",
-    "published_at": "2026-10-30T13:26:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
-    "matched_keywords": [
-      "USDT"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMidkFVX3lxTE13TEx0bDFoeDNUenlhRUp6MWxmNFRUVHFBV0dFOUhnNFZoLUNDRW5rZzVvTWx6ZVRjZGpLT093RGxfZHN2cmVlc1pEdkZZWnF1T1RXV0dMV1puSllveGQycU41N0E0YnptYVM3ZlVRb3M1c05zc1E",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "8f92a67b3f9475d3faf2f054fdfcaa95f479b89f8f1c21c6c65c2b56b28d487e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -768,7 +579,7 @@
     "snippet": "Trezor Warns of Suspected Spy Implant in Crypto Wallet That Could Steal Recovery Phrases CyberSecurityNews",
     "published_at": "2026-10-30T11:15:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-10-30T20:23:42.683043+00:00",
+    "fetched_at": "2026-10-30T23:55:36.467127+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
