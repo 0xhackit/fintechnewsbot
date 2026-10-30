@@ -1,31 +1,32 @@
 [
   {
-    "id": "8a88443944dc5617aa2ca03544e59e77dd72d019",
-    "title": "Live Updates: Binance hit by largest crypto hack in history",
-    "link": "https://cointelegraph.com/news/binance-linked-wallet-faces-possible-exploit-blockchain-researcher-warns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 85,
-    "snippet": "Follow live updates as Binance investigates a multibillion-dollar hack and Tether and Circle freeze more than $2.36 billion in stablecoins.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
+    "id": "bfb5e55c5e963e242729f9a950ffa52c12bbfb0d",
+    "title": "UPDATE: Binance says the total amount of stolen assets frozen has now reached approximately $3 billion. The exchange says it is working with law enforcement and industry partners to trace and freeze additional funds, add",
+    "link": "https://x.com/CoinDesk/status/2115973073551708275#",
+    "score": 75,
+    "snippet": "UPDATE: Binance says the total amount of stolen assets frozen has now reached approximately $3 billion. The exchange says it is working with law enforcement and industry partners to trace and freeze additional funds, adding that user funds are safe.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-10-29T21:24:36+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-30T01:04:28.540000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
     "fulltext": true,
-    "origin": "rss",
-    "coins": []
+    "origin": "tree",
+    "coins": [
+      "BNB",
+      "SAFE"
+    ]
   },
   {
     "id": "6187343afbf3792db5897b60583c2193bef2639c",
@@ -54,10 +55,90 @@
     ]
   },
   {
+    "id": "cf981e8eb1205006846b03f88ddbdc37730ca27a",
+    "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
+    "link": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
+    "score": 70,
+    "snippet": "Tether and Circle froze $1.79 billion in USDT and USDC after billions moved out of Binance hot wallets. Binance says it is investigating.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 9,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-10-29T21:49:16+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "bca90cde965c3d0f34c9e3aacf4f30b518a78f92",
+    "title": "Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion",
+    "link": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
+    "score": 70,
+    "snippet": "An on-chain tally puts the suspected Binance drain at $5.57 billion across three blockchains, as Tether and Circle froze $1.8 billion.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 17,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-10-29T21:36:24+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "96c6720d6766dd2644e5eba7e55bf3d83b5ea97c",
+    "title": "NEW: @chainalysis estimates approximately $5.912 billion was stolen in the suspected @binance hack, making it nearly four times larger than the 2025 Bybit hack.",
+    "link": "https://x.com/CoinDesk/status/2115972098812219485#",
+    "score": 70,
+    "snippet": "NEW: @chainalysis estimates approximately $5.912 billion was stolen in the suspected @binance hack, making it nearly four times larger than the 2025 Bybit hack.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-30T01:00:36.094000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
     "id": "321fe69b79be71cfbb56c766f932abc5eb30a0c3",
     "title": "Strategy announces Q3 2026 results: - $21 billion operating income, our largest quarter ever - $21 billion capital raised YTD - Returned $STRC to health - 848,517 $BTC held, up 26% YTD https://www.strategy.com/press/stra",
     "link": "https://x.com/saylor/status/2115897719449403879#",
-    "score": 75,
+    "score": 69,
     "snippet": "Strategy announces Q3 2026 results: - $21 billion operating income, our largest quarter ever - $21 billion capital raised YTD - Returned $STRC to health - 848,517 $BTC held, up 26% YTD https://www.strategy.com/press/strategy-announces-third-quarter-2026-financial-results_10-29-2026",
     "regions": [],
     "primary_region": null,
@@ -81,66 +162,10 @@
     ]
   },
   {
-    "id": "cf981e8eb1205006846b03f88ddbdc37730ca27a",
-    "title": "Binance investigating hack as suspicious outflows reach up to $5.8 billion",
-    "link": "https://www.theblock.co/news/markets/2026-10-29-binance-investigating-hack-suspicious-outflows-5-billion-432171",
-    "score": 70,
-    "snippet": "Tether and Circle froze $1.79 billion in USDT and USDC after billions moved out of Binance hot wallets. Binance says it is investigating.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 4,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "theblock",
-    "source": "Google News RSS",
-    "published_at": "2026-10-29T21:49:16+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "bca90cde965c3d0f34c9e3aacf4f30b518a78f92",
-    "title": "Binance Drained of $5.5 Billion in Suspected Hack, Tether and Circle Freeze $1.8 Billion",
-    "link": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto",
-    "score": 70,
-    "snippet": "An on-chain tally puts the suspected Binance drain at $5.57 billion across three blockchains, as Tether and Circle froze $1.8 billion.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 13,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "decrypt",
-    "source": "Google News RSS",
-    "published_at": "2026-10-29T21:36:24+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
     "id": "d881729818bd7baaaf562b841b97db9200e83ba5",
     "title": "THE BLOCK: Strategy reported $19.53 billion in net income for Q3, up from $2.79 billion a year earlier, as the rising value of its bitcoin holdings generated a $20.91 billion gain and drove record operating income. The c",
     "link": "https://x.com/TheBlockCo/status/2115900929098555752#",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Strategy reported $19.53 billion in net income for Q3, up from $2.79 billion a year earlier, as the rising value of its bitcoin holdings generated a $20.91 billion gain and drove record operating income. The company held 848,517 BTC as of Oct. 25, up 26% year to date, while revenue from i",
     "regions": [],
     "primary_region": null,
@@ -161,6 +186,280 @@
     "coins": [
       "MSTR",
       "BTC"
+    ]
+  },
+  {
+    "id": "ae458e984313f2fd9315983185e8e2df8d0bb120",
+    "title": "Binance estimated the total damage from a possible hacker attack at approximately $6.3 billion",
+    "link": "https://tass.ru/ekonomika/28269463",
+    "score": 60,
+    "snippet": "Binance estimated the total damage from a possible hacker attack at approximately $6.3 billion",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:tass-ru",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T02:36:06.962000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "166b517cf185f547447af8caec9cd25bea54f010",
+    "title": "Binance and Polymarket are investigating potential hacks. The former says it's frozen around $3 billion",
+    "link": "https://www.businessinsider.com/binance-polymarket-hacks-crypto-2026-10",
+    "score": 60,
+    "snippet": "Binance and Polymarket are investigating potential hacks. The former says it's frozen around $3 billion",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:bizinsider",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T02:19:48.181000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "28e13821ea89d4de2ca837813daa9ab0d804efed",
+    "title": "Binance Flags 'Potential Security Issue,' Says Crypto Firms Froze More Than $2.5 Billion",
+    "link": "https://www.huffpost.com/entry/binance-security-incident_n_6ae3f8dfe4b038f4fbde93cd",
+    "score": 60,
+    "snippet": "Binance Flags 'Potential Security Issue,' Says Crypto Firms Froze More Than $2.5 Billion",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:huffpost",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T01:56:57.356000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "b6ba90900dd6955e597602667e93d949f0dee7c6",
+    "title": "UPDATE: Binance said the currently verified frozen amount from the hack is around $3 billion. Chainalysis noted that its current estimate of the amount stolen is roughly $5.9 billion at the time of the theft.",
+    "link": "https://x.com/TheBlockCo/status/2115971997964624052#",
+    "score": 60,
+    "snippet": "UPDATE: Binance said the currently verified frozen amount from the hack is around $3 billion. Chainalysis noted that its current estimate of the amount stolen is roughly $5.9 billion at the time of the theft.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-30T01:00:12.117000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "61d6940e0b7ed8c3e73fec993a835e1969fe690f",
+    "title": "Binance says $2.54bn in crypto funds frozen amid 'potential security issue'",
+    "link": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue?traffic_source=rss",
+    "score": 60,
+    "snippet": "Binance says $2.54bn in crypto funds frozen amid 'potential security issue'",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:al jazeera",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T00:58:01.977000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "88eab583e6dc0aad7e4bf215859f870302cc5664",
+    "title": "Binance says $2.54 billion in assets frozen as it probes security incident",
+    "link": "https://www.channelnewsasia.com/business/binance-says-254-billion-in-assets-frozen-it-probes-security-incident-6505091",
+    "score": 60,
+    "snippet": "Binance says $2.54 billion in assets frozen as it probes security incident",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:cna",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T00:47:13.621000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "87bb8f54c18b3d87e339c8e9e31cec286d1ab86b",
+    "title": "Binance flags 'potential security issue,' says crypto firms froze more than $2.5 billion - KGW",
+    "link": "https://www.kgw.com/article/news/nation-world/binance-potential-hack-frozen-funds-cryptocurrency/507-50d4fa7c-4a41-4eec-851a-28e8f62e170f",
+    "score": 60,
+    "snippet": "Binance flags 'potential security issue,' says crypto firms froze more than $2.5 billion - KGW",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:kgw",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T00:45:20.815000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "30aa9346f89c0213158d9a476f3a0037b5d93d6b",
+    "title": "Crypto giant Binance freezes $2.5bn of assests over security issue",
+    "link": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o",
+    "score": 60,
+    "snippet": "Crypto giant Binance freezes $2.5bn of assests over security issue",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:bbc",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-30T00:38:29.040000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "1dc8e6819ef74ad190d2425abede5f66815cb8ad",
+    "title": "Arkham: Binance Hacker-Linked Addresses Hold $5.88B in Assets; Binance Confirms $2.54B Frozen According to Arkham data, an entity labeled \"binance-hacker-1029\" is associated with 66 on-chain addresses holding approximate",
+    "link": "https://x.com/WuBlockchain/status/2115954904267469088#",
+    "score": 60,
+    "snippet": "Arkham: Binance Hacker-Linked Addresses Hold $5.88B in Assets; Binance Confirms $2.54B Frozen According to Arkham data, an entity labeled \"binance-hacker-1029\" is associated with 66 on-chain addresses holding approximately $5.88 billion in crypto assets, including 1.768 billion USDT, 18,270 BTC ($1.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-10-29T23:52:16.793000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH",
+      "USDC",
+      "BNB",
+      "ARKM"
+    ]
+  },
+  {
+    "id": "63f2c31a38ac92b8c7237de206ea1bad564cb812",
+    "title": "More than $2.5 billion remains frozen on Binance after possible attack",
+    "link": "https://tass.ru/ekonomika/28269285",
+    "score": 60,
+    "snippet": "More than $2.5 billion remains frozen on Binance after possible attack",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:tass-ru",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-10-29T23:48:08.103000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
     ]
   },
   {
@@ -199,7 +498,7 @@
     "id": "0cfbcee44d042761c652c9a9d9e517eec092263b",
     "title": "$3 billion in tokenized fund value added on @StellarOrg over the past year, the second-largest increase of any blockchain, per @tokenterminal. Centrifuge funds on Stellar now span Treasuries, AAA CLOs, high-yield bonds a",
     "link": "https://x.com/centrifuge/status/2115898969083740599#",
-    "score": 60,
+    "score": 54,
     "snippet": "$3 billion in tokenized fund value added on @StellarOrg over the past year, the second-largest increase of any blockchain, per @tokenterminal. Centrifuge funds on Stellar now span Treasuries, AAA CLOs, high-yield bonds and, as of this week, the Nasdaq-100 through $JQQQ.",
     "regions": [],
     "primary_region": null,
@@ -225,79 +524,21 @@
     ]
   },
   {
-    "id": "1ba924f59c2f4423122fa1b2d6446fb9e0224069",
-    "title": "A new DeFi SuperApp is coming to Sonic. @NummoHQ is building across perps, dated futures, RWAs, and community-owned liquidity. Follow along for product updates, educational content, and the road to launch. 👇",
-    "link": "https://x.com/SonicLabs/status/2115861426036408741#",
-    "score": 60,
-    "snippet": "A new DeFi SuperApp is coming to Sonic. @NummoHQ is building across perps, dated futures, RWAs, and community-owned liquidity. Follow along for product updates, educational content, and the road to launch. 👇",
+    "id": "b20c19ab81ed685d8f0d54995bb171584de01def",
+    "title": "Strategy Reports $19.53 Billion in Q3 Net Income, Sells $432 Million in Bitcoin in 2026 Strategy reported $19.53 billion in net income for Q3 2026, compared with $2.79 billion a year earlier, largely driven by $20.91 bil",
+    "link": "https://x.com/WuBlockchain/status/2115973599567987184#",
+    "score": 50,
+    "snippet": "Strategy Reports $19.53 Billion in Q3 Net Income, Sells $432 Million in Bitcoin in 2026 Strategy reported $19.53 billion in net income for Q3 2026, compared with $2.79 billion a year earlier, largely driven by $20.91 billion in digital asset gains. The company also disclosed that it sold approximate",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:soniclabs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T17:40:49.801000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "S"
-    ]
-  },
-  {
-    "id": "b1f97bc78b2ddb2a93cad897fec6637a55fab4ef",
-    "title": "📢 ZEBRA 7.0.0 (ZEC)❗️VALIDATORS ONLY NETWORK: MAINNET TYPE: Non-coordinated URGENCY: Before ZEC block 3,540,768 zebra 6.4.2 stops itself at ZEC block 3,540,768 (approx. Tue 11-03, 14:30 to 19:00 UTC). node-launcher now s",
-    "link": "https://discord.com/channels/838986635756044328/839001804812451873/1565462031950418092",
-    "score": 55,
-    "snippet": "📢 ZEBRA 7.0.0 (ZEC)❗️VALIDATORS ONLY NETWORK: MAINNET TYPE: Non-coordinated URGENCY: Before ZEC block 3,540,768 zebra 6.4.2 stops itself at ZEC block 3,540,768 (approx. Tue 11-03, 14:30 to 19:00 UTC). node-launcher now ships zebra 7.0.0, which also carries NU7, so this one upgrade covers both. Expec",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:thorchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T20:27:15.841000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "RUNE",
-      "ZEC"
-    ]
-  },
-  {
-    "id": "c5e25917b9f59883023a54f6ad5d9e2a72f41589",
-    "title": "Introducing Tipping on Swarms Marketplace 🫴🪙 You can now tip builders for sharing free agents, prompts, and MCPs on Swarms Marketplace, with payments via Stripe or crypto. Reward the builders who make useful agents, prom",
-    "link": "https://x.com/swarms_corp/status/2115888201349140567#",
-    "score": 55,
-    "snippet": "Introducing Tipping on Swarms Marketplace 🫴🪙 You can now tip builders for sharing free agents, prompts, and MCPs on Swarms Marketplace, with payments via Stripe or crypto. Reward the builders who make useful agents, prompts, and MCPs accessible to everyone. Learn more ⬇️🧵 ht",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:swarms_corp",
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T19:27:13.567000+00:00",
+    "published_at": "2026-10-30T01:06:34.161000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -305,61 +546,35 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "SWARMS"
+      "STRC",
+      "BTC"
     ]
   },
   {
-    "id": "a6df6103ad3a42357a8fc4e394921a3b7308d117",
-    "title": "Eureka Labs Launches 'BEX' Execution Engine on Ethereum Mainnet",
-    "link": "https://chainwire.org/2026/10/29/eureka-labs-launches-bex-execution-engine-on-ethereum-mainnet",
-    "score": 54,
-    "snippet": "Eureka Labs Launches 'BEX' Execution Engine on Ethereum Mainnet",
+    "id": "8f14f7a726be5547d34516ff21f010977e1a3f8f",
+    "title": "BREAKING: Arbitrum Security Council has executed a transaction to freeze ~$30.5M from the Binance Exploit. Thanks to all other signers involved. Exploiter address 0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5 Trsanction has",
+    "link": "https://x.com/zachxbt/status/2115960582230913357#",
+    "score": 50,
+    "snippet": "BREAKING: Arbitrum Security Council has executed a transaction to freeze ~$30.5M from the Binance Exploit. Thanks to all other signers involved. Exploiter address 0x3E2bf1ac6bf0934BBba6456C341c2EcbCED632d5 Trsanction hash: 0xb69c81774f507d46ce776aeaed8b4d31df96dd66ce6fd05073481011835355d6",
     "regions": [],
     "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:chainwire",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-10-29T16:55:45.913000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ETH"
-    ]
-  },
-  {
-    "id": "d9033d17fa6206016b23af64bfe6a5155ebdbcd0",
-    "title": "@Mon_Cumulo (Mon) Introducing Fibre Network API: Open, Verifiable Data on Celestia Fibre [Node Operators/Validators] Hi @Anzus_GemWallet, as promised, Fibre readiness is now on the validator pages of our explorer, for bo",
-    "link": "https://discord.com/channels/638338779505229824/1042776409854193725/1565402028480405505",
-    "score": 54,
-    "snippet": "@Mon_Cumulo (Mon) Introducing Fibre Network API: Open, Verifiable Data on Celestia Fibre [Node Operators/Validators] Hi @Anzus_GemWallet, as promised, Fibre readiness is now on the validator pages of our explorer, for both mainnet and Mocha: The validator list has a sortable Fibre column (Ready, Par",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:x:celestiaorg",
+    "feed_name": "tree:x:zachxbt",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-10-29T16:28:49.982000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('list')",
-    "matched": "list",
+    "published_at": "2026-10-30T00:14:50.422000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "TIA"
+      "ARB",
+      "BNB"
     ]
   },
   {
@@ -390,6 +605,36 @@
     ]
   },
   {
+    "id": "61731819f0c6668e1f9d31cf25a7d25eaa9b490d",
+    "title": "Binance temporarily suspends withdrawals after apparent hack",
+    "link": "https://www.ft.com/content/c7f5e395-c3a9-430e-b757-5014527b4d49?syn-25a6b1a6=1",
+    "score": 45,
+    "snippet": "Tether and Circle freeze billions of dollars’ worth of their coins as world’s largest crypto exchange investigates security issue",
+    "regions": [
+      "EU",
+      "APAC",
+      "LatAm"
+    ],
+    "primary_region": "EU",
+    "category": "regulation",
+    "source_tier": "A",
+    "consensus": 5,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "ft_markets",
+    "source": "Google News RSS",
+    "published_at": "2026-10-30T01:02:58+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
     "id": "87af1d25973428ad9af76c623c05eb337f46c771",
     "title": "Binance could lose $5.7 billion due to hacker attack",
     "link": "https://tass.ru/ekonomika/28269269",
@@ -414,32 +659,6 @@
     "coins": [
       "BNB"
     ]
-  },
-  {
-    "id": "17286a78e5a10f9b8fcf123380f8d6d4adc1b0ef",
-    "title": "Anthony Noto Puts $25 Billion of SoFi Card Volume on Stablecoin Rails - Observer",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3JKUkZqUUJCd1RsWk5UaktDbWVaRHRhM1NDMWxFRnMyQkFYamZ1VWNlRTczZGp4TUgxRU9MU1AwLXJ3RFYzZF9TbDlwVE9qYnI2Z1dXQWhzeTlVOTFVcTNEQVZBZHdEWlpneXVIbkxIZjBwOHN5Wkh5Tl8xY0duU2ViRG9ERzg?oc=5",
-    "score": 44,
-    "snippet": "Anthony Noto Puts $25 Billion of SoFi Card Volume on Stablecoin Rails Observer",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-10-29T13:37:50+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "845cfe992ef38768132d75214c2754dfafba739a",
@@ -501,8 +720,10 @@
     "link": "https://www.theblock.co/news/defi/2026-10-29-polygon-adds-solana-payment-stack-432115",
     "score": 35,
     "snippet": "Polygon added Solana to its payments platform, connecting businesses to bank funding, cross-chain transfers, stablecoins and global payouts.",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "B",
     "consensus": 1,
@@ -517,7 +738,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "rss",
     "coins": []
   }
