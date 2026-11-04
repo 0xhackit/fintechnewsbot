@@ -10,7 +10,7 @@
     "snippet": "The Office of the Comptroller of the Currency set out how community banks can issue stablecoins through subsidiaries. Small lenders already have a way to test the technology on payments they make today by using coins issued and redeemed by another institution. In its final GENIUS Act rule, the OCC s",
     "published_at": "2026-11-03T22:58:10+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "stablecoin",
       "issuance",
@@ -23,14 +23,14 @@
       "id": "https://www.pymnts.com/?p=4366161",
       "guidislink": false
     },
-    "score": 90,
+    "score": 84,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 40,
@@ -59,7 +59,7 @@
     "snippet": "Moscow Exchange plans to launch crypto trading on Dec. 1 under Russia’s new law, with annual purchase limits for non-qualified investors.",
     "published_at": "2026-11-03T13:15:47+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "USDT",
       "launch"
@@ -108,7 +108,7 @@
     "snippet": "TownSquare Partners with Multipli to Bring Over $260 Million in RWA Private Credit On-Chain 深潮TechFlow",
     "published_at": "2026-11-03T13:14:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "private credit",
       "RWA",
@@ -158,7 +158,7 @@
     "snippet": "",
     "published_at": "2026-11-03T12:57:28+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -203,7 +203,7 @@
     "snippet": "Amazon, Tesla, SpaceX, Netflix, Lam Research, and SoFi objected to trading of their shares on the planned OKX-ICE tokenized stock venue, bringing the total to 56.",
     "published_at": "2026-11-03T17:46:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -250,7 +250,7 @@
     "snippet": "When we introduced OnePay Next, we said we were tracking two tectonic plates moving at once: AI that can reason and act, and blockchain infrastructure that is rewiring how money moves. Our first experiment, OnePay for Agents, leaned into the first. This one leans into the second.",
     "published_at": "2026-11-03T15:18:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "stablecoin",
       "introduces"
@@ -289,25 +289,75 @@
     ]
   },
   {
-    "id": "2e1ae0038e07adc61a6f9c4ec16260c22851a417879178de84691e545ba3e6e3",
+    "id": "f32899059bd837082c8c76921b11806923f7109765719a03be6c48e675017911",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether’s USDT in December",
+    "url": "https://www.coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
+    "canonical_url": "https://coindesk.com/markets/2026/11/04/u-s-sanctioned-moscow-exchange-to-list-bitcoin-and-tether-s-usdt-in-december",
+    "snippet": "",
+    "published_at": "2026-11-04T05:14:12+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
+    "matched_keywords": [
+      "USDT",
+      "Tether"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "93928cd7-621b-4b41-9e63-078ef14547c4",
+      "guidislink": false
+    },
+    "score": 35,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "584767d1f1f0ba7e9b2bbbc371fa506374ee005eb7f8dd9540e0823487a716f3",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Moscow Exchange Crypto Trading Launch Set for Dec. 1 - Bitcoin Foundation",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZHQ3RnZaWm5VUFhuMmRnS25ENnpXZVNuMmoxMjRTQ2pLMzlPdENPYWI3NC1HLWE2Q0luSnF4OWNZOWEzVjMzQkVrYnlNZmI1cWktSkJadTlpUzhxNm1iVDdJV25Oam5vbmVEXzMyOXpwbHJESXJRWnlFS0cxdHhyUUlIcFBiUlZhclpFVmZiZ3VYbUp5WWprbUdEMmxvdTMzMXAxQ2dESERhRVZGNHF1RHpYQU42cTQxaFE?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZHQ3RnZaWm5VUFhuMmRnS25ENnpXZVNuMmoxMjRTQ2pLMzlPdENPYWI3NC1HLWE2Q0luSnF4OWNZOWEzVjMzQkVrYnlNZmI1cWktSkJadTlpUzhxNm1iVDdJV25Oam5vbmVEXzMyOXpwbHJESXJRWnlFS0cxdHhyUUlIcFBiUlZhclpFVmZiZ3VYbUp5WWprbUdEMmxvdTMzMXAxQ2dESERhRVZGNHF1RHpYQU42cTQxaFE?oc=5",
-    "snippet": "Moscow Exchange Crypto Trading Launch Set for Dec. 1 Bitcoin Foundation",
-    "published_at": "2026-11-03T15:52:42+00:00",
+    "title": "Moscow Exchange Confirms Dec. 1 Crypto Trading Launch With Bitcoin, Ether, USDT - Bitcoin News",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS3p1SGpsYTc3dzVsSEh1RVNhNXU1U0haWXFDSlhWMHhEa09udF9jQS1HSy1YOEQ5N0hscldXRjhkbV9FS2M2Y1paRFI2MWZneHNISXM4eUljajBqZDI1dzFuQWFOTXVKZFIzcDdla21Pazk5bkp1RDB5NmdxTDhiRGtlUEIyTHJULVBZcHhyTzZmSmxaV0E?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQS3p1SGpsYTc3dzVsSEh1RVNhNXU1U0haWXFDSlhWMHhEa09udF9jQS1HSy1YOEQ5N0hscldXRjhkbV9FS2M2Y1paRFI2MWZneHNISXM4eUljajBqZDI1dzFuQWFOTXVKZFIzcDdla21Pazk5bkp1RDB5NmdxTDhiRGtlUEIyTHJULVBZcHhyTzZmSmxaV0E?oc=5",
+    "snippet": "Moscow Exchange Confirms Dec. 1 Crypto Trading Launch With Bitcoin, Ether, USDT Bitcoin News",
+    "published_at": "2026-11-03T21:15:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
+      "USDT",
       "launch"
     ],
     "matched_topics": [
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMiugFBVV95cUxOZHQ3RnZaWm5VUFhuMmRnS25ENnpXZVNuMmoxMjRTQ2pLMzlPdENPYWI3NC1HLWE2Q0luSnF4OWNZOWEzVjMzQkVrYnlNZmI1cWktSkJadTlpUzhxNm1iVDdJV25Oam5vbmVEXzMyOXpwbHJESXJRWnlFS0cxdHhyUUlIcFBiUlZhclpFVmZiZ3VYbUp5WWprbUdEMmxvdTMzMXAxQ2dESERhRVZGNHF1RHpYQU42cTQxaFE",
+      "id": "CBMilgFBVV95cUxQS3p1SGpsYTc3dzVsSEh1RVNhNXU1U0haWXFDSlhWMHhEa09udF9jQS1HSy1YOEQ5N0hscldXRjhkbV9FS2M2Y1paRFI2MWZneHNISXM4eUljajBqZDI1dzFuQWFOTXVKZFIzcDdla21Pazk5bkp1RDB5NmdxTDhiRGtlUEIyTHJULVBZcHhyTzZmSmxaV0E",
       "guidislink": false
     },
     "score": 35,
@@ -336,6 +386,57 @@
     ]
   },
   {
+    "id": "79b462cd4b726648b0096ce6ee5f7a83f5e2d6a4211fbf19b5a798c1be527aa1",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Stablecoin Payments: USDC Settlement Test in Colombia - OneSafe",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwZGQwQ1A4SG1MTVFjN1F6eEFWOFFiaEdnSmVUN3R4WFotZVpXeldsNkV3Z2huT2szcUJ3cDVVSUR5U2VrSlJSWllHVjJHOHVtTG1OZlZUaFBHQ2JoSnh3MGxBUExZaG9CU19uUkp6SWNVOWpDTE50c1FqQ0M?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwZGQwQ1A4SG1MTVFjN1F6eEFWOFFiaEdnSmVUN3R4WFotZVpXeldsNkV3Z2huT2szcUJ3cDVVSUR5U2VrSlJSWllHVjJHOHVtTG1OZlZUaFBHQ2JoSnh3MGxBUExZaG9CU19uUkp6SWNVOWpDTE50c1FqQ0M?oc=5",
+    "snippet": "Stablecoin Payments: USDC Settlement Test in Colombia OneSafe",
+    "published_at": "2026-11-04T03:12:31+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin",
+      "USDC",
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMifEFVX3lxTFBwZGQwQ1A4SG1MTVFjN1F6eEFWOFFiaEdnSmVUN3R4WFotZVpXeldsNkV3Z2huT2szcUJ3cDVVSUR5U2VrSlJSWllHVjJHOHVtTG1OZlZUaFBHQ2JoSnh3MGxBUExZaG9CU19uUkp6SWNVOWpDTE50c1FqQ0M",
+      "guidislink": false
+    },
+    "score": 30,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "eac39bff3bc7b40bd00b26c3bcd0f1043f40cf7cbb78372ca31b29af20a7aa24",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -346,7 +447,7 @@
     "snippet": "",
     "published_at": "2026-11-03T16:17:51+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -393,7 +494,7 @@
     "snippet": "ARK Invest added Coinbase and Circle shares across two trading sessions while selling about $8 million in Bullish as crypto stocks declined.",
     "published_at": "2026-11-03T08:35:13+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "Circle"
     ],
@@ -440,7 +541,7 @@
     "snippet": "",
     "published_at": "2026-11-03T23:00:07+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -451,14 +552,14 @@
       "id": "56e3cd27-b21b-4bfa-a8c1-d3a0ddda3122",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -487,7 +588,7 @@
     "snippet": "SpaceX joined several other issuers objecting to OKXICE tokenized trading, months after crypto platforms offered tokens tied to its shares.",
     "published_at": "2026-11-03T21:47:20+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -499,14 +600,14 @@
       "id": "https://cointelegraph.com/news/spacex-tokenization-okxice",
       "guidislink": true
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -535,7 +636,7 @@
     "snippet": "Author: A finextra community member",
     "published_at": "2026-11-03T21:13:11+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -546,14 +647,14 @@
       "id": "https://www.finextra.com/blogposting/33389/rwas-need-more-than-tokenization-to-function-in-defi?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 20,
+    "score": 14,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -582,7 +683,7 @@
     "snippet": "Developed alongside Offchain Enterprise Services on Arbitrum One, the solution builds tokenization into Cross River’s platform so assets can be tokenized at origination, unlocking new products and new pools of global capital, including onchain funds and international investors.",
     "published_at": "2026-11-03T15:56:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "tokenization",
       "tokenized",
@@ -631,13 +732,62 @@
     "snippet": "Exploring the role and future of stablecoins in Europe.",
     "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
       "id": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "1b880b850bd8a39ce3725464be1f6107c361881713dc2fa850f69ff4fa7723f8",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Stablecoin Payments: NEC's Avalanche Move & What It Means for Business - OneSafe",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMkw5QnliUzBGbG5jaGV1bDktZFNZZEt5R3M2LVJvc19xczhzY3BVUmkwWU1MVTBUNzZUMXNyU0lUal8wbnVHbkpXa1VGLWtvdWFZVlFxMkt3eGF1bTRkV3hTLUFHaGh1U1djSWxpWFRXX0tzQ0xuQ2xsYlhfZC1jbHUxODktanFCT2tB?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMkw5QnliUzBGbG5jaGV1bDktZFNZZEt5R3M2LVJvc19xczhzY3BVUmkwWU1MVTBUNzZUMXNyU0lUal8wbnVHbkpXa1VGLWtvdWFZVlFxMkt3eGF1bTRkV3hTLUFHaGh1U1djSWxpWFRXX0tzQ0xuQ2xsYlhfZC1jbHUxODktanFCT2tB?oc=5",
+    "snippet": "Stablecoin Payments: NEC's Avalanche Move & What It Means for Business OneSafe",
+    "published_at": "2026-11-04T02:17:31+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMiiwFBVV95cUxNMkw5QnliUzBGbG5jaGV1bDktZFNZZEt5R3M2LVJvc19xczhzY3BVUmkwWU1MVTBUNzZUMXNyU0lUal8wbnVHbkpXa1VGLWtvdWFZVlFxMkt3eGF1bTRkV3hTLUFHaGh1U1djSWxpWFRXX0tzQ0xuQ2xsYlhfZC1jbHUxODktanFCT2tB",
       "guidislink": false
     },
     "score": 10,
@@ -676,7 +826,7 @@
     "snippet": "",
     "published_at": "2026-11-03T16:12:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -723,7 +873,7 @@
     "snippet": "Bitcoin fell below the realized price of the one-to-three-month-old buyer cohort in a move that risked flipping it to new resistance.",
     "published_at": "2026-11-03T10:04:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-04T01:47:08.038087+00:00",
+    "fetched_at": "2026-11-04T08:07:14.665615+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
