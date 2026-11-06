@@ -3,7 +3,7 @@
     "id": "5aab69541dc00b741a7f3e2a3d82ff687d04ff3a",
     "title": "JUST IN: Nigeria’s Central Bank introduces stablecoin licensing rules, banning algorithmic stablecoins, requiring separate licenses for naira and foreign-currency stablecoins, and giving existing operators 180 days to co",
     "link": "https://x.com/CoinDesk/status/2118697531412738115#",
-    "score": 105,
+    "score": 99,
     "snippet": "JUST IN: Nigeria’s Central Bank introduces stablecoin licensing rules, banning algorithmic stablecoins, requiring separate licenses for naira and foreign-currency stablecoins, and giving existing operators 180 days to comply.",
     "regions": [],
     "primary_region": null,
@@ -56,7 +56,7 @@
     "id": "d2ab8f47d56300f52e3df8f9ee0a1689c32a244f",
     "title": "THE BLOCK: The Treasury's Financial Crimes Enforcement Network has withdrawn a proposal from 2020 called the \"Travel Rule\" that would have required financial institutions and crypto businesses to collect identifying info",
     "link": "https://x.com/TheBlockCo/status/2118718534989844560#",
-    "score": 90,
+    "score": 84,
     "snippet": "THE BLOCK: The Treasury's Financial Crimes Enforcement Network has withdrawn a proposal from 2020 called the \"Travel Rule\" that would have required financial institutions and crypto businesses to collect identifying information about people involved in certain transfers. \"The Agencies believe that t",
     "regions": [],
     "primary_region": null,
@@ -79,57 +79,58 @@
     ]
   },
   {
-    "id": "55186f222211ac85851940594fc0f2e43b7fce92",
-    "title": "THE BLOCK: Greece's parliament has approved a 10% tax on cryptocurrency capital gains, exempting annual gains of up to €500 ($560). The legislation also introduces a 15% tax on income from staking, crypto lending, and De",
-    "link": "https://x.com/TheBlockCo/status/2118641967714415017#",
-    "score": 64,
-    "snippet": "THE BLOCK: Greece's parliament has approved a 10% tax on cryptocurrency capital gains, exempting annual gains of up to €500 ($560). The legislation also introduces a 15% tax on income from staking, crypto lending, and DeFi liquidity provision, with the new rules set to take effect in January 2027.",
+    "id": "c8679fb424b69a7d25d2ed23b7d0e38f803b4b49",
+    "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+    "link": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 75,
+    "snippet": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
     "regions": [],
     "primary_region": null,
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-11-06T18:47:45+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
+    "fulltext": false,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "520b802f36dc9a541002875a205b8575b6691c3e",
+    "title": "THE BLOCK: China's central bank says authorities halted Solana's $SOL promotional events and are investigating those behind its October Shanghai ad campaign, saying it violated the country's crypto ban. Solana Foundation",
+    "link": "https://x.com/TheBlockCo/status/2118792886804467806#",
+    "score": 50,
+    "snippet": "THE BLOCK: China's central bank says authorities halted Solana's $SOL promotional events and are investigating those behind its October Shanghai ad campaign, saying it violated the country's crypto ban. Solana Foundation President Lily Liu had initially attributed the postponement to registrations e",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
+    "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T09:49:42.682000+00:00",
+    "published_at": "2026-11-06T19:49:24.530000+00:00",
     "verdict": "kill",
     "axis": "political",
-    "reason": "political framing ('parliament')",
-    "matched": "parliament",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "d82aab3a8e7d9d50acd13f63c884c4b3c599b949",
-    "title": "Bella Alpha is now live on @HatcherLabs! 🤝🚀 Hatcher makes it easy to launch and host AI agents. Now its users can explore Bella Alpha’s trading signals, crypto research, and project insights in one place. Check it out 👇",
-    "link": "https://x.com/BellaProtocol/status/2118532174823764020#",
-    "score": 54,
-    "snippet": "Bella Alpha is now live on @HatcherLabs! 🤝🚀 Hatcher makes it easy to launch and host AI agents. Now its users can explore Bella Alpha’s trading signals, crypto research, and project insights in one place. Check it out 👇 https://hatcher.host/dashboard/agent/cmw3d5qk701btu9vsj9mwf2hi",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:bellaprotocol",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T02:33:25.900000+00:00",
-    "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('signals')",
-    "matched": "signals",
+    "reason": "political framing ('campaign')",
+    "matched": "campaign",
     "fulltext": false,
     "origin": "tree",
     "coins": [
-      "BEL"
+      "SOL"
     ]
   }
 ]

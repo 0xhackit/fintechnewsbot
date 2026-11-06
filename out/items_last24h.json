@@ -10,7 +10,7 @@
     "snippet": "Nigeria's central bank issued new virtual asset regulations requiring stablecoin issuers and other service providers to obtain local licenses.",
     "published_at": "2026-11-06T11:43:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [
       "stablecoin",
       "introduces"
@@ -23,14 +23,14 @@
       "id": "9fd365e2-fbd1-514d-8c5e-3226d4c88310",
       "guidislink": false
     },
-    "score": 115,
+    "score": 109,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 35,
       "institution_bonus": 30,
@@ -49,91 +49,44 @@
     ]
   },
   {
-    "id": "41dbe7fe0a43d89295188c4f6b333860b1c426c66a7cbe7b77e4ee9b10bfa11e",
+    "id": "438c9d6a98a7a65ff594be7eb341d81d61d148e7b8f0a27a6b7d2efb720ed7f8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "ledger_insights",
-    "title": "Amundi adds tokenized share class to €22.8bn European equity index fund",
-    "url": "https://www.ledgerinsights.com/amundi-adds-tokenized-share-class-to-e22-8bn-european-equity-index-fund/",
-    "canonical_url": "https://ledgerinsights.com/amundi-adds-tokenized-share-class-to-e22-8bn-european-equity-index-fund/",
-    "snippet": "Amundi has launched a tokenized share class of its Core STOXX Europe 600 index fund, the sub-fund behind one of Europe’s most widely held equity ETFs with €22.8 billion in assets under management. Issued on public Ethereum with CACEIS as transfer agent and tokenization agent, it is the first large E",
-    "published_at": "2026-11-05T17:31:37+00:00",
+    "feed_name": "cointelegraph",
+    "title": "Russia finalizes crypto trading rules ahead of Nov. 17 rollout",
+    "url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+    "snippet": "The rules allow retail investors to trade BTC, ETH and USDT through regulated intermediaries, with Moscow Exchange planning to launch crypto trading in December.",
+    "published_at": "2026-11-06T18:47:45+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [
-      "tokenization",
-      "tokenized",
-      "launched"
+      "USDT",
+      "launch",
+      "rollout"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA",
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://ledgerinsights.com/?p=44577",
-      "guidislink": false
+      "id": "https://cointelegraph.com/news/russia-finalizes-crypto-trading-rules-november-rollout",
+      "guidislink": true
     },
-    "score": 89,
+    "score": 75,
     "score_breakdown": {
-      "tier1": 1,
-      "tier2": 2,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 45,
-      "institution_bonus": 0,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "229705622e6de4d214b5006237d0652425be004d0aa9b1b14243a1099a5cff32",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "How Banks Can Avoid Sending a Stablecoin Payment Twice",
-    "url": "https://www.pymnts.com/news/banking/2026/how-banks-can-avoid-sending-stablecoin-payment-twice/",
-    "canonical_url": "https://pymnts.com/news/banking/2026/how-banks-can-avoid-sending-stablecoin-payment-twice/",
-    "snippet": "Binance stopped withdrawals after attackers stole $6.3 billion in digital assets on Oct. 30. The cryptocurrency exchange restored access in stages. By Monday (Nov. 2), Federal Reserve and Office of the Comptroller of the Currency supervisors were asking banks in the United States whether they had se",
-    "published_at": "2026-11-06T16:23:28+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.pymnts.com/?p=4375536",
-      "guidislink": false
-    },
-    "score": 80,
-    "score_breakdown": {
-      "tier1": 0,
+      "tier1": 2,
       "tier2": 0,
-      "commentary": 1,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 40,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -10,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -156,7 +109,7 @@
     "snippet": "Nigeria has banned algorithmic stablecoins and introduced reserve requirements for issuers as it expands central bank oversight of crypto payment services.",
     "published_at": "2026-11-06T13:57:14+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -165,14 +118,14 @@
       "id": "https://cointelegraph.com/news/nigeria-algorithmic-stablecoin-ban-crypto-licensing",
       "guidislink": true
     },
-    "score": 80,
+    "score": 74,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 30,
@@ -191,181 +144,40 @@
     ]
   },
   {
-    "id": "2018694b214ac18f2936670e4fa2c783f6d749e49fd1a3f52aa028c77e40ab3a",
+    "id": "08c178044c9a3c64edcf3eecc5cf55685d95e50b417f3c45b1cbf7112e562c8b",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Russia’s central bank approves Bitcoin, Ether and USDT trading for retail investors - Cryptonews.net",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OTEFfd2tRU3dlYUVXZmVabHBFbG5majBtQ09PUjBEVFlDVlVSaU9VWVFMMDFyZ2RjSjYwdWJXUzZZOUk5NG51dDhWZEpkaGt2c1BjQmtFTQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1OTEFfd2tRU3dlYUVXZmVabHBFbG5majBtQ09PUjBEVFlDVlVSaU9VWVFMMDFyZ2RjSjYwdWJXUzZZOUk5NG51dDhWZEpkaGt2c1BjQmtFTQ?oc=5",
-    "snippet": "Russia’s central bank approves Bitcoin, Ether and USDT trading for retail investors Cryptonews.net",
-    "published_at": "2026-11-06T13:28:03+00:00",
+    "feed_name": "coindesk",
+    "title": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
+    "url": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+    "canonical_url": "https://coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch",
+    "snippet": "",
+    "published_at": "2026-11-06T20:09:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [
-      "USDT"
+      "tokenized"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "CBMiV0FVX3lxTE1OTEFfd2tRU3dlYUVXZmVabHBFbG5majBtQ09PUjBEVFlDVlVSaU9VWVFMMDFyZ2RjSjYwdWJXUzZZOUk5NG51dDhWZEpkaGt2c1BjQmtFTQ",
+      "id": "5dfa2541-3949-4457-90b6-fe54b2dc563c",
       "guidislink": false
     },
-    "score": 80,
+    "score": 30,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "325c16734a52ca605c2aa35224aef0e0abf98df927ad8f90961f3835c3eeb8dc",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "EDX Markets and BitSafe launch centralised exchange trading for CBTC",
-    "url": "https://www.finextra.com/pressarticle/111598/edx-markets-and-bitsafe-launch-centralised-exchange-trading-for-cbtc?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/111598/edx-markets-and-bitsafe-launch-centralised-exchange-trading-for-cbtc",
-    "snippet": "EDX Markets, a digital asset technology firm that combines an institutional-only trading venue with a central clearinghouse, today announced a partnership with BitSafe to launch spot trading of CBTC, BitSafe’s Bitcoin-backed digital asset on the Canton Network.",
-    "published_at": "2026-11-05T19:50:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
-    "matched_keywords": [
-      "launch"
-    ],
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/111598/edx-markets-and-bitsafe-launch-centralised-exchange-trading-for-cbtc?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 3,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 0,
+      "launch_score": 10,
+      "institution_bonus": 10,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "de7d67cb81fa3279b2413ebef4124817248908d40ca4772f500c5fa93c4f8b88",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "What CBN’s new stablecoin rules mean for Nigeria’s fintech builders - Business News Nigeria",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVURrT2h1bzFzTUwzSmE5a25ucm4yOTZWTThzWUFsUW1oNjczRWdOSEpqdWdMSU9XXzJ0QUt2cE96U1VCS3FjajdlcWNQQ3plUEJzQkFScGhWbnVQUTRxQzFUY2xOUVlqcjNSb253bDEtcUNZS3lJLTlPeXFGNUtra2dzNDdyT25fTDJ6NE9Pc0M3Z3hZcFQ4WjFaNEpENl9zWmQyVlczWnVObFlGS3JrQzlmckVIN1N6emN1cVFQcUw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVURrT2h1bzFzTUwzSmE5a25ucm4yOTZWTThzWUFsUW1oNjczRWdOSEpqdWdMSU9XXzJ0QUt2cE96U1VCS3FjajdlcWNQQ3plUEJzQkFScGhWbnVQUTRxQzFUY2xOUVlqcjNSb253bDEtcUNZS3lJLTlPeXFGNUtra2dzNDdyT25fTDJ6NE9Pc0M3Z3hZcFQ4WjFaNEpENl9zWmQyVlczWnVObFlGS3JrQzlmckVIN1N6emN1cVFQcUw?oc=5",
-    "snippet": "What CBN’s new stablecoin rules mean for Nigeria’s fintech builders Business News Nigeria",
-    "published_at": "2026-11-06T14:16:21+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMiwAFBVV95cUxQVURrT2h1bzFzTUwzSmE5a25ucm4yOTZWTThzWUFsUW1oNjczRWdOSEpqdWdMSU9XXzJ0QUt2cE96U1VCS3FjajdlcWNQQ3plUEJzQkFScGhWbnVQUTRxQzFUY2xOUVlqcjNSb253bDEtcUNZS3lJLTlPeXFGNUtra2dzNDdyT25fTDJ6NE9Pc0M3Z3hZcFQ4WjFaNEpENl9zWmQyVlczWnVObFlGS3JrQzlmckVIN1N6emN1cVFQcUw",
-      "guidislink": false
-    },
-    "score": 25,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "dba56f8e8e652bbd1a3291e0585dec0de782ea49dd4ee581d972ac9714db35d9",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Bank of Russia Clears Bitcoin, Ether and USDT Rules for Nov. 17 - The Defiant",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbEF1OHNmeU1RSHZ1U2xtNC13RXZ5dHZNR3FYN0JMcHpDOHRsODJBUnhWMlRTMGUxdjl0Z2U1dlpOMW4wdnFVRVp2ZHp0U010bTZYbDlTLVVjNHV2akRGZThCM3RLYkFOOFNWVVJmeDU2WC0wVTUxYkRocVVPZzJmWTFuMC04YjRTX244TnpCOUVpMkFNVGpQQkZGVE1CYy1vRnNhbk9n?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbEF1OHNmeU1RSHZ1U2xtNC13RXZ5dHZNR3FYN0JMcHpDOHRsODJBUnhWMlRTMGUxdjl0Z2U1dlpOMW4wdnFVRVp2ZHp0U010bTZYbDlTLVVjNHV2akRGZThCM3RLYkFOOFNWVVJmeDU2WC0wVTUxYkRocVVPZzJmWTFuMC04YjRTX244TnpCOUVpMkFNVGpQQkZGVE1CYy1vRnNhbk9n?oc=5",
-    "snippet": "Bank of Russia Clears Bitcoin, Ether and USDT Rules for Nov. 17 The Defiant",
-    "published_at": "2026-11-06T13:35:40+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
-    "matched_keywords": [
-      "USDT"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMipgFBVV95cUxQbEF1OHNmeU1RSHZ1U2xtNC13RXZ5dHZNR3FYN0JMcHpDOHRsODJBUnhWMlRTMGUxdjl0Z2U1dlpOMW4wdnFVRVp2ZHp0U010bTZYbDlTLVVjNHV2akRGZThCM3RLYkFOOFNWVVJmeDU2WC0wVTUxYkRocVVPZzJmWTFuMC04YjRTX244TnpCOUVpMkFNVGpQQkZGVE1CYy1vRnNhbk9n",
-      "guidislink": false
-    },
-    "score": 25,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 15,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -389,7 +201,7 @@
     "snippet": "Samsung Wallet Adds USDC: Stablecoin Payments Go Mainstream OneSafe",
     "published_at": "2026-11-06T01:28:08+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -439,7 +251,7 @@
     "snippet": "Asian crypto exchanges are scrambling to tighten security on fears of a wave of potentially AI-assisted hacks, even as regional governments embrace tokenization and stablecoins.",
     "published_at": "2026-11-05T22:18:42+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [
       "tokenization"
     ],
@@ -477,37 +289,35 @@
     ]
   },
   {
-    "id": "91ccfba8f75327bd468dfdffa73a889322e6818ae190527edb6c91ab42e1c3da",
+    "id": "92c86ce002ffe6244de2ab7ced0fa6bcc9107ec01c0334e36ba7e973b59d33b5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "tokenized_funds_rwa",
-    "title": "Stellar Tokenized Private Equity Market Rises 57.05% in 30 Days - TOKENPOST",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wRFh4OFF3OFZ2MUpmVnJKYXBXeEw1dVdhMkxOWVBwV2ZWUkE3b1p3Ul9iLVR2REVsckphZ0JJcVlqN0QwLXZBakVsOGpJNnJQQXE2TENJZTFtdw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9wRFh4OFF3OFZ2MUpmVnJKYXBXeEw1dVdhMkxOWVBwV2ZWUkE3b1p3Ul9iLVR2REVsckphZ0JJcVlqN0QwLXZBakVsOGpJNnJQQXE2TENJZTFtdw?oc=5",
-    "snippet": "Stellar Tokenized Private Equity Market Rises 57.05% in 30 Days TOKENPOST",
-    "published_at": "2026-11-05T17:14:06+00:00",
+    "feed_name": "finextra",
+    "title": "Is Europe ready to embrace stablecoins?",
+    "url": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins",
+    "snippet": "Exploring the role and future of stablecoins in Europe.",
+    "published_at": "2026-11-17T15:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMiWkFVX3lxTE9wRFh4OFF3OFZ2MUpmVnJKYXBXeEw1dVdhMkxOWVBwV2ZWUkE3b1p3Ul9iLVR2REVsckphZ0JJcVlqN0QwLXZBakVsOGpJNnJQQXE2TENJZTFtdw",
+      "id": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 14,
+    "score": 10,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -524,24 +334,73 @@
     ]
   },
   {
-    "id": "92c86ce002ffe6244de2ab7ced0fa6bcc9107ec01c0334e36ba7e973b59d33b5",
+    "id": "3e746029b66d67e167aa41c8ff3dcff09aa0700b9d6e370a7b94d750ff76e166",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Is Europe ready to embrace stablecoins?",
-    "url": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins",
-    "snippet": "Exploring the role and future of stablecoins in Europe.",
-    "published_at": "2026-11-17T15:00:00+00:00",
+    "feed_name": "pymnts",
+    "title": "Study Finds Most Stablecoins Fail GENIUS Act Requirements",
+    "url": "https://www.pymnts.com/news/2026/study-finds-most-stablecoins-fail-genius-act-requirements/",
+    "canonical_url": "https://pymnts.com/news/2026/study-finds-most-stablecoins-fail-genius-act-requirements/",
+    "snippet": "New research shows most U.S. dollar stablecoins will not follow the GENIUS Act’s reserve asset requirements. A study from the Bank Policy Institute (BPI) published Friday (Nov. 6) examined data on the reserve asset holdings of the 10 largest circulating dollar stablecoins, which accounted for 97% of",
+    "published_at": "2026-11-06T21:46:39+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
-    "matched_keywords": [],
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
+    "matched_keywords": [
+      "Genius"
+    ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.finextra.com/event-info/636/is-europe-ready-to-embrace-stablecoins?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "https://www.pymnts.com/?p=4376522",
       "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "0461961d3207ca9af71e7b086d48a48bc26b74a7fe5df34008576252eebcca59",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Gnosis Pay breach exposes card details, personal data and crypto wallet information",
+    "url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information",
+    "snippet": "The crypto debit card provider said customer funds remained safe despite the exposure of sensitive financial and personal information.",
+    "published_at": "2026-11-06T20:51:23+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
+    "matched_keywords": [
+      "crypto wallet"
+    ],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/gnosis-pay-breach-exposes-card-details-personal-data-crypto-wallet-information",
+      "guidislink": true
     },
     "score": 10,
     "score_breakdown": {
@@ -579,7 +438,7 @@
     "snippet": "Gnosis Pay said hackers accessed customer information on the legacy system behind its branded cards, though funds weren’t affected and its enterprise card platform was untouched.",
     "published_at": "2026-11-06T16:41:29+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-06T17:04:37.753977+00:00",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
     "matched_keywords": [
       "crypto card"
     ],
@@ -604,6 +463,53 @@
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "dc878ea60cf31ededfe60b434f021d5b52803220b93067916de5a7e48f662980",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Samsung’s 82-Million-Device Bet Shows Stablecoin Wars Moving Beyond Crypto",
+    "url": "https://www.pymnts.com/blockchain/2026/samsungs-82-million-device-bet-shows-stablecoin-wars-moving-beyond-crypto/",
+    "canonical_url": "https://pymnts.com/blockchain/2026/samsungs-82-million-device-bet-shows-stablecoin-wars-moving-beyond-crypto/",
+    "snippet": "Stablecoins are becoming a distribution business before they have conclusively become a profitable payments business. And if stablecoins are a distribution business, then a new player might be trying to corner the market. Samsung last month gave stablecoins something the cryptocurrency industry has ",
+    "published_at": "2026-11-06T21:38:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-06T22:01:26.164855+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=4376580",
+      "guidislink": false
+    },
+    "score": -10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -20,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
