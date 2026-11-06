@@ -1,9 +1,209 @@
 [
   {
+    "id": "f76a1af37e0bf81878e29bbb4e8e606a60e69c75",
+    "title": "NEW: Russia’s central bank approves $BTC, $ETH and $USDT for purchase by non-qualified retail investors under a 300,000 ruble annual limit per intermediary. Rules take effect November 17 as Moscow Exchange and Sberbank p",
+    "link": "https://x.com/CoinDesk/status/2118733015782195203#",
+    "score": 130,
+    "snippet": "NEW: Russia’s central bank approves $BTC, $ETH and $USDT for purchase by non-qualified retail investors under a 300,000 ruble annual limit per intermediary. Rules take effect November 17 as Moscow Exchange and Sberbank prepare to launch crypto trading December 1.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T15:51:30.046000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approves')",
+    "matched": "approves",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "4d307659c09808208b67f040d1fc596606458451",
+    "title": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
+    "link": "https://x.com/circle/status/2118750257173635142#",
+    "score": 90,
+    "snippet": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:circle",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T17:00:00.710000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "USDC",
+      "ARC"
+    ]
+  },
+  {
+    "id": "3e50847843f3bcae1ba4a002ff761c8e22ec1743",
+    "title": "THE BLOCK: Major U.S. spot crypto ETFs saw more than $500 million in combined net outflows on Thursday, led by Fidelity's FBTC, which shed nearly $200 million. Bitcoin $BTC fell 5.6%, and the Nasdaq dropped 5.5% as crypt",
+    "link": "https://x.com/TheBlockCo/status/2118680870693519574#",
+    "score": 85,
+    "snippet": "THE BLOCK: Major U.S. spot crypto ETFs saw more than $500 million in combined net outflows on Thursday, led by Fidelity's FBTC, which shed nearly $200 million. Bitcoin $BTC fell 5.6%, and the Nasdaq dropped 5.5% as crypto and tech stocks slid amid concerns over AI spending and regulation following t",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T12:24:17.865000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "46bd4cb644a658217a869eb600c9859f083abc7c",
+    "title": "How Banks Can Avoid Sending a Stablecoin Payment Twice",
+    "link": "https://www.pymnts.com/news/banking/2026/how-banks-can-avoid-sending-stablecoin-payment-twice/",
+    "score": 80,
+    "snippet": "Binance stopped withdrawals after attackers stole $6.3 billion in digital assets on Oct. 30. The cryptocurrency exchange restored access in stages. By Monday (Nov. 2), Federal Reserve and Office of the Comptroller of the Currency supervisors were asking banks in the United States whether they had se",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "pymnts",
+    "source": "Google News RSS",
+    "published_at": "2026-11-06T16:23:28+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "605a9255a4c9246edab0f499f1f4fb43c403ca5e",
+    "title": "## Zcash Network Upgrade 7 (NU7) Is Live! 🥳 :: Zcash has successfully activated NU7 on Mainnet at block height 3,543,405! :: This upgrade marks an important milestone for the network, introducing a shorter target block i",
+    "link": "https://discord.com/channels/978714252934258779/1101553339755413564/1568277598012964997",
+    "score": 80,
+    "snippet": "## Zcash Network Upgrade 7 (NU7) Is Live! 🥳 :: Zcash has successfully activated NU7 on Mainnet at block height 3,543,405! :: This upgrade marks an important milestone for the network, introducing a shorter target block interval of 25 seconds, increased transaction capacity, and improvements that sup",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:zcash",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T14:55:19.037000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ZEC"
+    ]
+  },
+  {
+    "id": "8fa4cf9f2455c2eefe0e29fb2b806f8b8caa9dd6",
+    "title": "THE BLOCK: The laundering operation behind Binance's $6.4 billion hack has spanned more than 20,000 wallets and 16 blockchains, Elliptic says. The North Korea-linked attackers have converted about $124 million into bitco",
+    "link": "https://x.com/TheBlockCo/status/2118713595647406248#",
+    "score": 80,
+    "snippet": "THE BLOCK: The laundering operation behind Binance's $6.4 billion hack has spanned more than 20,000 wallets and 16 blockchains, Elliptic says. The North Korea-linked attackers have converted about $124 million into bitcoin, but likely cashed out only a small amount. Around $2.85 billion remains froz",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T14:34:20.102000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "BNB"
+    ]
+  },
+  {
+    "id": "9dc94b0187da80d8162169d079e197b2502387f8",
+    "title": "NEW: Hyperliquid Strategies $PURR files to become a CFTC-registered futures commission merchant, aiming to carry U.S. client accounts for permissioned $HYPE perpetual futures markets, as the company reports $620.6M in Q3",
+    "link": "https://x.com/CoinDesk/status/2118680273449832908#",
+    "score": 80,
+    "snippet": "NEW: Hyperliquid Strategies $PURR files to become a CFTC-registered futures commission merchant, aiming to carry U.S. client accounts for permissioned $HYPE perpetual futures markets, as the company reports $620.6M in Q3 net income driven by unrealized token gains.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T12:21:55.432000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "PURR",
+      "HYPE"
+    ]
+  },
+  {
     "id": "8147487c1c2121f419e17fcbe6d10f603be5a705",
     "title": "THE BLOCK: Zcash announced that NU7 has activated on the mainnet. The upgrade cuts the target block time to 25 seconds from 75 seconds. $ZEC",
     "link": "https://x.com/TheBlockCo/status/2118581029359460479#",
-    "score": 80,
+    "score": 74,
     "snippet": "THE BLOCK: Zcash announced that NU7 has activated on the mainnet. The upgrade cuts the target block time to 25 seconds from 75 seconds. $ZEC",
     "regions": [],
     "primary_region": null,
@@ -55,10 +255,40 @@
     ]
   },
   {
+    "id": "7ca32c65588e6bb6498bc78b97de5ccbf59a12b3",
+    "title": "🫡 Check out the latest updates in #Binance Wallet! • Search now supports finding Square users by username • CopyTrade launches on app and web for BSC and Solana • Tracker Call Posts can be automatically translated into y",
+    "link": "https://x.com/BinanceWallet/status/2118695799748194697#",
+    "score": 65,
+    "snippet": "🫡 Check out the latest updates in #Binance Wallet! • Search now supports finding Square users by username • CopyTrade launches on app and web for BSC and Solana • Tracker Call Posts can be automatically translated into your app language • DeFi API adds Solana support, covering 10+ protocols • Token ",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:binancewallet",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T13:23:37.216000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ID",
+      "BNB",
+      "SOL"
+    ]
+  },
+  {
     "id": "3bf54acff6cd25d0de7df0ed327ceb696f9e7ed1",
     "title": "Spot Bitcoin ETFs Saw $430M in Net Outflows on Nov. 5; Ether ETFs Saw $99.97M On November 5 (ET), U.S. spot Bitcoin ETFs recorded $430 million in total net outflows, led by Fidelity’s FBTC with $200 million. Spot Ether E",
     "link": "https://x.com/WuBlockchain/status/2118600564388843599#",
-    "score": 70,
+    "score": 64,
     "snippet": "Spot Bitcoin ETFs Saw $430M in Net Outflows on Nov. 5; Ether ETFs Saw $99.97M On November 5 (ET), U.S. spot Bitcoin ETFs recorded $430 million in total net outflows, led by Fidelity’s FBTC with $200 million. Spot Ether ETFs recorded $99.97 million in net outflows, led by BlackRock’s ETHA with $75.20",
     "regions": [
       "US"
@@ -87,7 +317,7 @@
     "id": "85cd9257b7e20e516cc515c3d6c4fa9891fa434a",
     "title": "Web3 payments are evolving! 🌍 Shoutout to @Crypto_Potato for covering the upcoming AVA+ Partners launch. Partner projects will soon acquire a Travel Tiger NFT and lock AVA to unlock Travala integration → driving true eco",
     "link": "https://x.com/travalacom/status/2118599287651127392#",
-    "score": 70,
+    "score": 64,
     "snippet": "Web3 payments are evolving! 🌍 Shoutout to @Crypto_Potato for covering the upcoming AVA+ Partners launch. Partner projects will soon acquire a Travel Tiger NFT and lock AVA to unlock Travala integration → driving true ecosystem growth! Read here 👇 https://cryptopotato.com/travala-unveils-ava-partners",
     "regions": [],
     "primary_region": null,
@@ -115,7 +345,7 @@
     "id": "5615192e3ab2f7a4c117c77d1ec2fc09ab9ce5e9",
     "title": "THE BLOCK: Spot bitcoin ETFs shed $430.2 million on Thursday, led by $200 million moving out of Fidelity’s FBTC. Spot ether ETFs also posted nearly $100 million in net outflows on the same day. $BTC $ETH",
     "link": "https://x.com/TheBlockCo/status/2118579859303846111#",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Spot bitcoin ETFs shed $430.2 million on Thursday, led by $200 million moving out of Fidelity’s FBTC. Spot ether ETFs also posted nearly $100 million in net outflows on the same day. $BTC $ETH",
     "regions": [
       "US"
@@ -141,21 +371,21 @@
     ]
   },
   {
-    "id": "74f4edcad65d43729cdf1be053ee421eef57edce",
-    "title": "Largest HYPE Treasury Firm Hyperliquid Strategies Seeks US Futures Commission Merchant Registration, Reports $620.6M Quarterly Profit Hyperliquid Strategies (NASDAQ: PURR), the largest publicly traded HYPE treasury compa",
-    "link": "https://x.com/WuBlockchain/status/2118464261232230434#",
-    "score": 59,
-    "snippet": "Largest HYPE Treasury Firm Hyperliquid Strategies Seeks US Futures Commission Merchant Registration, Reports $620.6M Quarterly Profit Hyperliquid Strategies (NASDAQ: PURR), the largest publicly traded HYPE treasury company, announced that a subsidiary has applied for registration as a US futures com",
+    "id": "a5ffc33b9174f4b0f86f4486387e83ec740de7ff",
+    "title": "THE BLOCK: Strive reported $509 million in Q3 net income, driven by $533.7 million in unrealized bitcoin gains. The firm added 8,136 bitcoin during the quarter, then bought another 15,124 BTC in October, bringing its hol",
+    "link": "https://x.com/TheBlockCo/status/2118717057977966650#",
+    "score": 60,
+    "snippet": "THE BLOCK: Strive reported $509 million in Q3 net income, driven by $533.7 million in unrealized bitcoin gains. The firm added 8,136 bitcoin during the quarter, then bought another 15,124 BTC in October, bringing its holdings to 43,124 $BTC by Oct. 30. $ASST shares are up 2.5% in early market tradin",
     "regions": [],
     "primary_region": null,
-    "category": "regulation",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 30,
     "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T22:03:34.168000+00:00",
+    "published_at": "2026-11-06T14:48:05.675000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -163,8 +393,87 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HYPE",
-      "PURR"
+      "BTC"
+    ]
+  },
+  {
+    "id": "6018b8a93053dec952ff3e764f7c36bebe27d6d4",
+    "title": "THE BLOCK: Bittensor has introduced support for quantum-resistant wallets, adding post-quantum digital signatures and optional automatic signing-key rotation. The update aims to protect $TAO transfers, staking, and valid",
+    "link": "https://x.com/TheBlockCo/status/2118682991060795843#",
+    "score": 55,
+    "snippet": "THE BLOCK: Bittensor has introduced support for quantum-resistant wallets, adding post-quantum digital signatures and optional automatic signing-key rotation. The update aims to protect $TAO transfers, staking, and validator operations against future quantum computing threats.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T12:32:43.729000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduced')",
+    "matched": "introduced",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "TAO"
+    ]
+  },
+  {
+    "id": "299a7fac8c9d5e40d0a7182a4091d8a78b1a92ef",
+    "title": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
+    "link": "https://www.channelnewsasia.com/business/binance-63-billion-heist-prompt-closer-scrutiny-insurers-6530746",
+    "score": 54,
+    "snippet": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:cna",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-06T10:06:11.864000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "3d0d31844ac34820efd568631431ec8f4d845ebb",
+    "title": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
+    "link": "https://www.reuters.com/legal/transactional/binance-63-billion-heist-prompt-closer-scrutiny-by-insurers-2026-11-06",
+    "score": 54,
+    "snippet": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:reuters",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-06T10:01:48.840000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
     ]
   },
   {
@@ -194,158 +503,23 @@
     ]
   },
   {
-    "id": "69966575e78c008a41c548d54287d1de0e236ce9",
-    "title": "THE BLOCK: IREN's revenue hit $228 million for the quarter ended Sept. 30, as AI Cloud revenue surged 182% quarter on quarter to $200 million while Bitcoin mining revenue fell to $28 million. $IREN The company continues",
-    "link": "https://x.com/TheBlockCo/status/2118523118700609588#",
-    "score": 54,
-    "snippet": "THE BLOCK: IREN's revenue hit $228 million for the quarter ended Sept. 30, as AI Cloud revenue surged 182% quarter on quarter to $200 million while Bitcoin mining revenue fell to $28 million. $IREN The company continues shifting focus to AI infrastructure, with mining operations expected to wind dow",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T01:57:26.971000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "IREN",
-      "BTC"
-    ]
-  },
-  {
-    "id": "9cb4c1fac57dc01f5b8662a8580fb57f108c8630",
-    "title": "THE BLOCK: Hyperliquid Strategies reported $13.3 million in revenue for its fiscal quarter ended Sept. 30, exceeding analyst estimates of $10.6 million to $12 million, depending on the data provider. $PURR The company po",
-    "link": "https://x.com/TheBlockCo/status/2118460466158542955#",
-    "score": 54,
-    "snippet": "THE BLOCK: Hyperliquid Strategies reported $13.3 million in revenue for its fiscal quarter ended Sept. 30, exceeding analyst estimates of $10.6 million to $12 million, depending on the data provider. $PURR The company posted $620.6 million in net income, largely driven by $803 million in unrealized ",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T21:48:29.375000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "PURR",
-      "HYPE"
-    ]
-  },
-  {
-    "id": "43a40e75c53f339bd0fbd16c6f1d9361c3c0585b",
-    "title": "Binance Hack Raises Prospect of Legal or Regulatory Recourse",
-    "link": "https://news.bloomberglaw.com/securities-law/binance-hack-raises-prospect-of-legal-or-regulatory-recourse",
-    "score": 54,
-    "snippet": "Binance Hack Raises Prospect of Legal or Regulatory Recourse",
+    "id": "d8f1e43c13160aee5fcdefd687e9da9a4ac9e1aa",
+    "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
+    "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
+    "score": 50,
+    "snippet": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
     "regions": [
-      "EU"
+      "US"
     ],
-    "primary_region": "EU",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:bloomberg law",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-05T18:28:00.349000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "b8fb9b8bd86a0318d286969e266bde24058caaf5",
-    "title": "Bold by name. Bolder by strategy. Introducing Liquid Bold USD A new vault exploring higher-reward opportunities. A bolder choice alongside our more conservative vaults ether․fi x launch partner @CapApp Powered by @MidasR",
-    "link": "https://x.com/ether_fi/status/2118389870884438036#",
-    "score": 54,
-    "snippet": "Bold by name. Bolder by strategy. Introducing Liquid Bold USD A new vault exploring higher-reward opportunities. A bolder choice alongside our more conservative vaults ether․fi x launch partner @CapApp Powered by @MidasRWA https://www.ether.fi/app/cash/earn/liquid/bold",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:ether_fi",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T17:07:58.067000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ETHFI"
-    ]
-  },
-  {
-    "id": "ed919dee436beb427a8505497e83fbfbfcea8bdf",
-    "title": "Mitsubishi UFJ Bank, HSBC, JP Morgan, and Others Establish Standardization Body for Tokenized Finance - Iolite（アイオライト）",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44TmxLTnhSc3lBZWFjUVJHTjRObmJkVVBrZC04NHRabU5LM05ZeHNpZHdjUFVHU1pVTHVieEVvdlhrWVplNlktWFhhRWJpdkE3OEFhOQ?oc=5",
-    "score": 44,
-    "snippet": "Mitsubishi UFJ Bank, HSBC, JP Morgan, and Others Establish Standardization Body for Tokenized Finance Iolite（アイオライト）",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-11-05T16:18:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "89de0221ed257d4264deb089cdddefdb3e0a6877",
-    "title": "Trust the math, not the middleman. hemiProve, Hemi's decentralized ZK proving network, is coming in beta. Built for the $1 billion proving market.",
-    "link": "https://x.com/hemi_xyz/status/2118418190531285399#",
-    "score": 44,
-    "snippet": "Trust the math, not the middleman. hemiProve, Hemi's decentralized ZK proving network, is coming in beta. Built for the $1 billion proving market.",
-    "regions": [],
-    "primary_region": null,
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:hemi_xyz",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T19:00:29.899000+00:00",
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-06T16:34:13.381000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -353,8 +527,7 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "HEMI",
-      "ZK"
+      "BTC"
     ]
   }
 ]
