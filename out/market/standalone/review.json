@@ -1,22 +1,20 @@
 [
   {
-    "id": "649b5f361bff7c5a3a1f9cceed77cbe94b708813",
-    "title": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-    "link": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261105a.htm",
-    "score": 99,
-    "snippet": "Federal Reserve Board announces termination of enforcement action with Allegiant United Holdings, LLC, Nano Financial Holdings, Inc., and Nano Banc",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
+    "id": "8147487c1c2121f419e17fcbe6d10f603be5a705",
+    "title": "THE BLOCK: Zcash announced that NU7 has activated on the mainnet. The upgrade cuts the target block time to 25 seconds from 75 seconds. $ZEC",
+    "link": "https://x.com/TheBlockCo/status/2118581029359460479#",
+    "score": 80,
+    "snippet": "THE BLOCK: Zcash announced that NU7 has activated on the mainnet. The upgrade cuts the target block time to 25 seconds from 75 seconds. $ZEC",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [],
-    "feed_name": "tree:federal reserve",
-    "source": "TreeOfAlpha/usGov",
-    "published_at": "2026-11-05T16:00:14.680000+00:00",
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T05:47:33.828000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -24,14 +22,14 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "XNO"
+      "ZEC"
     ]
   },
   {
     "id": "205b394d90f1ae2654355f207e8549ebc8ebd9fe",
     "title": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
     "link": "https://www.coindesk.com/policy/2026/11/05/hyperliquid-treasury-firm-seeking-u-s-regulatory-nod-as-a-domestic-futures-platform",
-    "score": 80,
+    "score": 74,
     "snippet": "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform",
     "regions": [
       "US",
@@ -57,10 +55,96 @@
     ]
   },
   {
+    "id": "3bf54acff6cd25d0de7df0ed327ceb696f9e7ed1",
+    "title": "Spot Bitcoin ETFs Saw $430M in Net Outflows on Nov. 5; Ether ETFs Saw $99.97M On November 5 (ET), U.S. spot Bitcoin ETFs recorded $430 million in total net outflows, led by Fidelity’s FBTC with $200 million. Spot Ether E",
+    "link": "https://x.com/WuBlockchain/status/2118600564388843599#",
+    "score": 70,
+    "snippet": "Spot Bitcoin ETFs Saw $430M in Net Outflows on Nov. 5; Ether ETFs Saw $99.97M On November 5 (ET), U.S. spot Bitcoin ETFs recorded $430 million in total net outflows, led by Fidelity’s FBTC with $200 million. Spot Ether ETFs recorded $99.97 million in net outflows, led by BlackRock’s ETHA with $75.20",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T07:05:11.363000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
+    "id": "85cd9257b7e20e516cc515c3d6c4fa9891fa434a",
+    "title": "Web3 payments are evolving! 🌍 Shoutout to @Crypto_Potato for covering the upcoming AVA+ Partners launch. Partner projects will soon acquire a Travel Tiger NFT and lock AVA to unlock Travala integration → driving true eco",
+    "link": "https://x.com/travalacom/status/2118599287651127392#",
+    "score": 70,
+    "snippet": "Web3 payments are evolving! 🌍 Shoutout to @Crypto_Potato for covering the upcoming AVA+ Partners launch. Partner projects will soon acquire a Travel Tiger NFT and lock AVA to unlock Travala integration → driving true ecosystem growth! Read here 👇 https://cryptopotato.com/travala-unveils-ava-partners",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:travalacom",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T07:00:06.796000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "AVA"
+    ]
+  },
+  {
+    "id": "5615192e3ab2f7a4c117c77d1ec2fc09ab9ce5e9",
+    "title": "THE BLOCK: Spot bitcoin ETFs shed $430.2 million on Thursday, led by $200 million moving out of Fidelity’s FBTC. Spot ether ETFs also posted nearly $100 million in net outflows on the same day. $BTC $ETH",
+    "link": "https://x.com/TheBlockCo/status/2118579859303846111#",
+    "score": 70,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs shed $430.2 million on Thursday, led by $200 million moving out of Fidelity’s FBTC. Spot ether ETFs also posted nearly $100 million in net outflows on the same day. $BTC $ETH",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-06T05:42:54.861000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "ETH"
+    ]
+  },
+  {
     "id": "74f4edcad65d43729cdf1be053ee421eef57edce",
     "title": "Largest HYPE Treasury Firm Hyperliquid Strategies Seeks US Futures Commission Merchant Registration, Reports $620.6M Quarterly Profit Hyperliquid Strategies (NASDAQ: PURR), the largest publicly traded HYPE treasury compa",
     "link": "https://x.com/WuBlockchain/status/2118464261232230434#",
-    "score": 65,
+    "score": 59,
     "snippet": "Largest HYPE Treasury Firm Hyperliquid Strategies Seeks US Futures Commission Merchant Registration, Reports $620.6M Quarterly Profit Hyperliquid Strategies (NASDAQ: PURR), the largest publicly traded HYPE treasury company, announced that a subsidiary has applied for registration as a US futures com",
     "regions": [],
     "primary_region": null,
@@ -84,77 +168,21 @@
     ]
   },
   {
-    "id": "db52cc7c3e9613578f0511fb3699592d9d328e63",
-    "title": "Hypercall x @Enter_Elysium. We're planting our flag: Elysium by @Kinetiq_xyz is the right infrastructure for Hypercall. On Day 1 of Mainnet launch, we're deploying onto Elysium to scale our options exchange. This is wher",
-    "link": "https://x.com/SynapseProtocol/status/2118368060616962380#",
-    "score": 64,
-    "snippet": "Hypercall x @Enter_Elysium. We're planting our flag: Elysium by @Kinetiq_xyz is the right infrastructure for Hypercall. On Day 1 of Mainnet launch, we're deploying onto Elysium to scale our options exchange. This is where we're building.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:synapseprotocol",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T15:41:18.082000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SYN"
-    ]
-  },
-  {
-    "id": "71c9e88c6c4f10dd1d756951aa51690e07ef942f",
-    "title": "Robert Kiyosaki Issues Serious $40.5 Trillion Warning—Predicts Gold, Silver And Bitcoin Price Crash",
-    "link": "https://www.forbes.com/sites/digital-assets/2026/11/05/robert-kiyosaki-issues-serious-405-trillion-warning-predicts-gold-silver-and-bitcoin-price-crash",
-    "score": 64,
-    "snippet": "Robert Kiyosaki Issues Serious $40.5 Trillion Warning—Predicts Gold, Silver And Bitcoin Price Crash",
+    "id": "6879e4aa36a9b8641829d305507cb521d802de3e",
+    "title": "Hackers Paid $15 to Drain $2.5 Billion From Binance in One Hit",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-06/hackers-paid-15-to-drain-2-5-billion-from-binance-in-one-hit",
+    "score": 54,
+    "snippet": "Hackers Paid $15 to Drain $2.5 Billion From Binance in One Hit",
     "regions": [],
     "primary_region": null,
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 50,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:forbes",
+    "feed_name": "tree:bloomberg",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-05T15:10:10.363000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issues')",
-    "matched": "issues",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "2cfa2c4d4c1ad3f1f3808e1645724f2b582bb6c1",
-    "title": "THE BLOCK: Aave says a fund affiliated with Kraken parent Payward and its clients have bought $AAVE on the secondary market, with the amount and price undisclosed. It follows Stani Kulechov's June pushback on a reported",
-    "link": "https://x.com/TheBlockCo/status/2118354639569780936#",
-    "score": 64,
-    "snippet": "THE BLOCK: Aave says a fund affiliated with Kraken parent Payward and its clients have bought $AAVE on the secondary market, with the amount and price undisclosed. It follows Stani Kulechov's June pushback on a reported Payward deal that claimed a 15% stake was being discussed at a $385 million valu",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T14:47:58.254000+00:00",
+    "published_at": "2026-11-06T03:27:56.394000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -162,14 +190,14 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "AAVE"
+      "BNB"
     ]
   },
   {
     "id": "69966575e78c008a41c548d54287d1de0e236ce9",
     "title": "THE BLOCK: IREN's revenue hit $228 million for the quarter ended Sept. 30, as AI Cloud revenue surged 182% quarter on quarter to $200 million while Bitcoin mining revenue fell to $28 million. $IREN The company continues",
     "link": "https://x.com/TheBlockCo/status/2118523118700609588#",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: IREN's revenue hit $228 million for the quarter ended Sept. 30, as AI Cloud revenue surged 182% quarter on quarter to $200 million while Bitcoin mining revenue fell to $28 million. $IREN The company continues shifting focus to AI infrastructure, with mining operations expected to wind dow",
     "regions": [],
     "primary_region": null,
@@ -196,7 +224,7 @@
     "id": "9cb4c1fac57dc01f5b8662a8580fb57f108c8630",
     "title": "THE BLOCK: Hyperliquid Strategies reported $13.3 million in revenue for its fiscal quarter ended Sept. 30, exceeding analyst estimates of $10.6 million to $12 million, depending on the data provider. $PURR The company po",
     "link": "https://x.com/TheBlockCo/status/2118460466158542955#",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: Hyperliquid Strategies reported $13.3 million in revenue for its fiscal quarter ended Sept. 30, exceeding analyst estimates of $10.6 million to $12 million, depending on the data provider. $PURR The company posted $620.6 million in net income, largely driven by $803 million in unrealized ",
     "regions": [],
     "primary_region": null,
@@ -217,32 +245,6 @@
     "coins": [
       "PURR",
       "HYPE"
-    ]
-  },
-  {
-    "id": "28dca311c58c85cee3a324729443a406e2a037fc",
-    "title": "THE BLOCK: Floki announced that it discovered an exploit on Thursday affecting bot wallets. The project has taken the bot offline and is identifying affected funds and users.",
-    "link": "https://x.com/TheBlockCo/status/2118513211922419735#",
-    "score": 55,
-    "snippet": "THE BLOCK: Floki announced that it discovered an exploit on Thursday affecting bot wallets. The project has taken the bot offline and is identifying affected funds and users.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T01:18:04.912000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "FLOKI"
     ]
   },
   {
@@ -300,66 +302,6 @@
     "origin": "tree",
     "coins": [
       "ETHFI"
-    ]
-  },
-  {
-    "id": "1078853dc6e5a475470079fe33bbac2a569e1fde",
-    "title": "In case you missed our October Progress Report, here’s a quick infographic recap! From Mainnet & Testnet v3.1.1 updates and a new partnership with @Lighthouse_2026 to Unitus AxCNH incentives. Plus community events in Ukr",
-    "link": "https://x.com/Conflux_Network/status/2118375521666912629#",
-    "score": 54,
-    "snippet": "In case you missed our October Progress Report, here’s a quick infographic recap! From Mainnet & Testnet v3.1.1 updates and a new partnership with @Lighthouse_2026 to Unitus AxCNH incentives. Plus community events in Ukraine and Argentina, new regional hubs CAUDAL and SLOVO, and more happening acros",
-    "regions": [
-      "LatAm"
-    ],
-    "primary_region": "LatAm",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:conflux_network",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T16:10:57.029000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CFX"
-    ]
-  },
-  {
-    "id": "f30f15e8344f0e8406f9fc7559bcfe60d8992efe",
-    "title": "Introducing the CTR Holders Group CTR Holders Group is officially live! This is a dedicated, topic-based group for verified CTR and xCTR holders to engage directly with the Citrea core team on product development, feedba",
-    "link": "https://x.com/citrea_xyz/status/2118356472325083615#",
-    "score": 54,
-    "snippet": "Introducing the CTR Holders Group CTR Holders Group is officially live! This is a dedicated, topic-based group for verified CTR and xCTR holders to engage directly with the Citrea core team on product development, feedback sprints, technical support, and the evolution of the network. CTR launched on",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:citrea_xyz",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-05T14:55:15.158000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CTR",
-      "T",
-      "BTC"
     ]
   },
   {
