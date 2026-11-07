@@ -209,23 +209,27 @@
     ]
   },
   {
-    "id": "7ca32c65588e6bb6498bc78b97de5ccbf59a12b3",
-    "title": "🫡 Check out the latest updates in #Binance Wallet! • Search now supports finding Square users by username • CopyTrade launches on app and web for BSC and Solana • Tracker Call Posts can be automatically translated into y",
-    "link": "https://x.com/BinanceWallet/status/2118695799748194697#",
-    "score": 59,
-    "snippet": "🫡 Check out the latest updates in #Binance Wallet! • Search now supports finding Square users by username • CopyTrade launches on app and web for BSC and Solana • Tracker Call Posts can be automatically translated into your app language • DeFi API adds Solana support, covering 10+ protocols • Token ",
-    "regions": [],
-    "primary_region": null,
+    "id": "454cebb3287ba8dd2f68ea51c4400d903c5e7604",
+    "title": "This Week in Media – 10/31-11/6 Read The Block: Samsung Wallet launches USDC accounts on Solana for US Galaxy users Decrypt: Stablecoins Go Mainstream as Samsung Wallet Adds USDC on Solana CoinDesk: Global asset manager",
+    "link": "https://x.com/solana/status/2119052509214101753#",
+    "score": 65,
+    "snippet": "This Week in Media – 10/31-11/6 Read The Block: Samsung Wallet launches USDC accounts on Solana for US Galaxy users Decrypt: Stablecoins Go Mainstream as Samsung Wallet Adds USDC on Solana CoinDesk: Global asset manager Schroders brings emerging market bond fund to Solana TheStreet: Solana RWA value",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:binancewallet",
+    "feed_name": "tree:x:solana",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T13:23:37.216000+00:00",
+    "published_at": "2026-11-07T13:01:03.229000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
@@ -233,9 +237,12 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "ID",
-      "BNB",
-      "SOL"
+      "SOL",
+      "USDC",
+      "ETH",
+      "RAYSOL",
+      "AKT",
+      "ONDO"
     ]
   },
   {
@@ -289,6 +296,88 @@
     "coins": [
       "BTC"
     ]
+  },
+  {
+    "id": "cbd6ca111d70ac77afeb3ef3b9e0cb213bc68134",
+    "title": "USDC price holds near peg as payments pilot broadens use - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaEt6YUtDckpUekUyaC1GbEV6R3BjRWREaDBNM2MzVXpvSVlkQW9QazRGck9yaVFLWnR2ZGdzb19PT2RKSTd3bGhDbEhWbjZiU1N3Z1JSQTU1MVhKTzV4cHpnOTk2eEUtUWZmdG1Ick0zRW5neWxGbzdiRXlmUndYVU9YcWNWZ3IwQUpjS3FkVmtsTXdDY2xVRXp2UkgweG9nLVVnczVnRm9Kdms1cGRfYm5jQ3RUb1JUZnc?oc=5",
+    "score": 45,
+    "snippet": "USDC price holds near peg as payments pilot broadens use ad-hoc-news.de",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-07T12:03:16+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "72ad96a144927c0ddb11eda36f57239f741e6e11",
+    "title": "As $2.5 billion transferred from Binance in single transaction; how it cost hackers just $15; the massive cryptocurrency theft's 'big shock'",
+    "link": "https://timesofindia.indiatimes.com/technology/tech-news/as-2-5-billion-transferred-from-binance-in-single-transaction-how-it-cost-hackers-just-15-the-massive-cryptocurrency-thefts-big-shock/articleshow/135633527.cms",
+    "score": 45,
+    "snippet": "As $2.5 billion transferred from Binance in single transaction; how it cost hackers just $15; the massive cryptocurrency theft's 'big shock'",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:times of india",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-07T10:15:46.220000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "7ed676431b813a6ae2071b0959e2710098f8d1ba",
+    "title": "“Stablecoin Holders Must Not Receive Interest Or Yield” — CBN Introduces New Regulations, Mandates Form M For Import Payments - TheNigeriaLawyer",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQWVhGdGJqZUhWNmR4cEFwdHFYajJXWTJwQzM3RW8yQU1jUnF5dV95aGRFOGJCQy0wRFlSX3dsLVR6NWVXdW9uZkYxTWpMUFdNMUIzdFlUUzdBRUtIaGZFMHdlM1RmNURsbDJVSVA4aVFXMWM0c3VTOFRVTUNOel9nbGdWdV9zU3pua2RCY2o3aDBGZFBLTXlMTlpNbFIzQzZlb2tyNVZPN0lkSnFPS0xRRXE2ME1ScC1CNHhlQ2pjcHFuTFFHdGRqUWNGNTdVQmtkQTFhd0tlX2dJOWtKRFRZZGVzSkM?oc=5",
+    "score": 44,
+    "snippet": "“Stablecoin Holders Must Not Receive Interest Or Yield” — CBN Introduces New Regulations, Mandates Form M For Import Payments TheNigeriaLawyer",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-07T05:34:08+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduces')",
+    "matched": "introduces",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "d8f1e43c13160aee5fcdefd687e9da9a4ac9e1aa",
