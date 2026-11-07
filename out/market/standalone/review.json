@@ -22,7 +22,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approves')",
     "matched": "approves",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -33,7 +33,7 @@
     "id": "ee2d8d4d461e8977a5d8a37ad45b6b7a4e298a9f",
     "title": "One hour ago, FinCEN announced an order “effectively cutting off MEXC Global’s access to the U.S. financial system for facilitating at least $16 billion in illicit transactions, including activity connected to Iran sanct",
     "link": "https://x.com/reserveprotocol/status/2118856945071280566#",
-    "score": 90,
+    "score": 84,
     "snippet": "One hour ago, FinCEN announced an order “effectively cutting off MEXC Global’s access to the U.S. financial system for facilitating at least $16 billion in illicit transactions, including activity connected to Iran sanctions evasion.” In response to this order, Reserve and its market making partners",
     "regions": [
       "US"
@@ -53,7 +53,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "RSR"
@@ -63,7 +63,7 @@
     "id": "15292e934a4a6e59acba5964dc75cefbbc63ada3",
     "title": ".@The_DTCC's Tokenization Service went live on Canton. CIP-0129 approved Universal Burn and Synchronizer Pricing. @Uber completed an onchain settlement pilot with @HSBC, @FranklnTempletn, @Tradeweb, and @FireblocksHQ. ↓",
     "link": "https://x.com/CantonNetwork/status/2118856707983962414#",
-    "score": 90,
+    "score": 84,
     "snippet": ".@The_DTCC's Tokenization Service went live on Canton. CIP-0129 approved Universal Burn and Synchronizer Pricing. @Uber completed an onchain settlement pilot with @HSBC, @FranklnTempletn, @Tradeweb, and @FireblocksHQ. ↓ What moved in the Canton ecosystem last month. https://x.com/CantonFdn/status/21",
     "regions": [],
     "primary_region": null,
@@ -83,7 +83,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approved')",
     "matched": "approved",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CC"
@@ -95,8 +95,10 @@
     "link": "https://x.com/circle/status/2118750257173635142#",
     "score": 84,
     "snippet": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -112,73 +114,11 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "USDC",
       "ARC"
-    ]
-  },
-  {
-    "id": "3e50847843f3bcae1ba4a002ff761c8e22ec1743",
-    "title": "THE BLOCK: Major U.S. spot crypto ETFs saw more than $500 million in combined net outflows on Thursday, led by Fidelity's FBTC, which shed nearly $200 million. Bitcoin $BTC fell 5.6%, and the Nasdaq dropped 5.5% as crypt",
-    "link": "https://x.com/TheBlockCo/status/2118680870693519574#",
-    "score": 79,
-    "snippet": "THE BLOCK: Major U.S. spot crypto ETFs saw more than $500 million in combined net outflows on Thursday, led by Fidelity's FBTC, which shed nearly $200 million. Bitcoin $BTC fell 5.6%, and the Nasdaq dropped 5.5% as crypto and tech stocks slid amid concerns over AI spending and regulation following t",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T12:24:17.865000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "0877aee241007e27a479ba8aa5c735bbc1e6b027",
-    "title": "THE BLOCK: Coinbase is adding loans backed by tokenized gold, letting users borrow USDC against Paxos' $PAXG token through Morpho without selling their tokens. PAXG has launched on Base, with each token backed by one fin",
-    "link": "https://x.com/TheBlockCo/status/2118795422928162834#",
-    "score": 75,
-    "snippet": "THE BLOCK: Coinbase is adding loans backed by tokenized gold, letting users borrow USDC against Paxos' $PAXG token through Morpho without selling their tokens. PAXG has launched on Base, with each token backed by one fine troy ounce of physical gold held in vaults.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T19:59:29.124000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launched')",
-    "matched": "launched",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "PAXG",
-      "USDC",
-      "MORPHO"
     ]
   },
   {
@@ -227,7 +167,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -235,58 +175,37 @@
     ]
   },
   {
-    "id": "9dc94b0187da80d8162169d079e197b2502387f8",
-    "title": "NEW: Hyperliquid Strategies $PURR files to become a CFTC-registered futures commission merchant, aiming to carry U.S. client accounts for permissioned $HYPE perpetual futures markets, as the company reports $620.6M in Q3",
-    "link": "https://x.com/CoinDesk/status/2118680273449832908#",
-    "score": 74,
-    "snippet": "NEW: Hyperliquid Strategies $PURR files to become a CFTC-registered futures commission merchant, aiming to carry U.S. client accounts for permissioned $HYPE perpetual futures markets, as the company reports $620.6M in Q3 net income driven by unrealized token gains.",
+    "id": "0877aee241007e27a479ba8aa5c735bbc1e6b027",
+    "title": "THE BLOCK: Coinbase is adding loans backed by tokenized gold, letting users borrow USDC against Paxos' $PAXG token through Morpho without selling their tokens. PAXG has launched on Base, with each token backed by one fin",
+    "link": "https://x.com/TheBlockCo/status/2118795422928162834#",
+    "score": 69,
+    "snippet": "THE BLOCK: Coinbase is adding loans backed by tokenized gold, letting users borrow USDC against Paxos' $PAXG token through Morpho without selling their tokens. PAXG has launched on Base, with each token backed by one fine troy ounce of physical gold held in vaults.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:coindesk",
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T12:21:55.432000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "PURR",
-      "HYPE"
-    ]
-  },
-  {
-    "id": "951de74ceae0a15258d6e2b1746c5593c1fdc443",
-    "title": "Banks Face Crypto Security Checks After Binance's $6 Billion Hack",
-    "link": "https://www.forbes.com/sites/murtuza-merchant/2026/11/06/banks-face-crypto-security-checks-after-binances-6-billion-hack",
-    "score": 60,
-    "snippet": "Banks Face Crypto Security Checks After Binance's $6 Billion Hack",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:forbes",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-06T21:40:14.539000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-11-06T19:59:29.124000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BNB"
+      "PAXG",
+      "USDC",
+      "MORPHO"
     ]
   },
   {
@@ -311,12 +230,38 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ID",
       "BNB",
       "SOL"
+    ]
+  },
+  {
+    "id": "951de74ceae0a15258d6e2b1746c5593c1fdc443",
+    "title": "Banks Face Crypto Security Checks After Binance's $6 Billion Hack",
+    "link": "https://www.forbes.com/sites/murtuza-merchant/2026/11/06/banks-face-crypto-security-checks-after-binances-6-billion-hack",
+    "score": 54,
+    "snippet": "Banks Face Crypto Security Checks After Binance's $6 Billion Hack",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:forbes",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-06T21:40:14.539000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
     ]
   },
   {
@@ -339,7 +284,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
