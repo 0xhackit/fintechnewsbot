@@ -22,7 +22,7 @@
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('approves')",
     "matched": "approves",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -30,15 +30,73 @@
     ]
   },
   {
-    "id": "4d307659c09808208b67f040d1fc596606458451",
-    "title": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
-    "link": "https://x.com/circle/status/2118750257173635142#",
+    "id": "ee2d8d4d461e8977a5d8a37ad45b6b7a4e298a9f",
+    "title": "One hour ago, FinCEN announced an order “effectively cutting off MEXC Global’s access to the U.S. financial system for facilitating at least $16 billion in illicit transactions, including activity connected to Iran sanct",
+    "link": "https://x.com/reserveprotocol/status/2118856945071280566#",
     "score": 90,
-    "snippet": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
+    "snippet": "One hour ago, FinCEN announced an order “effectively cutting off MEXC Global’s access to the U.S. financial system for facilitating at least $16 billion in illicit transactions, including activity connected to Iran sanctions evasion.” In response to this order, Reserve and its market making partners",
     "regions": [
       "US"
     ],
     "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:reserveprotocol",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-07T00:03:57.270000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "RSR"
+    ]
+  },
+  {
+    "id": "15292e934a4a6e59acba5964dc75cefbbc63ada3",
+    "title": ".@The_DTCC's Tokenization Service went live on Canton. CIP-0129 approved Universal Burn and Synchronizer Pricing. @Uber completed an onchain settlement pilot with @HSBC, @FranklnTempletn, @Tradeweb, and @FireblocksHQ. ↓",
+    "link": "https://x.com/CantonNetwork/status/2118856707983962414#",
+    "score": 90,
+    "snippet": ".@The_DTCC's Tokenization Service went live on Canton. CIP-0129 approved Universal Burn and Synchronizer Pricing. @Uber completed an onchain settlement pilot with @HSBC, @FranklnTempletn, @Tradeweb, and @FireblocksHQ. ↓ What moved in the Canton ecosystem last month. https://x.com/CantonFdn/status/21",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:cantonnetwork",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-07T00:03:00.718000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approved')",
+    "matched": "approved",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "CC"
+    ]
+  },
+  {
+    "id": "4d307659c09808208b67f040d1fc596606458451",
+    "title": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
+    "link": "https://x.com/circle/status/2118750257173635142#",
+    "score": 84,
+    "snippet": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -54,7 +112,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launch')",
     "matched": "launch",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "USDC",
@@ -83,7 +141,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -115,7 +173,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
     "matched": "launched",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PAXG",
@@ -169,7 +227,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC",
@@ -198,7 +256,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "PURR",
@@ -253,7 +311,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('launches')",
     "matched": "launches",
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "ID",
@@ -281,71 +339,17 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
   },
   {
-    "id": "299a7fac8c9d5e40d0a7182a4091d8a78b1a92ef",
-    "title": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
-    "link": "https://www.channelnewsasia.com/business/binance-63-billion-heist-prompt-closer-scrutiny-insurers-6530746",
-    "score": 54,
-    "snippet": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:cna",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-06T10:06:11.864000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "3d0d31844ac34820efd568631431ec8f4d845ebb",
-    "title": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
-    "link": "https://www.reuters.com/legal/transactional/binance-63-billion-heist-prompt-closer-scrutiny-by-insurers-2026-11-06",
-    "score": 54,
-    "snippet": "Binance $6.3 billion heist to prompt closer scrutiny by insurers",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:reuters",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-06T10:01:48.840000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
     "id": "d8f1e43c13160aee5fcdefd687e9da9a4ac9e1aa",
     "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
     "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
-    "score": 50,
+    "score": 44,
     "snippet": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
     "regions": [
       "US"
