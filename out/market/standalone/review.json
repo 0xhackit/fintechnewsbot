@@ -1,31 +1,63 @@
 [
   {
-    "id": "f76a1af37e0bf81878e29bbb4e8e606a60e69c75",
-    "title": "NEW: Russia’s central bank approves $BTC, $ETH and $USDT for purchase by non-qualified retail investors under a 300,000 ruble annual limit per intermediary. Rules take effect November 17 as Moscow Exchange and Sberbank p",
-    "link": "https://x.com/CoinDesk/status/2118733015782195203#",
-    "score": 124,
-    "snippet": "NEW: Russia’s central bank approves $BTC, $ETH and $USDT for purchase by non-qualified retail investors under a 300,000 ruble annual limit per intermediary. Rules take effect November 17 as Moscow Exchange and Sberbank prepare to launch crypto trading December 1.",
-    "regions": [],
-    "primary_region": null,
+    "id": "7bd88059ff812d13d67fe94c12d6f64d0d9fdbd6",
+    "title": "Users Report Deposit Restrictions at OKX, Binance and Other Exchanges Following FinCEN Action Against MEXC Following the U.S. Treasury’s Financial Crimes Enforcement Network (FinCEN) issuance of a special measure order t",
+    "link": "https://x.com/WuBlockchain/status/2119104191000105141#",
+    "score": 100,
+    "snippet": "Users Report Deposit Restrictions at OKX, Binance and Other Exchanges Following FinCEN Action Against MEXC Following the U.S. Treasury’s Financial Crimes Enforcement Network (FinCEN) issuance of a special measure order targeting MEXC Global, some community users reported that funds withdrawn from ME",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:coindesk",
+    "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T15:51:30.046000+00:00",
+    "published_at": "2026-11-07T16:26:25.289000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approves')",
-    "matched": "approves",
+    "axis": "market_event",
+    "reason": "concrete market event ('issuance')",
+    "matched": "issuance",
     "fulltext": true,
     "origin": "tree",
     "coins": [
+      "BNB",
+      "OKB"
+    ]
+  },
+  {
+    "id": "636fc9bd37ca6adbe8dc7c0a45fa55a2527b139c",
+    "title": "THE BLOCK: Bitcoin ETFs lost $1.28 billion last week, their worst week since June, which leaves them down $914 million for 2026. Ether funds have now had six straight losing weeks, and Solana and Hyperliquid ETFs are on",
+    "link": "https://x.com/TheBlockCo/status/2119110994081485091#",
+    "score": 95,
+    "snippet": "THE BLOCK: Bitcoin ETFs lost $1.28 billion last week, their worst week since June, which leaves them down $914 million for 2026. Ether funds have now had six straight losing weeks, and Solana and Hyperliquid ETFs are on their longest outflow streaks since launch.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-07T16:53:27.310000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "HYPE",
       "BTC",
+      "SOL",
       "ETH"
     ]
   },
@@ -87,91 +119,6 @@
     "origin": "tree",
     "coins": [
       "CC"
-    ]
-  },
-  {
-    "id": "4d307659c09808208b67f040d1fc596606458451",
-    "title": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
-    "link": "https://x.com/circle/status/2118750257173635142#",
-    "score": 84,
-    "snippet": "Arc is live, with 100+ banks, payments leaders, and apps building on the network, including BNY, HSBC, Mastercard, and Visa. Since mainnet launch, over $30B in USDC has moved on Arc. More from our Q3 earnings livestream.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T17:00:00.710000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "USDC",
-      "ARC"
-    ]
-  },
-  {
-    "id": "605a9255a4c9246edab0f499f1f4fb43c403ca5e",
-    "title": "## Zcash Network Upgrade 7 (NU7) Is Live! 🥳 :: Zcash has successfully activated NU7 on Mainnet at block height 3,543,405! :: This upgrade marks an important milestone for the network, introducing a shorter target block i",
-    "link": "https://discord.com/channels/978714252934258779/1101553339755413564/1568277598012964997",
-    "score": 74,
-    "snippet": "## Zcash Network Upgrade 7 (NU7) Is Live! 🥳 :: Zcash has successfully activated NU7 on Mainnet at block height 3,543,405! :: This upgrade marks an important milestone for the network, introducing a shorter target block interval of 25 seconds, increased transaction capacity, and improvements that sup",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:zcash",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T14:55:19.037000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ZEC"
-    ]
-  },
-  {
-    "id": "8fa4cf9f2455c2eefe0e29fb2b806f8b8caa9dd6",
-    "title": "THE BLOCK: The laundering operation behind Binance's $6.4 billion hack has spanned more than 20,000 wallets and 16 blockchains, Elliptic says. The North Korea-linked attackers have converted about $124 million into bitco",
-    "link": "https://x.com/TheBlockCo/status/2118713595647406248#",
-    "score": 74,
-    "snippet": "THE BLOCK: The laundering operation behind Binance's $6.4 billion hack has spanned more than 20,000 wallets and 16 blockchains, Elliptic says. The North Korea-linked attackers have converted about $124 million into bitcoin, but likely cashed out only a small amount. Around $2.85 billion remains froz",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T14:34:20.102000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "BNB"
     ]
   },
   {
@@ -246,6 +193,32 @@
     ]
   },
   {
+    "id": "2ac6110bb6aebd6c563969f623e76ff39ed43e32",
+    "title": "Binance CFO is leaving to 'pursue a new venture' after $6.3 billion hack",
+    "link": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack",
+    "score": 60,
+    "snippet": "Binance CFO is leaving to 'pursue a new venture' after $6.3 billion hack",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:techcrunch",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-07T17:24:07.815000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
     "id": "951de74ceae0a15258d6e2b1746c5593c1fdc443",
     "title": "Banks Face Crypto Security Checks After Binance's $6 Billion Hack",
     "link": "https://www.forbes.com/sites/murtuza-merchant/2026/11/06/banks-face-crypto-security-checks-after-binances-6-billion-hack",
@@ -272,21 +245,23 @@
     ]
   },
   {
-    "id": "a5ffc33b9174f4b0f86f4486387e83ec740de7ff",
-    "title": "THE BLOCK: Strive reported $509 million in Q3 net income, driven by $533.7 million in unrealized bitcoin gains. The firm added 8,136 bitcoin during the quarter, then bought another 15,124 BTC in October, bringing its hol",
-    "link": "https://x.com/TheBlockCo/status/2118717057977966650#",
-    "score": 54,
-    "snippet": "THE BLOCK: Strive reported $509 million in Q3 net income, driven by $533.7 million in unrealized bitcoin gains. The firm added 8,136 bitcoin during the quarter, then bought another 15,124 BTC in October, bringing its holdings to 43,124 $BTC by Oct. 30. $ASST shares are up 2.5% in early market tradin",
-    "regions": [],
-    "primary_region": null,
+    "id": "c6fa24bdd040204c3d82eb62dd9495ab9e6f4d10",
+    "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
+    "link": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
+    "score": 50,
+    "snippet": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 30,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-06T14:48:05.675000+00:00",
+    "feed_name": "tree:the block",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-07T16:46:06.001000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -298,11 +273,11 @@
     ]
   },
   {
-    "id": "cbd6ca111d70ac77afeb3ef3b9e0cb213bc68134",
-    "title": "USDC price holds near peg as payments pilot broadens use - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaEt6YUtDckpUekUyaC1GbEV6R3BjRWREaDBNM2MzVXpvSVlkQW9QazRGck9yaVFLWnR2ZGdzb19PT2RKSTd3bGhDbEhWbjZiU1N3Z1JSQTU1MVhKTzV4cHpnOTk2eEUtUWZmdG1Ick0zRW5neWxGbzdiRXlmUndYVU9YcWNWZ3IwQUpjS3FkVmtsTXdDY2xVRXp2UkgweG9nLVVnczVnRm9Kdms1cGRfYm5jQ3RUb1JUZnc?oc=5",
-    "score": 45,
-    "snippet": "USDC price holds near peg as payments pilot broadens use ad-hoc-news.de",
+    "id": "e2808a448d4b9b4830ab8fc88be3547835a5ef3e",
+    "title": "Private AI is coming to Solana. On Dec 9, ZETA becomes a native Solana token and ZetaLabs launches: many AI models and live market data in one chat that only you can read, powered by ZETA. ZETA holders have approved the",
+    "link": "https://x.com/ZetaChain/status/2119101912180281422#",
+    "score": 50,
+    "snippet": "Private AI is coming to Solana. On Dec 9, ZETA becomes a native Solana token and ZetaLabs launches: many AI models and live market data in one chat that only you can read, powered by ZETA. ZETA holders have approved the plan. What happens next:",
     "regions": [],
     "primary_region": null,
     "category": "product",
@@ -310,19 +285,21 @@
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-07T12:03:16+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
+    "feed_name": "tree:x:zetachain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-07T16:17:21.901000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('approved')",
+    "matched": "approved",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ZETA",
+      "SOL"
+    ]
   },
   {
     "id": "72ad96a144927c0ddb11eda36f57239f741e6e11",
@@ -380,31 +357,30 @@
     "coins": []
   },
   {
-    "id": "d8f1e43c13160aee5fcdefd687e9da9a4ac9e1aa",
-    "title": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
-    "link": "https://decrypt.co/382717/bitcoin-price-11-week-low-crypto-liquidations-ai-stock",
-    "score": 44,
-    "snippet": "Crypto Liquidations Top $1 Billion as Bitcoin Tests 11-Week Low",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
+    "id": "cbd6ca111d70ac77afeb3ef3b9e0cb213bc68134",
+    "title": "USDC price holds near peg as payments pilot broadens use - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaEt6YUtDckpUekUyaC1GbEV6R3BjRWREaDBNM2MzVXpvSVlkQW9QazRGck9yaVFLWnR2ZGdzb19PT2RKSTd3bGhDbEhWbjZiU1N3Z1JSQTU1MVhKTzV4cHpnOTk2eEUtUWZmdG1Ick0zRW5neWxGbzdiRXlmUndYVU9YcWNWZ3IwQUpjS3FkVmtsTXdDY2xVRXp2UkgweG9nLVVnczVnRm9Kdms1cGRfYm5jQ3RUb1JUZnc?oc=5",
+    "score": 39,
+    "snippet": "USDC price holds near peg as payments pilot broadens use ad-hoc-news.de",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:decrypt",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-06T16:34:13.381000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-07T12:03:16+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
