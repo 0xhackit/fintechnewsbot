@@ -62,6 +62,32 @@
     ]
   },
   {
+    "id": "25a675a280a15de162806df2e005c9fe71534d5d",
+    "title": "U.S. Sanctions Eight Canadian Crypto Firms Over Iran-Linked Transactions The U.S. Treasury sanctioned eight Canada-based money services businesses on November 6, including NIA Nations, Million Exchange, Amin Exchange and",
+    "link": "https://x.com/WuBlockchain/status/2119393875232227791#",
+    "score": 80,
+    "snippet": "U.S. Sanctions Eight Canadian Crypto Firms Over Iran-Linked Transactions The U.S. Treasury sanctioned eight Canada-based money services businesses on November 6, including NIA Nations, Million Exchange, Amin Exchange and Farah Exchange, saying they facilitated cross-border transactions involving Ira",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-08T11:37:31.422000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('sanctions')",
+    "matched": "sanctions",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
     "id": "5fb5e6245378a0463cd41282e33a62e2fc02947a",
     "title": "Binance announces CFO Kaiser Ng's departure days after record US$6.3 billion crypto theft",
     "link": "https://www.businesstimes.com.sg/wealth/crypto-alternative-assets/binance-announces-cfo-kaiser-ngs-departure-days-after-record-us6-3-billion-crypto-theft",
@@ -116,40 +142,29 @@
     ]
   },
   {
-    "id": "454cebb3287ba8dd2f68ea51c4400d903c5e7604",
-    "title": "This Week in Media – 10/31-11/6 Read The Block: Samsung Wallet launches USDC accounts on Solana for US Galaxy users Decrypt: Stablecoins Go Mainstream as Samsung Wallet Adds USDC on Solana CoinDesk: Global asset manager",
-    "link": "https://x.com/solana/status/2119052509214101753#",
-    "score": 59,
-    "snippet": "This Week in Media – 10/31-11/6 Read The Block: Samsung Wallet launches USDC accounts on Solana for US Galaxy users Decrypt: Stablecoins Go Mainstream as Samsung Wallet Adds USDC on Solana CoinDesk: Global asset manager Schroders brings emerging market bond fund to Solana TheStreet: Solana RWA value",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
+    "id": "f574dbf67c15f31b292dd85074db764c810d7e65",
+    "title": "Binance names new CFO days after $6.3 billion cryptocurrency hack",
+    "link": "https://www.foxbusiness.com/fox-news-tech/binance-names-new-cfo-days-cryptocurrency-hack",
+    "score": 60,
+    "snippet": "Binance names new CFO days after $6.3 billion cryptocurrency hack",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:solana",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-07T13:01:03.229000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:fox",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-08T13:42:12.784000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "SOL",
-      "USDC",
-      "ETH",
-      "RAYSOL",
-      "AKT",
-      "ONDO"
+      "BNB"
     ]
   },
   {
@@ -168,34 +183,6 @@
     "feed_name": "tree:techcrunch",
     "source": "TreeOfAlpha/Blogs",
     "published_at": "2026-11-07T17:24:07.815000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "72ad96a144927c0ddb11eda36f57239f741e6e11",
-    "title": "As $2.5 billion transferred from Binance in single transaction; how it cost hackers just $15; the massive cryptocurrency theft's 'big shock'",
-    "link": "https://timesofindia.indiatimes.com/technology/tech-news/as-2-5-billion-transferred-from-binance-in-single-transaction-how-it-cost-hackers-just-15-the-massive-cryptocurrency-thefts-big-shock/articleshow/135633527.cms",
-    "score": 45,
-    "snippet": "As $2.5 billion transferred from Binance in single transaction; how it cost hackers just $15; the massive cryptocurrency theft's 'big shock'",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:times of india",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-07T10:15:46.220000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -231,32 +218,5 @@
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "cbd6ca111d70ac77afeb3ef3b9e0cb213bc68134",
-    "title": "USDC price holds near peg as payments pilot broadens use - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaEt6YUtDckpUekUyaC1GbEV6R3BjRWREaDBNM2MzVXpvSVlkQW9QazRGck9yaVFLWnR2ZGdzb19PT2RKSTd3bGhDbEhWbjZiU1N3Z1JSQTU1MVhKTzV4cHpnOTk2eEUtUWZmdG1Ick0zRW5neWxGbzdiRXlmUndYVU9YcWNWZ3IwQUpjS3FkVmtsTXdDY2xVRXp2UkgweG9nLVVnczVnRm9Kdms1cGRfYm5jQ3RUb1JUZnc?oc=5",
-    "score": 39,
-    "snippet": "USDC price holds near peg as payments pilot broadens use ad-hoc-news.de",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-07T12:03:16+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]
