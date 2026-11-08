@@ -1,10 +1,10 @@
 [
   {
-    "id": "7bd88059ff812d13d67fe94c12d6f64d0d9fdbd6",
-    "title": "Users Report Deposit Restrictions at OKX, Binance and Other Exchanges Following FinCEN Action Against MEXC Following the U.S. Treasury’s Financial Crimes Enforcement Network (FinCEN) issuance of a special measure order t",
-    "link": "https://x.com/WuBlockchain/status/2119104191000105141#",
-    "score": 94,
-    "snippet": "Users Report Deposit Restrictions at OKX, Binance and Other Exchanges Following FinCEN Action Against MEXC Following the U.S. Treasury’s Financial Crimes Enforcement Network (FinCEN) issuance of a special measure order targeting MEXC Global, some community users reported that funds withdrawn from ME",
+    "id": "64242efc38567c2474768811cb669acdfcd8fa4f",
+    "title": "Bridge’s OCC Approval Opens Path to Federal Stablecoin Trust Bank - The Defiant",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWGstd2JPa2ZsbjRsUGJsNmFnT2ZlVlphRU1aQjBQRHhVb2ZkVmVJRmFjX3cwME9mb0xiSWpzS1Nha3BNNkc4d2Z0bDBWeVpqX3U3UEpyYXVhRkhlWGx3a19xWEtXVG1RNUE1emJQOVVMQVdEcVRGLU9vbHRBcDgzWk9SUmNmSnNobDAxZ2l3c3VlSFJPZm1lU2xmOUl5Q3JpS2owZ0R3VFhGcGs?oc=5",
+    "score": 80,
+    "snippet": "Bridge’s OCC Approval Opens Path to Federal Stablecoin Trust Bank The Defiant",
     "regions": [
       "US"
     ],
@@ -16,75 +16,15 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-07T16:26:25.289000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('issuance')",
-    "matched": "issuance",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB",
-      "OKB"
-    ]
-  },
-  {
-    "id": "636fc9bd37ca6adbe8dc7c0a45fa55a2527b139c",
-    "title": "THE BLOCK: Bitcoin ETFs lost $1.28 billion last week, their worst week since June, which leaves them down $914 million for 2026. Ether funds have now had six straight losing weeks, and Solana and Hyperliquid ETFs are on",
-    "link": "https://x.com/TheBlockCo/status/2119110994081485091#",
-    "score": 89,
-    "snippet": "THE BLOCK: Bitcoin ETFs lost $1.28 billion last week, their worst week since June, which leaves them down $914 million for 2026. Ether funds have now had six straight losing weeks, and Solana and Hyperliquid ETFs are on their longest outflow streaks since launch.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-07T16:53:27.310000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HYPE",
-      "BTC",
-      "SOL",
-      "ETH"
-    ]
-  },
-  {
-    "id": "25a675a280a15de162806df2e005c9fe71534d5d",
-    "title": "U.S. Sanctions Eight Canadian Crypto Firms Over Iran-Linked Transactions The U.S. Treasury sanctioned eight Canada-based money services businesses on November 6, including NIA Nations, Million Exchange, Amin Exchange and",
-    "link": "https://x.com/WuBlockchain/status/2119393875232227791#",
-    "score": 80,
-    "snippet": "U.S. Sanctions Eight Canadian Crypto Firms Over Iran-Linked Transactions The U.S. Treasury sanctioned eight Canada-based money services businesses on November 6, including NIA Nations, Million Exchange, Amin Exchange and Farah Exchange, saying they facilitated cross-border transactions involving Ira",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-08T11:37:31.422000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-08T16:46:06+00:00",
     "verdict": "keep",
     "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('sanctions')",
-    "matched": "sanctions",
-    "fulltext": true,
-    "origin": "tree",
+    "reason": "concrete regulatory action ('approval')",
+    "matched": "approval",
+    "fulltext": false,
+    "origin": "rss",
     "coins": []
   },
   {
@@ -112,6 +52,32 @@
     "coins": [
       "BNB"
     ]
+  },
+  {
+    "id": "25a675a280a15de162806df2e005c9fe71534d5d",
+    "title": "U.S. Sanctions Eight Canadian Crypto Firms Over Iran-Linked Transactions The U.S. Treasury sanctioned eight Canada-based money services businesses on November 6, including NIA Nations, Million Exchange, Amin Exchange and",
+    "link": "https://x.com/WuBlockchain/status/2119393875232227791#",
+    "score": 74,
+    "snippet": "U.S. Sanctions Eight Canadian Crypto Firms Over Iran-Linked Transactions The U.S. Treasury sanctioned eight Canada-based money services businesses on November 6, including NIA Nations, Million Exchange, Amin Exchange and Farah Exchange, saying they facilitated cross-border transactions involving Ira",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-08T11:37:31.422000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('sanctions')",
+    "matched": "sanctions",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
   },
   {
     "id": "49d1810660a5d6fa5916540325bb0254856f879e",
@@ -168,55 +134,31 @@
     ]
   },
   {
-    "id": "2ac6110bb6aebd6c563969f623e76ff39ed43e32",
-    "title": "Binance CFO is leaving to 'pursue a new venture' after $6.3 billion hack",
-    "link": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack",
-    "score": 54,
-    "snippet": "Binance CFO is leaving to 'pursue a new venture' after $6.3 billion hack",
-    "regions": [],
-    "primary_region": null,
+    "id": "aa34dea33a3e142629341717fbea543ae21e8d45",
+    "title": "Tether CEO: 300 Lines of USDT Code, Used by 700 Million People Paolo Ardoino @paoloardoino, CEO of Tether, said at Plan ₿ Forum 2026 in Lugano that USDT is essentially a smart contract that changed people's lives. Tether",
+    "link": "https://x.com/WuBlockchain/status/2119490135234347222#",
+    "score": 50,
+    "snippet": "Tether CEO: 300 Lines of USDT Code, Used by 700 Million People Paolo Ardoino @paoloardoino, CEO of Tether, said at Plan ₿ Forum 2026 in Lugano that USDT is essentially a smart contract that changed people's lives. Tether now has more than 730 million users and adds 30 million wallets per quarter, fa",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:techcrunch",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-07T17:24:07.815000+00:00",
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-08T18:00:01.896000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
     "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "c6fa24bdd040204c3d82eb62dd9495ab9e6f4d10",
-    "title": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
-    "link": "https://www.theblock.co/news/markets/2026-11-07-bitcoin-etfs-flip-negative-for-2026-after-1-28-billion-outflow-week-worst-since-june-435984",
-    "score": 44,
-    "snippet": "Bitcoin ETFs flip negative for 2026 after $1.28 billion outflow week, worst since June",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-07T16:46:06.001000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "coins": []
   }
 ]
