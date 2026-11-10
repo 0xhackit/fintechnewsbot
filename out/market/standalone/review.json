@@ -1,59 +1,31 @@
 [
   {
-    "id": "79e5db1d70826a57b06acba5acffaedb73064cca",
-    "title": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
-    "link": "https://securitize.io/press/securitize-to-acquire-river-one",
-    "score": 85,
-    "snippet": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+    "id": "eb71c8ab4bef7b5c42b1b97ddcbedc2fee4b41ba",
+    "title": "37 European Banks Team Up: Qivalis Wins Dutch Central Bank License, Euro Stablecoin to Launch Within Months - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlTklXckVPWmlLbmJzczBOd201WURSd1E1ZHhTSUtLMVpmejVuZExWdUZGU0pFOHJka2VDd05XMzdpU21SZGtMYzU0WkpMb3c5aXNMM0UzT3MyS1QzaFhGeHQ2c2d3eGwzTWF0TjREY1FTYUx4V0E?oc=5",
+    "score": 94,
+    "snippet": "37 European Banks Team Up: Qivalis Wins Dutch Central Bank License, Euro Stablecoin to Launch Within Months BigGo Finance",
     "regions": [
-      "US",
       "EU"
     ],
-    "primary_region": "US",
-    "category": "other",
+    "primary_region": "EU",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 50,
+    "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:securitize",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-09T21:22:08.593000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": []
-  },
-  {
-    "id": "55ffb4813d575f117baeb0021c99e56f771dfb2f",
-    "title": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
-    "link": "https://www.prnewswire.com/news-releases/securitize-to-acquire-river-one-connecting-stablecoin-capital-to-the-6-trillion-asset-backed-finance-market-302933804.html",
-    "score": 85,
-    "snippet": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 50,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:prn",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-09T21:17:02.550000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T02:25:00+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('license')",
+    "matched": "license",
+    "fulltext": false,
+    "origin": "rss",
     "coins": []
   },
   {
@@ -85,13 +57,44 @@
     "coins": []
   },
   {
-    "id": "62491a7c38ae364c6c1607d22de6a9c563a98eaf",
-    "title": "THE BLOCK: Securitize has agreed to acquire River One, an institutional asset-backed financing platform that connects stablecoin capital with traditional lending markets. Financial terms were not disclosed. The acquisiti",
-    "link": "https://x.com/TheBlockCo/status/2119910279412920760#",
+    "id": "a5dbc61bcfc0c3388acbc2ef89b7ebe3098b8e1a",
+    "title": "THE BLOCK: A group of crypto firms — Coinbase, Kalshi, Payward, DRW Holdings, Jump Trading, and Paradigm — asked the court for permission to file an amicus brief defending the CFTC's authority to regulate single-stock pe",
+    "link": "https://x.com/TheBlockCo/status/2120004490346819664#",
+    "score": 84,
+    "snippet": "THE BLOCK: A group of crypto firms — Coinbase, Kalshi, Payward, DRW Holdings, Jump Trading, and Paradigm — asked the court for permission to file an amicus brief defending the CFTC's authority to regulate single-stock perpetual futures in the US. $COIN The brief comes in response to a lawsuit by the",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T04:03:53.422000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "COIN"
+    ]
+  },
+  {
+    "id": "06e1c77cab004e03314622d205e176cfeb6a1c1e",
+    "title": "Stablecoins solved the easy part of cross-border payments. The token moves value between chains at low cost, and treasury teams now treat that as the default. What it didn't touch is the four layers that decide whether t",
+    "link": "https://x.com/AlchemyPay/status/2120089293150658627#",
     "score": 80,
-    "snippet": "THE BLOCK: Securitize has agreed to acquire River One, an institutional asset-backed financing platform that connects stablecoin capital with traditional lending markets. Financial terms were not disclosed. The acquisition will add asset-backed lending and warehouse financing capabilities to Securit",
-    "regions": [],
-    "primary_region": null,
+    "snippet": "Stablecoins solved the easy part of cross-border payments. The token moves value between chains at low cost, and treasury teams now treat that as the default. What it didn't touch is the four layers that decide whether the payment actually clears at the other end: 1⃣Local rails, the card, the wallet",
+    "regions": [
+      "EU",
+      "APAC"
+    ],
+    "primary_region": "EU",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -99,13 +102,72 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:alchemypay",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T21:49:31.741000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('acquisition')",
-    "matched": "acquisition",
+    "published_at": "2026-11-10T09:40:51.998000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ACH"
+    ]
+  },
+  {
+    "id": "79e5db1d70826a57b06acba5acffaedb73064cca",
+    "title": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+    "link": "https://securitize.io/press/securitize-to-acquire-river-one",
+    "score": 79,
+    "snippet": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:securitize",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-09T21:22:08.593000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "55ffb4813d575f117baeb0021c99e56f771dfb2f",
+    "title": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+    "link": "https://www.prnewswire.com/news-releases/securitize-to-acquire-river-one-connecting-stablecoin-capital-to-the-6-trillion-asset-backed-finance-market-302933804.html",
+    "score": 79,
+    "snippet": "Securitize to Acquire River One, Connecting Stablecoin Capital to the $6 Trillion Asset-Backed Finance Market",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 50,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-09T21:17:02.550000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": []
@@ -139,21 +201,23 @@
     "coins": []
   },
   {
-    "id": "b1ef35dc2ec8e69859db78da094fbcfd0b326ba2",
-    "title": "THE BLOCK: North Korea's launderers are creating throwaway memecoins, including one featuring Elon Musk under an \"Elon 2028 President\" banner, to move funds stolen in Binance's $6.4 billion hack, Elliptic said. So far, a",
-    "link": "https://x.com/TheBlockCo/status/2119800936121905621#",
-    "score": 74,
-    "snippet": "THE BLOCK: North Korea's launderers are creating throwaway memecoins, including one featuring Elon Musk under an \"Elon 2028 President\" banner, to move funds stolen in Binance's $6.4 billion hack, Elliptic said. So far, about $430,000 in stolen $NEAR has passed through six newly created tokens, using",
-    "regions": [],
-    "primary_region": null,
+    "id": "05e1cb6b0cb04153abc5d0f2bd2dcb9f06bbd2dd",
+    "title": "THE BLOCK: US spot bitcoin ETFs recorded $201 million in net outflows on Monday, led by $213.2 million exiting BlackRock's IBIT. Spot ether ETFs posted $184.5 million in net outflows, while spot XRP, Solana, and HYPE ETF",
+    "link": "https://x.com/TheBlockCo/status/2120031158435979581#",
+    "score": 70,
+    "snippet": "THE BLOCK: US spot bitcoin ETFs recorded $201 million in net outflows on Monday, led by $213.2 million exiting BlackRock's IBIT. Spot ether ETFs posted $184.5 million in net outflows, while spot XRP, Solana, and HYPE ETFs also recorded net outflows for the day. $BTC $ETH $HYPE",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
+    "financial": 30,
     "matched_topics": [],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T14:35:02.476000+00:00",
+    "published_at": "2026-11-10T05:49:51.714000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -161,39 +225,12 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "NEAR",
-      "BNB"
-    ]
-  },
-  {
-    "id": "ae2f405d89ae204f1d74b0488d5d8a4aaccaea72",
-    "title": "Congrats to @Kinetiq_xyz on the launch of @Enter_Elysium Built with @Arbitrum’s infrastructure, Elysium gets: > 100ms blocks > 300M gas/sec execution target > HYPE as gas token > Flexibility for HyperCore integrations We",
-    "link": "https://x.com/Offchain/status/2119911401414377958#",
-    "score": 65,
-    "snippet": "Congrats to @Kinetiq_xyz on the launch of @Enter_Elysium Built with @Arbitrum’s infrastructure, Elysium gets: > 100ms blocks > 300M gas/sec execution target > HYPE as gas token > Flexibility for HyperCore integrations We’re excited to see Kinetiq building the groundwork for more advanced trading app",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:offchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T21:53:59.919000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ARB",
-      "HYPE"
+      "BTC",
+      "ETH",
+      "HYPE",
+      "IBIT",
+      "XRP",
+      "SOL"
     ]
   },
   {
@@ -225,23 +262,83 @@
     ]
   },
   {
-    "id": "17220ffad67fa5f0a4e5241336c8ea8a149ee8f7",
-    "title": "Ethereum treasury Sharplink's Q3 net income hits $751 million on unrealized ether gains",
-    "link": "https://www.theblock.co/news/markets/2026-11-09-sharplink-q3-2026-earnings-net-income-eth-holdings-436459",
-    "score": 64,
-    "snippet": "Ethereum treasury Sharplink's Q3 net income hits $751 million on unrealized ether gains",
+    "id": "31d56ebf253103ae62a8c482179960b9bde675e8",
+    "title": "Hong Kong Web3 Festival 2027 Announces \"OnChain Finance\" Theme, Introduces Institutional Arena",
+    "link": "https://www.prnewswire.com/apac/news-releases/hong-kong-web3-festival-2027-announces-onchain-finance-theme-introduces-institutional-arena-302934392.html",
+    "score": 60,
+    "snippet": "Hong Kong Web3 Festival 2027 Announces \"OnChain Finance\" Theme, Introduces Institutional Arena",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-10T05:55:23.969000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('introduces')",
+    "matched": "introduces",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "ae2f405d89ae204f1d74b0488d5d8a4aaccaea72",
+    "title": "Congrats to @Kinetiq_xyz on the launch of @Enter_Elysium Built with @Arbitrum’s infrastructure, Elysium gets: > 100ms blocks > 300M gas/sec execution target > HYPE as gas token > Flexibility for HyperCore integrations We",
+    "link": "https://x.com/Offchain/status/2119911401414377958#",
+    "score": 59,
+    "snippet": "Congrats to @Kinetiq_xyz on the launch of @Enter_Elysium Built with @Arbitrum’s infrastructure, Elysium gets: > 100ms blocks > 300M gas/sec execution target > HYPE as gas token > Flexibility for HyperCore integrations We’re excited to see Kinetiq building the groundwork for more advanced trading app",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
-    "source_tier": "B",
+    "category": "product",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-09T15:40:35.399000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:offchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-09T21:53:59.919000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ARB",
+      "HYPE"
+    ]
+  },
+  {
+    "id": "47a19afadfae1f787cbdae39e7219b90cd7c2ef1",
+    "title": "THE BLOCK: Initia halted its L1 blockchain after unauthorized transfers drained approximately $605,000 in USDC from rollup escrow accounts. The team said compromised infrastructure keys were used to fabricate IBC transfe",
+    "link": "https://x.com/TheBlockCo/status/2120073282405994896#",
+    "score": 55,
+    "snippet": "THE BLOCK: Initia halted its L1 blockchain after unauthorized transfers drained approximately $605,000 in USDC from rollup escrow accounts. The team said compromised infrastructure keys were used to fabricate IBC transfers. About $10,000 in other tokens also left the network before the halt.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T08:37:14.738000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -249,14 +346,73 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "ETH"
+      "USDC",
+      "INIT"
+    ]
+  },
+  {
+    "id": "7a8630fa351fccd198657be65f2f355f726faadc",
+    "title": "🤖 Discover Agentic Wallet Skills and unlock new AI-powered on-chain possibilities! Binance Wallet has launched a range of Agentic Wallet Skills, covering on-chain token information, Copy Trading, DeFi protocol interactio",
+    "link": "https://x.com/BinanceWallet/status/2120070583874671095#",
+    "score": 55,
+    "snippet": "🤖 Discover Agentic Wallet Skills and unlock new AI-powered on-chain possibilities! Binance Wallet has launched a range of Agentic Wallet Skills, covering on-chain token information, Copy Trading, DeFi protocol interactions, Tokenized Securities, and more, giving you new ways to engage on-chain. Whic",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:binancewallet",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T08:26:31.410000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ID",
+      "BNB"
+    ]
+  },
+  {
+    "id": "83ae5aac9fc7385bdc312f9113635bf84a949ef7",
+    "title": "THE BLOCK: Strive CIO Ben Werkman said bitcoin treasury firms must treat BTC Yield as a guiding KPI for equity issuance at premiums and preferred-backed purchases to grow bitcoin per share while balancing the interests o",
+    "link": "https://x.com/TheBlockCo/status/2119989646658597299#",
+    "score": 54,
+    "snippet": "THE BLOCK: Strive CIO Ben Werkman said bitcoin treasury firms must treat BTC Yield as a guiding KPI for equity issuance at premiums and preferred-backed purchases to grow bitcoin per share while balancing the interests of common and credit investors. \"It focuses execution, encourages strategic rathe",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T03:04:54.624000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('issuance')",
+    "matched": "issuance",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
     ]
   },
   {
     "id": "3e19af3f63a8b295ca5d7df9dbc85c1eda60a13c",
     "title": "56 of 62 Firms Oppose OKXICE Tokenized Stock Plan; All Six Remaining Are Crypto-Linked Robinhood confirmed it does not object to its shares trading on OKXICE, a planned tokenized stock trading platform jointly owned by c",
     "link": "https://x.com/WuBlockchain/status/2119984541205201045#",
-    "score": 60,
+    "score": 54,
     "snippet": "56 of 62 Firms Oppose OKXICE Tokenized Stock Plan; All Six Remaining Are Crypto-Linked Robinhood confirmed it does not object to its shares trading on OKXICE, a planned tokenized stock trading platform jointly owned by crypto exchange OKX and NYSE parent Intercontinental Exchange (ICE). It joins Sec",
     "regions": [
       "US"
@@ -286,7 +442,7 @@
     "id": "cf6d586b2ceb821c4242d316074f555dd916bfc9",
     "title": "October’s Render Network Foundation report is live. https://rendernetwork.medium.com/render-network-foundation-monthly-report-oct-2026-5c0f53f0bdac Highlights: · Render Network redesigned web app launched · A new @render",
     "link": "https://x.com/rendernetwork/status/2119917456344908218#",
-    "score": 60,
+    "score": 54,
     "snippet": "October’s Render Network Foundation report is live. https://rendernetwork.medium.com/render-network-foundation-monthly-report-oct-2026-5c0f53f0bdac Highlights: · Render Network redesigned web app launched · A new @rendernetwork performance tier was rolled out · RNP-024 introduces Forth, a privacy-fi",
     "regions": [
       "EU"
@@ -316,7 +472,7 @@
     "id": "b6166cd8be2e9b7f3abe54915d9d4557a23167e5",
     "title": "THE BLOCK: MARA Holdings reported Q3 net profit of $634.4 million, compared with $123.1 million a year earlier, despite revenue falling 35% year over year to $164.2 million. Profit was driven largely by bitcoin appreciat",
     "link": "https://x.com/TheBlockCo/status/2119908106662715423#",
-    "score": 60,
+    "score": 54,
     "snippet": "THE BLOCK: MARA Holdings reported Q3 net profit of $634.4 million, compared with $123.1 million a year earlier, despite revenue falling 35% year over year to $164.2 million. Profit was driven largely by bitcoin appreciation, with the company recording nearly $885 million in fair-value gains on its d",
     "regions": [],
     "primary_region": null,
@@ -343,7 +499,7 @@
     "id": "f1be3b1239bae543cbb0c22e580c398154b9a1bc",
     "title": "October’s Render Network Foundation report is live. Highlights: - Render Network redesigned web app launched - A new @rendernetwork performance tier was rolled out - RNP-024 introduces Forth, a privacy-first AI gateway a",
     "link": "https://x.com/rendernetwork/status/2119897823781310486#",
-    "score": 60,
+    "score": 54,
     "snippet": "October’s Render Network Foundation report is live. Highlights: - Render Network redesigned web app launched - A new @rendernetwork performance tier was rolled out - RNP-024 introduces Forth, a privacy-first AI gateway accessing top-tier AI models - Sunspark Hits 60 Film Festivals & continued media ",
     "regions": [],
     "primary_region": null,
@@ -368,145 +524,11 @@
     ]
   },
   {
-    "id": "bfc7dc57394a4f70e07efe9db87d306613dd312d",
-    "title": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: UNHALT MEMOLESS NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: Normal Memoless transactions have been halted as a precaution. Registration cost now scales with reference slot oc",
-    "link": "https://discord.com/channels/838986635756044328/839001804812451873/1569388532785483807",
-    "score": 59,
-    "snippet": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: UNHALT MEMOLESS NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: Normal Memoless transactions have been halted as a precaution. Registration cost now scales with reference slot occupancy (MEMOLESSTXNCOST with MEMOLESSTXNCOSTSLOPEBPS), and the team is monitori",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:thorchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T16:29:47.311000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "RUNE"
-    ]
-  },
-  {
-    "id": "005c471db29cc9c339b7529998b6d0fb3341d6fc",
-    "title": "THE BLOCK: Securitize reported Q3 revenue of $18.6 million, up 13% year over year, and a net loss of $66.3 million. The company also authorized a share repurchase program of up to $50 million. Securitize said about 90% o",
-    "link": "https://x.com/TheBlockCo/status/2119913381041734014#",
-    "score": 55,
-    "snippet": "THE BLOCK: Securitize reported Q3 revenue of $18.6 million, up 13% year over year, and a net loss of $66.3 million. The company also authorized a share repurchase program of up to $50 million. Securitize said about 90% of the loss came from largely non-cash expenses and accounting charges. Average t",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T22:01:51.251000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('authorized')",
-    "matched": "authorized",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SECZ"
-    ]
-  },
-  {
-    "id": "13a754ba5c58b5e1249ab0548cb59c50ff6b91b7",
-    "title": "\\# THORNODE ❗ MAINNET ❗ BASE TRADING RESUMES \\*\\*NETWORK:\\*\\* MAINNET \\*\\*TYPE:\\*\\* Coordinated (mimir vote) \\*\\*URGENCY:\\*\\* ASAP Base trading has been halted since block \\28547953\\, after Base's Denim hardfork cut its",
-    "link": "https://discord.com/channels/838986635756044328/839001804812451873/1569462033961722017",
-    "score": 55,
-    "snippet": "\\# THORNODE ❗ MAINNET ❗ BASE TRADING RESUMES \\*\\*NETWORK:\\*\\* MAINNET \\*\\*TYPE:\\*\\* Coordinated (mimir vote) \\*\\*URGENCY:\\*\\* ASAP Base trading has been halted since block \\28547953\\, after Base's Denim hardfork cut its block time from 2s to 200ms and bifrost scanners fell behind. 3.21.3 carries the",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:thorchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T21:21:50.407000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "RUNE"
-    ]
-  },
-  {
-    "id": "0041c50e80f6468129b9dc7d33a7007918120665",
-    "title": "## ZODL is launching new wallet servers that protect your privacy :: ZODL has begun rolling out new wallet infrastructure designed to prevent users’ IP addresses from being linked to their wallet requests. :: Through par",
-    "link": "https://discord.com/channels/978714252934258779/1101553339755413564/1569371603270238360",
-    "score": 54,
-    "snippet": "## ZODL is launching new wallet servers that protect your privacy :: ZODL has begun rolling out new wallet infrastructure designed to prevent users’ IP addresses from being linked to their wallet requests. :: Through partnerships with Cloudflare and Fastly, ZODL is integrating Oblivious HTTP (OHTTP)",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:zcash",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T15:22:31.359000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launching')",
-    "matched": "launching",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ZEC"
-    ]
-  },
-  {
-    "id": "d04536d3a931180a8e6bb28ad3fb3a2be37feebc",
-    "title": "Crypto.com Launches Crypto.com Rips – Integrating Digital Card Collecting with Instant Ownership, Guaranteed Sell-Back, and On-Demand Delivery",
-    "link": "https://crypto.com/en/company-news/cryptocom-launches-cryptocom-rips-integrating-digital-card-collecting-with-instant-ownership-guaranteed-sell-back-and-on-demand-delivery",
-    "score": 54,
-    "snippet": "Crypto.com Launches Crypto.com Rips – Integrating Digital Card Collecting with Instant Ownership, Guaranteed Sell-Back, and On-Demand Delivery",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:cro",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-09T15:07:59.539000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CRO"
-    ]
-  },
-  {
-    "id": "23244b5c186e838e5f2fa4a4f1ced129a2e57fa9",
-    "title": "Elliptic: North Korean Hackers Create Meme Tokens on NEAR to Launder Binance Hack Funds Blockchain analytics firm Elliptic reported that North Korean hackers are creating meme tokens and using DEX liquidity pools to laun",
-    "link": "https://x.com/WuBlockchain/status/2119808059442884834#",
-    "score": 54,
-    "snippet": "Elliptic: North Korean Hackers Create Meme Tokens on NEAR to Launder Binance Hack Funds Blockchain analytics firm Elliptic reported that North Korean hackers are creating meme tokens and using DEX liquidity pools to launder funds stolen in the $6.4 billion Binance hack. Between November 5 and 7, the",
+    "id": "509e945ed4792d4d37b772318d774084991d907f",
+    "title": "14 Public Companies Sold an Estimated $8.08 Billion in Bitcoin in 2026, Led by MARA and Riot According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026.",
+    "link": "https://x.com/WuBlockchain/status/2120099908103614784#",
+    "score": 50,
+    "snippet": "14 Public Companies Sold an Estimated $8.08 Billion in Bitcoin in 2026, Led by MARA and Riot According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 40,581 BTC sold, followed by Riot Platforms with 20,264 BTC. Toget",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -516,7 +538,7 @@
     "matched_topics": [],
     "feed_name": "tree:x:wublockchain",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T15:03:20.611000+00:00",
+    "published_at": "2026-11-10T10:23:02.928000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -524,29 +546,26 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "NEAR",
-      "BNB"
+      "MARA",
+      "BTC"
     ]
   },
   {
-    "id": "b0dbc67424bc062eb4768c15cb49f93b47b8fbca",
-    "title": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
-    "link": "https://www.coindesk.com/business/2026/11/09/north-korean-hackers-are-creating-memecoins-to-wash-loot-from-usd6-3-billion-binance-hack",
-    "score": 54,
-    "snippet": "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
+    "id": "992bc59a8bbb2e447fe4f2f54b50190e57420cbe",
+    "title": "Lookonchain: 14 Public Companies Sold 108,247 BTC Worth $8.08 Billion in 2026 According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 4",
+    "link": "https://x.com/WuBlockchain/status/2120099600367485202#",
+    "score": 50,
+    "snippet": "Lookonchain: 14 Public Companies Sold 108,247 BTC Worth $8.08 Billion in 2026 According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 40,581 BTC sold, followed by Riot Platforms with 20,264 BTC. Together, the two ac",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
-    "source_tier": "B",
+    "source_tier": "C",
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:coindesk",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-09T15:00:52.834000+00:00",
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T10:21:49.722000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -554,8 +573,64 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BNB"
+      "BTC",
+      "MARA"
     ]
+  },
+  {
+    "id": "0df712ecdde655919563ef5fdeb1b7816d01ac42",
+    "title": "THE BLOCK: Capital B acquired 12 BTC for €840,000 ($943K), bringing its bitcoin treasury to 3,550 BTC. The company reported a 2.23% BTC Yield YTD, with a €4.2 million ($4.7M) BTC Gain over the period. $BTC",
+    "link": "https://x.com/TheBlockCo/status/2120057419783139602#",
+    "score": 50,
+    "snippet": "THE BLOCK: Capital B acquired 12 BTC for €840,000 ($943K), bringing its bitcoin treasury to 3,550 BTC. The company reported a 2.23% BTC Yield YTD, with a €4.2 million ($4.7M) BTC Gain over the period. $BTC",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T07:34:12.984000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('acquired')",
+    "matched": "acquired",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
+    "id": "a3231d692ffc7988501677e88101cf6f6bcc57e2",
+    "title": "Ripple Pitches Custody to European Banks as Qivalis Stablecoin Nears Launch - The Crypto Times",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTVdOOU1SUzVGRFRPWmZ4ZU5nVEo0SzVqazRiNC0xalNiend6aFNSQ05LVHB1c3p3UV9KdGs5MnIyTGpYX2ZVelViU3JIRzB4NTU1cTR4Y0g0OFF4aF9McWwzeUZFREtKTzk2bWRQUUxEa2p6QlQ1ajJLc1l1SG5uLXJEZHRfRWRmNTN5RVdmLVBKZzlVZ1dnVGRNN19zOENmQ3JSbm5wLTNHMm1zVjlQcVdnRnk?oc=5",
+    "score": 45,
+    "snippet": "Ripple Pitches Custody to European Banks as Qivalis Stablecoin Nears Launch The Crypto Times",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T05:08:32+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "e23c2080969e0832ef32205867fc5ea878bc797d",
@@ -612,6 +687,33 @@
     "coins": []
   },
   {
+    "id": "cc066562fe77acc445aeb3e7f2c2e03217442ed3",
+    "title": "MARA, a Leading Listed Bitcoin Miner, Sells $1.1 Billion in BTC as Revenue Falls 35% MARA, one of the world's largest publicly traded Bitcoin mining companies, disclosed in its Q3 2026 earnings that it sold 13,597 BTC af",
+    "link": "https://x.com/WuBlockchain/status/2120000032984449155#",
+    "score": 44,
+    "snippet": "MARA, a Leading Listed Bitcoin Miner, Sells $1.1 Billion in BTC as Revenue Falls 35% MARA, one of the world's largest publicly traded Bitcoin mining companies, disclosed in its Q3 2026 earnings that it sold 13,597 BTC after quarter-end at an average price of $81,039, raising approximately $1.1 billi",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T03:46:10.644000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "MARA",
+      "BTC"
+    ]
+  },
+  {
     "id": "de249620b1df47d120e30c9e2986494e968282cb",
     "title": "Canton Coin’s burn ties the network’s economy directly to real usage. Fees paid for Global Synchronizer usage are burned. Nearly 6 billion CC has been burned to date. Source: CantonScan",
     "link": "https://x.com/CantonNetwork/status/2119874665271157019#",
@@ -640,52 +742,58 @@
     ]
   },
   {
-    "id": "8a70b650e4de8798790a2ebfd425d608a7f3ba56",
-    "title": "October: The Market After The Bell RWA perps traded $829.4 billion in October, a record month and 29% more than September. Most of the growth came while stock exchanges were closed. Across the 25 most traded US stock per",
-    "link": "https://x.com/PythNetwork/status/2119823443386335743#",
-    "score": 44,
-    "snippet": "October: The Market After The Bell RWA perps traded $829.4 billion in October, a record month and 29% more than September. Most of the growth came while stock exchanges were closed. Across the 25 most traded US stock perps, half of October's volume traded outside NYSE regular hours, up from 42% in S",
+    "id": "0df60036a277071eff39bb113ccb6bb34b641e61",
+    "title": "BitGo revenue falls 51% in Q3 as trading slows; net income rises on treasury gains",
+    "link": "https://www.theblock.co/news/business/2026-11-10-bitgo-revenue-falls-q3-436986",
+    "score": 40,
+    "snippet": "The revenue decline was driven by continued soft crypto trading environment and a higher mix of lower-margin stablecoin transactions.",
     "regions": [
-      "US",
-      "LatAm"
+      "US"
     ],
     "primary_region": "US",
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "B",
     "consensus": 1,
-    "financial": 40,
+    "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:pythnetwork",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-09T16:04:28.554000+00:00",
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T08:20:53+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "PYTH",
-      "EWZ",
-      "SKHYNIX",
-      "SAMSUNG",
-      "EWY",
-      "SPCX",
-      "TSLA",
-      "META",
-      "AMD",
-      "INTC",
-      "SOXL",
-      "KORU",
-      "SKHY",
-      "NBIS",
-      "HYPE",
-      "LINK",
-      "BNB",
-      "OKB"
-    ]
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "a48918186536fd682e09a058de08585d8b07a4a8",
+    "title": "Inside a Visa card payment that settles in USDC - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KZmlickgtWFFoUDlkVjlfSTFGQ3dGa3BveFR1QWZvTEJ5SW5DdjVwcUFsTUNjRDNYMGljd29TZl93RXM3QUEyOFFXMUFYb2c2UmpkTVFhZEtxOVlpT0E2QmhJN2Jsa01PUFRSX082TkZaYVpzc0pr?oc=5",
+    "score": 40,
+    "snippet": "Inside a Visa card payment that settles in USDC Crypto News",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T07:52:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settles')",
+    "matched": "settles",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "7285e19e1873cfdf5fd00663666a2eb4abcb9424",
@@ -717,28 +825,29 @@
     "coins": []
   },
   {
-    "id": "4680c3dded4f8711797a91d0aea425337d7aa2bd",
-    "title": "PNC Bank Launches Incoming Stablecoin Payments for Corporate and Institutional Banking Clients - PR Newswire",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcDlNLXZSRlBOQnJGd0E3aHdoM3E1TlZDS3gzeW9ZQVJmU1JyUzNCOEpxR2RzbkFRTUg2T1IzemtJSXUxLU1FS1FtT0czN25wQlJZY0VRamU2UkYyZkJ5SjByMkJrWEIyZ2NGRW1hbUlvMnU4amlOLXllYWJYVW9jWUhXSWFwTHYtNkw0aWNSSUUxRzlmN1JtRUd5ZXdjcDVUOFBjeTFROG9XM3N0YlE2X3RHMGpPU2FNQm81MUN1NXlwa0tQMEFBT215RQ?oc=5",
+    "id": "476b522c0b4958487d5fda4401d9ee95c38d83e0",
+    "title": "BOK Says Bank-Led Stablecoin Issuance Is Second-Best Option to Minimize Regulatory Conflict - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBbWxhQWpmZzFIQWdSc3JqRllxZWQ5TFVvUGs0UDlXc3FsVUNwWUplQU9KNWtlMUQ0bmpZN25UQmlEd0FnRzlrLWNVVVpvVW9uLVI5aA?oc=5",
     "score": 35,
-    "snippet": "PNC Bank Launches Incoming Stablecoin Payments for Corporate and Institutional Banking Clients PR Newswire",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
+    "snippet": "BOK Says Bank-Led Stablecoin Issuance Is Second-Best Option to Minimize Regulatory Conflict bloomingbit",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-11-09T15:09:13+00:00",
+    "published_at": "2026-11-10T07:36:11+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
+    "reason": "concrete market event ('issuance')",
+    "matched": "issuance",
     "fulltext": false,
     "origin": "rss",
     "coins": []

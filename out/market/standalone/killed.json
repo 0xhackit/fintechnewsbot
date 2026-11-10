@@ -1,5 +1,37 @@
 [
   {
+    "id": "7bee64ff6530b7dec125e91db3a077bddf0f1a4b",
+    "title": "Tokenized funds are moving from pilot to production. Injective was just on stage with the largest institutions moving them. We joined @BlackRock and @FTDA_US at the Hong Kong Digital Asset Summit, then hosted the night’s",
+    "link": "https://x.com/injective/status/2120086706963566727#",
+    "score": 65,
+    "snippet": "Tokenized funds are moving from pilot to production. Injective was just on stage with the largest institutions moving them. We joined @BlackRock and @FTDA_US at the Hong Kong Digital Asset Summit, then hosted the night’s fireside on ETFs and onchain markets 🧵",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:injective",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T09:30:35.352000+00:00",
+    "verdict": "kill",
+    "axis": "low_signal",
+    "reason": "low-signal stat/promo ('summit')",
+    "matched": "summit",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "INJ"
+    ]
+  },
+  {
     "id": "8f386dec93ac39a1faf66af694ebfd54f162fa10",
     "title": "StoneX sees 97% upside for Bullish as $4.2 billion Equiniti deal opens tokenization market",
     "link": "https://www.theblock.co/news/markets/2026-11-09-stonex-sees-upside-bullish-equiniti-deal-opens-tokenization-market-436464",
@@ -9,7 +41,7 @@
     "primary_region": null,
     "category": "other",
     "source_tier": "B",
-    "consensus": 2,
+    "consensus": 1,
     "financial": 40,
     "matched_topics": [
       "Tokenized funds & RWA"
@@ -22,7 +54,7 @@
     "reason": "commentary/opinion framing ('sees')",
     "matched": "sees",
     "fulltext": false,
-    "origin": "rss+tree",
+    "origin": "rss",
     "coins": []
   },
   {
@@ -49,6 +81,32 @@
     "axis": "policy",
     "reason": "policy/rule-making, not a concrete action ('framework')",
     "matched": "framework",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "58d38ae4953169596482c9155f80736f218f18e5",
+    "title": "Canada Opens Stablecoin Issuance to Banks Under New Rules, but Tokens Won’t Get Deposit Insurance - Hokanews",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9KMmI5Z3QxX2FWNmltT0R2dkJuZnRSX1YtemwwLXlkOUFRcnlxLWlNUUVhalNFczFURXZiVHRnVkNIR2o4MmpaU3ZRdDlQb09zMksxd1dOQ1R1ZTNNbU1RT2taWDcwaTc0Wk1feDlRMGZ1NDhDNEFvckpSV2dLdw?oc=5",
+    "score": 35,
+    "snippet": "Canada Opens Stablecoin Issuance to Banks Under New Rules, but Tokens Won’t Get Deposit Insurance Hokanews",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T08:05:00+00:00",
+    "verdict": "kill",
+    "axis": "policy",
+    "reason": "policy/rule-making, not a concrete action ('rules')",
+    "matched": "rules",
     "fulltext": false,
     "origin": "rss",
     "coins": []
