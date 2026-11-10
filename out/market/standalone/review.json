@@ -1,61 +1,31 @@
 [
   {
-    "id": "94d0becabf0a09f1475aba40f697ce9c2d857a3d",
-    "title": "Plume Affiliate Kimber Digital Securities Secures FINRA Membership and SEC Broker-Dealer Registration Plume announced that its affiliated broker-dealer, Kimber Digital Securities, has received FINRA membership approval a",
-    "link": "https://x.com/WuBlockchain/status/2120206956489286134#",
-    "score": 115,
-    "snippet": "Plume Affiliate Kimber Digital Securities Secures FINRA Membership and SEC Broker-Dealer Registration Plume announced that its affiliated broker-dealer, Kimber Digital Securities, has received FINRA membership approval and is now registered with the U.S. Securities and Exchange Commission (SEC). The",
+    "id": "219ec10ab2207cbc861d441c33dc78203e48bbdb",
+    "title": "Goldman, Citi and Global Banks Commit $270 Million to Challenge Crypto’s Stablecoin Giants",
+    "link": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+    "score": 95,
+    "snippet": "The funding, backing a U.S.-incorporated issuer codenamed “Project Faro,” covers five years of operations as traditional lenders move to challenge crypto-native giants Tether and Circle.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T17:28:25.062000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approval')",
-    "matched": "approval",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "PLUME"
-    ]
-  },
-  {
-    "id": "309629dd6cbc30083f4f599d37fe12f4840b9172",
-    "title": "Rails Becomes NFA Member and CFTC-Registered Introducing Broker; Partners with Crypto.com to Launch Regulated Onshore Perpetual Futures Infrastructure",
-    "link": "https://www.prnewswire.com/news-releases/rails-becomes-nfa-member-and-cftc-registered-introducing-broker-partners-with-cryptocom-to-launch-regulated-onshore-perpetual-futures-infrastructure-302934764.html",
-    "score": 100,
-    "snippet": "Rails Becomes NFA Member and CFTC-Registered Introducing Broker; Partners with Crypto.com to Launch Regulated Onshore Perpetual Futures Infrastructure",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 6,
+    "financial": 30,
     "matched_topics": [
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
-    "feed_name": "tree:prn",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-10T16:00:03.603000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T18:33:37+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CRO"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
     "id": "eb71c8ab4bef7b5c42b1b97ddcbedc2fee4b41ba",
@@ -87,10 +57,40 @@
     "coins": []
   },
   {
+    "id": "309629dd6cbc30083f4f599d37fe12f4840b9172",
+    "title": "Rails Becomes NFA Member and CFTC-Registered Introducing Broker; Partners with Crypto.com to Launch Regulated Onshore Perpetual Futures Infrastructure",
+    "link": "https://www.prnewswire.com/news-releases/rails-becomes-nfa-member-and-cftc-registered-introducing-broker-partners-with-cryptocom-to-launch-regulated-onshore-perpetual-futures-infrastructure-302934764.html",
+    "score": 94,
+    "snippet": "Rails Becomes NFA Member and CFTC-Registered Introducing Broker; Partners with Crypto.com to Launch Regulated Onshore Perpetual Futures Infrastructure",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:prn",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-10T16:00:03.603000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "CRO"
+    ]
+  },
+  {
     "id": "3c7b5f9a3c201813b7773f811ab7cd3f0fb56971",
     "title": "Kimber Digital Securities, Plume's affiliated broker-dealer, has been approved for FINRA membership and is now registered as a broker-dealer with the SEC. This is a milestone for Plume and a major step toward achieving P",
     "link": "https://x.com/plumenetwork/status/2120184408401748155#",
-    "score": 90,
+    "score": 84,
     "snippet": "Kimber Digital Securities, Plume's affiliated broker-dealer, has been approved for FINRA membership and is now registered as a broker-dealer with the SEC. This is a milestone for Plume and a major step toward achieving Plume's mission to bring the real world onchain, compliantly. The broker-dealer i",
     "regions": [
       "US"
@@ -115,15 +115,151 @@
     ]
   },
   {
-    "id": "0bf5e7bc79a2ff328c0836411b656d5827b52498",
-    "title": "Moody’s and Chainlink test cross-chain credit ratings distribution",
-    "link": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
-    "score": 75,
-    "snippet": "Moody's Ratings and Chainlink ran a testnet pilot using CCIP to distribute credit ratings data across permissioned and public blockchains.",
+    "id": "6bef5446c3914da1f7336a7420f6d5778707958b",
+    "title": "Goldman, Citi and Other Banks Reportedly Fund $270 Million Stablecoin Initiative - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQelo4X1pTaDRqRjRaRDlKZmVBYng3b2dqX185TEw0SC03VC0ycGZWOHVzN1N0dXJaalk1d1BMSHN1Y3REN0RScDR6U2liejBvamZvNU1LZzA4TlJRNmJmWEpfaTNtUjA4X3lkaDk0Und6NjhPS283RGgwbjltLUtlcTFBbTNpQ2k3T3pENnJZRG1obkxIQnpBTFFEUlhpTVltTGc?oc=5",
+    "score": 70,
+    "snippet": "Goldman, Citi and Other Banks Reportedly Fund $270 Million Stablecoin Initiative Yahoo Finance",
     "regions": [
       "US"
     ],
     "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T20:20:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "50125f87653819f11673c7620e625ec9e5685565",
+    "title": "Goldman, Citi and other global banks commit $270 million to a bank-backed stablecoin venture, Bloomberg reports - MLQ.ai",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2FPekJRVkxZR0NIRTU4QW1GeHdjTG41SzZfQ2JLYzFmSV8wdFlHQU5LcEs5N29pd2Zya3hDZjBQZnY5ZDNDMEpKb3c3ZW94QlBrbWhmazZPWU9heUxDaEZhN0tZcklsdkx5Z0ZsQmNqTWEyNGZSYlZ0X0xzbzcweHJKal9nSWJfQWRLbXdnN2c1cVBjX2VpYmN4aXN6YUt6S2ZjeDJhQzcxSWpwSlh6VHphdHJCZWQtZlI4d1hQUXpoeGVtdlp6LQ?oc=5",
+    "score": 70,
+    "snippet": "Goldman, Citi and other global banks commit $270 million to a bank-backed stablecoin venture, Bloomberg reports MLQ.ai",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T19:34:22+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "e1e5e6aa957b659393fc20b44fcf330b05748c30",
+    "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
+    "link": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 70,
+    "snippet": "Some of the world's biggest banks - including Citi, Goldman Sachs and Deutsche Bank - have committed around $270 million to a new stablecoin venture called Project Faro, according to Bloomberg.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T18:46:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "0b301507ae9903513191ec39830a49f01436a2e3",
+    "title": "Goldman, Citi Lead 21-Bank Consortium With $270 Million for Stablecoin Push - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GYVZ0clNLVEN0V2NCUWp2bW4wbU5TN3djcXdjUUpDZ3g4Skh3cnVQVmMwVy02aDJZd1BXaUVfcjVscWMzaWpTbWc1Y05KYmhOeURPUlBQQjNUSHNXQnNkelVFTFdrdFFVdU9Sc2t0blZyUVJEUnc?oc=5",
+    "score": 70,
+    "snippet": "Goldman, Citi Lead 21-Bank Consortium With $270 Million for Stablecoin Push BigGo Finance",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T18:25:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "8ee5a3243df2d5cc77aad344f61b7bb49f9090e3",
+    "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa05LTXMyLUZkczhwYzZLTjVBMDRsWUhQcTdxaV9QQUhfczVGN2tFWUI0MDZxQUZWREpXZEJkazF6TXZRcTBrR29zcG9Wa0h4SEd2YzZVQld5SG5GWVhScWZ6VkpJNGdGNl9hX2N2SWN6VDRhWi05YndwWVZxVl9IdWhfVDYwcDVsb3ZIZGdLMmVENXBILXdiYlRRZ1RtZ3hGT1JWQ0ZqZWlhVmVqbXhrOTBQZVRWakNhemNWdW43VkVldldQUUE?oc=5",
+    "score": 70,
+    "snippet": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture CoinDesk",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 2,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T17:32:22+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "0bf5e7bc79a2ff328c0836411b656d5827b52498",
+    "title": "Moody’s and Chainlink test cross-chain credit ratings distribution",
+    "link": "https://www.theblock.co/news/ecosystems/2026-11-10-moodys-chainlink-ccip-cross-chain-credit-ratings-pilot-437245",
+    "score": 69,
+    "snippet": "Moody's Ratings and Chainlink ran a testnet pilot using CCIP to distribute credit ratings data across permissioned and public blockchains.",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
     "source_tier": "B",
     "consensus": 6,
@@ -143,69 +279,10 @@
     "coins": []
   },
   {
-    "id": "06e1c77cab004e03314622d205e176cfeb6a1c1e",
-    "title": "Stablecoins solved the easy part of cross-border payments. The token moves value between chains at low cost, and treasury teams now treat that as the default. What it didn't touch is the four layers that decide whether t",
-    "link": "https://x.com/AlchemyPay/status/2120089293150658627#",
-    "score": 74,
-    "snippet": "Stablecoins solved the easy part of cross-border payments. The token moves value between chains at low cost, and treasury teams now treat that as the default. What it didn't touch is the four layers that decide whether the payment actually clears at the other end: 1⃣Local rails, the card, the wallet",
-    "regions": [
-      "EU",
-      "APAC"
-    ],
-    "primary_region": "EU",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:alchemypay",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T09:40:51.998000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ACH"
-    ]
-  },
-  {
-    "id": "8ee5a3243df2d5cc77aad344f61b7bb49f9090e3",
-    "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa05LTXMyLUZkczhwYzZLTjVBMDRsWUhQcTdxaV9QQUhfczVGN2tFWUI0MDZxQUZWREpXZEJkazF6TXZRcTBrR29zcG9Wa0h4SEd2YzZVQld5SG5GWVhScWZ6VkpJNGdGNl9hX2N2SWN6VDRhWi05YndwWVZxVl9IdWhfVDYwcDVsb3ZIZGdLMmVENXBILXdiYlRRZ1RtZ3hGT1JWQ0ZqZWlhVmVqbXhrOTBQZVRWakNhemNWdW43VkVldldQUUE?oc=5",
-    "score": 70,
-    "snippet": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture CoinDesk",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 4,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T17:32:22+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss+tree",
-    "coins": []
-  },
-  {
     "id": "82038c2b4b5a1d9fa2efb2b06e3bda3534ba683d",
     "title": "Goldman, Citi join global banks in $270 million stablecoin venture - Bloomberg - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUDhuUzcxdzRBXzNoRVllWXZzOVk1ZGx3YmtoblFkQnJMcHpxYm4tWG4zZUdFdUxDdnlKTUFYMGJNZUFIWlFwMGdQUzNvMHhGLXlyYlM4MWIzakpMOHhyZkNCZjBwS0JqT2w2Q1gtRTdjVEw5QVpqV3FNcnM3a01STHZNWVBMLWdLai15enpfOHN2WVU5MzV0VkNLTDFCU082cEtrWEdYVWtMS1dtNHUtQlFVZVJXT0FwUHFoTFczSnZOejVObHhTb1owVy0?oc=5",
-    "score": 70,
+    "score": 64,
     "snippet": "Goldman, Citi join global banks in $270 million stablecoin venture - Bloomberg Investing.com",
     "regions": [
       "US"
@@ -233,7 +310,7 @@
     "id": "31392ea502e61592e88acf0d74bfcce6041eceee",
     "title": "Goldman, Citi Among Banks in $270 Million Stablecoin Backing - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcV9UemExa2pjNzdiRXhQb1BqQTd3SEZpMjdRY1ZYRWFIWG5UYVl5cUZsb3dfdmJQX1czNmxmNFlOMk1HUlRDaDZlZmtTcVByajFueDBUeDVyaG41MDNMSDliQ29FV21uM3NvWXpCMXRuNEUzNjRqVjd2UkFtbVZXNl9DalFWb09wVXUzenpvcFNKM3BFc21SM0JSSzdSV2hpRWIyZFBOME9MQlFzSnc?oc=5",
-    "score": 70,
+    "score": 64,
     "snippet": "Goldman, Citi Among Banks in $270 Million Stablecoin Backing Bloomberg.com",
     "regions": [
       "US"
@@ -258,10 +335,62 @@
     "coins": []
   },
   {
+    "id": "7c9ee4fa2d544936659c4462eba59da57a3a6b99",
+    "title": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: HALT COSMWASM NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP As a precaution, core devs and the Rujira team ask nodes to halt all CosmWasm contract execution while an issue",
+    "link": "https://discord.com/channels/838986635756044328/839001804812451873/1569831766716321813",
+    "score": 60,
+    "snippet": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: HALT COSMWASM NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP As a precaution, core devs and the Rujira team ask nodes to halt all CosmWasm contract execution while an issue is checked. Unhalt will be announced separately. make mimir key: HALTWASMGLOBAL",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:thorchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T21:51:02.419000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('halt')",
+    "matched": "halt",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "RUNE"
+    ]
+  },
+  {
+    "id": "0147bfc34f4e5d09fc389feb0e8f2a4a7da5ac6e",
+    "title": "Arcadia ALM is on board. A new automated liquidity management solution from @ArcadiaFi will soon be integrated for Slipstream deposits on Aero. This integration is set to go live in the coming weeks once audits are compl",
+    "link": "https://x.com/aeroxyz/status/2120233799921623192#",
+    "score": 60,
+    "snippet": "Arcadia ALM is on board. A new automated liquidity management solution from @ArcadiaFi will soon be integrated for Slipstream deposits on Aero. This integration is set to go live in the coming weeks once audits are complete.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:aeroxyz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T19:15:04.916000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('go live')",
+    "matched": "go live",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "AERO"
+    ]
+  },
+  {
     "id": "baf188a75f7e0e4a113b650ff6bbc9788bdd62f3",
     "title": "THE BLOCK: Marble, a new institutional capital markets firm founded by former BitGo and Galaxy Digital executives Matt Ballensweig and Leon Marshall, has launched with an $11 million seed round led by Polychain Capital,",
     "link": "https://x.com/TheBlockCo/status/2120183434987688145#",
-    "score": 65,
+    "score": 59,
     "snippet": "THE BLOCK: Marble, a new institutional capital markets firm founded by former BitGo and Galaxy Digital executives Matt Ballensweig and Leon Marshall, has launched with an $11 million seed round led by Polychain Capital, with participation from Ripple, Maven 11, Susquehanna Crypto, Lattice and Blockw",
     "regions": [
       "US"
@@ -286,62 +415,6 @@
     "coins": [
       "XRP"
     ]
-  },
-  {
-    "id": "367a7929e0030d508809dfdfa8c5e265d5481557",
-    "title": "Binance hackers turn to Elon Musk memecoins to hide $6.3 billion",
-    "link": "https://www.thestreet.com/crypto/markets/binance-hackers-turn-to-elon-musk-memecoins-to-hide-6-3-billion",
-    "score": 60,
-    "snippet": "Binance hackers turn to Elon Musk memecoins to hide $6.3 billion",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the street",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-10T15:51:32.086000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "0df1c5d5f213c900a0f58bbcd88d2c1eeb49630d",
-    "title": "Circle Partners With Global Citizen to Introduce USDC Payments at Rwanda's 2027 Move Afrika Concert - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91Q2lkNi1LT2lOc0RHSlo4Q3BQek1ycm9SWVg3MmRBWDEtTjVUUFBRYmpOMHVsQ0RST09jeFNuZl95YVZRWTJFYmZnWDFtWXk5dUZ3Qg?oc=5",
-    "score": 55,
-    "snippet": "Circle Partners With Global Citizen to Introduce USDC Payments at Rwanda's 2027 Move Afrika Concert bloomingbit",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T16:38:25+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "42c68b7b232c1bbaf58acbcb0f6939fb11bc3fbb",
@@ -374,68 +447,11 @@
     ]
   },
   {
-    "id": "f8529b1bea0eec5c8b7d280e04f94e4a50df1c80",
-    "title": "New to Coinbase? Good news. You can earn 10% APY rewards. We made you a list to get started: Step 1: Deposit as little as $1 in USDC before December 3 Step 2: Start your free 30-day Coinbase One trial Step 3: Earn 10% AP",
-    "link": "https://x.com/coinbase/status/2120180023692873819#",
-    "score": 55,
-    "snippet": "New to Coinbase? Good news. You can earn 10% APY rewards. We made you a list to get started: Step 1: Deposit as little as $1 in USDC before December 3 Step 2: Start your free 30-day Coinbase One trial Step 3: Earn 10% APY rewards on up to $100K for the first month Easy.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:coinbase",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T15:41:23.563000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('list')",
-    "matched": "list",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "USDC"
-    ]
-  },
-  {
-    "id": "907cb42ed024e5139a7ce80a9cb528079b5552e6",
-    "title": "THE BLOCK: Bitcoin $BTC miner HIVE Digital Technologies $HIVE reported a $78.7 million quarterly net loss, as mining revenue fell 7.4% to $76 million. Its AI computing revenue rose 70.7% to $8.8 million, with contracted",
-    "link": "https://x.com/TheBlockCo/status/2120120080860131539#",
+    "id": "367a7929e0030d508809dfdfa8c5e265d5481557",
+    "title": "Binance hackers turn to Elon Musk memecoins to hide $6.3 billion",
+    "link": "https://www.thestreet.com/crypto/markets/binance-hackers-turn-to-elon-musk-memecoins-to-hide-6-3-billion",
     "score": 54,
-    "snippet": "THE BLOCK: Bitcoin $BTC miner HIVE Digital Technologies $HIVE reported a $78.7 million quarterly net loss, as mining revenue fell 7.4% to $76 million. Its AI computing revenue rose 70.7% to $8.8 million, with contracted GPU cloud annualized revenue reaching $185 million.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T11:43:12.352000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "HIVE"
-    ]
-  },
-  {
-    "id": "44f3ccec6f9b39641ee02b892d62b479fd27a9c5",
-    "title": "North Korea is making Elon Musk memecoins to launder $6.3bn stolen from Binance",
-    "link": "https://www.independent.co.uk/tech/security/north-korea-elon-musk-memecoin-binance-hack-b3082217.html",
-    "score": 54,
-    "snippet": "North Korea is making Elon Musk memecoins to launder $6.3bn stolen from Binance",
+    "snippet": "Binance hackers turn to Elon Musk memecoins to hide $6.3 billion",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -443,16 +459,184 @@
     "consensus": 1,
     "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:the independent",
+    "feed_name": "tree:the street",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-10T11:24:14.684000+00:00",
+    "published_at": "2026-11-10T15:51:32.086000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "f4af19c3fdc86e1bbbfe38f4e0cf0a935fb789a3",
+    "title": "THE BLOCK: Avalanche treasury company AVAX One said it has eliminated its remaining $970,000 in convertible debt, bringing the balance to zero after removing more than $14.9 million of debt in the third quarter. $AVAX Th",
+    "link": "https://x.com/TheBlockCo/status/2120272178088223102#",
+    "score": 50,
+    "snippet": "THE BLOCK: Avalanche treasury company AVAX One said it has eliminated its remaining $970,000 in convertible debt, bringing the balance to zero after removing more than $14.9 million of debt in the third quarter. $AVAX The company also repurchased 710,000 $AVX shares in October at an average price of",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T21:47:35.423000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "AVAX"
+    ]
+  },
+  {
+    "id": "e7367311b90610373564ac8fc3a9ba891fe05754",
+    "title": "THE BLOCK: Forward Industries added roughly 226,000 SOL quarter-to-date, bringing its public treasury to 8.7 million SOL, and secured a $50 million credit line. The update comes as $SOL and $FWDI hit roughly three-month",
+    "link": "https://x.com/TheBlockCo/status/2120266105952301235#",
+    "score": 50,
+    "snippet": "THE BLOCK: Forward Industries added roughly 226,000 SOL quarter-to-date, bringing its public treasury to 8.7 million SOL, and secured a $50 million credit line. The update comes as $SOL and $FWDI hit roughly three-month lows. Forward shares are down more than 28% this year.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T21:23:27.651000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SOL",
+      "FWDI"
+    ]
+  },
+  {
+    "id": "6959ef54e623aff40d0c3d3a92b83c9b737d9a67",
+    "title": "Building a Tokenized Securities Venue on Uniswap Wall Street runs on order books. The SEC's Innovation Exemption requires an AMM on a public blockchain. On September 17, 2026, the order granted a five-year exemption for",
+    "link": "https://x.com/Uniswap/status/2120239716679430387#",
+    "score": 50,
+    "snippet": "Building a Tokenized Securities Venue on Uniswap Wall Street runs on order books. The SEC's Innovation Exemption requires an AMM on a public blockchain. On September 17, 2026, the order granted a five-year exemption for a newly defined category of venue, the Tokenized Securities Venue (TSV). TSVs tr",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:uniswap",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T19:38:35.799000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "UNI",
+      "SPY",
+      "ONDO"
+    ]
+  },
+  {
+    "id": "0df1c5d5f213c900a0f58bbcd88d2c1eeb49630d",
+    "title": "Circle Partners With Global Citizen to Introduce USDC Payments at Rwanda's 2027 Move Afrika Concert - bloomingbit",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91Q2lkNi1LT2lOc0RHSlo4Q3BQek1ycm9SWVg3MmRBWDEtTjVUUFBRYmpOMHVsQ0RST09jeFNuZl95YVZRWTJFYmZnWDFtWXk5dUZ3Qg?oc=5",
+    "score": 49,
+    "snippet": "Circle Partners With Global Citizen to Introduce USDC Payments at Rwanda's 2027 Move Afrika Concert bloomingbit",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T16:38:25+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "214a07c4426857db5d676f6a7f6e7370c7eefb86",
+    "title": "Standard Chartered Acquires Zodia Custody in Digital Assets Push - The Fintech Times",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSW83cUFLTUtsTTJWT2dkbGhqZW1kX01jOVFBRXlJRVFNY2lTU0szbXNPaktBM1l0TDRwYzJ0WmZLVndjNXBnaEl3NGVSTFhpZnhlZ1JhS0dsYjd2aUYwbXFweWhFRDJKbmNjT3lFMjR5V3lQempoTWxDLWx3aDNsaEhtVjcyN2ZNaVc5dndUSDd2MFVYdXF0UQ?oc=5",
+    "score": 49,
+    "snippet": "Standard Chartered Acquires Zodia Custody in Digital Assets Push The Fintech Times",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T10:00:40+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('acquires')",
+    "matched": "acquires",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "0ec00ed5483c59f6716e27adecfcb6e4baf85bf1",
+    "title": "Onchain Lens: $891M Potentially Moved or Laundered Following $6.34B Binance Hack According to Onchain Lens, approximately $891 million in assets from the previous $6.34 billion Binance hack may have been transferred or u",
+    "link": "https://x.com/WuBlockchain/status/2120252582136537259#",
+    "score": 45,
+    "snippet": "Onchain Lens: $891M Potentially Moved or Laundered Following $6.34B Binance Hack According to Onchain Lens, approximately $891 million in assets from the previous $6.34 billion Binance hack may have been transferred or used for money laundering. Onchain Lens estimates that around $2.85 billion in as",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-10T20:29:43.156000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "RUNE",
       "BNB"
     ]
   },
@@ -460,7 +644,7 @@
     "id": "8b137b2b9b562c1c5cbf72fc62378ceb15539711",
     "title": "CryptoQuant: USDT Market Cap Falls $6.6B in 60 Days as Crypto Liquidity Tightens According to CryptoQuant's November 10 report, USDT's market capitalization fell by $6.6 billion over the past 60 days, exceeding the decli",
     "link": "https://x.com/WuBlockchain/status/2120197150776922347#",
-    "score": 50,
+    "score": 44,
     "snippet": "CryptoQuant: USDT Market Cap Falls $6.6B in 60 Days as Crypto Liquidity Tightens According to CryptoQuant's November 10 report, USDT's market capitalization fell by $6.6 billion over the past 60 days, exceeding the decline recorded during the redemption wave in December 2022 following FTX's collapse",
     "regions": [
       "US"
@@ -488,107 +672,81 @@
     ]
   },
   {
-    "id": "17d268d8da3bfdf2cc734a293e9b3dc3dc9543cb",
-    "title": "THE BLOCK: TON Strategy $TONX reported $13.1 million in Q3 revenue, primarily from staking rewards on its GRAM treasury. It posted a $24 million net loss, including a $27.2 million unrealized loss on its GRAM holdings, r",
-    "link": "https://x.com/TheBlockCo/status/2120195560271417662#",
-    "score": 50,
-    "snippet": "THE BLOCK: TON Strategy $TONX reported $13.1 million in Q3 revenue, primarily from staking rewards on its GRAM treasury. It posted a $24 million net loss, including a $27.2 million unrealized loss on its GRAM holdings, reversing an $82.8 million unrealized gain in the prior quarter. The company held",
+    "id": "2717bdaf8ce06e640d04f222d82444cada8b6871",
+    "title": "Visa Adds Monad to Stablecoin Settlement Options as Institutions Seek More Rails - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0J5b3lvT04yVmM1TG9DTTlON216dmRYR3FzR1lGMC10ck9ZXzl4V2RwaGN4VjdMWUJnT1RFSXRXLTdNVmFjVUY0dm9va3Z3VlRiYkVCMnY1UUFIeW1Vdk14aW12UWRpUzMySU11MTJGVkRRcjNkZTBVTjdBYmlrRGJBLV9SYkVnY1lWU1Bhd29kTjRxalZfcXJHeDhWdUgtTnRTdlZsRjZqMWhsUHVwdXB5U3lHMGRUYkFoSFRWOGhNSDN4RFdpM2Z3VDJfVkRXb0hIcw?oc=5",
+    "score": 40,
+    "snippet": "Visa Adds Monad to Stablecoin Settlement Options as Institutions Seek More Rails TradingView",
     "regions": [],
     "primary_region": null,
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T16:43:08.121000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "GRAM"
-    ]
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T23:00:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "aed738e74cbfaac4762de6ec91a8cc941aadb92e",
-    "title": "Introducing regional inference routing. Choose where your inference runs, starting with the US, the EU and Asia, with ZDR built in to meet data residency and compliance requirements.",
-    "link": "https://x.com/BoundlessHQ/status/2120169957761696124#",
-    "score": 50,
-    "snippet": "Introducing regional inference routing. Choose where your inference runs, starting with the US, the EU and Asia, with ZDR built in to meet data residency and compliance requirements.",
+    "id": "77de4bada00d2e28f6041f8085909bad324308a4",
+    "title": "Monad Is Now a Settlement Option in Visa’s Stablecoin Program - unchainedcrypto.com",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmxQUDB6MExjalJ4S2lYTTVYbUZ5cmZfRW5hOWVVdGpFLVpzTHZZeHZLZV96YktHNzJBUU9seWQxUkVZcldOUHcxQkZRMnpYZi1KQVU3cDRYdVhsMTJENVdaR1hLcDI4TE5fZEVOSnZTT2ppVF9iNE5LbjlOZmN3OUVDNlBOcXNBa1B2VnRkeTVlVnM?oc=5",
+    "score": 40,
+    "snippet": "Monad Is Now a Settlement Option in Visa’s Stablecoin Program unchainedcrypto.com",
     "regions": [],
     "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:boundlesshq",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T15:01:23.651000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ZKC"
-    ]
-  },
-  {
-    "id": "d75f0fa502a4fe8d27852e1cc058d75f5c7727c1",
-    "title": "The first cross-border USDC payments have been completed through @Bottomlinepay Global Payments Hub and Cash Management platform. The integration brings USDC into existing corporate treasury workflows alongside tradition",
-    "link": "https://x.com/circle/status/2120156865057464557#",
-    "score": 50,
-    "snippet": "The first cross-border USDC payments have been completed through @Bottomlinepay Global Payments Hub and Cash Management platform. The integration brings USDC into existing corporate treasury workflows alongside traditional payment methods. https://www.bottomline.com/newsroom/press-releases/bottomlin",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:circle",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T14:09:22.342000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T19:50:00+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('integration')",
-    "matched": "integration",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "USDC"
-    ]
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "214a07c4426857db5d676f6a7f6e7370c7eefb86",
-    "title": "Standard Chartered Acquires Zodia Custody in Digital Assets Push - The Fintech Times",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSW83cUFLTUtsTTJWT2dkbGhqZW1kX01jOVFBRXlJRVFNY2lTU0szbXNPaktBM1l0TDRwYzJ0WmZLVndjNXBnaEl3NGVSTFhpZnhlZ1JhS0dsYjd2aUYwbXFweWhFRDJKbmNjT3lFMjR5V3lQempoTWxDLWx3aDNsaEhtVjcyN2ZNaVc5dndUSDd2MFVYdXF0UQ?oc=5",
-    "score": 49,
-    "snippet": "Standard Chartered Acquires Zodia Custody in Digital Assets Push The Fintech Times",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
+    "id": "953b6901b9103cad7e81c4f088fce357cd8d2e7b",
+    "title": "Goldman, Citi, Santander Commit $270M to Bank Stablecoin - CoinMarketCap",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVHJRMXpCbGRHRG9CZ3ppR19UX3g2V29ZdWNHeGRzTGtZdzEzNlEzSEU1M1FrV1g1ajhXWmx6SHFhajNfT1BsOE5FUlkyZjhpOTFta3hSRkRCTEhGR054Y05yNnhLbW0yQm5ET01zYkxxMy01NW5kMjBxZC1XcVNqUnloZVkwdlBXMERoc3Rn?oc=5",
+    "score": 40,
+    "snippet": "Goldman, Citi, Santander Commit $270M to Bank Stablecoin CoinMarketCap",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
     "feed_name": "institutional_crypto_banks",
     "source": "Google News RSS",
-    "published_at": "2026-11-10T10:00:40+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('acquires')",
-    "matched": "acquires",
+    "published_at": "2026-11-10T19:42:46+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []
@@ -597,7 +755,7 @@
     "id": "eb5db6c95e069ba6f890dafa575a1d5d6d58f1d1",
     "title": "Bottomline Integrates USDC for Near Real-Time Enterprise Stablecoin Payments - FF News",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRUdINUFvVUIxazdlODdVdEZfUy1KSVJGc3dVRmFNRFBRZ0cyZFdHaTZCOUFlekhxTzFvQURsOGRPUjRYcXZrWmFsc0hVbzQ1d2hyTDVka2xZUHJIcmZWZkJ5d1NISlZfLWtzazZxNFFaTFpOZGdiZ2V4dk8tSHY2ZFc5dFc4VktyZi1NWkQ0Mk5QY1hOMUFOVTZ6NUtidXZNR2diWlJUZlJTZ1Z4?oc=5",
-    "score": 45,
+    "score": 39,
     "snippet": "Bottomline Integrates USDC for Near Real-Time Enterprise Stablecoin Payments FF News",
     "regions": [],
     "primary_region": null,
@@ -611,7 +769,7 @@
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-11-10T13:52:30+00:00",
+    "published_at": "2026-11-10T15:05:37+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('integrates')",
@@ -619,59 +777,5 @@
     "fulltext": false,
     "origin": "rss",
     "coins": []
-  },
-  {
-    "id": "509e945ed4792d4d37b772318d774084991d907f",
-    "title": "14 Public Companies Sold an Estimated $8.08 Billion in Bitcoin in 2026, Led by MARA and Riot According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026.",
-    "link": "https://x.com/WuBlockchain/status/2120099908103614784#",
-    "score": 44,
-    "snippet": "14 Public Companies Sold an Estimated $8.08 Billion in Bitcoin in 2026, Led by MARA and Riot According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 40,581 BTC sold, followed by Riot Platforms with 20,264 BTC. Toget",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T10:23:02.928000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "MARA",
-      "BTC"
-    ]
-  },
-  {
-    "id": "992bc59a8bbb2e447fe4f2f54b50190e57420cbe",
-    "title": "Lookonchain: 14 Public Companies Sold 108,247 BTC Worth $8.08 Billion in 2026 According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 4",
-    "link": "https://x.com/WuBlockchain/status/2120099600367485202#",
-    "score": 44,
-    "snippet": "Lookonchain: 14 Public Companies Sold 108,247 BTC Worth $8.08 Billion in 2026 According to Lookonchain, 14 publicly traded companies have sold approximately 108,247 BTC worth $8.08 billion so far in 2026. MARA led with 40,581 BTC sold, followed by Riot Platforms with 20,264 BTC. Together, the two ac",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T10:21:49.722000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "MARA"
-    ]
   }
 ]
