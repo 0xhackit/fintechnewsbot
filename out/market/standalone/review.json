@@ -1,12 +1,13 @@
 [
   {
-    "id": "219ec10ab2207cbc861d441c33dc78203e48bbdb",
-    "title": "Goldman, Citi and Global Banks Commit $270 Million to Challenge Crypto’s Stablecoin Giants",
-    "link": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+    "id": "4cd61ecb9a247d7a9d4c7a3d306109c6e3fa8c3f",
+    "title": "Goldman and Citi Help Fund $270 Million Stablecoin Venture",
+    "link": "https://www.pymnts.com/cryptocurrency/2026/goldman-and-citi-help-fund-270-million-stablecoin-venture/",
     "score": 95,
-    "snippet": "The funding, backing a U.S.-incorporated issuer codenamed “Project Faro,” covers five years of operations as traditional lenders move to challenge crypto-native giants Tether and Circle.",
+    "snippet": "A group of banking giants have reportedly pledged roughly $270 million in financing toward a joint stablecoin venture. The banks included Goldman Sachs, Citigroup, Santander and Deutsche Bank, Bloomberg News reported Tuesday (Nov. 10), citing sources familiar with the matter. The funding is aimed at",
     "regions": [
-      "US"
+      "US",
+      "EU"
     ],
     "primary_region": "US",
     "category": "other",
@@ -16,9 +17,9 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "decrypt",
+    "feed_name": "pymnts",
     "source": "Google News RSS",
-    "published_at": "2026-11-10T18:33:37+00:00",
+    "published_at": "2026-11-10T23:51:20+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -28,30 +29,30 @@
     "coins": []
   },
   {
-    "id": "eb71c8ab4bef7b5c42b1b97ddcbedc2fee4b41ba",
-    "title": "37 European Banks Team Up: Qivalis Wins Dutch Central Bank License, Euro Stablecoin to Launch Within Months - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlTklXckVPWmlLbmJzczBOd201WURSd1E1ZHhTSUtLMVpmejVuZExWdUZGU0pFOHJka2VDd05XMzdpU21SZGtMYzU0WkpMb3c5aXNMM0UzT3MyS1QzaFhGeHQ2c2d3eGwzTWF0TjREY1FTYUx4V0E?oc=5",
-    "score": 94,
-    "snippet": "37 European Banks Team Up: Qivalis Wins Dutch Central Bank License, Euro Stablecoin to Launch Within Months BigGo Finance",
+    "id": "21f9d440b22bd5885ca6d7ee1fcc2e907be52abc",
+    "title": "Goldman Sachs and Citigroup Lead 21-Bank $270 Million Stablecoin Venture for 2027 Launch: 6 outlets compared - NewsCord",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNR2duSjZWWG8zNHJ5b2tOQWM1ODZYc01DODhFV3h1MTRoaFJnTzJfUTBiak5Rdk43bnQ5aFd0Ung0U2tURDVUZXBHYXJFa0ZSbmZiaXlJczFmam9RSzFyQlNuRWdHNUxYcTJ1cGlTZmRNV1lMZHJrWFJhV1RRbFZKbUtpMVk0MC1sNzFlWkRZVFEyU1J2VF9zbW1tTGRoeDRZUkM2LTNjVUcwa1BHMjl0TTBjNHd2RDQ0aWNvVE5BUGRQbW5lc3c4b0NmTDdtWDJGTV93T0RaMWJZcEJSY3hBdWN3bXI1Y0dLZlE?oc=5",
+    "score": 95,
+    "snippet": "Goldman Sachs and Citigroup Lead 21-Bank $270 Million Stablecoin Venture for 2027 Launch: 6 outlets compared NewsCord",
     "regions": [
-      "EU"
+      "US"
     ],
-    "primary_region": "EU",
+    "primary_region": "US",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 30,
     "matched_topics": [
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "stablecoin_adoption",
+    "feed_name": "institutional_crypto_banks",
     "source": "Google News RSS",
-    "published_at": "2026-11-10T02:29:10+00:00",
+    "published_at": "2026-11-10T23:27:55+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('license')",
-    "matched": "license",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": false,
     "origin": "rss",
     "coins": []
@@ -87,6 +88,34 @@
     ]
   },
   {
+    "id": "219ec10ab2207cbc861d441c33dc78203e48bbdb",
+    "title": "Goldman, Citi and Global Banks Commit $270 Million to Challenge Crypto’s Stablecoin Giants",
+    "link": "https://decrypt.co/382953/goldman-citi-global-banks-270-million-challenge-crypto-stablecoin-giants",
+    "score": 89,
+    "snippet": "The funding, backing a U.S.-incorporated issuer codenamed “Project Faro,” covers five years of operations as traditional lenders move to challenge crypto-native giants Tether and Circle.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T18:33:37+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "3c7b5f9a3c201813b7773f811ab7cd3f0fb56971",
     "title": "Kimber Digital Securities, Plume's affiliated broker-dealer, has been approved for FINRA membership and is now registered as a broker-dealer with the SEC. This is a milestone for Plume and a major step toward achieving P",
     "link": "https://x.com/plumenetwork/status/2120184408401748155#",
@@ -115,93 +144,40 @@
     ]
   },
   {
-    "id": "6bef5446c3914da1f7336a7420f6d5778707958b",
-    "title": "Goldman, Citi and Other Banks Reportedly Fund $270 Million Stablecoin Initiative - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQelo4X1pTaDRqRjRaRDlKZmVBYng3b2dqX185TEw0SC03VC0ycGZWOHVzN1N0dXJaalk1d1BMSHN1Y3REN0RScDR6U2liejBvamZvNU1LZzA4TlJRNmJmWEpfaTNtUjA4X3lkaDk0Und6NjhPS283RGgwbjltLUtlcTFBbTNpQ2k3T3pENnJZRG1obkxIQnpBTFFEUlhpTVltTGc?oc=5",
-    "score": 70,
-    "snippet": "Goldman, Citi and Other Banks Reportedly Fund $270 Million Stablecoin Initiative Yahoo Finance",
+    "id": "f00e5487d12b110c0277e0567cd6d42af30a37fd",
+    "title": "PNC Launches USDC Payments Pilot With Coinbase - The Defiant",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd1JoYWM4ZHRnaGJiZURjcTBfUTk2VkEwd1V1UXRIMjRROGZFTWVuc21URXFJT2lEWVZyT0JBeEVsRHN6MFEyNTg4S3ZDWm1HYUFkaElRNk1KdWUtRHE4clRKV3BpTlpKY1pHdlZXUnhGWl9FZTRyQXhLTDNfM041MEpiZC1qUTBzanhSMzVoU2JCMkMybXhVSHFPWUE?oc=5",
+    "score": 74,
+    "snippet": "PNC Launches USDC Payments Pilot With Coinbase The Defiant",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
+    "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T20:20:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "50125f87653819f11673c7620e625ec9e5685565",
-    "title": "Goldman, Citi and other global banks commit $270 million to a bank-backed stablecoin venture, Bloomberg reports - MLQ.ai",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2FPekJRVkxZR0NIRTU4QW1GeHdjTG41SzZfQ2JLYzFmSV8wdFlHQU5LcEs5N29pd2Zya3hDZjBQZnY5ZDNDMEpKb3c3ZW94QlBrbWhmazZPWU9heUxDaEZhN0tZcklsdkx5Z0ZsQmNqTWEyNGZSYlZ0X0xzbzcweHJKal9nSWJfQWRLbXdnN2c1cVBjX2VpYmN4aXN6YUt6S2ZjeDJhQzcxSWpwSlh6VHphdHJCZWQtZlI4d1hQUXpoeGVtdlp6LQ?oc=5",
-    "score": 70,
-    "snippet": "Goldman, Citi and other global banks commit $270 million to a bank-backed stablecoin venture, Bloomberg reports MLQ.ai",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-11-10T19:34:22+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
+    "published_at": "2026-11-10T17:31:38+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
     "fulltext": false,
     "origin": "rss",
     "coins": []
   },
   {
-    "id": "e1e5e6aa957b659393fc20b44fcf330b05748c30",
-    "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
-    "link": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "id": "75343a3b38ccdccc82dee25ffbbd12a1098490d7",
+    "title": "Goldman, Citi join $270 million push for bank-backed stablecoin: Report - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5oTHV1bFYyQS10M3FpcEJaT2lrSlVEX2lESGNTc3NSQVNyNmxZbkVrNFd3blZDWkFpN2g1bzFxRGw4ckhTZEx1aUxibnh2Q0plSWpiSDFTZ3U?oc=5",
     "score": 70,
-    "snippet": "Some of the world's biggest banks - including Citi, Goldman Sachs and Deutsche Bank - have committed around $270 million to a new stablecoin venture called Project Faro, according to Bloomberg.",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "finextra",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T18:46:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "0b301507ae9903513191ec39830a49f01436a2e3",
-    "title": "Goldman, Citi Lead 21-Bank Consortium With $270 Million for Stablecoin Push - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GYVZ0clNLVEN0V2NCUWp2bW4wbU5TN3djcXdjUUpDZ3g4Skh3cnVQVmMwVy02aDJZd1BXaUVfcjVscWMzaWpTbWc1Y05KYmhOeURPUlBQQjNUSHNXQnNkelVFTFdrdFFVdU9Sc2t0blZyUVJEUnc?oc=5",
-    "score": 70,
-    "snippet": "Goldman, Citi Lead 21-Bank Consortium With $270 Million for Stablecoin Push BigGo Finance",
+    "snippet": "Goldman, Citi join $270 million push for bank-backed stablecoin: Report Cryptonews.net",
     "regions": [
       "US"
     ],
@@ -215,35 +191,7 @@
     ],
     "feed_name": "institutional_crypto_banks",
     "source": "Google News RSS",
-    "published_at": "2026-11-10T18:25:00+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "8ee5a3243df2d5cc77aad344f61b7bb49f9090e3",
-    "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture - CoinDesk",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa05LTXMyLUZkczhwYzZLTjVBMDRsWUhQcTdxaV9QQUhfczVGN2tFWUI0MDZxQUZWREpXZEJkazF6TXZRcTBrR29zcG9Wa0h4SEd2YzZVQld5SG5GWVhScWZ6VkpJNGdGNl9hX2N2SWN6VDRhWi05YndwWVZxVl9IdWhfVDYwcDVsb3ZIZGdLMmVENXBILXdiYlRRZ1RtZ3hGT1JWQ0ZqZWlhVmVqbXhrOTBQZVRWakNhemNWdW43VkVldldQUUE?oc=5",
-    "score": 70,
-    "snippet": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture CoinDesk",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 2,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T17:32:22+00:00",
+    "published_at": "2026-11-10T23:39:35+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -276,6 +224,172 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "6bef5446c3914da1f7336a7420f6d5778707958b",
+    "title": "Goldman, Citi and Other Banks Reportedly Fund $270 Million Stablecoin Initiative - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQelo4X1pTaDRqRjRaRDlKZmVBYng3b2dqX185TEw0SC03VC0ycGZWOHVzN1N0dXJaalk1d1BMSHN1Y3REN0RScDR6U2liejBvamZvNU1LZzA4TlJRNmJmWEpfaTNtUjA4X3lkaDk0Und6NjhPS283RGgwbjltLUtlcTFBbTNpQ2k3T3pENnJZRG1obkxIQnpBTFFEUlhpTVltTGc?oc=5",
+    "score": 64,
+    "snippet": "Goldman, Citi and Other Banks Reportedly Fund $270 Million Stablecoin Initiative Yahoo Finance",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T20:20:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "50125f87653819f11673c7620e625ec9e5685565",
+    "title": "Goldman, Citi and other global banks commit $270 million to a bank-backed stablecoin venture, Bloomberg reports - MLQ.ai",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQY2FPekJRVkxZR0NIRTU4QW1GeHdjTG41SzZfQ2JLYzFmSV8wdFlHQU5LcEs5N29pd2Zya3hDZjBQZnY5ZDNDMEpKb3c3ZW94QlBrbWhmazZPWU9heUxDaEZhN0tZcklsdkx5Z0ZsQmNqTWEyNGZSYlZ0X0xzbzcweHJKal9nSWJfQWRLbXdnN2c1cVBjX2VpYmN4aXN6YUt6S2ZjeDJhQzcxSWpwSlh6VHphdHJCZWQtZlI4d1hQUXpoeGVtdlp6LQ?oc=5",
+    "score": 64,
+    "snippet": "Goldman, Citi and other global banks commit $270 million to a bank-backed stablecoin venture, Bloomberg reports MLQ.ai",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T19:34:22+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "e1e5e6aa957b659393fc20b44fcf330b05748c30",
+    "title": "Banking giants commit $270m to stablecoin venture - Bloomberg",
+    "link": "https://www.finextra.com/newsarticle/48738/banking-giants-commit-270m-to-stablecoin-venture---bloomberg?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 64,
+    "snippet": "Some of the world's biggest banks - including Citi, Goldman Sachs and Deutsche Bank - have committed around $270 million to a new stablecoin venture called Project Faro, according to Bloomberg.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T18:46:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "0b301507ae9903513191ec39830a49f01436a2e3",
+    "title": "Goldman, Citi Lead 21-Bank Consortium With $270 Million for Stablecoin Push - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5GYVZ0clNLVEN0V2NCUWp2bW4wbU5TN3djcXdjUUpDZ3g4Skh3cnVQVmMwVy02aDJZd1BXaUVfcjVscWMzaWpTbWc1Y05KYmhOeURPUlBQQjNUSHNXQnNkelVFTFdrdFFVdU9Sc2t0blZyUVJEUnc?oc=5",
+    "score": 64,
+    "snippet": "Goldman, Citi Lead 21-Bank Consortium With $270 Million for Stablecoin Push BigGo Finance",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T18:25:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "5e15d0792c2d9dd3a91f709a8e40eb8e3cff1022",
+    "title": "Goldman, Citigroup Among Banks Committing $270 Million to Stablecoin Venture - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOW5lbWtUX1VxUDdYQVExcEJfQS1UTDlpZ25xLXg4TURqWWhEUnpxMWFEQzJXZmp1WjVxU3BKckYxS2laUEtJalAwTzVvcFVBZGVyellXU0UydDllcXlEV0lFeThoUkViRlYzdFE3QXF6eExDRXkxWms2TmI0cmZmN3NiTkVaeVYxbXBpUUMxbjBZb2Focm5JTllYVElqWDZpeF9oUW5GaXNzZHRyYWM2dnowNlk5eW9GV3U5MWlHQUo0RGZLRGc?oc=5",
+    "score": 64,
+    "snippet": "Goldman, Citigroup Among Banks Committing $270 Million to Stablecoin Venture marketscreener.com",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T17:41:28+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "8ee5a3243df2d5cc77aad344f61b7bb49f9090e3",
+    "title": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa05LTXMyLUZkczhwYzZLTjVBMDRsWUhQcTdxaV9QQUhfczVGN2tFWUI0MDZxQUZWREpXZEJkazF6TXZRcTBrR29zcG9Wa0h4SEd2YzZVQld5SG5GWVhScWZ6VkpJNGdGNl9hX2N2SWN6VDRhWi05YndwWVZxVl9IdWhfVDYwcDVsb3ZIZGdLMmVENXBILXdiYlRRZ1RtZ3hGT1JWQ0ZqZWlhVmVqbXhrOTBQZVRWakNhemNWdW43VkVldldQUUE?oc=5",
+    "score": 64,
+    "snippet": "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture CoinDesk",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 2,
+    "financial": 30,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-10T17:32:22+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
     "coins": []
   },
   {
@@ -335,6 +449,38 @@
     "coins": []
   },
   {
+    "id": "e7c65639cbf3e3d41f19337e29f397ba3ed4d1ef",
+    "title": "The Metis post-quantum Hybrid Rollup Goes Live on Devnet The Metis Hybrid Rollup is now live on Devnet, marking a major step toward integrating validity proofs into Metis’s existing rollup architecture. By verifying exec",
+    "link": "https://x.com/MetisL2/status/2120328831253053932#",
+    "score": 60,
+    "snippet": "The Metis post-quantum Hybrid Rollup Goes Live on Devnet The Metis Hybrid Rollup is now live on Devnet, marking a major step toward integrating validity proofs into Metis’s existing rollup architecture. By verifying execution results on-chain, this approach aims to reduce withdrawal delays. The work",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:metisl2",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-11T01:32:42.202000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('goes live')",
+    "matched": "goes live",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "METIS",
+      "ZK",
+      "GOAT",
+      "CL",
+      "ETH",
+      "BTC",
+      "CRV"
+    ]
+  },
+  {
     "id": "7c9ee4fa2d544936659c4462eba59da57a3a6b99",
     "title": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: HALT COSMWASM NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP As a precaution, core devs and the Rujira team ask nodes to halt all CosmWasm contract execution while an issue",
     "link": "https://discord.com/channels/838986635756044328/839001804812451873/1569831766716321813",
@@ -358,32 +504,6 @@
     "origin": "tree",
     "coins": [
       "RUNE"
-    ]
-  },
-  {
-    "id": "0147bfc34f4e5d09fc389feb0e8f2a4a7da5ac6e",
-    "title": "Arcadia ALM is on board. A new automated liquidity management solution from @ArcadiaFi will soon be integrated for Slipstream deposits on Aero. This integration is set to go live in the coming weeks once audits are compl",
-    "link": "https://x.com/aeroxyz/status/2120233799921623192#",
-    "score": 60,
-    "snippet": "Arcadia ALM is on board. A new automated liquidity management solution from @ArcadiaFi will soon be integrated for Slipstream deposits on Aero. This integration is set to go live in the coming weeks once audits are complete.",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:aeroxyz",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T19:15:04.916000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('go live')",
-    "matched": "go live",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "AERO"
     ]
   },
   {
@@ -417,33 +537,29 @@
     ]
   },
   {
-    "id": "42c68b7b232c1bbaf58acbcb0f6939fb11bc3fbb",
-    "title": "a dev can earn from every trade without selling a single token. launch a v5 coin with me and your share of the trading tax comes in the paired asset. eth, usdc or a tokenized stock. you can allocate part of that tax to h",
-    "link": "https://x.com/clanker_world/status/2120215410872086586#",
-    "score": 55,
-    "snippet": "a dev can earn from every trade without selling a single token. launch a v5 coin with me and your share of the trading tax comes in the paired asset. eth, usdc or a tokenized stock. you can allocate part of that tax to holders too, so they earn alongside you. keep your tokens. collect your rewards. ",
+    "id": "0147bfc34f4e5d09fc389feb0e8f2a4a7da5ac6e",
+    "title": "Arcadia ALM is on board. A new automated liquidity management solution from @ArcadiaFi will soon be integrated for Slipstream deposits on Aero. This integration is set to go live in the coming weeks once audits are compl",
+    "link": "https://x.com/aeroxyz/status/2120233799921623192#",
+    "score": 54,
+    "snippet": "Arcadia ALM is on board. A new automated liquidity management solution from @ArcadiaFi will soon be integrated for Slipstream deposits on Aero. This integration is set to go live in the coming weeks once audits are complete.",
     "regions": [],
     "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:clanker_world",
+    "matched_topics": [],
+    "feed_name": "tree:x:aeroxyz",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T18:02:00.660000+00:00",
+    "published_at": "2026-11-10T19:15:04.916000+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
+    "reason": "concrete market event ('go live')",
+    "matched": "go live",
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "CLANKER"
+      "AERO"
     ]
   },
   {
@@ -466,10 +582,36 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
+    "fulltext": false,
     "origin": "tree",
     "coins": [
       "BNB"
+    ]
+  },
+  {
+    "id": "d8b00be9fb74e97cd1ba28ae00913bdd8d144bb7",
+    "title": "THE BLOCK: Tron Inc. reported Q3 2026 net income of $14.9 million, up 22% year-over-year, with a nine-month net income of $39.4 million, up 203%. $TRON The company's digital asset holdings rose to $257.8 million at the e",
+    "link": "https://x.com/TheBlockCo/status/2120328457695728093#",
+    "score": 50,
+    "snippet": "THE BLOCK: Tron Inc. reported Q3 2026 net income of $14.9 million, up 22% year-over-year, with a nine-month net income of $39.4 million, up 203%. $TRON The company's digital asset holdings rose to $257.8 million at the end of September. It increased its $TRX treasury holdings to 722.9 million TRX ($",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-11T01:31:13.326000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "TRX"
     ]
   },
   {
@@ -525,38 +667,6 @@
     "coins": [
       "SOL",
       "FWDI"
-    ]
-  },
-  {
-    "id": "6959ef54e623aff40d0c3d3a92b83c9b737d9a67",
-    "title": "Building a Tokenized Securities Venue on Uniswap Wall Street runs on order books. The SEC's Innovation Exemption requires an AMM on a public blockchain. On September 17, 2026, the order granted a five-year exemption for",
-    "link": "https://x.com/Uniswap/status/2120239716679430387#",
-    "score": 50,
-    "snippet": "Building a Tokenized Securities Venue on Uniswap Wall Street runs on order books. The SEC's Innovation Exemption requires an AMM on a public blockchain. On September 17, 2026, the order granted a five-year exemption for a newly defined category of venue, the Tokenized Securities Venue (TSV). TSVs tr",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:uniswap",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-10T19:38:35.799000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "UNI",
-      "SPY",
-      "ONDO"
     ]
   },
   {
@@ -672,6 +782,32 @@
     ]
   },
   {
+    "id": "bf105e99e252c364f1a8b46fbd99f7a849790167",
+    "title": "Monad joins Visa’s stablecoin settlement network - grafa.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQS3o2SHJ6Um01VXN6b1Y0V1lWX1JnUS1pV1c3S2E5TWlacW5MT1VHcjR1WU1VeGozajZTTzk3MkJHanpLUHdfYUxkdm1OUUJJOTA3XzFGdkdTVXRpVTUyajhfVlpfMTlBcVNGM2luNWNFZVJ1TGZGQlRWLXN5N0p5VEtJUmY?oc=5",
+    "score": 40,
+    "snippet": "Monad joins Visa’s stablecoin settlement network grafa.com",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-11T00:11:15+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settlement')",
+    "matched": "settlement",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
     "id": "2717bdaf8ce06e640d04f222d82444cada8b6871",
     "title": "Visa Adds Monad to Stablecoin Settlement Options as Institutions Seek More Rails - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNa0J5b3lvT04yVmM1TG9DTTlON216dmRYR3FzR1lGMC10ck9ZXzl4V2RwaGN4VjdMWUJnT1RFSXRXLTdNVmFjVUY0dm9va3Z3VlRiYkVCMnY1UUFIeW1Vdk14aW12UWRpUzMySU11MTJGVkRRcjNkZTBVTjdBYmlrRGJBLV9SYkVnY1lWU1Bhd29kTjRxalZfcXJHeDhWdUgtTnRTdlZsRjZqMWhsUHVwdXB5U3lHMGRUYkFoSFRWOGhNSDN4RFdpM2Z3VDJfVkRXb0hIcw?oc=5",
@@ -693,60 +829,6 @@
     "axis": "market_event",
     "reason": "concrete market event ('settlement')",
     "matched": "settlement",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "77de4bada00d2e28f6041f8085909bad324308a4",
-    "title": "Monad Is Now a Settlement Option in Visa’s Stablecoin Program - unchainedcrypto.com",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVmxQUDB6MExjalJ4S2lYTTVYbUZ5cmZfRW5hOWVVdGpFLVpzTHZZeHZLZV96YktHNzJBUU9seWQxUkVZcldOUHcxQkZRMnpYZi1KQVU3cDRYdVhsMTJENVdaR1hLcDI4TE5fZEVOSnZTT2ppVF9iNE5LbjlOZmN3OUVDNlBOcXNBa1B2VnRkeTVlVnM?oc=5",
-    "score": 40,
-    "snippet": "Monad Is Now a Settlement Option in Visa’s Stablecoin Program unchainedcrypto.com",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T19:50:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "953b6901b9103cad7e81c4f088fce357cd8d2e7b",
-    "title": "Goldman, Citi, Santander Commit $270M to Bank Stablecoin - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVHJRMXpCbGRHRG9CZ3ppR19UX3g2V29ZdWNHeGRzTGtZdzEzNlEzSEU1M1FrV1g1ajhXWmx6SHFhajNfT1BsOE5FUlkyZjhpOTFta3hSRkRCTEhGR054Y05yNnhLbW0yQm5ET01zYkxxMy01NW5kMjBxZC1XcVNqUnloZVkwdlBXMERoc3Rn?oc=5",
-    "score": 40,
-    "snippet": "Goldman, Citi, Santander Commit $270M to Bank Stablecoin CoinMarketCap",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-11-10T19:42:46+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []
