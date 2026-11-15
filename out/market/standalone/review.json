@@ -1,20 +1,49 @@
 [
   {
-    "id": "32d82e96d135abe4bffc81b267fe73f127e0fa01",
-    "title": "THE BLOCK: U.S. crypto ETFs lost about $1.55 billion last week. Bitcoin funds took the biggest hit at $1.07 billion, their second straight week of 10-figure losses, while ether funds lost $398.9 million. Only one crypto",
-    "link": "https://x.com/TheBlockCo/status/2121663943643115646#",
-    "score": 64,
-    "snippet": "THE BLOCK: U.S. crypto ETFs lost about $1.55 billion last week. Bitcoin funds took the biggest hit at $1.07 billion, their second straight week of 10-figure losses, while ether funds lost $398.9 million. Only one crypto ETF category saw any net inflows at all.",
+    "id": "cfcddc201bf37169cd10c74c31f8d5440c9c28f0",
+    "title": "21 Financial Institutions Plan to Launch a New Dollar Stablecoin in 2027. Who Will Be the Biggest Winners and Losers? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWFHb0pTY1VoTDVONUNtdkNWNGpnSmpuZnBaMmVjdDF6ZTRwdkVwcTdBREp4TmwtU1UtQzg4ZkF3R05fZmI5aW9BSUozc09DYm9MdHFGdEFxQjViMEE4a1lmUl9vUm1NbEl4NzMwbzRQQjd5Rlp1RjBZUXg1U3E0eF9QeEUyUXcwVFBCNno1aDJ5M0FKbnpzRTZHSUU0X1NqRUpURQ?oc=5",
+    "score": 70,
+    "snippet": "21 Financial Institutions Plan to Launch a New Dollar Stablecoin in 2027. Who Will Be the Biggest Winners and Losers? Yahoo Finance",
     "regions": [],
     "primary_region": null,
-    "category": "other",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-15T15:11:00+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "d5f20a58f2df56045d095bf0ebc1d8690064a13d",
+    "title": "'LitVM Moves LiteForge Testnet Infrastructure to Zeeve Ahead of Litecoin Mainnet Rollout' - @BSCNews https://bsc.news/news/litvm-liteforge-testnet-zeeve-migration",
+    "link": "https://x.com/LTCFoundation/status/2121981557590151361#",
+    "score": 60,
+    "snippet": "'LitVM Moves LiteForge Testnet Infrastructure to Zeeve Ahead of Litecoin Mainnet Rollout' - @BSCNews https://bsc.news/news/litvm-liteforge-testnet-zeeve-migration",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:ltcfoundation",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-14T17:57:57.832000+00:00",
+    "published_at": "2026-11-15T15:00:02.822000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -22,14 +51,43 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BTC"
+      "LTC"
+    ]
+  },
+  {
+    "id": "d2cf5d56cbf62ba27005b27afe339eb9ebfc08bc",
+    "title": "a few things you might’ve missed while the devs were busy this week. 1 / KOB @crono_walker launched a testnet order book built with SilverScript and Argent. lets people place buy and sell orders for tokens, with Kaspa L1",
+    "link": "https://x.com/kaspaunchained/status/2121972489358119065#",
+    "score": 55,
+    "snippet": "a few things you might’ve missed while the devs were busy this week. 1 / KOB @crono_walker launched a testnet order book built with SilverScript and Argent. lets people place buy and sell orders for tokens, with Kaspa L1 contracts enforcing the trading rules. open to try on testnet-10. https://x.com",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:kaspaunchained",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-15T14:24:00.972000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "KAS",
+      "ID"
     ]
   },
   {
     "id": "e6319c03814468264dd8124588f01c75edd2a775",
     "title": "Seven years ago today, CKB's mainnet went live. Ten months before launch, tucked away in its section on the virtual machine, the whitepaper said being crypto-agnostic \"allows CKB users to keep their assets secure even in",
     "link": "https://x.com/ckba_build/status/2121951360874676468#",
-    "score": 60,
+    "score": 54,
     "snippet": "Seven years ago today, CKB's mainnet went live. Ten months before launch, tucked away in its section on the virtual machine, the whitepaper said being crypto-agnostic \"allows CKB users to keep their assets secure even in the post-quantum era.\" That's because signature checks were never hardcoded int",
     "regions": [],
     "primary_region": null,
@@ -82,30 +140,31 @@
     ]
   },
   {
-    "id": "28b826db1dda2ecf9348c37a405dff7b38c634ee",
-    "title": "Bloomberg: Bitcoin Falls Toward $62K, Putting $58K Yearly Low Back in Focus According to Bloomberg, Bitcoin fell toward $62,000 over the weekend, its lowest level since July, as higher Treasury yields, a stronger dollar,",
-    "link": "https://x.com/WuBlockchain/status/2121898523931320410#",
+    "id": "577f4605433a865869647f10d4766da14bed80a3",
+    "title": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+    "link": "https://decrypt.co/383282/bitcoin-etfs-lose-2-1-billion-november-outflow-streak-seven-days",
     "score": 50,
-    "snippet": "Bloomberg: Bitcoin Falls Toward $62K, Putting $58K Yearly Low Back in Focus According to Bloomberg, Bitcoin fell toward $62,000 over the weekend, its lowest level since July, as higher Treasury yields, a stronger dollar, post-midterm policy uncertainty and continued fallout from the Binance hack wei",
-    "regions": [],
-    "primary_region": null,
+    "snippet": "Bitcoin ETFs Lose $2.1 Billion in November as Outflow Streak Hits Seven Days",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
+    "financial": 40,
     "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-15T09:30:06.129000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('back')",
-    "matched": "back",
+    "feed_name": "tree:decrypt",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-15T14:01:08.867000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "BTC",
-      "BNB"
+      "BTC"
     ]
   },
   {
@@ -137,31 +196,30 @@
     ]
   },
   {
-    "id": "d4fb1db053640b36804bebb6ee94ade48e3bbc6b",
-    "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-    "link": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
-    "score": 44,
-    "snippet": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
+    "id": "c1f5da1947d64e2d6af0059e34d1b50a2b684ac1",
+    "title": "Stablecoin Payments for Business: 2026 Treasury Checks - JournalArta",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOMENlWWp5elB6T1JjbThtUlpFTk1OTWRlOENWMzNYdGNfdUloN2VVVWpIWnNCajZlLXNqNEFnYWN2TkJFRzhKam1Wa3M4NzJod1IwSnlKNXBqY0tqbmNiSVRZQ0tWM3U2aVVOcFJPbWJpWHcxM0lkeWhkSGxSZ1BjUXFTNk5MQVVQMXFENnptakgzd3U4?oc=5",
+    "score": 40,
+    "snippet": "Stablecoin Payments for Business: 2026 Treasury Checks JournalArta",
+    "regions": [],
+    "primary_region": null,
     "category": "other",
-    "source_tier": "B",
+    "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-14T17:50:45.266000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-15T16:38:49+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
