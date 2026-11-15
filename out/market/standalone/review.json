@@ -3,7 +3,7 @@
     "id": "32d82e96d135abe4bffc81b267fe73f127e0fa01",
     "title": "THE BLOCK: U.S. crypto ETFs lost about $1.55 billion last week. Bitcoin funds took the biggest hit at $1.07 billion, their second straight week of 10-figure losses, while ether funds lost $398.9 million. Only one crypto",
     "link": "https://x.com/TheBlockCo/status/2121663943643115646#",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: U.S. crypto ETFs lost about $1.55 billion last week. Bitcoin funds took the biggest hit at $1.07 billion, their second straight week of 10-figure losses, while ether funds lost $398.9 million. Only one crypto ETF category saw any net inflows at all.",
     "regions": [],
     "primary_region": null,
@@ -19,7 +19,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
@@ -47,7 +47,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "HYPE",
@@ -55,33 +55,32 @@
     ]
   },
   {
-    "id": "dda42779aa7194718267f328d5972c952e510129",
-    "title": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
-    "link": "https://cointelegraph.com/news/openai-ai-payments-chatgpt-wallet-visa-mastercard-amex",
-    "score": 59,
-    "snippet": "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex",
+    "id": "5649a82651dd2cf17dc2ec333da799e48a69bb73",
+    "title": "Binance Restores Withdrawals Across 87 Networks After $6.3bn Security Breach",
+    "link": "https://www.crowdfundinsider.com/2026/11/323284-binance-restores-withdrawals-across-87-networks-after-6-3bn-security-breach",
+    "score": 60,
+    "snippet": "Binance Restores Withdrawals Across 87 Networks After $6.3bn Security Breach",
     "regions": [
-      "US"
+      "EU",
+      "APAC"
     ],
-    "primary_region": "US",
-    "category": "product",
+    "primary_region": "EU",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:cointelegraph",
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:crowdfundinsider",
     "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-13T22:01:45.244000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
+    "published_at": "2026-11-14T22:08:30.556000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "WLD"
+      "BNB"
     ]
   },
   {
@@ -139,62 +138,10 @@
     ]
   },
   {
-    "id": "fb62a781c22f075ff373eb8e17c63099a80fc7f3",
-    "title": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
-    "link": "https://www.cnbc.com/make-it/2026/11/13/binance-hack-2-online-habits-that-can-help-you-avoid-scams-.html",
-    "score": 54,
-    "snippet": "Hackers stole $6.3 billion from Binance—2 habits that take 'a few seconds' can help you avoid similar traps",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:cnbc",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-13T22:06:58.567000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "ff99ecea2c69bf0a2124afcd1bd165a59a7b205d",
-    "title": "THE BLOCK: SkyAI expects to repurchase approximately $209 million worth of its outstanding common stock and warrants through a cash tender offer that expired on Nov. 12. The preliminary results include approximately 47 m",
-    "link": "https://x.com/TheBlockCo/status/2121357213662896608#",
-    "score": 54,
-    "snippet": "THE BLOCK: SkyAI expects to repurchase approximately $209 million worth of its outstanding common stock and warrants through a cash tender offer that expired on Nov. 12. The preliminary results include approximately 47 million common shares at $3 per share, alongside various pre-funded, strategic, a",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-13T21:39:07.929000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "SKYAI"
-    ]
-  },
-  {
     "id": "d4fb1db053640b36804bebb6ee94ade48e3bbc6b",
     "title": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
     "link": "https://www.theblock.co/news/markets/2026-11-14-bitcoin-etfs-lose-1-billion-for-the-second-week-in-a-row-as-crypto-funds-except-one-continue-bleeding-440337",
-    "score": 50,
+    "score": 44,
     "snippet": "Bitcoin ETFs lose $1 billion for the second week in a row as crypto funds, except one, continue bleeding",
     "regions": [
       "US"
@@ -216,35 +163,6 @@
     "origin": "tree",
     "coins": [
       "BTC"
-    ]
-  },
-  {
-    "id": "c554b88935b84708c3468e151021f8e853a5523b",
-    "title": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours Layer 1 blockchain Kava announced that its teams are tracking unexpected behavior originating from a decentralized application (dApp) wi",
-    "link": "https://x.com/WuBlockchain/status/2121610729556234474#",
-    "score": 50,
-    "snippet": "Kava Investigating Unexpected Behavior From dApp as KAVA Drops Over 41% in 24 Hours Layer 1 blockchain Kava announced that its teams are tracking unexpected behavior originating from a decentralized application (dApp) within the Kava ecosystem, treating the investigation as a high priority with an o",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-14T14:26:30.953000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "KAVA",
-      "ETH",
-      "BNB",
-      "ATOM"
     ]
   },
   {
