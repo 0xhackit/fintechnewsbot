@@ -10,7 +10,7 @@
     "snippet": "Four Democratic senators are raising concerns about the Securities and Exchange Commission's newly unveiled innovation exemption.",
     "published_at": "2026-11-16T20:44:01+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -47,137 +47,84 @@
     ]
   },
   {
-    "id": "b81eadac2880227fd34d181d7e7bf1f9bfcf807779212e5383e736ce46f7f06b",
+    "id": "ff6be52f36c0155771f3ec431ddbc1e1411e066714eb91c67e606512121b0467",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Standard Chartered says Japan’s bond tokenization plans could help drive RWA market to $2 trillion",
-    "url": "https://www.theblock.co/news/web3/2026-11-16-japan-tokenized-government-bonds-standard-chartered-rwa-2-trillion-441384",
-    "canonical_url": "https://theblock.co/news/web3/2026-11-16-japan-tokenized-government-bonds-standard-chartered-rwa-2-trillion-441384",
-    "snippet": "Standard Chartered said Japan's bond tokenization plans could help the tokenized RWA market reach its $2 trillion forecast by 2028.",
-    "published_at": "2026-11-16T17:54:24+00:00",
+    "feed_name": "decrypt",
+    "title": "Morning Minute: The CFTC Officially Greenlights Perps in the US, Starting with Backpack",
+    "url": "https://decrypt.co/383418/morning-minute-the-cftc-officially-greenlights-perps-in-the-us-starting-with-backpack",
+    "canonical_url": "https://decrypt.co/383418/morning-minute-the-cftc-officially-greenlights-perps-in-the-us-starting-with-backpack",
+    "snippet": "CFTC chairman Mike Selig said he looks forward to building on this milestone, which begs the question—who’s next?",
+    "published_at": "2026-11-17T12:56:24+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "tokenization",
-      "tokenized",
-      "RWA"
-    ],
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "ebdfec77-0bc0-50e8-8fc4-b5f4adc90617",
+      "id": "https://decrypt.co/?p=383418",
+      "guidislink": false
+    },
+    "score": 74,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "f0233953e8112ec2fee53fbc21c79497559cdf11e22ebd062f15c19394cb4222",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Stablecoin infrastructure firm Avenia raises $25 million in Series A extension",
+    "url": "https://www.theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
+    "canonical_url": "https://theblock.co/news/deals/2026-11-17-avenia-funding-stablecoin-crypto-infrastructure-442119",
+    "snippet": "Lightspeed Faction led the equity round, bringing Avenia's total funding to $44.6 million as it plans new products and acquisitions.",
+    "published_at": "2026-11-17T13:08:34+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "0839358f-11a3-5bef-8cbd-e09579c6562e",
       "guidislink": false
     },
     "score": 64,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 2,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 20,
-      "financial_bonus": 50,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "3f1dd7b3685cdc6492dfac2790b644f565d8be603fbcb6a598b45eb224a3bc0a",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "'Tokenization Is Not the Finish Line': Jupiter to Let Users Borrow Against Bullish Shares",
-    "url": "https://decrypt.co/383333/tokenization-is-not-the-finish-line-jupiter-to-let-users-borrow-against-bullish-shares",
-    "canonical_url": "https://decrypt.co/383333/tokenization-is-not-the-finish-line-jupiter-to-let-users-borrow-against-bullish-shares",
-    "snippet": "The Solana trading platform unveiled a permissioned lending market, identity passport and issuer liquidity services at Breakpoint.",
-    "published_at": "2026-11-16T17:09:28+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "issuer",
-      "tokenization"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=383333",
-      "guidislink": false
-    },
-    "score": 54,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
+      "tier1": 3,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 35,
+      "launch_score": 60,
       "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "87dd7c0f8bcef0add2d8942c14b2915c8def34a6d39774ee29650240ef66ce1f",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Brazil’s central bank reportedly links stablecoin swaps to laundering - The Paypers",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRklnTGxtbUFFYVVsWGs4eFJaQ0ozRVNTM2NodmxCX2FaNlpKa1RqcjVwT2ZQSERJU09jUUVHclFKR0t5ZVFxOE5oY0ljc0lpOEZBVmJEcXJ6WVNKT0I4RE9NVi1GQ2FYeWxPN1JIZkV4TE5haDJGMm9FOE13TzJJOHdzaWpzZmliZXdtSHJ6dDNDTWdYQ3Y4RTRSTXlYUzFGc0hrbVZCbFJNQUI3cnJpYWdCalgtZw?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRklnTGxtbUFFYVVsWGs4eFJaQ0ozRVNTM2NodmxCX2FaNlpKa1RqcjVwT2ZQSERJU09jUUVHclFKR0t5ZVFxOE5oY0ljc0lpOEZBVmJEcXJ6WVNKT0I4RE9NVi1GQ2FYeWxPN1JIZkV4TE5haDJGMm9FOE13TzJJOHdzaWpzZmliZXdtSHJ6dDNDTWdYQ3Y4RTRSTXlYUzFGc0hrbVZCbFJNQUI3cnJpYWdCalgtZw?oc=5",
-    "snippet": "Brazil’s central bank reportedly links stablecoin swaps to laundering The Paypers",
-    "published_at": "2026-11-16T16:25:38+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMitgFBVV95cUxNRklnTGxtbUFFYVVsWGs4eFJaQ0ozRVNTM2NodmxCX2FaNlpKa1RqcjVwT2ZQSERJU09jUUVHclFKR0t5ZVFxOE5oY0ljc0lpOEZBVmJEcXJ6WVNKT0I4RE9NVi1GQ2FYeWxPN1JIZkV4TE5haDJGMm9FOE13TzJJOHdzaWpzZmliZXdtSHJ6dDNDTWdYQ3Y4RTRSTXlYUzFGc0hrbVZCbFJNQUI3cnJpYWdCalgtZw",
-      "guidislink": false
-    },
-    "score": 50,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
@@ -192,84 +139,131 @@
     ]
   },
   {
-    "id": "b5c206685174f6f21016a6ff364e4158794e23655e43e6d8531cfe830f8bf05f",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Brazil's central bank faces backlash over stablecoin money laundering remarks - CoinDesk",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaE9BN2hwVlhvYUpVRjJFMmhGMFdkWjdpd0hDV3gtRG1wZ1dpQ2hHWGowUFZRbno2RU1yNldaNC1OMnQ3R0pZOURfcFpOY3VHcHczOU9fMnlmbml4M1hzTFUtWTVIdl9pRWJ2V015OUJJVWFiMmNjTTB4TVg2Xy1xUjJqMDE2Unlqb05WYXdIbEw5RDBRUjFRWVViSkNJOEVldkNUSWJaOXliaVpIanRQUHlMZXZXeHlaSXNXRnNPRQ?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaE9BN2hwVlhvYUpVRjJFMmhGMFdkWjdpd0hDV3gtRG1wZ1dpQ2hHWGowUFZRbno2RU1yNldaNC1OMnQ3R0pZOURfcFpOY3VHcHczOU9fMnlmbml4M1hzTFUtWTVIdl9pRWJ2V015OUJJVWFiMmNjTTB4TVg2Xy1xUjJqMDE2Unlqb05WYXdIbEw5RDBRUjFRWVViSkNJOEVldkNUSWJaOXliaVpIanRQUHlMZXZXeHlaSXNXRnNPRQ?oc=5",
-    "snippet": "Brazil's central bank faces backlash over stablecoin money laundering remarks CoinDesk",
-    "published_at": "2026-11-16T15:54:11+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMivwFBVV95cUxOaE9BN2hwVlhvYUpVRjJFMmhGMFdkWjdpd0hDV3gtRG1wZ1dpQ2hHWGowUFZRbno2RU1yNldaNC1OMnQ3R0pZOURfcFpOY3VHcHczOU9fMnlmbml4M1hzTFUtWTVIdl9pRWJ2V015OUJJVWFiMmNjTTB4TVg2Xy1xUjJqMDE2Unlqb05WYXdIbEw5RDBRUjFRWVViSkNJOEVldkNUSWJaOXliaVpIanRQUHlMZXZXeHlaSXNXRnNPRQ",
-      "guidislink": false
-    },
-    "score": 50,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "a99c84abe45eaf5ab0d5da07eb1cc9923747fe12b3c16248be2672c415210edc",
+    "id": "fc75fd2b3bc171c593a68d1318b7fe614d95e724d8ae9ffa6fca2a06d013927d",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "pymnts",
-    "title": "Crypto Traders Cash Out Stablecoins as Bitcoin Hits 4-Month Low",
-    "url": "https://www.pymnts.com/cryptocurrency/2026/crypto-traders-cash-out-stablecoins-as-bitcoin-hits-4-month-low/",
-    "canonical_url": "https://pymnts.com/cryptocurrency/2026/crypto-traders-cash-out-stablecoins-as-bitcoin-hits-4-month-low/",
-    "snippet": "The stablecoin sector’s market capitalization has shrunk by about $12 billion over the past 30 days, largely driven by cryptocurrency traders converting the dollar-pegged tokens into dollars and other traditional currencies and cashing out, Bloomberg reported Monday (Nov. 16). The decline in the sta",
-    "published_at": "2026-11-17T01:14:09+00:00",
+    "title": "Fed Says Tokenization Still Needs Traditional Payments",
+    "url": "https://www.pymnts.com/blockchain/2026/fed-says-tokenization-still-needs-traditional-payments/",
+    "canonical_url": "https://pymnts.com/blockchain/2026/fed-says-tokenization-still-needs-traditional-payments/",
+    "snippet": "Federal Reserve Governor Christopher Waller told financial leaders Tuesday (Nov. 17) that tokenization and blockchain technology are fueling a transformation in global payment systems. This in turn has sparked intense competition between tech upstarts and established financial institutions, Waller s",
+    "published_at": "2026-11-17T19:55:59+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "tokenization"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?p=4400601",
+      "id": "https://www.pymnts.com/?p=4403413",
       "guidislink": false
     },
-    "score": 44,
+    "score": 60,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
+      "launch_score": 10,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9d1e86103e7261805ca7ed1337c8a53ddb7fa703dd52b6cf3d7780b955e1c917",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Fed’s Waller cites Binance hack in warning over tokenized finance",
+    "url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
+    "snippet": "Fed Governor Christopher Waller questioned who bears responsibility for fraud, compromised keys and failed transactions as traditional financial assets move onto blockchains.",
+    "published_at": "2026-11-17T17:39:41+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/feds-waller-cites-binance-hack-in-warning-over-tokenized-finance",
+      "guidislink": true
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "88ef60a8fcad97e64c606eea6c7749efb9b34841a23e7f942f62356843116bcc",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Everyone is Trading Tokenized Nvidia Derivatives",
+    "url": "https://www.theblock.co/newsletters/data-and-insights/2026-11-17-everyone-is-trading-tokenized-nvidia-derivatives-442818",
+    "canonical_url": "https://theblock.co/newsletters/data-and-insights/2026-11-17-everyone-is-trading-tokenized-nvidia-derivatives-442818",
+    "snippet": "NVDA Speculatooors onchain On the off chance you haven’t heard, Nvidia CEO and co-founder Jensen Huang resigned from his post after admitting he was unfaithful to his wife. Needless to say, markets have reacted violently. Onchain perpetuals traded $8.7 billion on Nov. 12, the day Jensen Huang resign",
+    "published_at": "2026-11-17T17:15:23+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "70731111-f8f3-5c01-bd50-34b4fa5ebfd0",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
       "institution_bonus": 0,
       "financial_bonus": 40,
       "regulatory_bonus": 0,
@@ -286,39 +280,272 @@
     ]
   },
   {
-    "id": "568fa49fc157b4147c7a9643254edefa60837669b6b0d7fb58693ea7891fce2f",
+    "id": "aede9e7a3513d2ef17e4f18a1ec823155b28984c625048098a360afc3d505115",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "DTCC, Barclays Say Tokenization's Real Prize Is Unlocking Idle Collateral",
-    "url": "https://decrypt.co/383316/dtcc-barclays-say-tokenizations-real-prize-is-unlocking-idle-collateral",
-    "canonical_url": "https://decrypt.co/383316/dtcc-barclays-say-tokenizations-real-prize-is-unlocking-idle-collateral",
-    "snippet": "Executives from the U.S. settlement giant and Barclays told Solana's Breakpoint that adoption is early, but accelerating.",
-    "published_at": "2026-11-16T16:11:31+00:00",
+    "feed_name": "coindesk",
+    "title": "U.S. Fed Governor Waller pitches keeping central bank at the center of tokenization",
+    "url": "https://www.coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+    "canonical_url": "https://coindesk.com/policy/2026/11/17/u-s-fed-governor-waller-pitches-keeping-central-bank-at-the-center-of-tokenization",
+    "snippet": "",
+    "published_at": "2026-11-17T17:00:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
-      "settlement",
       "tokenization"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://decrypt.co/?p=383316",
+      "id": "c35a21d0-120e-414f-93ef-f2347f20e554",
       "guidislink": false
     },
-    "score": 44,
+    "score": 60,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 2,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "c57d1d88aabca2b0ffe2d5df62d01e1b21ec295334ce4476d7df93d6d98d1059",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Alpaca says tokenization network tops $10 billion in minting and redemption volume",
+    "url": "https://www.theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+    "canonical_url": "https://theblock.co/news/business/2026-11-17-alpaca-says-tokenization-network-tops-10-billion-minting-redemption-volume-442667",
+    "snippet": "Alpaca co-founder Hitoshi Harada said its Instant Tokenization Network has surpassed $10 billion in cumulative minting and redemption volume.",
+    "published_at": "2026-11-17T16:35:07+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "tokenization"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "0705bba3-8521-59cb-bc45-138d38fea6cf",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "d90fbf049a14e5e9890f4ebc710b40ac20871044a400a2860cf1b25ce126ee7d",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Grvt launches RWA perpetuals with funding tied to traditional markets",
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-17-grvt-launches-rwa-perpetuals-with-funding-tied-to-traditional-markets-442089",
+    "canonical_url": "https://theblock.co/news/ecosystems/2026-11-17-grvt-launches-rwa-perpetuals-with-funding-tied-to-traditional-markets-442089",
+    "snippet": "Grvt’s Stable Funding Perps debut across seven commodity markets, with funding rates linked to market makers’ financing costs.",
+    "published_at": "2026-11-17T13:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "RWA",
+      "launches"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "5ec65c3e-5845-5574-856a-0c3f71ded1c2",
+      "guidislink": false
+    },
+    "score": 54,
+    "score_breakdown": {
+      "tier1": 2,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 20,
+      "launch_score": 50,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "981f46cefc3f54fc1dc8575e9fac9217761fa7c4ebd0f7a0a9ddd852f6b7df81",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Anchorage, Kalshi Prime let institutions use custodied bitcoin as margin",
+    "url": "https://www.theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
+    "canonical_url": "https://theblock.co/news/business/2026-11-17-anchorage-digital-kalshi-prime-hodl-margining-bitcoin-collateral-442568",
+    "snippet": "Anchorage clients can pledge bitcoin and stablecoins held at its federally chartered bank as margin on Kalshi Prime's CFTC-regulated venue.",
+    "published_at": "2026-11-17T15:53:25+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "b9cf16e4-5389-56d1-970c-6fcd051cc868",
+      "guidislink": false
+    },
+    "score": 50,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9bcd478fc98c1e7cbe501050489b2643d4be7270301b8e247faa226ee38f8a47",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Cathie Wood's ARK Sells $85 Million in Nvidia, Buys $40 Million in Crypto Stocks",
+    "url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks",
+    "canonical_url": "https://decrypt.co/383463/cathie-wood-ark-sells-85-million-nvidia-buys-crypto-stocks",
+    "snippet": "Cathie Wood's funds trimmed Nvidia ahead of earnings while buying Block, Circle and Coinbase during Monday's selloff.",
+    "published_at": "2026-11-17T19:46:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "Circle"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=383463",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "22b0130ff9de8e7e3346cd93631e72944207eec26859c1f3f418dac0fc48f466",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "tokenized_funds_rwa",
+    "title": "Revolut Chair Martin Gilbert Pitches Four Tokenized Private-Market Funds to Ease Liquidity Squeeze - BigGo Finance",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NSjFBM1pjdU56NGNwTTZMZXc4YklYckFHekdrekczRmp3VXZzUHVUR0dsS2FvU2RaX19qaUpnTHJaUW5jRnFKN21ZaVd1c0NmRkxBUFZOa1duekFQcEpUc1dIV2oyWW92M2FET21YUFdwN3RXLWc?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5NSjFBM1pjdU56NGNwTTZMZXc4YklYckFHekdrekczRmp3VXZzUHVUR0dsS2FvU2RaX19qaUpnTHJaUW5jRnFKN21ZaVd1c0NmRkxBUFZOa1duekFQcEpUc1dIV2oyWW92M2FET21YUFdwN3RXLWc?oc=5",
+    "snippet": "Revolut Chair Martin Gilbert Pitches Four Tokenized Private-Market Funds to Ease Liquidity Squeeze BigGo Finance",
+    "published_at": "2026-11-17T14:05:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "CBMidkFVX3lxTE5NSjFBM1pjdU56NGNwTTZMZXc4YklYckFHekdrekczRmp3VXZzUHVUR0dsS2FvU2RaX19qaUpnTHJaUW5jRnFKN21ZaVd1c0NmRkxBUFZOa1duekFQcEpUc1dIV2oyWW92M2FET21YUFdwN3RXLWc",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
       "institution_bonus": 20,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -335,41 +562,41 @@
     ]
   },
   {
-    "id": "d006f265285df203d5468554fab68196c85b1ef6031336cdb0d4e338d0bfa197",
+    "id": "8bb2c456e5223f948ed58c899b111a5c2f15c8556dae1ce96fc317525becd8b2",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "US senators seek SEC answers on tokenized stock money laundering risks",
-    "url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards",
-    "snippet": "Four Democratic senators asked who would be responsible for tokenized shares transferred outside regulated platforms and whether the SEC could freeze or recover those tokens.",
-    "published_at": "2026-11-17T11:36:26+00:00",
+    "feed_name": "theblock",
+    "title": "Solana’s Trump memecoin launch tested infrastructure ahead of institutional push, Lily Liu says",
+    "url": "https://www.theblock.co/news/ecosystems/2026-11-17-solana-trump-memecoin-launch-tested-infrastructure-institutional-push-lily-liu-says-442132",
+    "canonical_url": "https://theblock.co/news/ecosystems/2026-11-17-solana-trump-memecoin-launch-tested-infrastructure-institutional-push-lily-liu-says-442132",
+    "snippet": "Liu recapped two periods of trading as evidence Solana's network can withstand pressure from unpredictable crypto markets.",
+    "published_at": "2026-11-17T14:27:35+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
-      "tokenized"
+      "launch"
     ],
     "matched_topics": [
-      "Tokenized funds & RWA"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards",
-      "guidislink": true
+      "id": "d5cfc4d0-34eb-5288-8275-8fa1e1580a5a",
+      "guidislink": false
     },
-    "score": 40,
+    "score": 35,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
-      "commentary": 1,
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
+      "launch_score": 25,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": -10,
+      "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -382,38 +609,38 @@
     ]
   },
   {
-    "id": "ffbdb2110922afcebbe96ea3c5934b684a2ba5235d3c7bef53f05924dad1ecf5",
+    "id": "cad8039cfc6ec56838a59d4c76ca613a108eeaeec975d57fea5c86dd59982d63",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "theblock",
-    "title": "Cathie Wood’s Ark Invest loads up on crypto stocks while selling $85 million in Nvidia",
-    "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
-    "canonical_url": "https://theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
-    "snippet": "Cathie Wood's Ark Invest bought additional shares in Block Inc., Circle, and Coinbase as the stocks traded lower on Monday.",
-    "published_at": "2026-11-17T06:35:02+00:00",
+    "title": "Bitwise launches ZDAY, its first non-crypto ETF, to bet on AI cyber defense",
+    "url": "https://www.theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
+    "canonical_url": "https://theblock.co/news/markets/2026-11-17-bitwise-zday-ai-cyber-defense-etf-442062",
+    "snippet": "Bitwise's first non-crypto ETF, ZDAY, trades on the NYSE with a 0.75% fee, holding 10–30 AI security stocks like CrowdStrike and Palo Alto.",
+    "published_at": "2026-11-17T14:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
-      "Circle"
+      "launches"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "b2f5291f-2973-5b4c-ab0c-304aef645428",
+      "id": "97d314f8-40e1-55dc-beb7-fe697f5f2f17",
       "guidislink": false
     },
-    "score": 40,
+    "score": 35,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 30,
+      "launch_score": 25,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -439,7 +666,7 @@
     "snippet": "Polygon Launches API to Simplify Stablecoin Payments Coinfomania",
     "published_at": "2026-11-16T21:06:05+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -479,17 +706,17 @@
     ]
   },
   {
-    "id": "b577462cd10fab3a26e00fef3eaafb57961d502d05bb34f2c04248e723ed003b",
+    "id": "d006f265285df203d5468554fab68196c85b1ef6031336cdb0d4e338d0bfa197",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
-    "title": "Coinbase and Broadridge propose standard for tokenized stock disclosures",
-    "url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices",
-    "snippet": "The proposed standard aims to connect tokenized stockholders with corporate disclosures and voting materials across digital wallets, but would not create shareholder rights.",
-    "published_at": "2026-11-16T19:56:18+00:00",
+    "title": "US senators seek SEC answers on tokenized stock money laundering risks",
+    "url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards",
+    "snippet": "Four Democratic senators asked who would be responsible for tokenized shares transferred outside regulated platforms and whether the SEC could freeze or recover those tokens.",
+    "published_at": "2026-11-17T11:36:26+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "tokenized"
     ],
@@ -497,23 +724,23 @@
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/coinbase-broadridge-tokenized-stock-shareholder-notices",
+      "id": "https://cointelegraph.com/news/us-senators-sec-tokenized-stock-safeguards",
       "guidislink": true
     },
-    "score": 24,
+    "score": 34,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
-      "commentary": 0,
+      "commentary": 1,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
       "launch_score": 10,
-      "institution_bonus": 10,
+      "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
-      "commentary_penalty": 0,
+      "commentary_penalty": -10,
       "listicle_penalty": 0,
       "generic_penalty": 0,
       "consensus_boost": 0,
@@ -526,124 +753,28 @@
     ]
   },
   {
-    "id": "44827c617a75de6e30e35721240b98403142c3cc57a2a56ca46685844472d2b0",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings",
-    "url": "https://cointelegraph.com/news/binance-pay-later-crypto-backed-credit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/binance-pay-later-crypto-backed-credit",
-    "snippet": "Eligible users can access up to 1,000 USDC in credit against their Bitcoin, Ether or BNB for purchases via Binance Card or QR Pay.",
-    "published_at": "2026-11-16T13:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "USDC"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/binance-pay-later-crypto-backed-credit",
-      "guidislink": true
-    },
-    "score": 24,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "8ada39b0408561202c65ac08be674262213e3551acc1b467eaf4e03113475b85",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Stablecoin Issuer Circle Continues to Beat Earnings and Revenue Expectations. Is CRCL Stock Now a Buy? - The Globe and Mail",
-    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPSjVpaE5tbmFLdjBPLUdRcHhGdU9zQ2dvbDhYTHlldmpLeGtUWVBmRElaRGVJelBTcjBpVnlMTWtrVmY4amIyOFNZdnUxcUZYZXRQVkJveXN5UnVYV1lHODllajMxQmdaVjR4NjBHdFZqYlEzY3ppOWU0V0VadDRQal9WZTFGdGtDME9zZ0IyaEFpX0RaRHUzVDRlU3djdFNEcW5XYnMzd3ZwRWcxVUZ0RUwyU0dUSGx1YTBJZDZRRnZlbUVseTZDeXdtQV9Gb3k4aHg4UjBUMGYtaFN4N3FPUUl6OWJJQk9IM0Q1ZVlCZUR2Z2U0YXJBMUd2SFh3ZnlzRmJEaEU5WDVtZC1zSWRF?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPSjVpaE5tbmFLdjBPLUdRcHhGdU9zQ2dvbDhYTHlldmpLeGtUWVBmRElaRGVJelBTcjBpVnlMTWtrVmY4amIyOFNZdnUxcUZYZXRQVkJveXN5UnVYV1lHODllajMxQmdaVjR4NjBHdFZqYlEzY3ppOWU0V0VadDRQal9WZTFGdGtDME9zZ0IyaEFpX0RaRHUzVDRlU3djdFNEcW5XYnMzd3ZwRWcxVUZ0RUwyU0dUSGx1YTBJZDZRRnZlbUVseTZDeXdtQV9Gb3k4aHg4UjBUMGYtaFN4N3FPUUl6OWJJQk9IM0Q1ZVlCZUR2Z2U0YXJBMUd2SFh3ZnlzRmJEaEU5WDVtZC1zSWRF?oc=5",
-    "snippet": "Stablecoin Issuer Circle Continues to Beat Earnings and Revenue Expectations. Is CRCL Stock Now a Buy? The Globe and Mail",
-    "published_at": "2026-11-16T19:08:22+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "Circle",
-      "issuer"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMijwJBVV95cUxPSjVpaE5tbmFLdjBPLUdRcHhGdU9zQ2dvbDhYTHlldmpLeGtUWVBmRElaRGVJelBTcjBpVnlMTWtrVmY4amIyOFNZdnUxcUZYZXRQVkJveXN5UnVYV1lHODllajMxQmdaVjR4NjBHdFZqYlEzY3ppOWU0V0VadDRQal9WZTFGdGtDME9zZ0IyaEFpX0RaRHUzVDRlU3djdFNEcW5XYnMzd3ZwRWcxVUZ0RUwyU0dUSGx1YTBJZDZRRnZlbUVseTZDeXdtQV9Gb3k4aHg4UjBUMGYtaFN4N3FPUUl6OWJJQk9IM0Q1ZVlCZUR2Z2U0YXJBMUd2SFh3ZnlzRmJEaEU5WDVtZC1zSWRF",
-      "guidislink": false
-    },
-    "score": 14,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 10,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "c7c2a5b759fffc1d8ffb6f35d9e3227e1ebac75e6c95c80763c701b93b722e96",
+    "id": "ffbdb2110922afcebbe96ea3c5934b684a2ba5235d3c7bef53f05924dad1ecf5",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "theblock",
-    "title": "Solflare CEO says AI security reviews are essential, touts ‘bunker mode’ and MoneyGram deal",
-    "url": "https://www.theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
-    "canonical_url": "https://theblock.co/news/defi/2026-11-16-solflare-ceo-ai-security-reviews-bunker-mode-moneygram-441396",
-    "snippet": "Vidor Gencel says AI catches chained exploits humans miss, and details the wallet's \"bunker mode,\" privacy mode, and MoneyGram USDC cash-out.",
-    "published_at": "2026-11-16T18:59:21+00:00",
+    "title": "Cathie Wood’s Ark Invest loads up on crypto stocks while selling $85 million in Nvidia",
+    "url": "https://www.theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+    "canonical_url": "https://theblock.co/news/business/2026-11-17-ark-invest-buys-crypto-stocks-sells-nvidia-442080",
+    "snippet": "Cathie Wood's Ark Invest bought additional shares in Block Inc., Circle, and Coinbase as the stocks traded lower on Monday.",
+    "published_at": "2026-11-17T06:35:02+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
-      "USDC"
+      "Circle"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "466a28ae-e635-5185-98e2-7f17bee6fc20",
+      "id": "b2f5291f-2973-5b4c-ab0c-304aef645428",
       "guidislink": false
     },
-    "score": 14,
+    "score": 34,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
@@ -653,7 +784,7 @@
       "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 10,
+      "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -669,35 +800,36 @@
     ]
   },
   {
-    "id": "222fff9225a62d6afaf661347a766f331006237e27557784980b5b13323a5ee6",
+    "id": "a6fbb3f94ba684b35c7f5bfcd3053583fd3bd20c8951a00d1b7d027b6f5541e1",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "Boris Johnson backs tokenization months after likening bitcoin to a ‘Ponzi scheme’",
-    "url": "https://www.theblock.co/news/regulation/2026-11-16-boris-johnson-backs-tokenization-months-after-bitcoin-to-ponzi-scheme-441368",
-    "canonical_url": "https://theblock.co/news/regulation/2026-11-16-boris-johnson-backs-tokenization-months-after-bitcoin-to-ponzi-scheme-441368",
-    "snippet": "Boris Johnson backed blockchain and tokenization at Solana Breakpoint but reiterated his concerns about crypto speculation.",
-    "published_at": "2026-11-16T16:49:23+00:00",
+    "feed_name": "decrypt",
+    "title": "Standard Life Chair Wants Tokenized Gilts to Open UK Government Bonds to Retail Savers",
+    "url": "https://decrypt.co/383434/standard-life-chair-wants-tokenized-gilts-to-open-uk-government-bonds-to-retail-savers",
+    "canonical_url": "https://decrypt.co/383434/standard-life-chair-wants-tokenized-gilts-to-open-uk-government-bonds-to-retail-savers",
+    "snippet": "Sir Nicholas Lyons told Solana's Breakpoint that tokenization should benefit ordinary investors, not just wholesale institutions.",
+    "published_at": "2026-11-17T15:30:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
-      "tokenization"
+      "tokenization",
+      "tokenized"
     ],
     "matched_topics": [
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "886eca0c-3626-5a09-93d9-f354f210d0a9",
+      "id": "https://decrypt.co/?p=383434",
       "guidislink": false
     },
-    "score": 14,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 10,
       "institution_bonus": 0,
@@ -716,17 +848,67 @@
     ]
   },
   {
-    "id": "613f13bb6ff892a4f3356233557f3798f37b25ae949aceb3bf72330af4c18290",
+    "id": "f960f71616f4155586584223b8e1eaec45491131979434ca3a9d7a6156d41352",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Lighter recovers $5M after $10M exploit linked to compromised API keys",
-    "url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit",
-    "snippet": "Lighter restored withdrawals after recovering approximately $5 million in USDC, while blockchain analysts traced $10.4 million in funds moved during the exploit.",
-    "published_at": "2026-11-16T14:19:50+00:00",
+    "feed_name": "coindesk",
+    "title": "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed",
+    "url": "https://www.coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+    "canonical_url": "https://coindesk.com/business/2026/11/17/hong-kong-swift-test-tokenized-deposits-as-banks-chase-stablecoin-style-speed",
+    "snippet": "",
+    "published_at": "2026-11-17T15:11:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "tokenized deposit",
+      "stablecoin",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "53a20762-3f35-4e63-a2dd-0a00d7627689",
+      "guidislink": false
+    },
+    "score": 20,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "4e486b1c4df621d91652b4f493eb34178ae23f10c4852dbb8ab224765fdde291",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Lighter reopens withdrawals after trader’s API key leak, returns about $5 million in USDC",
+    "url": "https://www.theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
+    "canonical_url": "https://theblock.co/news/defi/2026-11-17-lighter-reopens-withdrawals-after-traders-api-key-leak-returns-about-5-million-in-usdc-442113",
+    "snippet": "Lighter reopened deposits and withdrawals and said it returned about $5 million in USDC to the affected trader.",
+    "published_at": "2026-11-17T12:00:41+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -734,8 +916,8 @@
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/lighter-dex-pauses-withdrawals-10m-exploit",
-      "guidislink": true
+      "id": "2893a52a-5990-5142-a532-417f6d3640a5",
+      "guidislink": false
     },
     "score": 14,
     "score_breakdown": {
@@ -763,40 +945,82 @@
     ]
   },
   {
-    "id": "dcbd8286beec9bf01623d4e82d750d5a4982923eb0eb66dd8a0add9b1e2d4ace",
+    "id": "d33db55edcb2c1dcc9e94b0595f2461cb7752df53e629375535d32449254d66f",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "HKMA, Swift explore tokenized deposits for cross-border bank payments",
-    "url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments",
-    "snippet": "HKMA and Swift will explore linking Project Ensemble with Swift’s ledger for cross-border payments using tokenized deposits in multiple currencies.",
-    "published_at": "2026-11-16T12:54:51+00:00",
+    "feed_name": "decrypt",
+    "title": "'The Biggest Opportunity in Crypto Is Already Underway': Solana Bets Big on AI Agents",
+    "url": "https://decrypt.co/383417/the-biggest-opportunity-in-crypto-is-already-underway-solana-bets-big-on-ai-agents",
+    "canonical_url": "https://decrypt.co/383417/the-biggest-opportunity-in-crypto-is-already-underway-solana-bets-big-on-ai-agents",
+    "snippet": "The Solana Foundation's head of AI said agents now account for three-quarters of AI token use, and need blockchains to pay for things.",
+    "published_at": "2026-11-17T12:50:55+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "tokenized deposit",
-      "cross-border",
-      "tokenized"
-    ],
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
       "Tokenized funds & RWA"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/hkma-swift-tokenized-deposits-cross-border-payments",
-      "guidislink": true
+      "id": "https://decrypt.co/?p=383417",
+      "guidislink": false
     },
-    "score": 14,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "c1de5049c77ed5fc8677ed1f13fa6e0ea8ee0dd906c144ce6eacf05f4b3afc1c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Zelle stablecoin built for bank-to-bank transfers, Solana event reveals - Ledger Insights",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbG02U0tmYmZSV1hudjB5dzZ0ZkNQcVBBX250b08tU0hBTThlbk91N055cFAyMVphVHYydmxmU1JBN1I3c0ZZM09KSzFWVFY5QVVIVThscW13ejRiTUxObl83OUdQX1FFUDNyRXJ6b1E5NGYyTkxTZi1UV3pLemJsdF83Q0pJdDZGT1ZINXlqNFdHUWdDU3p1MlU1ckRiT29OQVRLVw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbG02U0tmYmZSV1hudjB5dzZ0ZkNQcVBBX250b08tU0hBTThlbk91N055cFAyMVphVHYydmxmU1JBN1I3c0ZZM09KSzFWVFY5QVVIVThscW13ejRiTUxObl83OUdQX1FFUDNyRXJ6b1E5NGYyTkxTZi1UV3pLemJsdF83Q0pJdDZGT1ZINXlqNFdHUWdDU3p1MlU1ckRiT29OQVRLVw?oc=5",
+    "snippet": "Zelle stablecoin built for bank-to-bank transfers, Solana event reveals Ledger Insights",
+    "published_at": "2026-11-17T12:31:59+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMipAFBVV95cUxQbG02U0tmYmZSV1hudjB5dzZ0ZkNQcVBBX250b08tU0hBTThlbk91N055cFAyMVphVHYydmxmU1JBN1I3c0ZZM09KSzFWVFY5QVVIVThscW13ejRiTUxObl83OUdQX1FFUDNyRXJ6b1E5NGYyTkxTZi1UV3pLemJsdF83Q0pJdDZGT1ZINXlqNFdHUWdDU3p1MlU1ckRiT29OQVRLVw",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
@@ -823,7 +1047,7 @@
     "snippet": "Malicious code served through the website testing platform replaced visitors' wallet addresses with the attacker's and skimmed cards.",
     "published_at": "2026-11-17T11:05:25+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "crypto wallet"
     ],
@@ -834,14 +1058,14 @@
       "id": "https://decrypt.co/?p=383414",
       "guidislink": false
     },
-    "score": 10,
+    "score": 4,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 0,
@@ -870,7 +1094,7 @@
     "snippet": "Grayscale Head of Research Zach Pandl said crypto still has strong fundamental demand, such as institutional adoption of stablecoins.",
     "published_at": "2026-11-17T07:39:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
@@ -879,55 +1103,6 @@
       "id": "d75c4a95-d761-55ca-af9c-4b2eebe3df6d",
       "guidislink": false
     },
-    "score": 10,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 10,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "de01fdf88ec37adb9e7d84f6d326ec91244795505a8e2485f051765523447131",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Zelle's Stablecoin Payments on Solana: What It Means - OneSafe",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aT2xCc1hYWXVZSVJXaFJ6TFZMVW51RUxmNlFGUzBOaGR3ZkgxUW9KMnpMdzNVcGNwUDY4eVVPTF85ZkdmWHNqR3ZIY3cwWWp0VURhN29tZ3VveGdLbks2c3B3Qkxna05fNnAtRm1FeVhGMWl5NjFnS3JaUnpySWc?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aT2xCc1hYWXVZSVJXaFJ6TFZMVW51RUxmNlFGUzBOaGR3ZkgxUW9KMnpMdzNVcGNwUDY4eVVPTF85ZkdmWHNqR3ZIY3cwWWp0VURhN29tZ3VveGdLbks2c3B3Qkxna05fNnAtRm1FeVhGMWl5NjFnS3JaUnpySWc?oc=5",
-    "snippet": "Zelle's Stablecoin Payments on Solana: What It Means OneSafe",
-    "published_at": "2026-11-17T03:05:34+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMif0FVX3lxTE5aT2xCc1hYWXVZSVJXaFJ6TFZMVW51RUxmNlFGUzBOaGR3ZkgxUW9KMnpMdzNVcGNwUDY4eVVPTF85ZkdmWHNqR3ZIY3cwWWp0VURhN29tZ3VveGdLbks2c3B3Qkxna05fNnAtRm1FeVhGMWl5NjFnS3JaUnpySWc",
-      "guidislink": false
-    },
     "score": 4,
     "score_breakdown": {
       "tier1": 0,
@@ -949,54 +1124,6 @@
     },
     "consensus_boost": 0,
     "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "81abd749339df8d75e6c786e117f6f07e5644245329c9aaac05bc5dba25b3461",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Zelle picks Solana for its ZelleUSD stablecoin and cross-border payments - MLQ.ai",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWhaUTU5QnhYelEzTlhxbWsyNnNhZkxPU0U4cWVRY3VqeDlJdmpKVmFpbWVQOW5SSlM5SDJfUG9Yb0FLSF9zc0J0X1VsQllyNHdhYzR2bGV1bEdweHZsLTJHZGt0OXZtbURNLUFPQ2FqTGoySDBwMlE3ZURFb0I1c1p6aThHMmVJT3R2ZWxPZFB5dWcyVmozWA?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVWhaUTU5QnhYelEzTlhxbWsyNnNhZkxPU0U4cWVRY3VqeDlJdmpKVmFpbWVQOW5SSlM5SDJfUG9Yb0FLSF9zc0J0X1VsQllyNHdhYzR2bGV1bEdweHZsLTJHZGt0OXZtbURNLUFPQ2FqTGoySDBwMlE3ZURFb0I1c1p6aThHMmVJT3R2ZWxPZFB5dWcyVmozWA?oc=5",
-    "snippet": "Zelle picks Solana for its ZelleUSD stablecoin and cross-border payments MLQ.ai",
-    "published_at": "2026-11-16T22:03:45+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
-    "matched_keywords": [
-      "stablecoin",
-      "cross-border"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "CBMimAFBVV95cUxPVWhaUTU5QnhYelEzTlhxbWsyNnNhZkxPU0U4cWVRY3VqeDlJdmpKVmFpbWVQOW5SSlM5SDJfUG9Yb0FLSF9zc0J0X1VsQllyNHdhYzR2bGV1bEdweHZsLTJHZGt0OXZtbURNLUFPQ2FqTGoySDBwMlE3ZURFb0I1c1p6aThHMmVJT3R2ZWxPZFB5dWcyVmozWA",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 2
-    },
-    "consensus_boost": 0,
-    "cluster_size": 2,
     "cluster_sources": [
       "Google News RSS"
     ]
@@ -1012,7 +1139,7 @@
     "snippet": "Tether said the deal could ease international payments in Brazil and open the door to USDT and Tether Gold integrations.",
     "published_at": "2026-11-17T10:20:37+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "USDT",
       "Tether"
@@ -1024,14 +1151,14 @@
       "id": "e4599475-c4ce-5ade-bd56-e4c3d825fdc0",
       "guidislink": false
     },
-    "score": 0,
+    "score": -6,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 0,
       "institution_bonus": 10,
@@ -1060,7 +1187,7 @@
     "snippet": "FalconX’s Joshua Lim says the Binance hack could push institutions to keep crypto off exchanges and change how large investors trade in 2027.",
     "published_at": "2026-11-16T22:19:41+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-17T11:47:54.609243+00:00",
+    "fetched_at": "2026-11-17T20:03:19.481141+00:00",
     "matched_keywords": [
       "custody"
     ],
