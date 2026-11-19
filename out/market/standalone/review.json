@@ -1,9 +1,37 @@
 [
   {
+    "id": "f19c21688f0c28cf65846dc7f1512a9e3ecc1ead",
+    "title": "THE BLOCK: The Monetary Authority of Singapore said it issued S$100 million ($77.5 million) of four-week tokenized MAS Bills on Nov. 6. The bills were issued natively on its Singapore Dollar Test Network and settled in w",
+    "link": "https://x.com/TheBlockCo/status/2123303934534230189#",
+    "score": 100,
+    "snippet": "THE BLOCK: The Monetary Authority of Singapore said it issued S$100 million ($77.5 million) of four-week tokenized MAS Bills on Nov. 6. The bills were issued natively on its Singapore Dollar Test Network and settled in wholesale CBDC. Five primary dealers (DBS, HSBC, OCBC, UOB, and Standard Chartere",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-19T06:34:42.243000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('settled')",
+    "matched": "settled",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
     "id": "f299b63a9085500a137fc048c91990a6e0c0ccf0",
     "title": "Senators: Treasury must ensure ‘equal footing’ for stablecoin issuers in GENIUS Act implementation",
     "link": "https://www.theblock.co/news/regulation/2026-11-18-senators-treasury-must-ensure-equal-footing-for-stablecoin-issuers-in-genius-act-implementation-443501",
-    "score": 80,
+    "score": 74,
     "snippet": "Senators are pressing Treasury Secretary Bessent to grant a safe harbor for stablecoin issuers operating under state regulatory frameworks.",
     "regions": [
       "US"
@@ -25,36 +53,6 @@
     "matched": null,
     "fulltext": true,
     "origin": "rss+tree",
-    "coins": []
-  },
-  {
-    "id": "898e7f47f8ebdef5ecfcd1783abd5f6547b1fd72",
-    "title": "Circle and DBS to launch 24/7 USDC transactions in Asia - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ3Q4SjRQUkkxRE16MlZhQkdwLUJtZXMtSDl1TExwc3kydlpGXzBUSFZHSmJKWHJTYWNBNktKeTQxNWZ3ZjR6RzIzUzJEcHlyUzFvRm0xRWgwTWptaUpGU3RFYVg1aF9hY1FMZElMWWdTT05NMTBDUGd1eFkwMDV1Rkg4WVU3dWwwRzZiaGFLXzBYdjA?oc=5",
-    "score": 74,
-    "snippet": "Circle and DBS to launch 24/7 USDC transactions in Asia Traders Union",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-18T07:07:09+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
     "coins": []
   },
   {
@@ -84,30 +82,90 @@
     ]
   },
   {
-    "id": "600881e2ebfe6bb0ea987e574fe228eeb0ba7b4e",
-    "title": "Onchain Derivatives Protocol Variational Raises $110 Million at a $1.5 Billion Valuation According to Bloomberg, Cayman Islands-based onchain derivatives protocol Variational raised $110 million at a $1.5 billion valuati",
-    "link": "https://x.com/WuBlockchain/status/2123063148597149698#",
-    "score": 69,
-    "snippet": "Onchain Derivatives Protocol Variational Raises $110 Million at a $1.5 Billion Valuation According to Bloomberg, Cayman Islands-based onchain derivatives protocol Variational raised $110 million at a $1.5 billion valuation in a round led by Bain Capital Crypto, with participation from Dragonfly Capi",
-    "regions": [],
-    "primary_region": null,
-    "category": "fundraising",
+    "id": "7945467926e6289d436de450c782e44c76ce707c",
+    "title": "Binance hackers stole 192 tokens across 11 networks, court docs show",
+    "link": "https://cointelegraph.com/news/binance-hackers-stole-192-tokens-across-11-networks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "score": 70,
+    "snippet": "Stablecoins accounted for at least $3.46 billion of the $6.3 billion stolen, while the hackers also took memecoins, tokenized gold and gaming tokens.",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "cointelegraph",
+    "source": "Google News RSS",
+    "published_at": "2026-11-19T05:09:45+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
+  },
+  {
+    "id": "1a1d7ce1f92117e91cd9b1439bc0e88e36b50618",
+    "title": "World Bank Group Partners with Citi and Circle on Stablecoin Payments - Fintech Singapore",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNElCUmluWHBaQ2lEcFlVcEhncUhsS1g2eG13S0xXTzc3LU1GMFFjOGtOYzA5Z0xEUVUtdzNsTXM1czZQVUI3M2V1TkJfRzZoRkExMUFMaVBDWXZpN21PV2RtN29LQlNibGlweVBkaVZBV3JNTl85LU1EcWRZek9za3J5dWF1bVM1MGdZ?oc=5",
+    "score": 65,
+    "snippet": "World Bank Group Partners with Citi and Circle on Stablecoin Payments Fintech Singapore",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-18T14:37:54.323000+00:00",
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-19T04:38:17+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('raises $110 million at a $1.5 billion')",
-    "matched": "raises $110 million at a $1.5 billion",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
+  },
+  {
+    "id": "1d3fef102f2e0a08650746ff4711108eb972c54b",
+    "title": "Standard Chartered, StraitsX, OCBC complete trial of tokenized deposit interoperability",
+    "link": "https://www.theblock.co/news/web3/2026-11-18-standard-chartered-straitsx-ocbc-tokenized-deposit-poc-442964",
+    "score": 65,
+    "snippet": "The companies said that unlocking the full potential of 'always-on' tokenized deposits requires interoperability across platforms.",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "theblock",
+    "source": "Google News RSS",
+    "published_at": "2026-11-19T02:30:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "WLD"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
     "id": "6d5dc301a85d85c759968673078970e40a906446",
@@ -138,34 +196,116 @@
     "coins": []
   },
   {
-    "id": "9dad854957bee96058adeef46ead67781b237e72",
-    "title": "OmenX announces $2 million in funding from Informed Ventures and launches on-demand 30-second Bitcoin predictions",
-    "link": "https://cointelegraph.com/news/omenx-announces-2-million-in-funding-from-informed-ventures-and-launches-on-demand-30-second-bitcoin-predictions",
-    "score": 64,
-    "snippet": "OmenX announces $2 million in funding from Informed Ventures and launches on-demand 30-second Bitcoin predictions",
+    "id": "fb02211fe188d24ac125ff635c004a8020eec1ca",
+    "title": "Binance gets $6.5 billion freezing order, CryptoQuant says bitcoin is in a 'value zone', and more",
+    "link": "https://www.theblock.co/newsletters/the-daily/2026-11-19-binance-gets-6-5-billion-freezing-order-cryptoquant-says-bitcoin-is-in-a-value-zone-and-more-443511",
+    "score": 60,
+    "snippet": "Binance gets $6.5 billion freezing order, CryptoQuant says bitcoin is in a 'value zone', and more",
     "regions": [
       "US"
     ],
     "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the block",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-19T06:03:09.056000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "BNB"
+    ]
+  },
+  {
+    "id": "494fc7e34cec2e2b428be3f4ca3f8b4f5456733d",
+    "title": "Bitcoin ETFs Shed $306 Million, Ether Funds Lose $39.8 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $306 million in net outflows on November 18, led by BlackRock's IBIT with $149 million. Spot Ethereum",
+    "link": "https://x.com/WuBlockchain/status/2123288724482216248#",
+    "score": 60,
+    "snippet": "Bitcoin ETFs Shed $306 Million, Ether Funds Lose $39.8 Million According to SoSoValue, U.S. spot Bitcoin ETFs recorded $306 million in net outflows on November 18, led by BlackRock's IBIT with $149 million. Spot Ethereum ETFs saw $39.83 million in net outflows, with BlackRock's ETHA posting the larg",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-19T05:34:15.882000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "IBIT",
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "5ef04b12234ed02abe765dfdf00950007a6c9e89",
+    "title": "Binance receives Abu Dhabi court order to 'freeze' assets after $6.3bn heist",
+    "link": "https://www.thenationalnews.com/business/money/2026/11/19/binance-receives-abu-dhabi-court-order-to-freeze-assets-after-63bn-heist",
+    "score": 60,
+    "snippet": "Binance receives Abu Dhabi court order to 'freeze' assets after $6.3bn heist",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the national",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-19T05:08:20.290000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
+  },
+  {
+    "id": "227bb1cc57e098c6d9546c86febbe7bbf2f130da",
+    "title": "Citigroup (C) Joins World Bank Pilot For USDC Development Payments - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOc1RHVmJ5RzVaTi1nNXhoakZJWFhmeGI3cnZ2S1NQYTJQMHdhQTIxRUl1TmFhUDY5dmlYOHRnM2RVVVdtd0lGNVVrN2c5Ymk2ZGdPRUVWSDZIbVFrSkl5X2xrNzJEcHJVR0x0aTNRWUU1N0J0VnNJY0JEUjNNb3g2RTBoNm9mdWhYdklZOU1aOUxTVEZ4X2YyM0s3VmNreTFpYUZrMjBWZHVFOVM4OGRyNXBGNFIzaHFaX3hyX9IBwgFBVV95cUxQRzN1V0tmWXdGZmhhbkZtdlFhUFB0MlFPbHRWNElvUW1saGQ0bnhVSVdZM1BLRTZ6NE5fMThzcUJJcDMyYU1qQjljZkpQS3Z6VWhoNS1EN09qODRKb1FrNFpQSUZpTldNbGJlNjgxUTI4eVU5UVpYREk0dGZpRHU5WXctMC02VWNvckJINmYwTGE2c0RLbzJCRkpSMzlTTWs3bkZyNDMyR0Q0TjgwRmk0QTN3aDdzT2lyV29iUTJyTloxQQ?oc=5",
+    "score": 59,
+    "snippet": "Citigroup (C) Joins World Bank Pilot For USDC Development Payments Simply Wall St",
+    "regions": [],
+    "primary_region": null,
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:cointelegraph",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-18T14:00:00.507000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launches')",
-    "matched": "launches",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-19T01:12:46+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "e35be370a071e8a80f67808c0be962fedec57cb2",
@@ -228,30 +368,30 @@
     ]
   },
   {
-    "id": "796bf38041e371306a263b2f2d8e586116c141ef",
-    "title": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: RESUME BASE TRADING NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP All 102 active nodes now run 3.21.5, which includes the Bifrost fix for Base's 200 ms block time. BASE ob",
-    "link": "https://discord.com/channels/838986635756044328/839001804812451873/1572755767432581193",
-    "score": 55,
-    "snippet": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: RESUME BASE TRADING NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP All 102 active nodes now run 3.21.5, which includes the Bifrost fix for Base's 200 ms block time. BASE observation is healthy (90 of 102 nodes at the same observed height), BASE outboun",
+    "id": "85b0ae3fe14af039d4e2046985442c6cb7d0164b",
+    "title": "USDC’s Direct Bank Cash Fell $1.88 Billion in Q3 - The Defiant",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3JVSkJ5ZE9wUVlHWk9HSmliUHhyTThWWkdtTlVzdll5UFJ2a0dOY0RzRGNLTTVndm1qZ3doNV9nNm1pS0R0Y2tmdUxvaVJpM2otbF82MjRCSkdja2dBQWJNNUM4Wmd5Ym5XbWhSeU9ScUhzQ21SakxmdlY0Q2I2TElIdWNESHdlUHdLQ2JrNXV4OFVPWW5XbXFPVEFhdw?oc=5",
+    "score": 54,
+    "snippet": "USDC’s Direct Bank Cash Fell $1.88 Billion in Q3 The Defiant",
     "regions": [],
     "primary_region": null,
-    "category": "product",
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:thorchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-18T23:29:58.311000+00:00",
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-18T17:22:12+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "RUNE"
-    ]
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "effaf9e932faff6ecf0880d8ae755194b8350e6a",
@@ -372,89 +512,6 @@
     "coins": [
       "HYPE"
     ]
-  },
-  {
-    "id": "20ebc401e8c885129e2f16e4a3a39acdc9efcd9e",
-    "title": "Hyperliquid Rival Hits $1.5 Billion Valuation as Perps Boom",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/hyperliquid-rival-hits-1-5-billion-valuation-as-perps-boom",
-    "score": 44,
-    "snippet": "Hyperliquid Rival Hits $1.5 Billion Valuation as Perps Boom",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:bloomberg",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-18T14:13:16.348000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "HYPE"
-    ]
-  },
-  {
-    "id": "713ba1640f80397c782353429c286f3205c4de62",
-    "title": "DBS and Circle Bring 24/7 USDC Settlement to Institutions in Asia - Bitcoin News",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNME9qUjhFX1ZZNHl1ZGEzYkV0Si1jREdfUExIbndTRURNQ0kzeG1fVFNPeHRuMVFIY2N3RlFOUjgwQTVzMkxKYmtZSlQ4c0ZZcDBIVVk5aTFPajI2eDc2QUR2dFM0a1Q2dnJULWxuRC02YTVDTnZnX2V0T0hIUjdiQTF5cWdmTGppQzY0UFZTbUtaQzQ?oc=5",
-    "score": 40,
-    "snippet": "DBS and Circle Bring 24/7 USDC Settlement to Institutions in Asia Bitcoin News",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-18T21:15:00+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('settlement')",
-    "matched": "settlement",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
-    "id": "112a853c6f5e91f46a92b8e26637521527fd7b19",
-    "title": "World Bank Taps Circle and Citi to Expand Stablecoin Use - PYMNTS.com",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNb3FoZXU3V2taOVpYMzhRSzFXNnNQLTM2Mmt4YzU1RHhPa0VLcHF0RXh2OV9LbFdWcFRWRVhEd3Zld2hZdFZIRGh4bGJJZXNGYzFSUzFHd2c5d1NTN21VYWFsdXNZZ2J5ZktRX2U4SHlIZDhmWGtkYzFKbUhTOElwVjJ4Q3ZVQXh5WVJTQ1VZdTR2Y1MyaDBHeGRYeng?oc=5",
-    "score": 40,
-    "snippet": "World Bank Taps Circle and Citi to Expand Stablecoin Use PYMNTS.com",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "institutional_crypto_banks",
-    "source": "Google News RSS",
-    "published_at": "2026-11-18T20:43:34+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('taps')",
-    "matched": "taps",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   },
   {
     "id": "8c96ae44c04762a66d98bc3c3e4322d0e5c8c437",
