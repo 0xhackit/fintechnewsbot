@@ -56,10 +56,37 @@
     ]
   },
   {
+    "id": "dd06e7111ecc8bb2320ae8013e01f3a29343b22b",
+    "title": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: HALT CHURNING NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP The last churn left most BTC (340 BTC at block 28770680) in the 6 Retiring vaults while the new Active vaults a",
+    "link": "https://discord.com/channels/838986635756044328/839001804812451873/1573775643462602885",
+    "score": 55,
+    "snippet": "THORNODE ❗ MAINNET ❗ MIMIR VOTE: HALT CHURNING NETWORK: MAINNET TYPE: Coordinated (mimir vote) URGENCY: ASAP The last churn left most BTC (340 BTC at block 28770680) in the 6 Retiring vaults while the new Active vaults are underfunded. That caused a BTC deficit auto-halt at 28770238. No funds were l",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:thorchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-21T19:02:35.866000+00:00",
+    "verdict": "keep",
+    "axis": "regulatory_action",
+    "reason": "concrete regulatory action ('halt')",
+    "matched": "halt",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "RUNE",
+      "BTC"
+    ]
+  },
+  {
     "id": "c0caa2dce68fb63d7c155177ac7222ba66cf1762",
     "title": "'Dump It Now'—Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
     "link": "https://www.forbes.com/sites/digital-assets/2026/11/21/we-have-a-real-issue-sudden-bitcoin-plunge-leaves-crypto-braced-for-a-massive-price-crash",
-    "score": 60,
+    "score": 54,
     "snippet": "'Dump It Now'—Panic Suddenly Sweeps Bitcoin As Crypto Braces For Massive $2 Trillion Weekend Price Crash",
     "regions": [],
     "primary_region": null,
@@ -79,37 +106,6 @@
     "origin": "tree",
     "coins": [
       "BTC"
-    ]
-  },
-  {
-    "id": "b603a16c4c115c32594a0a23163476ddca61a83d",
-    "title": "CIP-0129, read from the builder's side. Production traffic on every MainNet synchronizer will burn Canton Coin, and any team will be able to launch its own synchronizer without negotiating terms. A walkthrough of the ten",
-    "link": "https://x.com/CantonNetwork/status/2124146563819921492#",
-    "score": 50,
-    "snippet": "CIP-0129, read from the builder's side. Production traffic on every MainNet synchronizer will burn Canton Coin, and any team will be able to launch its own synchronizer without negotiating terms. A walkthrough of the tentative 2027 rollout and how to plan an app around it.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:cantonnetwork",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-21T14:23:00.560000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "CC",
-      "ONE"
     ]
   },
   {
@@ -166,5 +162,34 @@
     "coins": [
       "BTC"
     ]
+  },
+  {
+    "id": "cbf8d8fe49b3328214ac5f1c2b97761472229784",
+    "title": "Chainalysis reports 55% surge in China-linked stablecoin payments after US AI launches - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPV0Q1STZOVllEWmZRZlVtNF9FbDU4Sk0zNUxCOFpfOWYwcEVYcE1oYjY4V05LRzBjR3dneFJ0bUQ3VHVwN1V1NmdWNkFhZVpwZ2FCdzdwWjBPYlM2XzVzZFpHczJlZjZkZWU1eFVRZ2E2WUszODRtZTlYZVpJV2podw?oc=5",
+    "score": 35,
+    "snippet": "Chainalysis reports 55% surge in China-linked stablecoin payments after US AI launches Crypto Briefing",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-21T15:35:45+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
