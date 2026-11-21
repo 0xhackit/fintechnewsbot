@@ -1,9 +1,65 @@
 [
   {
+    "id": "2f9369a83747ffa30db333b504bb51f0a2574456",
+    "title": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen According to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been f",
+    "link": "https://x.com/WuBlockchain/status/2123960315440500768#",
+    "score": 75,
+    "snippet": "Investigation: Only $32M Recovered Three Weeks After $6.4B Binance Hack, $2.82B Frozen According to blockchain investigator SomaXBT, three weeks after the $6.4 billion Binance hack, approximately $2.82 billion has been frozen, $2.67 billion remains under attacker control, and only $32 million has be",
+    "regions": [],
+    "primary_region": null,
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-21T02:02:55.653000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "RUNE",
+      "BNB"
+    ]
+  },
+  {
+    "id": "56a48f7fd4c1361e17d9d271334815b1575c0e81",
+    "title": "Sonic Audit Reveals S Token Supply Is 48% Higher Than Initially Announced Sonic disclosed that its total S token supply stands at 4.70 billion, approximately 48% above the initially announced 3.175 billion. An independen",
+    "link": "https://x.com/WuBlockchain/status/2123944957031731448#",
+    "score": 75,
+    "snippet": "Sonic Audit Reveals S Token Supply Is 48% Higher Than Initially Announced Sonic disclosed that its total S token supply stands at 4.70 billion, approximately 48% above the initially announced 3.175 billion. An independent audit found that when 2.12 billion native FTM tokens were minted on Fantom Ope",
+    "regions": [
+      "EU"
+    ],
+    "primary_region": "EU",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-21T01:01:53.965000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('minted')",
+    "matched": "minted",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "S"
+    ]
+  },
+  {
     "id": "28e51c1fbcfc611d49769d15b1e476ba0f737053",
     "title": "NEW: Prividium is entering the DLT Pilot Program of the Brazilian Securities and Exchange Commission (CVM). Matter Labs is participating, through ABToken, by applying Prividium to the trading of tokenized fund quotas and",
     "link": "https://x.com/zksync/status/2123800413694566867#",
-    "score": 75,
+    "score": 69,
     "snippet": "NEW: Prividium is entering the DLT Pilot Program of the Brazilian Securities and Exchange Commission (CVM). Matter Labs is participating, through ABToken, by applying Prividium to the trading of tokenized fund quotas and marking an important step toward a digital capital market in Brazil.",
     "regions": [
       "LatAm"
@@ -24,44 +80,17 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ZK"
     ]
   },
   {
-    "id": "89a7e790c40907f7225bcc8fe4715a10c532286b",
-    "title": "Tether Insiders To Launch Gold-Backed Crypto Fund Targeting 4% Yield - The Crypto Times",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlQwQzVCNjdYcTFJY3dIREt1WW5JdXdob1dQMVpkTzR5SHdvMGNjazRZa2dpWE8xNEVXQ29RZjZNR1pnUWViQWNyRnNtYWc3WnVZQzFUa1VsVm5XMVZ0Wm5yelpSRF84OUhRSVlORWw2eG5senJpMGhpRmlqQXZaeUtET1plODNHT0lsOWRLdlVzT245OFRpV2RqWmpYSmg5M2ZMczI5aDBKUQ?oc=5",
-    "score": 70,
-    "snippet": "Tether Insiders To Launch Gold-Backed Crypto Fund Targeting 4% Yield The Crypto Times",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "stablecoin_adoption",
-    "source": "Google News RSS",
-    "published_at": "2026-11-20T20:21:48+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
-  },
-  {
     "id": "02c3d749c57e260e25cda6daca8f6658a5335377",
     "title": "THE BLOCK: At least $149 million in bitcoin linked to the North Korea-attributed Binance theft has moved through coinjoins, roughly 90% of it since Tuesday, according to Elliptic. About $70 million in stolen $ETH was als",
     "link": "https://x.com/TheBlockCo/status/2123816901042372697#",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: At least $149 million in bitcoin linked to the North Korea-attributed Binance theft has moved through coinjoins, roughly 90% of it since Tuesday, according to Elliptic. About $70 million in stolen $ETH was also swapped for $BTC during that period.",
     "regions": [],
     "primary_region": null,
@@ -77,7 +106,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "ETH",
@@ -107,7 +136,7 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CTR"
@@ -135,45 +164,45 @@
     "axis": "market_event",
     "reason": "concrete market event ('partners')",
     "matched": "partners",
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "CTR"
     ]
   },
   {
-    "id": "b62da16840052076db4a03fe2cfc6ef049af1994",
-    "title": "Avalanche is the only network that has the flexibility to build what @NYSE needed. @JohnNahas84 joined @Tyler_Did_It and @farokho explain Avalanche’s focus on enabling institutions to launch their own network around thei",
-    "link": "https://discord.com/channels/578992315641626624/1277368718699270234/1573293654892875909",
-    "score": 64,
-    "snippet": "Avalanche is the only network that has the flexibility to build what @NYSE needed. @JohnNahas84 joined @Tyler_Did_It and @farokho explain Avalanche’s focus on enabling institutions to launch their own network around their business requirements. https://x.com/avax/status/2123497296440734029",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
+    "id": "0d1e90e599df56934a838e198a4b4a452ff5660f",
+    "title": "Maybank executes Malaysia’s first Tokenised MGS transaction",
+    "link": "https://www.finextra.com/pressarticle/111748/maybank-executes-malaysias-first-tokenised-mgs-transaction?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "score": 59,
+    "snippet": "Maybank has successfully completed Malaysia’s first tokenised Malaysian Government Securities (MGS) transaction as part of a pilot with its insurance arm, Etiqa Life Insurance Berhad (Etiqa), marking a key milestone for Maybank’s initiative under Bank Negara Malaysia’s Digital Asset Innovation Hub (",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "other",
+    "source_tier": "B",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:avax",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-20T11:07:20.481000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "AVAX"
-    ]
+    "feed_name": "finextra",
+    "source": "Google News RSS",
+    "published_at": "2026-11-20T13:18:00+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "4bd42ebb8ae8852d1125caa8ac013250af1c4cd4",
     "title": "Earliest public entry point for the most valuable companies on earth being $1-2 trillion is mega cooked Good news is DeFi has been building the solution for the past 8 years",
     "link": "https://x.com/haydenzadams/status/2123821558858752057#",
-    "score": 60,
+    "score": 54,
     "snippet": "Earliest public entry point for the most valuable companies on earth being $1-2 trillion is mega cooked Good news is DeFi has been building the solution for the past 8 years",
     "regions": [],
     "primary_region": null,
@@ -189,7 +218,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "UNI"
@@ -201,8 +230,10 @@
     "link": "https://x.com/SkyEcosystem/status/2123791466216534264#",
     "score": 54,
     "snippet": "Sky Protocol Shows Resilience Through Record $2B Day as Review Finds CoinDesk Report Misleading Sky Protocol users exchanged more than $2 billion of USDS for USDC through the Peg Stability Module (PSM) on November 19, marking one of the largest single days of outflows from the PSM to date. The PSM c",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -217,7 +248,7 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "USDS",
@@ -228,64 +259,40 @@
     ]
   },
   {
-    "id": "d8491b26bcf7e9f4acd586528c2430768d6106d1",
-    "title": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
-    "link": "https://www.theblock.co/news/markets/2026-11-20-binance-hack-laundering-ramps-up-149-million-bitcoin-mixed-coinjoins-elliptic-444758",
+    "id": "24736456dd0bc8ab6f5a300e1e1d8bf8bc726217",
+    "title": "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment",
+    "link": "https://www.coindesk.com/business/2026/11/20/fairmint-plans-tokenized-stock-venue-on-canton-ethereum-under-sec-experiment",
     "score": 50,
-    "snippet": "Binance hack laundering ramps up as $149 million in bitcoin mixed through coinjoins: Elliptic",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
+    "snippet": "",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "regulation",
     "source_tier": "B",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:the block",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-20T18:21:48.808000+00:00",
+    "consensus": 2,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "coindesk",
+    "source": "Google News RSS",
+    "published_at": "2026-11-20T22:05:31+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "BNB"
-    ]
+    "fulltext": true,
+    "origin": "rss+tree",
+    "coins": []
   },
   {
-    "id": "2f442b696289050785f487d77be255aa459c65bf",
-    "title": "Initia Foundation has approved funding to cover verified bridge escrow shortfalls from the November 9th security incident. The approved limits are 3.67M INIT from its holdings and $330K in total for other assets. No INIT",
-    "link": "https://x.com/initiaFDN/status/2123794554948378825#",
-    "score": 50,
-    "snippet": "Initia Foundation has approved funding to cover verified bridge escrow shortfalls from the November 9th security incident. The approved limits are 3.67M INIT from its holdings and $330K in total for other assets. No INIT will be sold to fund this. There is no claim process and users do not need to t",
-    "regions": [],
-    "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [],
-    "feed_name": "tree:x:initiafdn",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-20T15:04:15.087000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('approved')",
-    "matched": "approved",
-    "fulltext": false,
-    "origin": "tree",
-    "coins": [
-      "INIT"
-    ]
-  },
-  {
-    "id": "cc98d3d576b84c461dc84c15c9f1c5a17f85aa4a",
-    "title": "MiCA-Licensed ZBX and BoomFi Power HOPPA’s Stablecoin Exchange Launch - The Manila Times",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeTZxWHo5YXdCdXVvTUNKVUpDVm92OEpOU1F4WnR3enpMaFFyQ1d1SmR2WG9EWWpQdHdyZTJzZVZ4bTZzczI2ZElzMU12bmtMc1pkVHoxYnUxUGJlNl9DalZzcEF4SENWNkRRNWtpejY4UkliM05ORUFkcmdLUTE4TmNYSndzU1lUNUROQkdoTWFPUExYMktRNnVRdUJBZy1TUE40a0p4bGYxTk1ab0VlV1lhWG0xNUxpeXBiZllvV3I3U2tIeEY2b1I0UUVPaXNsbEtsZzg2ZzBYd9IB3wFBVV95cUxNWGtpd3FYUWIyX3RhOXdpb3B5WU9OaU5QLW5scG40ZUEtSDlhaFdGVjZZRjJ1WkloMXpUZHo4T2V4d05rTVRVLTBJdFRhYW5QZnhpemJ3ekN5TWx6Zk1yNnVGRjF5ZEV2OWtjOGVyVzRuaUFua0pOWGJzTng1NDJycTZBel95NjdGdXJmNE1GT25nQjVDLTA0X012cXRMMy1pYU5ST0xJQXdmME9YSl93MTAzZUdMelVFaDNEV3ZzRk9HU0U4d0w1dFhWR0Vvekx6UGw3TjlFMDNueG9ZQ3lR?oc=5",
+    "id": "92987f7444691367353d6c538a23295096945e5c",
+    "title": "MiCA-Licensed ZBX and BoomFi Power HOPPA’s Stablecoin Exchange Launch - GlobeNewswire",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOXzRfRXk4ZTJmTE1LcmUwR0M3UXU2QnpQY0VqVUZlVkdBWUJ3Ym1idi1WRzl6dndYRFpuMHpXSWRRazBEY2hTNE9ZbmtPWjZzV1ZBZU1BT3lCbUhVNUlXajRWMUJ2TVl4NGpVQUhBd1VEN1BnQjJTZU5VaTIyY1VvOTVXX2tBdXdROEQ3bWlYdFlWUFZjQkI1NUZMQ0xUUXdDT3FfNDA5dHFQWUFJUnRJd0FQeTVTT2JFclFjRkdMS1NieC1Xa3cyTHg1dENLQ1A2WHg0T2J4QUQ?oc=5",
     "score": 44,
-    "snippet": "MiCA-Licensed ZBX and BoomFi Power HOPPA’s Stablecoin Exchange Launch The Manila Times",
+    "snippet": "MiCA-Licensed ZBX and BoomFi Power HOPPA’s Stablecoin Exchange Launch GlobeNewswire",
     "regions": [
       "EU"
     ],
@@ -300,7 +307,7 @@
     ],
     "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-11-20T04:12:14+00:00",
+    "published_at": "2026-11-20T04:02:00+00:00",
     "verdict": "keep",
     "axis": "regulatory_action",
     "reason": "concrete regulatory action ('licensed')",
@@ -315,8 +322,11 @@
     "link": "https://www.crowdfundinsider.com/2026/11/323786-spot-bitcoin-etfs-slide-to-3-month-low-as-2026-redemptions-exceed-2-5-billion",
     "score": 44,
     "snippet": "Spot Bitcoin ETFs Slide to 3-Month Low as 2026 Redemptions Exceed $2.5 Billion",
-    "regions": [],
-    "primary_region": null,
+    "regions": [
+      "US",
+      "EU"
+    ],
+    "primary_region": "US",
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
@@ -329,38 +339,10 @@
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": false,
+    "fulltext": true,
     "origin": "tree",
     "coins": [
       "BTC"
     ]
-  },
-  {
-    "id": "a4e3efdfc7d0abe82e9764fbcd1b538135246483",
-    "title": "DBS bets it can lose the deposit and keep the client",
-    "link": "https://cointelegraph.com/news/dbs-bets-it-can-lose-the-deposit-and-keep-the-client?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "score": 40,
-    "snippet": "The Singapore bank earned a record $208 million in transaction services fees in the third quarter — now it’s helping companies turn deposits into stablecoins they can spend without it.",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "other",
-    "source_tier": "B",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "cointelegraph",
-    "source": "Google News RSS",
-    "published_at": "2026-11-20T15:32:30+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": false,
-    "origin": "rss",
-    "coins": []
   }
 ]
