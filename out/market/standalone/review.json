@@ -1,9 +1,98 @@
 [
   {
+    "id": "5e330b392e625dbe9f78efeeecbadbbfcdd3322a",
+    "title": "THE BLOCK: OCBC, a major bank in Singapore, has launched a pilot for cross-border business-to-business stablecoin payments with StraitsX. The trial connects stablecoin settlement with participating OCBC clients' existing",
+    "link": "https://x.com/TheBlockCo/status/2124789558743347483#",
+    "score": 100,
+    "snippet": "THE BLOCK: OCBC, a major bank in Singapore, has launched a pilot for cross-border business-to-business stablecoin payments with StraitsX. The trial connects stablecoin settlement with participating OCBC clients' existing bank accounts. The setup uses StraitsX's infrastructure for onchain collection ",
+    "regions": [
+      "APAC"
+    ],
+    "primary_region": "APAC",
+    "category": "regulation",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-23T08:58:02.538000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "8e62c2d14654a80cc614a1870473035c4c28b87c",
+    "title": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join OKXICE, the tokenized securities platform jointly operated by ICE and OKX, is set to launch despite 56 of t",
+    "link": "https://x.com/WuBlockchain/status/2124839404611194916#",
+    "score": 80,
+    "snippet": "CNBC: 90% of Initial OKXICE Stock Issuers Objected to Tokenization, but Platform Moves Ahead as New Issuers Join OKXICE, the tokenized securities platform jointly operated by ICE and OKX, is set to launch despite 56 of the 62 companies on its initial roster objecting to having their shares tokenized",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-23T12:16:06.786000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "OKB"
+    ]
+  },
+  {
+    "id": "f750074f8bd821431cbfbfa9bb36b48069206137",
+    "title": "THE BLOCK: Visa Crypto Labs launched an experimental agent wallet enabling US users with eligible Visa cards to earn OUSD via AI agents. The wallet uses Visa cards to verify agents and is built on Tempo and the Machine P",
+    "link": "https://x.com/TheBlockCo/status/2124786340147642414#",
+    "score": 75,
+    "snippet": "THE BLOCK: Visa Crypto Labs launched an experimental agent wallet enabling US users with eligible Visa cards to earn OUSD via AI agents. The wallet uses Visa cards to verify agents and is built on Tempo and the Machine Payments Protocol.",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-23T08:45:15.228000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "OGN"
+    ]
+  },
+  {
     "id": "250db2d428d806728a9bd8b6edc1b28c55ad7579",
     "title": "THE BLOCK: Spot bitcoin ETFs shed $1.79 billion last week, recording the largest weekly net outflow since June. This marks the fourth consecutive week of negative flows. Spot ether ETFs also reported $314 million in net",
     "link": "https://x.com/TheBlockCo/status/2124695842703761800#",
-    "score": 70,
+    "score": 64,
     "snippet": "THE BLOCK: Spot bitcoin ETFs shed $1.79 billion last week, recording the largest weekly net outflow since June. This marks the fourth consecutive week of negative flows. Spot ether ETFs also reported $314 million in net outflows last week. bitcoin:native ethereum:native",
     "regions": [],
     "primary_region": null,
@@ -57,6 +146,33 @@
       "INJ",
       "USDC",
       "DYDX"
+    ]
+  },
+  {
+    "id": "34a7b715d31f73d4dbcbefbe0e179a36548de762",
+    "title": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History CryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4",
+    "link": "https://x.com/WuBlockchain/status/2124769211507757462#",
+    "score": 60,
+    "snippet": "Darkfost: Binance Bitcoin Open Interest Drops Nearly 40%, Marking the Largest Dollar-Denominated Deleveraging in Bitcoin's History CryptoQuant analyst Darkfost said Binance's Bitcoin open interest has fallen by nearly $4.5 billion over the past year and remains down nearly 40%. In July, the decline ",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-23T07:37:11.651000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "BNB"
     ]
   },
   {
@@ -116,10 +232,38 @@
     ]
   },
   {
+    "id": "f52490e31ebe5755cceffddd2b9dc147b46e8c83",
+    "title": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become 'structural': analysts",
+    "link": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
+    "score": 44,
+    "snippet": "Spot bitcoin ETFs shed $1.8 billion in past week as outflows become 'structural': analysts",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:the block",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-23T05:46:36.746000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC"
+    ]
+  },
+  {
     "id": "9a9ddc5e258f0f3ede255359948f22fcb6960fa7",
     "title": "Sky Protocol Handles Over $2 Billion in One-Day Stablecoin Redemptions While Maintaining Dollar Peg and Contesting Illicit Activity",
     "link": "https://www.crowdfundinsider.com/2026/11/324066-sky-protocol-handles-over-2-billion-in-one-day-stablecoin-redemptions-while-maintaining-dollar-peg-and-contesting-illicit-activity-allegations",
-    "score": 50,
+    "score": 44,
     "snippet": "Sky Protocol Handles Over $2 Billion in One-Day Stablecoin Redemptions While Maintaining Dollar Peg and Contesting Illicit Activity",
     "regions": [
       "US"
@@ -144,41 +288,15 @@
     "coins": []
   },
   {
-    "id": "5dc1d5ff22b65967c890d2e2fb475d108327b43b",
-    "title": "Binance lost $6.3bn to hackers. So how secure is blockchain?",
-    "link": "https://www.thenationalnews.com/future/technology/2026/11/22/binance-lost-63bn-to-hackers-so-how-secure-is-blockchain",
-    "score": 45,
-    "snippet": "Binance lost $6.3bn to hackers. So how secure is blockchain?",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:the national",
-    "source": "TreeOfAlpha/Blogs",
-    "published_at": "2026-11-22T09:09:49.965000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "8e24a0aacda6417363a3d98b8fcfdf1c4f39c43d",
-    "title": "World Bank Commissions Citi & Circle for Stablecoin Development Payments - East & Partners",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd0hOV3g2WGtTS2UtQS1vWi1aSWhGQ0E1eE16dUIwUG93bV9XVVI1UDZpbENlZE1FeFBSWVRka0YtNVpBTmRocWFPNEZqcTFmdlkzUFF3MVQ2MGE1eEpZOEhWelJhX053WE5YdGlSRHRzelpjSXFqQ3h2VjJuU09tbTJrU2lkbEQxcFJJc2FDcWxQb0NvWnlmYlFRWnJHZjZEaGN4bmg5RQ?oc=5",
-    "score": 40,
-    "snippet": "World Bank Commissions Citi & Circle for Stablecoin Development Payments East & Partners",
+    "id": "c2cedc927b12fc81c996543032b2b64ccd4e323d",
+    "title": "StraitsX and OCBC Pilot Stablecoin-Based Cross-Border B2B Payments - Fintech Singapore",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHF4eTI3UVpJVHRmOURicTJ5VjZRSnBHUkRFbDhDRUFpSzZoSDJYSzhfeHRfc3F0TVRWaWZNb0l5U056Tjh1OEo4YVFERVN0Uy1UMlNqR1RRbFVoaTBJaXBkZDdBU0V6SmFXclZMczd2UmQ0OVUzeG1NRGVveHh5MDhKRGsxOWxTdjhoVVJ3?oc=5",
+    "score": 35,
+    "snippet": "StraitsX and OCBC Pilot Stablecoin-Based Cross-Border B2B Payments Fintech Singapore",
     "regions": [
-      "US"
+      "APAC"
     ],
-    "primary_region": "US",
+    "primary_region": "APAC",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -187,13 +305,13 @@
       "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "institutional_crypto_banks",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-11-22T23:42:13+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('partners')",
-    "matched": "partners",
+    "published_at": "2026-11-23T04:27:59+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": false,
     "origin": "rss",
     "coins": []
