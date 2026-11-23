@@ -1,5 +1,32 @@
 [
   {
+    "id": "250db2d428d806728a9bd8b6edc1b28c55ad7579",
+    "title": "THE BLOCK: Spot bitcoin ETFs shed $1.79 billion last week, recording the largest weekly net outflow since June. This marks the fourth consecutive week of negative flows. Spot ether ETFs also reported $314 million in net",
+    "link": "https://x.com/TheBlockCo/status/2124695842703761800#",
+    "score": 70,
+    "snippet": "THE BLOCK: Spot bitcoin ETFs shed $1.79 billion last week, recording the largest weekly net outflow since June. This marks the fourth consecutive week of negative flows. Spot ether ETFs also reported $314 million in net outflows last week. bitcoin:native ethereum:native",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-23T02:45:38.955000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
     "id": "721ebf3fa8f139012809efe9ac942df210a62864",
     "title": "Over $1.5 billion in real estate mortgages are now tokenized on Injective after NYSE-listed Pentiv added $524.8 million in mortgage records in a single day, making Injective the largest blockchain for tokenized real esta",
     "link": "https://x.com/injective/status/2124507075220832654#",
@@ -36,7 +63,7 @@
     "id": "f28df1619aae6feef859f9bcfffac94a08351bc7",
     "title": "The Market is down more than 6 Trillion Dollars since the Democrats' rather strange \"win\" on November 3rd. NASDAQ, by itself, is down 20%. This is 100% due to the fact that the Democrats are \"BAD\" due to their Anti Growt",
     "link": "https://truthsocial.com/@realDonaldTrump/117661238591305263",
-    "score": 60,
+    "score": 54,
     "snippet": "The Market is down more than 6 Trillion Dollars since the Democrats' rather strange \"win\" on November 3rd. NASDAQ, by itself, is down 20%. This is 100% due to the fact that the Democrats are \"BAD\" due to their Anti Growth, and Retribution Only, Policies, and worse. If they don't change, FAST, it wil",
     "regions": [],
     "primary_region": null,
@@ -141,5 +168,34 @@
     "coins": [
       "BNB"
     ]
+  },
+  {
+    "id": "8e24a0aacda6417363a3d98b8fcfdf1c4f39c43d",
+    "title": "World Bank Commissions Citi & Circle for Stablecoin Development Payments - East & Partners",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd0hOV3g2WGtTS2UtQS1vWi1aSWhGQ0E1eE16dUIwUG93bV9XVVI1UDZpbENlZE1FeFBSWVRka0YtNVpBTmRocWFPNEZqcTFmdlkzUFF3MVQ2MGE1eEpZOEhWelJhX053WE5YdGlSRHRzelpjSXFqQ3h2VjJuU09tbTJrU2lkbEQxcFJJc2FDcWxQb0NvWnlmYlFRWnJHZjZEaGN4bmg5RQ?oc=5",
+    "score": 40,
+    "snippet": "World Bank Commissions Citi & Circle for Stablecoin Development Payments East & Partners",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "institutional_crypto_banks",
+    "source": "Google News RSS",
+    "published_at": "2026-11-22T23:42:13+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('partners')",
+    "matched": "partners",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   }
 ]
