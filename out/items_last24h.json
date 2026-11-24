@@ -1,41 +1,187 @@
 [
   {
-    "id": "9b9225cd3de0df7af355bc261653d1b3b37a261bd7a591316baef539199b1d3a",
+    "id": "c68b312d42301be7ad068cd7fab03b3731befcfb86fc9a5616fb90a143d1314c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "cointelegraph",
-    "title": "ECB to let banks pledge more tokenized securities as collateral",
-    "url": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities",
-    "snippet": "The ECB aims to start accepting securities issued on platforms licensed under the EU’s distributed ledger pilot program in June 2027.",
-    "published_at": "2026-11-23T11:49:38+00:00",
+    "title": "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong",
+    "url": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-fund-stablecoins-hong-kong?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-fund-stablecoins-hong-kong",
+    "snippet": "The tokenized fund launched with approximately $100 million in assets, with Standard Chartered and Ant International participating as seed investors.",
+    "published_at": "2026-11-24T18:07:22+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
+      "tokenized fund",
+      "money market fund",
       "tokenized",
-      "pilot"
+      "launches",
+      "launched"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/blackrock-launches-tokenized-money-market-fund-stablecoins-hong-kong",
+      "guidislink": true
+    },
+    "score": 105,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 30,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "0e8111a7c44ab8e9426fb890a2decf78d95491120ad3f04eda3d7c9d6cd9dd68",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "BlackRock opens tokenized money market fund with $100 million in assets to Hong Kong investors",
+    "url": "https://www.theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524",
+    "canonical_url": "https://theblock.co/news/business/2026-11-24-blackrock-opens-tokenized-money-market-fund-with-100-million-in-assets-to-hong-kong-investors-445524",
+    "snippet": "BlackRock has launched and opened its HKD Digital Liquidity Fund to retail and institutional investors in Hong Kong.",
+    "published_at": "2026-11-24T13:17:35+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "money market fund",
+      "tokenized",
+      "launched"
     ],
     "matched_topics": [
       "Tokenized funds & RWA",
       "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/ecb-expands-eurosystem-collateral-tokenized-securities",
-      "guidislink": true
+      "id": "163931eb-75e4-5469-9e69-2e1eea107c97",
+      "guidislink": false
     },
-    "score": 119,
+    "score": 89,
     "score_breakdown": {
       "tier1": 1,
-      "tier2": 2,
+      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 45,
+      "launch_score": 35,
+      "institution_bonus": 20,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "144bced8a06be2d167d4d23f1ef2f63a3c26e71c7cfe04acd447e49fa1855ebf",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "What the CFTC’s New Crypto Reserves Guidance Actually Allows—And What It Doesn’t",
+    "url": "https://decrypt.co/383906/cftc-new-crypto-reserves-guidance-actually-allows-what-it-doesnt",
+    "canonical_url": "https://decrypt.co/383906/cftc-new-crypto-reserves-guidance-actually-allows-what-it-doesnt",
+    "snippet": "Staff guidance lets swap venues and clearinghouses count Bitcoin, Ethereum, and stablecoins toward their 12-month operating-cost buffer. Here's the catch.",
+    "published_at": "2026-11-24T18:55:27+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "reserves"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=383906",
+      "guidislink": false
+    },
+    "score": 80,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
       "institution_bonus": 30,
       "financial_bonus": 0,
       "regulatory_bonus": 40,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "79dc9e95ab40a0f3d027ba2bb03532b2cfb7a4625bed3f7555c3744ed7e34ef9",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "ft_markets",
+    "title": "Ex-Petrofac executives accused of paying millions to win $3.4bn of contracts",
+    "url": "https://www.ft.com/content/f6c2d0f7-b096-48fb-96af-931c33ec54ba?syn-25a6b1a6=1",
+    "canonical_url": "https://ft.com/content/f6c2d0f7-b096-48fb-96af-931c33ec54ba?syn-25a6b1a6=1",
+    "snippet": "Marwan Chedid and George Salibi are on trial for involvement in alleged bribery for UAE oil and gas deals between 2012 and 2018",
+    "published_at": "2026-11-24T17:01:25+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "f6c2d0f7-b096-48fb-96af-931c33ec54ba",
+      "guidislink": false
+    },
+    "score": 75,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -59,7 +205,7 @@
     "snippet": "The staff guidance allows Bitcoin, Ether and payment stablecoins to count towards operating reserves.",
     "published_at": "2026-11-23T23:43:34+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "reserves"
     ],
@@ -96,241 +242,40 @@
     ]
   },
   {
-    "id": "dfcca7960964091d34cb8abb6fa7b2dc03ec281f1dd7c2032602233b2fbe7194",
+    "id": "189315372fbc296cf96b56ab4f22e9583331a90fad00be0520ee834164ae7eb9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Payoneer scores preliminarily OCC approval for stablecoin bank",
-    "url": "https://www.finextra.com/newsarticle/48798/payoneer-scores-preliminarily-occ-approval-for-stablecoin-bank?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/48798/payoneer-scores-preliminarily-occ-approval-for-stablecoin-bank",
-    "snippet": "Cross-border payments firm Payoneer has received preliminary conditional approval from US regulators to form a stablecoin national trust bank.",
-    "published_at": "2026-11-23T15:39:00+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Kraken's Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC - The Block",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYTk4WTdyeXZsS1NjUmVYUVBIRVJ1aDc1MnVBb0lRdmFkVmRZTFpDcWpZQU9leUVMbENrci1yQXNOZVZyR3pUYUV6LU45NVRCRENaWVo4S3E1NDVxZ0E1QWVZX0xTX2RFYmVOVmJaTzdzbTUxYzBMeWZkTVJsbXNxVWJKdjNYOENIZ05ZeVdMQXlzVUhzaVRuZlFEWUJBckx3Q3Y5SjhEOTFBOHZJQzZ3YUNPLVFNendkS3NWMU5VMmNPUVhhdzZkMlFYUldOUmM?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYTk4WTdyeXZsS1NjUmVYUVBIRVJ1aDc1MnVBb0lRdmFkVmRZTFpDcWpZQU9leUVMbENrci1yQXNOZVZyR3pUYUV6LU45NVRCRENaWVo4S3E1NDVxZ0E1QWVZX0xTX2RFYmVOVmJaTzdzbTUxYzBMeWZkTVJsbXNxVWJKdjNYOENIZ05ZeVdMQXlzVUhzaVRuZlFEWUJBckx3Q3Y5SjhEOTFBOHZJQzZ3YUNPLVFNendkS3NWMU5VMmNPUVhhdzZkMlFYUldOUmM?oc=5",
+    "snippet": "Kraken's Krak plans early 2027 launch of US credit cards with bitcoin cashback, including one secured by USDC The Block",
+    "published_at": "2026-11-24T18:35:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "cross-border"
+      "USDC",
+      "launch"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "https://www.finextra.com/newsarticle/48798/payoneer-scores-preliminarily-occ-approval-for-stablecoin-bank?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "id": "CBMizwFBVV95cUxPYTk4WTdyeXZsS1NjUmVYUVBIRVJ1aDc1MnVBb0lRdmFkVmRZTFpDcWpZQU9leUVMbENrci1yQXNOZVZyR3pUYUV6LU45NVRCRENaWVo4S3E1NDVxZ0E1QWVZX0xTX2RFYmVOVmJaTzdzbTUxYzBMeWZkTVJsbXNxVWJKdjNYOENIZ05ZeVdMQXlzVUhzaVRuZlFEWUJBckx3Q3Y5SjhEOTFBOHZJQzZ3YUNPLVFNendkS3NWMU5VMmNPUVhhdzZkMlFYUldOUmM",
       "guidislink": false
     },
-    "score": 74,
+    "score": 65,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
+      "launch_score": 25,
       "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 40,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "d9b549da1b2b2db3e12341037bc4778ecce39f6115e2520aaf69524d7c446477",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "Stablecoin FX platform Codex raises $30m",
-    "url": "https://www.finextra.com/newsarticle/48797/stablecoin-fx-platform-codex-raises-30m?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/newsarticle/48797/stablecoin-fx-platform-codex-raises-30m",
-    "snippet": "Codex has raised $30 million in Series A funding for its platform that enables businesses to convert, receive, and send fiat currencies and stablecoins at institutional FX rates.",
-    "published_at": "2026-11-23T15:21:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "stablecoin"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/newsarticle/48797/stablecoin-fx-platform-codex-raises-30m?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 74,
-    "score_breakdown": {
-      "tier1": 3,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 70,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "a08bef6a57d04f2103c5dbb98fd70a0ef807884657d04fc8b0ddb4e65cbf0985",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "OKXICE launches tokenized securities venue with 113 assets confirmed for 24/7 trading",
-    "url": "https://www.theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898",
-    "canonical_url": "https://theblock.co/news/business/2026-11-23-okxice-launches-tokenized-securities-venue-444898",
-    "snippet": "The current lineup of issuers and asset managers includes eToro, Fidelity, Strive, BitGo, Circle, Coinbase, Robinhood, and Strategy.",
-    "published_at": "2026-11-23T14:01:02+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "Circle",
-      "tokenized",
-      "launches"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "ba7ae6ac-6fb0-5b87-843c-158edf13f41d",
-      "guidislink": false
-    },
-    "score": 69,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "7ecca9832b3410cf6a20d05be3f666b40e5d188fd4c7165dbf0acc24d6e31d63",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "OKX, ICE launch 113 tokenized assets despite issuer objections",
-    "url": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections",
-    "snippet": "The venture named Coinbase and Fidelity among the issuers and asset managers in the rollout after 67 companies objected to having their shares traded on the venue.",
-    "published_at": "2026-11-23T14:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "issuer",
-      "tokenized",
-      "launch",
-      "rollout"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://cointelegraph.com/news/okxice-launch-113-tokenized-assets-objections",
-      "guidislink": true
-    },
-    "score": 69,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 35,
-      "institution_bonus": 30,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "6361d919b7a2bc000791f96b6f82b6cf582ab8f825ba5e55391777f2c310ce19",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "finextra",
-    "title": "StraitsX and OCBC pilot cross-border stablecoin payments into business bank accounts",
-    "url": "https://www.finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts?utm_medium=rssfinextra&utm_source=finextrafeed",
-    "canonical_url": "https://finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts",
-    "snippet": "StraitsX, the stablecoin-native settlement layer powering global finance, today announced a pilot for cross-border business-to-business (B2B) payments that connects stablecoin settlement with participating OCBC clients’ existing bank accounts.",
-    "published_at": "2026-11-23T13:09:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "settlement",
-      "cross-border",
-      "pilot"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://www.finextra.com/pressarticle/111758/straitsx-and-ocbc-pilot-cross-border-stablecoin-payments-into-business-bank-accounts?utm_medium=rssfinextra&utm_source=finextrafeed",
-      "guidislink": false
-    },
-    "score": 64,
-    "score_breakdown": {
-      "tier1": 2,
-      "tier2": 1,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 60,
-      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -346,6 +291,194 @@
     ]
   },
   {
+    "id": "f51a79b08f417548761d8d843929850045f34b6b42c5e6b3b47f5a3bd6a891fd",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Robinhood co-leads $5 million seed round for onchain trading platform Rialto",
+    "url": "https://www.theblock.co/news/deals/2026-11-24-robinhood-onchain-trading-platform-rialto-funding-446030",
+    "canonical_url": "https://theblock.co/news/deals/2026-11-24-robinhood-onchain-trading-platform-rialto-funding-446030",
+    "snippet": "Rialto has processed more than $600 million in spot trading volume across its app and Swap API since launching publicly in July, Can said.",
+    "published_at": "2026-11-24T17:00:02+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "e1dc8528-180a-5c88-9523-e150a4ee5267",
+      "guidislink": false
+    },
+    "score": 65,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 25,
+      "institution_bonus": 0,
+      "financial_bonus": 30,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "57bb3e89b0c110015be6af65a9eb87fdefb9c6b410af936019cbad11412d84d0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "decrypt",
+    "title": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
+    "url": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
+    "canonical_url": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
+    "snippet": "U.S. authorities say they've now helped freeze, seize or return more than $2.9 billion of the crypto stolen from Binance in October.",
+    "published_at": "2026-11-24T14:13:03+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "USDC"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://decrypt.co/?p=383874",
+      "guidislink": false
+    },
+    "score": 64,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 40,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "cd4b32d2ea359da5af88bcf4b0a410a7fa72eb356d47f35eef58c149ef1e3bef",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "Swiss central bank, UBS and SIX study ledger for tokenized settlement",
+    "url": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement",
+    "snippet": "The study will assess whether a shared ledger can bring central bank money, commercial bank money and securities onto the same platform.",
+    "published_at": "2026-11-24T13:57:56+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "settlement",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/swiss-central-bank-ubs-six-explore-ledger-tokenized-settlement",
+      "guidislink": true
+    },
+    "score": 64,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 2,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 20,
+      "institution_bonus": 40,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "236be4b53692f8baf92ad20b15558418dd6e6ddc03cb672bfecf9b796534c7c6",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "finextra",
+    "title": "Digital Asset Clearing Centre establishes Digital Asset Distribution Alliance",
+    "url": "https://www.finextra.com/pressarticle/111775/digital-asset-clearing-centre-establishes-digital-asset-distribution-alliance?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/111775/digital-asset-clearing-centre-establishes-digital-asset-distribution-alliance",
+    "snippet": "Digital Asset Clearing Center \"DACC.HK\", an open FMI (Financial Market Infrastructure) built on permissionless ledger with CIPS and e-CNY settlement capabilities, is announcing the establishment of the Digital Asset Distribution Alliance (DADA).",
+    "published_at": "2026-11-24T16:54:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "settlement"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.finextra.com/pressarticle/111775/digital-asset-clearing-centre-establishes-digital-asset-distribution-alliance?utm_medium=rssfinextra&utm_source=finextrafeed",
+      "guidislink": false
+    },
+    "score": 60,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "94023bb5103a96e0fbe3000e7667a2c90ea026aadd318e4bfa1f5e7b01c6ee7a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -356,7 +489,7 @@
     "snippet": "US prosecutors are seeking control of stolen USDC, while Elliptic says hackers have moved $247 million through Bitcoin mixers.",
     "published_at": "2026-11-23T21:04:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "USDC"
     ],
@@ -393,6 +526,155 @@
     ]
   },
   {
+    "id": "4c85026d92c1fe590558684ad2a662281481e445f22e33814303de9e659ca835",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Neuberger Berman’s HINC fund brings high-yield credit to Aave’s institutional lending platform",
+    "url": "https://www.theblock.co/news/markets/2026-11-24-neuberger-berman-tokenized-hinc-fund-aave-horizon-collateral-445391",
+    "canonical_url": "https://theblock.co/news/markets/2026-11-24-neuberger-berman-tokenized-hinc-fund-aave-horizon-collateral-445391",
+    "snippet": "Neuberger Berman's tokenized high-yield fund HINC launches on Aave Horizon, letting eligible investors borrow USDC, GHO and RLUSD against it.",
+    "published_at": "2026-11-24T14:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "USDC",
+      "tokenized",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "2ccc1f8b-b684-513d-b50f-810b617f03a5",
+      "guidislink": false
+    },
+    "score": 49,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 10,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "2cc0c082b41731a4f15a745d6308a6e28f374642a714250aa48a88abf43d6fa6",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "dlnews",
+    "title": "Fed Governor Waller warns of \"zombie chains\" as tokenization grows",
+    "url": "https://www.dlnews.com/articles/regulation/fed-governor-waller-warns-of-zombie-chains-as-tokenization-grows/",
+    "canonical_url": "https://dlnews.com/articles/regulation/fed-governor-waller-warns-of-zombie-chains-as-tokenization-grows/",
+    "snippet": "Fed Governor Christopher Waller warned that tokenized assets could be stranded on failed blockchains and called for clearer governance.",
+    "published_at": "2026-11-24T17:15:43+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "tokenization",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.dlnews.com/articles/regulation/fed-governor-waller-warns-of-zombie-chains-as-tokenization-grows/",
+      "guidislink": false
+    },
+    "score": 40,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 1,
+      "commentary": 1,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 10,
+      "institution_bonus": 30,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": -10,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "cd91ac8fd704655de9df148742d5cbc8afee0b70df7a7f34e44a89baf31e2dbb",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "South Korea Launches Won Stablecoin, Resumes Domestic Coin Issuance - 조선일보",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUZmQVlieTRsZktISUxLLXlDOUZVbkc0WjBlcDViRjNham83bGo4VERNbnpHMF9xUnYteDFVQng4UHNKUHBkR0ZzZm5vNWJmcjJoNTlvSnpDSXI2V0dTeThNZEE1ZDJEaWYyTTJXejZDaExZb1lvTWhBb0FCWUp6elZ5bVZOTVVQaWxGRFpn?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUZmQVlieTRsZktISUxLLXlDOUZVbkc0WjBlcDViRjNham83bGo4VERNbnpHMF9xUnYteDFVQng4UHNKUHBkR0ZzZm5vNWJmcjJoNTlvSnpDSXI2V0dTeThNZEE1ZDJEaWYyTTJXejZDaExZb1lvTWhBb0FCWUp6elZ5bVZOTVVQaWxGRFpn?oc=5",
+    "snippet": "South Korea Launches Won Stablecoin, Resumes Domestic Coin Issuance 조선일보",
+    "published_at": "2026-11-24T11:44:40+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "issuance",
+      "launches"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMijgFBVV95cUxQbUZmQVlieTRsZktISUxLLXlDOUZVbkc0WjBlcDViRjNham83bGo4VERNbnpHMF9xUnYteDFVQng4UHNKUHBkR0ZzZm5vNWJmcjJoNTlvSnpDSXI2V0dTeThNZEE1ZDJEaWYyTTJXejZDaExZb1lvTWhBb0FCWUp6elZ5bVZOTVVQaWxGRFpn",
+      "guidislink": false
+    },
+    "score": 39,
+    "score_breakdown": {
+      "tier1": 1,
+      "tier2": 1,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 35,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "507b8b482b3e1023a92d355a34070bffbcaab37cd4ece898cd86f31eeb814616",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -403,7 +685,7 @@
     "snippet": "Form3, a leading global fintech offering account-to-account payments technology, today announced it is using Coinbase infrastructure to bring stablecoin money movement to its global customer base, offering clients a single hub for money movement.",
     "published_at": "2026-11-24T09:00:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "stablecoin",
       "partners"
@@ -416,14 +698,14 @@
       "id": "https://www.finextra.com/pressarticle/111760/form3-partners-picks-coinbase-infrastructure-for-stablecoin-money-movement?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 45,
+    "score": 39,
     "score_breakdown": {
       "tier1": 1,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
       "launch_score": 25,
       "institution_bonus": 10,
@@ -442,86 +724,41 @@
     ]
   },
   {
-    "id": "404ef2abc6be8bae857c98b8bcf51d2f04b9189e8d22d266dc7e0850e0cbe40b",
+    "id": "80fcc5acb7c8dad52ceda9a8da915499d7998b6e74762223e29d65e9449a0c22",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
-    "url": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-    "canonical_url": "https://theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-    "snippet": "The U.S. Justice Department is seeking to recover about $1.17 billion in USDC tied to the Oct. 29 Binance hack.",
-    "published_at": "2026-11-23T20:00:34+00:00",
+    "feed_name": "finextra",
+    "title": "Deel launches card that lets contractors spend stablecoin balance",
+    "url": "https://www.finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance?utm_medium=rssfinextra&utm_source=finextrafeed",
+    "canonical_url": "https://finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance",
+    "snippet": "Deel, the global payroll and HR platform trusted by 40,000+ businesses to hire, manage, and pay teams across 150+ countries, today launched a new Deel Card that lets contractors spend their DLUSD balance,",
+    "published_at": "2026-11-24T13:23:00+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
-      "USDC",
-      "Circle"
+      "stablecoin",
+      "launches",
+      "launched"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "e883ae61-cd89-5743-9659-59baaa98c59a",
+      "id": "https://www.finextra.com/pressarticle/111773/deel-launches-card-that-lets-contractors-spend-stablecoin-balance?utm_medium=rssfinextra&utm_source=finextrafeed",
       "guidislink": false
     },
-    "score": 45,
+    "score": 35,
     "score_breakdown": {
-      "tier1": 0,
+      "tier1": 1,
       "tier2": 0,
-      "commentary": 1,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 20,
-      "financial_bonus": 40,
-      "regulatory_bonus": 0,
-      "commentary_penalty": -20,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "8896618780a513b24b401f40c076840910926690312842f2c6c1f8d9e6522e9d",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "coindesk",
-    "title": "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue",
-    "url": "https://www.coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
-    "canonical_url": "https://coindesk.com/business/2026/11/23/fidelity-investments-strive-etoro-join-okx-ice-tokenized-securities-venue",
-    "snippet": "",
-    "published_at": "2026-11-23T13:49:44+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "tokenized"
-    ],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "09c85484-e132-4773-8192-6c2f4c2c80d7",
-      "guidislink": false
-    },
-    "score": 44,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
       "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 30,
+      "launch_score": 25,
+      "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,
       "commentary_penalty": 0,
@@ -537,41 +774,44 @@
     ]
   },
   {
-    "id": "1f6487d8343124d02afcd4489dbf0d40c701a272f0bcdc3f5cf0cbadeecb87e7",
+    "id": "5fac56f56587012a8bce7cee34710e45209b2c96a5abfffb6ccfa5ae3cf48b48",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Korean banks set to lead stablecoin issuance under proposed digital asset rules - Korea JoongAng Daily",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUWc0SlJPVGp0b3BBNk5nYlJRTjRQMU1KdE1rdWpPR2Eyd1NDU204NGIzaDNhanFKNjNPNE1uS3hFR2p1X2VuRFF0MVNxVXFfczk0REVZZHJsOXRDU0hsYlp0OEhwQTJCUzF1TjBpamtFdWxZaTJsY21oYmNaVElPNjl5ajRXRjJsaWxraFRYZzJROERDY3ltNnA4YWhIRXBkQmVxRGFLSWNsSFo5eXdGVUcxOHppbzE3WXhadVFUYkNWLVpJa1hVd1pxa24?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUWc0SlJPVGp0b3BBNk5nYlJRTjRQMU1KdE1rdWpPR2Eyd1NDU204NGIzaDNhanFKNjNPNE1uS3hFR2p1X2VuRFF0MVNxVXFfczk0REVZZHJsOXRDU0hsYlp0OEhwQTJCUzF1TjBpamtFdWxZaTJsY21oYmNaVElPNjl5ajRXRjJsaWxraFRYZzJROERDY3ltNnA4YWhIRXBkQmVxRGFLSWNsSFo5eXdGVUcxOHppbzE3WXhadVFUYkNWLVpJa1hVd1pxa24?oc=5",
-    "snippet": "Korean banks set to lead stablecoin issuance under proposed digital asset rules Korea JoongAng Daily",
-    "published_at": "2026-11-24T07:18:45+00:00",
+    "title": "OCBC and StraitsX Pilot Stablecoin Payments for Cross-Border Businesses - Serrari Group",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnFxN1VxTzhOWV9hNFg5bnZQTDc1RmVaSUxzWkVhblhUQ2U5WGc4LUJ3R0NXQUZwR1dOTjRBYVdKT1ZraS0ycnJPWlU0djFRRE1xb0FCY1Y5b1lna19uM0x2ZWZZVU94YnZPenlWOUEwU0lnSXU3WkJoLUV3ZHh0V3lCU05tX3VyNkkxcnAxaF96UFhYRHZoS09WSFRCQQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnFxN1VxTzhOWV9hNFg5bnZQTDc1RmVaSUxzWkVhblhUQ2U5WGc4LUJ3R0NXQUZwR1dOTjRBYVdKT1ZraS0ycnJPWlU0djFRRE1xb0FCY1Y5b1lna19uM0x2ZWZZVU94YnZPenlWOUEwU0lnSXU3WkJoLUV3ZHh0V3lCU05tX3VyNkkxcnAxaF96UFhYRHZoS09WSFRCQQ?oc=5",
+    "snippet": "OCBC and StraitsX Pilot Stablecoin Payments for Cross-Border Businesses Serrari Group",
+    "published_at": "2026-11-24T08:11:32+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
+      "stablecoin payments",
       "stablecoin",
-      "issuance"
+      "cross-border",
+      "pilot"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "CBMizAFBVV95cUxNUWc0SlJPVGp0b3BBNk5nYlJRTjRQMU1KdE1rdWpPR2Eyd1NDU204NGIzaDNhanFKNjNPNE1uS3hFR2p1X2VuRFF0MVNxVXFfczk0REVZZHJsOXRDU0hsYlp0OEhwQTJCUzF1TjBpamtFdWxZaTJsY21oYmNaVElPNjl5ajRXRjJsaWxraFRYZzJROERDY3ltNnA4YWhIRXBkQmVxRGFLSWNsSFo5eXdGVUcxOHppbzE3WXhadVFUYkNWLVpJa1hVd1pxa24",
+      "id": "CBMingFBVV95cUxNVnFxN1VxTzhOWV9hNFg5bnZQTDc1RmVaSUxzWkVhblhUQ2U5WGc4LUJ3R0NXQUZwR1dOTjRBYVdKT1ZraS0ycnJPWlU0djFRRE1xb0FCY1Y5b1lna19uM0x2ZWZZVU94YnZPenlWOUEwU0lnSXU3WkJoLUV3ZHh0V3lCU05tX3VyNkkxcnAxaF96UFhYRHZoS09WSFRCQQ",
       "guidislink": false
     },
     "score": 35,
     "score_breakdown": {
-      "tier1": 0,
-      "tier2": 1,
+      "tier1": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 10,
+      "freshness": 4,
       "source_penalty": 0,
-      "launch_score": 10,
+      "launch_score": 25,
       "institution_bonus": 0,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -595,7 +835,7 @@
     "snippet": "Stablecoin Payments Go Invisible: OCBC’s New Pilot OneSafe",
     "published_at": "2026-11-24T01:49:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin",
@@ -635,58 +875,6 @@
     ]
   },
   {
-    "id": "acb856b10c6d0fc9797b0a5c3ae12b78342adb52c80c50daa46a5e1c4a8e001a",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "ledger_insights",
-    "title": "StraitsX partners OCBC for corporates to receive stablecoin payments into accounts",
-    "url": "https://www.ledgerinsights.com/straitsx-partners-ocbc-for-corporates-to-receive-stablecoin-payments-into-accounts/",
-    "canonical_url": "https://ledgerinsights.com/straitsx-partners-ocbc-for-corporates-to-receive-stablecoin-payments-into-accounts/",
-    "snippet": "Singapore stablecoin issuer StraitsX is partnering with OCBC bank to pilot stablecoin cross border payments for corporates. Under the arrangement, a company receiving stablecoins will have the funds automatically credited to its bank account, removing the need to handle the stablecoin directly. Stra",
-    "published_at": "2026-11-23T19:05:38+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin",
-      "issuer",
-      "pilot",
-      "partners"
-    ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "https://ledgerinsights.com/?p=44753",
-      "guidislink": false
-    },
-    "score": 35,
-    "score_breakdown": {
-      "tier1": 1,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 25,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
     "id": "e6b3016a99a9920bdfcfeca092eae7c2d62fa147f1e9fa9563af4b075fa7f4e8",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -697,7 +885,7 @@
     "snippet": "Stablecoin Payments Gets a Bank: OCC’s Nod Explained OneSafe",
     "published_at": "2026-11-24T01:14:15+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -736,40 +924,40 @@
     ]
   },
   {
-    "id": "0616445d334fef88105800a43473e0d77537dfa4fc1f91cdeca8fa1cc2e7f475",
+    "id": "219c4e891cfb9b50093ce249783d1e865acf3f8cf31b73ec41eaf4e500cbb3a9",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "theblock",
-    "title": "South Korea to publish draft of comprehensive crypto legal framework this week",
-    "url": "https://www.theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
-    "canonical_url": "https://theblock.co/news/regulation/2026-11-23-south-korea-to-publish-draft-digital-asset-basic-act-444881",
-    "snippet": "The draft is expected to include a licensing regime for crypto businesses and a bank-centered issuance system for local stablecoins.",
-    "published_at": "2026-11-23T10:11:58+00:00",
+    "feed_name": "decrypt",
+    "title": "Europol Traces $28M in Crypto Behind Europe's Illegal Streaming Industry",
+    "url": "https://decrypt.co/383877/europol-traces-28m-in-crypto-behind-europes-illegal-streaming-industry",
+    "canonical_url": "https://decrypt.co/383877/europol-traces-28m-in-crypto-behind-europes-illegal-streaming-industry",
+    "snippet": "Police from 11 countries worked with Binance, Coinbase and Chainalysis to follow crypto payments made to pirate TV services.",
+    "published_at": "2026-11-24T16:00:44+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
-      "issuance"
+      "crypto payments"
     ],
     "matched_topics": [
-      "Stablecoin adoption"
+      "Crypto-native fintech launches"
     ],
     "raw": {
-      "id": "79220a7f-eb57-5983-8446-9cc82cd6c918",
+      "id": "https://decrypt.co/?p=383877",
       "guidislink": false
     },
-    "score": 29,
+    "score": 30,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 1,
+      "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 10,
-      "institution_bonus": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -783,27 +971,23 @@
     ]
   },
   {
-    "id": "9fa94cba9afd261a42d6addbaf15ffc7f7fdec38dcad5f147bc62aedf3b5c1bf",
+    "id": "6414c745da44a111e3fcd5919ee77b56f7eacf68e5f61832d9d92030f41fcf6c",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "Regulators Push Common Rules for Stablecoin Payments - Wisevoter",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMG14cFRwTUctOWJVVDdiRXNaYmd2bm1nSGVoUm9HU05wc3FvMVk5c3MtWlc0a2ZGTHl5VGQya05PbEdYLUlETXdqUkkzcWF0b19lYTBaNXRvclpuMjV3WTI4MS1lV25WX1F3SFRDSHN3MXhjckNuUGhZdkRNUGJ2clM4SmRCYmJFOEE?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMG14cFRwTUctOWJVVDdiRXNaYmd2bm1nSGVoUm9HU05wc3FvMVk5c3MtWlc0a2ZGTHl5VGQya05PbEdYLUlETXdqUkkzcWF0b19lYTBaNXRvclpuMjV3WTI4MS1lV25WX1F3SFRDSHN3MXhjckNuUGhZdkRNUGJ2clM4SmRCYmJFOEE?oc=5",
-    "snippet": "Regulators Push Common Rules for Stablecoin Payments Wisevoter",
-    "published_at": "2026-11-24T08:20:58+00:00",
+    "feed_name": "decrypt",
+    "title": "South Korea Moves to Lift Its ICO Ban After Nearly a Decade",
+    "url": "https://decrypt.co/383905/south-korea-moves-lift-ico-ban-after-nearly-decade",
+    "canonical_url": "https://decrypt.co/383905/south-korea-moves-lift-ico-ban-after-nearly-decade",
+    "snippet": "The Financial Services Commission’s draft Digital Asset Act would let domestic projects sell tokens again under IPO-style disclosure rules, reversing a 2017 ban that mostly pushed Korean issuers offshore.",
+    "published_at": "2026-11-24T18:36:03+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [
-      "stablecoin payments",
-      "stablecoin"
-    ],
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMiigFBVV95cUxQMG14cFRwTUctOWJVVDdiRXNaYmd2bm1nSGVoUm9HU05wc3FvMVk5c3MtWlc0a2ZGTHl5VGQya05PbEdYLUlETXdqUkkzcWF0b19lYTBaNXRvclpuMjV3WTI4MS1lV25WX1F3SFRDSHN3MXhjckNuUGhZdkRNUGJ2clM4SmRCYmJFOEE",
+      "id": "https://decrypt.co/?p=383905",
       "guidislink": false
     },
     "score": 25,
@@ -832,26 +1016,123 @@
     ]
   },
   {
-    "id": "ce46b6472956ff89c936aef5c5e68b2a18b399cb3e5e9912520acb6b6336279e",
+    "id": "df3a943b08530e8bb6ec00a058dd32932ebe8e8267572dec021edf1c78c64fab",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Exchange major shareholder stake capped at 20 percent, won stablecoin issuance to be bank-led - 디지털투데이",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWFdBZWc2WXZnai1fd1JrcVF6WmJDRTRNb3c0TW10U2xmUzNKVEZxYXA1cHJtS21WLWVWb293YzVKRW81aVNKRmZnUmxBTmFCRWk2MDRNdUhEZnJvMXF3cy1hWTNUbVdBVUhyN2ZIYUIteEQtbzBpUXV5aWxqS25TelJVSm8zeUNEWTM4N1pNQWhIVHpRZDRlU0EteFZKbko0bVpQYUJiX2JCbFlhY2p1WFF4dkNDZGs0elBrWHRCdi0?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWFdBZWc2WXZnai1fd1JrcVF6WmJDRTRNb3c0TW10U2xmUzNKVEZxYXA1cHJtS21WLWVWb293YzVKRW81aVNKRmZnUmxBTmFCRWk2MDRNdUhEZnJvMXF3cy1hWTNUbVdBVUhyN2ZIYUIteEQtbzBpUXV5aWxqS25TelJVSm8zeUNEWTM4N1pNQWhIVHpRZDRlU0EteFZKbko0bVpQYUJiX2JCbFlhY2p1WFF4dkNDZGs0elBrWHRCdi0?oc=5",
-    "snippet": "Exchange major shareholder stake capped at 20 percent, won stablecoin issuance to be bank-led 디지털투데이",
-    "published_at": "2026-11-24T06:23:17+00:00",
+    "title": "South Korea Drafts Over 50% Bank-Ownership Rule for Stablecoin Issuers, Cap on Exchange Stakes - TradingView",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV2h5TGdLWjhRX2hYNFVfN1BER0ZfYWotVXRROGExbEtVakpaOWlRVEdETFZacVg2czk4VVBDQTRXdVk1MWE0clUwNWhtYlZEZXNQUGl3QnV2amxVVUZrMHh5V0JISlExT0dZUl9HTlRManQtUFp2YU8wYjJOZ25yTW5KTUh2dUN0T2NjdmdIaEp4ajNmMW5yWXNrNUhDY2tmMEJkai1ud0szbEpVOUxFcmVZa0xCcGVtcEJSR2xBTGdWeGdZRG5tY1FvakpGeHdqcnVvSGQ4bzczcDlYcEh0TVJ6RERNN3JFNXBWQzFrVQ?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV2h5TGdLWjhRX2hYNFVfN1BER0ZfYWotVXRROGExbEtVakpaOWlRVEdETFZacVg2czk4VVBDQTRXdVk1MWE0clUwNWhtYlZEZXNQUGl3QnV2amxVVUZrMHh5V0JISlExT0dZUl9HTlRManQtUFp2YU8wYjJOZ25yTW5KTUh2dUN0T2NjdmdIaEp4ajNmMW5yWXNrNUhDY2tmMEJkai1ud0szbEpVOUxFcmVZa0xCcGVtcEJSR2xBTGdWeGdZRG5tY1FvakpGeHdqcnVvSGQ4bzczcDlYcEh0TVJ6RERNN3JFNXBWQzFrVQ?oc=5",
+    "snippet": "South Korea Drafts Over 50% Bank-Ownership Rule for Stablecoin Issuers, Cap on Exchange Stakes TradingView",
+    "published_at": "2026-11-24T16:06:06+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
-      "stablecoin",
-      "issuance"
+      "stablecoin"
     ],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMiwAFBVV95cUxNWFdBZWc2WXZnai1fd1JrcVF6WmJDRTRNb3c0TW10U2xmUzNKVEZxYXA1cHJtS21WLWVWb293YzVKRW81aVNKRmZnUmxBTmFCRWk2MDRNdUhEZnJvMXF3cy1hWTNUbVdBVUhyN2ZIYUIteEQtbzBpUXV5aWxqS25TelJVSm8zeUNEWTM4N1pNQWhIVHpRZDRlU0EteFZKbko0bVpQYUJiX2JCbFlhY2p1WFF4dkNDZGs0elBrWHRCdi0",
+      "id": "CBMi7wFBVV95cUxOV2h5TGdLWjhRX2hYNFVfN1BER0ZfYWotVXRROGExbEtVakpaOWlRVEdETFZacVg2czk4VVBDQTRXdVk1MWE0clUwNWhtYlZEZXNQUGl3QnV2amxVVUZrMHh5V0JISlExT0dZUl9HTlRManQtUFp2YU8wYjJOZ25yTW5KTUh2dUN0T2NjdmdIaEp4ajNmMW5yWXNrNUhDY2tmMEJkai1ud0szbEpVOUxFcmVZa0xCcGVtcEJSR2xBTGdWeGdZRG5tY1FvakpGeHdqcnVvSGQ4bzczcDlYcEh0TVJ6RERNN3JFNXBWQzFrVQ",
+      "guidislink": false
+    },
+    "score": 25,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 15,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "5ff221c3ea7dcc48a3b33d6c2443de87901f0768067a0b1865c26306c01dd252",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "BlackRock Opens Hong Kong Fund to Stablecoin Payments - The Defiant",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTjd5M3lmbHJDcnVJN1N2UmZqbEdUeWNtRHdIOHl6RHhCZHVrYm5lSXItNEZZQWVIS0hWVXZzRmxmLVhsc3JWelVFSmxkcWZfdXo1UWh3NS0xeko3ME01Vnl4dHp3T21KblVQU2NoTUstdWNBblBqTGJTczlrb2JMdm80aUtGMEJReHlOZDlXWTJDbEJHQmhlSzBkWE1pMDZPUkZCRll3?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOTjd5M3lmbHJDcnVJN1N2UmZqbEdUeWNtRHdIOHl6RHhCZHVrYm5lSXItNEZZQWVIS0hWVXZzRmxmLVhsc3JWelVFSmxkcWZfdXo1UWh3NS0xeko3ME01Vnl4dHp3T21KblVQU2NoTUstdWNBblBqTGJTczlrb2JMdm80aUtGMEJReHlOZDlXWTJDbEJHQmhlSzBkWE1pMDZPUkZCRll3?oc=5",
+    "snippet": "BlackRock Opens Hong Kong Fund to Stablecoin Payments The Defiant",
+    "published_at": "2026-11-24T12:35:39+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "stablecoin payments",
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
+    "raw": {
+      "id": "CBMipgFBVV95cUxOTjd5M3lmbHJDcnVJN1N2UmZqbEdUeWNtRHdIOHl6RHhCZHVrYm5lSXItNEZZQWVIS0hWVXZzRmxmLVhsc3JWelVFSmxkcWZfdXo1UWh3NS0xeko3ME01Vnl4dHp3T21KblVQU2NoTUstdWNBblBqTGJTczlrb2JMdm80aUtGMEJReHlOZDlXWTJDbEJHQmhlSzBkWE1pMDZPUkZCRll3",
+      "guidislink": false
+    },
+    "score": 24,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 20,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "7bba268373c1d87679004e5cff005ff30aca3e69c4c6278f2fae1ea4bdcc827c",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "Banks Extend Payment Hours, but Cash Still Has a Curfew",
+    "url": "https://www.pymnts.com/news/payments-innovation/2026/banks-extend-payment-hours-cash-still-has-curfew/",
+    "canonical_url": "https://pymnts.com/news/payments-innovation/2026/banks-extend-payment-hours-cash-still-has-curfew/",
+    "snippet": "Tokenized deposits are moving beyond transfers within a single bank. Banks are connecting their networks to move dollars across borders, while fund managers are testing ways to accept these deposits in exchange for investments. The latest announcements and initiatives give payment platforms a role i",
+    "published_at": "2026-11-24T17:13:34+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "tokenized deposit",
+      "tokenized"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=4422718",
       "guidislink": false
     },
     "score": 20,
@@ -880,17 +1161,17 @@
     ]
   },
   {
-    "id": "1c5a13285eb8137cf9ff30d565106682b6290b6406c43b31d13cda12259a60e2",
+    "id": "9520103e53532f6f0a61e67ebf71b30629e26f2971468864f81b1e5bfc9473cf",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
     "feed_name": "stablecoin_adoption",
-    "title": "Payoneer Lands Conditional Approval to Open Stablecoin Bank - PYMNTS.com",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdDJ1UEZvZU5kcTM3NVlhSkszU3dnNmlWeGxuM1dWXzhXbjJTOUNpOWhNM0VOTjljak9sTllrRUZlVGFreVM1aTg2SnRhdHRlUjBlMm01OTZYNUp6SXhSUzZ5RXVhRWJuWV94TURZU19DZTRiWTI4N3pSUThnbE5ZQ29rRmgyd2ZCQ0tLb0RncDByS1ZBSjVsck5MWGZKb0htZF9R?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdDJ1UEZvZU5kcTM3NVlhSkszU3dnNmlWeGxuM1dWXzhXbjJTOUNpOWhNM0VOTjljak9sTllrRUZlVGFreVM1aTg2SnRhdHRlUjBlMm01OTZYNUp6SXhSUzZ5RXVhRWJuWV94TURZU19DZTRiWTI4N3pSUThnbE5ZQ29rRmgyd2ZCQ0tLb0RncDByS1ZBSjVsck5MWGZKb0htZF9R?oc=5",
-    "snippet": "Payoneer Lands Conditional Approval to Open Stablecoin Bank PYMNTS.com",
-    "published_at": "2026-11-23T20:11:31+00:00",
+    "title": "Form3 Adds Coinbase Stablecoin Minting to Bank Payment API - OneSafe",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUzJVOEMyR19tVW93cXJVUkI1cjdubmRJUGNDbi05UDlCX0NkRTRZOTcwWlNfWVhYOFE1NUZuUUxEdXpHcklhU2RGVk5wMV9xZUY5T2I4alJBeDdpQnpnQ1FHQTh1Y0lqb3lOZ0VWeExaT3dKS2xQM0h4bWxUNTJ0QUQyd1FGdw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUzJVOEMyR19tVW93cXJVUkI1cjdubmRJUGNDbi05UDlCX0NkRTRZOTcwWlNfWVhYOFE1NUZuUUxEdXpHcklhU2RGVk5wMV9xZUY5T2I4alJBeDdpQnpnQ1FHQTh1Y0lqb3lOZ0VWeExaT3dKS2xQM0h4bWxUNTJ0QUQyd1FGdw?oc=5",
+    "snippet": "Form3 Adds Coinbase Stablecoin Minting to Bank Payment API OneSafe",
+    "published_at": "2026-11-24T15:54:19+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "stablecoin"
     ],
@@ -898,22 +1179,22 @@
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "CBMiowFBVV95cUxNdDJ1UEZvZU5kcTM3NVlhSkszU3dnNmlWeGxuM1dWXzhXbjJTOUNpOWhNM0VOTjljak9sTllrRUZlVGFreVM1aTg2SnRhdHRlUjBlMm01OTZYNUp6SXhSUzZ5RXVhRWJuWV94TURZU19DZTRiWTI4N3pSUThnbE5ZQ29rRmgyd2ZCQ0tLb0RncDByS1ZBSjVsck5MWGZKb0htZF9R",
+      "id": "CBMihgFBVV95cUxNUzJVOEMyR19tVW93cXJVUkI1cjdubmRJUGNDbi05UDlCX0NkRTRZOTcwWlNfWVhYOFE1NUZuUUxEdXpHcklhU2RGVk5wMV9xZUY5T2I4alJBeDdpQnpnQ1FHQTh1Y0lqb3lOZ0VWeExaT3dKS2xQM0h4bWxUNTJ0QUQyd1FGdw",
       "guidislink": false
     },
-    "score": 19,
+    "score": 20,
     "score_breakdown": {
       "tier1": 0,
       "tier2": 0,
       "commentary": 0,
       "listicle": 0,
       "generic": 0,
-      "freshness": 4,
+      "freshness": 10,
       "source_penalty": 0,
       "launch_score": 0,
-      "institution_bonus": 0,
+      "institution_bonus": 10,
       "financial_bonus": 0,
-      "regulatory_bonus": 15,
+      "regulatory_bonus": 0,
       "commentary_penalty": 0,
       "listicle_penalty": 0,
       "generic_penalty": 0,
@@ -927,29 +1208,27 @@
     ]
   },
   {
-    "id": "3ea7c377c39721250be969b83089e16512a7ca17c0c9e0e327cb73d6ee661c69",
+    "id": "ce46b6472956ff89c936aef5c5e68b2a18b399cb3e5e9912520acb6b6336279e",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "cointelegraph",
-    "title": "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks",
-    "url": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-    "canonical_url": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks",
-    "snippet": "Former New York Gov. Andrew Cuomo said competitors encouraged companies to opt out of OKXICE’s rollout, while some issuers simply wanted more time.",
-    "published_at": "2026-11-23T17:42:18+00:00",
+    "feed_name": "stablecoin_adoption",
+    "title": "Exchange major shareholder stake capped at 20 percent, won stablecoin issuance to be bank-led - 디지털투데이",
+    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWFdBZWc2WXZnai1fd1JrcVF6WmJDRTRNb3c0TW10U2xmUzNKVEZxYXA1cHJtS21WLWVWb293YzVKRW81aVNKRmZnUmxBTmFCRWk2MDRNdUhEZnJvMXF3cy1hWTNUbVdBVUhyN2ZIYUIteEQtbzBpUXV5aWxqS25TelJVSm8zeUNEWTM4N1pNQWhIVHpRZDRlU0EteFZKbko0bVpQYUJiX2JCbFlhY2p1WFF4dkNDZGs0elBrWHRCdi0?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWFdBZWc2WXZnai1fd1JrcVF6WmJDRTRNb3c0TW10U2xmUzNKVEZxYXA1cHJtS21WLWVWb293YzVKRW81aVNKRmZnUmxBTmFCRWk2MDRNdUhEZnJvMXF3cy1hWTNUbVdBVUhyN2ZIYUIteEQtbzBpUXV5aWxqS25TelJVSm8zeUNEWTM4N1pNQWhIVHpRZDRlU0EteFZKbko0bVpQYUJiX2JCbFlhY2p1WFF4dkNDZGs0elBrWHRCdi0?oc=5",
+    "snippet": "Exchange major shareholder stake capped at 20 percent, won stablecoin issuance to be bank-led 디지털투데이",
+    "published_at": "2026-11-24T06:23:17+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
-      "tokenized",
-      "rollout"
+      "stablecoin",
+      "issuance"
     ],
     "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA",
-      "Crypto-native fintech launches"
+      "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://cointelegraph.com/news/cuomo-rivals-urged-companies-reject-okx-ice-tokenized-stocks",
-      "guidislink": true
+      "id": "CBMiwAFBVV95cUxNWFdBZWc2WXZnai1fd1JrcVF6WmJDRTRNb3c0TW10U2xmUzNKVEZxYXA1cHJtS21WLWVWb293YzVKRW81aVNKRmZnUmxBTmFCRWk2MDRNdUhEZnJvMXF3cy1hWTNUbVdBVUhyN2ZIYUIteEQtbzBpUXV5aWxqS25TelJVSm8zeUNEWTM4N1pNQWhIVHpRZDRlU0EteFZKbko0bVpQYUJiX2JCbFlhY2p1WFF4dkNDZGs0elBrWHRCdi0",
+      "guidislink": false
     },
     "score": 14,
     "score_breakdown": {
@@ -977,6 +1256,375 @@
     ]
   },
   {
+    "id": "3b6eaaaad2483a0b5d7ea4d1e5146809140531f280ec5d328f8d8fbc96b5e057",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "pymnts",
+    "title": "From Credit Markets to Cross-Border Payments, Stablecoins Build New Walled Gardens",
+    "url": "https://www.pymnts.com/blockchain/2026/from-credit-markets-to-cross-border-payments-stablecoins-build-new-walled-gardens/",
+    "canonical_url": "https://pymnts.com/blockchain/2026/from-credit-markets-to-cross-border-payments-stablecoins-build-new-walled-gardens/",
+    "snippet": "The maturing stablecoin economy is starting to look less like an alternative to traditional banking and more like a competition to capture its most profitable financial relationships. A new breed of financial intermediary is emerging around digital dollars, and its commercial ambitions look surprisi",
+    "published_at": "2026-11-24T19:43:33+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "stablecoin",
+      "cross-border"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://www.pymnts.com/?p=4423287",
+      "guidislink": false
+    },
+    "score": 10,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 10,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "209a117bbcbce33f67dd43f9906082b8d09f4bf6cfb47c6b069be99d30f5e9c6",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "Korea Crypto Bill: Bank-Led Won Stablecoins, 20% Cap - OneSafe",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU3ZUWWtyb1ZfOXZqWkJONEI2VElBakVDRXg5cEl4ejliWkMxdnBRZkUzZk9IaU14YU5GODA3aXpzLXcwZkh5RGlZUEdIaWRoZ3lad3ZMSjktOUlkbzk5QzY1Mmk3dVNFaERXa1dKemdaZzBuV0hodlBNV1E2MDVMNHJmZE42S3FrMTRzSmVxZw?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQU3ZUWWtyb1ZfOXZqWkJONEI2VElBakVDRXg5cEl4ejliWkMxdnBRZkUzZk9IaU14YU5GODA3aXpzLXcwZkh5RGlZUEdIaWRoZ3lad3ZMSjktOUlkbzk5QzY1Mmk3dVNFaERXa1dKemdaZzBuV0hodlBNV1E2MDVMNHJmZE42S3FrMTRzSmVxZw?oc=5",
+    "snippet": "Korea Crypto Bill: Bank-Led Won Stablecoins, 20% Cap OneSafe",
+    "published_at": "2026-11-24T14:14:18+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMijwFBVV95cUxQU3ZUWWtyb1ZfOXZqWkJONEI2VElBakVDRXg5cEl4ejliWkMxdnBRZkUzZk9IaU14YU5GODA3aXpzLXcwZkh5RGlZUEdIaWRoZ3lad3ZMSjktOUlkbzk5QzY1Mmk3dVNFaERXa1dKemdaZzBuV0hodlBNV1E2MDVMNHJmZE42S3FrMTRzSmVxZw",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "62fb458ec7ba2395d8d5a6ef3160e8f5ec2ac711ddc9445117790b230b4ae2e0",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "USDT buyers face 22% VAT when Moscow Exchange opens crypto trading",
+    "url": "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch",
+    "snippet": "Buyers will pay VAT on top of the trade price in December because Russia’s tax code has no explicit exemption for foreign digital instruments.",
+    "published_at": "2026-11-24T14:10:23+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "USDT"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/russia-usdt-buyer-face-22-tax-december-launch",
+      "guidislink": true
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "5e1c79269e152bc9027c9288cb688c9b0ffcc144f44313ee509e4f5c25fe20be",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "theblock",
+    "title": "Ledn brings US business onshore with account to hold, swap and borrow against bitcoin",
+    "url": "https://www.theblock.co/news/business/2026-11-24-ledn-launches-us-custody-account-bitcoin-gold-stablecoins-lending-445411",
+    "canonical_url": "https://theblock.co/news/business/2026-11-24-ledn-launches-us-custody-account-bitcoin-gold-stablecoins-lending-445411",
+    "snippet": "Ledn's new U.S. custody account lets customers hold bitcoin, gold, stablecoins and dollars, swap with no trading fees and borrow against bitcoin without selling.",
+    "published_at": "2026-11-24T14:00:00+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "custody"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "40c85e90-171b-5333-85e6-c257ce2ed541",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "8a4f72105585110aec1ea1c19b3ff128cd2c0391da250ac74ea54cd9aacc1e23",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "stablecoin_adoption",
+    "title": "South Korea Proposes Bank-Led Stablecoin Model, Caps Exchange Shareholder Stakes at 20% - KuCoin",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPREh0aG9sVkR4RjNmMGx0QXFIZEtrRzNZSkJodjZVXzdseXpYTFJUbms2cjlFdXdxSXVOb1ktTXptVjJHV05KX0hDdnc3N2pPMVJwN3F2VnpoQ2pEdTN1NjFTa0hSM28tWW03Tm1nZUE0S1ItUENiTVE4ZjZYcDFHM0RQUXFDZmJkbFhJV2Z2OFd5eFJadXktUVpHZy1ZMHNnRnduU3JyNXNlN0FCRDdhUFZQM2kyeE5aUW00?oc=5",
+    "canonical_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPREh0aG9sVkR4RjNmMGx0QXFIZEtrRzNZSkJodjZVXzdseXpYTFJUbms2cjlFdXdxSXVOb1ktTXptVjJHV05KX0hDdnc3N2pPMVJwN3F2VnpoQ2pEdTN1NjFTa0hSM28tWW03Tm1nZUE0S1ItUENiTVE4ZjZYcDFHM0RQUXFDZmJkbFhJV2Z2OFd5eFJadXktUVpHZy1ZMHNnRnduU3JyNXNlN0FCRDdhUFZQM2kyeE5aUW00?oc=5",
+    "snippet": "South Korea Proposes Bank-Led Stablecoin Model, Caps Exchange Shareholder Stakes at 20% KuCoin",
+    "published_at": "2026-11-24T13:06:51+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [
+      "stablecoin"
+    ],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "CBMiuwFBVV95cUxPREh0aG9sVkR4RjNmMGx0QXFIZEtrRzNZSkJodjZVXzdseXpYTFJUbms2cjlFdXdxSXVOb1ktTXptVjJHV05KX0hDdnc3N2pPMVJwN3F2VnpoQ2pEdTN1NjFTa0hSM28tWW03Tm1nZUE0S1ItUENiTVE4ZjZYcDFHM0RQUXFDZmJkbFhJV2Z2OFd5eFJadXktUVpHZy1ZMHNnRnduU3JyNXNlN0FCRDdhUFZQM2kyeE5aUW00",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "be646a7ef09e46aefb0d15caa5b03e7402082eadebefdf87b18cbb6741284014",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "cointelegraph",
+    "title": "South Korea proposes bank-led stablecoins, 20% cap on crypto exchange stakes",
+    "url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+    "canonical_url": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection",
+    "snippet": "The draft bill would also reopen domestic initial coin offerings after a ban dating to 2017 and require issuers to disclose risks before soliciting buyers.",
+    "published_at": "2026-11-24T12:04:16+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "https://cointelegraph.com/news/south-korea-draft-bill-crypto-innovation-user-protection",
+      "guidislink": true
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "256a5c22ae5499ebb1a4522b2deb4b2319eacabd3c67d18b10898a51745b6114",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "Bitcoin’s drop to $55,000 left a record 11.6 million BTC underwater",
+    "url": "https://www.coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
+    "canonical_url": "https://coindesk.com/markets/2026/11/24/bitcoin-s-drop-to-usd55-000-left-a-record-11-6-million-btc-underwater",
+    "snippet": "",
+    "published_at": "2026-11-24T11:11:38+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "raw": {
+      "id": "55fb80e2-3a89-4119-8e77-cc28821dd444",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
+    "id": "9df23d9877aa15f9e231af96aecce1c420a8f5cd0e2cc10f7f1a05fbf6d0c9ff",
+    "source": "Google News RSS",
+    "source_type": "google_news_rss",
+    "feed_name": "coindesk",
+    "title": "South Korea regulator backs bank-controlled stablecoins after months of dispute",
+    "url": "https://www.coindesk.com/policy/2026/11/24/south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
+    "canonical_url": "https://coindesk.com/policy/2026/11/24/south-korea-regulator-backs-bank-controlled-stablecoins-after-months-of-dispute",
+    "snippet": "",
+    "published_at": "2026-11-24T10:29:14+00:00",
+    "published_at_confidence": "high",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
+    "matched_keywords": [],
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "raw": {
+      "id": "9bd116f5-1b8e-4042-8422-7921f601f3f1",
+      "guidislink": false
+    },
+    "score": 4,
+    "score_breakdown": {
+      "tier1": 0,
+      "tier2": 0,
+      "commentary": 0,
+      "listicle": 0,
+      "generic": 0,
+      "freshness": 4,
+      "source_penalty": 0,
+      "launch_score": 0,
+      "institution_bonus": 0,
+      "financial_bonus": 0,
+      "regulatory_bonus": 0,
+      "commentary_penalty": 0,
+      "listicle_penalty": 0,
+      "generic_penalty": 0,
+      "consensus_boost": 0,
+      "cluster_size": 1
+    },
+    "consensus_boost": 0,
+    "cluster_size": 1,
+    "cluster_sources": [
+      "Google News RSS"
+    ]
+  },
+  {
     "id": "40f77d905276340cb233e1cca0df43a407419bef593819d5d8958b56753841e7",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
@@ -987,7 +1635,7 @@
     "snippet": "Stablecoin Payments Reach Business Bank Accounts OneSafe",
     "published_at": "2026-11-24T02:59:18+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
       "stablecoin payments",
       "stablecoin"
@@ -1026,128 +1674,37 @@
     ]
   },
   {
-    "id": "7e13b79cede7dbd24890bbc64ade02e33eb404275cb8fdfd249a69bb34c26eab",
+    "id": "1f4290b7fdc2917776100862b64f082aae2dd2698c730ea899a94b99370b1b0a",
     "source": "Google News RSS",
     "source_type": "google_news_rss",
-    "feed_name": "decrypt",
-    "title": "Morning Minute: Crypto Rebounds after NVDA Drives Friday Selloff",
-    "url": "https://decrypt.co/383778/morning-minute-crypto-rebounds-after-nvda-drives-friday-selloff",
-    "canonical_url": "https://decrypt.co/383778/morning-minute-crypto-rebounds-after-nvda-drives-friday-selloff",
-    "snippet": "The Nasdaq dropped 10% last week. Bitcoin lost 10% in a single day on Friday amidst cascading selloffs, though a relief rally is underway.",
-    "published_at": "2026-11-23T13:34:13+00:00",
+    "feed_name": "theblock",
+    "title": "Crypto Market Structure Basics",
+    "url": "https://www.theblock.co/learn/campus/crypto-market-structure-basics-442986",
+    "canonical_url": "https://theblock.co/learn/campus/crypto-market-structure-basics-442986",
+    "snippet": "Crypto Market Structure 101 explains how crypto markets work for beginners. It covers centralized and decentralized exchanges, trading pairs and settlement, order types, leverage and perpetual futures, market makers, key market players, and crypto fundraising.",
+    "published_at": "2026-11-24T14:40:12+00:00",
     "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [],
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "raw": {
-      "id": "https://decrypt.co/?p=383778",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "879ec55f3994bbf32f1e4a295c1fdcfbdf0cb693a9f05871b34b07fe6d48ae07",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "stablecoin_adoption",
-    "title": "OCBC Pilots Stablecoin-to-Fiat Business Payments - The Defiant",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbVJKZ3A1NjJjU25maVhiZWhEOG85dWRxdThzdUFkaUlTOF9ycWdIUlRfVWdlR1Qyc05TbGszb3ZGSUM3UWJHbGVSMVM1RjRsZUc5R2o3dzVRYzhMcVBUZEl1U3FnRVhTQ1FfQktxRjJIWnNWaHB1Q1NZMnVkeWtqUnlxc0psT3M2MC1FREZaWkZodndkWEJrUzFvN2VWRW8?oc=5",
-    "canonical_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbVJKZ3A1NjJjU25maVhiZWhEOG85dWRxdThzdUFkaUlTOF9ycWdIUlRfVWdlR1Qyc05TbGszb3ZGSUM3UWJHbGVSMVM1RjRsZUc5R2o3dzVRYzhMcVBUZEl1U3FnRVhTQ1FfQktxRjJIWnNWaHB1Q1NZMnVkeWtqUnlxc0psT3M2MC1FREZaWkZodndkWEJrUzFvN2VWRW8?oc=5",
-    "snippet": "OCBC Pilots Stablecoin-to-Fiat Business Payments The Defiant",
-    "published_at": "2026-11-23T11:25:26+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
+    "fetched_at": "2026-11-24T20:20:34.210720+00:00",
     "matched_keywords": [
-      "stablecoin"
+      "settlement"
     ],
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Crypto-native fintech launches"
-    ],
-    "raw": {
-      "id": "CBMinwFBVV95cUxNbVJKZ3A1NjJjU25maVhiZWhEOG85dWRxdThzdUFkaUlTOF9ycWdIUlRfVWdlR1Qyc05TbGszb3ZGSUM3UWJHbGVSMVM1RjRsZUc5R2o3dzVRYzhMcVBUZEl1U3FnRVhTQ1FfQktxRjJIWnNWaHB1Q1NZMnVkeWtqUnlxc0psT3M2MC1FREZaWkZodndkWEJrUzFvN2VWRW8",
-      "guidislink": false
-    },
-    "score": 4,
-    "score_breakdown": {
-      "tier1": 0,
-      "tier2": 0,
-      "commentary": 0,
-      "listicle": 0,
-      "generic": 0,
-      "freshness": 4,
-      "source_penalty": 0,
-      "launch_score": 0,
-      "institution_bonus": 0,
-      "financial_bonus": 0,
-      "regulatory_bonus": 0,
-      "commentary_penalty": 0,
-      "listicle_penalty": 0,
-      "generic_penalty": 0,
-      "consensus_boost": 0,
-      "cluster_size": 1
-    },
-    "consensus_boost": 0,
-    "cluster_size": 1,
-    "cluster_sources": [
-      "Google News RSS"
-    ]
-  },
-  {
-    "id": "5309b5bfec1833b97f89408d566d25e3b4d063de7b5d56f21154f21f5a1560cb",
-    "source": "Google News RSS",
-    "source_type": "google_news_rss",
-    "feed_name": "pymnts",
-    "title": "Credit Unions Weigh the Digital Asset Opportunity",
-    "url": "https://www.pymnts.com/report/tracker/credit-unions-weigh-the-digital-asset-opportunity/",
-    "canonical_url": "https://pymnts.com/report/tracker/credit-unions-weigh-the-digital-asset-opportunity/",
-    "snippet": "Credit unions see limited demand for digital assets, but younger members may signal an opportunity institutions cannot afford to overlook. As stablecoins gain strategic attention, early movers are building capabilities while peers weigh the risks. The post Credit Unions Weigh the Digital Asset Oppor",
-    "published_at": "2026-11-24T09:00:00+00:00",
-    "published_at_confidence": "high",
-    "fetched_at": "2026-11-24T09:41:55.450937+00:00",
-    "matched_keywords": [],
     "matched_topics": [
       "Stablecoin adoption"
     ],
     "raw": {
-      "id": "https://www.pymnts.com/?post_type=report&p=4403616",
+      "id": "1d95d755-762b-5823-b2e9-c971399760ba",
       "guidislink": false
     },
-    "score": -10,
+    "score": 0,
     "score_breakdown": {
       "tier1": 0,
-      "tier2": 0,
+      "tier2": 1,
       "commentary": 1,
       "listicle": 0,
       "generic": 0,
       "freshness": 10,
       "source_penalty": 0,
-      "launch_score": 0,
+      "launch_score": 10,
       "institution_bonus": 0,
       "financial_bonus": 0,
       "regulatory_bonus": 0,

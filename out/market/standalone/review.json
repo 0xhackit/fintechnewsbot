@@ -1,10 +1,43 @@
 [
   {
-    "id": "a8b81f7723c058b257767e1e8761072ed1273f81",
-    "title": "Ethereum wallets holding $72 billion in ETH face potential future quantum computing risks, Fidelity joins Wall Street's first tokenized stock trading venue, and traders scale back expectations for a larger Fed rate hike",
-    "link": "https://x.com/CoinDesk/status/2124927208192098781#",
-    "score": 94,
-    "snippet": "Ethereum wallets holding $72 billion in ETH face potential future quantum computing risks, Fidelity joins Wall Street's first tokenized stock trading venue, and traders scale back expectations for a larger Fed rate hike in December. @uyendoe has what you need to know. Thank you to @Grayscale 👋 for b",
+    "id": "fbac10cd35581b0374641816743f737869e40e2f",
+    "title": "THE BLOCK: Neuberger Berman's tokenized High Income Fund has launched on Aave Horizon, allowing eligible investors to use their holdings as collateral to borrow USDC, GHO and RLUSD. Neuberger Berman, with $230 billion in",
+    "link": "https://x.com/TheBlockCo/status/2125230882252546279#",
+    "score": 109,
+    "snippet": "THE BLOCK: Neuberger Berman's tokenized High Income Fund has launched on Aave Horizon, allowing eligible investors to use their holdings as collateral to borrow USDC, GHO and RLUSD. Neuberger Berman, with $230 billion in assets under management, partnered with Securitize in August to bring HINC onch",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T14:11:42.292000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launched')",
+    "matched": "launched",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "USDC",
+      "RLUSD",
+      "XRP",
+      "AAVE"
+    ]
+  },
+  {
+    "id": "e92f393f9bc895c98a217f6db6879bde590c2509",
+    "title": "THE BLOCK: U.S. spot bitcoin ETFs posted another $569.7 million in net outflows on Monday, taking November's total to nearly $5 billion. BlackRock's $IBIT led with $509.3 million in outflows as bitcoin $BTC gave up its N",
+    "link": "https://x.com/TheBlockCo/status/2125235705123164477#",
+    "score": 80,
+    "snippet": "THE BLOCK: U.S. spot bitcoin ETFs posted another $569.7 million in net outflows on Monday, taking November's total to nearly $5 billion. BlackRock's $IBIT led with $509.3 million in outflows as bitcoin $BTC gave up its Nvidia-fueled gains and slipped back below $60,000 early Tuesday.",
     "regions": [
       "US"
     ],
@@ -13,12 +46,10 @@
     "source_tier": "C",
     "consensus": 1,
     "financial": 40,
-    "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:coindesk",
+    "matched_topics": [],
+    "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T18:05:00.782000+00:00",
+    "published_at": "2026-11-24T14:30:52.361000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('back')",
@@ -26,34 +57,35 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "ETH"
+      "IBIT",
+      "BTC"
     ]
   },
   {
-    "id": "46a95cff43b28e201b5ef33dd7d9bb441239e5cd",
-    "title": "Binance Hires Mandiant, SlowMist and Verichains for Independent Security Review Following $6.3B Hack Following the October 29 security breach that resulted in approximately $6.3 billion in stolen crypto assets, Binance a",
-    "link": "https://x.com/WuBlockchain/status/2124912271906447410#",
-    "score": 79,
-    "snippet": "Binance Hires Mandiant, SlowMist and Verichains for Independent Security Review Following $6.3B Hack Following the October 29 security breach that resulted in approximately $6.3 billion in stolen crypto assets, Binance announced that it has engaged three cybersecurity firms, Mandiant, SlowMist and V",
+    "id": "5b6574c5b4f526bffdb095d371d0eb86bbb95fd5",
+    "title": "Ex-Petrofac executives accused of paying millions to win $3.4bn of contracts",
+    "link": "https://www.ft.com/content/f6c2d0f7-b096-48fb-96af-931c33ec54ba?syn-25a6b1a6=1",
+    "score": 75,
+    "snippet": "Marwan Chedid and George Salibi are on trial for involvement in alleged bribery for UAE oil and gas deals between 2012 and 2018",
     "regions": [],
     "primary_region": null,
     "category": "other",
-    "source_tier": "C",
+    "source_tier": "A",
     "consensus": 1,
     "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T17:05:39.630000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('hires')",
-    "matched": "hires",
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "ft_markets",
+    "source": "Google News RSS",
+    "published_at": "2026-11-24T17:01:25+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
+    "origin": "rss",
+    "coins": []
   },
   {
     "id": "2e34bfee2e2c5f1f9b554e33271847c32594fb37",
@@ -67,7 +99,7 @@
     "primary_region": "US",
     "category": "regulation",
     "source_tier": "B",
-    "consensus": 6,
+    "consensus": 2,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption"
@@ -84,37 +116,11 @@
     "coins": []
   },
   {
-    "id": "742f7561979e84bfb92f1985c638e141f5765e61",
-    "title": "THE BLOCK: Bitcoin mining and treasury company American Bitcoin, co-founded by Eric Trump and majority-owned by Hut 8, said it has secured a committed revolving credit facility of up to $150 million from FalconX, backed",
-    "link": "https://x.com/TheBlockCo/status/2124891284276232358#",
-    "score": 74,
-    "snippet": "THE BLOCK: Bitcoin mining and treasury company American Bitcoin, co-founded by Eric Trump and majority-owned by Hut 8, said it has secured a committed revolving credit facility of up to $150 million from FalconX, backed by certain bitcoin holdings. The facility carries a 5.95% loan fee and an initia",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T15:42:15.922000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC"
-    ]
-  },
-  {
-    "id": "be8899ba1dfa1f2806dcf86ba9f676873c62d103",
-    "title": "THE BLOCK: Spot bitcoin ETFs again saw $569.7 million worth of net outflows on Monday, with $509 million leaving BlackRock's IBIT. This marks their fifth consecutive day of outflows. Spot ether ETFs also saw $85 million",
-    "link": "https://x.com/TheBlockCo/status/2125105538782392399#",
+    "id": "4e266ace3436e7d59022cd9d4fe400e2cca69927",
+    "title": "NEW: Payments company Stripe, which owns stablecoin infrastructure firm Bridge and crypto wallet provider Privy, is discussing a tender offer for employee shares at a valuation above $200 billion, The Wall Street Journal",
+    "link": "https://x.com/TheBlockCo/status/2125291181592674315#",
     "score": 70,
-    "snippet": "THE BLOCK: Spot bitcoin ETFs again saw $569.7 million worth of net outflows on Monday, with $509 million leaving BlackRock's IBIT. This marks their fifth consecutive day of outflows. Spot ether ETFs also saw $85 million in net outflows, making it their seventh straight day of negative flows. $BTC $E",
+    "snippet": "NEW: Payments company Stripe, which owns stablecoin infrastructure firm Bridge and crypto wallet provider Privy, is discussing a tender offer for employee shares at a valuation above $200 billion, The Wall Street Journal reported, citing people familiar with the matter. The tender offer is expected ",
     "regions": [
       "US"
     ],
@@ -122,89 +128,60 @@
     "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
+    ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-24T05:53:38.169000+00:00",
+    "published_at": "2026-11-24T18:11:18.825000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
     "origin": "tree",
-    "coins": [
-      "BTC",
-      "ETH",
-      "IBIT"
-    ]
+    "coins": []
   },
   {
-    "id": "d3c6277f2e1a0f1740fae9b0d6918b5218cf2b3c",
-    "title": "THE BLOCK: Binance hackers have now moved at least $247 million in bitcoin $BTC through coinjoins, which pool coins from multiple users to make the funds harder to trace, up from $149 million as of Nov. 20, according to",
-    "link": "https://x.com/TheBlockCo/status/2124909126648271212#",
+    "id": "8238dd5bcc57764efeeee7cf5ddcaa18a131e0c6",
+    "title": "Justice Department Moves to Forfeit $1.1B in USDC From North Korea's Binance Hack",
+    "link": "https://decrypt.co/383874/justice-department-moves-to-forfeit-1-1b-in-usdc-from-north-koreas-binance-hack",
     "score": 64,
-    "snippet": "THE BLOCK: Binance hackers have now moved at least $247 million in bitcoin $BTC through coinjoins, which pool coins from multiple users to make the funds harder to trace, up from $149 million as of Nov. 20, according to Elliptic's latest update. Elliptic said almost all of the coinjoins were coordin",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:theblockco",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T16:53:09.825000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BTC",
-      "BNB"
-    ]
-  },
-  {
-    "id": "bec0dd2f7a40eed44b899897052482b41ae14ee2",
-    "title": "U.S. Bitcoin ETFs Shed $570 Million, Extending Outflow Streak to Five Straight Days According to SoSoValue, U.S. spot Bitcoin ETFs recorded $570 million in net outflows on November 23, while Fidelity's FBTC led individua",
-    "link": "https://x.com/WuBlockchain/status/2125096871551279390#",
-    "score": 60,
-    "snippet": "U.S. Bitcoin ETFs Shed $570 Million, Extending Outflow Streak to Five Straight Days According to SoSoValue, U.S. spot Bitcoin ETFs recorded $570 million in net outflows on November 23, while Fidelity's FBTC led individual fund inflows with $13.29 million. Spot Ethereum ETFs saw $84.96 million in net",
+    "snippet": "U.S. authorities say they've now helped freeze, seize or return more than $2.9 billion of the crypto stolen from Binance in October.",
     "regions": [
       "US"
     ],
     "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-24T05:19:11.754000+00:00",
+    "category": "regulation",
+    "source_tier": "B",
+    "consensus": 4,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "decrypt",
+    "source": "Google News RSS",
+    "published_at": "2026-11-24T14:13:03+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
     "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ETH",
-      "BTC"
-    ]
+    "origin": "rss+tree",
+    "coins": []
   },
   {
-    "id": "588287370d326f35b6a57ab053c46ceb584ed6aa",
-    "title": "THE BLOCK: OKX Australia launched equity and commodity perpetual futures and spot margin trading for retail customers today. Users can take up to 2x leverage on stock and commodity perps and up to 10x leverage on support",
-    "link": "https://x.com/TheBlockCo/status/2125026629361836174#",
-    "score": 59,
-    "snippet": "THE BLOCK: OKX Australia launched equity and commodity perpetual futures and spot margin trading for retail customers today. Users can take up to 2x leverage on stock and commodity perps and up to 10x leverage on supported spot margin trading pairs.",
+    "id": "7aee7735764e27f9fa6f9ef7db19debee9d13331",
+    "title": "NEW: Chicago-headquartered trading firm DRW plans to launch an external asset management business in London focused initially on digital assets and computing power, Bloomberg reported. The unit aims to develop its first",
+    "link": "https://x.com/TheBlockCo/status/2125205214055862715#",
+    "score": 64,
+    "snippet": "NEW: Chicago-headquartered trading firm DRW plans to launch an external asset management business in London focused initially on digital assets and computing power, Bloomberg reported. The unit aims to develop its first products by the first quarter of 2027, though DRW did not disclose fundraising t",
     "regions": [
-      "APAC"
+      "EU"
     ],
-    "primary_region": "APAC",
+    "primary_region": "EU",
     "category": "product",
     "source_tier": "C",
     "consensus": 1,
@@ -214,7 +191,176 @@
     ],
     "feed_name": "tree:x:theblockco",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-24T00:40:04.505000+00:00",
+    "published_at": "2026-11-24T12:29:42.569000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "0c02a11ed6793467accc85f918c129e79d4ac16a",
+    "title": "US Files Forfeiture Case Over $1.1 Billion in USDC North Korean Hackers Took From Binance",
+    "link": "https://unchainedcrypto.com/us-files-forfeiture-case-over-1-1-billion-in-usdc-north-korean-hackers-took-from-binance",
+    "score": 64,
+    "snippet": "US Files Forfeiture Case Over $1.1 Billion in USDC North Korean Hackers Took From Binance",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Stablecoin adoption"
+    ],
+    "feed_name": "tree:unchained",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-24T10:16:06.855000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "USDC",
+      "BNB"
+    ]
+  },
+  {
+    "id": "0586589ef90022f33e04222fe338292fd16e4c26",
+    "title": "THE BLOCK: Ondo has brought the publicly traded stocks of bitcoin treasury company Strive onchain, including its common stock $ASST and two preferred stocks, $SATA and $SATS. The tokenized shares are available to eligibl",
+    "link": "https://x.com/TheBlockCo/status/2125300364958437438#",
+    "score": 60,
+    "snippet": "THE BLOCK: Ondo has brought the publicly traded stocks of bitcoin treasury company Strive onchain, including its common stock $ASST and two preferred stocks, $SATA and $SATS. The tokenized shares are available to eligible investors outside of the U.S.",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Tokenized funds & RWA"
+    ],
+    "feed_name": "tree:x:theblockco",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T18:47:48.311000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "SATS",
+      "BTC",
+      "ONDO"
+    ]
+  },
+  {
+    "id": "967d58ab62d783ed8d10dec9e67ad98b5e6ecc9d",
+    "title": "Crypto Fee Cashback Platform Paybacks Raises $10M Pre-A From Foresight Ventures, Launches paybacks.io",
+    "link": "https://financewire.com/2026/11/24/crypto-fee-cashback-platform-paybacks-raises-10m-pre-a-from-foresight-ventures-launches-paybacks-io",
+    "score": 60,
+    "snippet": "Crypto Fee Cashback Platform Paybacks Raises $10M Pre-A From Foresight Ventures, Launches paybacks.io",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:finance wire",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-24T18:28:42.232000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": []
+  },
+  {
+    "id": "1ae0a071336f4c5c87e4d00cc24437b6a4130cef",
+    "title": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion On November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dr",
+    "link": "https://x.com/WuBlockchain/status/2125275896148004992#",
+    "score": 60,
+    "snippet": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion On November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dropping below its IPO price of $83 and down 30.59% from its",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T17:10:34.541000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('ipo')",
+    "matched": "ipo",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ANT",
+      "HYPE",
+      "BNB"
+    ]
+  },
+  {
+    "id": "233b9a043a518b255540d43195dee4a1d02e24eb",
+    "title": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion On November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dr",
+    "link": "https://x.com/WuBlockchain/status/2125273908412813524#",
+    "score": 60,
+    "snippet": "Anthropic Falls Below IPO Price as Perpetual Futures Trading Volume on Binance and Hyperliquid Exceeds $1.3 Billion On November 24, shares of Claude developer Anthropic (ANT) fell 11.70% to $77.39 during U.S. trading, dropping below its IPO price of $83 and down 30.59% from its debut opening price o",
+    "regions": [],
+    "primary_region": null,
+    "category": "fundraising",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T17:02:40.851000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('debut')",
+    "matched": "debut",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "ANT",
+      "HYPE",
+      "BNB"
+    ]
+  },
+  {
+    "id": "fad23a9a96c0bf6ed886558ba1bedd862ccab7e2",
+    "title": "Irys is extending team and investor lockups by one year. The first unlocks, originally scheduled for November 25, 2026, will now begin on November 25, 2027. Our first year was all about building. We launched mainnet, shi",
+    "link": "https://x.com/irys_xyz/status/2125248328711451059#",
+    "score": 60,
+    "snippet": "Irys is extending team and investor lockups by one year. The first unlocks, originally scheduled for November 25, 2026, will now begin on November 25, 2027. Our first year was all about building. We launched mainnet, shipped the Aurora and Borealis hardforks, and released Cascade, our largest protoc",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:irys_xyz",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T15:21:01.809000+00:00",
     "verdict": "keep",
     "axis": "market_event",
     "reason": "concrete market event ('launched')",
@@ -222,64 +368,66 @@
     "fulltext": true,
     "origin": "tree",
     "coins": [
-      "OKB"
+      "IRYS"
     ]
   },
   {
-    "id": "e91b879a3a59d4f636b13c637ab2522fedb59305",
-    "title": "Czech Authorities Charge 15 in BETFIN Crypto Gambling Case Involving CZK 267 Million in Alleged Illicit Gains Czech customs and police announced that 15 people have been charged with alleged involvement in an organized c",
-    "link": "https://x.com/WuBlockchain/status/2124896852290175324#",
+    "id": "d3d456bc9b66bc0728515967e5c8d2c1f92f79ee",
+    "title": "JUST IN: The Swiss National Bank, UBS and six other major financial institutions launch a joint DLT to test tokenized settlements for both domestic and cross-border transactions.",
+    "link": "https://x.com/CoinDesk/status/2125197420913156244#",
     "score": 59,
-    "snippet": "Czech Authorities Charge 15 in BETFIN Crypto Gambling Case Involving CZK 267 Million in Alleged Illicit Gains Czech customs and police announced that 15 people have been charged with alleged involvement in an organized criminal group and illegal gambling operations linked to BETFIN, a crypto casino ",
+    "snippet": "JUST IN: The Swiss National Bank, UBS and six other major financial institutions launch a joint DLT to test tokenized settlements for both domestic and cross-border transactions.",
     "regions": [],
     "primary_region": null,
-    "category": "regulation",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 30,
-    "matched_topics": [],
-    "feed_name": "tree:x:wublockchain",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T16:04:23.340000+00:00",
-    "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('charged')",
-    "matched": "charged",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "POL"
-    ]
-  },
-  {
-    "id": "fa31935744996deec042953973aaf990374f93bf",
-    "title": "NEW: BlackRock's first tokenized money market fund in Hong Kong is now open to professional and retail investors, according to the SCMP. Professional investors can use HKDAP, a licensed stablecoin in Hong Kong, to subscr",
-    "link": "https://x.com/TheBlockCo/status/2125145888402387033#",
-    "score": 55,
-    "snippet": "NEW: BlackRock's first tokenized money market fund in Hong Kong is now open to professional and retail investors, according to the SCMP. Professional investors can use HKDAP, a licensed stablecoin in Hong Kong, to subscribe to and redeem from the fund.",
-    "regions": [
-      "US",
-      "APAC"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
       "Stablecoin adoption",
-      "Tokenized funds & RWA"
+      "Tokenized funds & RWA",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:coindesk",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-24T08:33:57.995000+00:00",
+    "published_at": "2026-11-24T11:58:44.432000+00:00",
     "verdict": "keep",
-    "axis": "regulatory_action",
-    "reason": "concrete regulatory action ('licensed')",
-    "matched": "licensed",
+    "axis": "market_event",
+    "reason": "concrete market event ('launch')",
+    "matched": "launch",
     "fulltext": true,
     "origin": "tree",
     "coins": []
+  },
+  {
+    "id": "a60161b383bc6da68c394c012cd9ca5bda06846d",
+    "title": "Introducing three cryptocurrencies now available to trade with Fidelity Crypto®: AAVE, LINK, and UNI. Learn more: https://go.fidelity.com/BV4QGd",
+    "link": "https://x.com/Fidelity/status/2125245887391613262#",
+    "score": 55,
+    "snippet": "Introducing three cryptocurrencies now available to trade with Fidelity Crypto®: AAVE, LINK, and UNI. Learn more: https://go.fidelity.com/BV4QGd",
+    "regions": [
+      "US"
+    ],
+    "primary_region": "US",
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
+    "matched_topics": [],
+    "feed_name": "tree:x:fidelity",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T15:11:19.589000+00:00",
+    "verdict": "keep",
+    "axis": "market_event",
+    "reason": "concrete market event ('now available')",
+    "matched": "now available",
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "AAVE",
+      "LINK",
+      "UNI"
+    ]
   },
   {
     "id": "8702b5039da0e3f500d6dbd6a378dcb41e334231",
@@ -293,7 +441,7 @@
     "primary_region": "US",
     "category": "other",
     "source_tier": "B",
-    "consensus": 9,
+    "consensus": 2,
     "financial": 30,
     "matched_topics": [
       "Stablecoin adoption"
@@ -310,39 +458,11 @@
     "coins": []
   },
   {
-    "id": "3372acc94988e92ff7c005ef7ae6d32d524e3679",
-    "title": ".@farokh, President and Co-Founder of @DecryptMedia, on building trading into the newsroom: \"We integrated perps with @PhoenixTrade, swaps with @JupiterExchange. All private, we're one of the @Helius launch partners for",
-    "link": "https://x.com/solana/status/2125006731872797116#",
+    "id": "616de7fd4619ca4870503a3ab0b2b5268439dde4",
+    "title": "Woah... \"You know that Binance’s $SPCX perpetual futures traded 1.957 billion USDT on November 23, but I bet you didn’t know that already accounted for 14.9% of trading volume in SpaceX’s underlying shares..\" - danny 👇 @",
+    "link": "https://x.com/cz_binance/status/2125220776316133514#",
     "score": 54,
-    "snippet": ".@farokh, President and Co-Founder of @DecryptMedia, on building trading into the newsroom: \"We integrated perps with @PhoenixTrade, swaps with @JupiterExchange. All private, we're one of the @Helius launch partners for Privacy Rings.\" \"It was only available on Solana because that's where the users ",
-    "regions": [],
-    "primary_region": null,
-    "category": "product",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Crypto-native fintech launches"
-    ],
-    "feed_name": "tree:x:solana",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T23:21:00.705000+00:00",
-    "verdict": "keep",
-    "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "SOL"
-    ]
-  },
-  {
-    "id": "504c1628fa01f5c0a76496b409d9d9f987ed2e02",
-    "title": "THE BLOCK: Grayscale Research said bitcoin $BTC and other leading crypto assets appear \"oversold,\" but AI-related uncertainty is weighing on the near-term market outlook more than blockchain fundamentals. Grayscale point",
-    "link": "https://x.com/TheBlockCo/status/2124978226426733017#",
-    "score": 54,
-    "snippet": "THE BLOCK: Grayscale Research said bitcoin $BTC and other leading crypto assets appear \"oversold,\" but AI-related uncertainty is weighing on the near-term market outlook more than blockchain fundamentals. Grayscale pointed to more than $2 billion in weekly crypto ETP outflows, stablecoin redemptions",
+    "snippet": "Woah... \"You know that Binance’s $SPCX perpetual futures traded 1.957 billion USDT on November 23, but I bet you didn’t know that already accounted for 14.9% of trading volume in SpaceX’s underlying shares..\" - danny 👇 @grok is it true? https://x.com/agintender/status/2125160723085189625",
     "regions": [],
     "primary_region": null,
     "category": "other",
@@ -352,9 +472,93 @@
     "matched_topics": [
       "Stablecoin adoption"
     ],
-    "feed_name": "tree:x:theblockco",
+    "feed_name": "tree:x:cz_binance",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T21:27:44.584000+00:00",
+    "published_at": "2026-11-24T13:31:32.961000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BNB",
+      "SPCX"
+    ]
+  },
+  {
+    "id": "6ad60d972d3346716905b0a1a61d70629cc814b7",
+    "title": "📮 COINDESK HEADLINES: Jensen Huang faces Senate scrutiny after returning as Nvidia CEO 📮 Binance hackers move $247 million through transactions designed to conceal the funds’ source 📮 Bitcoin rebound loses steam as Wall",
+    "link": "https://x.com/CoinDesk/status/2125245535439221072#",
+    "score": 50,
+    "snippet": "📮 COINDESK HEADLINES: Jensen Huang faces Senate scrutiny after returning as Nvidia CEO 📮 Binance hackers move $247 million through transactions designed to conceal the funds’ source 📮 Bitcoin rebound loses steam as Wall Street’s AI trade surges Presented by @Grayscale Subscribe Today: https://coinde",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T15:09:55.905000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "BNB"
+    ]
+  },
+  {
+    "id": "9b826e6ede78150c8c93ca58f4f1d2675bf44f48",
+    "title": "📮 COINDESK HEADLINES: Jensen Huang faces Senate scrutiny after returning as Nvidia CEO 📮 Binance hackers move $247 million through transactions designed to conceal the funds’ source 📮 COINDESK HEADLINES: Bitcoin rebound",
+    "link": "https://x.com/CoinDesk/status/2125245359114842212#",
+    "score": 50,
+    "snippet": "📮 COINDESK HEADLINES: Jensen Huang faces Senate scrutiny after returning as Nvidia CEO 📮 Binance hackers move $247 million through transactions designed to conceal the funds’ source 📮 COINDESK HEADLINES: Bitcoin rebound loses steam as Wall Street’s AI trade surges Presented by @Grayscale Subscribe T",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:coindesk",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-24T15:09:13.856000+00:00",
+    "verdict": "review",
+    "axis": "low_signal",
+    "reason": "no concrete market event or clear noise signal",
+    "matched": null,
+    "fulltext": true,
+    "origin": "tree",
+    "coins": [
+      "BTC",
+      "BNB"
+    ]
+  },
+  {
+    "id": "c5be18250c03190973242b0c592596c947697ba3",
+    "title": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+    "link": "https://www.coindesk.com/daybook-us/2026/11/24/bitcoin-drops-as-november-spot-etf-outflows-increase-to-record-usd4-71-billion",
+    "score": 44,
+    "snippet": "Bitcoin drops as November spot ETF outflows increase to record $4.71 billion",
+    "regions": [
+      "US",
+      "APAC"
+    ],
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "B",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [],
+    "feed_name": "tree:coindesk",
+    "source": "TreeOfAlpha/Blogs",
+    "published_at": "2026-11-24T12:37:52.393000+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
@@ -366,120 +570,59 @@
     ]
   },
   {
-    "id": "3e0cc9285fbb9509e6be2f30f090e058e4e70e90",
-    "title": "Institutional tokenization, the past week: → UBS ran the full lifecycle of a tokenized structured note on Ethereum with Chainlink. Chainlink puts structured notes at $2T+. → ECB President Lagarde said last Friday that to",
-    "link": "https://x.com/NewtonLabs/status/2124948601168159133#",
-    "score": 54,
-    "snippet": "Institutional tokenization, the past week: → UBS ran the full lifecycle of a tokenized structured note on Ethereum with Chainlink. Chainlink puts structured notes at $2T+. → ECB President Lagarde said last Friday that tokenized assets reached $25B+, five times their size a year earlier, and called f",
+    "id": "02df3d332e80720d0655cdf698513ea16f7711bb",
+    "title": "South Korea Launches Won Stablecoin, Resumes Domestic Coin Issuance - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbUZmQVlieTRsZktISUxLLXlDOUZVbkc0WjBlcDViRjNham83bGo4VERNbnpHMF9xUnYteDFVQng4UHNKUHBkR0ZzZm5vNWJmcjJoNTlvSnpDSXI2V0dTeThNZEE1ZDJEaWYyTTJXejZDaExZb1lvTWhBb0FCWUp6elZ5bVZOTVVQaWxGRFpn?oc=5",
+    "score": 39,
+    "snippet": "South Korea Launches Won Stablecoin, Resumes Domestic Coin Issuance 조선일보",
     "regions": [
-      "EU"
+      "APAC"
     ],
-    "primary_region": "EU",
-    "category": "regulation",
+    "primary_region": "APAC",
+    "category": "product",
     "source_tier": "C",
     "consensus": 1,
     "financial": 0,
     "matched_topics": [
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "tree:x:newtonlabs",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T19:30:01.471000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "NEWT",
-      "LINK",
-      "ETH",
-      "SOL"
-    ]
-  },
-  {
-    "id": "84838fabf2bebfdbf7ebec476bfc4deaa93bfbbf",
-    "title": "United States Files Action to Recover More Than $1 Billion in Cryptocurrency Assets Related to North Korean Cyber Actors in Binance Hack",
-    "link": "https://www.justice.gov/usao-dc/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-related-north",
-    "score": 54,
-    "snippet": "United States Files Action to Recover More Than $1 Billion in Cryptocurrency Assets Related to North Korean Cyber Actors in Binance Hack",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 40,
-    "matched_topics": [],
-    "feed_name": "tree:usdoj",
-    "source": "TreeOfAlpha/usGov",
-    "published_at": "2026-11-23T18:20:09.906000+00:00",
-    "verdict": "review",
-    "axis": "low_signal",
-    "reason": "no concrete market event or clear noise signal",
-    "matched": null,
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "BNB"
-    ]
-  },
-  {
-    "id": "5f6757b0aee1fed5ef723d19b319865d149170b4",
-    "title": "Zero staking is now open. Rewards begin accruing Nov 30. All stake unlocks March 31, 2027. The LayerZero Foundation will stake 100M ZRO on the same terms as other stakers. Pre-genesis stake will produce Zero's first bloc",
-    "link": "https://x.com/LayerZero_Core/status/2124918575127462399#",
-    "score": 54,
-    "snippet": "Zero staking is now open. Rewards begin accruing Nov 30. All stake unlocks March 31, 2027. The LayerZero Foundation will stake 100M ZRO on the same terms as other stakers. Pre-genesis stake will produce Zero's first blocks at mainnet launch, Nov 30. https://staking.layerzero.network",
-    "regions": [],
-    "primary_region": null,
-    "category": "other",
-    "source_tier": "C",
-    "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
+      "Stablecoin adoption",
       "Crypto-native fintech launches"
     ],
-    "feed_name": "tree:x:layerzero_core",
-    "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-23T17:30:42.324000+00:00",
+    "feed_name": "stablecoin_adoption",
+    "source": "Google News RSS",
+    "published_at": "2026-11-24T11:44:40+00:00",
     "verdict": "keep",
     "axis": "market_event",
-    "reason": "concrete market event ('launch')",
-    "matched": "launch",
-    "fulltext": true,
-    "origin": "tree",
-    "coins": [
-      "ZRO"
-    ]
+    "reason": "concrete market event ('launches')",
+    "matched": "launches",
+    "fulltext": false,
+    "origin": "rss",
+    "coins": []
   },
   {
-    "id": "c1fd8affe9c69b051277e3f93892d34374e4cd52",
-    "title": "DOJ seeks $1.17 billion in USDC tied to Binance hack; Circle could issue replacement tokens",
-    "link": "https://www.theblock.co/news/regulation/2026-11-23-doj-1-17-billion-usdc-binance-hack-circle-replacement-tokens-445398",
-    "score": 45,
-    "snippet": "The U.S. Justice Department is seeking to recover about $1.17 billion in USDC tied to the Oct. 29 Binance hack.",
-    "regions": [
-      "US"
-    ],
-    "primary_region": "US",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 40,
+    "id": "09bf6bdf28700397747961a4215939ffcc7380f9",
+    "title": "OCBC and StraitsX Pilot Stablecoin Payments for Cross-Border Businesses - Serrari Group",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnFxN1VxTzhOWV9hNFg5bnZQTDc1RmVaSUxzWkVhblhUQ2U5WGc4LUJ3R0NXQUZwR1dOTjRBYVdKT1ZraS0ycnJPWlU0djFRRE1xb0FCY1Y5b1lna19uM0x2ZWZZVU94YnZPenlWOUEwU0lnSXU3WkJoLUV3ZHh0V3lCU05tX3VyNkkxcnAxaF96UFhYRHZoS09WSFRCQQ?oc=5",
+    "score": 35,
+    "snippet": "OCBC and StraitsX Pilot Stablecoin Payments for Cross-Border Businesses Serrari Group",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 0,
     "matched_topics": [
-      "Stablecoin adoption"
+      "Stablecoin adoption",
+      "Crypto-native fintech launches"
     ],
-    "feed_name": "theblock",
+    "feed_name": "stablecoin_adoption",
     "source": "Google News RSS",
-    "published_at": "2026-11-23T20:00:34+00:00",
+    "published_at": "2026-11-24T08:11:32+00:00",
     "verdict": "review",
     "axis": "low_signal",
     "reason": "no concrete market event or clear noise signal",
     "matched": null,
-    "fulltext": true,
-    "origin": "rss+tree",
+    "fulltext": false,
+    "origin": "rss",
     "coins": []
   },
   {
