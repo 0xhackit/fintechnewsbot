@@ -28,61 +28,88 @@
     ]
   },
   {
-    "id": "f560ca9722ea0a3627128bbe435b463904ce3d33",
-    "title": "THE BLOCK: Bank of Japan executive Kazushige Kamiyama called for regulation of stablecoin-backing assets and structures. Kamiyama said stablecoins need well-designed links to central bank money to preserve financial stab",
-    "link": "https://x.com/TheBlockCo/status/2126213625044259259#",
-    "score": 84,
-    "snippet": "THE BLOCK: Bank of Japan executive Kazushige Kamiyama called for regulation of stablecoin-backing assets and structures. Kamiyama said stablecoins need well-designed links to central bank money to preserve financial stability and the “singleness of money.”",
-    "regions": [
-      "APAC"
-    ],
-    "primary_region": "APAC",
-    "category": "regulation",
+    "id": "0fdd96df452f941f53d8b93125af817ac84c8222",
+    "title": "AI infrastructure spending is set to hit $1.48 trillion. The questions buyers ask are changing. Knowing the cost-per-GPU-hour isn't enough. Availability, resilience and avoiding lock-in matter more than ever. Inference i",
+    "link": "https://x.com/ionet/status/2126605768342270338#",
+    "score": 60,
+    "snippet": "AI infrastructure spending is set to hit $1.48 trillion. The questions buyers ask are changing. Knowing the cost-per-GPU-hour isn't enough. Availability, resilience and avoiding lock-in matter more than ever. Inference is overtaking training. Multi-cloud is becoming the default. Builders need provid",
+    "regions": [],
+    "primary_region": null,
+    "category": "other",
     "source_tier": "C",
     "consensus": 1,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption"
-    ],
-    "feed_name": "tree:x:theblockco",
+    "financial": 50,
+    "matched_topics": [],
+    "feed_name": "tree:x:ionet",
     "source": "TreeOfAlpha/Twitter",
-    "published_at": "2026-11-27T07:16:46.356000+00:00",
+    "published_at": "2026-11-28T09:15:00.564000+00:00",
     "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('regulation')",
-    "matched": "regulation",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('questions')",
+    "matched": "questions",
     "fulltext": false,
     "origin": "tree",
-    "coins": []
+    "coins": [
+      "IO"
+    ]
   },
   {
-    "id": "12dad776f924a7ae250cb226a4517f6dbdda83d8",
-    "title": "Bank of Japan official says stablecoins need reserve rules to preserve ‘singleness of money’",
-    "link": "https://www.theblock.co/news/regulation/2026-11-27-bank-of-japan-official-says-stablecoins-need-reserve-rules-to-preserve-singleness-of-money-447059",
-    "score": 59,
-    "snippet": "Japan’s central bank warned that stablecoins and tokenized deposits need safeguards to prevent fragmentation across the financial system.",
+    "id": "c3339b11e5f1d26280eae41ad1af6e23acd4e45c",
+    "title": "Bitcoin and Ethereum Spot ETFs See $389M and $69.27M in Net Outflows on November 27 (ET) According to SoSoValue data, U.S. spot Bitcoin ETFs recorded total net outflows of $389 million on November 27 (ET), marking eight",
+    "link": "https://x.com/WuBlockchain/status/2126547580075323701#",
+    "score": 54,
+    "snippet": "Bitcoin and Ethereum Spot ETFs See $389M and $69.27M in Net Outflows on November 27 (ET) According to SoSoValue data, U.S. spot Bitcoin ETFs recorded total net outflows of $389 million on November 27 (ET), marking eight consecutive trading days of net outflows. BlackRock's IBIT led with $327 million",
     "regions": [
-      "APAC"
+      "US"
     ],
-    "primary_region": "APAC",
-    "category": "regulation",
-    "source_tier": "B",
-    "consensus": 2,
-    "financial": 0,
-    "matched_topics": [
-      "Stablecoin adoption",
-      "Tokenized funds & RWA"
-    ],
-    "feed_name": "theblock",
-    "source": "Google News RSS",
-    "published_at": "2026-11-27T10:45:02+00:00",
+    "primary_region": "US",
+    "category": "other",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 30,
+    "matched_topics": [],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-28T05:23:47.526000+00:00",
     "verdict": "kill",
-    "axis": "policy",
-    "reason": "policy/rule-making, not a concrete action ('rules')",
-    "matched": "rules",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('see')",
+    "matched": "see",
     "fulltext": false,
-    "origin": "rss+tree",
-    "coins": []
+    "origin": "tree",
+    "coins": [
+      "IBIT",
+      "ETH",
+      "BTC"
+    ]
+  },
+  {
+    "id": "3bbef1dceb312871ee56556c023e3a27c6b5231d",
+    "title": "Binance Co-CEO He Yi Says $6.3B Hack May Be Linked to Excessive Permissions During AI Rollout Binance co-CEO He Yi said today that the $6.3 billion hack may have been linked to overly broad permissions granted during the",
+    "link": "https://x.com/WuBlockchain/status/2126574967928262908#",
+    "score": 49,
+    "snippet": "Binance Co-CEO He Yi Says $6.3B Hack May Be Linked to Excessive Permissions During AI Rollout Binance co-CEO He Yi said today that the $6.3 billion hack may have been linked to overly broad permissions granted during the company’s AI rollout. Following the incident, Binance conducted a simulated soc",
+    "regions": [],
+    "primary_region": null,
+    "category": "product",
+    "source_tier": "C",
+    "consensus": 1,
+    "financial": 40,
+    "matched_topics": [
+      "Crypto-native fintech launches"
+    ],
+    "feed_name": "tree:x:wublockchain",
+    "source": "TreeOfAlpha/Twitter",
+    "published_at": "2026-11-28T07:12:37.281000+00:00",
+    "verdict": "kill",
+    "axis": "commentary",
+    "reason": "commentary/opinion framing ('may be')",
+    "matched": "may be",
+    "fulltext": false,
+    "origin": "tree",
+    "coins": [
+      "BNB"
+    ]
   },
   {
     "id": "6aad686195d8506e50ec14143099925def305223",
